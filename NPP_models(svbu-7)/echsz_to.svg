@@ -1,0 +1,337 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="echsz_to">
+  <title>ЭЧСЗ ТО</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_echsz" revision="3"/> 
+  <line x1="1791.09" y1="454.545" x2="1791.09" y2="454.545" stroke="black"/> 
+  <line x1="823.667" y1="727.273" x2="823.667" y2="727.273" stroke="black"/> 
+  <text x="959.5" y="41.1667" fill="black" font-size="30" font-weight="700" text-anchor="middle">ЭЧСЗ ТО</text>
+  <line x1="909.091" y1="187.121" x2="909.091" y2="187.121" stroke="black"/> 
+  <line x1="751" y1="827" x2="751" y2="827" stroke="black"/> 
+  <line x1="307.576" y1="706.818" x2="307.576" y2="706.818" stroke="black"/> 
+  <line x1="385" y1="401" x2="385" y2="401" stroke="black"/> 
+  <line x1="306" y1="346" x2="306" y2="346" stroke="black"/> 
+  <line x1="380.303" y1="596.212" x2="380.303" y2="596.212" stroke="black"/> 
+  <line x1="487" y1="347" x2="487" y2="347" stroke="black"/> 
+  <rect x="8.25002" y="61.75" width="1903.75" height="890.75" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="32.8126" y="96.5" fill="black" font-size="15" text-anchor="middle">№</text>
+  <text x="419.5" y="95.875" fill="black" font-size="15" text-anchor="middle">Показания датчиков</text>
+  <line x1="57" y1="61.5" x2="57" y2="954" stroke="black"/> 
+  <text x="27.8126" y="144.25" fill="black" font-size="15">1</text>
+  <text x="1721.5" y="100.5" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="69.8749" y="151.25" fill="black" font-size="15">20JEA10EZ001   защита от повышения уровня в ПГ-1</text>
+  <text x="1056.13" y="98" fill="black" font-size="15" text-anchor="middle">Накладка</text>
+  <text x="1424.63" y="103" fill="black" font-size="15" text-anchor="middle">Защита на сигнал</text>
+  <line x1="858.25" y1="64.0001" x2="858.25" y2="120.25" stroke="black"/> 
+  <line x1="1264" y1="63.75" x2="1264" y2="120" stroke="black"/> 
+  <line x1="1590.75" y1="64.0001" x2="1590.75" y2="120.25" stroke="black"/> 
+  <line x1="858.25" y1="476" x2="858.25" y2="672.25" stroke="black"/> 
+  <image x="1686.75" y="961" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ECHSZ_ALL&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;all_echsz&quot;)</rt:event>
+  </image>
+  <line x1="8.25003" y1="120" x2="1906.25" y2="120" stroke="black"/> 
+  <image x="1000.13" y="172.813" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEA10CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEA10CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="58.25" y1="166" x2="1911.5" y2="166" stroke="black"/> 
+  <line x1="8.25003" y1="207.5" x2="1906.25" y2="207.5" stroke="black"/> 
+  <image x="543" y="175.313" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA10CL902_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA10CL902_XH13&quot;"/> 
+  </image>
+  <text x="582.21" y="192.813" fill="black" font-size="15">&gt;3.05 м</text>
+  <text x="167" y="192.813" fill="black" font-size="15">20JEA10CL902</text>
+  <image x="340.75" y="175.313" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA10CL902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="858.25" y1="167.438" x2="858.25" y2="208.188" stroke="black"/> 
+  <line x1="11.5" y1="207.25" x2="1909.5" y2="207.25" stroke="black"/> 
+  <line x1="58.25" y1="243.25" x2="1911.5" y2="243.25" stroke="black"/> 
+  <line x1="8.25003" y1="284.75" x2="1912" y2="284.75" stroke="black"/> 
+  <image x="545.5" y="251.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA20CL902_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA20CL902_XH13&quot;"/> 
+  </image>
+  <text x="584.71" y="269.125" fill="black" font-size="15">&gt;3.05 м</text>
+  <text x="169.5" y="269.125" fill="black" font-size="15">20JEA20CL902</text>
+  <image x="343.25" y="251.625" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEA20CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA20CL902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="58.25" y1="321" x2="1911.5" y2="321" stroke="black"/> 
+  <image x="542.5" y="329.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA30CL902_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA30CL902_XH13&quot;"/> 
+  </image>
+  <text x="581.71" y="347.125" fill="black" font-size="15">&gt;3.05 м</text>
+  <text x="166.5" y="347.125" fill="black" font-size="15">20JEA30CL902</text>
+  <image x="340.25" y="329.625" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEA30CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA30CL902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="8.25003" y1="362.5" x2="1912" y2="362.5" stroke="black"/> 
+  <line x1="58.25" y1="398.5" x2="1911.5" y2="398.5" stroke="black"/> 
+  <line x1="8.25003" y1="441" x2="1912" y2="441" stroke="black"/> 
+  <image x="542.25" y="406.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA40CL902_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA40CL902_XH13&quot;"/> 
+  </image>
+  <text x="581.46" y="424.125" fill="black" font-size="15">&gt;3.05 м</text>
+  <text x="166.25" y="424.125" fill="black" font-size="15">20JEA40CL902</text>
+  <image x="340" y="406.625" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEA40CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA40CL902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="27.8126" y="232.75" fill="black" font-size="15">2</text>
+  <text x="69.8749" y="226.75" fill="black" font-size="15">20JEA20EZ001   защита от повышения уровня в ПГ-2</text>
+  <text x="27.8126" y="308.75" fill="black" font-size="15">3</text>
+  <text x="69.8749" y="311.75" fill="black" font-size="15">20JEA30EZ001   защита от повышения уровня в ПГ-3</text>
+  <text x="27.8126" y="387.25" fill="black" font-size="15">4</text>
+  <text x="69.8749" y="387.25" fill="black" font-size="15">20JEA40EZ001   защита от повышения уровня в ПГ-4</text>
+  <image x="1000.13" y="249.125" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEA20CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEA20CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1000.13" y="327.125" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEA30CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEA30CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1000.13" y="404.125" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEA40CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEA40CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="858.25" y1="243.75" x2="858.25" y2="284.5" stroke="black"/> 
+  <line x1="858.25" y1="321.75" x2="858.25" y2="362.5" stroke="black"/> 
+  <line x1="858.25" y1="398.75" x2="858.25" y2="439.5" stroke="black"/> 
+  <line x1="1264" y1="167.438" x2="1264" y2="208.188" stroke="black"/> 
+  <line x1="1264" y1="243.75" x2="1264" y2="284.5" stroke="black"/> 
+  <line x1="1264" y1="321.75" x2="1264" y2="362.5" stroke="black"/> 
+  <line x1="1264" y1="398.75" x2="1264" y2="439.5" stroke="black"/> 
+  <line x1="1590.75" y1="167.438" x2="1590.75" y2="208.188" stroke="black"/> 
+  <line x1="1590.75" y1="243.75" x2="1590.75" y2="284.5" stroke="black"/> 
+  <line x1="1590.75" y1="321.75" x2="1590.75" y2="362.5" stroke="black"/> 
+  <line x1="1590.75" y1="398.75" x2="1590.75" y2="439.5" stroke="black"/> 
+  <line x1="58.25" y1="476.75" x2="1911.5" y2="476.75" stroke="black"/> 
+  <text x="27.8126" y="465.5" fill="black" font-size="15">5</text>
+  <text x="69.8749" y="465.5" fill="black" font-size="15">20LAB00EZ002   защита от отключения всех ПЭН</text>
+  <line x1="7.25005" y1="671.75" x2="1911" y2="671.75" stroke="black"/> 
+  <line x1="1264" y1="476" x2="1264" y2="672.25" stroke="black"/> 
+  <line x1="1590.75" y1="476" x2="1590.75" y2="672.25" stroke="black"/> 
+  <image x="1000.13" y="549.5" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAB00CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB00CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="59.25" y1="708.75" x2="1912.5" y2="708.75" stroke="black"/> 
+  <line x1="9.25006" y1="751.25" x2="1913" y2="751.25" stroke="black"/> 
+  <image x="543.25" y="716.875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LBA50CP902_XH59&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LBA50CP902_XH59&quot;"/> 
+  </image>
+  <text x="582.46" y="734.375" fill="black" font-size="15">&lt;5.8 МПа</text>
+  <text x="167.25" y="734.375" fill="black" font-size="15">20LBA50CP902</text>
+  <image x="341" y="716.875" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20LBA50CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBA50CP902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="27.8126" y="697.5" fill="black" font-size="15">6</text>
+  <text x="69.8749" y="697.5" fill="black" font-size="15">20LBA50EZ002   защита от понижения давления в ГПК</text>
+  <image x="1000.13" y="714.375" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LBA50CH302TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBA50CH302TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="858.25" y1="709" x2="858.25" y2="749.75" stroke="black"/> 
+  <line x1="1264" y1="709" x2="1264" y2="749.75" stroke="black"/> 
+  <line x1="1590.75" y1="709" x2="1590.75" y2="749.75" stroke="black"/> 
+  <line x1="60.5" y1="788.25" x2="1913.75" y2="788.25" stroke="black"/> 
+  <image x="544.5" y="797.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAA10CL902_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAA10CL902_XH03&quot;"/> 
+  </image>
+  <text x="583.71" y="814.875" fill="black" font-size="15">&gt;3.42 м</text>
+  <text x="168.5" y="814.875" fill="black" font-size="15">20LAA10CL902</text>
+  <image x="342.25" y="797.375" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20LAA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAA10CL902&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="27.8126" y="777" fill="black" font-size="15">7</text>
+  <text x="69.8749" y="777" fill="black" font-size="15">20LAA10EY001   защита от повышения уровня в деаэраторе</text>
+  <line x1="858.25" y1="868" x2="858.25" y2="953" stroke="black"/> 
+  <line x1="1264" y1="789.5" x2="1264" y2="830.25" stroke="black"/> 
+  <line x1="1590.75" y1="789.5" x2="1590.75" y2="830.25" stroke="black"/> 
+  <text x="27.8126" y="856.25" fill="black" font-size="15">8</text>
+  <line x1="10" y1="830.25" x2="1913.75" y2="830.25" stroke="black"/> 
+  <line x1="58" y1="868" x2="1911.25" y2="868" stroke="black"/> 
+  <text x="69.8749" y="856.75" fill="black" font-size="15">Защита от срабатывания АЗ</text>
+  <image x="377.5" y="876.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JDK01ER101A_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JDK01ER101A_XG01&quot;"/> 
+  </image>
+  <text x="417" y="894.25" fill="black" font-size="15">Сработал 1 канал</text>
+  <text x="243.75" y="894.25" fill="black" font-size="15">21JDK01ER101A</text>
+  <image x="377.5" y="914.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;22JDK02ER101A_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JDK02ER101A_XG01&quot;"/> 
+  </image>
+  <text x="417" y="931.75" fill="black" font-size="15">Сработал 2 канал</text>
+  <text x="243.75" y="931.75" fill="black" font-size="15">22JDK02ER101A</text>
+  <line x1="1264" y1="868" x2="1264" y2="953" stroke="black"/> 
+  <line x1="1590.75" y1="868" x2="1590.75" y2="953" stroke="black"/> 
+  <image x="1383.88" y="175.313" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA10EZ001_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA10EZ001_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="192.813" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="175.313" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA10EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA10EZ001_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="192.813" fill="black" font-size="15">XK95</text>
+  <image x="1383.88" y="251.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA20EZ001_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA20EZ001_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="269.125" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="251.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA20EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA20EZ001_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="269.125" fill="black" font-size="15">XK95</text>
+  <image x="1383.88" y="329.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA30EZ001_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA30EZ001_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="347.125" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="329.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA30EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA30EZ001_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="347.125" fill="black" font-size="15">XK95</text>
+  <image x="1383.88" y="406.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA40EZ001_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA40EZ001_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="424.125" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="406.625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEA40EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA40EZ001_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="424.125" fill="black" font-size="15">XK95</text>
+  <image x="1383.88" y="543" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB00EZ002_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB00EZ002_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="560.5" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="543" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB00EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB00EZ002_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="560.5" fill="black" font-size="15">XK95</text>
+  <image x="1383.88" y="716.875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LBA50EZ002_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LBA50EZ002_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="734.375" fill="black" font-size="15">XK92</text>
+  <image x="1681.75" y="716.875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LBA50EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LBA50EZ002_XK95&quot;"/> 
+  </image>
+  <text x="1721" y="734.375" fill="black" font-size="15">XK95</text>
+  <image x="1681.75" y="797.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAA10EY001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAA10EY001_ZV01&quot;"/> 
+  </image>
+  <text x="1721" y="814.875" fill="black" font-size="15">ZV01</text>
+  <image x="1681.75" y="888.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY80EZ017_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY80EZ017_ZV03&quot;"/> 
+  </image>
+  <text x="1721" y="906" fill="black" font-size="15">ZV03</text>
+  <g>
+    <text x="388.445" y="501.5" fill="black" font-size="15">20LAC20AP001</text>
+    <g>
+      <text x="405.39" y="531.056" fill="black" font-size="15">ПЭН-2 отключен</text>
+      <image x="346.89" y="491.056" width="70" height="70" xlink:href="DS_motor.svg" transform="scale(0.740002 0.740002 -0.000152588 0.000305176) rotate(270 -0.000152588 0.000305176) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+        <title>&quot;20LAC20AP001&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LAC20AP001&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      </image>
+    </g>
+  </g>
+  <image x="348.82" y="631" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB00EU001_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB00EU001_XA17&quot;"/> 
+  </image>
+  <text x="386.57" y="646.25" fill="black" font-size="15">все ПЭН отключены</text>
+  <text x="100.14" y="501.5" fill="black" font-size="15">20LAC10AP001</text>
+  <text x="117.03" y="531.056" fill="black" font-size="15">ПЭН-1 отключен</text>
+  <image x="58.6402" y="491.056" width="70" height="70" xlink:href="DS_motor.svg" transform="scale(0.740002 0.740002 -0.000152588 0.000305176) rotate(270 -0.000152588 0.000305176) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAC10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="100.14" y="578.75" fill="black" font-size="15">20LAC40AP001</text>
+  <text x="117.03" y="607" fill="black" font-size="15">ПЭН-4 отключен</text>
+  <image x="58.6402" y="567" width="70" height="70" xlink:href="DS_motor.svg" transform="scale(0.740002 0.740002 -0.000152588 0.000305176) rotate(270 -0.000152588 0.000305176) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAC40AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC40AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="691.25" y="501.5" fill="black" font-size="15">20LAC30AP001</text>
+  <text x="708.14" y="531.056" fill="black" font-size="15">ПЭН-3 отключен</text>
+  <image x="649.75" y="491.056" width="70" height="70" xlink:href="DS_motor.svg" transform="scale(0.740002 0.740002 -0.000152588 0.000305176) rotate(270 -0.000152588 0.000305176) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAC30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="691.25" y="578.75" fill="black" font-size="15">20LAC50AP001</text>
+  <text x="708.14" y="607" fill="black" font-size="15">ПЭН-5 отключен</text>
+  <image x="649.75" y="567" width="70" height="70" xlink:href="DS_motor.svg" transform="scale(0.740002 0.740002 -0.000152588 0.000305176) rotate(270 -0.000152588 0.000305176) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAC50AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="858.25" y1="787.75" x2="858.25" y2="828.5" stroke="black"/> 
+  <image x="1000.13" y="796.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAA10CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAA10CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1383.88" y="794.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAA10EY001_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAA10EY001_XK92&quot;"/> 
+  </image>
+  <text x="1423.13" y="812.25" fill="black" font-size="15">XK92</text>
+  <text x="19" y="25.5" font-size="15" font-weight="700">ECHSZ_TO</text>
+</svg>

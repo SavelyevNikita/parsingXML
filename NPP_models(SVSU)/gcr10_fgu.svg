@@ -1,0 +1,70 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="gcr10_fgu">
+  <rt:model modelversion="7.2.0.23" comment="Создано PAZDNIKOV\user 02.07.2013 14:02:23"/> 
+  <line x1="262" y1="70.5" x2="260" y2="70"/> 
+  <line x1="795.2" y1="173.8" x2="796" y2="172"/> 
+  <line x1="825.25" y1="168" x2="825" y2="168"/> 
+  <line x1="1515.5" y1="362.75" x2="1515.6" y2="362.75"/> 
+  <line x1="34.5" y1="609.5" x2="34.6" y2="609.5"/> 
+  <text x="750" y="75" font-size="30">ФГУ узла нейтрализации</text>
+  <image x="250" y="625" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ-3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcr10ec001_m1-4&quot;"/> 
+  </image>
+  <text x="325" y="150" font-size="15">Нейтрализация бака 00GCR10BB001</text>
+  <image x="250" y="400" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="425" y="200" font-size="15">Выбор режима нейтрализации</text>
+  <text x="425" y="425" font-size="15">Открыть арматуру и подтвердить сброс на шламоотвал</text>
+  <image x="250" y="175" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH003VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="425" y="300" font-size="15">Выбор цикла нейтрализации в ручном режиме</text>
+  <text x="500" y="325" font-size="15">(только один выбор)</text>
+  <image x="250" y="500" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH002VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="425" y="525" font-size="15">Выбор режима при сбросе на шламоотвал</text>
+  <image x="1125" y="625" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ-3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcr10ec002_m1-4&quot;"/> 
+  </image>
+  <text x="1200" y="150" font-size="15">Нейтрализация бака 00GCR10BB002</text>
+  <image x="1125" y="400" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH007TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1300" y="200" font-size="15">Выбор режима нейтрализации</text>
+  <text x="1300" y="425" font-size="15">Открыть арматуру и подтвердить сброс на шламоотвал</text>
+  <image x="1125" y="175" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH008VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1300" y="300" font-size="15">Выбор цикла нейтрализации в ручном режиме</text>
+  <text x="1375" y="325" font-size="15">(только один выбор)</text>
+  <image x="1125" y="500" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR10CH006VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1300" y="525" font-size="15">Выбор режима при сбросе на шламоотвал</text>
+  <text x="147" y="419" font-size="15">Подтвердить</text>
+  <text x="1022" y="419.5" font-size="15">Подтвердить</text>
+  <text x="160" y="518" font-size="15">Доп.нейтр.</text>
+  <text x="158" y="537.5" font-size="15">Ручн.сброс</text>
+  <text x="1033" y="518.5" font-size="15">Доп.нейтр.</text>
+  <text x="1031" y="538" font-size="15">Ручн.сброс</text>
+  <text x="171" y="214" font-size="15">Ручн.реж.</text>
+  <text x="181" y="193" font-size="15">Авт.реж.</text>
+  <text x="1042" y="214.5" font-size="15">Ручн.реж.</text>
+  <text x="1052" y="193.5" font-size="15">Авт.реж.</text>
+</svg>

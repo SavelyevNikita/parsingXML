@@ -1,0 +1,366 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="fal_tzb(1)">
+  <title>Защиты FAL</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod fak_tzb&#10;RMod fal_tzb_2" revision="4.1"/> 
+  <rect x="75" y="25" width="1775" height="925" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">FAL_TZB_1</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1500" y1="25" x2="1500" y2="75" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1312" y="57" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1638.5" y="58" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975" y="57" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="1125" y1="75" x2="1125" y2="25" stroke="black"/> 
+  <line x1="125" y1="100" x2="1850" y2="100" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20FAL50EY001 Защита от безрасходного режима</text>
+  <text x="97.5" y="91.5" fill="black" font-size="15">1</text>
+  <line x1="125" y1="140" x2="800" y2="140" stroke="black"/> 
+  <line x1="125" y1="25" x2="125" y2="950" stroke="black"/> 
+  <line x1="125" y1="175" x2="800" y2="175" stroke="black"/> 
+  <line x1="75" y1="255" x2="1850" y2="255" stroke="black"/> 
+  <line x1="125" y1="280" x2="1850" y2="279" stroke="black"/> 
+  <line x1="125" y1="215" x2="800" y2="215" stroke="black"/> 
+  <line x1="800" y1="100" x2="800" y2="255" stroke="black"/> 
+  <line x1="1125" y1="280" x2="1125" y2="600" stroke="black"/> 
+  <line x1="730.485" y1="98" x2="730.585" y2="98" stroke="black"/> 
+  <line x1="712" y1="349.5" x2="712.1" y2="349.5" stroke="black"/> 
+  <image x="900" y="151" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20FAL50CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL50CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="482.75" y="125" fill="black" font-size="15">L 20FAL51BB001&lt;0,2 М</text>
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="450" y1="100" x2="450" y2="255" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="449" y1="234" x2="449.1" y2="234" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <text x="482" y="165" fill="black" font-size="15">ВСАС 20FAL51AP001 ЗАКРЫТ</text>
+  <line x1="800" y1="281" x2="800" y2="600" stroke="black"/> 
+  <image x="1300" y="150" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL50EY001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL50EY001_ZM01&quot;"/> 
+  </image>
+  <line x1="1125.5" y1="100" x2="1125" y2="255" stroke="black"/> 
+  <line x1="1500" y1="100" x2="1500" y2="255" stroke="black"/> 
+  <image x="150" y="105" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL51CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="105" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CL001_XH56&quot;"/> 
+  </image>
+  <image x="270" y="145" width="25" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20FAL51AA002_Z0 0&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20FAL51AA002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <line x1="800" y1="75" x2="800" y2="25" stroke="black"/> 
+  <image x="150" y="180" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL52CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="180" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CL001_XH56&quot;"/> 
+  </image>
+  <image x="270" y="220" width="25" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20FAL52AA002_Z0 0&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20FAL52AA002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="483" y="198.75" fill="black" font-size="15">L 20FAL52BB001&lt;0,2 М</text>
+  <text x="481.5" y="235" fill="black" font-size="15">ВСАС 20FAL52AP001 ЗАКРЫТ</text>
+  <image x="1675" y="150" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL50EY001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL50EY001_ZV51&quot;"/> 
+  </image>
+  <text x="132.75" y="273.25" fill="black" font-size="15" font-weight="700">20FAL51EZ001 Отключение насоса 20FAL51AP001 защитой</text>
+  <line x1="125" y1="350" x2="1850" y2="350" stroke="black"/> 
+  <line x1="125" y1="395" x2="1850" y2="395" stroke="black"/> 
+  <line x1="75" y1="600" x2="1850" y2="600" stroke="black"/> 
+  <text x="482.5" y="422.5" fill="black" font-size="15">F 20FAL51AP001&lt;175м3/ч</text>
+  <line x1="450" y1="432" x2="450.1" y2="432" stroke="black"/> 
+  <image x="150" y="404" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL51CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="404" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CF001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CF001_XH58&quot;"/> 
+  </image>
+  <image x="150" y="359" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL51CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="359" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CP001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CP001_XH56&quot;"/> 
+  </image>
+  <line x1="450" y1="350" x2="450" y2="600" stroke="black"/> 
+  <text x="550" y="314.5" fill="black" font-size="15">НАСОС 20FAL51AP001<tspan x="550" dy="15">ВКЛЮЧЕН</tspan>
+  </text>
+  <text x="482.75" y="370" fill="black" font-size="15">P ВСАС 20FAL51AP001<tspan x="482.75" dy="15">&lt;4 кПа</tspan>
+  </text>
+  <image x="900" y="357.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20FAL51CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL51CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="900" y="402" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20FAL51CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL51CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="404" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1300" y="362" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1675" y="403" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1675" y="362" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="1500" y1="279" x2="1500" y2="600" stroke="black"/> 
+  <text x="95" y="275" fill="black" font-size="15">2</text>
+  <line x1="125" y1="630" x2="1850" y2="630" stroke="black"/> 
+  <line x1="1125" y1="630" x2="1125" y2="950" stroke="black"/> 
+  <line x1="743.965" y1="933.273" x2="744.065" y2="933.273" stroke="black"/> 
+  <line x1="800" y1="630" x2="800" y2="950" stroke="black"/> 
+  <text x="133.25" y="619.75" fill="black" font-size="15" font-weight="700">20FAL52EZ001 Отключение насоса 20FAL52AP001 защитой</text>
+  <line x1="125" y1="700" x2="1850" y2="700" stroke="black"/> 
+  <line x1="125" y1="742" x2="1850" y2="742" stroke="black"/> 
+  <text x="489.955" y="772.682" fill="black" font-size="15">F 20FAL52AP001&lt;175м3/ч</text>
+  <line x1="573.056" y1="788.909" x2="573.156" y2="788.909" stroke="black"/> 
+  <image x="150" y="752.227" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL52CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="752.227" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CF001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CF001_XH58&quot;"/> 
+  </image>
+  <image x="150" y="710.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20FAL52CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="375" y="707.909" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CP001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CP001_XH56&quot;"/> 
+  </image>
+  <line x1="450" y1="700" x2="450" y2="950" stroke="black"/> 
+  <text x="550" y="667" fill="black" font-size="15">НАСОС 20FAL52AP001<tspan x="550" dy="15">ВКЛЮЧЕН</tspan>
+  </text>
+  <text x="487.682" y="722.682" fill="black" font-size="15">P ВСАС 20FAL52AP001<tspan x="487.682" dy="15">&lt;4 кПа</tspan>
+  </text>
+  <image x="900" y="706.75" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20FAL52CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL52CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="900" y="748.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20FAL52CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL52CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="751" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1300" y="707.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1675" y="751.091" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1675" y="711.318" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="1500" y1="630" x2="1500" y2="950" stroke="black"/> 
+  <text x="95" y="623" fill="black" font-size="15">3</text>
+  <image x="414.201" y="276" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20FAL51AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL51AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="414.974" y="630.773" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20FAL52AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20FAL52AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="1750" y="961.182" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;FAL_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;fal_tzb_2&quot;)</rt:event>
+  </image>
+  <text x="287" y="315.5" fill="black" font-size="15">20FAL51AP001</text>
+  <text x="296.773" y="658.273" fill="black" font-size="15">20FAL52AP001</text>
+  <line x1="76" y1="75" x2="1850" y2="75" stroke="black"/> 
+  <line x1="125" y1="440" x2="1850" y2="440" stroke="black"/> 
+  <image x="153.125" y="459" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL51CT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="480" y="474" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;100 C</text>
+  <image x="375" y="459" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CT901_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CT901_XH05&quot;"/> 
+  </image>
+  <image x="153.125" y="484" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL51CT902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CT902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="375" y="484" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CT902_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CT902_XH05&quot;"/> 
+  </image>
+  <text x="480" y="501" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;100 C</text>
+  <text x="480" y="542" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="153.125" y="524" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL51CT903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CT903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="375" y="524" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CT903_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CT903_XH05&quot;"/> 
+  </image>
+  <image x="153.125" y="549" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL51CT904&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL51CT904&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="375" y="549" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51CT904_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51CT904_XH05&quot;"/> 
+  </image>
+  <text x="480" y="566.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="1675" y="511" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL51EZ001_ZV12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL51EZ001_ZV12&quot;"/> 
+  </image>
+  <line x1="125" y1="783.409" x2="1850" y2="783.409" stroke="black"/> 
+  <image x="154.307" y="806.682" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL52CT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="481.182" y="821.682" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;100 C</text>
+  <image x="376.182" y="806.682" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CT901_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CT901_XH05&quot;"/> 
+  </image>
+  <image x="154.307" y="831.682" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL52CT902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CT902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="376.182" y="831.682" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CT902_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CT902_XH05&quot;"/> 
+  </image>
+  <text x="481.182" y="848.682" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;100 C</text>
+  <text x="481.182" y="889.682" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="154.307" y="871.682" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL52CT903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CT903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="376.182" y="871.682" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CT903_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CT903_XH05&quot;"/> 
+  </image>
+  <image x="154.307" y="896.682" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20FAL52CT904&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20FAL52CT904&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="376.182" y="896.682" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52CT904_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52CT904_XH05&quot;"/> 
+  </image>
+  <text x="481.182" y="913.932" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="1675" y="850" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20FAL52EZ001_ZV12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20FAL52EZ001_ZV12&quot;"/> 
+  </image>
+</svg>

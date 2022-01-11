@@ -1,0 +1,467 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="paa">
+  <title>Система трубопроводов основной питательной воды</title>
+  <rt:model modelversion="7.2.0.24" comment="Создано VNIIAES-ASUTP\podchumachev 27.03.2013 15:38:50"/> 
+  <line x1="449.44" y1="939" x2="449.44" y2="447.03" stroke="black" stroke-width="3"/> 
+  <line x1="273.819" y1="938" x2="450.152" y2="938" stroke="black" stroke-width="3"/> 
+  <line x1="273.667" y1="830" x2="450" y2="830" stroke="black" stroke-width="3"/> 
+  <line x1="157.152" y1="621.03" x2="157.152" y2="675" stroke="black" stroke-width="3"/> 
+  <line x1="228" y1="437.135" x2="228" y2="622" stroke="black" stroke-width="3"/> 
+  <line x1="86" y1="212" x2="132.727" y2="212" stroke="black" stroke-width="3"/> 
+  <rect x="114.212" y="292.728" width="1795.45" height="177.394" rx="0" ry="0" fill="Col_Grey4" stroke="black"/> 
+  <rect x="114.212" y="169.576" width="1795.45" height="96.9697" rx="0" ry="0" fill="Col_Grey2" stroke="Col_Grey4"/> 
+  <line x1="236.304" y1="84" x2="236.304" y2="237.758" stroke="black" stroke-width="3"/> 
+  <rect x="463.792" y="394.349" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <text x="889" y="44" font-size="32">
+    <title>Система механических очистных устройств</title>
+PAA</text>
+  <line x1="235.788" y1="85" x2="1823.82" y2="85" stroke="black" stroke-width="3"/> 
+  <line x1="86.303" y1="621" x2="228" y2="621" stroke="black" stroke-width="3"/> 
+  <line x1="87" y1="621" x2="87" y2="212" stroke="black" stroke-width="3"/> 
+  <line x1="52.7273" y1="967" x2="242.121" y2="967" stroke="black" stroke-width="3"/> 
+  <line x1="31.4545" y1="774.258" x2="51.1516" y2="774.258" stroke="black" stroke-width="3"/> 
+  <line x1="52" y1="772.727" x2="52" y2="968.044" stroke="black" stroke-width="3"/> 
+  <text x="133.03" y="982.788" font-size="15" text-anchor="middle">Дренажная галерея<tspan x="133.03" dy="15">10URS</tspan>
+  </text>
+  <image x="16.5151" y="589.667" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10GMS01AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMS01AA002&quot;"/> 
+  </image>
+  <text x="1.48485" y="491.667" font-size="15">10GMS01<tspan x="1.48485" dy="15">AA002</tspan>
+  </text>
+  <image x="41.8182" y="514.394" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0 -10)">
+    <title>10GMS01AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMS01AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="193.03" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA01AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01AA001&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="114.03" y="128.768" font-size="15">10PAA01<tspan x="114.03" dy="15">AA001</tspan>
+  </text>
+  <image x="148.804" y="239.121" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA01CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA01CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61.8182" y="776.152" width="27.2727" height="150" xlink:href="DS_ana_bar.svg">
+    <title>10GMR01CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10GMR01CL001&quot;"/> 
+  </image>
+  <image x="69.697" y="629.031" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>??</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10???CF&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="138.607" y1="273.548" x2="334.001" y2="272.848" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="1822.64" y="75.6363" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pcb&quot;)</rt:event>
+  </image>
+  <image x="59.9242" y="933.97" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10GMR01CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10GMR01CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="148.804" y="283.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="246.606" y="344.273" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA01CE001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01CE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="234.031" y="333.455" fill="black" font-size="15" text-anchor="middle">10PAA01CE001</text>
+  <image x="157.606" y="364.273" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="234.031" y="448.606" fill="black" font-size="15" text-anchor="middle">10PAA01AT001</text>
+  <line x1="458.456" y1="84" x2="458.456" y2="240.91" stroke="black" stroke-width="3"/> 
+  <rect x="350.263" y="391.977" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="415.182" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA01AA002</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01AA002&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="336.182" y="131.92" font-size="15">10PAA01<tspan x="336.182" dy="15">AA002</tspan>
+  </text>
+  <image x="370.956" y="242.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA01CL002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA01CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="360.759" y1="276.7" x2="556.153" y2="276" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="370.956" y="286.607" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="468.758" y="347.425" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA01CE002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01CE002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="456.183" y="336.607" fill="black" font-size="15" text-anchor="middle">10PAA01CE002</text>
+  <image x="379.758" y="367.425" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="456.183" y="451.758" fill="black" font-size="15" text-anchor="middle">10PAA01AT002</text>
+  <line x1="680.456" y1="84" x2="680.456" y2="236.91" stroke="black" stroke-width="3"/> 
+  <rect x="236.81" y="394.988" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="637.182" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA02AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA02AA001&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="558.182" y="127.92" font-size="15">10PAA02<tspan x="558.182" dy="15">AA001</tspan>
+  </text>
+  <image x="592.956" y="238.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA02CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA02CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="582.759" y1="272.7" x2="778.153" y2="272" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="592.956" y="282.607" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="690.758" y="343.425" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA02CE001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA02CE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="678.182" y="332.607" fill="black" font-size="15" text-anchor="middle">10PAA02CE001</text>
+  <image x="601.758" y="363.425" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="678.182" y="447.758" fill="black" font-size="15" text-anchor="middle">10PAA02AT001</text>
+  <line x1="902.608" y1="84" x2="902.608" y2="240.062" stroke="black" stroke-width="3"/> 
+  <rect x="123.28" y="392.616" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="859.333" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA02AA002</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA02AA002&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="780.333" y="131.072" font-size="15">10PAA02<tspan x="780.333" dy="15">AA002</tspan>
+  </text>
+  <image x="815.108" y="241.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA02CL002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA02CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="804.911" y1="275.852" x2="1000.3" y2="275.152" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="815.108" y="285.759" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="912.91" y="346.577" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA02CE002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA02CE002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="899.424" y="334.606" fill="black" font-size="15" text-anchor="middle">10PAA02CE002</text>
+  <image x="823.91" y="366.577" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="900.335" y="450.91" fill="black" font-size="15" text-anchor="middle">10PAA02AT002</text>
+  <line x1="1123.61" y1="84" x2="1123.61" y2="238.061" stroke="black" stroke-width="3"/> 
+  <rect x="10.3392" y="394.121" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="1080.33" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA03AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA03AA001&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1001.33" y="129.071" font-size="15">10PAA03<tspan x="1001.33" dy="15">AA001</tspan>
+  </text>
+  <image x="1036.11" y="239.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA03CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA03CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1025.91" y1="273.851" x2="1221.3" y2="273.151" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="1036.11" y="283.758" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1133.91" y="344.576" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA03CE001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA03CE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1121.33" y="333.758" fill="black" font-size="15" text-anchor="middle">10PAA03CE001</text>
+  <image x="1044.91" y="364.576" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="1120.64" y="448.242" fill="black" font-size="15" text-anchor="middle">10PAA03AT001</text>
+  <line x1="1345.76" y1="84" x2="1345.76" y2="241.213" stroke="black" stroke-width="3"/> 
+  <rect x="-103.191" y="391.749" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="1302.49" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA03AA002</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01AA001&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1223.49" y="132.223" font-size="15">10PAA03<tspan x="1223.49" dy="15">AA002</tspan>
+  </text>
+  <image x="1258.26" y="242.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA03CL002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA03CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1248.06" y1="277.003" x2="1443.46" y2="276.303" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="1258.26" y="286.91" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1356.06" y="347.728" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA03CE002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA03CE002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1343.49" y="336.91" fill="black" font-size="15" text-anchor="middle">10PAA03CE002</text>
+  <image x="1267.06" y="367.728" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="1343.49" y="452.061" fill="black" font-size="15" text-anchor="middle">10PAA03AT002</text>
+  <line x1="1567.76" y1="84" x2="1567.76" y2="237.213" stroke="black" stroke-width="3"/> 
+  <rect x="-216.643" y="394.759" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="1524.49" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA04AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA04AA001&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1445.49" y="128.223" font-size="15">10PAA04<tspan x="1445.49" dy="15">AA001</tspan>
+  </text>
+  <image x="1480.26" y="238.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA04CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA04CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1470.06" y1="273.003" x2="1665.46" y2="272.303" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="1480.26" y="282.91" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1578.06" y="343.728" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA01CE001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA01CE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1565.49" y="332.91" fill="black" font-size="15" text-anchor="middle">10PAA04CE001</text>
+  <image x="1489.06" y="363.728" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="1564.58" y="446.727" fill="black" font-size="15" text-anchor="middle">10PAA04AT001</text>
+  <line x1="1789.91" y1="84" x2="1789.91" y2="240.365" stroke="black" stroke-width="3"/> 
+  <rect x="-330.173" y="392.387" width="100.656" height="148.246" rx="0" ry="0" fill="#949494" stroke="Col_Grey5" stroke-width="1" transform="flipY() translate(0 -828) translate(1242.38 -124.868) matrix(-1.95686 0 0 1.32867 0 0)"/> 
+  <image x="1746.64" y="110.641" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <title>10PAA04AA002</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA04AA002&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1667.64" y="131.375" font-size="15">10PAA04<tspan x="1667.64" dy="15">AA002</tspan>
+  </text>
+  <image x="1702.41" y="241.728" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA04CL002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA04CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dL&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1692.21" y1="276.155" x2="1887.61" y2="275.455" stroke="Col_Grey5" stroke-dasharray="36,20"/> 
+  <image x="1702.41" y="286.062" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="&quot;true&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1800.21" y="346.88" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10PAA04CE002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10PAA04CE002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1787.64" y="336.062" fill="black" font-size="15" text-anchor="middle">10PAA04CE002</text>
+  <image x="1711.21" y="366.88" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="1787.3" y="449.758" fill="black" font-size="15" text-anchor="middle">10PAA04AT002</text>
+  <image x="233.667" y="590.818" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10GMS01AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMS01AA001&quot;"/> 
+  </image>
+  <text x="234.636" y="492.818" font-size="15">10GMS01<tspan x="234.636" dy="15">AA001</tspan>
+  </text>
+  <image x="182.97" y="515.545" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0 -10)">
+    <title>10GMS01AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMS01AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="156" y="687.333" font-size="15" text-anchor="middle">Продувка в р.Дон</text>
+  <g transform="rotate(270 16.8485 43.1818) flipX(1107.76) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="2695.11,-1094.17 2708.49,-1086.52 2708.49,-1101.81 2695.11,-1094.17" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="242.136" y1="773.212" x2="242.136" y2="968.529" stroke="black" stroke-width="3"/> 
+  <line x1="242.152" y1="774.288" x2="261.849" y2="774.288" stroke="black" stroke-width="3"/> 
+  <text x="173.939" y="804.545" font-size="15" text-anchor="middle">L &gt;1,85 м</text>
+  <text x="161.818" y="912.121" font-size="15" text-anchor="middle">L &gt;1 м</text>
+  <image x="314.334" y="795.454" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10GMR01AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMR01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="348.424" y="787.879" fill="black" font-size="15" text-anchor="middle">10GMR01AP001</text>
+  <image x="314.486" y="903.605" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000271325) flipX(-0.000123177) flipY(1.01104e-005)">
+    <title>10GMR01AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10GMR01AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="348.576" y="896.031" fill="black" font-size="15" text-anchor="middle">10GMR01AP002</text>
+  <g transform="flipY(493.182) rotate(270 16.8485 43.1818) flipX(1107.76) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="2854.72,-802.231 2868.1,-794.581 2868.1,-809.871 2854.72,-802.231" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="450.455" y1="672.47" x2="626.788" y2="672.47" stroke="black" stroke-width="3"/> 
+  <image x="406" y="548.243" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+  </image>
+  <image x="506.303" y="616.545" width="75" height="80" xlink:href="DS_CO_valve.svg" transform="rotate(90 -4.66646 -5.33329) flipX(-4.66666) rotate(180 -2.33341 -7.66667) flipX(1.13687e-013) flipX(-1.13687e-013) rotate(270 0 -10)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+  </image>
+  <g transform="rotate(90 625.939 646.212) flipY(493.182) rotate(270 16.8485 43.1818) flipX(1107.76) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="3024.66,-598.958 3038.04,-591.308 3038.04,-606.598 3024.66,-598.958" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="687.303" y="667.939" font-size="15" text-anchor="middle">В дождевую<tspan x="687.303" dy="15">канализацию</tspan>
+  </text>
+  <image x="472.152" y="892.424" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <title>10GMR01AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <image x="769.121" y="504.879" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAD50CL301</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAD50CL301&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="680.485" y="524" font-size="15" text-anchor="middle">Уровень в 10URA</text>
+  <text x="1098.67" y="524" font-size="15" text-anchor="middle">Уровень в 10URH</text>
+  <image x="1182.76" y="504.879" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10PAA01CL003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10PAA01CL003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1120.85" y="46.1212" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <image x="759.273" y="46.1212" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <text x="688.06" y="70.3333" font-size="15" text-anchor="middle">АВТ ПРГ УПР</text>
+  <text x="1043.21" y="70.3333" font-size="15" text-anchor="middle">Время промыки</text>
+  <image x="78.212" y="730.909" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+  <image x="94.8788" y="698.303" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;???&quot;"/> 
+  </image>
+</svg>

@@ -1,0 +1,666 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="jea50_90">
+  <title>Cистема контроля уровня в парогенераторах и влажности пара в паропроводах JEA90</title>
+  <rt:model modelversion="7.2.0.23" comment="Создано  19.03.2012 11:58:10"/> 
+  <line x1="1606" y1="975.576" x2="1606" y2="957.368" stroke="black" stroke-width="3"/> 
+  <line x1="1479" y1="975" x2="1479" y2="957.853" stroke="black" stroke-width="3"/> 
+  <line x1="1355" y1="975.576" x2="1355" y2="956.338" stroke="black" stroke-width="3"/> 
+  <line x1="1732" y1="956.338" x2="1732" y2="978.606" stroke="black" stroke-width="3"/> 
+  <line x1="1543" y1="955.883" x2="1543" y2="693.182" stroke="black" stroke-width="3"/> 
+  <text x="891.364" y="29.6059" font-size="32">JEA50-90</text>
+  <line x1="1791.09" y1="454.545" x2="1791.09" y2="454.545" stroke="black"/> 
+  <line x1="1859.55" y1="909.091" x2="1859.55" y2="909.091" stroke="black"/> 
+  <rect x="70.4902" y="513.658" width="1842" height="28" rx="0" ry="0" fill="url(#PortalHatch1)" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-3.4902 -19.6585)"/> 
+  <rect x="1441.09" y="723.277" width="207.424" height="154.53" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <line x1="1475.51" y1="785.884" x2="1648.51" y2="785.884" stroke="black" stroke-dasharray="15,5"/> 
+  <line x1="1486.51" y1="804.884" x2="1648.51" y2="804.884" stroke="black" stroke-dasharray="15,5"/> 
+  <line x1="1473.51" y1="832.884" x2="1646.51" y2="832.884" stroke="black" stroke-dasharray="15,5"/> 
+  <line x1="1484.51" y1="857.884" x2="1646.51" y2="857.884" stroke="black" stroke-dasharray="15,5"/> 
+  <line x1="1623.51" y1="768.716" x2="1648.86" y2="768.716" stroke="black"/> 
+  <text x="1500.18" y="753.581" font-size="15">10JEA80BB001</text>
+  <line x1="1605.86" y1="769.232" x2="1615.86" y2="783.232" stroke="black"/> 
+  <line x1="1615.86" y1="783.232" x2="1624.86" y2="769.232" stroke="black"/> 
+  <line x1="1474.34" y1="768.823" x2="1606.34" y2="768.823" stroke="black"/> 
+  <image x="1320.85" y="923.247" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA80CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA80CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1581.64" y="923.398" font-size="15">10JEA80AP001</text>
+  <text x="1501.7" y="663.636" fill="black" font-size="15" text-anchor="middle">LCP10</text>
+  <line x1="1354.48" y1="957" x2="1733.27" y2="957" stroke="black" stroke-width="3"/> 
+  <image x="1468.88" y="847.126" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA80CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA80CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1441.09" y="727.823" width="29.545" height="146.485" xlink:href="DS_ana_bar.svg">
+    <title>10JEA80CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA80CL001&quot;"/> 
+  </image>
+  <image x="1500.21" y="655.307" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+  </image>
+  <line x1="121.242" y1="527.97" x2="301.545" y2="524.939" stroke="black" stroke-width="3"/> 
+  <line x1="216" y1="457.606" x2="216" y2="590" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1281.55,-793.847 1294.93,-786.203 1294.93,-801.49 1281.55,-793.847" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="69.9999" y="514.061" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <line x1="64" y1="632.772" x2="64" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="4.3333" y="203.879" font-size="15">11JEA51<tspan x="4.3333" dy="15">AA801</tspan>
+  </text>
+  <text x="4.3333" y="358.152" font-size="15">12JEA51<tspan x="4.3333" dy="15">AA802</tspan>
+  </text>
+  <image x="39.788" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA51AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA51AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="39" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA51AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA51AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="78" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="154" y1="636.121" x2="154" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="94.303" y="203.879" font-size="15">11JEA52<tspan x="94.303" dy="15">AA801</tspan>
+  </text>
+  <text x="92.303" y="358.152" font-size="15">12JEA52<tspan x="92.303" dy="15">AA802</tspan>
+  </text>
+  <image x="129.818" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA52AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA52AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="130.03" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA52AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA52AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="167.03" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="244" y1="634.781" x2="244" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="182.788" y="203.879" font-size="15">11JEA53<tspan x="182.788" dy="15">AA801</tspan>
+  </text>
+  <text x="182.788" y="358.152" font-size="15">12JEA53<tspan x="182.788" dy="15">AA802</tspan>
+  </text>
+  <image x="219.879" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA53AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA53AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="219.091" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA53AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA53AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="258.091" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="334" y1="632.771" x2="334" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="272.757" y="203.879" font-size="15">11JEA54<tspan x="272.757" dy="15">AA801</tspan>
+  </text>
+  <text x="272.757" y="358.152" font-size="15">12JEA54<tspan x="272.757" dy="15">AA802</tspan>
+  </text>
+  <image x="309.94" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA54AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA54AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="309.152" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA54AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA54AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="347.152" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="57.3939" y="97.6667" font-size="15">JEA10</text>
+  <text x="148.333" y="97.6667" font-size="15">JEA20</text>
+  <image x="131.212" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea20&quot;)</rt:event>
+  </image>
+  <image x="222.273" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea30&quot;)</rt:event>
+  </image>
+  <text x="239.879" y="97.6667" font-size="15">JEA30</text>
+  <text x="327.818" y="97.6667" font-size="15">JEA40</text>
+  <image x="311.697" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+  </image>
+  <image x="40.7879" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea10&quot;)</rt:event>
+  </image>
+  <g transform="scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="2166.39" y="1558.96" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="2242.15" y1="1572.59" x2="2290.64" y2="1596.84" stroke="black" stroke-width="3"/> 
+      <line x1="2195.86" y1="1652.72" x2="2244.35" y2="1676.97" stroke="black" stroke-width="3"/> 
+      <line x1="2289.12" y1="1596.84" x2="2193.67" y2="1652.9" stroke="black" stroke-width="3"/> 
+      <line x1="2243.33" y1="1676.37" x2="2243.33" y2="1691.37" stroke="black" stroke-width="3"/> 
+      <line x1="2243.48" y1="1559.52" x2="2243.48" y2="1574.52" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <line x1="82.697" y1="457" x2="355.939" y2="457" stroke="black" stroke-width="3"/> 
+  <text x="127.788" y="586.97" font-size="15">10JEA71<tspan x="127.788" dy="15">AC001</tspan>
+  </text>
+  <image x="292.939" y="514.576" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <text x="219.152" y="57.5454" font-size="15" text-anchor="middle">Верхний пробоотборник датчиков<tspan x="219.152" dy="15">оперативного контроля уровня в ПГ</tspan>
+  </text>
+  <line x1="502.727" y1="527.97" x2="683.03" y2="524.939" stroke="black" stroke-width="3"/> 
+  <line x1="597.485" y1="457.606" x2="597.485" y2="590" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1281.55,-412.362 1294.93,-404.719 1294.93,-420.005 1281.55,-412.362" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="451.485" y="514.061" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <line x1="445.485" y1="632.772" x2="445.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="385.818" y="203.879" font-size="15">11JEA55<tspan x="385.818" dy="15">AA801</tspan>
+  </text>
+  <text x="385.818" y="358.152" font-size="15">12JEA55<tspan x="385.818" dy="15">AA802</tspan>
+  </text>
+  <image x="421.273" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA55AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA55AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="420.485" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA55AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA55AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="459.485" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="535.485" y1="636.122" x2="535.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="475.788" y="203.879" font-size="15">11JEA56<tspan x="475.788" dy="15">AA801</tspan>
+  </text>
+  <text x="473.788" y="358.152" font-size="15">12JEA56<tspan x="473.788" dy="15">AA802</tspan>
+  </text>
+  <image x="511.303" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA56AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA56AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="511.515" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA56AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA56AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="548.515" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="625.485" y1="634.782" x2="625.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="564.273" y="203.879" font-size="15">11JEA57<tspan x="564.273" dy="15">AA801</tspan>
+  </text>
+  <text x="564.273" y="358.152" font-size="15">12JEA57<tspan x="564.273" dy="15">AA802</tspan>
+  </text>
+  <image x="601.364" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA57AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA57AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="600.576" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA57AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA57AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="639.576" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="715.485" y1="632.772" x2="715.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="654.242" y="203.879" font-size="15">11JEA58<tspan x="654.242" dy="15">AA801</tspan>
+  </text>
+  <text x="654.242" y="358.152" font-size="15">12JEA58<tspan x="654.242" dy="15">AA802</tspan>
+  </text>
+  <image x="691.425" y="379.795" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA58AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA58AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="690.637" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA58AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA58AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="728.637" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="438.879" y="97.667" font-size="15">JEA10</text>
+  <text x="529.818" y="97.667" font-size="15">JEA20</text>
+  <image x="512.697" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea20&quot;)</rt:event>
+  </image>
+  <image x="603.758" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea30&quot;)</rt:event>
+  </image>
+  <text x="621.364" y="97.667" font-size="15">JEA30</text>
+  <text x="709.303" y="97.667" font-size="15">JEA40</text>
+  <image x="693.182" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+  </image>
+  <image x="422.273" y="128.483" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea10&quot;)</rt:event>
+  </image>
+  <line x1="464.182" y1="457" x2="737.424" y2="457" stroke="black" stroke-width="3"/> 
+  <text x="507.273" y="586.97" font-size="15">10JEA72<tspan x="507.273" dy="15">AC001</tspan>
+  </text>
+  <image x="674.424" y="514.576" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <text x="600.637" y="57.5454" font-size="15" text-anchor="middle">Нижний пробоотборник датчиков<tspan x="600.637" dy="15">оперативного контроля уровня в ПГ</tspan>
+  </text>
+  <line x1="886.727" y1="526.455" x2="1067.03" y2="523.424" stroke="black" stroke-width="3"/> 
+  <line x1="981.485" y1="456.091" x2="981.485" y2="590" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1283.06,-28.3621 1296.44,-20.7181 1296.44,-36.0051 1283.06,-28.3621" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="835.485" y="512.546" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <line x1="829.485" y1="633.786" x2="829.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="769.818" y="203.879" font-size="15">11JEA61<tspan x="769.818" dy="15">AA801</tspan>
+  </text>
+  <text x="769.818" y="356.637" font-size="15">12JEA61<tspan x="769.818" dy="15">AA802</tspan>
+  </text>
+  <image x="805.273" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA61AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA61AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="804.485" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA61AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA61AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="843.485" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="919.485" y1="637.136" x2="919.485" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="859.788" y="203.879" font-size="15">11JEA62<tspan x="859.788" dy="15">AA801</tspan>
+  </text>
+  <text x="857.788" y="356.637" font-size="15">12JEA62<tspan x="857.788" dy="15">AA802</tspan>
+  </text>
+  <image x="895.303" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA62AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA62AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="895.515" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA62AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA62AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="932.515" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1009.48" y1="635.796" x2="1009.48" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="948.273" y="203.879" font-size="15">11JEA63<tspan x="948.273" dy="15">AA801</tspan>
+  </text>
+  <text x="948.273" y="356.637" font-size="15">12JEA63<tspan x="948.273" dy="15">AA802</tspan>
+  </text>
+  <image x="985.364" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA63AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA63AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="984.576" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA63AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA63AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1023.58" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1099.48" y1="633.786" x2="1099.48" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1038.24" y="203.879" font-size="15">11JEA64<tspan x="1038.24" dy="15">AA801</tspan>
+  </text>
+  <text x="1038.24" y="356.637" font-size="15">12JEA64<tspan x="1038.24" dy="15">AA802</tspan>
+  </text>
+  <image x="1075.43" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA64AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA64AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1074.64" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA64AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA64AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1112.64" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="822.879" y="96.1518" font-size="15">JEA10</text>
+  <text x="913.818" y="96.1518" font-size="15">JEA20</text>
+  <image x="896.697" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea20&quot;)</rt:event>
+  </image>
+  <image x="987.758" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea30&quot;)</rt:event>
+  </image>
+  <text x="1005.36" y="96.1518" font-size="15">JEA30</text>
+  <text x="1093.3" y="96.1518" font-size="15">JEA40</text>
+  <image x="1077.18" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+  </image>
+  <image x="806.273" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea10&quot;)</rt:event>
+  </image>
+  <line x1="848.182" y1="457" x2="1121.42" y2="457" stroke="black" stroke-width="3"/> 
+  <text x="887.273" y="585.455" font-size="15">10JEA73<tspan x="887.273" dy="15">AC001</tspan>
+  </text>
+  <image x="1058.42" y="513.061" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <text x="984.637" y="56.0302" font-size="15" text-anchor="middle">Верхний пробоотборник<tspan x="984.637" dy="15">индикаторов уровня в ПГ</tspan>
+  </text>
+  <line x1="1271.94" y1="526.455" x2="1452.24" y2="523.424" stroke="black" stroke-width="3"/> 
+  <line x1="1366.7" y1="456.091" x2="1366.7" y2="590" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1283.06,356.85 1296.44,364.494 1296.44,349.207 1283.06,356.85" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1220.7" y="512.546" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <line x1="1214.7" y1="633.787" x2="1214.7" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1155.03" y="203.879" font-size="15">11JEA65<tspan x="1155.03" dy="15">AA801</tspan>
+  </text>
+  <text x="1155.03" y="356.637" font-size="15">12JEA65<tspan x="1155.03" dy="15">AA802</tspan>
+  </text>
+  <image x="1190.48" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA65AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA65AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1189.7" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA65AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA65AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1228.7" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1304.7" y1="637.137" x2="1304.7" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1245" y="203.879" font-size="15">11JEA66<tspan x="1245" dy="15">AA801</tspan>
+  </text>
+  <text x="1243" y="356.637" font-size="15">12JEA66<tspan x="1243" dy="15">AA802</tspan>
+  </text>
+  <image x="1280.52" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA66AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA66AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1280.73" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA66AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA66AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1317.73" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1394.7" y1="635.797" x2="1394.7" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1333.48" y="203.879" font-size="15">11JEA67<tspan x="1333.48" dy="15">AA801</tspan>
+  </text>
+  <text x="1333.48" y="356.637" font-size="15">12JEA67<tspan x="1333.48" dy="15">AA802</tspan>
+  </text>
+  <image x="1370.58" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA67AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA67AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1369.79" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA67AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA67AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1408.79" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1484.7" y1="633.787" x2="1484.7" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1423.45" y="203.879" font-size="15">11JEA68<tspan x="1423.45" dy="15">AA801</tspan>
+  </text>
+  <text x="1423.45" y="356.637" font-size="15">12JEA68<tspan x="1423.45" dy="15">AA802</tspan>
+  </text>
+  <image x="1460.64" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA68AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA68AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1459.85" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA68AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA68AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1497.85" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1208.09" y="96.1519" font-size="15">JEA10</text>
+  <text x="1299.03" y="96.1519" font-size="15">JEA20</text>
+  <image x="1281.91" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea20&quot;)</rt:event>
+  </image>
+  <image x="1372.97" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea30&quot;)</rt:event>
+  </image>
+  <text x="1390.58" y="96.1519" font-size="15">JEA30</text>
+  <text x="1478.52" y="96.1519" font-size="15">JEA40</text>
+  <image x="1462.39" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+  </image>
+  <image x="1191.48" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;jea10&quot;)</rt:event>
+  </image>
+  <line x1="1234.39" y1="457" x2="1507.64" y2="457" stroke="black" stroke-width="3"/> 
+  <text x="1272.48" y="585.455" font-size="15">10JEA74<tspan x="1272.48" dy="15">AC001</tspan>
+  </text>
+  <image x="1443.64" y="513.061" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <text x="1369.85" y="56.0302" font-size="15" text-anchor="middle">Нижнний пробоотборник<tspan x="1369.85" dy="15">индикаторов уровня в ПГ</tspan>
+  </text>
+  <line x1="1655.64" y1="526.455" x2="1835.94" y2="523.424" stroke="black" stroke-width="3"/> 
+  <line x1="1750.39" y1="456.091" x2="1750.39" y2="590" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1283.06,740.547 1296.44,748.191 1296.44,732.904 1283.06,740.547" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1604.39" y="512.546" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <line x1="1598.39" y1="633.786" x2="1598.39" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1538.73" y="203.879" font-size="15">11JEA91<tspan x="1538.73" dy="15">AA801</tspan>
+  </text>
+  <text x="1538.73" y="356.637" font-size="15">12JEA91<tspan x="1538.73" dy="15">AA802</tspan>
+  </text>
+  <image x="1574.18" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA91AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA91AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1573.39" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA91AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA91AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1612.39" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1688.39" y1="637.136" x2="1688.39" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1628.7" y="203.879" font-size="15">11JEA92<tspan x="1628.7" dy="15">AA801</tspan>
+  </text>
+  <text x="1626.7" y="356.637" font-size="15">12JEA92<tspan x="1626.7" dy="15">AA802</tspan>
+  </text>
+  <image x="1664.21" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA92AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA92AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1664.42" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA92AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA92AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1701.42" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1778.39" y1="635.796" x2="1778.39" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1717.18" y="203.879" font-size="15">11JEA93<tspan x="1717.18" dy="15">AA801</tspan>
+  </text>
+  <text x="1717.18" y="356.637" font-size="15">12JEA93<tspan x="1717.18" dy="15">AA802</tspan>
+  </text>
+  <image x="1754.27" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA93AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA93AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1753.49" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA93AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA93AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1792.49" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1868.39" y1="633.786" x2="1868.39" y2="426" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1807.15" y="203.879" font-size="15">11JEA94<tspan x="1807.15" dy="15">AA801</tspan>
+  </text>
+  <text x="1807.15" y="356.637" font-size="15">12JEA94<tspan x="1807.15" dy="15">AA802</tspan>
+  </text>
+  <image x="1844.33" y="378.28" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>12JEA94AA802</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEA94AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1843.55" y="226" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>11JEA94AA801</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEA94AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1881.55" y="305.546" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1591.79" y="96.1518" font-size="15">LBA10</text>
+  <text x="1682.73" y="96.1518" font-size="15">LBA20</text>
+  <image x="1665.61" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lba10_40&quot;)</rt:event>
+  </image>
+  <image x="1756.67" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lba10_40&quot;)</rt:event>
+  </image>
+  <text x="1774.27" y="96.1518" font-size="15">LBA30</text>
+  <text x="1862.21" y="96.1518" font-size="15">LBA40</text>
+  <image x="1846.09" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lba10_40&quot;)</rt:event>
+  </image>
+  <image x="1575.18" y="126.968" width="85" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lba10_40&quot;)</rt:event>
+  </image>
+  <line x1="1618.09" y1="457" x2="1891.33" y2="457" stroke="black" stroke-width="3"/> 
+  <text x="1654.18" y="585.455" font-size="15">10JEA90<tspan x="1654.18" dy="15">AC001</tspan>
+  </text>
+  <image x="1827.33" y="513.061" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kaa&quot;)</rt:event>
+  </image>
+  <text x="1753.55" y="56.0302" font-size="15" text-anchor="middle">Пробоотборники на<tspan x="1753.55" dy="15">паропроводах от ПГ</tspan>
+  </text>
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="894.151,345.335 907.531,352.979 907.531,337.692 894.151,345.335" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="894.151,469.577 907.531,477.221 907.531,461.934 894.151,469.577" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="894.151,597.365 907.531,605.009 907.531,589.722 894.151,597.365" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="894.151,722.608 907.531,730.252 907.531,714.965 894.151,722.608" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1508.61" y="967.545" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab&quot;)</rt:event>
+  </image>
+  <line x1="31" y1="616" x2="1880.06" y2="616" stroke="black" stroke-width="3"/> 
+  <g transform="scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="1627.29" y="1559.73" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="1703.05" y1="1573.36" x2="1751.54" y2="1597.61" stroke="black" stroke-width="3"/> 
+      <line x1="1656.76" y1="1653.49" x2="1705.25" y2="1677.74" stroke="black" stroke-width="3"/> 
+      <line x1="1750.02" y1="1597.61" x2="1654.57" y2="1653.67" stroke="black" stroke-width="3"/> 
+      <line x1="1704.23" y1="1677.14" x2="1704.23" y2="1692.14" stroke="black" stroke-width="3"/> 
+      <line x1="1704.38" y1="1560.29" x2="1704.38" y2="1575.29" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <g transform="scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="1087.51" y="1560.46" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="1163.27" y1="1574.09" x2="1211.76" y2="1598.34" stroke="black" stroke-width="3"/> 
+      <line x1="1116.98" y1="1654.22" x2="1165.47" y2="1678.47" stroke="black" stroke-width="3"/> 
+      <line x1="1210.24" y1="1598.34" x2="1114.79" y2="1654.4" stroke="black" stroke-width="3"/> 
+      <line x1="1164.45" y1="1677.87" x2="1164.45" y2="1692.87" stroke="black" stroke-width="3"/> 
+      <line x1="1164.6" y1="1561.02" x2="1164.6" y2="1576.02" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <g transform="scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="543.45" y="1561.14" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="619.21" y1="1574.77" x2="667.7" y2="1599.02" stroke="black" stroke-width="3"/> 
+      <line x1="572.92" y1="1654.9" x2="621.41" y2="1679.15" stroke="black" stroke-width="3"/> 
+      <line x1="666.18" y1="1599.02" x2="570.73" y2="1655.08" stroke="black" stroke-width="3"/> 
+      <line x1="620.39" y1="1678.55" x2="620.39" y2="1693.55" stroke="black" stroke-width="3"/> 
+      <line x1="620.54" y1="1561.7" x2="620.54" y2="1576.7" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <g transform="scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="2.94019" y="1561.14" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="78.7002" y1="1574.77" x2="127.19" y2="1599.02" stroke="black" stroke-width="3"/> 
+      <line x1="32.4102" y1="1654.9" x2="80.9001" y2="1679.15" stroke="black" stroke-width="3"/> 
+      <line x1="125.67" y1="1599.02" x2="30.22" y2="1655.08" stroke="black" stroke-width="3"/> 
+      <line x1="79.8801" y1="1678.55" x2="79.8801" y2="1693.55" stroke="black" stroke-width="3"/> 
+      <line x1="80.03" y1="1561.7" x2="80.03" y2="1576.7" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <g>
+    <line x1="32" y1="576.212" x2="32" y2="617.121" stroke="black" stroke-width="3"/> 
+    <line x1="6.0303" y1="575" x2="33.303" y2="575" stroke="black" stroke-width="3"/> 
+  </g>
+  <g transform="flipX(1856.24)">
+    <line x1="1832.7" y1="576.212" x2="1832.7" y2="617.121" stroke="black" stroke-width="3"/> 
+    <line x1="1806.73" y1="575" x2="1834.01" y2="575" stroke="black" stroke-width="3"/> 
+  </g>
+  <line x1="982.758" y1="614.697" x2="982.758" y2="655.606" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1211.39,-26.362 1224.77,-18.718 1224.77,-34.005 1211.39,-26.362" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="920.152" y="697.424" font-size="15">10JEA71BB001</text>
+  <image x="1507.42" y="881.065" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 8.19597e-005 7.03902e-005) flipX(-2.64887e-005)">
+    <title>&quot;10JEA80AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEA80AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+</svg>

@@ -1,0 +1,419 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="pgb_tzb">
+  <title>Защиты PGB</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod lcq_tzb&#10;RMod fak_tzb" revision="4.1"/> 
+  <rect x="75" y="26" width="1775" height="899" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">PGB_TZB</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1151" y1="26" x2="1151" y2="76" stroke="black"/> 
+  <line x1="1501" y1="26" x2="1501" y2="76" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="826" y1="76" x2="826" y2="26" stroke="black"/> 
+  <line x1="125.743" y1="99.773" x2="1850.74" y2="99.773" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20PGB50EY001 Формирование команды на отключение насоса 20PGB50AP001</text>
+  <text x="95.3938" y="93.9578" fill="black" font-size="15">1</text>
+  <image x="925" y="400" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20PGB50CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="125" y1="26.5908" x2="125" y2="925" stroke="black"/> 
+  <image x="1312.58" y="403.591" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZM01&quot;"/> 
+  </image>
+  <line x1="525" y1="380" x2="525" y2="635" stroke="black"/> 
+  <image x="1675" y="405" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV51&quot;"/> 
+  </image>
+  <image x="250" y="125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB50CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="628" y="134.5" fill="black" font-size="15">P ВСАС 20PGB50AP001<tspan x="628" dy="15">&lt;0 МПА</tspan>
+  </text>
+  <text x="580.515" y="412.379" fill="black" font-size="15">P ВСАС 20PGB50AP002<tspan x="580.515" dy="15">&lt;0 МПА</tspan>
+  </text>
+  <line x1="125" y1="660" x2="1850" y2="660" stroke="black"/> 
+  <line x1="75" y1="355" x2="1850" y2="355" stroke="black"/> 
+  <line x1="125" y1="380" x2="1850" y2="380" stroke="black"/> 
+  <text x="94.4545" y="373.197" fill="black" font-size="15">2</text>
+  <text x="132.818" y="371.5" fill="black" font-size="15" font-weight="700">20PGB50EY002 Формирование команды на отключение насоса 20PGB50AP002</text>
+  <image x="274.885" y="403.591" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB50CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="921.732" y="122.424" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20PGB50CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1313.73" y="124.924" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZM01&quot;"/> 
+  </image>
+  <image x="1675" y="125" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV51&quot;"/> 
+  </image>
+  <line x1="525" y1="100" x2="525" y2="355" stroke="black"/> 
+  <line x1="825" y1="380" x2="825" y2="635" stroke="black"/> 
+  <line x1="825.985" y1="99" x2="825" y2="355" stroke="black"/> 
+  <line x1="1150" y1="380" x2="1150" y2="635" stroke="black"/> 
+  <line x1="1150.95" y1="100" x2="1150" y2="355" stroke="black"/> 
+  <line x1="1500" y1="380" x2="1500" y2="635" stroke="black"/> 
+  <line x1="1500" y1="100" x2="1500" y2="355" stroke="black"/> 
+  <image x="925" y="686" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20PGB50CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1315" y="686" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZM01&quot;"/> 
+  </image>
+  <line x1="525" y1="660" x2="525" y2="925" stroke="black"/> 
+  <image x="1675" y="686" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV51&quot;"/> 
+  </image>
+  <text x="550" y="696.5" fill="black" font-size="15">P ВСАС 20PGB50AP003<tspan x="550" dy="15">&lt;0 МПА</tspan>
+  </text>
+  <line x1="225" y1="736" x2="1850" y2="736" stroke="black"/> 
+  <text x="94.4545" y="656.924" fill="black" font-size="15">3</text>
+  <text x="132.97" y="653.652" fill="black" font-size="15" font-weight="700">20PGB50EY003 Формирование команды на отключение насоса 20PGB50AP003</text>
+  <image x="250" y="686" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB50CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="825" y1="660" x2="825" y2="925" stroke="black"/> 
+  <line x1="1150" y1="660" x2="1150" y2="925" stroke="black"/> 
+  <line x1="1500" y1="660" x2="1500" y2="925" stroke="black"/> 
+  <image x="475" y="125" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20PGB50CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CP001_XH56&quot;"/> 
+  </image>
+  <image x="474" y="404.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20PGB50CP002_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CP002_XH56&quot;"/> 
+  </image>
+  <image x="474" y="684.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20PGB50CP003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CP003_XH56&quot;"/> 
+  </image>
+  <line x1="75.0035" y1="75" x2="1850" y2="75" stroke="black"/> 
+  <line x1="225" y1="175" x2="1850" y2="175" stroke="black"/> 
+  <image x="253.125" y="185" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT911&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT911&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="185" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT911_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT911_XH05&quot;"/> 
+  </image>
+  <text x="546" y="203" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="215" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT912&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT912&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="215" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT912_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT912_XH05&quot;"/> 
+  </image>
+  <text x="546" y="232.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="245" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT918&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT918&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="245" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT918_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT918_XH05&quot;"/> 
+  </image>
+  <text x="546" y="263.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="290" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT913&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT913&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="290" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT913_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT913_XH05&quot;"/> 
+  </image>
+  <text x="546" y="303.25" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <image x="253.125" y="320" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT914&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT914&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="320" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT914_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT914_XH05&quot;"/> 
+  </image>
+  <text x="546" y="336.75" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <line x1="225" y1="455" x2="1850" y2="455" stroke="black"/> 
+  <line x1="75" y1="635" x2="1850" y2="635" stroke="black"/> 
+  <image x="253.125" y="465" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT921&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT921&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="465" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT921_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT921_XH05&quot;"/> 
+  </image>
+  <text x="545" y="479" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="495" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT922&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT922&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="495" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT922_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT922_XH05&quot;"/> 
+  </image>
+  <text x="545" y="512.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="525" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT928&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT928&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="525" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT928_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT928_XH05&quot;"/> 
+  </image>
+  <text x="545" y="543.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="570" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT923&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT923&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="570" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT923_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT923_XH05&quot;"/> 
+  </image>
+  <text x="545" y="583.25" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <image x="253.125" y="600" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT924&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT924&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="600" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT924_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT924_XH05&quot;"/> 
+  </image>
+  <text x="545" y="616.75" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <image x="253.125" y="746" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT931&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT931&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="746" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT931_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT931_XH05&quot;"/> 
+  </image>
+  <text x="546" y="760" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="776" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT932&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT932&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="776" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT932_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT932_XH05&quot;"/> 
+  </image>
+  <text x="546" y="793.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="806" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT938&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT938&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="806" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT938_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT938_XH05&quot;"/> 
+  </image>
+  <text x="546" y="824.25" fill="black" font-size="15">T ПОДШИП ДВИГАТЕЛЯ &gt;90 C</text>
+  <image x="253.125" y="851" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT933&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT933&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="851" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT933_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT933_XH05&quot;"/> 
+  </image>
+  <text x="546" y="864.25" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <image x="253.125" y="881" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20PGB50CT934&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB50CT934&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="475" y="881" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50CT934_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50CT934_XH05&quot;"/> 
+  </image>
+  <text x="546" y="897.75" fill="black" font-size="15">T ПОДШИП НАСОСА &gt;90 C</text>
+  <line x1="225" y1="100" x2="225" y2="354" stroke="black"/> 
+  <line x1="225" y1="380" x2="225" y2="635" stroke="black"/> 
+  <line x1="225" y1="660" x2="225" y2="925" stroke="black"/> 
+  <image x="140" y="190" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(6.10352e-005) rotate(360 0 0) flipX(3.11235e-005) rotate(0 -0.00012207 -6.10352e-005)">
+    <title>&quot;20PGB50AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="175" y="275" fill="black" font-size="15" text-anchor="middle">20PGB50<tspan x="175" dy="15">AP001</tspan>
+  </text>
+  <image x="140.5" y="472" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(6.10352e-005) rotate(360 0 0) flipX(3.11235e-005) rotate(0 -0.00012207 -6.10352e-005)">
+    <title>&quot;20PGB50AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="175.5" y="557" fill="black" font-size="15" text-anchor="middle">20PGB50<tspan x="175.5" dy="15">AP002</tspan>
+  </text>
+  <image x="140.5" y="751" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(6.10352e-005) rotate(360 0 0) flipX(3.11235e-005) rotate(0 -0.00012207 -6.10352e-005)">
+    <title>&quot;20PGB50AP003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB50AP003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="175.5" y="836" fill="black" font-size="15" text-anchor="middle">20PGB50<tspan x="175.5" dy="15">AP003</tspan>
+  </text>
+  <image x="1675" y="185" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV03&quot;"/> 
+  </image>
+  <image x="1675" y="215" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV04&quot;"/> 
+  </image>
+  <image x="1675" y="245" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV10&quot;"/> 
+  </image>
+  <image x="1675" y="287" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV05&quot;"/> 
+  </image>
+  <image x="1675" y="317" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY001_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY001_ZV06&quot;"/> 
+  </image>
+  <image x="1676" y="464" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV03&quot;"/> 
+  </image>
+  <image x="1676" y="494" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV04&quot;"/> 
+  </image>
+  <image x="1676" y="524" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV10&quot;"/> 
+  </image>
+  <image x="1676" y="566" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV05&quot;"/> 
+  </image>
+  <image x="1676" y="596" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY002_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY002_ZV06&quot;"/> 
+  </image>
+  <image x="1676" y="749" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV03&quot;"/> 
+  </image>
+  <image x="1676" y="779" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV04&quot;"/> 
+  </image>
+  <image x="1676" y="809" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV10&quot;"/> 
+  </image>
+  <image x="1676" y="851" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV05&quot;"/> 
+  </image>
+  <image x="1676" y="881" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PGB50EY003_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PGB50EY003_ZV06&quot;"/> 
+  </image>
+</svg>

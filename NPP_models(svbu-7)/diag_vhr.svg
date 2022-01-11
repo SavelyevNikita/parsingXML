@@ -1,0 +1,1148 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:/RTS/\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="diag_vhr">
+  <title>ТЗиБ СВО</title>
+  <rt:model comment="Создано SVBU" modelversion="0.0.0.0"/> 
+  <text x="981" y="70" fill="black" font-size="28" text-anchor="middle">Параметры оборудования системы водно-химического режима</text>
+  <text x="1494.88"/> 
+  <text x="80.5" y="169" font-size="14">Передняя дверь</text>
+  <text x="89.5" y="217" font-size="14">Задняя дверь</text>
+  <text x="37" y="274.667" font-size="14">Температура в шкафу, C</text>
+  <text x="15" y="330.667" font-size="14">Напряжение на вводе №1 , В</text>
+  <text x="15" y="356.667" font-size="14">Напряжение на вводе №2 , В</text>
+  <text x="15" y="309.667" font-size="14" font-weight="700">Параметры сетевого напряжения</text>
+  <text x="14" y="386" font-size="14" font-weight="700">Параметры источников бесперебойного питания</text>
+  <text x="68.5" y="416.667" font-size="14">Режим работы ИБП</text>
+  <text x="99.5" y="455.667" font-size="14">U входа, В</text>
+  <text x="94" y="488.667" font-size="14">U выхода, В</text>
+  <text x="91" y="522.667" font-size="14">F выхода, Гц</text>
+  <text x="68.5" y="563" font-size="14">Состояние батареи</text>
+  <text x="6" y="605.667" font-size="14">Степень заряда батареи, %</text>
+  <text x="71.5" y="630.667" font-size="14">Время до полного<tspan x="71.5" dy="14">разряда, мин</tspan>
+  </text>
+  <image x="1744.88" y="910.849" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;axk-1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;AXK-1&quot;"/> 
+  </image>
+  <image x="1744.88" y="946.848" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроиспытаний и продувки датчиков КИП боросодержащей водой</title>
+    <rt:event type="OnClick">LoadNew(&quot;axk-2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;AXK-2&quot;"/> 
+  </image>
+  <image x="1680.87" y="-728.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20CMH01EK011_XM42 &quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK011_XM42 1&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;On-line&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Of-line&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1687.53" y="-721.667" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20CMH01EK011_XM42 &quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK011_XM42 1&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;On-line&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Of-line&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1680.87" y="-728.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20CMH01EK011_XM42 &quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK011_XM42 1&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;On-line&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Of-line&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1680.87" y="-728.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20CMH01EK011_XM42 &quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK011_XM42 1&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;On-line&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Of-line&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1680.87" y="-728.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20CMH01EK011_XM42 &quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK011_XM42 1&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;On-line&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Of-line&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="549.137" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK001_ZV01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK001_ZV01&quot;"/> 
+  </image>
+  <image x="603.894" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK001_ZV02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK001_ZV02&quot;"/> 
+  </image>
+  <image x="831.652" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK001_ZV03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK001_ZV03&quot;"/> 
+  </image>
+  <image x="887.622" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK001_ZV04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK001_ZV04&quot;"/> 
+  </image>
+  <image x="123.955" y="715.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK001_ZV05&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK001_ZV05 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ ВКЛ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;СППИ ВЫКЛ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="255.015" y="715.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK001_ZV06&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK001_ZV06 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ исправно&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Неисправность СППИ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="673.591" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK002_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK002_XG04&quot;"/> 
+  </image>
+  <image x="725.197" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK003_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK003_XG04&quot;"/> 
+  </image>
+  <image x="1131.26" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH07&quot;"/> 
+  </image>
+  <image x="988.137" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP001_XH03&quot;"/> 
+  </image>
+  <image x="1053.47" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP001_XH56&quot;"/> 
+  </image>
+  <image x="1196.81" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH57&quot;"/> 
+  </image>
+  <text x="1126.14" y="676.909" font-size="14" font-weight="600">Расход О2</text>
+  <text x="674.167" y="676.909" font-size="14" font-weight="600">Протечка</text>
+  <text x="530.531" y="676.909" font-size="14" font-weight="600">Неисправность<tspan x="530.531" dy="14">кондуктомера</tspan>
+  </text>
+  <text x="551.652" y="706.576" font-size="14" font-weight="600">А1</text>
+  <text x="605.409" y="706.576" font-size="14" font-weight="600">А2</text>
+  <text x="833.167" y="706.576" font-size="14" font-weight="600">Н2</text>
+  <text x="889.137" y="706.576" font-size="14" font-weight="600">О2</text>
+  <text x="991.137" y="676.909" font-size="14" font-weight="600">Давление</text>
+  <text x="1049.89" y="706.576" font-size="14" font-weight="600">min</text>
+  <image x="1276.2" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH08</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH08&quot;"/> 
+  </image>
+  <image x="1343.38" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH58&quot;"/> 
+  </image>
+  <text x="1276.14" y="676.909" font-size="14" font-weight="600">Расход Н2</text>
+  <text x="1264.14" y="706.576" font-size="14" font-weight="600">&gt;max</text>
+  <text x="1333.26" y="706.576" font-size="14" font-weight="600">&lt;min</text>
+  <image x="1422" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH03&quot;"/> 
+  </image>
+  <image x="1498" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF001_XH56&quot;"/> 
+  </image>
+  <text x="1410" y="677.243" font-size="14" font-weight="600">Расход пробы</text>
+  <text x="1408.52" y="706.576" font-size="14" font-weight="600">&gt;max</text>
+  <text x="1484.27" y="706.576" font-size="14" font-weight="600">&lt;min</text>
+  <image x="1574" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF002_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF002_XH07&quot;"/> 
+  </image>
+  <image x="1642.36" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF002_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF002_XH57&quot;"/> 
+  </image>
+  <text x="1565" y="676.909" font-size="14" font-weight="600">Расход<tspan x="1565" dy="14">на хроматогр.</tspan>
+  </text>
+  <text x="1560.03" y="706.576" font-size="14" font-weight="600">&gt;max</text>
+  <text x="1631.24" y="706.576" font-size="14" font-weight="600">&lt;min</text>
+  <text x="1699.03" y="676.909" font-size="14" font-weight="600">Темп.<tspan x="1699.03" dy="14">пробы</tspan>
+<tspan x="1699.03" dy="14">max</tspan>
+  </text>
+  <image x="1710.12" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CT001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CT001_XH03&quot;"/> 
+  </image>
+  <image x="549.137" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK006_ZV01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK006_ZV01&quot;"/> 
+  </image>
+  <image x="603.894" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK006_ZV02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK006_ZV02&quot;"/> 
+  </image>
+  <image x="831.652" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK006_ZV03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK006_ZV03&quot;"/> 
+  </image>
+  <image x="887.622" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK006_ZV04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK006_ZV04&quot;"/> 
+  </image>
+  <image x="123.955" y="745.349" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK006_ZV05&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK006_ZV05 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ ВКЛ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;СППИ ВЫКЛ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="255.015" y="745.349" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK006_ZV06&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK006_ZV06 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ исправно&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Неисправность СППИ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="673.591" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK007_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK007_XG04&quot;"/> 
+  </image>
+  <image x="725.197" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK008_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK008_XG04&quot;"/> 
+  </image>
+  <image x="988.137" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP002_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP002_XH03&quot;"/> 
+  </image>
+  <image x="1053.47" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP002_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP002_XH56&quot;"/> 
+  </image>
+  <image x="1131.26" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH07&quot;"/> 
+  </image>
+  <image x="1196.81" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH57&quot;"/> 
+  </image>
+  <image x="1276.2" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH08</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH08&quot;"/> 
+  </image>
+  <image x="1343.38" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH58&quot;"/> 
+  </image>
+  <image x="1422" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH03&quot;"/> 
+  </image>
+  <image x="1498" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF003_XH56&quot;"/> 
+  </image>
+  <image x="1710.12" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CT002_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CT002_XH03&quot;"/> 
+  </image>
+  <image x="1574" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF004_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF004_XH07&quot;"/> 
+  </image>
+  <image x="1642.36" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF004_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF004_XH57&quot;"/> 
+  </image>
+  <image x="549.137" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK011_ZV01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK011_ZV01&quot;"/> 
+  </image>
+  <image x="603.894" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK011_ZV02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK011_ZV02&quot;"/> 
+  </image>
+  <image x="831.652" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK011_ZV03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK011_ZV03&quot;"/> 
+  </image>
+  <image x="887.622" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK011_ZV04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK011_ZV04&quot;"/> 
+  </image>
+  <image x="123.955" y="775.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK011_ZV05&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK011_ZV05 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ ВКЛ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;СППИ ВЫКЛ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="255.015" y="775.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK011_ZV06&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK011_ZV06 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ исправно&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Неисправность СППИ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="673.591" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK012_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK012_XG04&quot;"/> 
+  </image>
+  <image x="725.197" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK013_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK013_XG04&quot;"/> 
+  </image>
+  <image x="988.137" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP003_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP003_XH03&quot;"/> 
+  </image>
+  <image x="1053.47" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CP003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CP003_XH56&quot;"/> 
+  </image>
+  <image x="1131.26" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH07&quot;"/> 
+  </image>
+  <image x="1196.81" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH57&quot;"/> 
+  </image>
+  <image x="1276.2" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH08</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH08&quot;"/> 
+  </image>
+  <image x="1343.38" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH58&quot;"/> 
+  </image>
+  <image x="1422" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH03&quot;"/> 
+  </image>
+  <image x="1498" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF005_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF005_XH56&quot;"/> 
+  </image>
+  <image x="1710.12" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CT003_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CT003_XH03&quot;"/> 
+  </image>
+  <image x="1574" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF006_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF006_XH07&quot;"/> 
+  </image>
+  <image x="1642.36" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70CF006_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70CF006_XH57&quot;"/> 
+  </image>
+  <image x="123.955" y="803.447" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK001_ZV05&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK001_ZV05 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ ВКЛ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;СППИ ВЫКЛ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="255.015" y="803.447" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK001_ZV06&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK001_ZV06 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ исправно&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Неисправность СППИ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="123.955" y="833.492" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK006_ZV05&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK006_ZV05 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ ВКЛ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;СППИ ВЫКЛ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="255.015" y="833.492" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK006_ZV06&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK006_ZV06 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;СППИ исправно&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Неисправность СППИ&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="816.137" y="676.909" font-size="14" font-weight="600">Неисправность<tspan x="816.137" dy="14">датчика</tspan>
+  </text>
+  <text x="668.106" y="706.576" font-size="14" font-weight="600">УПП</text>
+  <text x="726.713" y="706.576" font-size="14" font-weight="600">УИ</text>
+  <text x="982.198" y="706.576" font-size="14" font-weight="600">max</text>
+  <text x="1189.32" y="706.576" font-size="14" font-weight="600">&lt;min</text>
+  <text x="1119.62" y="706.576" font-size="14" font-weight="600">&gt;max</text>
+  <image x="549.137" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK001_ZV01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK001_ZV01&quot;"/> 
+  </image>
+  <image x="603.894" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK001_ZV02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK001_ZV02&quot;"/> 
+  </image>
+  <image x="831.652" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK001_ZV03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK001_ZV03&quot;"/> 
+  </image>
+  <image x="887.622" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK001_ZV04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK001_ZV04&quot;"/> 
+  </image>
+  <image x="673.591" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK002_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK002_XG04&quot;"/> 
+  </image>
+  <image x="725.197" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK003_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK003_XG04&quot;"/> 
+  </image>
+  <image x="988.137" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CP001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CP001_XH03&quot;"/> 
+  </image>
+  <image x="1053.47" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CP001_XH56&quot;"/> 
+  </image>
+  <image x="1131.26" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH07&quot;"/> 
+  </image>
+  <image x="1196.81" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH57&quot;"/> 
+  </image>
+  <image x="1276.7" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH08</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH08&quot;"/> 
+  </image>
+  <image x="1343.88" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH58&quot;"/> 
+  </image>
+  <image x="1422.5" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH03&quot;"/> 
+  </image>
+  <image x="1498" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF001_XH56&quot;"/> 
+  </image>
+  <image x="1710.12" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CT001_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CT001_XH03&quot;"/> 
+  </image>
+  <image x="1574" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF002_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF002_XH07&quot;"/> 
+  </image>
+  <image x="1642.36" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF002_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF002_XH57&quot;"/> 
+  </image>
+  <image x="549.137" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK006_ZV01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK006_ZV01&quot;"/> 
+  </image>
+  <image x="603.894" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK006_ZV02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK006_ZV02&quot;"/> 
+  </image>
+  <image x="831.652" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK006_ZV03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK006_ZV03&quot;"/> 
+  </image>
+  <image x="887.622" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK006_ZV04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK006_ZV04&quot;"/> 
+  </image>
+  <image x="673.591" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK007_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK007_XG04&quot;"/> 
+  </image>
+  <image x="725.197" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK008_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK008_XG04&quot;"/> 
+  </image>
+  <image x="988.137" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CP002_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CP002_XH03&quot;"/> 
+  </image>
+  <image x="1053.47" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CP002_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CP002_XH56&quot;"/> 
+  </image>
+  <image x="1131.26" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH07&quot;"/> 
+  </image>
+  <image x="1196.81" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH57&quot;"/> 
+  </image>
+  <image x="1276.7" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH08</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH08&quot;"/> 
+  </image>
+  <image x="1343.88" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH58&quot;"/> 
+  </image>
+  <image x="1422.5" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH03&quot;"/> 
+  </image>
+  <image x="1498" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF003_XH56&quot;"/> 
+  </image>
+  <image x="1710.12" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CT002_XH03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CT002_XH03&quot;"/> 
+  </image>
+  <image x="1574" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF004_XH07</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF004_XH07&quot;"/> 
+  </image>
+  <image x="1642.36" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80CF004_XH57</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80CF004_XH57&quot;"/> 
+  </image>
+  <image x="386.5" y="715.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK004_XG04&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK004_XG04 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;ПУСК&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Grey&quot;"/> 
+  </image>
+  <text x="374" y="676.909" font-size="14" font-weight="600">Включение<tspan x="374" dy="14">режима</tspan>
+<tspan x="374" dy="14">Контроль пробы</tspan>
+  </text>
+  <image x="386.5" y="745.349" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK009_XG04&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK009_XG04 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;ПУСК&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Grey&quot;"/> 
+  </image>
+  <image x="386.5" y="775.257" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA70EK014_XG04&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA70EK014_XG04 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;ПУСК&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Grey&quot;"/> 
+  </image>
+  <image x="386.5" y="803.447" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK004_XG04&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK004_XG04 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;ПУСК&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Grey&quot;"/> 
+  </image>
+  <image x="386.5" y="833.492" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KUA80EK009_XG04&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20KUA80EK009_XG04 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;ПУСК&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Grey&quot;"/> 
+  </image>
+  <text x="1772" y="676.909" font-size="14" font-weight="600">Разность<tspan x="1772" dy="14">удел.</tspan>
+<tspan x="1772" dy="14">электропр.</tspan>
+  </text>
+  <image x="1796.18" y="715.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK005_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK005_XG04&quot;"/> 
+  </image>
+  <image x="1796.18" y="745.349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK010_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK010_XG04&quot;"/> 
+  </image>
+  <image x="1796.18" y="775.257" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA70EK015_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA70EK015_XG04&quot;"/> 
+  </image>
+  <image x="1796.18" y="803.447" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK005_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK005_XG04&quot;"/> 
+  </image>
+  <image x="1796.18" y="833.492" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KUA80EK001_XG04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KUA80EK001_XG04&quot;"/> 
+  </image>
+  <text x="0" y="731.667" font-size="14" font-weight="500">20UKC22R005</text>
+  <text x="0" y="763.667" font-size="14" font-weight="500">20UKC22R005</text>
+  <text x="0" y="792.667" font-size="14" font-weight="500">20UKC22R005</text>
+  <text x="0" y="821.667" font-size="14" font-weight="500">20UKC22R005</text>
+  <text x="2" y="849.667" font-size="14" font-weight="500">20UKC22R005</text>
+  <g>
+    <text x="513.651" y="104.667" font-size="14" font-weight="600">APM BXP №4<tspan x="513.651" dy="14">20 CMH 14</tspan>
+    </text>
+    <image x="511" y="143.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH14EK002_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH14EK002_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="511" y="196" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH14EK003_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH14EK003_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="486" y="250.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CT001_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CT001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;T=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    </image>
+    <image x="486" y="434.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CE001_XQ02&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CE001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ02&quot;"/> 
+    </image>
+    <image x="486" y="467.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CE002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CE002&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+    </image>
+    <image x="486" y="501.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CE003_XQ08&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CE003&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ08&quot;"/> 
+    </image>
+    <image x="486" y="580.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CE004_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CE004&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="486" y="615.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH14CK001_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH14CK001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="506" y="311.667" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH14EK001_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH14EK001_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="511" y="395.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH14GR001_ZV02&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH14GR001_ZV02 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;От батарей&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;От сети&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="511" y="538.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH14GR002_ZV04&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH14GR002_ZV04 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Разряжена&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Нормально&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <text x="513.651" y="135.167" font-size="14" font-weight="500">20UKC34R019</text>
+  </g>
+  <g>
+    <text x="922.167" y="104.667" id="SVGText3" font-size="14" font-weight="600">СЕРВЕР BXP<tspan x="922.167" dy="14">20 CMH 02</tspan>
+    </text>
+    <image x="918" y="143.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH02EK002_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH02EK002_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="918" y="196" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH02EK003_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH02EK003_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="893" y="250.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH02CT001_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH02CT001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;T=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    </image>
+    <image x="893" y="434.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE001_XQ02&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ02&quot;"/> 
+    </image>
+    <image x="893" y="467.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE002&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+    </image>
+    <image x="893" y="501.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE003_XQ08&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE003&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ08&quot;"/> 
+    </image>
+    <image x="893" y="580.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CT004_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE004&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="893" y="615.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CK001_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH02CK001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="913" y="311.667" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH02EK001_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH02EK001_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="913" y="346" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH02EK004_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH02EK004_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="918" y="393.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH02GR001_ZV02&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH02GR001_ZV02 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;От батарей&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;От сети&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="918" y="538.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01GR003_ZV04&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01GR003_ZV04 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Разряжена&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Нормально&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <text x="920.652" y="135.167" font-size="14" font-weight="500">20UKC29R037</text>
+  </g>
+  <g>
+    <text x="1130.58" y="104.667" id="SVGText19" font-size="14" font-weight="600">ШЛЮЗ ВХР<tspan x="1130.58" dy="14">20 CMH 01</tspan>
+    </text>
+    <image x="1119.59" y="143.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01EK002_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK002_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="1119.59" y="196" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01EK003_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK003_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="1094.59" y="250.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CT001_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CT001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;T=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    </image>
+    <image x="1094.59" y="434.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE005_XQ02&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE005&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ02&quot;"/> 
+    </image>
+    <image x="1094.59" y="467.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE006_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE006&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+    </image>
+    <image x="1094.59" y="501.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE007_XQ08&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE007&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ08&quot;"/> 
+    </image>
+    <image x="1094.59" y="580.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CE008_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CE008&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="1094.59" y="615.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH01CK002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH01CK002&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="1114.59" y="311.667" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01EK001_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK001_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="1114.59" y="346" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01EK004_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01EK004_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="1119.59" y="393.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01GR001_ZV02&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01GR001_ZV02 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;От батарей&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;От сети&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="1119.59" y="538.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH01GR004_ZV04&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH01GR004_ZV04 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Разряжена&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Нормально&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <text x="1122.25" y="134.5" font-size="14" font-weight="500">20UKC29R037</text>
+  </g>
+  <g>
+    <text x="1349.48" y="118.939" id="SVGText310" font-size="14" font-weight="600">ШТК СППИ2</text>
+    <text x="1370.03" y="152.621" font-size="14">дверь</text>
+    <text x="1302.52" y="180.606" font-size="14">наличие напряжения</text>
+    <text x="1302.67" y="207.758" font-size="14">температура в шкафу</text>
+    <g>
+      <image x="1487.36" y="132.166" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+        <title>&quot;20CMH16EK002_XM42&quot;</title>
+        <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH16EK002_XM42 0&quot;"/> 
+        <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+        <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+        <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+        <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+      </image>
+      <image x="1538.88" y="191.666" width="25" height="25" xlink:href="bin_indicator.svg">
+        <title>20CMH16EK003</title>
+        <rt:dyn type="PointID" mode="constant" value="&quot;20CMH16EK003_XM42&quot;"/> 
+      </image>
+      <image x="1538.88" y="161.363" width="25" height="25" xlink:href="bin_indicator.svg">
+        <title>20CMH16EK001</title>
+        <rt:dyn type="PointID" mode="constant" value="&quot;20CMH16EK001_XM42&quot;"/> 
+      </image>
+      <text x="1517.73" y="118.939" font-size="14" font-weight="700">20 CMH 16</text>
+    </g>
+    <g>
+      <image x="1628.77" y="133.681" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+        <title>&quot;20CMH17EK002_XM42&quot;</title>
+        <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH17EK002_XM42 0&quot;"/> 
+        <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+        <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+        <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+        <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+      </image>
+      <image x="1680.29" y="193.181" width="25" height="25" xlink:href="bin_indicator.svg">
+        <title>20CMH17EK003</title>
+        <rt:dyn type="PointID" mode="constant" value="&quot;20CMH17EK003_XM42&quot;"/> 
+      </image>
+      <image x="1680.29" y="162.878" width="25" height="25" xlink:href="bin_indicator.svg">
+        <title>20CMH17EK001</title>
+        <rt:dyn type="PointID" mode="constant" value="&quot;20CMH17EK001_XM42&quot;"/> 
+      </image>
+      <text x="1659.14" y="120.454" font-size="14" font-weight="700">20 CMH 17</text>
+    </g>
+  </g>
+  <g>
+    <text x="311.652" y="104.667" font-size="14" font-weight="600">APM BXP №3<tspan x="311.652" dy="14">20 CMH 13</tspan>
+    </text>
+    <image x="309" y="142.5" width="125" height="26" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH13EK002_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH13EK002_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="309" y="196" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH13EK003_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH13EK003_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="284" y="250.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CT001_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CT001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;T=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    </image>
+    <image x="284" y="434.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CE001_XQ02&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CE001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ02&quot;"/> 
+    </image>
+    <image x="284" y="467.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CE002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CE002&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+    </image>
+    <image x="284" y="501.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CE003_XQ08&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CE003&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ08&quot;"/> 
+    </image>
+    <image x="284" y="580.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CE004_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CE004&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="284" y="615.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH13CK001_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH13CK001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="304" y="311.667" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH13EK001_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH13EK001_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="309" y="397.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH13GR001_ZV02&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH13GR001_ZV02 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;От батарей&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;От сети&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="309" y="538.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH13GR002_ZV04&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH13GR002_ZV04 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Разряжена&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Нормально&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <text x="310.894" y="135.167" font-size="14" font-weight="500">20UMX10R004</text>
+  </g>
+  <g>
+    <text x="718.152" y="104.667" font-size="14" font-weight="600">APM BXP №5<tspan x="718.152" dy="14">20 CMH 15</tspan>
+    </text>
+    <image x="715.5" y="143.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH15EK002_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH15EK002_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="715.5" y="196" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH15EK003_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH15EK003_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Закрыто&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Открыто&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="690.5" y="250.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CT001_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CT001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;T=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    </image>
+    <image x="690.5" y="434.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CE001_XQ02&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CE001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ02&quot;"/> 
+    </image>
+    <image x="690.5" y="467.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CE002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CE002&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;U=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+    </image>
+    <image x="690.5" y="501.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CE003_XQ08&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CE003&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F=&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ08&quot;"/> 
+    </image>
+    <image x="690.5" y="580.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CT004_XQ01&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CE004&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="690.5" y="615.5" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20CMH15CE002_XQ06&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20CMH15CK001&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ06&quot;"/> 
+      <rt:dyn type="ValueToTheCenter" mode="constant" value="true"/> 
+    </image>
+    <image x="710.5" y="311.667" width="135" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH15EK001_XM42&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH15EK001_XM42 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Отключено&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Под напряжением&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="715.5" y="393.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH15GR001_ZV02&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH15GR001_ZV02 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;От батарей&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;От сети&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <image x="715.5" y="538.5" width="125" height="25" xlink:href="bitwise_tablo_4bits.svg">
+      <title>&quot;20CMH15GR002_ZV04&quot;</title>
+      <rt:dyn type="PointID_1" mode="constant" value="&quot;20CMH15GR002_ZV04 0&quot;"/> 
+      <rt:dyn type="Text_0000" mode="constant" value="&quot;Разряжена&quot;"/> 
+      <rt:dyn type="Text_0001" mode="constant" value="&quot;Нормально&quot;"/> 
+      <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    </image>
+    <text x="718.152" y="135.167" font-size="14" font-weight="500">20UKC34R026</text>
+  </g>
+</svg>

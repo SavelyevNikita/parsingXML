@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" color="Col_BGSand" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="gcf40_fgu">
+  <rt:model modelversion="7.2.0.23" comment="Создано PAZDNIKOV\user 02.07.2013 14:02:23" />
+  <line x1="262" y1="70.5" x2="260" y2="70" />
+  <line x1="795.2" y1="173.8" x2="796" y2="172" />
+  <line x1="825.25" y1="168" x2="825" y2="168" />
+  <line x1="1515.5" y1="362.75" x2="1515.6" y2="362.75" />
+  <line x1="34.5" y1="609.5" x2="34.6" y2="609.5" />
+  <text x="475" y="75" font-size="30">ФГУ пуска, останова и регенерации фильтров второй ступени обессоливания</text>
+  <text x="125" y="625" font-size="15">Реагенты для регенерации</text>
+  <image x="125" y="175" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH101VL0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;" />
+  </image>
+  <image x="125" y="325" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf40ec001_m1-6&quot;" />
+  </image>
+  <text x="125" y="150" font-size="15">Фильтры 00GCF40,41AT001</text>
+  <text x="750" y="150" font-size="15">Фильтры 00GCF40,41AT002</text>
+  <text x="1375" y="150" font-size="15">Фильтры 00GCF40,41AT003</text>
+  <image x="125" y="270" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH102TE0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="TRUE" />
+  </image>
+  <image x="125" y="650" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33CH001&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <image x="125" y="700" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37CH001&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <text x="300" y="200" font-size="15">Режим фильтров 1-й цепочки</text>
+  <text x="300" y="275" font-size="15">
+    Подтвердить начало регенерации
+    <tspan x="300" dy="15">фильтров 1-й цепочки</tspan>
+  </text>
+  <text x="300" y="675" font-size="15">Задать объём едкого натра для регенерации</text>
+  <text x="300" y="725" font-size="15">Задать объём серной кислоты для регенерации</text>
+  <image x="1375" y="175" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH301VL0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;" />
+  </image>
+  <image x="1375" y="325" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf40ec003_m1-6&quot;" />
+  </image>
+  <image x="1375" y="270" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH302TE0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="TRUE" />
+  </image>
+  <text x="1550" y="200" font-size="15">Режим фильтров 3-й цепочки</text>
+  <text x="1550" y="275" font-size="15">
+    Подтвердить начало регенерации
+    <tspan x="1550" dy="15">фильтров 3-й цепочки</tspan>
+  </text>
+  <image x="750" y="175" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH201VL0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;" />
+  </image>
+  <image x="750" y="325" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf40ec002_m1-6&quot;" />
+  </image>
+  <image x="750" y="270" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40CH202TE0&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="TRUE" />
+  </image>
+  <text x="925" y="200" font-size="15">Режим фильтров 2-й цепочки</text>
+  <text x="925" y="275" font-size="15">
+    Подтвердить начало регенерации
+    <tspan x="925" dy="15">фильтров 2-й цепочки</tspan>
+  </text>
+  <g>
+    <text x="57.7501" y="196" font-size="15">Работа</text>
+    <text x="14" y="217.25" font-size="15">Рециркуляц.</text>
+  </g>
+  <g>
+    <text x="683" y="196" font-size="15">Работа</text>
+    <text x="639.25" y="217.25" font-size="15">Рециркуляц.</text>
+  </g>
+  <g>
+    <text x="1308.5" y="196" font-size="15">Работа</text>
+    <text x="1264.75" y="217.25" font-size="15">Рециркуляц.</text>
+  </g>
+  <text x="10.2501" y="288.75" font-size="15">Подтвердить</text>
+  <text x="635.5" y="288.75" font-size="15">Подтвердить</text>
+  <text x="1261" y="290" font-size="15">Подтвердить</text>
+</svg>

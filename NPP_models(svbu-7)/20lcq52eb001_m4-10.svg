@@ -1,0 +1,459 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="20lcq52eb001_m4-10" stroke-width="3" font-size="15" font-weight="bold">
+  <title>Программа переключения между фильтрами 20LCQ52AT001 и 20LCQ52AT002 системы LCQ50</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod fgu_svo_all"/> 
+  <polyline points="1431,87.3334 1512,88.0004 1512,975.667 1635.33,976.667" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="1391.33" y="72.6667" width="100" height="25.6667" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lcq52eb001_m1-3&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <polyline points="284.004,86.6667 365.003,87.3337 365,975 683,975 683,100 958,100 958,727.5" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="957" y="41" fill-opacity="1" font-size="30" font-weight="700" text-anchor="middle">Программа переключения между фильтрами 20LCQ52AT001 и 20LCQ52AT002 системы LCQ50</text>
+  <text x="17.6063" y="39.197" fill="black" font-size="15" font-weight="700">20LCQ52EB001</text>
+  <image x="244.333" y="72" width="100" height="25.6667" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lcq52eb001_m1-3&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <polyline points="444.333,290.667 401.333,290.667 401.003,242" fill="none" stroke="black"/> 
+  <rect x="273.833" y="115.833" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="283.833" y="136.667" fill="black" font-size="18" font-weight="700">ШАГ 4</text>
+  <text x="285.673" y="163.75" fill="Col_Grey5">Т ожид</text>
+  <text x="367.003" y="164.167" font-size="16">300 с</text>
+  <line x1="420.003" y1="146" x2="274.003" y2="145.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <circle cx="364.293" cy="175.83" r="5" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="272.493" y="204.167" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="282.493" y="225.001" fill="black" font-size="18" font-weight="700">ШАГ 5</text>
+  <text x="284.333" y="252.084" fill="Col_Grey5">Т ожид</text>
+  <text x="370.663" y="252.501" font-size="16">Т2 с</text>
+  <line x1="418.663" y1="234.334" x2="272.663" y2="234.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="272.493" y="204.167" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="282.493" y="225.001" fill="black" font-size="18" font-weight="700">ШАГ 5</text>
+  <text x="284.333" y="252.084" fill="Col_Grey5">Т ожид</text>
+  <text x="370.663" y="252.501" font-size="16">0 с</text>
+  <line x1="418.663" y1="234.334" x2="272.663" y2="234.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <polyline points="448.333,569.333 404.663,569 404.5,421" fill="none" stroke="black"/> 
+  <rect x="276.493" y="365.833" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="286.493" y="386.667" fill="black" font-size="18" font-weight="700">ШАГ 5</text>
+  <text x="374.663" y="414.167" font-size="16">Т2 с</text>
+  <line x1="422.663" y1="396" x2="276.663" y2="395.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="276.493" y="365.833" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="286.493" y="386.667" fill="black" font-size="18" font-weight="700">ШАГ 6</text>
+  <text x="286.667" y="413.75" fill="Col_Grey5">Т ожид</text>
+  <text x="374.663" y="414.167" font-size="16">0 с</text>
+  <line x1="422.663" y1="396" x2="276.663" y2="395.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="341.5" y="908.834" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="352.5" y="943.834" font-size="28">&amp;</text>
+  <image x="381.667" y="118.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;4&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="383" y="207" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;5&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="413.833" y="280.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA004_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA004_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="493.833" y="298.167" font-size="16">20LCQ52AA004</text>
+  <line x1="365" y1="299" x2="243.333" y2="299" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="177" y="332">20LCQ52AA004</text>
+  <text x="202" y="347" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="202" y="256" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA004&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA004&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <image x="391" y="369" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;6&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="455" y1="439.833" x2="405" y2="439.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="429.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA036_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA036_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="445.833" font-size="16">20LCQ52AA036</text>
+  <line x1="455" y1="460.833" x2="405" y2="460.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="450.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA001_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="466.833" font-size="16">20LCQ52AA001</text>
+  <line x1="455" y1="482.833" x2="405" y2="482.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="472.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA002_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA002_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="488.833" font-size="16">20LCQ52AA002</text>
+  <line x1="455" y1="503.833" x2="405" y2="503.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="493.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA007_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA007_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="509.833" font-size="16">20LCQ52AA007</text>
+  <line x1="455" y1="525.833" x2="405" y2="525.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="515.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA035_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA035_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="531.833" font-size="16">20LCQ52AA035</text>
+  <line x1="455" y1="547.833" x2="405" y2="547.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="424" y="537.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA001_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="553.833" font-size="16">20LCQ53AA001</text>
+  <image x="424" y="558.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA004_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA004_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="505" y="574.833" font-size="16">20LCQ53AA004</text>
+  <line x1="365" y1="898" x2="265" y2="898" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="931">20LCQ52AA001</text>
+  <text x="212" y="946" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="855" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA001&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="365" y1="808" x2="265" y2="808" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="841">20LCQ53AA004</text>
+  <text x="212" y="856" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="765" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA004&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA004&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="365" y1="718" x2="265" y2="718" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="751">20LCQ53AA001</text>
+  <text x="212" y="766" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="675" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA001&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="365" y1="628" x2="265" y2="628" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="661">20LCQ52AA035</text>
+  <text x="212" y="676" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="585" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA035&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA035&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="365" y1="538" x2="265" y2="538" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="571">20LCQ52AA007</text>
+  <text x="212" y="586" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="495" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA007&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA007&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="365" y1="448" x2="265" y2="448" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="187" y="481">20LCQ52AA002</text>
+  <text x="212" y="496" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="212" y="405" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA002&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <polyline points="1029.16,241.011 986.163,241.011 985.833,192.344" fill="none" stroke="black"/> 
+  <rect x="865.834" y="142.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="875.833" y="163.334" fill="black" font-size="18" font-weight="700">ШАГ 7</text>
+  <text x="877.667" y="190.417" fill="Col_Grey5">Т ожид</text>
+  <text x="964" y="190.834" font-size="16">0 с</text>
+  <line x1="1012" y1="172.667" x2="866.001" y2="172.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <circle cx="957.63" cy="535.83" r="5" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1035.33" y1="217.834" x2="985.333" y2="217.834" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="935.333" y="382" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="946.333" y="417" font-size="28">&amp;</text>
+  <rect x="864.167" y="474.167" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="874.167" y="495.001" fill="black" font-size="18" font-weight="700">ШАГ 8</text>
+  <text x="876.001" y="522.084" fill="Col_Grey5">Т ожид</text>
+  <text x="974.334" y="522.501" font-size="16">5 с</text>
+  <line x1="1010.33" y1="504.334" x2="864.334" y2="504.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1077.67" y="551" font-size="16" text-anchor="middle">Выбор<tspan x="1077.67" dy="16">рабочего фильтра</tspan>
+<tspan x="1077.67" dy="16">20LCQ52AT002</tspan>
+  </text>
+  <image x="1004.33" y="599.334" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20LCQ52CH001VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCQ52CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <polyline points="1161.33,592.667 987.333,592.667 987.333,529.667" fill="none" stroke="black"/> 
+  <rect x="1425.83" y="111.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1435.83" y="132.334" fill="black" font-size="18" font-weight="700">ШАГ 9</text>
+  <text x="1437.67" y="159.417" fill="Col_Grey5">Т ожид</text>
+  <text x="1524" y="159.834" font-size="16">0 с</text>
+  <line x1="1572" y1="141.667" x2="1426" y2="141.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <polyline points="1591.34,215.001 1548.34,215.001 1548.01,166.334" fill="none" stroke="black"/> 
+  <line x1="1597.34" y1="193.501" x2="1547.34" y2="193.501" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="1489" y="350.666" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1500" y="385.666" font-size="28">&amp;</text>
+  <rect x="1413.5" y="421.499" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1563.5" y1="451.499" x2="1413.5" y2="451.499" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1423.5" y="441.499" fill="black" font-size="18" font-weight="700">ШАГ 10</text>
+  <text x="1425.5" y="469.583" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1522" y="470" font-size="16">0 с</text>
+  <polyline points="1583.5,588.343 1540.5,588.343 1540,475" fill="none" stroke="black"/> 
+  <rect x="1490.67" y="909.334" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1501.67" y="944.334" font-size="28">&amp;</text>
+  <image x="972.667" y="144.333" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;7&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="998.833" y="207.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA003_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA003_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1078.83" y="225.833" font-size="16">20LCQ52AA003</text>
+  <image x="998.833" y="231.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA003_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA003_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1078.83" y="249.833" font-size="16">20LCQ53AA003</text>
+  <line x1="958.333" y1="334" x2="858.333" y2="334" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="798.333" y="367">20LCQ53AA003</text>
+  <text x="823.333" y="382" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="823.333" y="291" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="958.333" y1="244" x2="858.333" y2="244" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="798.333" y="277">20LCQ52AA003</text>
+  <text x="823.333" y="292" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="823.333" y="201" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <image x="971.667" y="476.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;8&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="905" y="710" width="100" height="25.6667" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 15&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lcq52eb001_m11-16&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="1530.33" y="113" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;9&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="1564.17" y="183.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA003_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA003_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.17" y="201.833" font-size="16">20LCQ52AA003</text>
+  <image x="1564.17" y="204.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA003_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA003_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.17" y="222.833" font-size="16">20LCQ53AA003</text>
+  <line x1="1512" y1="302.333" x2="1412" y2="302.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="335.333">20LCQ53AA003</text>
+  <text x="1377" y="350.333" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="1377" y="259.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1512" y1="212.333" x2="1412" y2="212.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="245.333">20LCQ52AA003</text>
+  <text x="1377" y="260.333" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="1377" y="169.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <image x="1526.33" y="423.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20LCQ52EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20LCQ52EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;10&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="1592.33" y1="498.167" x2="1542.33" y2="498.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1564.33" y="487.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA035_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA035_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.33" y="503.167" font-size="16">20LCQ52AA035</text>
+  <line x1="1592.33" y1="520.167" x2="1542.33" y2="520.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1564.33" y="509.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA002_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA002_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.33" y="525.167" font-size="16">20LCQ52AA002</text>
+  <line x1="1592.33" y1="543.167" x2="1542.33" y2="543.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1564.33" y="532.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ52AA007_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ52AA007_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.33" y="548.167" font-size="16">20LCQ52AA007</text>
+  <line x1="1592.33" y1="566.167" x2="1542.33" y2="566.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1564.33" y="555.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA001_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA001_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.33" y="571.167" font-size="16">20LCQ53AA001</text>
+  <image x="1564.33" y="578.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCQ53AA004_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCQ53AA004_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1646.33" y="594.167" font-size="16">20LCQ53AA004</text>
+  <line x1="1512" y1="880.667" x2="1412" y2="880.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="913.667">20LCQ53AA004</text>
+  <text x="1362" y="928.667" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1374" y="837.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA004&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA004&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1512" y1="790.667" x2="1412" y2="790.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="823.667">20LCQ53AA001</text>
+  <text x="1362" y="838.667" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1374" y="747.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ53AA001&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ53AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1512" y1="700.667" x2="1412" y2="700.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="733.667">20LCQ52AA007</text>
+  <text x="1362" y="748.667" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1374" y="657.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA007&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA007&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1512" y1="610.667" x2="1412" y2="610.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="643.667">20LCQ52AA002</text>
+  <text x="1362" y="658.667" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1374" y="567.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA002&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1512" y1="520.667" x2="1412" y2="520.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1352" y="553.667">20LCQ52AA035</text>
+  <text x="1362" y="568.667" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1374" y="477.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCQ52AA035&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20LCQ52AA035&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <image x="1562" y="963.334" width="100" height="25.6667" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 11&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lcq52eb001_m11-16&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <g>
+    <rect x="339" y="310" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="350" y="345" font-size="28">&amp;</text>
+  </g>
+</svg>

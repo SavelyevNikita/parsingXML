@@ -1,0 +1,106 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:/RTS/\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="peb20_tzb">
+  <title>Защиты  промконтура ответственных потребителей</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_usbt&#10;LMod jnd12_fak_tzb&#10;RMod kaa11_tzb_2" revision="3"/> 
+  <rect x="75" y="26" width="1773" height="720" rx="0.211975" ry="3" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">PEC10_tzb</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1390" y1="25" x2="1390" y2="75" stroke="black"/> 
+  <line x1="1650" y1="25" x2="1650" y2="75" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1526" y="57" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1746.5" y="55" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="1273" y="54" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="950" y1="75" x2="950" y2="25" stroke="black"/> 
+  <line x1="125" y1="100" x2="1850" y2="100" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">21PEC10EZ001 Отключение насоса 21PEC10AP001 защитой</text>
+  <text x="95.3938" y="93.9578" fill="black" font-size="15">1</text>
+  <rect x="75" y="75" width="1775" height="670" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="25" x2="125" y2="745" stroke="black"/> 
+  <line x1="125" y1="164" x2="1847" y2="164" stroke="black"/> 
+  <text x="715" y="124.5" fill="black" font-size="15">НАСОС 21PEC10AP001<tspan x="715" dy="15">ВКЛ</tspan>
+  </text>
+  <line x1="76" y1="350" x2="1848" y2="350" stroke="black"/> 
+  <line x1="125" y1="745" x2="1155" y2="745" stroke="black"/> 
+  <line x1="125" y1="255" x2="1155" y2="255" stroke="black"/> 
+  <line x1="700" y1="100" x2="700" y2="745" stroke="black"/> 
+  <line x1="950" y1="100" x2="950" y2="745" stroke="black"/> 
+  <line x1="1390" y1="100" x2="1390" y2="745" stroke="black"/> 
+  <line x1="1650" y1="100" x2="1650" y2="745" stroke="black"/> 
+  <line x1="730.485" y1="98" x2="730.585" y2="98" stroke="black"/> 
+  <line x1="714" y1="289" x2="714.1" y2="289" stroke="black"/> 
+  <line x1="714" y1="260" x2="714.1" y2="260" stroke="black"/> 
+  <text x="962" y="46.5" fill="black" font-size="15">Рассогласование<tspan x="962" dy="15">(отклонение) датчиков</tspan>
+  </text>
+  <line x1="1155" y1="75" x2="1155" y2="25" stroke="black"/> 
+  <line x1="1155" y1="100" x2="1155" y2="745" stroke="black"/> 
+  <image x="1214" y="241" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;21KAA11CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21KAA11CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1499" y="243.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21KAA11EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21KAA11EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1737" y="243.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21KAA11EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21KAA11EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="1740.45" y1="374.5" x2="1740.55" y2="374.5" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="450" y1="155" x2="450" y2="747" stroke="black"/> 
+  <image x="1037" y="192" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21PEB10CP901_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21KAA11CT906_XM20&quot;"/> 
+  </image>
+  <image x="188" y="169" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21PEB10CP001A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21PEB10CP001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="187" y="198" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21PEB10CP001B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21PEB10CP001B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="186" y="227" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21PEB10CP001C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21PEB10CP001C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="491.5" y="194" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;21PEB10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21PEB10CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="715" y="203.5" fill="black" font-size="15">P напора &gt; 0,74 МПа с<tspan x="715" dy="15">выдержкой 90 сек</tspan>
+  </text>
+  <text x="715" y="301.5" fill="black" font-size="15">P напора &lt; 0,6 МПа с<tspan x="715" dy="15">выдержкой 90 сек</tspan>
+  </text>
+  <image x="415" y="92" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;21PEC10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21PEC10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="1749" y="751" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;peb20_tzb&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;peb20_tzb&quot;)</rt:event>
+  </image>
+  <text x="295" y="120.5" fill="black" font-size="15">21PEC10AP001</text>
+</svg>

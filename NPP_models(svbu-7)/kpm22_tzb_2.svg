@@ -1,0 +1,260 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kpm22_tzb_2">
+  <desc>RASU</desc>
+  <title>Защиты KPM22</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod kpm22_tzb_1&#10;RMod kpm23_tzb_1" revision="3"/> 
+  <image x="147.348" y="771.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPM22CF003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPM22CF003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="75" y="26" width="1775" height="949" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">KPM22_tzb_2</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <rect x="75" y="76" width="1775" height="900" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="916.909" y="757.151" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPM22CH023TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22CH023TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="126" y1="766" x2="801" y2="766" stroke="black"/> 
+  <line x1="125.581" y1="26.5908" x2="125" y2="975" stroke="black"/> 
+  <image x="1308.9" y="759.651" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZM04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZM04&quot;"/> 
+  </image>
+  <image x="1658.9" y="759.651" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZV54&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZV54&quot;"/> 
+  </image>
+  <text x="586.333" y="720.833" fill="black" font-size="15">ГАЗОДУВКА 22/2<tspan x="586.333" dy="15">ВКЛ</tspan>
+  </text>
+  <line x1="125.182" y1="800.621" x2="800.181" y2="800.621" stroke="black"/> 
+  <line x1="75" y1="875" x2="1850" y2="875" stroke="black"/> 
+  <line x1="125.242" y1="905.045" x2="1850.24" y2="905.045" stroke="black"/> 
+  <text x="133.76" y="895.484" fill="black" font-size="15" font-weight="700">20KPM22EE033 Отключение калориферов 2 нитки</text>
+  <text x="95.4545" y="896.424" fill="black" font-size="15">3</text>
+  <image x="147.348" y="927.212" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPM32CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPM32CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="450" y="925" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM32CF001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM32CF001_XH58&quot;"/> 
+  </image>
+  <text x="586.333" y="941.167" fill="black" font-size="15">F НА РЕГЕНЕРАЦИЮ<tspan x="586.333" dy="15">&lt; 50 НМ3/Ч</tspan>
+  </text>
+  <text x="586.333" y="781.136" fill="black" font-size="15">F НА ВЫХОДЕ ИЗ НИТКИ<tspan x="586.333" dy="15">&lt; 50 НМ3/Ч</tspan>
+  </text>
+  <text x="586.333" y="819.47" fill="black" font-size="15">ВЫХ ИЗ ГАЗОД 22AN002<tspan x="586.333" dy="15">ОТКР</tspan>
+  </text>
+  <image x="916.909" y="927.97" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPM22CH033TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22CH033TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1308.9" y="930.47" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE033_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE033_ZM01&quot;"/> 
+  </image>
+  <image x="1658.9" y="930.47" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE033_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE033_ZV51&quot;"/> 
+  </image>
+  <line x1="800" y1="104.545" x2="800" y2="874" stroke="black"/> 
+  <line x1="1149.42" y1="103.03" x2="1151.17" y2="875" stroke="black"/> 
+  <line x1="1497.91" y1="104.545" x2="1500.5" y2="874" stroke="black"/> 
+  <image x="337.167" y="693.333" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPM22AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="338.167" y="806.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPM22AA013&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AA013&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <line x1="125.789" y1="176.5" x2="801.333" y2="176.5" stroke="black"/> 
+  <line x1="359.637" y1="324.5" x2="801.333" y2="324.5" stroke="black"/> 
+  <line x1="125.842" y1="212.5" x2="1849.33" y2="212.5" stroke="black"/> 
+  <line x1="126.423" y1="290.5" x2="801.424" y2="290.5" stroke="black"/> 
+  <line x1="125.994" y1="493.5" x2="801.333" y2="493.5" stroke="black"/> 
+  <line x1="125.994" y1="359.5" x2="1849.33" y2="359.5" stroke="black"/> 
+  <line x1="125.575" y1="431.5" x2="800.575" y2="431.5" stroke="black"/> 
+  <line x1="126.212" y1="562.5" x2="801.333" y2="562.5" stroke="black"/> 
+  <line x1="125.727" y1="627.651" x2="800.726" y2="627.651" stroke="black"/> 
+  <line x1="125.575" y1="103.545" x2="1850.57" y2="103.545" stroke="black"/> 
+  <text x="134.093" y="94.9841" fill="black" font-size="15" font-weight="700">20KPM22EE030 Отключение газодувки 20KPM22AN002</text>
+  <text x="95.8786" y="96.6091" fill="black" font-size="15">2</text>
+  <line x1="567" y1="104.561" x2="567" y2="871.212" stroke="black"/> 
+  <line x1="359.333" y1="290.167" x2="359.333" y2="360.167" stroke="black"/> 
+  <image x="147.681" y="181.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPM22CP006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPM22CP006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="147.681" y="312.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPM22FP008&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPM22FP008&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="147.681" y="450.818" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPM32CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPM32CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="450" y="450" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM32CF001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM32CF001_XH58&quot;"/> 
+  </image>
+  <image x="450.401" y="295.166" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22FP008_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22FP008_XH11&quot;"/> 
+  </image>
+  <image x="450.401" y="329.56" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22FP008_XH62&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22FP008_XH62&quot;"/> 
+  </image>
+  <text x="586.541" y="191.834" fill="black" font-size="15">P ПЕРЕД ГАЗОД 22AN02<tspan x="586.541" dy="15">&lt; -39 КПА</tspan>
+  </text>
+  <text x="586.541" y="129.5" fill="black" font-size="15">ГАЗОДУВКА 22/2<tspan x="586.541" dy="15">ВКЛ</tspan>
+  </text>
+  <text x="586.541" y="591.167" fill="black" font-size="15">МЕЖДУ ГАЗОДУВКАМИ<tspan x="586.541" dy="15">ОТКР</tspan>
+  </text>
+  <text x="586.541" y="248.834" fill="black" font-size="15">ГАЗОДУВКА 22/2<tspan x="586.541" dy="15">ВКЛ</tspan>
+  </text>
+  <text x="586.541" y="305.5" fill="black" font-size="15">DP НА KPM22AN002<tspan x="586.541" dy="15">&gt; 49 КПА</tspan>
+  </text>
+  <text x="586.541" y="338.167" fill="black" font-size="15">DP НА KPM22AN002<tspan x="586.541" dy="15">&lt; 11 КПА</tspan>
+  </text>
+  <text x="586.541" y="392.5" fill="black" font-size="15">ГАЗОДУВКА 22/2<tspan x="586.541" dy="15">ВКЛ</tspan>
+  </text>
+  <text x="586.541" y="457.834" fill="black" font-size="15">F НА РЕГЕНЕРАЦИЮ<tspan x="586.541" dy="15">&lt; 50 НМ3/Ч</tspan>
+  </text>
+  <text x="586.541" y="516" fill="black" font-size="15">ПЕРЕД ГАЗОД 22AN02<tspan x="586.541" dy="15">ОТКР</tspan>
+  </text>
+  <image x="917.242" y="133.742" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPM22CH006TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22CH006TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1309.23" y="136.242" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZM01&quot;"/> 
+  </image>
+  <image x="1659.23" y="136.242" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZV51&quot;"/> 
+  </image>
+  <image x="917.242" y="278.136" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPM22CH008TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22CH008TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1309.23" y="280.636" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZM02&quot;"/> 
+  </image>
+  <image x="1659.23" y="280.636" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZV52&quot;"/> 
+  </image>
+  <image x="917.242" y="496.56" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPM22CH021TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22CH021TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1309.23" y="499.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZM03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZM03&quot;"/> 
+  </image>
+  <image x="1659.23" y="499.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPM22EE030_ZV53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22EE030_ZV53&quot;"/> 
+  </image>
+  <text x="586.697" y="664.742" fill="black" font-size="15">ВЫХ Т/О РЕГ 2НИТК<tspan x="586.697" dy="15">ОТКР</tspan>
+  </text>
+  <line x1="126.146" y1="694.651" x2="1849.48" y2="694.651" stroke="black"/> 
+  <image x="337.333" y="104" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPM22AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="337.333" y="216.333" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPM22AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="336.333" y="361.667" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPM22AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="337.333" y="496.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPM22AA012&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AA012&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="337.333" y="565.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPM22AA015&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM22AA015&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="337.333" y="626" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPM32AA007&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPM32AA007&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="1740.45" y="962.121" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM22_tzb_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kpm22_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="1497.41" y1="23.7274" x2="1497.41" y2="74.3036" stroke="black"/> 
+  <line x1="1149.92" y1="27.2728" x2="1149.92" y2="77.849" stroke="black"/> 
+  <line x1="800.894" y1="25.7576" x2="800.894" y2="76.3338" stroke="black"/> 
+  <line x1="1500" y1="906.151" x2="1500" y2="974.242" stroke="black"/> 
+  <line x1="1149.92" y1="904.545" x2="1149.92" y2="972.636" stroke="black"/> 
+  <line x1="799.924" y1="905" x2="799.924" y2="973.091" stroke="black"/> 
+  <line x1="566.106" y1="905" x2="566.106" y2="973.091" stroke="black"/> 
+  <text x="197.243" y="124.243" fill="black" font-size="15">20KPM22AN002</text>
+  <text x="196.394" y="233.197" fill="black" font-size="15">20KPM22AN002</text>
+  <text x="193.364" y="378.682" fill="black" font-size="15">20KPM22AN002</text>
+  <text x="194.879" y="715.5" fill="black" font-size="15">20KPM22AN002</text>
+  <text x="191.849" y="515.53" fill="black" font-size="15">20KPM22AA012</text>
+  <text x="194.879" y="582.197" fill="black" font-size="15">20KPM22AA015</text>
+  <text x="196.394" y="650.379" fill="black" font-size="15">20KPM32AA007</text>
+  <text x="190.333" y="823.106" fill="black" font-size="15">20KPM22AA013</text>
+  <image x="450" y="182" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KPM22CP006_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22CP006_XH56&quot;"/> 
+  </image>
+  <image x="450" y="775" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KPM22CF003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPM22CF003_XH56&quot;"/> 
+  </image>
+</svg>

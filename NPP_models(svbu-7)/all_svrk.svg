@@ -1,0 +1,75 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_svrk" fill="Col_Grey3">
+  <title>ОБОБЩЕННЫЙ ВИДЕОКАДР СВРК</title>
+  <rt:model comment="UMod all_nsb" revision="3" modelversion="7.2.0.24"/> 
+  <image x="400" y="234" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_yb&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_yb&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="400" y="175" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_ycmain&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_ycmain&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="400.5" y="292" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_rr&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_rr&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="400.5" y="352" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_yctout&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_yctout&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="400.5" y="412" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_1k_tc&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_1k_tc&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="400.5" y="472" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_dttpkni&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_dttpkni&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="203" fill="black" font-size="18">Основные параметры РУ</text>
+  <text x="616" y="262" fill="black" font-size="18">Параметры 2 контура</text>
+  <text x="616" y="322" fill="black" font-size="18">Разогрев - расхолаживание</text>
+  <text x="616" y="382" fill="black" font-size="18">Расчетная температура теплоносителя на выходе из ТВС</text>
+  <text x="616" y="442" fill="black" font-size="18">Петлевой термоконтроль</text>
+  <text x="616" y="502" fill="black" font-size="18">Подогрев теплоносителя  в ТВС по показаниям термопар СВРД</text>
+  <image x="400.5" y="532" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_tpkni_out&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_tpkni_out&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="562" fill="black" font-size="18">Температура теплоносителя на выходе из ТВС по показаниям термопар СВРД</text>
+  <image x="400.5" y="592" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_kq&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_kq&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="622" fill="black" font-size="18">Относительные энерговыделения ТВС</text>
+  <image x="400.5" y="652" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_ofset_tvs&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_ofset_tvs&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="682" fill="black" font-size="18">Офсет</text>
+  <image x="400.5" y="712" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_dnbt&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_dnbt&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="743" fill="black" font-size="18">Запас до кипения на выходе ТВС</text>
+  <text x="961" y="-50" fill="black" font-size="30" font-weight="700" text-anchor="middle" transform="flipY()">ОБОБЩЕННЫЙ ВИДЕОКАДР СВРК</text>
+  <image x="400" y="775" width="200" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;svrk_yctin&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_yctin&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="616" y="806" fill="black" font-size="18">Температура теплоносителя на входе в ТВС по показаниям термопар СВРД</text>
+  <text x="76" y="25" fill="black" font-size="15" font-weight="700" text-anchor="middle">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+ALL_SVRK</text>
+</svg>

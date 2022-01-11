@@ -1,0 +1,96 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kbb_tzb_2">
+  <title>Защиты насосов KBB</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod kbb_tzb_1&#10;RMod kbc_tzb_1" revision="3"/> 
+  <rect x="75" y="26" width="1777.45" height="299.758" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">KBB_tzb_2</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1151" y1="26" x2="1151" y2="76" stroke="black"/> 
+  <line x1="1501" y1="26" x2="1501" y2="76" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="801" y1="76" x2="801" y2="26" stroke="black"/> 
+  <line x1="125.743" y1="100.773" x2="1850.74" y2="100.773" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20KBB30EZ001 Отключение насоса 20KBB30AP001</text>
+  <text x="94.8788" y="93.9394" fill="black" font-size="15">4</text>
+  <rect x="75" y="76" width="1777.45" height="249.758" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="26.5908" x2="125" y2="324.242" stroke="black"/> 
+  <image x="258.733" y="265.743" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBB30CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBB30CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="516.243" y="135.606" fill="black" font-size="15">НАСОС ЗАПОЛ. 1 К.<tspan x="516.243" dy="15">ВКЛ</tspan>
+  </text>
+  <text x="516.515" y="208.879" fill="black" font-size="15">P НАПОР<tspan x="516.515" dy="15">20KBB30AP001</tspan>
+<tspan x="516.515" dy="15">&lt;0.48 МПа</tspan>
+  </text>
+  <line x1="125" y1="251" x2="1850" y2="251" stroke="black"/> 
+  <line x1="125" y1="175" x2="800" y2="175" stroke="black"/> 
+  <image x="258.885" y="190.895" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBB30CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBB30CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="921.732" y="161.743" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBB30CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBB30CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1313.73" y="163.743" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBB30EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1663.73" y="163.743" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBB30EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="495" y1="100" x2="495" y2="325" stroke="black"/> 
+  <line x1="801" y1="100" x2="801" y2="325" stroke="black"/> 
+  <line x1="1151" y1="100" x2="1151" y2="325" stroke="black"/> 
+  <line x1="1501" y1="100" x2="1501" y2="325" stroke="black"/> 
+  <line x1="75" y1="325" x2="1850.15" y2="325.152" stroke="black"/> 
+  <image x="921.732" y="272.743" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBB30CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBB30CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1313.73" y="274.743" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBB30EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1663.73" y="274.743" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBB30EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30EZ001_ZV52&quot;"/> 
+  </image>
+  <text x="516.667" y="284.031" fill="black" font-size="15">P ЗАТВОР. ЖИДКОСТИ<tspan x="516.667" dy="15">&lt;0.15 МПа</tspan>
+  </text>
+  <image x="313" y="102" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KBB30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBB30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="1732" y="332" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KBB_tzb_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kbb_tzb_1&quot;)</rt:event>
+  </image>
+  <text x="178.818" y="118.167" fill="black" font-size="15">20KBB30AP001</text>
+  <image x="337" y="223" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KBB30CP002_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30CP002_XH56&quot;"/> 
+  </image>
+  <image x="337" y="295" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KBB30CP003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBB30CP003_XH56&quot;"/> 
+  </image>
+</svg>

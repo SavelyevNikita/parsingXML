@@ -1,0 +1,289 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="LCM_TZB">
+  <title>ПУ LCM03,10,30,40</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to&#10;LMod lcj_tzb&#10;RMod lcn_tzb" revision="3"/> 
+  <rect x="74.1667" y="585.167" width="1429.5" height="329.833" rx="0" ry="0" fill="none" stroke="black"/> 
+  <rect x="75" y="40" width="1428.67" height="951.667" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="39" y="25" font-size="15" font-weight="700">LCM_TZB</text>
+  <text x="379.581" y="69.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1227.59" y1="41" x2="1227.59" y2="91" stroke="black"/> 
+  <text x="100.728" y="59.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1363.5" y="71" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="943" y="71.5" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="125" y1="115" x2="1503" y2="115" stroke="black"/> 
+  <text x="95.3333" y="108" fill="black" font-size="15">1</text>
+  <rect x="75" y="90" width="1427" height="247" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="40" x2="125" y2="992" stroke="black"/> 
+  <line x1="700" y1="116" x2="700" y2="337" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="375" y1="115" x2="375" y2="337" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="1227.59" y1="115" x2="1227.5" y2="337" stroke="black"/> 
+  <line x1="700" y1="90" x2="700" y2="40" stroke="black"/> 
+  <image x="231.831" y="152.171" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03CL001_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03CL001_XG01&quot;"/> 
+  </image>
+  <text x="490.273" y="168.42" fill="black" font-size="15">L ДБ3 &gt;1.8 М</text>
+  <text x="135.788" y="108.182" fill="black" font-size="15" font-weight="700">20LCM03EE001 ПУ L В БАКЕ НИЗ ТОЧ</text>
+  <text x="393" y="139.5" fill="black" font-size="15">P НАПОР НАСОС БАК НТ &lt; 0.25 МПА</text>
+  <image x="158.353" y="122.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCM04CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM04CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="893.974" y="210" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LCM03EE001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM03EE001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1353.22" y="170" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03EE001_XA01&quot;"/> 
+  </image>
+  <text x="449.439" y="254.917" fill="black" font-size="15">ЗДВ РЕЦ ДРЕН НАС ОТКР</text>
+  <image x="161.331" y="209.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCM10AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="231.831" y="179.042" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03CL001_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03CL001_XG02&quot;"/> 
+  </image>
+  <text x="490.273" y="195.292" fill="black" font-size="15">L ДБ3 &gt;1.0 М</text>
+  <image x="1353.22" y="201" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03EE001_XA02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03EE001_XA02&quot;"/> 
+  </image>
+  <image x="231.831" y="207" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03CL001_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03CL001_XG03&quot;"/> 
+  </image>
+  <text x="490.273" y="223.25" fill="black" font-size="15">L ДБ3 &lt;0.2 М</text>
+  <text x="438.606" y="299.25" fill="black" font-size="15">НАС БАКА НИЗК ТОЧЕК ВКЛ</text>
+  <text x="433.606" y="323.167" fill="black" font-size="15">НАС БАКА НИЗК ТОЧЕК ОТКЛ</text>
+  <image x="1353.22" y="231.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03EE001_XA03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03EE001_XA03&quot;"/> 
+  </image>
+  <image x="1353.22" y="262.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM03EE001_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM03EE001_XA17&quot;"/> 
+  </image>
+  <text x="227.032" y="256.167" fill="black" font-size="15">20LCM10AA001</text>
+  <text x="227.032" y="309.5" fill="black" font-size="15">20LCM04AP001</text>
+  <image x="161.331" y="268.333" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LCM04AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM04AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="125.5" y1="273" x2="700" y2="273" stroke="black"/> 
+  <line x1="124.167" y1="362.5" x2="1502.25" y2="362.5" stroke="black"/> 
+  <text x="94.5" y="355.5" fill="black" font-size="15">2</text>
+  <rect x="74.1667" y="337.5" width="1428.67" height="246.667" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="699.167" y1="363.5" x2="699.167" y2="584.5" stroke="black"/> 
+  <line x1="374.167" y1="362.5" x2="374.167" y2="584.5" stroke="black"/> 
+  <line x1="1226.76" y1="362.5" x2="1226.67" y2="584.5" stroke="black"/> 
+  <image x="231.831" y="399.671" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM01CL001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM01CL001_XH07&quot;"/> 
+  </image>
+  <text x="487.856" y="415.92" fill="black" font-size="15">L ДБ1 &gt;1.3 М</text>
+  <text x="134.955" y="355.682" fill="black" font-size="15" font-weight="700">20LCM10EE001 ПУ ДРЕН НС1 И НС2</text>
+  <text x="515.356" y="386.25" fill="black" font-size="15">L ДБ1</text>
+  <image x="158.353" y="370" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCM01CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM01CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="893.141" y="457.5" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LCM10EE001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10EE001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1352.39" y="417.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM10EE001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM10EE001_ZV01&quot;"/> 
+  </image>
+  <image x="231.831" y="426.542" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM01CL001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM01CL001_XH58&quot;"/> 
+  </image>
+  <text x="487.856" y="442.792" fill="black" font-size="15">L ДБ1 &lt;0.3 М</text>
+  <image x="1352.39" y="448.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM10EE001_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM10EE001_XA17&quot;"/> 
+  </image>
+  <text x="475.356" y="546.75" fill="black" font-size="15">ДРЕН НАС-2 ВКЛ</text>
+  <text x="470.356" y="571.667" fill="black" font-size="15">ДРЕН НАС-2 ОТКЛ</text>
+  <image x="1352.39" y="478.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM10EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM10EE001_XA01&quot;"/> 
+  </image>
+  <image x="1352.39" y="509.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM10EE001_XA18&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM10EE001_XA18&quot;"/> 
+  </image>
+  <text x="227.032" y="557" fill="black" font-size="15">20LCM20AP001</text>
+  <image x="161.331" y="515.833" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LCM20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="124.667" y1="520.5" x2="699.167" y2="520.5" stroke="black"/> 
+  <text x="475.356" y="482.25" fill="black" font-size="15">ДРЕН НАС-1 ВКЛ</text>
+  <text x="470.356" y="507.167" fill="black" font-size="15">ДРЕН НАС-1 ОТКЛ</text>
+  <text x="227.032" y="492.5" fill="black" font-size="15">20LCM10AP001</text>
+  <image x="161.331" y="451.333" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LCM10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="125.667" y1="456" x2="700.167" y2="456" stroke="black"/> 
+  <line x1="124.167" y1="610.167" x2="1502" y2="610" stroke="black"/> 
+  <text x="93.6667" y="604.667" fill="black" font-size="15">3</text>
+  <line x1="699.167" y1="611.167" x2="699.167" y2="915" stroke="black"/> 
+  <line x1="374" y1="610.167" x2="374" y2="915" stroke="black"/> 
+  <line x1="1226.76" y1="610.167" x2="1226.67" y2="915" stroke="black"/> 
+  <image x="231.831" y="705.338" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM01CL002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM01CL002_XH07&quot;"/> 
+  </image>
+  <text x="489.919" y="721.587" fill="black" font-size="15">L ДБ2 &gt;1.3 М</text>
+  <text x="134.955" y="603.349" fill="black" font-size="15" font-weight="700">20LCM30EE001 ПУ L ДБ</text>
+  <text x="433.253" y="633.917" fill="black" font-size="15">P ВСАС ДРЕН НАС-3 &gt;32 КПА</text>
+  <image x="158.353" y="617.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCM30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM30CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="893.141" y="740.167" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LCM30EE001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM30EE001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1352.39" y="700.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30EE001_XA01&quot;"/> 
+  </image>
+  <text x="449.919" y="803.084" fill="black" font-size="15">ЗДВ РЕЦ ДРЕН НАС ЗАКР</text>
+  <image x="161.331" y="748.834" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCM10AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="231.831" y="732.209" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM01CL002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM01CL002_XH58&quot;"/> 
+  </image>
+  <text x="489.919" y="748.459" fill="black" font-size="15">L ДБ2 &lt;0.3 М</text>
+  <image x="1352.39" y="731.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30EE001_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30EE001_XA17&quot;"/> 
+  </image>
+  <text x="439.919" y="839.334" fill="black" font-size="15">ЗДВ НАПОР ДРЕН НАС ЗАКР</text>
+  <image x="1352.39" y="761.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30EE001_XA02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30EE001_XA02&quot;"/> 
+  </image>
+  <image x="1352.39" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30EE001_XA18&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30EE001_XA18&quot;"/> 
+  </image>
+  <text x="227.032" y="795.334" fill="black" font-size="15">20LCM10AA001</text>
+  <line x1="124.667" y1="812.167" x2="699.167" y2="812.167" stroke="black"/> 
+  <text x="420.753" y="663.917" fill="black" font-size="15">P НАПОР ДРЕН НАС-3 &lt;0.33 МПА</text>
+  <image x="158.353" y="647.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCM30CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM30CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="517.419" y="693.917" fill="black" font-size="15">L ДБ2</text>
+  <image x="158.353" y="677.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCM01CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM01CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="477.419" y="875.917" fill="black" font-size="15">ДРЕН НАС-3 ВКЛ</text>
+  <text x="472.419" y="899.834" fill="black" font-size="15">ДРЕН НАС-3 ОТКЛ</text>
+  <text x="227.032" y="890.167" fill="black" font-size="15">20LCM30AP001</text>
+  <image x="161.331" y="849" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LCM30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="125.333" y1="855.667" x2="699.833" y2="855.667" stroke="black"/> 
+  <image x="161.331" y="793" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCM10AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="227.032" y="839.5" fill="black" font-size="15">20LCM10AA002</text>
+  <text x="449.086" y="780.5" fill="black" font-size="15">ЗДВ РЕЦ ДРЕН НАС ОТКР</text>
+  <line x1="125.667" y1="761.833" x2="700.167" y2="761.833" stroke="black"/> 
+  <line x1="125.833" y1="940.833" x2="1503.83" y2="940.833" stroke="black"/> 
+  <text x="93.6667" y="933.333" fill="black" font-size="15">4</text>
+  <rect x="75.8334" y="915.833" width="1427.83" height="75.8336" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="700.833" y1="941.833" x2="700.833" y2="992" stroke="black"/> 
+  <line x1="375.833" y1="940.833" x2="375.833" y2="992" stroke="black"/> 
+  <line x1="1228.42" y1="940.833" x2="1228.42" y2="992" stroke="black"/> 
+  <text x="136.621" y="934.016" fill="black" font-size="15" font-weight="700">20LCM40EE002 ПУ АРМ НА ЛИН СБРОС</text>
+  <image x="894.807" y="951.75" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LCM40EE002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM40EE002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1357.05" y="954.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM40EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM40EE002_XA01&quot;"/> 
+  </image>
+  <image x="1319.67" y="954.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM40EE002_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM40EE002_XA17&quot;"/> 
+  </image>
+  <image x="232.664" y="954.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM40EE001_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM40EE001_XA17&quot;"/> 
+  </image>
+  <text x="455.689" y="971.333" fill="black" font-size="15">ЗАПР СБРОС 2 КОНТ СРАБ</text>
+  <image x="1394.67" y="954.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM40EE002_XA02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM40EE002_XA02&quot;"/> 
+  </image>
+  <image x="345" y="123" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCM04CP001_XH58</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM04CP001_XH58&quot;"/> 
+  </image>
+  <image x="343" y="618" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30CP001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30CP001_XH07&quot;"/> 
+  </image>
+  <image x="343" y="648" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM30CP002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM30CP002_XH58&quot;"/> 
+  </image>
+  <text x="959" y="31.0833" fill="black" font-size="30" font-weight="700" text-anchor="middle">ПУ LCM03,10,30,40</text>
+</svg>

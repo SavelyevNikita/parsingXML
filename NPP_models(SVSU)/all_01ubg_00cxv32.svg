@@ -1,0 +1,52 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_01ubg_00cxv32">
+  <rt:model modelversion="7.2.0.24" revision="1"/> 
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <line x1="39.6667" y1="177.5" x2="39.6667" y2="177.5"/> 
+  <text x="907.757" y="59.8486" fill="black" font-size="30" text-anchor="middle">МПУ 00CXV32</text>
+  <rect x="579" y="117" width="941" height="278" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="579" y1="209.425" x2="1522" y2="209" stroke="black" stroke-width="2"/> 
+  <image x="1006.58" y="151.364" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>СИСТЕМА ВЕНТИЛЯЦИИ 0.0</title>
+    <rt:event type="OnClick">LoadNew(&quot;00cxv32_vent_0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СИСТ ВЕНТИЛЯЦИИ +0.0&quot;"/> 
+  </image>
+  <line x1="902.485" y1="118.515" x2="902.485" y2="393.314" stroke="black" stroke-width="2"/> 
+  <image x="687.515" y="150.334" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>СИСТЕМА ОТОПЛЕНИЯ</title>
+    <rt:event type="OnClick">LoadNew(&quot;00cxv32_otopl&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СИСТЕМА ОТОПЛЕНИЯ&quot;"/> 
+  </image>
+  <image x="791.969" y="72.9845" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CXV32_EK01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CXV32_EK01&quot;"/> 
+  </image>
+  <text x="936.669" y="89.4625" fill="black" font-size="15" text-anchor="middle">Неисправность контроллера</text>
+  <image x="433.575" y="72.9845" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CXV32_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CXV32_XM17&quot;"/> 
+  </image>
+  <text x="578.271" y="89.4625" fill="black" font-size="15" text-anchor="middle">Вскрыт корпус контроллера</text>
+  <image x="1154.39" y="72.9845" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CYE05CR001_XG01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CYE05CR001_XG01&quot;"/> 
+  </image>
+  <text x="1217" y="90.5" fill="black" font-size="15" text-anchor="middle">Пожар</text>
+  <image x="438" y="408" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CXV33_XB46</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CXV33_XB46&quot;"/> 
+  </image>
+  <text x="597.696" y="424.478" fill="black" font-size="15" text-anchor="middle">Неисправность шкафа 00CXV33</text>
+  <image x="1375" y="154" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>СИСТЕМА ВЕНТИЛЯЦИИ +3.3</title>
+    <rt:event type="OnClick">LoadNew(&quot;00cxv32_vent_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СИСТ ВЕНТИЛЯЦИИ +3.3&quot;"/> 
+  </image>
+  <line x1="1229" y1="119" x2="1229" y2="393.799" stroke="black" stroke-width="2"/> 
+</svg>

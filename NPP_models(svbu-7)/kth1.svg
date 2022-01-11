@@ -1,0 +1,427 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kth1" font-size="15" font-weight="700">
+  <title>Cистема спецканализации</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_nsb&#10;LMod ktc&#10;RMod kth2&#10;RASU"/> 
+  <rect x="1686.58" y="520.364" width="17.9199" height="460.886" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <line x1="256" y1="407.636" x2="254.727" y2="105.303" stroke="black" stroke-width="3"/> 
+  <text x="957" y="26" font-size="30" text-anchor="middle">Cистема спецканализации</text>
+  <polyline points="124,321 175,320.182 175,477 425,477 425,320.182 469.697,320.182" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="220.758" y="367.182" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH14AP004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="193.879" y="452.03" font-size="15">20KTH14AP004</text>
+  <image x="69.6364" y="283.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH14CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH14CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheCenter" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="224.182" y="225.174" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <image x="444.848" y="367.516" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL003_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL003_XG02&quot;"/> 
+  </image>
+  <text x="268.909" y="250.336" font-size="15">20KTH14<tspan x="268.909" dy="15">AA604</tspan>
+  </text>
+  <image x="210.545" y="121.152" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA007&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA007&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="254.485" y1="203" x2="404.5" y2="203" stroke="black" stroke-width="3"/> 
+  <line x1="404.939" y1="201.242" x2="404.697" y2="397.515" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1474.72,-604.826 1488.1,-597.182 1488.1,-612.469 1474.72,-604.826" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="275" y="151.25" font-size="15">20KTH14<tspan x="275" dy="15">AA007</tspan>
+  </text>
+  <image x="359.757" y="218.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA008&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA008&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="420.5" y="249.5" font-size="15">20KTH14<tspan x="420.5" dy="15">AA008</tspan>
+  </text>
+  <text x="474.636" y="384.213" font-size="15">L &gt; 0.3 M</text>
+  <image x="444.848" y="400.879" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL003_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL003_XG51&quot;"/> 
+  </image>
+  <text x="475.182" y="417.576" font-size="15">L &lt; 0.15 M</text>
+  <image x="444.848" y="334.273" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL005_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL005_XG02&quot;"/> 
+  </image>
+  <text x="474.667" y="350.97" font-size="15">L &gt; 0.35 M</text>
+  <image x="444.848" y="434.758" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL005_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL005_XG51&quot;"/> 
+  </image>
+  <text x="475.636" y="451.455" font-size="15">L &lt; 0.1 M</text>
+  <line x1="681" y1="409.787" x2="680.485" y2="105.788" stroke="black" stroke-width="3"/> 
+  <polyline points="549,321 600,320.182 600,477 850,477 850,321.697 900,321.697" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="645.91" y="367.333" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH14AP003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AP003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="619.031" y="452.182" font-size="15">20KTH14AP003</text>
+  <image x="494.788" y="283.243" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH14CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH14CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="649.333" y="225.174" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <image x="856.879" y="367.607" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL002_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL002_XG02&quot;"/> 
+  </image>
+  <text x="697.061" y="250.336" font-size="15">20KTH14<tspan x="697.061" dy="15">AA603</tspan>
+  </text>
+  <image x="635.697" y="121.304" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="679.637" y1="201" x2="828.25" y2="201" stroke="black" stroke-width="3"/> 
+  <line x1="827.697" y1="200.758" x2="826.849" y2="395.667" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1476.57,-182.676 1489.95,-175.032 1489.95,-190.319 1476.57,-182.676" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="700" y="156.25" font-size="15">20KTH14<tspan x="700" dy="15">AA003</tspan>
+  </text>
+  <image x="781.909" y="218.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="842" y="250.5" font-size="15">20KTH14<tspan x="842" dy="15">AA004</tspan>
+  </text>
+  <text x="886.667" y="384.303" font-size="15">L &gt; 0.3 M</text>
+  <image x="856.879" y="400.969" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL002_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL002_XG51&quot;"/> 
+  </image>
+  <text x="887.213" y="417.667" font-size="15">L &lt; 0.15 M</text>
+  <image x="856.879" y="334.364" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL004_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL004_XG02&quot;"/> 
+  </image>
+  <text x="886.697" y="351.061" font-size="15">L &gt; 0.35 M</text>
+  <image x="856.879" y="434.849" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL004_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL004_XG51&quot;"/> 
+  </image>
+  <text x="887.667" y="451.546" font-size="15">L &lt; 0.1 M</text>
+  <polyline points="981,321 1031,321 1031.82,477 1656.06,477 1656,321 1706,321" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="1114" y1="409.669" x2="1112.3" y2="107.303" stroke="black" stroke-width="3"/> 
+  <image x="1079.3" y="367.215" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH14AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1052.42" y="452.064" font-size="15">20KTH14AP001</text>
+  <image x="928.182" y="283.125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH14CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH14CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1081.73" y="225.174" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <text x="1130.46" y="250.336" font-size="15">20KTH14<tspan x="1130.46" dy="15">AA601</tspan>
+  </text>
+  <image x="1067.55" y="120.652" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1113.03" y1="202" x2="1270.75" y2="202" stroke="black" stroke-width="3"/> 
+  <line x1="1270.03" y1="201.242" x2="1269.24" y2="397.549" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1474.69,259.717 1488.07,267.361 1488.07,252.074 1474.69,259.717" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1132.5" y="153.75" font-size="15">20KTH14<tspan x="1132.5" dy="15">AA001</tspan>
+  </text>
+  <image x="1225.3" y="218.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1284.25" y="250" font-size="15">20KTH14<tspan x="1284.25" dy="15">AA005</tspan>
+  </text>
+  <line x1="1495" y1="409.821" x2="1495.64" y2="107.303" stroke="black" stroke-width="3"/> 
+  <image x="1460.45" y="367.367" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH14AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1433.57" y="452.216" font-size="15">20KTH14AP002</text>
+  <image x="1309.33" y="283.276" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH14CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH14CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1463.88" y="225.174" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <text x="1512.61" y="250.336" font-size="15">20KTH14<tspan x="1512.61" dy="15">AA602</tspan>
+  </text>
+  <image x="1450.24" y="121.338" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1495.18" y1="201.61" x2="1636.75" y2="201.25" stroke="black" stroke-width="3"/> 
+  <line x1="1637.85" y1="199.727" x2="1636.39" y2="397.701" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1474.54,626.869 1487.92,634.513 1487.92,619.226 1474.54,626.869" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1380.75" y="155" font-size="15">20KTH14<tspan x="1380.75" dy="15">AA002</tspan>
+  </text>
+  <image x="1593.45" y="218.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH14AA006&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14AA006&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1657.25" y="247.5" font-size="15">20KTH14<tspan x="1657.25" dy="15">AA006</tspan>
+  </text>
+  <image x="1667.27" y="394.971" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL001_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL001_XG02&quot;"/> 
+  </image>
+  <text x="1697.06" y="411.667" font-size="15">L &gt; 0.4 M</text>
+  <image x="1667.27" y="428.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL001_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL001_XG51&quot;"/> 
+  </image>
+  <text x="1697.61" y="445.031" font-size="15">L &lt; 0.15 M</text>
+  <image x="1667.27" y="361.728" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL006_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL006_XG02&quot;"/> 
+  </image>
+  <text x="1697.09" y="378.425" font-size="15">L &gt; 0.7 M</text>
+  <image x="1667.27" y="462.213" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL006_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL006_XG51&quot;"/> 
+  </image>
+  <text x="1698.06" y="478.91" font-size="15">L &lt; 0.1 M</text>
+  <image x="1666.76" y="328.97" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH14CL006_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH14CL006_XG03&quot;"/> 
+  </image>
+  <text x="1694.55" y="350.697" font-size="15">L &gt; 0.75 M</text>
+  <image x="1272" y="318" width="107" height="49" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20KTH14EE013&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH14EE013&quot;"/> 
+  </image>
+  <line x1="254" y1="106" x2="1847.48" y2="106" stroke="black" stroke-width="3"/> 
+  <image x="1540.85" y="62.848" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(90 0 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;21KTH14AA803&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21KTH14AA803&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1541.25" y="138.75" font-size="15">21KTH14<tspan x="1541.25" dy="15">AA803</tspan>
+  </text>
+  <rect x="1792.42" y="50" width="18" height="488.272" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <image x="1700" y="63.817" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(90 0 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;22KTH14AA804&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KTH14AA804&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1701.75" y="139.75" font-size="15">22KTH14<tspan x="1701.75" dy="15">AA804</tspan>
+  </text>
+  <rect x="1667.7" y="182.636" width="141.8" height="18.614" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <rect x="1666.91" y="48.2121" width="18" height="152.152" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <rect x="30.303" y="520.03" width="1762.12" height="18" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <text x="63.4848" y="97.636" font-size="18">20UJA</text>
+  <text x="1707" y="175.261" font-size="18">20UKA</text>
+  <line x1="105" y1="479.031" x2="174.697" y2="479.031" stroke="black"/> 
+  <text x="111.576" y="473" font-size="15">- 5.200</text>
+  <line x1="530" y1="479.031" x2="599.697" y2="479.031" stroke="black"/> 
+  <text x="536.576" y="473" font-size="15">- 5.200</text>
+  <line x1="963" y1="479.031" x2="1032.7" y2="479.031" stroke="black"/> 
+  <text x="969.576" y="473" font-size="15">- 0.200</text>
+  <line x1="417" y1="875.913" x2="416.939" y2="571.303" stroke="black" stroke-width="1"/> 
+  <polyline points="286.636,786.277 336.636,786.277 336.545,933.333 585.03,933.333 586.363,787.121 636.636,786.277" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="383.394" y="832.459" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="356.515" y="917.307" font-size="15">20KTH12AP001</text>
+  <image x="232.273" y="750.368" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH12CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH12CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="385.818" y="693.701" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <image x="607.485" y="831.793" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL001_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL001_XG02&quot;"/> 
+  </image>
+  <text x="436.25" y="720" font-size="15">20KTH12<tspan x="436.25" dy="15">AA601</tspan>
+  </text>
+  <image x="372.181" y="587.429" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH12AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="417.121" y1="668.701" x2="567" y2="668.75" stroke="black" stroke-width="1"/> 
+  <line x1="566" y1="669.303" x2="566" y2="861.792" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1009.44,-444.186 1022.82,-436.542 1022.82,-451.829 1009.44,-444.186" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="435.5" y="617.5" font-size="15">20KTH12<tspan x="435.5" dy="15">AA001</tspan>
+  </text>
+  <image x="520.393" y="687.504" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH12AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="584.5" y="722.5" font-size="15">20KTH12<tspan x="584.5" dy="15">AA003</tspan>
+  </text>
+  <text x="637.273" y="848.49" font-size="15">L &gt; 0.3 M</text>
+  <image x="607.485" y="865.156" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL001_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL001_XG51&quot;"/> 
+  </image>
+  <text x="637.819" y="881.853" font-size="15">L &lt; 0.15 M</text>
+  <image x="607.485" y="798.55" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL003_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL003_XG02&quot;"/> 
+  </image>
+  <text x="637.303" y="815.247" font-size="15">L &gt; 0.35 M</text>
+  <image x="607.485" y="899.035" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL003_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL003_XG51&quot;"/> 
+  </image>
+  <text x="638.273" y="915.732" font-size="15">L &lt; 0.1 M</text>
+  <line x1="1264.09" y1="875.912" x2="1264" y2="571.818" stroke="black" stroke-width="1"/> 
+  <polyline points="1131.94,787.125 1180.3,787.121 1180.48,936.363 1432,936.363 1431.94,787.125 1481.94,787.125" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="1228.85" y="833.458" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 3.05176e-005 -6.10352e-005)">
+    <title>&quot;20KTH12AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1201.97" y="918.307" font-size="15">20KTH12AP002</text>
+  <image x="1077.73" y="751.368" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTH12CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTH12CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1232.27" y="694.701" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(90 -3.05176e-005 -3.75003)"/> 
+  <image x="1439.82" y="831.732" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL002_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL002_XG02&quot;"/> 
+  </image>
+  <text x="1282.5" y="718.75" font-size="15">20KTH12<tspan x="1282.5" dy="15">AA602</tspan>
+  </text>
+  <image x="1218.64" y="588.429" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH12AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1263.58" y1="670" x2="1414.5" y2="670" stroke="black" stroke-width="1"/> 
+  <line x1="1413.09" y1="670.303" x2="1413" y2="863.792" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="1008.45,404.274 1021.83,411.918 1021.83,396.631 1008.45,404.274" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1281.5" y="621.25" font-size="15">20KTH12<tspan x="1281.5" dy="15">AA002</tspan>
+  </text>
+  <image x="1369.85" y="688.504" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99998) rotate(0 -3.05176e-005 -10) flipX(-2.77637e-005) rotate(90 -3.05176e-005 -10)">
+    <title>&quot;20KTH12AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTH12AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1432.75" y="722.5" font-size="15">20KTH12<tspan x="1432.75" dy="15">AA004</tspan>
+  </text>
+  <text x="1469.6" y="848.428" font-size="15">L &gt; 0.3 M</text>
+  <image x="1439.82" y="865.094" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL002_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL002_XG51&quot;"/> 
+  </image>
+  <text x="1470.15" y="881.792" font-size="15">L &lt; 0.15 M</text>
+  <image x="1439.82" y="798.489" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL004_XG02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL004_XG02&quot;"/> 
+  </image>
+  <text x="1469.63" y="815.186" font-size="15">L &gt; 0.35 M</text>
+  <image x="1439.82" y="898.974" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTH12CL004_XG51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTH12CL004_XG51&quot;"/> 
+  </image>
+  <text x="1470.6" y="915.671" font-size="15">L &lt; 0.1 M</text>
+  <line x1="416" y1="572" x2="1789.48" y2="571.758" stroke="black" stroke-width="1"/> 
+  <rect x="33.303" y="965.03" width="1672.73" height="18" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <text x="61.485" y="607.636" font-size="18">20UJB</text>
+  <rect x="1681.27" y="564.152" width="27.2727" height="15.1515" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <line x1="265.727" y1="933.758" x2="335.424" y2="933.758" stroke="black"/> 
+  <text x="272.303" y="927.727" font-size="15">- 0.400</text>
+  <line x1="1113.21" y1="935.789" x2="1182.91" y2="935.789" stroke="black"/> 
+  <text x="1119.79" y="929.758" font-size="15">- 0.400</text>
+  <rect x="27.5758" y="42" width="18" height="940.423" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="3"/> 
+  <text x="1826.7" y="175.261" font-size="18">20UKC</text>
+  <image x="1833.25" y="91.25" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPF11&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpf11&quot;"/> 
+  </image>
+  <image x="1766.87" y="558.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KTH4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kth4&quot;"/> 
+  </image>
+  <text x="157.697" y="497.667" font-size="15">20KTH14BB003 (пом.20UJA05R004)</text>
+  <text x="585.849" y="497.667" font-size="15">20KTH14BB002 (пом.20UJA05R003)</text>
+  <text x="1200.61" y="497.667" font-size="15">20KTH14BB001 (пом.20UJA05R003,004)</text>
+  <text x="323.333" y="956.489" font-size="15">20KTH12BB001(пом.20UJB10R001)</text>
+  <text x="1168.79" y="956.489" font-size="15">20KTH12BB002(пом.20UJB10R001)</text>
+  <image x="1766.87" y="630.015" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KTH2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kth2&quot;"/> 
+  </image>
+  <image x="1766.87" y="667.47" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KTH3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kth3&quot;"/> 
+  </image>
+  <text x="10" y="22" font-size="15">KTH1</text>
+</svg>

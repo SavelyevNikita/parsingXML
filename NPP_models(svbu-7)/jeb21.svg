@@ -1,0 +1,929 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1010" width="1914" height="1010" id="JEB21" font-size="15" font-weight="700">
+  <title>Программа пуска ГЦНА-2</title>
+  <rt:model modelversion="7.2.0.24" revision="4.1" comment="UMod all_nsb&#10;LMod jeb20&#10;RMod jeb30&#10;RASU"/> 
+  <line x1="1759.17" y1="402.5" x2="1758.33" y2="498.333" stroke="black" stroke-width="2"/> 
+  <line x1="1424.17" y1="285.833" x2="1425" y2="562.667" stroke="black" stroke-width="2"/> 
+  <line x1="1575" y1="128.061" x2="1575" y2="895.788" stroke="black" stroke-width="2"/> 
+  <rect x="1364" y="328.5" width="115" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <rect x="1487.5" y="328.5" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="957" y="26" font-size="30" text-anchor="middle">Программа пуска ГЦНА-2</text>
+  <image x="1541" y="75" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20JEB20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1619" y="117" font-size="17">ГЦНА-2</text>
+  <image x="1491" y="332" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JAA10CP903_XH22&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA10CP903_XH22&quot;"/> 
+  </image>
+  <text x="1527" y="349" font-size="17">&gt;= 6.86 МПа</text>
+  <rect x="1749" y="228" width="160" height="40" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1755.5" y="235.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20CE901_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20CE901_XH05&quot;"/> 
+  </image>
+  <text x="1789.5" y="254.5" font-size="17">&gt; 26 А</text>
+  <image x="1716.61" y="197.5" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CE901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CE901&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="1800" y="188" font-size="17">I э/м</text>
+  <rect x="1749" y="272" width="160" height="40" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1755.5" y="280.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EE001_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EE001_ZV03&quot;"/> 
+  </image>
+  <text x="1790.5" y="300" font-size="17">&lt; 18 А</text>
+  <rect x="1702.38" y="497.197" width="195" height="35" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1708" y="503.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JAA10CP903_XH70&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA10CP903_XH70&quot;"/> 
+  </image>
+  <text x="1738" y="521.5" font-size="17">P1к&lt;= 13.0 МПа</text>
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <circle cx="1575.24" cy="516.213" r="4.54504"/> 
+  <polygon points="1568.09,724.545 1575.09,709.545 1583.09,724.545" transform="flipY(624.182)"/> 
+  <line x1="1579.09" y1="515.5" x2="1696" y2="515.5" stroke="black" stroke-width="2"/> 
+  <polygon points="1690.76,508.333 1690.76,523.333 1702.76,516.333"/> 
+  <polygon points="1567.61,1096.33 1574.61,1081.33 1582.61,1096.33" transform="flipY(624.182)"/> 
+  <image x="1480" y="275" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JAA10CP903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JAA10CP903&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+  </image>
+  <polygon points="1568.09,985.3 1575.09,970.304 1583.09,985.3" transform="flipY(624.182)"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <polygon points="1568.09,933.152 1575.09,918.152 1583.09,933.152" transform="flipY(624.182)"/> 
+  <polygon points="1559.11,1017.73 1566.11,1002.73 1574.11,1017.73" transform="flipY(624.182)"/> 
+  <rect x="1486" y="473.5" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1547.77" y="494.562" font-size="17">t=6 сек</text>
+  <rect x="1703.59" y="427.5" width="195" height="28" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <polygon points="1567.44,790.303 1574.44,775.303 1582.44,790.303" transform="flipY(624.182)"/> 
+  <text x="1737" y="446.667" font-size="17">t=3 сек</text>
+  <text x="1327" y="350.667" font-size="17">P1к</text>
+  <text x="1786" y="74.6667" font-size="17">Сброс прогр.<tspan x="1786" dy="17">останова</tspan>
+  </text>
+  <line x1="1298.5" y1="62" x2="1298.5" y2="868.5" stroke="black" stroke-width="2"/> 
+  <line x1="1299.42" y1="115.909" x2="1361.55" y2="115.894" stroke="black" stroke-width="2"/> 
+  <line x1="1298.5" y1="63" x2="1361.58" y2="63" stroke="black" stroke-width="2"/> 
+  <rect x="1334.5" y="91.5" width="190" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <rect x="1334.5" y="38.5" width="190" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1379.39" y="68.6677" font-size="17">20JEV21AP001</text>
+  <text x="1380.39" y="121.183" font-size="17">20JEV21AP002</text>
+  <polygon points="1326.25,57 1326.25,69 1335.25,63"/> 
+  <polygon points="1327,110 1327,122 1336,116"/> 
+  <image x="1331" y="41.5" width="52" height="41" xlink:href="DS_motor.svg">
+    <title>&quot;20JEV21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEV21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1332" y="93.5" width="52" height="41" xlink:href="DS_motor.svg">
+    <title>&quot;20JEV21AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEV21AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1475" y="165" width="200" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1523.5" y="192" font-size="17">20PGB52AA004</text>
+  <image x="1475.5" y="166" width="45" height="45" xlink:href="DS_CO_valve.svg" transform="rotate(90 -0.000549316 -10.0005) rotate(270 -0.000523196 -9.99999)">
+    <title>&quot;20PGB52AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PGB52AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <polygon points="1417.3,933.152 1424.3,918.152 1432.3,933.152" transform="flipY(624.182)"/> 
+  <line x1="1424" y1="287" x2="1479.67" y2="287" stroke="black" stroke-width="2"/> 
+  <line x1="1424" y1="561.667" x2="1483.85" y2="560.772" stroke="black" stroke-width="2"/> 
+  <polygon points="1472.36,552.697 1472.36,567.697 1484.36,560.697"/> 
+  <text x="1368" y="348.667" font-size="17">&lt; 6.86 МПа</text>
+  <rect x="1487" y="384" width="190" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1543.62" y="414.755" font-size="17">Э/М</text>
+  <rect x="1476" y="211.75" width="199" height="45.25" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1527.98" y="241.768" font-size="17">20JEB21AP001</text>
+  <image x="1476.59" y="213.086" width="52" height="41" xlink:href="DS_motor.svg">
+    <title>&quot;20JEB21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1491.62" y="386.255" width="38" height="41.5" xlink:href="DS_switch.svg">
+    <title>&quot;20JEB20AP001E&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20AP001E&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <polygon points="1751,663.67 1758,648.67 1766,663.67" transform="flipY(527.198) flipY(624.182)"/> 
+  <line x1="1687" y1="402.5" x2="1759.5" y2="402.5" stroke="black" stroke-width="2"/> 
+  <polygon points="1614.76,395.5 1614.76,410.5 1626.76,403.5" transform="flipX(1650.88)"/> 
+  <rect x="1486.5" y="538.5" width="190" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1534" y="568.667" font-size="17">1-ая скорость</text>
+  <image x="1491" y="542.5" width="38" height="41.5" xlink:href="DS_switch.svg">
+    <title>&quot;20JEB20AP001A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20AP001A&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1724" y1="668.75" x2="1724" y2="882" stroke="black" stroke-width="2"/> 
+  <text x="1683" y="683.167" font-size="17">нет</text>
+  <line x1="1675" y1="670" x2="1724" y2="670" stroke="black" stroke-width="2"/> 
+  <line x1="1673.75" y1="690" x2="1724" y2="690" stroke="black" stroke-width="2"/> 
+  <text x="1685" y="877.167" font-size="17">нет</text>
+  <line x1="1676" y1="861.5" x2="1723" y2="861" stroke="black" stroke-width="2"/> 
+  <line x1="1675" y1="881.5" x2="1723" y2="881" stroke="black" stroke-width="2"/> 
+  <circle cx="1724.8" cy="777.88" r="4.54504"/> 
+  <line x1="1728.75" y1="778" x2="1764" y2="777.75" stroke="black" stroke-width="2"/> 
+  <polygon points="1759,770 1759,785 1771,778"/> 
+  <text x="1772" y="772" font-size="17">останов ГЦНА<tspan x="1772" dy="17">20JEB20EE002</tspan>
+  </text>
+  <rect x="1485" y="677.197" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <rect x="1487.5" y="869" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1491.5" y="871.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20CP907_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20CP907_XH13&quot;"/> 
+  </image>
+  <text x="1516.5" y="889.917" font-size="16">dPа.к.&gt; 0.08 МПа</text>
+  <image x="1488" y="679.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20CP907_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20CP907_XH11&quot;"/> 
+  </image>
+  <rect x="1488" y="799" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1528" y="819.167" font-size="17">t=18,5 сек</text>
+  <polygon points="1568,463.864 1575,448.864 1583,463.864" transform="flipY(624.182)"/> 
+  <rect x="1487" y="728.5" width="190" height="46" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1537" y="758.167" font-size="17">2-ая скорость</text>
+  <rect x="1485" y="609" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <text x="1541" y="630.667" font-size="17">t=20 сек</text>
+  <polygon points="1568,533.364 1575,518.364 1583,533.364" transform="flipY(624.182)"/> 
+  <text x="1516" y="698.667" font-size="16">dPа.к.&gt;0.04 МПа</text>
+  <rect x="1485" y="646" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1488" y="648.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20CS901_XH10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20CS901_XH10&quot;"/> 
+  </image>
+  <text x="1529" y="667.667" font-size="17">n &gt; 740 об/м</text>
+  <rect x="1487.5" y="838" width="190" height="30" rx="0" ry="0" fill="silver" stroke="black"/> 
+  <image x="1492" y="840.098" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20CS901_XH08&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20CS901_XH08&quot;"/> 
+  </image>
+  <text x="1521" y="857.682" font-size="17">n &gt; 990 об/м</text>
+  <image x="1488" y="732.955" width="44" height="42.5" xlink:href="DS_switch.svg">
+    <title>&quot;20JEB20AP001B&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20AP001B&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1299" y1="868" x2="1452" y2="868" stroke="black" stroke-width="2"/> 
+  <text x="1459" y="872.167" font-size="17">да</text>
+  <line x1="1453" y1="856.5" x2="1487" y2="856.5" stroke="black" stroke-width="2"/> 
+  <line x1="1452" y1="876.5" x2="1487" y2="876.5" stroke="black" stroke-width="2"/> 
+  <line x1="1452" y1="855.5" x2="1452" y2="876.5" stroke="black" stroke-width="2"/> 
+  <text x="1326" y="862.667" font-size="17">отключение</text>
+  <text x="1515" y="925.667" font-size="17">ПУСК ОКОНЧЕН</text>
+  <image x="1487" y="936" width="190" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20FE901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20FE901&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;N&quot;"/> 
+  </image>
+  <image x="1487" y="966" width="190" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEC20CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC20CP902&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+  </image>
+  <image x="1714" y="548" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CS901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CS901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;n&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="1676" y="295" font-size="17">P1к</text>
+  <image x="1818" y="100" width="40" height="40" xlink:href="DS_TPTS_nakladka.svg">
+    <title>&quot;20JEB20CH001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="110.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB11&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb11&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="210.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB31&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb31&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="310.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB41&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb41&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="881.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB10&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb10&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="981.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB20&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb20&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="1081.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB30&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb30&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="1181.5" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB40&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb40&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <image x="622" y="979.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB00&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jeb00&quot;"/> 
+    <rt:event type="OnClick"/> 
+  </image>
+  <text x="10" y="22" font-size="17">JEB21</text>
+  <line x1="5.151" y1="60" x2="1280" y2="60" stroke="black" stroke-width="3"/> 
+  <line x1="6.697" y1="93" x2="1280" y2="93" stroke="black"/> 
+  <line x1="302.166" y1="35.3333" x2="302.166" y2="608.03" stroke="black"/> 
+  <text x="60.333" y="54.2083" font-size="15">ПАРАМЕТР/СОСТОЯНИЕ</text>
+  <text x="429.667" y="54.2083" font-size="15">ЗНАЧЕНИЕ</text>
+  <text x="8.394" y="82.9849" font-size="17">N&gt;20% или &gt;30%NНОМ</text>
+  <line x1="6.697" y1="127" x2="1280" y2="127" stroke="black"/> 
+  <line x1="6.697" y1="161" x2="1280" y2="161.667" stroke="black"/> 
+  <rect x="4.50004" y="36.25" width="1275.5" height="933.75" rx="6.05898" ry="3.02858" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="6.697" y1="195" x2="1280" y2="195" stroke="black"/> 
+  <line x1="6.697" y1="263" x2="1280" y2="263" stroke="black"/> 
+  <line x1="6.697" y1="298" x2="1280" y2="298" stroke="black"/> 
+  <line x1="5.697" y1="498" x2="1279" y2="498" stroke="black"/> 
+  <line x1="7.09092" y1="467.621" x2="1280.39" y2="467.621" stroke="black"/> 
+  <line x1="5.697" y1="331" x2="1280" y2="331.667" stroke="black"/> 
+  <line x1="5.697" y1="365" x2="1280" y2="365" stroke="black"/> 
+  <line x1="5.697" y1="399" x2="1280" y2="399" stroke="black"/> 
+  <line x1="5.697" y1="433" x2="1280" y2="433" stroke="black"/> 
+  <line x1="5.697" y1="606" x2="1280" y2="606" stroke="black"/> 
+  <line x1="5.697" y1="641" x2="1280" y2="641" stroke="black"/> 
+  <line x1="5.697" y1="675" x2="1280" y2="675" stroke="black"/> 
+  <line x1="5.697" y1="769" x2="1280" y2="769" stroke="black"/> 
+  <line x1="5.697" y1="828" x2="1280" y2="828" stroke="black"/> 
+  <line x1="5.697" y1="863" x2="1280" y2="863" stroke="black"/> 
+  <line x1="5.697" y1="898" x2="1280" y2="898" stroke="black"/> 
+  <text x="9.909" y="115.788" font-size="17">Р на сливе з.в.ГЦН</text>
+  <text x="9.909" y="149.788" font-size="17">dP з.в.(на входе в БУ-за 1ст.)</text>
+  <text x="9.909" y="183.788" font-size="17">Р автоном.контура ГЦН</text>
+  <text x="9.909" y="217.788" font-size="17">Т автоном.контура ГЦН</text>
+  <text x="9.909" y="286.788" font-size="17">dP автоном.контура ГЦН</text>
+  <text x="9.909" y="320.788" font-size="17">L в баке РОП</text>
+  <text x="9.909" y="354.788" font-size="17">Р в камере РОП</text>
+  <text x="9.909" y="387.788" font-size="17">L в маслобаке JEV</text>
+  <text x="8.394" y="422.788" font-size="17">P в маслобаке эл./дв.</text>
+  <text x="8.394" y="456.788" font-size="17">dP (маслобак э/д-вход в э/д)</text>
+  <text x="9.909" y="489.863" font-size="17">Т масла на входе в э/д</text>
+  <text x="8.394" y="559.038" font-size="17">F промконтура PGB50 на ГЦН</text>
+  <text x="6.394" y="630.208" font-size="17">Т подпятника э/д</text>
+  <text x="8.394" y="856.303" font-size="17">Ложн. закр. БЗОК/эл.арм.ПГ-2</text>
+  <text x="9.909" y="887.269" font-size="17">Закл./обрыв вала ГЦН-2</text>
+  <text x="9.909" y="921.084" font-size="17">Локализ.ПГ-2 при течи 2 к</text>
+  <image x="304.606" y="508.939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB52CF008&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB52CF008&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="481.796" y="508.939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB52CF005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB52CF005&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="572.606" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB52CF018&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB52CF018&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="660" y1="36.3333" x2="660" y2="604" stroke="black"/> 
+  <text x="750.667" y="54.2083" font-size="15">ЗАПРЕТ ПУСКА</text>
+  <line x1="932.5" y1="35" x2="932.5" y2="969.818" stroke="black"/> 
+  <text x="990.67" y="53.5833" font-size="15">ЗАЩИТА ГЦН</text>
+  <line x1="1161" y1="35" x2="1161" y2="970.303" stroke="black"/> 
+  <line x1="5.3637" y1="933" x2="1280" y2="933" stroke="black"/> 
+  <text x="9.5757" y="956.5" font-size="17">Локализ.ПГ-2 (течь 1к-2к)</text>
+  <image x="304.606" y="541.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB52CF006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB52CF006&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="481.796" y="541.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PGB52CF007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PGB52CF007&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="665.303" y="64.8183" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB00EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB00EZ001_ZV01&quot;"/> 
+  </image>
+  <image x="665.303" y="98" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE21ER160_XE98&quot;"/> 
+  </image>
+  <text x="702.09" y="183.819" font-size="17">&lt;=1.47 MПа</text>
+  <image x="665.303" y="164.636" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV03&quot;"/> 
+  </image>
+  <text x="758.09" y="218.212" font-size="17">&gt;140° С</text>
+  <text x="702.09" y="323.334" font-size="17">&lt;= 0.11 м</text>
+  <image x="665.303" y="303.152" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV04&quot;"/> 
+  </image>
+  <text x="702.09" y="387.515" font-size="17">&lt;=0.25 м</text>
+  <image x="665.303" y="369.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV05&quot;"/> 
+  </image>
+  <text x="702.09" y="422.758" font-size="17">&lt;=0.025 MПа</text>
+  <image x="665.303" y="404.591" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV06&quot;"/> 
+  </image>
+  <text x="692.09" y="490.129" font-size="17">&lt;= 20°С</text>
+  <image x="665.303" y="472.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ006_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ006_ZV01&quot;"/> 
+  </image>
+  <text x="810.06" y="490.129" font-size="17">&gt;= 45°С</text>
+  <image x="783" y="472.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ006_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ006_ZV01&quot;"/> 
+  </image>
+  <text x="703.605" y="559.622" font-size="17">&lt;=MIN</text>
+  <image x="667.303" y="541.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV11&quot;"/> 
+  </image>
+  <text x="811.605" y="628.583" font-size="17">&gt;= 80° С</text>
+  <image x="774.303" y="611.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV08&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV08&quot;"/> 
+  </image>
+  <text x="969.485" y="150.486" font-size="17">&lt;= 0.49 MПа</text>
+  <image x="938.091" y="131.303" width="25" height="25" xlink:href="bin_indicator.svg">
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ011_ZV01&quot;"/> 
+  </image>
+  <text x="969.485" y="288.516" font-size="17">&lt;= 0.06 MПа</text>
+  <image x="937" y="269.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV52&quot;"/> 
+  </image>
+  <text x="1033.48" y="218.212" font-size="17">&gt; 150° С</text>
+  <text x="969.485" y="356.183" font-size="17">&lt;= 0.394 MПа</text>
+  <image x="937" y="337" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV53&quot;"/> 
+  </image>
+  <text x="969.485" y="422.758" font-size="17">&lt;= 0.02 MПа</text>
+  <image x="937" y="404.591" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV58&quot;"/> 
+  </image>
+  <text x="969.485" y="456.667" font-size="17">&lt;= 0.1 MПа</text>
+  <image x="937" y="438.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV57&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV57&quot;"/> 
+  </image>
+  <text x="969.485" y="559.038" font-size="17">&lt;= 1 м3/час</text>
+  <image x="937" y="541.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ019_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ019_ZV03&quot;"/> 
+  </image>
+  <image x="937" y="611.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV54&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV54&quot;"/> 
+  </image>
+  <text x="969.485" y="628.583" font-size="17">&gt;= 85° С</text>
+  <image x="937" y="742.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEC20EU005_XH64&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEC20EU005_XH64&quot;"/> 
+  </image>
+  <text x="969.485" y="760.583" font-size="17">&lt;= 8° С</text>
+  <text x="1023.48" y="790.792" font-size="17">&lt; Lном - 0.5м</text>
+  <text x="1023.48" y="819.792" font-size="17">&gt; Lном + 0.2м</text>
+  <text x="1031" y="949" font-size="17">Локал.ПГ-2<tspan x="1031" dy="17">(течь 1к-2к)</tspan>
+  </text>
+  <text x="1032" y="912.667" font-size="17">Локал.ПГ-2<tspan x="1032" dy="17">(течь 2к)</tspan>
+  </text>
+  <text x="1033" y="884.776" font-size="17">Закл.ГЦН-2</text>
+  <text x="1033" y="851.811" font-size="17">Закр. БЗОК</text>
+  <text x="1194.91" y="54.2083" font-size="15">ТЗБ</text>
+  <line x1="219" y1="608.03" x2="219" y2="829.242" stroke="black"/> 
+  <text x="391.606" y="856.667" font-size="17">BD12</text>
+  <text x="393.121" y="887.632" font-size="17">AA12</text>
+  <text x="393.121" y="921.94" font-size="17">AB11</text>
+  <text x="391.606" y="957.583" font-size="17">CD11</text>
+  <image x="380.764" y="97.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;21KBA62CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21KBA62CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="131.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="165.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CP908&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CP908&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380" y="199" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;21JEB20CT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEB20CT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="268.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CP907&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CP907&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="302.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="336.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CP909&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CP909&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="438.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEV20CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEV20CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="404.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEV20CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEV20CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="369.121" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEV20CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEV20CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="380.764" y="472.06" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEV20CT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEV20CT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="695.303" y="98" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF21ER160_XE98&quot;"/> 
+  </image>
+  <image x="725.303" y="98" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG21ER160_XE98&quot;"/> 
+  </image>
+  <image x="937" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE01EU150_XE23&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE01EU150_XE23&quot;"/> 
+  </image>
+  <image x="967" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF01EU150_XE23&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF01EU150_XE23&quot;"/> 
+  </image>
+  <image x="997" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG01EU150_XE23&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG01EU150_XE23&quot;"/> 
+  </image>
+  <text x="1029.7" y="107.622" font-size="16">&lt;0.049 МПа<tspan x="1029.7" dy="16">&gt;0.49 MПа</tspan>
+  </text>
+  <image x="937" y="97.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE01EU170_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE01EU170_XE21&quot;"/> 
+  </image>
+  <image x="967" y="97.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF01EU170_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF01EU170_XE21&quot;"/> 
+  </image>
+  <image x="997" y="97.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG01EU170_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG01EU170_XE21&quot;"/> 
+  </image>
+  <image x="666" y="199.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE21ER160_XE98&quot;"/> 
+  </image>
+  <image x="696" y="199.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF21ER160_XE98&quot;"/> 
+  </image>
+  <image x="726" y="199.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG21ER160_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG21ER160_XE98&quot;"/> 
+  </image>
+  <image x="1164.55" y="129" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH011&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH011TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="265" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH012&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH012TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="334" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH013&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH013TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="608" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH014&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH014TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="401" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH018&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH018TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="436" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH017&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH017TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="538.955" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH019&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH019TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="862" y="218.167" font-size="17">(BA16)</text>
+  <text x="8.394" y="760.583" font-size="17">d(Ts1к.-Tг.н.1петли)</text>
+  <line x1="317.166" y1="830" x2="317.166" y2="971.697" stroke="black"/> 
+  <image x="403.764" y="743.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEC00FT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC00FT001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dTs&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="9.909" y="806.084" font-size="17">L в ПГ-2</text>
+  <image x="224" y="788.015" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21JEA20CL801A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEA20CL801A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="788.015" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21JEA20CL801B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEA20CL801B&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="585" y="788.015" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21JEA20CL801C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEA20CL801C&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="224" y="611.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT010A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT010A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="611.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT010B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT010B&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="585" y="611.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT010C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT010C&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="765" y1="606" x2="765" y2="969.583" stroke="black"/> 
+  <text x="973.787" y="322.849" font-size="17">&lt;= 0.11 м</text>
+  <image x="937" y="302.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV60&quot;"/> 
+  </image>
+  <image x="1164.55" y="299" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="5.697" y1="739" x2="1280" y2="739" stroke="black"/> 
+  <line x1="6" y1="709.5" x2="1280.3" y2="709.5" stroke="black"/> 
+  <text x="8.394" y="662.583" font-size="17">Т верхн. подшип. э/д</text>
+  <text x="9.909" y="698.208" font-size="17">Т нижн. подшип. э/д</text>
+  <text x="8.394" y="731.788" font-size="17">Т обмотки стат. э/д</text>
+  <text x="810.302" y="662.583" font-size="17">&gt;= 80° С</text>
+  <image x="773" y="645.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV10&quot;"/> 
+  </image>
+  <text x="808.787" y="697.583" font-size="17">&gt;= 80° С</text>
+  <image x="773" y="680.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV09&quot;"/> 
+  </image>
+  <text x="811.302" y="732.182" font-size="17">&gt;= 110° С</text>
+  <image x="774" y="714" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ100_ZV12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ100_ZV12&quot;"/> 
+  </image>
+  <image x="937" y="645.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV56&quot;"/> 
+  </image>
+  <text x="969.485" y="662.583" font-size="17">&gt;= 85° С</text>
+  <image x="937" y="680.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV55&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV55&quot;"/> 
+  </image>
+  <text x="969.485" y="697.583" font-size="17">&gt;= 85° С</text>
+  <image x="1164.55" y="678" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH015&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH015TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1164.55" y="643" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH016&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH016TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="224" y="714" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT011&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="714.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT012&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="585" y="714.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT013&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="224" y="646" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT009A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT009A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="646" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT009B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT009B&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="585" y="646" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT009C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT009C&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="224" y="680" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT014A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT014A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="403.764" y="680" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT014B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT014B&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="585" y="680" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEB20CT014C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT014C&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="380.546" y="234.56" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20JEB20CT905&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB20CT905&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="9.54559" y="251.871" font-size="17">Т камера РОП</text>
+  <image x="937.546" y="234.56" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JEB20EZ200_ZV61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEB20EZ200_ZV61&quot;"/> 
+  </image>
+  <text x="970.031" y="252.629" font-size="17">&gt; 90° С</text>
+  <image x="1164.55" y="232.06" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20JEB20CH027&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20JEB20CH027TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="4.84852" y1="230.152" x2="1278.15" y2="230.152" stroke="black"/> 
+  <image x="936.091" y="772.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE24ER120_XE91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE24ER120_XE91&quot;"/> 
+  </image>
+  <image x="936.091" y="801.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE24ER120_XE93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE24ER120_XE93&quot;"/> 
+  </image>
+  <image x="936.091" y="834.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE24ER120_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE24ER120_XE95&quot;"/> 
+  </image>
+  <image x="936.091" y="868.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE11ER120_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE11ER120_XE21&quot;"/> 
+  </image>
+  <image x="936.091" y="904.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE12ER110_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE12ER110_XE95&quot;"/> 
+  </image>
+  <image x="936.091" y="939.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRE34ER110_XE96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRE34ER110_XE96&quot;"/> 
+  </image>
+  <image x="966.091" y="939.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF34ER110_XE96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF34ER110_XE96&quot;"/> 
+  </image>
+  <image x="996.091" y="939.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG34ER110_XE96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG34ER110_XE96&quot;"/> 
+  </image>
+  <image x="966.091" y="904.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF12ER110_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF12ER110_XE95&quot;"/> 
+  </image>
+  <image x="996.091" y="904.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG12ER110_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG12ER110_XE95&quot;"/> 
+  </image>
+  <image x="966.091" y="868.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF11ER120_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF11ER120_XE21&quot;"/> 
+  </image>
+  <image x="996.091" y="868.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG11ER120_XE21&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG11ER120_XE21&quot;"/> 
+  </image>
+  <image x="966.091" y="834.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF24ER120_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF24ER120_XE95&quot;"/> 
+  </image>
+  <image x="996.091" y="834.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG24ER120_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG24ER120_XE95&quot;"/> 
+  </image>
+  <image x="966.091" y="801.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF24ER120_XE93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF24ER120_XE93&quot;"/> 
+  </image>
+  <image x="996.091" y="801.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG24ER120_XE93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG24ER120_XE93&quot;"/> 
+  </image>
+  <image x="966.091" y="772.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRF24ER120_XE91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRF24ER120_XE91&quot;"/> 
+  </image>
+  <image x="996.091" y="772.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;21JRG24ER120_XE91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;21JRG24ER120_XE91&quot;"/> 
+  </image>
+  <g>
+    <text x="752" y="108.122" font-size="16">&lt;0.049 МПа<tspan x="752" dy="16">&gt;0.49 MПа</tspan>
+    </text>
+    <text x="865" y="118" font-size="17">(BA16)</text>
+  </g>
+  <image x="402" y="65" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;21CLA75FX001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21CLA75FX001&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;N&quot;"/> 
+  </image>
+</svg>

@@ -1,0 +1,256 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="10kpn10ec003_m5-7" stroke-width="3" font-size="15" font-weight="bold">
+  <title>ПУ дезактивацией смесителя 10KPN10AM001</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod jro1_fgu" revision="2.0"/> 
+  <polyline points="900,864 900,751 1264,751 1264,956 1487,956" fill="none" stroke="black"/> 
+  <polyline points="1074.13,146 1074.13,333.512 1297.27,333.512" fill="none" stroke="black"/> 
+  <polyline points="1073.13,524.073 1073.13,725.317 1296.27,725.317" fill="none" stroke="black"/> 
+  <polyline points="875,154 919,154 919,265 991,265" fill="none" stroke="black"/> 
+  <polyline points="875,101 991,101 991,750" fill="none" stroke="black"/> 
+  <text x="957" y="39" fill-opacity="1" font-size="26" text-anchor="middle">ПУ дезактивацией смесителя 10KPN10AM001</text>
+  <text x="12.6063" y="33.197" fill="black" font-size="18" font-weight="bold">10KPN10EC003</text>
+  <image x="1700" y="18" width="50" height="25" xlink:href="DS_ana.svg">
+    <title>10KPN10EC003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KPN10EC003&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="DecPointNum" mode="constant" value="0"/> 
+  </image>
+  <text x="1500" y="35" font-size="16">Номер текущего шага:</text>
+  <line x1="1636.27" y1="329.268" x2="1636.27" y2="329.268" stroke="black"/> 
+  <line x1="572.854" y1="271.951" x2="572.854" y2="271.951" stroke="black"/> 
+  <line x1="1650.17" y1="442.854" x2="1650.17" y2="442.854" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="322.854" y1="357.317" x2="322.854" y2="357.317" stroke="black"/> 
+  <rect x="948.317" y="117.89" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1098.32" y1="147.89" x2="948.317" y2="147.89" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="958.317" y="137.89" fill="black" font-size="18" font-weight="700">ШАГ 5</text>
+  <text x="958.317" y="165.89" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1088.32" y="165.89" font-size="16" text-anchor="end">0 с</text>
+  <image x="1063.32" y="119.89" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10EC003_XS05</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10EC003_XS05&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="1300.32" y1="202.89" x2="1075.32" y2="202.89" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1083.32" y="197.89" font-size="16">10KPN20AA015 ЗАКР</text>
+  <line x1="1300.32" y1="231.89" x2="1075.32" y2="231.89" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1083.83" y="256.016" font-size="16">10KPN20EE501 В АЛГОРИТМ</text>
+  <line x1="1300.32" y1="260.89" x2="1075.32" y2="260.89" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1083.32" y="227.89" font-size="16">10KPN20AA011 ЗАКР</text>
+  <text x="1083.32" y="283.89" font-size="16">10KPN10EU001 В АЛГОРИТМ</text>
+  <image x="831.391" y="89.3902" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;Из шага 4&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;10kpn10ec003_m1-4&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <line x1="991.317" y1="419.39" x2="941.317" y2="419.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="407.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA009_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA009_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="425.39" text-anchor="end">10KPN20AA009 ЗАКР</text>
+  <line x1="991.317" y1="393.39" x2="941.317" y2="393.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="381.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AP001VL0_Z0 2</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AP001VL0_Z0 2&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="399.39" text-anchor="end">10KPN20AP001 СНЯТА</text>
+  <line x1="991.317" y1="367.39" x2="941.317" y2="367.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="355.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA015_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA015_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="373.39" text-anchor="end">10KPN20AA015 ЗАКР</text>
+  <line x1="991.317" y1="341.39" x2="941.317" y2="341.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="329.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA011_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA011_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="347.39" text-anchor="end">10KPN20AA011 ЗАКР</text>
+  <line x1="991.317" y1="315.39" x2="941.317" y2="315.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="303.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AP002VL0_Z0 2</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AP002VL0_Z0 2&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="321.39" text-anchor="end">10KPN20AP002 СНЯТА</text>
+  <line x1="991.317" y1="289.39" x2="941.317" y2="289.39" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="913.817" y="277.39" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA010_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA010_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.317" y="295.39" text-anchor="end">10KPN20AA010 ЗАКР</text>
+  <line x1="913.732" y1="181.683" x2="863.732" y2="181.683" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="851.732" y="169.683" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10CL002_XG01</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10CL002_XG01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="841.732" y="187.683" text-anchor="end">10KPN10CL002 СРАБ</text>
+  <image x="851.732" y="140.683" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10CL001_XH58</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10CL001_XH58&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="841.732" y="158.683" text-anchor="end">10KPN10CL001 &lt;0.15 М</text>
+  <g>
+    <rect x="896.89" y="206.195" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="897.89" y="238.528" font-size="28">&gt;1</text>
+  </g>
+  <g>
+    <rect x="970.037" y="437.646" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="981.037" y="469.979" font-size="28">&amp;</text>
+  </g>
+  <rect x="946.525" y="497.622" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1096.52" y1="527.622" x2="946.525" y2="527.622" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="956.525" y="517.622" fill="black" font-size="18" font-weight="700">ШАГ 6</text>
+  <text x="956.525" y="545.622" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1086.52" y="545.622" font-size="16" text-anchor="end">0 с</text>
+  <image x="1061.52" y="499.622" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10EC003_XS06</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10EC003_XS06&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="1298.53" y1="583.622" x2="1073.52" y2="583.622" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1081.52" y="579.622" font-size="16">10KPN10AA003 ЗАКР</text>
+  <line x1="1298.53" y1="614.622" x2="1073.52" y2="614.622" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1081.52" y="610.622" font-size="16">10KPN20AA018 ЗАКР</text>
+  <line x1="1298.53" y1="646.622" x2="1073.52" y2="646.622" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1081.52" y="641.622" font-size="16">10KPN20AA019 ЗАКР</text>
+  <line x1="1298.53" y1="677.622" x2="1073.52" y2="677.622" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1081.52" y="672.622" font-size="16">10KPN10EU003 В АЛГОРИТМ</text>
+  <image x="849.366" y="849" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;В шаг 2&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;10kpn10ec003_m1-4&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <line x1="990.781" y1="663.354" x2="940.781" y2="663.354" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="915.281" y="651.354" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN10AA003_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN10AA003_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.781" y="669.354" text-anchor="end">10KPN10AA003 ЗАКР</text>
+  <line x1="990.781" y1="634.354" x2="940.781" y2="634.354" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="915.281" y="622.354" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA019_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA019_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.781" y="640.354" text-anchor="end">10KPN20AA019 ЗАКР</text>
+  <line x1="990.781" y1="606.354" x2="940.781" y2="606.354" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="915.281" y="594.354" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN20AA018_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN20AA018_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.781" y="612.354" text-anchor="end">10KPN20AA018 ЗАКР</text>
+  <line x1="990.781" y1="578.354" x2="940.781" y2="578.354" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="915.281" y="566.354" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>10KPN00CH001TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;10KPN00CH001TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="T_Size" value="0" mode="constant"/> 
+  </image>
+  <text x="902.781" y="584.354" text-anchor="end">10KPN00CH001 ВЫПОЛН</text>
+  <line x1="899.245" y1="774.195" x2="849.245" y2="774.195" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="837.245" y="761.695" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10EU003_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10EU003_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="824.245" y="779.195" text-anchor="end">10KPN10EU003</text>
+  <line x1="1265.1" y1="774.195" x2="1215.1" y2="774.195" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1203.1" y="761.695" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10EU003_ZV02</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10EU003_ZV02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1190.1" y="779.195" text-anchor="end">10KPN10EU003</text>
+  <g>
+    <rect x="1242.33" y="792.244" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="1253.74" y="824.577" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="875.257" y="792.244" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="886.672" y="824.577" font-size="28">&amp;</text>
+  </g>
+  <rect x="1221.79" y="851.061" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1371.79" y1="881.061" x2="1221.79" y2="881.061" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1231.79" y="871.061" fill="black" font-size="18" font-weight="700">ШАГ 7</text>
+  <text x="1231.79" y="899.061" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1361.79" y="899.061" font-size="16" text-anchor="end">0 с</text>
+  <image x="1336.79" y="853.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>10KPN10EC003_XS07</title>
+    <rt:dyn type="PointID" value="&quot;10KPN10EC003_XS07&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <circle cx="913.732" cy="181.683" r="5" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1082.61" y="702.195" font-size="16" font-style="italic" font-weight="normal">&quot;Закройте ручной<tspan x="1082.61" dy="16">вентиль 10KPN20AA109&quot;</tspan>
+  </text>
+  <text x="954.39" y="743.598" font-style="italic" font-weight="normal" text-anchor="end">N=1</text>
+  <text x="1053.59" y="743.598" font-style="italic" font-weight="normal" text-anchor="end">N=2</text>
+  <text x="1474.07" y="950.305" text-anchor="end">Пуск окончен</text>
+  <text x="1382.2" y="672.732" font-size="16" font-style="italic" font-weight="normal">N=N+1</text>
+  <text x="1359.44" y="254.797" font-size="16" font-style="italic" font-weight="normal">Отключить<tspan x="1359.44" dy="16"/> 
+<tspan x="1359.44" dy="16">Сброс ПВР смесителя</tspan>
+<tspan x="1359.44" dy="16">&quot;Дизактивация&quot;</tspan>
+  </text>
+  <text x="1085.05" y="309.415" font-size="16" font-style="italic" font-weight="normal">&quot;Откройте ручной<tspan x="1085.05" dy="16">вентиль 10KPN20AA109&quot;</tspan>
+  </text>
+  <line x1="1298.29" y1="289.402" x2="1073.29" y2="289.402" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1359.44" y="201.138" font-size="16" font-style="italic" font-weight="normal">Слив раствора из<tspan x="1359.44" dy="16">бака пром воды в</tspan>
+<tspan x="1359.44" dy="16">трап</tspan>
+  </text>
+</svg>

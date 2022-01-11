@@ -1,0 +1,231 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lac_ee_tzb">
+  <title>ПУ нагрева МБ ПЭН</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to&#10;LMod lac_2_tzb&#10;RMod lac_tzb_1" revision="3"/> 
+  <text x="41" y="25" font-size="15" font-weight="700">LAC_EE_TZB</text>
+  <text x="379.581" y="80.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1301.21" y1="52" x2="1301.21" y2="102" stroke="black"/> 
+  <text x="100.728" y="70.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1441.5" y="82" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1174" y="82.5" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="125" y1="51" x2="125" y2="564" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="823.334" y1="101" x2="823.334" y2="51" stroke="black"/> 
+  <line x1="1049.88" y1="51" x2="1049.88" y2="101" stroke="black"/> 
+  <text x="938" y="72.5" fill="black" font-size="15" text-anchor="middle">Рассогласование<tspan x="938" dy="15">(отклонение) датчиков</tspan>
+  </text>
+  <rect x="75" y="51" width="1778.67" height="513.333" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="1582.53" y1="51.3333" x2="1582.53" y2="101.333" stroke="black"/> 
+  <text x="1715.83" y="81.3333" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <line x1="125.167" y1="126.5" x2="1855.5" y2="126.5" stroke="black"/> 
+  <text x="95.3334" y="119.333" fill="black" font-size="15">1</text>
+  <rect x="75.1667" y="101.5" width="1778.5" height="92.8333" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="823.501" y1="126.5" x2="823.667" y2="194" stroke="black"/> 
+  <line x1="499.959" y1="126.5" x2="499.959" y2="194" stroke="black"/> 
+  <text x="135.955" y="119.682" fill="black" font-size="15" font-weight="700">20LAC10EE004 ПУ НАГР МБ ПЭН1</text>
+  <line x1="1050.09" y1="126.5" x2="1050" y2="194" stroke="black"/> 
+  <image x="390.751" y="132.813" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV10CT036_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV10CT036_XH58&quot;"/> 
+  </image>
+  <text x="575.167" y="149.896" fill="black" font-size="15">Т МБ ПЭН1 &lt;45 C</text>
+  <line x1="307.167" y1="126.5" x2="307.167" y2="194" stroke="black"/> 
+  <line x1="1582.53" y1="126.833" x2="1582.53" y2="194" stroke="black"/> 
+  <line x1="1301.17" y1="126.833" x2="1301.25" y2="194" stroke="black"/> 
+  <image x="1703.33" y="132.813" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EE004_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EE004_XA01&quot;"/> 
+  </image>
+  <image x="128.667" y="147.334" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1119" y="144.833" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAC10EE004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC10EE004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="390.751" y="162.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV10CT036_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV10CT036_XH09&quot;"/> 
+  </image>
+  <text x="575.167" y="179.75" fill="black" font-size="15">Т МБ ПЭН1 &gt;50 C</text>
+  <image x="1703.33" y="162.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EE004_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EE004_XA17&quot;"/> 
+  </image>
+  <line x1="125.167" y1="218.833" x2="1855.5" y2="218.833" stroke="black"/> 
+  <text x="95.3334" y="212.333" fill="black" font-size="15">2</text>
+  <rect x="75.1667" y="193.833" width="1778.5" height="92.8333" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="823.501" y1="218.833" x2="823.667" y2="286.333" stroke="black"/> 
+  <line x1="499.959" y1="218.833" x2="499.959" y2="286.333" stroke="black"/> 
+  <text x="135.955" y="212.015" fill="black" font-size="15" font-weight="700">20LAC20EE004 ПУ НАГР МБ ПЭН2</text>
+  <line x1="1050.09" y1="218.833" x2="1050" y2="286.333" stroke="black"/> 
+  <image x="390.751" y="225.146" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV20CT036_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV20CT036_XH58&quot;"/> 
+  </image>
+  <text x="575.167" y="242.229" fill="black" font-size="15">Т МБ ПЭН2 &lt;45 C</text>
+  <line x1="307.167" y1="218.833" x2="307.167" y2="286.333" stroke="black"/> 
+  <line x1="1582.53" y1="219.166" x2="1582.53" y2="286.333" stroke="black"/> 
+  <line x1="1301.17" y1="219.166" x2="1301.25" y2="286.333" stroke="black"/> 
+  <image x="1703.33" y="225.146" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EE004_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EE004_XA01&quot;"/> 
+  </image>
+  <image x="128.667" y="239.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1119" y="237.166" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAC20EE004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC20EE004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="390.751" y="254.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV20CT036_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV20CT036_XH09&quot;"/> 
+  </image>
+  <text x="575.167" y="272.083" fill="black" font-size="15">Т МБ ПЭН2 &gt;50 C</text>
+  <image x="1703.33" y="254.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EE004_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EE004_XA17&quot;"/> 
+  </image>
+  <line x1="125.834" y1="311.833" x2="1856.17" y2="311.833" stroke="black"/> 
+  <text x="96.0001" y="304.667" fill="black" font-size="15">3</text>
+  <rect x="75.8334" y="286.833" width="1778.5" height="92.8333" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="824.168" y1="311.833" x2="824.334" y2="379.333" stroke="black"/> 
+  <line x1="499.959" y1="311.833" x2="499.959" y2="379.333" stroke="black"/> 
+  <text x="136.622" y="305.015" fill="black" font-size="15" font-weight="700">20LAC30EE004 ПУ НАГР МБ ПЭН3</text>
+  <line x1="1050.76" y1="311.833" x2="1050.67" y2="379.333" stroke="black"/> 
+  <image x="390.751" y="318.146" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV30CT036_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV30CT036_XH58&quot;"/> 
+  </image>
+  <text x="575.167" y="335.229" fill="black" font-size="15">Т МБ ПЭН3 &lt;45 C</text>
+  <line x1="307.167" y1="311.833" x2="307.167" y2="379.333" stroke="black"/> 
+  <line x1="1582.53" y1="312.166" x2="1582.53" y2="379.333" stroke="black"/> 
+  <line x1="1301.17" y1="312.166" x2="1301.25" y2="379.333" stroke="black"/> 
+  <image x="1703.33" y="318.146" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EE004_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EE004_XA01&quot;"/> 
+  </image>
+  <image x="128.667" y="332.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1119" y="330.166" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAC30EE004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC30EE004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="390.751" y="347.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV30CT036_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV30CT036_XH09&quot;"/> 
+  </image>
+  <text x="575.167" y="365.083" fill="black" font-size="15">Т МБ ПЭН3 &gt;50 C</text>
+  <image x="1703.33" y="347.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EE004_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EE004_XA17&quot;"/> 
+  </image>
+  <line x1="124.834" y1="404.166" x2="1855.17" y2="404.166" stroke="black"/> 
+  <text x="95.0001" y="397" fill="black" font-size="15">4</text>
+  <rect x="74.8334" y="379.166" width="1778.5" height="92.8333" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="823.168" y1="404.166" x2="823.334" y2="471.666" stroke="black"/> 
+  <line x1="499.959" y1="404.166" x2="499.959" y2="471.666" stroke="black"/> 
+  <text x="135.622" y="397.348" fill="black" font-size="15" font-weight="700">20LAC40EE004 ПУ НАГР МБ ПЭН4</text>
+  <line x1="1049.76" y1="404.166" x2="1049.67" y2="471.666" stroke="black"/> 
+  <image x="390.751" y="410.479" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV40CT036_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV40CT036_XH58&quot;"/> 
+  </image>
+  <text x="575.167" y="427.562" fill="black" font-size="15">Т МБ ПЭН4 &lt;45 C</text>
+  <line x1="307.167" y1="404.166" x2="307.167" y2="471.666" stroke="black"/> 
+  <line x1="1582.53" y1="404.499" x2="1582.53" y2="471.666" stroke="black"/> 
+  <line x1="1301.17" y1="404.499" x2="1301.25" y2="471.666" stroke="black"/> 
+  <image x="1703.33" y="410.479" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EE004_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EE004_XA01&quot;"/> 
+  </image>
+  <image x="128.667" y="425" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1119" y="422.499" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAC40EE004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC40EE004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="390.751" y="440.332" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV40CT036_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV40CT036_XH09&quot;"/> 
+  </image>
+  <text x="575.167" y="457.416" fill="black" font-size="15">Т МБ ПЭН4 &gt;50 C</text>
+  <image x="1703.33" y="440.332" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EE004_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EE004_XA17&quot;"/> 
+  </image>
+  <line x1="125.834" y1="496.5" x2="1854" y2="496" stroke="black"/> 
+  <text x="96.0001" y="489.333" fill="black" font-size="15">5</text>
+  <rect x="75.8334" y="471.5" width="1778.5" height="92.8333" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="824.167" y1="496.5" x2="824.333" y2="564" stroke="black"/> 
+  <line x1="499.959" y1="496.5" x2="499.959" y2="564" stroke="black"/> 
+  <text x="136.622" y="489.682" fill="black" font-size="15" font-weight="700">20LAC50EE004 ПУ НАГР МБ ПЭН5</text>
+  <line x1="1050.76" y1="496.5" x2="1050.67" y2="564" stroke="black"/> 
+  <image x="390.751" y="502.813" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV50CT036_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV50CT036_XH58&quot;"/> 
+  </image>
+  <text x="575.167" y="519.896" fill="black" font-size="15">Т МБ ПЭН5 &lt;45 C</text>
+  <line x1="307.167" y1="496.5" x2="307.167" y2="564" stroke="black"/> 
+  <line x1="1582.53" y1="496.833" x2="1582.53" y2="564" stroke="black"/> 
+  <line x1="1301.17" y1="496.833" x2="1301.25" y2="564" stroke="black"/> 
+  <image x="1703.33" y="502.813" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EE004_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EE004_XA01&quot;"/> 
+  </image>
+  <image x="128.667" y="517.334" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1119" y="514.833" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAC50EE004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC50EE004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="390.751" y="532.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV50CT036_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV50CT036_XH09&quot;"/> 
+  </image>
+  <text x="575.167" y="549.75" fill="black" font-size="15">Т МБ ПЭН5 &gt;50 C</text>
+  <image x="1703.33" y="532.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EE004_XA17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EE004_XA17&quot;"/> 
+  </image>
+  <text x="959" y="37.0833" fill="black" font-size="30" font-weight="700" text-anchor="middle">ПУ нагрева МБ ПЭН</text>
+</svg>

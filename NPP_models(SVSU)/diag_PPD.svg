@@ -1,0 +1,158 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_Grey2" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1274 835" width="1274" height="835" id="diag_PPD" font-family="AAP_Font3" font-size="15">
+  <desc>Видеокадр диагностики</desc>
+  <rt:model revision="4.5" comment="UMod diag_serv Details 0" modelversion="0.0.0.0">
+    <rt:var name="sin_XQ01" datatype="PlsPVAna" comment="переменна синуса" arraysize="50"/> 
+    <rt:var name="sin_Vars" datatype="double" comment="Значения для синусов" arraysize="50"/> 
+    <rt:var name="Chan_Color" datatype="uint" comment="Цвета кнопок" arraysize="50"/> 
+    <rt:var name="LIfe_LIne_visible" datatype="boolean" value="false" comment="сделать синусоидальную &quot;линию жизни&quot; видимой"/> 
+    <rt:sub>Sub Calc_But_Color()
+Dim i As UShort
+Dim ch_code As UShort
+For i = 0 To 100
+	ch_code = PPD_CH(i) &amp; 14
+	If ((ch_code &amp; 4) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(1)
+	ElseIf ((ch_code &amp; 2) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(3)
+	ElseIf ((ch_code &amp; 14) == 0) Then
+		Chan_Color(i) = Col_Ar(2)
+	Else
+		Chan_Color(i) = Col_Ar(8)
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub Calc_Sinuses()
+Dim i As UShort
+For i = 0 To PPD_CH_num
+	If sin_XQ01(i) == Nothing Then
+		sin_Vars(i) = 0
+	Else
+		sin_Vars(i) = sin_XQ01(i).Value
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:event type="OnInitialize">Dim i As UShort
+Dim DT_name As String
+For i = 0 To 29
+	If (i &lt; 10) Then
+		DT_name = &quot;0DT0&quot; + CStr(i) + &quot;E01&quot;
+	Else
+		DT_name = &quot;0DT&quot; + CStr(i) + &quot;E01&quot;
+	End If
+	Set sin_XQ01(i) = ANA(DT_name + &quot;_XQ01&quot;)
+	sin_Vars(i) = 0
+	Chan_Color(i) = Col_Ar(8)
+Next i
+//PPD_CH_num = количество каналов в основном контуре - 1 (т.к. с 0) + 2 неоперат. контур (межсерв + самодиаг.)
+If !prim_cluster Then
+	Chan_Color(PPD_CH_num - 1) = Col_Ar(8)
+	Chan_Color(PPD_CH_num) = Col_Ar(8)
+	DT_name = &quot;0DT50E01_XQ01&quot;
+	Set sin_XQ01(PPD_CH_num - 1) = ANA(PPD_CH_num - 1)
+	DT_name = &quot;0DT51E01_XQ01&quot;
+	Set sin_XQ01(PPD_CH_num) = ANA(PPD_CH_num)
+End If
+Calc_But_Color()</rt:event>
+    <rt:cycleTrigger name="Calc_All" cycle="5" unit="second">
+      <rt:code>Calc_But_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="Move_Sin" cycle="1" unit="second">
+      <rt:code>Calc_Sinuses()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <text x="650" y="25" fill="Col_Grey5" font-size="20" text-anchor="middle">Диагностика подсистемы передачи данных СВСУ</text>
+  <image x="561" y="87" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan00&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT00|МПУ ВНИИА|0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;МПУ ВНИИА&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(0)"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="561" y="137" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan01&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT01|СКУ ХВО|1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ХВО&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(1)"/> 
+  </image>
+  <image x="561" y="187" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan02&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT02|СКУ ПЗ|2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ПЗ&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(2)"/> 
+  </image>
+  <image x="561" y="237" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan03&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT03|МПУ Тензор|3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;МПУ Тензор&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(3)"/> 
+  </image>
+  <image x="561" y="287" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan04&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT04|АСРК|4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСРК&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(4)"/> 
+  </image>
+  <image x="561" y="337" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan05&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT05|АСКРО|5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСКРО&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(5)"/> 
+  </image>
+  <image x="561" y="387" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan06&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT06|СКУ ЭЧ|6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ЭЧ&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(6)"/> 
+  </image>
+  <image x="561" y="437" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan07&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT07|СВБУ ЭБ 17&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВБУ ЭБ 1&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(7)"/> 
+  </image>
+  <image x="561" y="487" width="200" height="45" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan08&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;0DT08|СВБУ ЭБ 2|8&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВБУ ЭБ 2&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="Chan_Color(8)"/> 
+  </image>
+  <text x="521" y="116.167" font-size="25">0.</text>
+  <text x="521" y="166.167" font-size="25">1.</text>
+  <text x="521" y="216.167" font-size="25">2.</text>
+  <text x="521" y="266.167" font-size="25">3.</text>
+  <text x="521" y="316.167" font-size="25">4.</text>
+  <text x="521" y="366.167" font-size="25">5.</text>
+  <text x="521" y="416.167" font-size="25">6.</text>
+  <text x="521" y="466.167" font-size="25">7.</text>
+  <text x="521" y="516.167" font-size="25">8.</text>
+  <text x="769" y="157.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UGD10R012<tspan x="769" dy="15">00CXK02</tspan>
+  </text>
+  <text x="769" y="207.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UCB13R039<tspan x="769" dy="15">00CKP01</tspan>
+  </text>
+  <text x="769" y="408.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UAC17R006<tspan x="769" dy="15">00AVB03GH001</tspan>
+  </text>
+  <text x="769" y="360.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UCB03R018<tspan x="769" dy="15">00CFL05</tspan>
+  </text>
+  <text x="769" y="290.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UKU25R016<tspan x="769" dy="15">00CFL01</tspan>
+<tspan x="769" dy="15">00UYB18R036</tspan>
+<tspan x="769" dy="15">00CFL02</tspan>
+  </text>
+  <text x="769" y="107.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UKS10R009<tspan x="769" dy="15">00CXB51GH001</tspan>
+  </text>
+  <text x="769" y="255.5">
+    <rt:dyn type="visibility" mode="unknown" value="Check_Details(_This, 1)"/> 
+00UCB13R039<tspan x="769" dy="15">00CKP51</tspan>
+  </text>
+</svg>

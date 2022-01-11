@@ -1,0 +1,62 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1920 1080" width="1920" height="1080" id="all_00ugh_00cxq01">
+  <rt:model modelversion="7.2.0.24" revision="1"/> 
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="954.25" y="81.3333" fill="black" font-size="30" text-anchor="middle">МПУ 00CXQ01</text>
+  <image x="1218.09" y="217.773" width="110" height="25" xlink:href="obj_Button.svg">
+    <title>00GUH11_00GUR11_21</title>
+    <rt:event type="OnClick">LoadNew(&quot;00guh11_00gur11_21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;00GUH11_00GUR11_21&quot;"/> 
+  </image>
+  <line x1="1108.46" y1="191" x2="1108.46" y2="465.8" stroke="black" stroke-width="2"/> 
+  <line x1="459.242" y1="269.858" x2="1449.36" y2="269.858" stroke="black" stroke-width="2"/> 
+  <rect x="460.757" y="189.485" width="988.606" height="276.879" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <image x="888.787" y="217.773" width="110" height="25" xlink:href="obj_Button.svg">
+    <title>00GUT11_00GUH11</title>
+    <rt:event type="OnClick">LoadNew(&quot;00gut11_00guh11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;00GUT11_00GUH11&quot;"/> 
+  </image>
+  <line x1="777.454" y1="190.03" x2="777.454" y2="464.83" stroke="black" stroke-width="2"/> 
+  <image x="565.303" y="217.773" width="110" height="25" xlink:href="obj_Button.svg">
+    <title>00GUD00_00GUT21</title>
+    <rt:event type="OnClick">LoadNew(&quot;00gud00_00gut21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;00GUD00_00GUT21&quot;"/> 
+  </image>
+  <text x="683.841" y="128.689" font-size="15">Вскрыт корпус контроллера</text>
+  <image x="645.091" y="112.212" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CXQ01_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CXQ01_XM17&quot;"/> 
+  </image>
+  <text x="1068.59" y="128.689" font-size="15">Неисправность контроллера</text>
+  <image x="1029.84" y="112.212" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00CXQ01_EK01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00CXQ01_EK01&quot;"/> 
+  </image>
+  <text x="494.447" y="516.568" font-size="15">Неисправность шкафа</text>
+  <image x="455.697" y="500.091" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GUD00GH001_XB42</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GUD00GH001_XB42&quot;"/> 
+  </image>
+  <image x="922.879" y="299.939" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GUS00AP024033</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;00GUS00AP024033_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;00GUS00AP024033_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;00GUS00AP024033_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;00GUS00AP024033_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="783.485" y="309.561" font-size="15">00GUS00AP024<tspan x="783.485" dy="15">00GUS00AP033</tspan>
+  </text>
+</svg>

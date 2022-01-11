@@ -1,0 +1,223 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kwc_tzb">
+  <title>Защиты KWC</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod kwb_tzb&#10;RMod lcq_tzb" revision="4.1"/> 
+  <image x="175" y="275" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC10CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC10CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="75" y="26" width="1775" height="749" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">KWC_TZB</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1150" y1="25" x2="1150" y2="75" stroke="black"/> 
+  <line x1="1500" y1="26" x2="1500" y2="75" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="800" y1="76" x2="800" y2="26" stroke="black"/> 
+  <line x1="125.743" y1="100.773" x2="1850.74" y2="100.773" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20KWC10EZ001 Отключение насоса 20KWC10AP001</text>
+  <text x="95.3938" y="94.9578" fill="black" font-size="15">1</text>
+  <line x1="800" y1="100" x2="800" y2="425" stroke="black"/> 
+  <line x1="1150" y1="100" x2="1150" y2="425" stroke="black"/> 
+  <line x1="1500" y1="100" x2="1500" y2="425" stroke="black"/> 
+  <image x="925" y="200" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWC10CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC10CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="125" y1="174.591" x2="1849.42" y2="175" stroke="black"/> 
+  <line x1="125" y1="26.5908" x2="125" y2="775" stroke="black"/> 
+  <image x="1300" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10EZ001_ZM02&quot;"/> 
+  </image>
+  <line x1="500" y1="175" x2="500" y2="425" stroke="black"/> 
+  <line x1="125" y1="450" x2="1850" y2="450" stroke="black"/> 
+  <line x1="75.0007" y1="425" x2="1850" y2="425" stroke="black"/> 
+  <line x1="125" y1="675" x2="1850" y2="675" stroke="black"/> 
+  <text x="556" y="136.5" fill="black" font-size="15">НАСОС 20KWC10AP001<tspan x="556" dy="15">ВКЛ</tspan>
+  </text>
+  <image x="925" y="275" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWC10CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC10CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="275" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1675" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10EZ001_ZV52&quot;"/> 
+  </image>
+  <text x="533.25" y="210" fill="black" font-size="15">P ВСАС 20KWC10AP001<tspan x="533.25" dy="15">&lt; 15 КПА</tspan>
+  </text>
+  <text x="532" y="285" fill="black" font-size="15">P МАСЛА<tspan x="532" dy="15">20KWC10AP001 &lt; 0.02 МПА</tspan>
+  </text>
+  <image x="1675" y="275" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="125.733" y1="250.743" x2="1850" y2="250" stroke="black"/> 
+  <line x1="125" y1="525" x2="1850" y2="525" stroke="black"/> 
+  <line x1="125.002" y1="600" x2="1850" y2="600" stroke="black"/> 
+  <line x1="500" y1="524.999" x2="500" y2="775" stroke="black"/> 
+  <line x1="800" y1="450" x2="800" y2="775" stroke="black"/> 
+  <line x1="1150" y1="450" x2="1150" y2="775" stroke="black"/> 
+  <line x1="1500" y1="450" x2="1500" y2="775" stroke="black"/> 
+  <text x="132.76" y="443.484" fill="black" font-size="15" font-weight="700">20KWC20EZ001 Отключение насоса 20KWC20AP001</text>
+  <text x="93.9394" y="446.939" fill="black" font-size="15">2</text>
+  <line x1="125" y1="325" x2="1850" y2="325" stroke="black"/> 
+  <image x="175" y="200" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="175" y="625" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC20CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC20CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="175" y="550" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC20CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="560" y="485.5" fill="black" font-size="15">НАСОС 20KWC20AP001<tspan x="560" dy="15">ВКЛ</tspan>
+  </text>
+  <text x="533" y="561.25" fill="black" font-size="15">P ВСАС 20KWC20AP001<tspan x="533" dy="15">&lt; 0.07 МПА</tspan>
+  </text>
+  <text x="533" y="633.5" fill="black" font-size="15">P МАСЛА<tspan x="533" dy="15">20KWC20AP001 &lt; 0.02 МПА</tspan>
+  </text>
+  <image x="925" y="550" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWC20CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC20CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="550" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="925" y="625" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWC20CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC20CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1675" y="550" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1675" y="625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20EZ001_ZV51&quot;"/> 
+  </image>
+  <image x="439.818" y="104" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KWC10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="440.424" y="454" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KWC20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWC20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="302" y="128.622" fill="black" font-size="15">20KWC10AP001</text>
+  <text x="303" y="478.046" fill="black" font-size="15">20KWC20AP001</text>
+  <image x="430" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KWC10CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10CP001_XH56&quot;"/> 
+  </image>
+  <image x="425" y="275" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KWC10CP003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10CP003_XH56&quot;"/> 
+  </image>
+  <image x="425" y="550" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KWC20CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20CP001_XH56&quot;"/> 
+  </image>
+  <image x="425" y="625" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KWC20CP003_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20CP003_XH56&quot;"/> 
+  </image>
+  <line x1="75.0007" y1="75" x2="1850" y2="75" stroke="black"/> 
+  <image x="175" y="340" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC10CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="425" y="340" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10CT001_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10CT001_XH05&quot;"/> 
+  </image>
+  <image x="175" y="388" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC10CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC10CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="425" y="388" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10CT002_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10CT002_XH05&quot;"/> 
+  </image>
+  <image x="1675" y="363" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC10EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC10EZ001_ZV01&quot;"/> 
+  </image>
+  <text x="530" y="358" fill="black" font-size="15">T МАСЛА 20KWC10AP001 &gt;85 C</text>
+  <text x="530" y="405.5" fill="black" font-size="15">T РЕДУК 20KWC10AP001 &gt;85 C</text>
+  <image x="175" y="690" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC20CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC20CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="425" y="690" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20CT002_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20CT002_XH05&quot;"/> 
+  </image>
+  <text x="530" y="710" fill="black" font-size="15">T МАСЛА 20KWC20AP001 &gt;85 C</text>
+  <image x="1675" y="711" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20EZ001_ZV01&quot;"/> 
+  </image>
+  <image x="176" y="735" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWC20CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWC20CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="425" y="734" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KWC20CT003_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KWC20CT003_XH05&quot;"/> 
+  </image>
+  <text x="530" y="750" fill="black" font-size="15">T РЕДУК 20KWC20AP001 &gt;85 C</text>
+</svg>

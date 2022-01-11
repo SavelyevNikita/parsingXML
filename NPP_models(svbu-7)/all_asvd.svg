@@ -1,0 +1,81 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_asvd">
+  <title>Обобщенный видеокадр АСВД</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_nsb&#10;RASU" revision="3"/> 
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="958.5" y="60" fill="black" font-size="30" font-weight="700" text-anchor="middle">Обобщенный видеокадр АСВД</text>
+  <text x="20" y="32" font-size="15" font-weight="700">ALL_ASVD</text>
+  <text x="758" y="175" font-size="20">АСВД</text>
+  <text x="1125" y="175" fill="black" font-size="20" text-anchor="middle">НВО СВД</text>
+  <image x="711" y="318" width="152" height="32" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_cn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;CN&quot;"/> 
+  </image>
+  <image x="711" y="199" width="150" height="30" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_jeb10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB10-40&quot;"/> 
+  </image>
+  <image x="711" y="239" width="150" height="30" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_pen&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEN&quot;"/> 
+  </image>
+  <image x="711" y="279" width="150" height="30" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_tg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;TG&quot;"/> 
+  </image>
+  <image x="1150" y="400" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_pec&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEC&quot;"/> 
+  </image>
+  <image x="1150" y="250" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_kla&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLA&quot;"/> 
+  </image>
+  <image x="1150" y="450" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_pcc&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC&quot;"/> 
+  </image>
+  <image x="1150" y="500" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_pgb50,60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50,60&quot;"/> 
+  </image>
+  <image x="1150" y="200" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_kba,lcq&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA,LCQ&quot;"/> 
+  </image>
+  <image x="1150" y="350" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_lct&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT&quot;"/> 
+  </image>
+  <image x="1150" y="300" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_lcb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB&quot;"/> 
+  </image>
+  <image x="1025" y="200" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_jna_kaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNA,KAA&quot;"/> 
+  </image>
+  <image x="1025" y="250" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_jnb_fak&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB,FAK&quot;"/> 
+  </image>
+  <image x="1025" y="300" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JND&quot;"/> 
+  </image>
+  <image x="1025" y="350" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;nvo_laj_lcp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAJ,LCP&quot;"/> 
+  </image>
+</svg>

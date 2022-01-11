@@ -1,0 +1,239 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kpf_tzb_3">
+  <title>Защиты KPF-3</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_svo&#10;LMod kpf_tzb_2&#10;RMod kpf_tzb_4" revision="3"/> 
+  <rect x="75" y="76" width="1421.39" height="779.545" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="25" y="30.6667" font-size="15" font-weight="700">KPF_TZB_3</text>
+  <text x="379.581" y="105.591" fill="black" font-size="15">Входные условия</text>
+  <line x1="1227.59" y1="77" x2="1227.59" y2="127" stroke="black"/> 
+  <text x="100.728" y="95.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1088" y="107" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1363.5" y="107" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="821" y="107.5" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="952.326" y1="126" x2="952.326" y2="76" stroke="black"/> 
+  <line x1="125" y1="152" x2="1500" y2="152" stroke="black"/> 
+  <text x="97" y="142" fill="black" font-size="15">8</text>
+  <rect x="75" y="126" width="1424.42" height="444.697" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="191" x2="700" y2="191" stroke="black"/> 
+  <line x1="123" y1="76" x2="123" y2="855.545" stroke="black"/> 
+  <line x1="700" y1="152" x2="700" y2="262.5" stroke="black"/> 
+  <line x1="730.485" y1="149" x2="730.585" y2="149" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="451.606" y1="151" x2="452" y2="263" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="951.326" y1="151" x2="951.5" y2="263" stroke="black"/> 
+  <line x1="1227.59" y1="151" x2="1227.5" y2="262.5" stroke="black"/> 
+  <line x1="700" y1="126" x2="700" y2="76" stroke="black"/> 
+  <text x="102" y="283.5" fill="black" font-size="15">9</text>
+  <line x1="125.182" y1="742.273" x2="1500.18" y2="742.273" stroke="black"/> 
+  <line x1="125.182" y1="782.273" x2="700.182" y2="782.273" stroke="black"/> 
+  <line x1="450" y1="743" x2="450" y2="855.545" stroke="black"/> 
+  <text x="96" y="593.5" fill="black" font-size="15">10</text>
+  <line x1="76.697" y1="263.076" x2="1501.7" y2="263.076" stroke="black"/> 
+  <image x="209.873" y="748.713" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPF50CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPF50CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="145.061" y="729.243" fill="black" font-size="15" font-weight="700">20KPF50EZ003 Отключение насоса 20KPF50AP002 защитой</text>
+  <text x="472.515" y="758.667" fill="black" font-size="15">P НАПОР 20KPF50АР002<tspan x="472.515" dy="15">&lt;0,68 МПа</tspan>
+  </text>
+  <text x="478.576" y="816.546" fill="black" font-size="15">НАСОС 20KPF50АР002<tspan x="478.576" dy="15">ВКЛЮЧЕН</tspan>
+  </text>
+  <image x="771.974" y="785.38" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPF50CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1073.86" y="785.713" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ003_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ003_ZM01&quot;"/> 
+  </image>
+  <image x="1353.24" y="784.713" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ003_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ003_ZV51&quot;"/> 
+  </image>
+  <line x1="125.364" y1="292.242" x2="1500.36" y2="292.242" stroke="black"/> 
+  <text x="134.273" y="284.788" fill="black" font-size="15" font-weight="700">20KPF50EZ001 Защита от безрасходного режима</text>
+  <line x1="125.182" y1="361.924" x2="700.182" y2="361.924" stroke="black"/> 
+  <line x1="125.182" y1="434.924" x2="700.182" y2="434.924" stroke="black"/> 
+  <line x1="125.182" y1="500.924" x2="700.182" y2="500.924" stroke="black"/> 
+  <image x="771.974" y="447.106" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPF50CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="488.818" y="326.484" fill="black" font-size="15">L  B 20KPF50BB001<tspan x="488.818" dy="15">&lt;0,3М</tspan>
+  </text>
+  <text x="488.576" y="387.515" fill="black" font-size="15">СЛИВ ИЗ БАКА<tspan x="488.576" dy="15">20KPF50BB001</tspan>
+<tspan x="488.576" dy="15">ЗАКРЫТ</tspan>
+  </text>
+  <image x="1073.86" y="451.106" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="209.873" y="300.925" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPF50CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPF50CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="284.873" y="332.924" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50CL001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50CL001_XH58&quot;"/> 
+  </image>
+  <image x="209.873" y="441.924" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPF50CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPF50CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="284.873" y="472.924" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50CL002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50CL002_XH58&quot;"/> 
+  </image>
+  <text x="496.576" y="467.333" fill="black" font-size="15">L B 20KPF50BB002<tspan x="496.576" dy="15">&lt;0,3 М</tspan>
+  </text>
+  <image x="1353.24" y="445.106" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="75" y1="710" x2="1500" y2="710" stroke="black"/> 
+  <line x1="450" y1="292" x2="450" y2="569.697" stroke="black"/> 
+  <text x="101" y="729.5" fill="black" font-size="15">11</text>
+  <text x="135.788" y="144.182" fill="black" font-size="15" font-weight="700">20KPF40EZ003 Отключение насоса 20KPF40AP002 защитой</text>
+  <text x="476" y="169.5" fill="black" font-size="15">P НАПОР 20KPF40АР002<tspan x="476" dy="15">&lt;0,41 МПа</tspan>
+  </text>
+  <text x="476" y="224.5" fill="black" font-size="15">НАСОС 20KPF40АР002<tspan x="476" dy="15">ВКЛЮЧЕН</tspan>
+  </text>
+  <image x="209.873" y="159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPF40CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPF40CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="771.974" y="192" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPF40CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF40CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1073.86" y="197" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF40EZ003_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF40EZ003_ZM01&quot;"/> 
+  </image>
+  <image x="1353.24" y="195" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF40EZ003_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF40EZ003_ZV51&quot;"/> 
+  </image>
+  <text x="491" y="524.5" fill="black" font-size="15">СЛИВ СЛИВ ИЗ БАКА<tspan x="491" dy="15">20KPF50BB002</tspan>
+<tspan x="491" dy="15">ЗАКРЫТ</tspan>
+  </text>
+  <line x1="125.212" y1="600.999" x2="1500.21" y2="600.999" stroke="black"/> 
+  <line x1="125.212" y1="640.999" x2="700.212" y2="640.999" stroke="black"/> 
+  <line x1="700" y1="601" x2="700" y2="710" stroke="black"/> 
+  <line x1="451.712" y1="600.999" x2="451.5" y2="709.5" stroke="black"/> 
+  <line x1="950" y1="600.999" x2="950" y2="709.5" stroke="black"/> 
+  <line x1="1227.65" y1="600" x2="1227.5" y2="710.5" stroke="black"/> 
+  <text x="139" y="594.182" fill="black" font-size="15" font-weight="700">20KPF50EZ002 Отключение насоса 20KPF50AP001 защитой</text>
+  <text x="479.212" y="619.499" fill="black" font-size="15">P НАПОР 20KPF50АР001<tspan x="479.212" dy="15">&lt;0,68 МПа</tspan>
+  </text>
+  <text x="479.212" y="672.499" fill="black" font-size="15">НАСОС 20KPF50АР001<tspan x="479.212" dy="15">ВКЛЮЧЕН</tspan>
+  </text>
+  <image x="209.873" y="608.999" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPF50CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPF50CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="771.974" y="639.999" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KPF50CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1073.86" y="644.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ002_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ002_ZM01&quot;"/> 
+  </image>
+  <image x="1353.24" y="642.999" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPF50EZ002_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50EZ002_ZV51&quot;"/> 
+  </image>
+  <image x="319.667" y="192" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPF40AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF40AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="319.667" y="367" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPF50AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="319.667" y="503.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KPF50AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="319.667" y="639.333" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPF50AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="319.667" y="783" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KPF50AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPF50AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1191.33" y="863.091" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KPF_TZB _1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kpf_tzb_1&quot;)</rt:event>
+  </image>
+  <image x="1295.33" y="863.091" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KPF_TZB _2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kpf_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="1399.33" y="863.091" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KPF_TZB _4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kpf_tzb_4&quot;)</rt:event>
+  </image>
+  <line x1="700.44" y1="291.939" x2="700.44" y2="569.636" stroke="black"/> 
+  <line x1="951.439" y1="293.455" x2="951.439" y2="571.152" stroke="black"/> 
+  <line x1="1229.23" y1="292.97" x2="1229.23" y2="570.667" stroke="black"/> 
+  <line x1="700" y1="742.455" x2="700" y2="852.515" stroke="black"/> 
+  <line x1="950" y1="742.515" x2="950" y2="857.061" stroke="black"/> 
+  <line x1="1226" y1="743.424" x2="1226" y2="855.545" stroke="black"/> 
+  <text x="181.242" y="218.046" fill="black" font-size="15">20KPF40AP002</text>
+  <text x="180.091" y="391.833" fill="black" font-size="15">20KPF50AA001</text>
+  <text x="187.303" y="528.712" fill="black" font-size="15">20KPF50AA002</text>
+  <text x="183" y="668.076" fill="black" font-size="15">20KPF50AP001</text>
+  <text x="184.818" y="809.5" fill="black" font-size="15">20KPF50AP002</text>
+  <text x="936" y="31" fill="black" font-size="30" font-weight="700" text-anchor="middle">Защиты 20KPF40EZ003 и 20KPF50EZ001-003</text>
+  <image x="400" y="158" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KPF40CP004_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF40CP004_XH56&quot;"/> 
+  </image>
+  <image x="400" y="609" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KPF50CP002_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50CP002_XH56&quot;"/> 
+  </image>
+  <image x="400" y="748" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KPF50CP004_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPF50CP004_XH56&quot;"/> 
+  </image>
+</svg>

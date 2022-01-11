@@ -1,0 +1,188 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="20xla30_3">
+  <title>САУ ДГУ НЭ</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_saudg" revision="3"/> 
+  <line x1="1498.01" y1="327.5" x2="1678" y2="328" stroke="black" stroke-width="3"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <line x1="107" y1="656.667" x2="107" y2="656.667"/> 
+  <line x1="26" y1="986.667" x2="25" y2="986.667"/> 
+  <line x1="23.3333" y1="930" x2="25" y2="925"/> 
+  <rect x="238" y="156" width="1100" height="609" rx="0" ry="0" fill="lightgray" stroke="black" stroke-width="2"/> 
+  <rect x="300" y="298" width="354" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <text x="313" y="323" font-size="15">Цилиндры/форсунки<tspan x="313" dy="15">левая сторона</tspan>
+  </text>
+  <rect x="303" y="434" width="351" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <text x="315" y="455" font-size="15">Цилиндры/форсунки<tspan x="315" dy="15">правая сторона</tspan>
+  </text>
+  <line x1="274" y1="250" x2="274" y2="511" stroke="black" stroke-width="3"/> 
+  <text x="775" y="176.5" font-size="15" font-weight="bold">ДИЗЕЛЬ</text>
+  <text x="1034" y="597.5" font-size="15">20XJN30AP003</text>
+  <line x1="273.003" y1="509.335" x2="660" y2="510" stroke="black" stroke-dasharray="10,10" stroke-width="3"/> 
+  <line x1="653" y1="510" x2="933.333" y2="508" stroke="black" stroke-width="3"/> 
+  <line x1="273.003" y1="368.669" x2="660" y2="369" stroke="black" stroke-dasharray="10,10" stroke-width="3"/> 
+  <line x1="652" y1="369" x2="933.333" y2="368" stroke="black" stroke-width="3"/> 
+  <line x1="465" y1="252" x2="545" y2="252" stroke="black" stroke-width="3"/> 
+  <text x="508" y="211.5" font-size="15" text-anchor="middle">ФТОТ</text>
+  <line x1="931.663" y1="366.011" x2="932.667" y2="584.667" stroke="black" stroke-width="3"/> 
+  <line x1="990.007" y1="631.5" x2="1315" y2="631" stroke="black" stroke-width="3"/> 
+  <polygon points="926.127,572.5 932.357,585.5 939.127,572.5" fill="black" stroke="black"/> 
+  <polygon points="1475.13,-1115.5 1481.36,-1102.5 1488.13,-1115.5" fill="black" stroke="black" transform="flipX(1884.81) rotate(90 1466.31 495.309)"/> 
+  <text x="653" y="79" font-size="30" font-weight="700">20XLA30 (ДИЗЕЛЬНОЕ ТОПЛИВО)</text>
+  <rect x="707" y="301" width="198" height="93" rx="0.833344" ry="0.833344" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <text x="726" y="321" font-size="15">Бак протечек<tspan x="726" dy="15">левой стороны</tspan>
+<tspan x="726" dy="15">20XJN30BB004</tspan>
+  </text>
+  <image x="477" y="222" width="60" height="60" xlink:href="Stat_Filter.svg" transform="rotate(90 29.8995 29.8995)"/> 
+  <rect x="705" y="440" width="198" height="93" rx="0.833344" ry="0.833344" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <image x="717" y="360" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CL004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CL004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="724" y="460" font-size="15">Бак протечек<tspan x="724" dy="15">правой стороны</tspan>
+<tspan x="724" dy="15">20XJN30BB005</tspan>
+  </text>
+  <image x="1131" y="240" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="876" y="240" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1094" y="212.5" font-size="15" text-anchor="middle">ФГОТ</text>
+  <image x="290" y="240" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="545" y="239" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <rect x="706" y="584" width="282.667" height="92.6667" rx="0.833344" ry="0.833344" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <image x="715" y="640" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CL003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CL003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="725" y="604" font-size="15">Бак приема протечек<tspan x="725" dy="15">20XJN30BB003</tspan>
+  </text>
+  <polygon points="1333.13,-1113.5 1339.36,-1100.5 1346.13,-1113.5" fill="black" stroke="black" transform="flipX(1884.81) rotate(90 1466.31 495.309)"/> 
+  <rect x="1367" y="467" width="235" height="91" rx="0.833344" ry="0.833344" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <image x="1413" y="521" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1423" y="485" font-size="15">Расходный бак<tspan x="1423" dy="15">топлива</tspan>
+<tspan x="1423" dy="15">20XJN30BB002</tspan>
+  </text>
+  <text x="1532" y="224.5" font-size="15">20XJN30AP001</text>
+  <text x="1536" y="298.5" font-size="15">20XJN30AP002</text>
+  <rect x="1409.33" y="840" width="343.333" height="91.3334" rx="0.833344" ry="0.833344" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  <image x="1483" y="895" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1493" y="859" font-size="15">Промежуточный<tspan x="1493" dy="15">резервуар топлива</tspan>
+<tspan x="1493" dy="15">20XJN30BB001</tspan>
+  </text>
+  <line x1="1455.5" y1="249.007" x2="1455.5" y2="468" stroke="black" stroke-width="3"/> 
+  <line x1="1314" y1="406" x2="1314" y2="631.5" stroke="black" stroke-width="3"/> 
+  <line x1="1313" y1="406" x2="1417" y2="406" stroke="black" stroke-width="3"/> 
+  <line x1="1416" y1="405.006" x2="1416" y2="465" stroke="black" stroke-width="3"/> 
+  <polygon points="1409.79,453.5 1416.02,466.5 1422.79,453.5" fill="black" stroke="black"/> 
+  <polygon points="1491.79,454 1498.02,467 1504.79,454" fill="black" stroke="black"/> 
+  <line x1="1498" y1="252" x2="1498" y2="467" stroke="black" stroke-width="3"/> 
+  <line x1="1497.02" y1="251.5" x2="1677" y2="253" stroke="black" stroke-width="3"/> 
+  <line x1="1676" y1="251" x2="1677" y2="839" stroke="black" stroke-width="3"/> 
+  <image x="1646.8" y="375" width="60" height="60" xlink:href="Stat_Filter.svg" transform="rotate(180 29.8995 29.8995)"/> 
+  <line x1="1641" y1="517" x2="1639.67" y2="838.669" stroke="black" stroke-width="3"/> 
+  <polygon points="1633.46,825.169 1639.69,838.169 1646.46,825.169" fill="black" stroke="black"/> 
+  <line x1="1395" y1="764" x2="1543" y2="764" stroke="black" stroke-width="3"/> 
+  <line x1="1542.67" y1="637.333" x2="1543" y2="840.994" stroke="black" stroke-width="3"/> 
+  <polygon points="1536.79,826.494 1543.02,839.494 1549.79,826.494" fill="black" stroke="black"/> 
+  <line x1="1395.5" y1="637" x2="1395.33" y2="765.333" stroke="black" stroke-width="3"/> 
+  <text x="1409" y="694.5" font-size="15">20XJN30AA001</text>
+  <text x="1359" y="614.5" font-size="15">Заполнение<tspan x="1359" dy="15">со склада</tspan>
+  </text>
+  <text x="1486" y="614.5" font-size="15">Заполнение<tspan x="1486" dy="15">из автоцистерны</tspan>
+  </text>
+  <text x="1693.8" y="378.5" font-size="15">20XJN30AT002</text>
+  <line x1="272.5" y1="251.5" x2="290" y2="251.5" stroke="black" stroke-width="3"/> 
+  <line x1="720" y1="251" x2="875" y2="252" stroke="black" stroke-width="3"/> 
+  <line x1="1050" y1="250" x2="1130" y2="250" stroke="black" stroke-width="3"/> 
+  <image x="1063" y="220" width="60" height="60" xlink:href="Stat_Filter.svg" transform="rotate(90 29.8995 29.8995)"/> 
+  <line x1="1306" y1="250.5" x2="1455" y2="250.5" stroke="black" stroke-width="3"/> 
+  <image x="1704.47" y="959.591" width="85" height="20" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;20xla30_1&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;20XLA30_1&quot;"/> 
+  </image>
+  <image x="1810.47" y="959.591" width="85" height="20" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;20xla30_2&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;20XLA30_2&quot;"/> 
+  </image>
+  <image x="1553" y="222" width="60" height="60" xlink:href="bin_pump_1.svg" transform="rotate(180 0 0)">
+    <title>&quot;20XJN30AP001&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20XJN30AP001_XH01&quot;"/> 
+  </image>
+  <image x="1553" y="296" width="60" height="60" xlink:href="bin_pump_1.svg" transform="rotate(180 0 0)">
+    <title>&quot;20XJN30AP002&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20XJN30AP002_XH01&quot;"/> 
+  </image>
+  <image x="1063" y="601" width="60" height="60" xlink:href="bin_pump_1.svg" transform="flipX() rotate(180 0 0)"/> 
+  <image x="716" y="497" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20XJN30CL005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20XJN30CL005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <line x1="1601" y1="515.5" x2="1642" y2="516" stroke="black" stroke-width="3"/> 
+  <image x="1370" y="658" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(90 0 -10)">
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20XJN30AA005_XH01&quot;"/> 
+  </image>
+  <image x="771" y="220" width="60" height="60" xlink:href="bin_pump_1.svg" transform="rotate(180 0 0)"/> 
+</svg>

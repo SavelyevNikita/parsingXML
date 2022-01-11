@@ -1,0 +1,454 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lbw">
+  <title>Система гидроподъема и ВПУ</title>
+  <rt:model modelversion="7.2.0.23" comment="Исправлено 31.03.13 Zagrebaylova S.V."/> 
+  <line x1="1348.82" y1="749.015" x2="1765.27" y2="749.015" stroke="black" stroke-width="1"/> 
+  <line x1="622" y1="827" x2="808.394" y2="827" stroke="black" stroke-width="3"/> 
+  <line x1="168.364" y1="826" x2="556.671" y2="826" stroke="black" stroke-width="3"/> 
+  <text x="894.7" y="48.0909" font-size="32">
+    <title>Система уплотнения турбины</title>
+LBW</text>
+  <text x="1176.27" y="748.606" fill="black" font-size="15">10MAM11AN001</text>
+  <image x="414.576" y="141.909" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;LBG&quot;)</rt:event>
+  </image>
+  <line x1="149" y1="334.53" x2="1689" y2="334.53" stroke="black" stroke-width="3"/> 
+  <image x="1548.67" y="818.182" width="55" height="30" xlink:href="DS_TPTS_AVR.svg">
+    <title>?</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;?&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="38.2131" y1="583" x2="1729" y2="583" stroke="black" stroke-width="3"/> 
+  <line x1="799" y1="152" x2="799" y2="270" stroke="black" stroke-width="3"/> 
+  <line x1="60.0303" y1="268.894" x2="1128.22" y2="268.894" stroke="black" stroke-width="3"/> 
+  <line x1="39.5608" y1="582.849" x2="39.5608" y2="786.971" stroke="black" stroke-width="3"/> 
+  <line x1="1128.2" y1="151.03" x2="1128.2" y2="335.455" stroke="black" stroke-width="3"/> 
+  <line x1="38.6363" y1="788.894" x2="933.515" y2="788.894" stroke="black" stroke-width="3"/> 
+  <image x="1135" y="181.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="838" y="832" fill="black" font-size="15">LCA10</text>
+  <line x1="621.5" y1="848" x2="621.5" y2="941.94" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1886.55 646.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6366.4,598.783 6379.77,606.433 6379.77,591.143 6366.4,598.783" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="541.091" y="761.121" fill="black" font-size="15">10MAM10AC001</text>
+  <g>
+    <line x1="326.869" y1="333.515" x2="326.869" y2="442.182" stroke="black" stroke-width="3"/> 
+    <line x1="149.869" y1="333.515" x2="149.869" y2="442.182" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.91,-1320.09 5284.28,-1312.44 5284.28,-1327.73 5270.91,-1320.09" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.82,-1142.36 5284.19,-1134.71 5284.19,-1150 5270.82,-1142.36" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.94,-1358.04 5288.32,-1350.39 5288.32,-1365.68 5274.94,-1358.04" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <line x1="111.636" y1="473.759" x2="111.636" y2="582.426" stroke="black" stroke-width="3"/> 
+    <line x1="364.869" y1="473.758" x2="364.869" y2="582.426" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5275.39,-1104.26 5288.77,-1096.61 5288.77,-1111.9 5275.39,-1104.26" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <rect x="85.7879" y="451.85" width="304.212" height="12.3019" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey5"/> 
+    <circle cx="111.571" cy="458.001" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <polygon points="350.79,408.519 350.79,483.519 400.79,468.519 450.79,483.519 450.79,408.519 400.79,423.519" fill="Col_Grey4" stroke="Col_Grey5" transform="scale(1.3734 1.3734 836.288 413.93)"/> 
+    <text x="210.394" y="464.001" fill="black" font-size="15">MAC10</text>
+    <circle cx="149.804" cy="458.001" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <circle cx="172.804" cy="458.001" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1" transform="flipX(249.869)"/> 
+    <circle cx="364.804" cy="458.001" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+  </g>
+  <g>
+    <line x1="667.445" y1="333.485" x2="667.445" y2="442.152" stroke="black" stroke-width="3"/> 
+    <line x1="490.445" y1="333.485" x2="490.445" y2="442.152" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.94,-979.516 5284.31,-971.866 5284.31,-987.156 5270.94,-979.516" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.85,-801.786 5284.22,-794.136 5284.22,-809.426 5270.85,-801.786" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.97,-1017.47 5288.35,-1009.82 5288.35,-1025.11 5274.97,-1017.47" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <line x1="452.212" y1="473.729" x2="452.212" y2="582.396" stroke="black" stroke-width="3"/> 
+    <line x1="705.445" y1="473.728" x2="705.445" y2="582.396" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5275.42,-763.686 5288.8,-756.036 5288.8,-771.326 5275.42,-763.686" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <rect x="426.364" y="451.82" width="304.212" height="12.3019" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey5"/> 
+    <circle cx="452.147" cy="457.971" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <polygon points="598.771,408.497 598.771,483.497 648.771,468.497 698.771,483.497 698.771,408.497 648.771,423.497" fill="Col_Grey4" stroke="Col_Grey5" transform="scale(1.3734 1.3734 836.288 413.93)"/> 
+    <text x="550.97" y="463.971" fill="black" font-size="15">MAC20</text>
+    <circle cx="490.38" cy="457.971" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <circle cx="-167.772" cy="457.971" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1" transform="flipX(249.869)"/> 
+    <circle cx="705.38" cy="457.971" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+  </g>
+  <g>
+    <line x1="1007.75" y1="334.03" x2="1007.75" y2="442.697" stroke="black" stroke-width="3"/> 
+    <line x1="830.748" y1="334.03" x2="830.748" y2="442.697" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.4,-639.213 5283.76,-631.563 5283.76,-646.853 5270.4,-639.213" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.3,-461.483 5283.67,-453.833 5283.67,-469.123 5270.3,-461.483" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.42,-677.163 5287.8,-669.513 5287.8,-684.803 5274.42,-677.163" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <line x1="792.515" y1="474.274" x2="792.515" y2="582.941" stroke="black" stroke-width="3"/> 
+    <line x1="1045.75" y1="474.273" x2="1045.75" y2="582.941" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.88,-423.383 5288.25,-415.733 5288.25,-431.023 5274.88,-423.383" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <rect x="766.667" y="452.365" width="304.212" height="12.3019" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey5"/> 
+    <circle cx="792.45" cy="458.516" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <polygon points="846.553,408.894 846.553,483.894 896.553,468.894 946.553,483.894 946.553,408.894 896.553,423.894" fill="Col_Grey4" stroke="Col_Grey5" transform="scale(1.3734 1.3734 836.288 413.93)"/> 
+    <text x="891.273" y="464.516" fill="black" font-size="15">MAA10</text>
+    <circle cx="830.683" cy="458.516" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <circle cx="-508.075" cy="458.516" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1" transform="flipX(249.869)"/> 
+    <circle cx="1045.68" cy="458.516" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+  </g>
+  <g>
+    <line x1="1348.32" y1="334" x2="1348.32" y2="442.667" stroke="black" stroke-width="3"/> 
+    <line x1="1171.32" y1="334" x2="1171.32" y2="442.667" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.42,-298.639 5283.79,-290.989 5283.79,-306.279 5270.42,-298.639" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.33,-120.909 5283.71,-113.259 5283.71,-128.549 5270.33,-120.909" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.46,-336.593 5287.83,-328.943 5287.83,-344.233 5274.46,-336.593" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <line x1="1133.09" y1="474.244" x2="1133.09" y2="582.911" stroke="black" stroke-width="3"/> 
+    <line x1="1386.32" y1="474.243" x2="1386.32" y2="582.911" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.9,-82.8087 5288.28,-75.1587 5288.28,-90.4487 5274.9,-82.8087" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <rect x="1107.24" y="452.335" width="304.212" height="12.3019" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey5"/> 
+    <circle cx="1133.03" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <polygon points="1094.53,408.872 1094.53,483.872 1144.53,468.872 1194.53,483.872 1194.53,408.872 1144.53,423.872" fill="Col_Grey4" stroke="Col_Grey5" transform="scale(1.3734 1.3734 836.288 413.93)"/> 
+    <text x="1231.85" y="464.486" fill="black" font-size="15">MAC30</text>
+    <circle cx="1171.26" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <circle cx="-848.651" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1" transform="flipX(249.869)"/> 
+    <circle cx="1386.26" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+  </g>
+  <g>
+    <line x1="1688.83" y1="334" x2="1688.83" y2="442.667" stroke="black" stroke-width="3"/> 
+    <line x1="1511.83" y1="334" x2="1511.83" y2="442.667" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.42,41.8753 5283.79,49.5253 5283.79,34.2353 5270.42,41.8753" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5270.33,219.605 5283.71,227.255 5283.71,211.965 5270.33,219.605" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.46,3.9213 5287.83,11.5713 5287.83,-3.71872 5274.46,3.9213" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <line x1="1473.6" y1="474.244" x2="1473.6" y2="582.911" stroke="black" stroke-width="3"/> 
+    <line x1="1726.83" y1="474.243" x2="1726.83" y2="582.911" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(552.273) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5274.9,257.705 5288.28,265.355 5288.28,250.065 5274.9,257.705" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <rect x="1447.75" y="452.335" width="304.212" height="12.3019" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey5"/> 
+    <circle cx="1473.54" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <polygon points="1342.47,408.872 1342.47,483.872 1392.47,468.872 1442.47,483.872 1442.47,408.872 1392.47,423.872" fill="Col_Grey4" stroke="Col_Grey5" transform="scale(1.3734 1.3734 836.288 413.93)"/> 
+    <text x="1572.36" y="464.486" fill="black" font-size="15">MAC40</text>
+    <circle cx="1511.77" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+    <circle cx="-1189.17" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1" transform="flipX(249.869)"/> 
+    <circle cx="1726.77" cy="458.486" r="13.4292" fill="Col_Grey4" stroke="Col_Grey5" stroke-width="1"/> 
+  </g>
+  <image x="1013.67" y="226.485" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 0 -10)">
+    <title>10LBW10AA002</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBW10AA002&quot;"/> 
+  </image>
+  <text x="961.742" y="569.045" fill="black" font-size="15" rt:text-vertanchor="start" transform="rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBW10AA002</text>
+  <line x1="798" y1="152.136" x2="1126.71" y2="152.136" stroke="black" stroke-width="3"/> 
+  <image x="1012.16" y="109.727" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 0 -10)">
+    <title>10LBW10AA003</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBW10AA003&quot;"/> 
+  </image>
+  <text x="960.227" y="685.802" fill="black" font-size="15" rt:text-vertanchor="start" transform="rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBW10AA003</text>
+  <image x="1135" y="218.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1135" y="287" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="846.057" y="225.398" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(360 -0.000244141 -10)">
+    <title>10LBW10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBW10AA201&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="848.937" y="197.61" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBW10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBW10AA201&quot;"/> 
+  </image>
+  <text x="817.606" y="305.455" font-size="15">10LBW10AA201</text>
+  <image x="616" y="181.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="616" y="218.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CT011</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="428.606" y="217.697" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBW10CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBW10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="281.227" y1="152.545" x2="281.227" y2="270.545" stroke="black" stroke-width="3"/> 
+  <line x1="91.8484" y1="154.045" x2="420.559" y2="154.045" stroke="black" stroke-width="3"/> 
+  <image x="322.766" y="111.636" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 0 -10)">
+    <title>10LBG23AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBG23AA001&quot;"/> 
+  </image>
+  <text x="270.833" y="681.893" fill="black" font-size="15" rt:text-vertanchor="start" transform="rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBG23AA001</text>
+  <image x="157.615" y="111.121" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 0 -10)">
+    <title>10LBG11AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBG11AA001&quot;"/> 
+  </image>
+  <text x="105.682" y="682.408" fill="black" font-size="15" rt:text-vertanchor="start" transform="rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBG11AA001</text>
+  <image x="36.0452" y="141.939" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lbg&quot;)</rt:event>
+  </image>
+  <image x="162.918" y="226.273" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 0 -10)">
+    <title>10LBW10AA001</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBW10AA001&quot;"/> 
+  </image>
+  <text x="110.985" y="569.256" fill="black" font-size="15" rt:text-vertanchor="start" transform="rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBW10AA001</text>
+  <image x="36.0452" y="254.061" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;laa&quot;)</rt:event>
+  </image>
+  <g transform="scale(0.82 0.82 539.576 787.879)">
+    <line x1="632.856" y1="823.133" x2="626.795" y2="823.133" stroke="black"/> 
+    <rect x="556.442" y="763.557" width="140" height="140" rx="0" ry="0" fill="Col_Grey5"/> 
+    <line x1="576.606" y1="835.004" x2="604.187" y2="792.522" stroke="black" stroke-width="3"/> 
+    <line x1="603.551" y1="792.522" x2="639.914" y2="872.854" stroke="black" stroke-width="3"/> 
+    <line x1="639.856" y1="872.503" x2="663.106" y2="835.504" stroke="black" stroke-width="3"/> 
+    <line x1="551.106" y1="835.254" x2="577.106" y2="835.254" stroke="black" stroke-width="3"/> 
+    <line x1="698.599" y1="835.435" x2="662.106" y2="835.504" stroke="black" stroke-width="3"/> 
+  </g>
+  <image x="370.515" y="849.546" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LCA10CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LCA10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="189.061" y="849.546" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LCA10CT003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LCA10CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="98.6667" y="814.667" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lca10&quot;)</rt:event>
+  </image>
+  <line x1="622" y1="940.5" x2="808.394" y2="940.5" stroke="black" stroke-width="3"/> 
+  <image x="657" y="889" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM10CL001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="rotate(90 1886.55 646.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6367.4,710.783 6380.77,718.433 6380.77,703.143 6367.4,710.783" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="838" y="946" fill="black" font-size="15">MAG40</text>
+  <line x1="933" y1="789.394" x2="933" y2="970" stroke="black" stroke-width="1"/> 
+  <line x1="933.545" y1="821" x2="1350" y2="821" stroke="black" stroke-width="1"/> 
+  <image x="941.091" y="789.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM11CY001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM11CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1124.42" y="789.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM11CY002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM11CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1349" y1="761.636" x2="1349" y2="822.242" stroke="black" stroke-width="1"/> 
+  <image x="1259.27" y="695.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1395.67" y="758.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM11CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM11CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1579" y="758.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM11CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM11CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1349.82" y1="897.56" x2="1766.27" y2="897.56" stroke="black" stroke-width="1"/> 
+  <text x="1176.27" y="896.939" fill="black" font-size="15">10MAM12AN001</text>
+  <line x1="934.546" y1="969.545" x2="1351" y2="969.545" stroke="black" stroke-width="1"/> 
+  <image x="942.092" y="937.969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM12CY001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM12CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1125.42" y="937.969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM12CY002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM12CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1350" y1="910.181" x2="1350" y2="970.787" stroke="black" stroke-width="1"/> 
+  <image x="1260.27" y="844.454" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1396.67" y="906.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM12CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM12CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1580" y="906.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10MAM12CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAM12CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1765.77" y1="748.758" x2="1765.77" y2="898" stroke="black" stroke-width="1"/> 
+  <line x1="1765.82" y1="823.667" x2="1806.73" y2="823.667" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(90 1886.55 646.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5375.49,594.662 5388.86,602.312 5388.86,587.022 5375.49,594.662" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g>
+    <circle cx="1827.39" cy="825.086" r="14.0006" fill="Col_Grey4"/> 
+    <circle cx="1866.06" cy="825.086" r="14.0006" fill="Col_Grey4"/> 
+    <rect x="1825.52" y="811.086" width="42.3331" height="28" rx="0.121094" ry="0.121094" fill="Col_Grey4"/> 
+  </g>
+  <text x="1827.5" y="830.25" fill="black" font-size="15">ATM</text>
+  <image x="1314.33" y="728.788" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0) flipX() flipX()">
+    <title>10MAM11AN001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAM11AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="1315.33" y="877.333" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0) flipX() flipX()">
+    <title>10MAM12AN001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAM12AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+</svg>

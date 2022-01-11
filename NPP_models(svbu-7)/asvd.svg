@@ -1,0 +1,28 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1920 980" width="1920" height="980" id="asvd">
+  <title>Диагностика АСВД</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_asvd&#10;LMod asvd_tg&#10;RMod asvd_cn&#10;RASU" revision="3"/> 
+  <text x="791" y="63" font-size="30" font-weight="700">Диагностика АСВД</text>
+  <polyline/> 
+  <line x1="808" y1="307" x2="808" y2="307" stroke="black"/> 
+  <line x1="861.5" y1="267.75" x2="861.5" y2="267.75" stroke="black"/> 
+  <image x="738.03" y="199.091" width="450" height="50" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;20CXN12EK001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXN12EK001_ZV01&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ПТС ТГ &quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="738.03" y="299.091" width="450" height="50" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;20CXN22EK001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXN22EK001_ZV01&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ПТС ПЭН &quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="738.03" y="399.091" width="450" height="50" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;20CXN32EK001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXN32EK001_ZV01&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ПТС ЦН &quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="20" y="32" font-size="15" font-weight="700">ASVD</text>
+</svg>

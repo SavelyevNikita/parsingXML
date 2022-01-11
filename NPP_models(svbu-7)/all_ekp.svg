@@ -1,0 +1,50 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_asvd">
+  <rt:model modelversion="7.2.0.23" comment="Создано VNIIAES-ASUTP" revision="2.0"/> 
+  <text x="874.333" y="59.3333" fill="black" font-size="30" text-anchor="middle">Обобщенный видеокадр ЭКП</text>
+
+  <image x="800" y="140" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP avar&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Аварийный&quot;"/> 
+  </image>
+  <image x="800" y="180" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP mku&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;МКУ&quot;"/> 
+  </image>
+  <image x="800" y="220" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP peregruz&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Перегруз&quot;"/> 
+  </image>
+  <image x="800" y="260" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP rabota&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Работа&quot;"/> 
+  </image>
+  <image x="800" y="300" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP rashol&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Расхолаживание&quot;"/> 
+  </image>
+  <image x="800" y="340" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP razogr&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Разогрев&quot;"/> 
+  </image>
+  <image x="800" y="380" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP scheme&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Электрическая схема&quot;"/> 
+  </image>
+  <image x="800" y="420" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP turbin&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Турбина&quot;"/> 
+  </image>
+  <image x="800" y="460" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP spds&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СППБ&quot;"/> 
+  </image>
+  <image x="800" y="500" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP noen&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Отказ шины EN&quot;"/> 
+  </image>
+  <image x="800" y="540" width="170" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">NETVAR(&quot;EKP.Command&quot;).Value = &quot;EKP rabota_new&quot;</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Работа (новый)&quot;"/> 
+  </image>
+</svg>

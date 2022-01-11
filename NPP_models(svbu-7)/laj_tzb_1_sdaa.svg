@@ -1,0 +1,510 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="LAJ_TZB">
+  <title>Защиты ВПЭН по температуре</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to&#10;LMod lah_tzb&#10;RMod laj_tzb_2" revision="1"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="60.0302" y1="87" x2="1885.79" y2="87" stroke="black"/> 
+  <line x1="96" y1="36.3636" x2="96" y2="943.939" stroke="black"/> 
+  <text x="475.5" y="64.5" fill="black" font-size="15">Входные условия</text>
+  <text x="1326.27" y="57.6061" fill="black" font-size="15" text-anchor="middle">Накладка ввода /<tspan x="1326.27" dy="15">вывода</tspan>
+  </text>
+  <text x="79.5" y="60.5" fill="black" font-size="15" text-anchor="middle">N<tspan x="79.5" dy="15">П/П</tspan>
+  </text>
+  <text x="1769" y="65.5" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="34.8485" y="20.6969" font-size="20">LAJ_TZB_1</text>
+  <text x="1078.88" y="49.9395" fill="black" font-size="15" text-anchor="middle">Рассогласование<tspan x="1078.88" dy="15">(отклонение)</tspan>
+<tspan x="1078.88" dy="15">датчиков</tspan>
+  </text>
+  <rect x="60.5002" y="35.0001" width="1826.5" height="908" rx="1.66658" ry="1.75" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="598.698" y="267.591" fill="black" font-size="15">T ПОДШ ВПЭН СТ ВАЛА &gt;80 C</text>
+  <text x="600.213" y="158.833" fill="black" font-size="15">T ПОДШ ДВИГ СТ ВПЭН &gt;95 C</text>
+  <image x="1752.26" y="142.121" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1752.26" y="255.485" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ902_XK95&quot;"/> 
+  </image>
+  <image x="110.727" y="110.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="110.727" y="141.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="112.818" y="102.197" fill="black" font-size="15" font-weight="700">20LAJ01EZ903 Защита ВПЭН по повышению T роликового подшипника двигателя со стороны насоса</text>
+  <text x="73.6364" y="109.076" fill="black" font-size="15">1</text>
+  <text x="112.818" y="212.349" fill="black" font-size="15" font-weight="700">20LAJ01EZ902 Защита ВПЭН по повышению T подшипника насоса со стороны свободного конца вала</text>
+  <text x="73.6364" y="220.576" fill="black" font-size="15">2</text>
+  <image x="110.727" y="170.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="111.788" y="221.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="111.788" y="251.606" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="111.788" y="281.94" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="96" y1="136.773" x2="305" y2="137.788" stroke="black"/> 
+  <line x1="95.6994" y1="167.121" x2="305" y2="167.121" stroke="black"/> 
+  <image x="315.5" y="125.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="305" y1="109.939" x2="305" y2="198" stroke="black"/> 
+  <line x1="95.6083" y1="247.561" x2="305" y2="248.576" stroke="black"/> 
+  <line x1="96.0933" y1="278.909" x2="305" y2="278.909" stroke="black"/> 
+  <image x="315.5" y="239.454" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="61.5454" y1="198" x2="1225" y2="198" stroke="black"/> 
+  <line x1="96.2129" y1="218" x2="1225" y2="218" stroke="black"/> 
+  <line x1="939.273" y1="86.3636" x2="939.273" y2="35.303" stroke="black"/> 
+  <image x="1529.55" y="142.121" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ903_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ903_XK92&quot;"/> 
+  </image>
+  <image x="1529.55" y="255.485" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ902_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ902_XK92&quot;"/> 
+  </image>
+  <line x1="1430.24" y1="199.742" x2="1888.24" y2="199.742" stroke="black"/> 
+  <line x1="1430.18" y1="219.561" x2="1888.18" y2="219.561" stroke="black"/> 
+  <line x1="500" y1="111" x2="500" y2="198" stroke="black"/> 
+  <text x="1537.21" y="58.1819" fill="black" font-size="15" text-anchor="middle">Защита сработала<tspan x="1537.21" dy="15">на сигнал</tspan>
+  </text>
+  <text x="610.819" y="378.894" fill="black" font-size="15">T ПОДШ ВПЭН СТ ДВ &gt;80 C</text>
+  <text x="113.515" y="322.652" fill="black" font-size="15" font-weight="700">20LAJ01EZ901 Защита ВПЭН по повышению T подшипника насоса со стороны двигателя</text>
+  <text x="73.6364" y="332.424" fill="black" font-size="15">3</text>
+  <image x="113.485" y="331.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT001A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="113.485" y="360.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT001B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT001B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="113.485" y="391.243" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT001C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT001C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="96.3052" y1="356.864" x2="305" y2="356.864" stroke="black"/> 
+  <line x1="96" y1="388.212" x2="305" y2="388.212" stroke="black"/> 
+  <image x="315.5" y="347.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="73.6364" y="442.651" fill="black" font-size="15">4</text>
+  <image x="112.091" y="441.121" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT008A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT008A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="112.091" y="469.454" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT008B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT008B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="112.091" y="498.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT008C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT008C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="96" y1="465.424" x2="305" y2="466.424" stroke="black"/> 
+  <line x1="95.3965" y1="495.757" x2="305" y2="495.757" stroke="black"/> 
+  <image x="315.061" y="454.302" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT908&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT908&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="305" y1="439.636" x2="305" y2="526" stroke="black"/> 
+  <line x1="96.425" y1="110.849" x2="1887" y2="109" stroke="black"/> 
+  <line x1="1430.24" y1="315.136" x2="1888.24" y2="315.136" stroke="black"/> 
+  <line x1="1430.73" y1="335.439" x2="1888.73" y2="335.439" stroke="black"/> 
+  <text x="605.516" y="487.894" fill="black" font-size="15">T ОБМ ВПЭН ФАЗА V &gt;130 C</text>
+  <image x="1066.23" y="140.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT903_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT903_XM20&quot;"/> 
+  </image>
+  <image x="1066.23" y="251.515" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT902_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT902_XM20&quot;"/> 
+  </image>
+  <image x="1066.23" y="362.364" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT901_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT901_XM20&quot;"/> 
+  </image>
+  <image x="1066.23" y="469.697" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT908_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT908_XM20&quot;"/> 
+  </image>
+  <image x="1529.55" y="365.879" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ901_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ901_XK92&quot;"/> 
+  </image>
+  <image x="1752.26" y="365.879" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ901_XK95&quot;"/> 
+  </image>
+  <image x="1752.26" y="475.303" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ908_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ908_XK95&quot;"/> 
+  </image>
+  <image x="1529.55" y="475.303" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ908_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ908_XK92&quot;"/> 
+  </image>
+  <image x="1752.26" y="581.334" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ907_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ907_XK95&quot;"/> 
+  </image>
+  <image x="1529.55" y="581.334" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ907_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ907_XK92&quot;"/> 
+  </image>
+  <image x="1752.26" y="677.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ005_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ005_XK95&quot;"/> 
+  </image>
+  <line x1="1225" y1="110.333" x2="1225" y2="943.424" stroke="black"/> 
+  <line x1="60.0304" y1="310.136" x2="1224.49" y2="310.136" stroke="black"/> 
+  <text x="113.061" y="433.439" fill="black" font-size="15" font-weight="700">20LAJ01EZ908 Защита ВПЭН по повышению T обмотки двигателя фаза V</text>
+  <line x1="96.879" y1="330.44" x2="1224.67" y2="330.44" stroke="black"/> 
+  <line x1="61.5456" y1="419.439" x2="1225.01" y2="419.439" stroke="black"/> 
+  <line x1="96.3943" y1="439.091" x2="1225.19" y2="439.091" stroke="black"/> 
+  <line x1="305" y1="331.006" x2="305" y2="419" stroke="black"/> 
+  <line x1="1429.8" y1="109.333" x2="1430" y2="942.424" stroke="black"/> 
+  <line x1="62.0607" y1="526.227" x2="1225.53" y2="526.227" stroke="black"/> 
+  <image x="112.091" y="548.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT007A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT007A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="112.091" y="577.848" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT007B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT007B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="112.091" y="606.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT007C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT007C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="95.9114" y1="573.803" x2="305" y2="574.818" stroke="black"/> 
+  <line x1="96.3964" y1="603.151" x2="305.487" y2="603.151" stroke="black"/> 
+  <image x="315.061" y="562.696" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT907&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT907&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="605.516" y="595.288" fill="black" font-size="15">T ОБМ ВПЭН ФАЗА U &gt;130 C</text>
+  <image x="1066.23" y="577.091" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT907_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT907_XM20&quot;"/> 
+  </image>
+  <line x1="96.3942" y1="546.197" x2="1225.19" y2="546.197" stroke="black"/> 
+  <line x1="61.5455" y1="635.015" x2="1225.01" y2="635.015" stroke="black"/> 
+  <line x1="95.879" y1="656.606" x2="1224.67" y2="656.606" stroke="black"/> 
+  <image x="112.121" y="659.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="112.121" y="688.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="95.6666" y1="686" x2="938.667" y2="686" stroke="black"/> 
+  <text x="113.061" y="540.742" fill="black" font-size="15" font-weight="700">20LAJ01EZ907 Защита ВПЭН по повышению T обмотки двигателя фаза U</text>
+  <text x="73.6364" y="549.197" fill="black" font-size="15">5</text>
+  <image x="109.454" y="742.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT009A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT009A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="109.454" y="771.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT009B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT009B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="109.454" y="801.243" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT009C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT009C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="96.275" y1="767.864" x2="305.366" y2="767.864" stroke="black"/> 
+  <line x1="95.76" y1="798.212" x2="304.85" y2="798.212" stroke="black"/> 
+  <image x="315.424" y="758.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT909&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT909&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="604.758" y="787.349" fill="black" font-size="15">T ОБМ ВПЭН ФАЗА W &gt;130 C</text>
+  <image x="1066.23" y="774.152" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT909_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT909_XM20&quot;"/> 
+  </image>
+  <text x="112.848" y="732.046" fill="black" font-size="15" font-weight="700">20LAJ01EZ909 Защита ВПЭН по повышению T обмотки двигателя фаза W</text>
+  <line x1="59.9091" y1="716.894" x2="1225.37" y2="716.894" stroke="black"/> 
+  <line x1="95.7578" y1="738.258" x2="1224.55" y2="738.258" stroke="black"/> 
+  <line x1="61.4242" y1="829.682" x2="1224.89" y2="829.682" stroke="black"/> 
+  <text x="113.061" y="649.288" fill="black" font-size="15" font-weight="700">20LAJ01EZ005 Защита ВПЭН по повышению T торцевых уплотнений</text>
+  <text x="73.6364" y="659.803" fill="black" font-size="15">6</text>
+  <image x="111.424" y="852.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="111.424" y="881.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="111.424" y="910.849" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="96.2449" y1="878.485" x2="305.336" y2="878.485" stroke="black"/> 
+  <line x1="95.7299" y1="908.818" x2="304.82" y2="908.818" stroke="black"/> 
+  <image x="315" y="870" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAJ01CT904&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAJ01CT904&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="305" y1="849" x2="305" y2="943" stroke="black"/> 
+  <text x="600.971" y="899.955" fill="black" font-size="15">T ПОДШ ДВИГ СТ ВАЛА &gt;95 C</text>
+  <image x="1066.23" y="882.757" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT904_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT904_XM20&quot;"/> 
+  </image>
+  <text x="111.818" y="842.652" fill="black" font-size="15" font-weight="700">20LAJ01EZ904 Защита ВПЭН по повышению T подшипника двигателя со стороны свободного конца вала</text>
+  <line x1="95.7277" y1="849.152" x2="1224.52" y2="849.152" stroke="black"/> 
+  <text x="73.6364" y="739.712" fill="black" font-size="15">7</text>
+  <line x1="305" y1="546" x2="305" y2="635" stroke="black"/> 
+  <line x1="305" y1="738" x2="305" y2="830" stroke="black"/> 
+  <line x1="500" y1="331.006" x2="500" y2="419" stroke="black"/> 
+  <line x1="500" y1="439.333" x2="500" y2="526" stroke="black"/> 
+  <line x1="500" y1="546.333" x2="500" y2="635" stroke="black"/> 
+  <line x1="939.273" y1="546" x2="939.273" y2="635" stroke="black"/> 
+  <line x1="939.273" y1="439.333" x2="939.273" y2="525.697" stroke="black"/> 
+  <line x1="939.273" y1="331.006" x2="939.273" y2="419" stroke="black"/> 
+  <line x1="939.273" y1="217" x2="939.273" y2="310" stroke="black"/> 
+  <line x1="939.273" y1="110" x2="939.273" y2="198" stroke="black"/> 
+  <image x="390.061" y="659" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT005_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT005_XH07&quot;"/> 
+  </image>
+  <image x="390.061" y="688.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT006_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT006_XH07&quot;"/> 
+  </image>
+  <line x1="500" y1="656" x2="500" y2="717" stroke="black"/> 
+  <text x="73.6364" y="851.667" fill="black" font-size="15">8</text>
+  <image x="390.424" y="793" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT909_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT909_XH09&quot;"/> 
+  </image>
+  <image x="390" y="906" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT904_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT904_XH07&quot;"/> 
+  </image>
+  <line x1="1429.58" y1="423.106" x2="1887.58" y2="423.106" stroke="black"/> 
+  <line x1="1430.07" y1="443.409" x2="1888.07" y2="443.409" stroke="black"/> 
+  <line x1="1225" y1="85.9091" x2="1225" y2="34.8485" stroke="black"/> 
+  <line x1="1649.17" y1="86.9699" x2="1649.17" y2="35.9092" stroke="black"/> 
+  <line x1="1649.17" y1="108.637" x2="1649.17" y2="200" stroke="black"/> 
+  <line x1="1649.17" y1="219" x2="1649.17" y2="315.395" stroke="black"/> 
+  <line x1="1649.17" y1="335" x2="1649.17" y2="423.055" stroke="black"/> 
+  <line x1="1649.17" y1="443.485" x2="1649.17" y2="529.849" stroke="black"/> 
+  <line x1="1429.49" y1="530.864" x2="1887.49" y2="530.864" stroke="black"/> 
+  <line x1="1429.98" y1="551.167" x2="1887.98" y2="551.167" stroke="black"/> 
+  <line x1="1649.17" y1="551.121" x2="1649.17" y2="640.121" stroke="black"/> 
+  <line x1="1430" y1="640.076" x2="1889" y2="640.076" stroke="black"/> 
+  <line x1="1430" y1="660.197" x2="1889.49" y2="660.379" stroke="black"/> 
+  <line x1="1649.17" y1="659.667" x2="1649.17" y2="722" stroke="black"/> 
+  <image x="1529.55" y="677.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ005_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ005_XK92&quot;"/> 
+  </image>
+  <line x1="1429.94" y1="721.894" x2="1888.94" y2="721.894" stroke="black"/> 
+  <line x1="1430.43" y1="742.197" x2="1888.43" y2="742.197" stroke="black"/> 
+  <line x1="1649.17" y1="742.031" x2="1649.17" y2="830.698" stroke="black"/> 
+  <image x="1752.26" y="774.121" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ909_XK95&quot;"/> 
+  </image>
+  <image x="1529.55" y="774.121" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ909_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ909_XK92&quot;"/> 
+  </image>
+  <line x1="1429.49" y1="830.864" x2="1887.49" y2="830.864" stroke="black"/> 
+  <line x1="1429.98" y1="851.167" x2="1887.98" y2="851.167" stroke="black"/> 
+  <image x="1752.26" y="882.757" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1529.55" y="882.757" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ904_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ904_XK92&quot;"/> 
+  </image>
+  <line x1="1649.17" y1="851.061" x2="1649.17" y2="942.728" stroke="black"/> 
+  <text x="608.546" y="677.167" fill="black" font-size="15">T УПЛ ВПЭН СТ ДВИГ &gt;90 C</text>
+  <text x="613.092" y="706.924" fill="black" font-size="15">T УПЛ ВПЭН СТ ДВИГ &gt;90 C</text>
+  <image x="1272.27" y="472.939" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAJ01CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAJ01CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1429.8" y1="86.9698" x2="1429.8" y2="35.9092" stroke="black"/> 
+  <line x1="305" y1="656" x2="305" y2="717" stroke="black"/> 
+  <line x1="939.273" y1="656" x2="939.273" y2="717" stroke="black"/> 
+  <line x1="500" y1="738" x2="500" y2="830" stroke="black"/> 
+  <line x1="939.273" y1="738" x2="939.273" y2="830" stroke="black"/> 
+  <line x1="500" y1="849" x2="500" y2="943" stroke="black"/> 
+  <line x1="939.273" y1="849" x2="939.273" y2="943" stroke="black"/> 
+  <line x1="500" y1="218" x2="500" y2="310" stroke="black"/> 
+  <line x1="305" y1="218" x2="305" y2="310" stroke="black"/> 
+  <image x="1659.42" y="4.54545" width="115" height="25" xlink:href="obj_link.svg">
+    <title>&quot;LAJ_TZB_2&quot;</title>
+    <rt:dyn type="ModName" mode="constant" value="&quot;laj_tzb_2&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAJ_TZB_2&quot;"/> 
+  </image>
+  <image x="390.5" y="162" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT903_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT903_XH07&quot;"/> 
+  </image>
+  <image x="390.5" y="274" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT902_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT902_XH07&quot;"/> 
+  </image>
+  <image x="390.5" y="383" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT901_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT901_XH07&quot;"/> 
+  </image>
+  <image x="390.061" y="490" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT908_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT908_XH09&quot;"/> 
+  </image>
+  <image x="390.061" y="598" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01CT907_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01CT907_XH09&quot;"/> 
+  </image>
+</svg>

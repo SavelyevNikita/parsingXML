@@ -1,0 +1,76 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lct2_tzb">
+  <title>ТЗиБ LCT51</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to&#10;LMod lct1_tzb&#10;RMod lct3_tzb" revision="3"/> 
+  <rect x="75" y="51" width="1428" height="256" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="44" y="25" font-size="15" font-weight="700">LCT2_TZB</text>
+  <text x="379.581" y="78.9115" fill="black" font-size="15">Входные условия</text>
+  <line x1="1281.29" y1="52" x2="1281.29" y2="102" stroke="black"/> 
+  <text x="100.728" y="71.4116" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1368.5" y="78.9115" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="989" y="79.9116" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="125" y1="51" x2="125" y2="309" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="879.583" y1="101" x2="879.583" y2="51" stroke="black"/> 
+  <line x1="1098.34" y1="51" x2="1098.34" y2="101" stroke="black"/> 
+  <text x="1189.17" y="71.4115" fill="black" font-size="15" text-anchor="middle">Защита сработала<tspan x="1189.17" dy="15">на сигнал</tspan>
+  </text>
+  <line x1="124.5" y1="126.5" x2="1503.5" y2="126.5" stroke="black"/> 
+  <text x="94" y="119" fill="black" font-size="15">1</text>
+  <rect x="74.5" y="101.5" width="1428.83" height="204.833" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="879.25" y1="126.5" x2="879.25" y2="306" stroke="black"/> 
+  <line x1="455.5" y1="126.5" x2="456.5" y2="306" stroke="black"/> 
+  <line x1="1280.84" y1="126.5" x2="1280.84" y2="306" stroke="black"/> 
+  <text x="135.288" y="117.682" fill="black" font-size="15" font-weight="700">20LCT51EZ002 Защита НСС-1 по не открытию задвижки на напоре насоса (выдержка времени 180 с)</text>
+  <image x="1378.67" y="197.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ002_XK95&quot;"/> 
+  </image>
+  <image x="1175.34" y="197.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ002_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ002_XK92&quot;"/> 
+  </image>
+  <line x1="1098.01" y1="126.5" x2="1098.01" y2="306" stroke="black"/> 
+  <text x="520.501" y="158.417" fill="black" font-size="15">ЗДВ НАПОР НСС-1 НЕ ОТКР</text>
+  <image x="928.834" y="194.667" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LCT51CH302TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51CH302TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="203.001" y="104" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCT51AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="275.667" y="150.833" fill="black" font-size="15">20LCT51AA002</text>
+  <text x="543.001" y="194.084" fill="black" font-size="15">ЗДВ РЕЦ НСС-1 ЗАКР</text>
+  <image x="203.001" y="139.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCT51AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="275.667" y="186.5" fill="black" font-size="15">20LCT51AA003</text>
+  <text x="521.334" y="233.417" fill="black" font-size="15">З БАЙП НАПОР НСС-1 ЗАКР</text>
+  <image x="203.001" y="179" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LCT51AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="275.667" y="225.833" fill="black" font-size="15">20LCT51AA004</text>
+  <text x="578.001" y="275.917" fill="black" font-size="15">НСС-1 ВКЛ</text>
+  <text x="272.667" y="275.167" fill="black" font-size="15">20LCT51AP001</text>
+  <image x="202.667" y="234" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LCT51AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="959" y="37.0833" fill="black" font-size="30" font-weight="700" text-anchor="middle">ТЗиБ LCT51</text>
+</svg>

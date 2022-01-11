@@ -1,0 +1,417 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kta_tzb">
+  <title>Защиты KTA</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod kpm23_tzb&#10;RMod ktc_tzb" revision="4.1"/> 
+  <rect x="75" y="26" width="1775" height="949" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">KTA_TZB</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1150" y1="26" x2="1150" y2="76" stroke="black"/> 
+  <line x1="1500" y1="26" x2="1500" y2="76" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="801" y1="76" x2="801" y2="26" stroke="black"/> 
+  <line x1="125.743" y1="100.773" x2="1850.74" y2="100.773" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20KTA21EZ001 Отключение насоса 20KTA21AP001</text>
+  <text x="95.3938" y="95.9578" fill="black" font-size="15">1</text>
+  <line x1="800" y1="100" x2="800" y2="375" stroke="black"/> 
+  <line x1="1150" y1="100" x2="1150" y2="375" stroke="black"/> 
+  <line x1="1500" y1="100" x2="1500" y2="375" stroke="black"/> 
+  <rect x="75.58" y="75.242" width="1774.42" height="899.758" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="915" y="111" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA21CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA21CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="250" y1="150" x2="1850" y2="150" stroke="black"/> 
+  <line x1="125.581" y1="26.5908" x2="125" y2="975" stroke="black"/> 
+  <image x="1300" y="112" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZM02&quot;"/> 
+  </image>
+  <line x1="525" y1="100" x2="525" y2="375" stroke="black"/> 
+  <line x1="75.5807" y1="375.591" x2="1850.58" y2="375.591" stroke="black"/> 
+  <line x1="125.581" y1="400.591" x2="1850.58" y2="400.591" stroke="black"/> 
+  <line x1="525" y1="400" x2="525" y2="675" stroke="black"/> 
+  <line x1="1150" y1="400" x2="1150" y2="675" stroke="black"/> 
+  <line x1="1500" y1="400" x2="1500" y2="675" stroke="black"/> 
+  <line x1="800" y1="400" x2="800" y2="675" stroke="black"/> 
+  <text x="96.0352" y="397.561" fill="black" font-size="15">2</text>
+  <text x="133.914" y="394.258" fill="black" font-size="15" font-weight="700">20KTA22EZ001 Отключение насоса 20KTA22AP001</text>
+  <text x="167" y="238.5" fill="black" font-size="15">ВКЛ</text>
+  <image x="915" y="161" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA21CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA21CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="916.25" y="410" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA22CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA22CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="161" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1300" y="412" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1650" y="112" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1650" y="412" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1650" y="460" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="75" y1="675" x2="1850" y2="675" stroke="black"/> 
+  <text x="550" y="125" fill="black" font-size="15">P НАПОР 20KTA21AP001<tspan x="550" dy="15">&lt; 1.2 МПА</tspan>
+  </text>
+  <text x="550" y="172" fill="black" font-size="15">F 20KTA21AP001<tspan x="550" dy="15">&lt; 1 М3/Ч</tspan>
+  </text>
+  <line x1="125.003" y1="700" x2="1850" y2="700" stroke="black"/> 
+  <line x1="525" y1="700" x2="525" y2="975" stroke="black"/> 
+  <text x="95.4545" y="698.455" fill="black" font-size="15">3</text>
+  <text x="134.066" y="693.41" fill="black" font-size="15" font-weight="700">20KTA23EZ001 Отключение насоса 20KTA23AP001</text>
+  <image x="917" y="460" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA22CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA22CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="915" y="706" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA23CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA23CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="460" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1300" y="713" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1650" y="712" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="1650" y="762" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZV51&quot;"/> 
+  </image>
+  <image x="915" y="757" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KTA23CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA23CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="761" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZM01&quot;"/> 
+  </image>
+  <text x="548.75" y="427" fill="black" font-size="15">P НАПОР 20KTA22AP001<tspan x="548.75" dy="15">&lt; 1.2 МПА</tspan>
+  </text>
+  <text x="549" y="470" fill="black" font-size="15">F 20KTA22AP001<tspan x="549" dy="15">&lt; 1 М3/Ч</tspan>
+  </text>
+  <text x="548.25" y="723" fill="black" font-size="15">P НАПОР 20KTA23AP001<tspan x="548.25" dy="15">&lt; 1.2 МПА</tspan>
+  </text>
+  <text x="547.75" y="771.25" fill="black" font-size="15">F 20KTA23AP001<tspan x="547.75" dy="15">&lt; 1 М3/Ч</tspan>
+  </text>
+  <image x="1650" y="164" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZV51&quot;"/> 
+  </image>
+  <line x1="250" y1="195" x2="1850" y2="195" stroke="black"/> 
+  <line x1="250" y1="450" x2="1850" y2="450" stroke="black"/> 
+  <line x1="250" y1="745" x2="1850" y2="745" stroke="black"/> 
+  <image x="265.333" y="110.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA21CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA21CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="111.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21CP002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21CP002_XH58&quot;"/> 
+  </image>
+  <image x="265.333" y="160.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA21CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA21CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="161" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21CF001_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21CF001_XH60&quot;"/> 
+  </image>
+  <image x="265" y="413" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA22CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA22CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="412" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22CP002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22CP002_XH58&quot;"/> 
+  </image>
+  <image x="265" y="460" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA22CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA22CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="460" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22CF001_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22CF001_XH60&quot;"/> 
+  </image>
+  <image x="265" y="712" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA23CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA23CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="713" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23CP002_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23CP002_XH58&quot;"/> 
+  </image>
+  <image x="265" y="759" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA23CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA23CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="760" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23CF001_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23CF001_XH60&quot;"/> 
+  </image>
+  <image x="150" y="130" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KTA21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="150" y="420" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KTA22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="155" y="715" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KTA23AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KTA23AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="800" y1="700" x2="800" y2="975" stroke="black"/> 
+  <line x1="1150" y1="700" x2="1150" y2="975" stroke="black"/> 
+  <line x1="1500" y1="700" x2="1500" y2="975" stroke="black"/> 
+  <text x="132" y="210.5" fill="black" font-size="15">20KTA21AP001</text>
+  <text x="130" y="505.5" fill="black" font-size="15">20KTA22AP001</text>
+  <text x="132" y="800" fill="black" font-size="15">20KTA23AP001</text>
+  <line x1="250" y1="100" x2="250" y2="375" stroke="black"/> 
+  <line x1="75" y1="375" x2="1850" y2="375" stroke="black"/> 
+  <image x="265" y="209" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA21CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA21CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="209" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21CT001_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21CT001_XH05&quot;"/> 
+  </image>
+  <text x="550" y="229" fill="black" font-size="15">Т ПОДШИП KTA21AP001&gt; 80 C</text>
+  <line x1="250" y1="245" x2="1850" y2="245" stroke="black"/> 
+  <image x="264" y="256.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA21CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA21CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="257.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21CT002_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21CT002_XH05&quot;"/> 
+  </image>
+  <text x="548.083" y="276.5" fill="black" font-size="15">Т ПОДШИП KTA21AP001&gt; 80 C</text>
+  <image x="1650" y="211.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZV05&quot;"/> 
+  </image>
+  <image x="1650" y="259.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZV06&quot;"/> 
+  </image>
+  <line x1="250" y1="290" x2="1850" y2="290" stroke="black"/> 
+  <image x="262" y="302" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="302.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA10CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA10CL001_XH56&quot;"/> 
+  </image>
+  <text x="550" y="320.5" fill="black" font-size="15">L KTA10BB001 &lt;0.3 М</text>
+  <text x="175" y="525" fill="black" font-size="15">ВКЛ</text>
+  <line x1="250" y1="400" x2="250" y2="675" stroke="black"/> 
+  <line x1="250" y1="495" x2="1850" y2="495" stroke="black"/> 
+  <image x="265" y="505" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA22CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA22CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="505" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22CT001_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22CT001_XH05&quot;"/> 
+  </image>
+  <text x="548.75" y="522.5" fill="black" font-size="15">Т ПОДШИП KTA22AP001&gt; 80 C</text>
+  <line x1="250" y1="540" x2="1850" y2="540" stroke="black"/> 
+  <image x="265" y="551" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA22CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA22CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="551" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22CT002_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22CT002_XH05&quot;"/> 
+  </image>
+  <text x="548.5" y="567.5" fill="black" font-size="15">Т ПОДШИП KTA22AP001&gt; 80 C</text>
+  <image x="1650" y="504.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZV05&quot;"/> 
+  </image>
+  <image x="1650" y="549.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZV06&quot;"/> 
+  </image>
+  <line x1="250" y1="585" x2="1850" y2="585" stroke="black"/> 
+  <image x="265" y="592" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="592" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA10CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA10CL001_XH56&quot;"/> 
+  </image>
+  <text x="548.5" y="610.25" fill="black" font-size="15">L KTA10BB001 &lt;0.3 М</text>
+  <line x1="250" y1="700" x2="250" y2="975" stroke="black"/> 
+  <text x="175" y="825" fill="black" font-size="15">ВКЛ</text>
+  <line x1="250" y1="795" x2="1850" y2="795" stroke="black"/> 
+  <line x1="250" y1="835" x2="1850" y2="835" stroke="black"/> 
+  <line x1="250" y1="885" x2="1850" y2="885" stroke="black"/> 
+  <image x="265" y="804" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA23CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA23CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="804" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23CT001_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23CT001_XH05&quot;"/> 
+  </image>
+  <text x="550" y="824" fill="black" font-size="15">Т ПОДШИП KTA23AP001&gt; 80 C</text>
+  <image x="265" y="850" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA23CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA23CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="850" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23CT002_XH05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23CT002_XH05&quot;"/> 
+  </image>
+  <text x="547.5" y="868" fill="black" font-size="15">Т ПОДШИП KTA23AP001&gt; 80 C</text>
+  <image x="1650" y="808" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZV05&quot;"/> 
+  </image>
+  <image x="1650" y="850" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZV06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZV06&quot;"/> 
+  </image>
+  <image x="265" y="895.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KTA10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KTA10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="475" y="895" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA10CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA10CL001_XH56&quot;"/> 
+  </image>
+  <text x="550" y="915.5" fill="black" font-size="15">L KTA10BB001 &lt;0.3 М</text>
+  <line x1="250" y1="335" x2="1850" y2="335" stroke="black"/> 
+  <image x="475" y="342" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA20EE002_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA20EE002_ZV01&quot;"/> 
+  </image>
+  <text x="550" y="358.5" fill="black" font-size="15">ОТКЛ И ЗАПР ВКЛ KTA</text>
+  <text x="281" y="350" fill="black" font-size="15">Сработал сигнал<tspan x="281" dy="15">20KTA20EE002_ZV01</tspan>
+  </text>
+  <image x="1650" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA21EZ001_ZV07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA21EZ001_ZV07&quot;"/> 
+  </image>
+  <line x1="250" y1="631.5" x2="1850" y2="631.5" stroke="black"/> 
+  <image x="474" y="637" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA20EE002_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA20EE002_ZV01&quot;"/> 
+  </image>
+  <text x="549" y="653.5" fill="black" font-size="15">ОТКЛ И ЗАПР ВКЛ KTA</text>
+  <text x="280" y="645" fill="black" font-size="15">Сработал сигнал<tspan x="280" dy="15">20KTA20EE002_ZV01</tspan>
+  </text>
+  <image x="1650" y="637" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA22EZ001_ZV07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA22EZ001_ZV07&quot;"/> 
+  </image>
+  <line x1="250" y1="931.5" x2="1850" y2="931.5" stroke="black"/> 
+  <image x="475" y="939" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA20EE002_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA20EE002_ZV01&quot;"/> 
+  </image>
+  <text x="550" y="955.5" fill="black" font-size="15">ОТКЛ И ЗАПР ВКЛ KTA</text>
+  <text x="281" y="947" fill="black" font-size="15">Сработал сигнал<tspan x="281" dy="15">20KTA20EE002_ZV01</tspan>
+  </text>
+  <image x="1650" y="937" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KTA23EZ001_ZV07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KTA23EZ001_ZV07&quot;"/> 
+  </image>
+</svg>

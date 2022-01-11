@@ -1,0 +1,78 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="pvd_2">
+  <title>ПВД - ручной режим</title>
+  <rt:model modelversion="7.2.0.23" comment="Создано РАСУ" revision="1.0"/> 
+  <text x="858" y="38" font-size="28" font-weight="700">ПВД - ручной режим</text>
+  <g/> 
+  <image x="499" y="149" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;00KPA30AE102VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE102VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+  </image>
+  <text x="16" y="27" font-size="20" font-weight="bold" text-anchor="start">pvd_2</text>
+  <line x1="1221.63" y1="560.976" x2="1221.63" y2="560.976" stroke="black"/> 
+  <text x="576.5" y="139.167" font-size="17" font-weight="bold" text-anchor="middle">Мостовая балка</text>
+  <image x="499" y="274" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;00KPA30AE103VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE103VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+  </image>
+  <text x="576.5" y="264.167" font-size="17" font-weight="bold" text-anchor="middle">Тележка манипулятора</text>
+  <image x="499" y="399" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;00KPA30AE104VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE104VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+  </image>
+  <text x="576.5" y="389.167" font-size="17" font-weight="bold" text-anchor="middle">Манипулятор</text>
+  <image x="499" y="524" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;00KPA30AE108VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE108VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+  </image>
+  <text x="576.5" y="514.167" font-size="17" font-weight="bold" text-anchor="middle">Передвижная платформа</text>
+  <text x="851" y="141.167" font-size="17" font-weight="bold">Разрешение на перемещение балки</text>
+  <image x="250" y="750" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;00KPA30GH001CVL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30GH001CVL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+  </image>
+  <text x="326" y="727" font-size="15" text-anchor="middle">Включить шкаф 00KPA30GH001<tspan x="326" dy="15">(главный контактор)</tspan>
+  </text>
+  <image x="1353" y="148" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00KPA30AN100</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AN100&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;compr&quot;"/> 
+  </image>
+  <text x="1345" y="232.5" font-size="15">Компрессор<tspan x="1345" dy="15">00KPA30AN100</tspan>
+  </text>
+  <image x="948" y="163" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;00KPA30AE102RTE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE102RTE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="838.5" y="266.167" font-size="17" font-weight="bold">Разрешение на перемещение тележки</text>
+  <image x="948" y="288" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;00KPA30AE103RTE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE103RTE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="810" y="391.167" font-size="17" font-weight="bold">Разрешение на перемещение манипулятора</text>
+  <image x="948" y="413" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;00KPA30AE104RTE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE104RTE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="823" y="516.167" font-size="17" font-weight="bold">Разрешение на перемещение платформы</text>
+  <image x="948" y="538" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;00KPA30AE108RTE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00KPA30AE108RTE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+</svg>

@@ -1,0 +1,325 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_Grey2" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 480 260" width="480" height="260" id="wd_UPS" stroke-width="2" font-family="AAP_Font3" font-size="14">
+  <desc>диагностика ИБП</desc>
+  <rt:model comment="диагностика ИБП" revision="4.4" modelversion="0.0.0.0">
+    <rt:param name="In_Par" datatype="string" comment="номар абонента в строковой форме"/> 
+    <rt:var name="KKS" datatype="string" comment="базовая часть идентификаторов"/> 
+    <rt:var name="title_base" datatype="string" comment="окончание строки заголовка"/> 
+    <rt:event type="OnInitialize">Dim p1 As String
+KKS = PRJSPEC.ParSplit(In_Par, title_base, p1)</rt:event>
+  </rt:model>
+  <rect x="0" y="0" width="480" height="260" rx="0" ry="0" id="Backgr" fill="Col_BGwin"/> 
+  <text x="250" y="15" id="Title_text" font-weight="bold" text-anchor="middle">
+    <rt:dyn type="text" mode="cyclic" value="&quot;Состояние ИБП  &quot; + title_base"/> 
+Состояние ИБП</text>
+  <text x="57" y="239" id="SVGText4" font-size="13" text-anchor="middle">Источник вых.<tspan x="57" dy="13">мощности</tspan>
+  </text>
+  <text x="135" y="60" id="SVGText1">Заряд бат.</text>
+  <image x="6" y="190" width="90" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV02">
+    <title>KKS + &quot;E01_ZV02&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;E01_ZV02 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Источник \nнеизвестен&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;Источник \nотсутствует&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;Питание \nв норме&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;BYPASS&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;Питание \nот батареи&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;BOOSTER&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;REDUCER&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_ZV02&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;E01_ZV02 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="KKS + &quot;E01_ZV02 2&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="13"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Text_1111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1001" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+  </image>
+  <image x="100" y="190" width="90" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV03">
+    <title>KKS + &quot;E01_ZV03&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;E01_ZV03 0&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_ZV03&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;Нет \nперегрузки&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Перегрузка&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="13"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;E01_ZV03 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="KKS + &quot;E01_ZV03 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="KKS + &quot;E01_ZV03 3&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1001" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+  </image>
+  <text x="135" y="85" id="SVGText22">Напряжение бат.</text>
+  <text x="135" y="110" id="SVGText23">Время раб. на бат.</text>
+  <image x="10" y="40" width="115" height="25" xlink:href="DS_ana.svg" id="XQ01">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ01&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <text x="135" y="135" id="SVGText25">Уровень нагр.</text>
+  <text x="135" y="160" id="SVGText26">Внутренняя темп.</text>
+  <image x="10" y="65" width="115" height="25" xlink:href="DS_ana.svg" id="XQ04">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ04&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ04&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="10" y="90" width="115" height="25" xlink:href="DS_ana.svg" id="XQ06">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ06&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ06&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="10" y="115" width="115" height="25" xlink:href="DS_ana.svg" id="XQ03">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ03&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="10" y="140" width="115" height="25" xlink:href="DS_ana.svg" id="XQ09">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ09&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ09&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="275.274" y="55" width="115" height="25" xlink:href="DS_ana.svg" id="XQ02">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ02&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="275.274" y="80" width="115" height="25" xlink:href="DS_ana.svg" id="XQ07">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ07&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ07&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="275.274" y="130" width="115" height="25" xlink:href="DS_ana.svg" id="XQ05">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ05&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ05&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <image x="275.274" y="155" width="115" height="25" xlink:href="DS_ana.svg" id="XQ08">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;E01_XQ08&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_XQ08&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+  </image>
+  <text x="395" y="75" id="SVGText27">Напряжение</text>
+  <text x="395" y="150" id="SVGText28">Напряжение</text>
+  <text x="395" y="100" id="SVGText29">Частота</text>
+  <text x="395" y="175" id="SVGText30">Частота</text>
+  <text x="275" y="124" id="SVGText31">Выход</text>
+  <text x="275" y="49" id="SVGText32">Вход</text>
+  <line x1="265" y1="185" x2="265" y2="35" stroke="black"/> 
+  <line x1="0" y1="185" x2="480" y2="185" stroke="black"/> 
+  <line x1="0" y1="35" x2="480" y2="35" stroke="black"/> 
+  <line x1="265.5" y1="110" x2="480" y2="110" stroke="black"/> 
+  <image x="194" y="190" width="90" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV04">
+    <title>KKS + &quot;E01_ZV03&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;E01_ZV04 0&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E01_ZV04&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Зарядка&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;Разрядка&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;Утечка&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;Отдых&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;E01_ZV04 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="KKS + &quot;E01_ZV04 2&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="13"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1001" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="KKS + &quot;E01_ZV04 3&quot;"/> 
+  </image>
+  <text x="149" y="239" id="SVGText33" font-size="13" text-anchor="middle">Перегрузка<tspan x="149" dy="13">выходов</tspan>
+  </text>
+  <text x="239" y="239" id="SVGText34" font-size="13" text-anchor="middle">Состояние<tspan x="239" dy="13">батареи</tspan>
+  </text>
+  <image x="288.5" y="190" width="90" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV7">
+    <title>KKS + &quot;E01_ZV03&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;E02_ZV16 0&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E02_ZV16&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;Нет&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Есть&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;E02_ZV16 1&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="13"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1001" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="KKS + &quot;E02_ZV16 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="KKS + &quot;E02_ZV16 3&quot;"/> 
+  </image>
+  <text x="336" y="239" id="SVGText37" font-size="13" text-anchor="middle">Основное<tspan x="336" dy="13">напряжение</tspan>
+  </text>
+  <image x="383" y="190" width="90" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV8">
+    <title>KKS + &quot;E01_ZV03&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;E02_ZV17 0&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;E02_ZV17&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;Нет&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Есть&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;E02_ZV17 1&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="13"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="KKS + &quot;E02_ZV17 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="KKS + &quot;E02_ZV17 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1101" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1011" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1100" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1010" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1001" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_1000" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;  Неизвестное  \nсостояние&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+  </image>
+  <text x="429" y="239" id="SVGText38" font-size="13" text-anchor="middle">Резервное<tspan x="429" dy="13">напряжение</tspan>
+  </text>
+</svg>

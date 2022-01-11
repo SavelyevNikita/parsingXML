@@ -1,0 +1,367 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lab02_tzb">
+  <title>Защиты ПЭН-2</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to&#10;LMod lab01e_tzb&#10;RMod lab02e_tzb" revision="1"/> 
+  <text x="81.2425" y="18.9393" font-size="20">LAB02_TZB</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1301.17" y1="26" x2="1301.17" y2="76" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1441.5" y="56" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1174" y="56.5" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="125" y1="99" x2="1854.33" y2="99" stroke="black"/> 
+  <text x="95" y="93" fill="black" font-size="15">1</text>
+  <rect x="75" y="75" width="1778.67" height="353.333" rx="1.0603" ry="1.0603" fill="none" stroke="black"/> 
+  <line x1="125" y1="25" x2="125" y2="861" stroke="black"/> 
+  <line x1="822.501" y1="99" x2="822.501" y2="306" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="531.792" y1="99" x2="531.792" y2="306" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <line x1="822.501" y1="75" x2="822.501" y2="25" stroke="black"/> 
+  <text x="135.788" y="92.1823" fill="black" font-size="15" font-weight="700">20LAB02EZ901 Защита ПЭН-2 по понижению F насоса ( выдержка времени 20 с)</text>
+  <line x1="1050.09" y1="25" x2="1050.09" y2="75" stroke="black"/> 
+  <text x="938" y="46.5" fill="black" font-size="15" text-anchor="middle">Рассогласование<tspan x="938" dy="15">(отклонение) датчиков</tspan>
+  </text>
+  <line x1="1050.09" y1="98" x2="1050" y2="429" stroke="black"/> 
+  <image x="136.001" y="106" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.001" y="133" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="339.819" y="119.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAA10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="414.819" y="144.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CF901_XH64&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CF901_XH64&quot;"/> 
+  </image>
+  <text x="570.872" y="160.917" fill="black" font-size="15">F НАПОР ПЭН 2 &lt;400 М3/Ч</text>
+  <image x="920.5" y="133.501" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CF901_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CF901_XM20&quot;"/> 
+  </image>
+  <line x1="323.667" y1="99" x2="323.667" y2="191" stroke="black"/> 
+  <image x="136.001" y="160.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="75" y="25" width="1778.67" height="836.667" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="1582.52" y1="25.3333" x2="1582.52" y2="75.3333" stroke="black"/> 
+  <text x="1723.83" y="55.3333" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <line x1="1582.52" y1="99.333" x2="1582.52" y2="306" stroke="black"/> 
+  <line x1="1301.09" y1="99.333" x2="1301.17" y2="429" stroke="black"/> 
+  <image x="1705.33" y="188.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ901_XK95&quot;"/> 
+  </image>
+  <image x="1117" y="227.333" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAB02CH301TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB02CH301TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="216.5" y="239.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20LAB02AA005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB02AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="588.872" y="285.5" fill="black" font-size="15">ЗДВ-1 РЕЦ ПЭН 2 ЗАКР</text>
+  <text x="287.333" y="286.834" fill="black" font-size="15">20LAB02AA005</text>
+  <line x1="125.333" y1="191" x2="1050.33" y2="191" stroke="black"/> 
+  <text x="95" y="329.333" fill="black" font-size="15">2</text>
+  <text x="134.955" y="324.349" fill="black" font-size="15" font-weight="700">20LAB02EZ911 Защита ПЭН-2 по повышению F насоса  (выдержка времени 120 с)</text>
+  <image x="414.818" y="383.542" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CF901_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CF901_XH03&quot;"/> 
+  </image>
+  <image x="1705.33" y="369" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ911_XK95&quot;"/> 
+  </image>
+  <image x="1428" y="369" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ911_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ911_XK92&quot;"/> 
+  </image>
+  <image x="1428" y="190.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ901_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ901_XK92&quot;"/> 
+  </image>
+  <text x="635.372" y="234.75" fill="black" font-size="15">ПЭН 2 ВКЛ</text>
+  <text x="287.166" y="235.583" fill="black" font-size="15">20LAC20AP001</text>
+  <image x="216.333" y="196" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LAC20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="76.3334" y1="305.5" x2="1049.67" y2="305.5" stroke="black"/> 
+  <line x1="1300.33" y1="305.5" x2="1853.34" y2="305.5" stroke="black"/> 
+  <line x1="124.667" y1="336.167" x2="1050.67" y2="336.167" stroke="black"/> 
+  <line x1="1301.33" y1="336.167" x2="1854.34" y2="336.167" stroke="black"/> 
+  <line x1="125.167" y1="452.5" x2="1855.5" y2="452.5" stroke="black"/> 
+  <text x="95" y="447" fill="black" font-size="15">3</text>
+  <rect x="75.1667" y="428.5" width="1779.5" height="116.5" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="822.501" y1="452.5" x2="822.501" y2="545.333" stroke="black"/> 
+  <line x1="531.792" y1="452.5" x2="531.792" y2="545.333" stroke="black"/> 
+  <text x="135.955" y="445.682" fill="black" font-size="15" font-weight="700">20LAB02EZ902 Защита ПЭН-2 по понижению P на всасе насоса</text>
+  <image x="136.168" y="459.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.168" y="486.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="339.819" y="474.167" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="414.819" y="499.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP902_XH54&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP902_XH54&quot;"/> 
+  </image>
+  <text x="590.372" y="514.417" fill="black" font-size="15">P ВСАС ПЭН &lt;0.2 МПа</text>
+  <image x="920.5" y="486.583" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP902_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP902_XM20&quot;"/> 
+  </image>
+  <line x1="323.667" y1="452.5" x2="323.667" y2="544.5" stroke="black"/> 
+  <image x="136.167" y="513.833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1582.52" y1="452.833" x2="1582.52" y2="544.333" stroke="black"/> 
+  <image x="1705.33" y="486.583" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ902_XK95&quot;"/> 
+  </image>
+  <line x1="1301.09" y1="452.833" x2="1301.17" y2="545.333" stroke="black"/> 
+  <image x="1428" y="486.583" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ902_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ902_XK92&quot;"/> 
+  </image>
+  <image x="1117" y="483.583" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAB02CH302TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB02CH302TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="125.167" y1="569.833" x2="1855.5" y2="569.833" stroke="black"/> 
+  <text x="95" y="563.667" fill="black" font-size="15">4</text>
+  <rect x="75.1667" y="544.833" width="1778.5" height="316.833" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="822.501" y1="569.833" x2="822.501" y2="737" stroke="black"/> 
+  <line x1="531.792" y1="569.833" x2="531.792" y2="737" stroke="black"/> 
+  <text x="135.955" y="562.016" fill="black" font-size="15" font-weight="700">20LAB02EZ903 Защита ПЭН-2 по понижению P на напоре насоса ( выдержка времени 10 с после включения насоса)</text>
+  <line x1="1050.09" y1="569.833" x2="1050" y2="862" stroke="black"/> 
+  <image x="136.168" y="575.833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.168" y="602.833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="339.819" y="591.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="414.819" y="616.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP903_XH54&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP903_XH54&quot;"/> 
+  </image>
+  <image x="920.5" y="603.334" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP903_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP903_XM20&quot;"/> 
+  </image>
+  <line x1="323.667" y1="569.833" x2="323.667" y2="661.833" stroke="black"/> 
+  <image x="136.168" y="630.166" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1582.52" y1="570.166" x2="1582.52" y2="737" stroke="black"/> 
+  <line x1="1301.09" y1="570.166" x2="1301.17" y2="861" stroke="black"/> 
+  <image x="1705.33" y="639.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1117" y="699.166" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LAB02CH303TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB02CH303TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="125.5" y1="663.833" x2="1050.5" y2="663.833" stroke="black"/> 
+  <text x="95" y="760.166" fill="black" font-size="15">5</text>
+  <text x="135.122" y="756.182" fill="black" font-size="15" font-weight="700">20LAB02EZ913 Защита ПЭН-2 по повышению P на напоре насоса ( выдержка времени 3 с)</text>
+  <image x="414.819" y="816.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP903_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP903_XH03&quot;"/> 
+  </image>
+  <text x="572.372" y="828.625" fill="black" font-size="15">P НАПОР ПЭН  &gt;11.77 МПа</text>
+  <image x="1705.33" y="801.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ913_XK95&quot;"/> 
+  </image>
+  <image x="1428" y="801.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ913_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ913_XK92&quot;"/> 
+  </image>
+  <image x="1428" y="641.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ903_XK92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ903_XK92&quot;"/> 
+  </image>
+  <text x="635.372" y="704.583" fill="black" font-size="15">ПЭН 2 ВКЛ</text>
+  <text x="287.333" y="705.416" fill="black" font-size="15">20LAC20AP001</text>
+  <image x="216.5" y="665.833" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 -1.52588e-005 0)">
+    <title>&quot;20LAC20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <line x1="76.5001" y1="736.333" x2="1049.84" y2="736.333" stroke="black"/> 
+  <line x1="1300.5" y1="736.333" x2="1853.51" y2="736.333" stroke="black"/> 
+  <line x1="124.834" y1="767" x2="1049.84" y2="767" stroke="black"/> 
+  <line x1="1301.5" y1="767" x2="1854.51" y2="767" stroke="black"/> 
+  <image x="920.5" y="369" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CF901_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CF901_XM20&quot;"/> 
+  </image>
+  <image x="920.5" y="801.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02CP903_XM20&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02CP903_XM20&quot;"/> 
+  </image>
+  <line x1="323.667" y1="336.242" x2="323.667" y2="428.242" stroke="black"/> 
+  <line x1="531.792" y1="336.364" x2="531.792" y2="428.364" stroke="black"/> 
+  <line x1="822.501" y1="335.849" x2="822.501" y2="427.849" stroke="black"/> 
+  <line x1="1582.52" y1="335.849" x2="1582.52" y2="427.849" stroke="black"/> 
+  <image x="137.682" y="773.727" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="137.682" y="800.727" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="137.682" y="828.06" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.713" y="343.939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.713" y="370.939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="136.713" y="398.272" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CF001C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF001C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="339.818" y="354.606" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAA10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="339.819" y="787.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="321.894" y1="767.182" x2="321.894" y2="859.182" stroke="black"/> 
+  <line x1="531.792" y1="767.697" x2="531.792" y2="859.697" stroke="black"/> 
+  <line x1="822.501" y1="767.697" x2="822.501" y2="859.697" stroke="black"/> 
+  <line x1="1582.52" y1="767.182" x2="1582.52" y2="860.182" stroke="black"/> 
+  <line x1="1050" y1="452.5" x2="1050" y2="545.333" stroke="black"/> 
+  <text x="556" y="369.5" fill="black" font-size="15">F НАПОР ПЭН 2 &gt; 2100 M3/Ч<tspan x="556" dy="15">(выдержка времени 300 с) ИЛИ</tspan>
+<tspan x="556" dy="15">F НАПОР ПЭН 2 &gt; 2250 M3/Ч</tspan>
+<tspan x="556" dy="15">(выдержка времени 120 с)</tspan>
+  </text>
+  <text x="557" y="584.5" fill="black" font-size="15">P НАПОР ПЭН &lt; 8 МПа<tspan x="557" dy="15">(выдержка времени 300 с) ИЛИ</tspan>
+<tspan x="557" dy="15">P НАПОР ПЭН &lt; 7,7 МПа</tspan>
+<tspan x="557" dy="15">(выдержка времени 120 с)</tspan>
+<tspan x="557" dy="15">P НАПОР ПЭН &lt; 7 МПа</tspan>
+<tspan x="557" dy="15">(выдержка времени 3 с)</tspan>
+  </text>
+</svg>

@@ -1,0 +1,231 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="00kpa30ec003_m43-48" stroke-width="3" font-size="15" font-weight="bold">
+  <title>ПУ процессом загрузки НЗК</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod pvd_fgu" revision="2.0"/> 
+  <polyline points="1330.45,770.731 1330.45,873.731 1553.45,873.731" fill="none" stroke="black"/> 
+  <polyline points="553.146,505.122 466.146,505.122 466.146,825.122" fill="none" stroke="black"/> 
+  <polyline points="423.146,96 554.146,96 554.146,505 1325.15,505 1325.15,611 1254.15,611 1254.15,935.122" fill="none" stroke="black"/> 
+  <text x="1339.93" y="840.162" font-size="16">00KPA30EE421</text>
+  <text x="1339.93" y="869.991" font-size="16">00KPA30EE422</text>
+  <polyline points="1412.87,518.194 1412.87,602.194 1635.99,602.255" fill="none" stroke="black"/> 
+  <text x="560.537" y="744.041" font-size="16">00KPA30EE411</text>
+  <text x="560.537" y="773.309" font-size="16">00KPA30EE412</text>
+  <polyline points="639.964,410.61 639.964,494.61 863.085,494.671" fill="none" stroke="black"/> 
+  <polyline points="640.28,263.732 640.28,347.732 863.401,347.793" fill="none" stroke="black"/> 
+  <polyline points="640.475,109.268 640.475,193.268 863.596,193.329" fill="none" stroke="black"/> 
+  <text x="957" y="39" fill-opacity="1" font-size="26" text-anchor="middle">ПУ процессом загрузки НЗК</text>
+  <text x="12.6063" y="33.197" fill="black" font-size="18" font-weight="bold">00KPA30EC003</text>
+  <image x="1700" y="18" width="50" height="25" xlink:href="DS_ana.svg">
+    <title>00KPA30EC003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00KPA30EC003&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="DecPointNum" mode="constant" value="0"/> 
+  </image>
+  <text x="1500" y="35" font-size="16">Номер текущего шага:</text>
+  <polyline points="552.305,675.293 552.305,778.293 775.305,778.293" fill="none" stroke="black"/> 
+  <line x1="775.305" y1="751.183" x2="551.495" y2="751.183" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1636.27" y1="329.268" x2="1636.27" y2="329.268" stroke="black"/> 
+  <image x="353.317" y="81.3659" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;Из шага 42&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00kpa30ec003_m36-42&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <g>
+    <rect x="534.398" y="346.525" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="545.818" y="378.858" font-size="28">&amp;</text>
+  </g>
+  <rect x="513.902" y="104.671" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="663.902" y1="134.671" x2="513.902" y2="134.671" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="523.902" y="124.671" fill="black" font-size="18" font-weight="700">ШАГ 43</text>
+  <text x="523.902" y="152.671" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="653.902" y="152.671" font-size="16" text-anchor="end">0 с</text>
+  <image x="628.902" y="106.671" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS43</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS43&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="648.732" y="186.317" font-size="16">00KPA30AE103 ВНИЗ(ОТКР)</text>
+  <line x1="554.926" y1="181.744" x2="504.926" y2="181.744" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="493.829" y="169.244" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30AE103_XG07</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30AE103_XG07&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="481.146" y="186.744" text-anchor="end">00KPA30AE103 ИСХ ПОЛОЖ</text>
+  <rect x="512.927" y="257.256" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="662.926" y1="287.256" x2="512.927" y2="287.256" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="522.926" y="277.256" fill="black" font-size="18" font-weight="700">ШАГ 44</text>
+  <text x="522.926" y="305.256" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="652.926" y="305.256" font-size="16" text-anchor="end">0 с</text>
+  <image x="627.926" y="259.256" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS44</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS44&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="647.414" y="338.683" font-size="16">00KPA30AE102 ВЛЕВО(ОТКР)</text>
+  <line x1="555.365" y1="333.268" x2="505.365" y2="333.268" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="492.829" y="321.268" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30AE102_XG07</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30AE102_XG07&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="480.146" y="340.268" text-anchor="end">00KPA30AE102 ИСХ ПОЛОЖ</text>
+  <g>
+    <rect x="534.085" y="197.476" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="545.505" y="229.809" font-size="28">&amp;</text>
+  </g>
+  <rect x="513.402" y="406.915" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="662.402" y1="436.915" x2="512.402" y2="436.915" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="522.402" y="426.915" fill="black" font-size="18" font-weight="700">ШАГ 45</text>
+  <text x="522.402" y="454.915" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="652.402" y="454.915" font-size="16" text-anchor="end">2 с</text>
+  <image x="627.402" y="408.915" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS45</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS45&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="646.402" y="485.915" font-size="16">Проверка условий</text>
+  <rect x="446.085" y="564.866" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="457.5" y="597.2" font-size="28">&amp;</text>
+  <line x1="467.146" y1="550.488" x2="417.146" y2="550.488" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="409.329" y="538.488" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE410_ZV13</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE410_ZV13&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="396.146" y="556.488" text-anchor="end">00KPA30EE410 СРАБ</text>
+  <line x1="467.146" y1="521.488" x2="417.146" y2="521.488" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="409.329" y="509.488" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE411_ZV02</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE411_ZV02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="396.146" y="527.488" text-anchor="end">00KPA30EE411 &lt;=1 КГ</text>
+  <rect x="424.049" y="628.72" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="574.049" y1="658.72" x2="424.049" y2="658.72" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="434.049" y="648.72" fill="black" font-size="18" font-weight="700">ШАГ 46</text>
+  <text x="434.049" y="676.72" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="564.049" y="676.72" font-size="16" text-anchor="end">0 с</text>
+  <image x="539.049" y="630.72" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS46</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS46&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="418.293" y="823.134" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;В шаг 77&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00kpa30ec003_m77-81&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <line x1="466.731" y1="735.756" x2="416.731" y2="735.756" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="409.329" y="723.756" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE412_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE412_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="395.146" y="741.756" text-anchor="end">00KPA30EE412 &gt;190 ММ</text>
+  <line x1="466.731" y1="707.756" x2="416.731" y2="707.756" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="409.329" y="695.756" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE411_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE411_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="395.146" y="713.756" text-anchor="end">00KPA30EE411 &gt;1 КГ</text>
+  <g>
+    <rect x="445.293" y="761.891" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="456.708" y="794.224" font-size="28">&amp;</text>
+  </g>
+  <rect x="1285.87" y="517.5" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1435.87" y1="547.499" x2="1285.87" y2="547.499" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1295.87" y="537.499" fill="black" font-size="18" font-weight="700">ШАГ 47</text>
+  <text x="1295.87" y="565.499" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1425.87" y="565.499" font-size="16" text-anchor="end">2 с</text>
+  <image x="1400.87" y="519.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS47</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS47&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1420.87" y="594.499" font-size="16">Проверка условий</text>
+  <rect x="1232.99" y="666.987" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1244.4" y="699.32" font-size="28">&amp;</text>
+  <line x1="1255.19" y1="652.072" x2="1205.19" y2="652.072" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1196.2" y="640.072" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE420_ZV13</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE420_ZV13&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1182.19" y="658.072" text-anchor="end">00KPA30EE420 СРАБ</text>
+  <line x1="1255.19" y1="623.072" x2="1205.19" y2="623.072" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1196.2" y="611.072" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE421_ZV02</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE421_ZV02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1182.19" y="629.072" text-anchor="end">00KPA30EE421 &lt;=1 КГ</text>
+  <rect x="1204.98" y="727.377" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1354.98" y1="758.377" x2="1204.98" y2="758.377" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1214.98" y="748.377" fill="black" font-size="18" font-weight="700">ШАГ 48</text>
+  <text x="1214.98" y="776.377" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1344.98" y="776.377" font-size="16" text-anchor="end">0 с</text>
+  <image x="1319.98" y="730.377" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EC003_XS48</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EC003_XS48&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="1207.9" y="936.328" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;В шаг 78&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00kpa30ec003_m77-81&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <line x1="1255.22" y1="840.828" x2="1205.22" y2="840.828" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1196.21" y="828.828" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE422_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE422_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1182.19" y="846.828" text-anchor="end">00KPA30EE422 &gt;190 ММ</text>
+  <line x1="1255.22" y1="811.828" x2="1205.22" y2="811.828" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1196.21" y="799.828" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00KPA30EE421_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;00KPA30EE421_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="1182.19" y="817.828" text-anchor="end">00KPA30EE421 &gt;1 КГ</text>
+  <g>
+    <rect x="1231.79" y="867.279" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="1243.21" y="899.613" font-size="28">&amp;</text>
+  </g>
+  <polyline points="1324,611 1761.78,611 1761.78,663.316" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="1709.1" y="650.536" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" value="&quot;В шаг 49&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00kpa30ec003_m49-54&quot;)</rt:event>
+    <rt:dyn type="T_Size" value="18" mode="constant"/> 
+  </image>
+  <text x="561.902" y="707.162" font-size="16">Запомнить вес и высоту<tspan x="561.902" dy="16">брикета №1 в НЗК</tspan>
+  </text>
+  <text x="485.707" y="525.772" font-size="16" font-style="italic" font-weight="normal">статус места №1 в НЗК</text>
+  <text x="466.756" y="498.781" font-size="16" font-style="italic" font-weight="normal">свободно</text>
+  <text x="560.659" y="499.236" font-size="16" font-style="italic" font-weight="normal">занято</text>
+  <text x="1282.61" y="630.407" font-size="16" font-style="italic" font-weight="normal">статус места №2 в НЗК</text>
+  <text x="1242.37" y="603.659" font-size="16" font-style="italic" font-weight="normal">свободно</text>
+  <text x="1336.27" y="604.114" font-size="16" font-style="italic" font-weight="normal">занято</text>
+  <line x1="1553.45" y1="846.621" x2="1329.64" y2="846.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1340.05" y="802.6" font-size="16">Запомнить вес и высоту<tspan x="1340.05" dy="16">брикета №2 в НЗК</tspan>
+  </text>
+</svg>

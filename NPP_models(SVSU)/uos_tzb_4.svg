@@ -1,0 +1,189 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="uos_tzb_4">
+  <title>Блокировки насоса 20KPN82AP004</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_rao&#10;LMod uos_tzb_3&#10;RMod uos_tzb_1" revision="3"/> 
+  <rect x="75" y="75" width="1550" height="800" rx="3" ry="2" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="34" y="19.9394" font-size="15" font-weight="700">UOS_TZB_4</text>
+  <text x="379.581" y="107.591" fill="black" font-size="15">Входные условия</text>
+  <text x="100.728" y="97.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1275" y="113" fill="black" font-size="15" text-anchor="middle">Блокировка сработала</text>
+  <text x="825" y="109" fill="black" font-size="15" text-anchor="middle">Сигнал  сработал</text>
+  <line x1="1000" y1="125" x2="1000" y2="75" stroke="black"/> 
+  <line x1="125" y1="150" x2="1625" y2="150" stroke="black"/> 
+  <text x="133.608" y="144.333" fill="black" font-size="15" font-weight="700">20KPN82EE147  Давление на напоре или всасе насоса 20KPN82AP004</text>
+  <text x="97.5" y="144.5" fill="black" font-size="15">1</text>
+  <rect x="75" y="125" width="1550" height="300" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="78" x2="125" y2="875" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <image x="775" y="175" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CP011_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CP011_XH13&quot;"/> 
+  </image>
+  <line x1="1000" y1="150" x2="1000" y2="275" stroke="black"/> 
+  <line x1="700" y1="125" x2="700" y2="75" stroke="black"/> 
+  <image x="1725" y="800" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_1&quot;)</rt:event>
+  </image>
+  <text x="441" y="250" fill="black" font-size="15">НАПОР</text>
+  <text x="935" y="31" fill="black" font-size="30" font-weight="700" text-anchor="middle">Блокировки насоса 20KPN82AP004</text>
+  <image x="164" y="166" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>20KPN82AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="206" y="250" font-size="15" text-anchor="middle">20KPN82AP004</text>
+  <image x="500" y="225" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN82CP010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN82CP010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="500" y="175" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN82CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN82CP011&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="869" y="193" font-size="15" text-anchor="middle">P&gt; 0,9 МПА</text>
+  <image x="776" y="226" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CP010_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CP010_XH13&quot;"/> 
+  </image>
+  <text x="870" y="244" font-size="15" text-anchor="middle">P&gt; 0,9 МПА</text>
+  <text x="450" y="192.5" fill="black" font-size="15">ВСАС</text>
+  <image x="1200" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE147_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE147_ZV01&quot;"/> 
+  </image>
+  <image x="1300" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE147_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE147_ZV02&quot;"/> 
+  </image>
+  <line x1="125" y1="300" x2="1625" y2="300" stroke="black"/> 
+  <text x="137" y="293" fill="black" font-size="15" font-weight="700">20KPN82EE155  Уровень протечек во всасывающем патрубке насоса 20KPN82AP004</text>
+  <text x="93" y="292.5" fill="black" font-size="15">2</text>
+  <line x1="700" y1="150" x2="700" y2="275" stroke="black"/> 
+  <line x1="125" y1="450" x2="1625" y2="450" stroke="black"/> 
+  <text x="94" y="444.5" fill="black" font-size="15">3</text>
+  <line x1="75" y1="575" x2="1625" y2="575" stroke="black"/> 
+  <line x1="125" y1="600" x2="1625" y2="600" stroke="black"/> 
+  <image x="303" y="159" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 0 -9.99994)">
+    <title>&quot;20KPN82AA067&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AA067&quot;"/> 
+  </image>
+  <text x="342" y="234" font-size="15" text-anchor="middle">20KPN82<tspan x="342" dy="15">AA067</tspan>
+  </text>
+  <line x1="75" y1="275" x2="1625" y2="275" stroke="black"/> 
+  <image x="1201" y="349" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE155_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE155_ZV01&quot;"/> 
+  </image>
+  <line x1="700" y1="300" x2="700" y2="425" stroke="black"/> 
+  <line x1="1000" y1="300" x2="1000" y2="425" stroke="black"/> 
+  <text x="138" y="443.5" fill="black" font-size="15" font-weight="700">20KPN82EE156  Уровень протечек в нагнетающем патрубке насоса 20KPN82AP004</text>
+  <line x1="700" y1="450" x2="700" y2="575" stroke="black"/> 
+  <line x1="1000" y1="450" x2="1000" y2="575" stroke="black"/> 
+  <line x1="700" y1="600" x2="700" y2="725" stroke="black"/> 
+  <line x1="1000" y1="600" x2="1000" y2="725" stroke="black"/> 
+  <image x="1725" y="850" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="165.5" y="316" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>20KPN82AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="207.5" y="400" font-size="15" text-anchor="middle">20KPN82AP004</text>
+  <image x="777" y="350" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CL041_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CL041_XG11&quot;"/> 
+  </image>
+  <text x="850" y="369" font-size="15" text-anchor="middle">L&gt; 0.24 м</text>
+  <image x="164.5" y="466" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>20KPN82AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="206.5" y="550" font-size="15" text-anchor="middle">20KPN82AP004</text>
+  <image x="776" y="503" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CL042_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CL042_XG15&quot;"/> 
+  </image>
+  <text x="850" y="525" font-size="15" text-anchor="middle">L&gt; 0.8 м</text>
+  <image x="1200" y="500" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE156_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE156_ZV01&quot;"/> 
+  </image>
+  <text x="136" y="593" fill="black" font-size="15" font-weight="700">20KPN82EE157  Уровень протечек в подшипниковом узле насоса 20KPN82AP004</text>
+  <image x="165.5" y="615" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>20KPN82AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="207.5" y="699" font-size="15" text-anchor="middle">20KPN82AP004</text>
+  <image x="775" y="649" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CL043_XG13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CL043_XG13&quot;"/> 
+  </image>
+  <text x="849" y="671" font-size="15" text-anchor="middle">L&gt; 0.52 м</text>
+  <image x="1200" y="650" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE157_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE157_ZV01&quot;"/> 
+  </image>
+  <line x1="75" y1="725" x2="1625" y2="725" stroke="black"/> 
+  <text x="95" y="591.5" fill="black" font-size="15">4</text>
+  <text x="95" y="750" fill="black" font-size="15">5</text>
+  <text x="134" y="742.5" fill="black" font-size="15" font-weight="700">20KPN82EE163  Давление глицерина в насосе 20KPN82AP004</text>
+  <image x="774" y="752" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CP043_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CP043_XH60&quot;"/> 
+  </image>
+  <text x="857.5" y="770.5" font-size="15" text-anchor="middle">P&lt; 0,5 кПа</text>
+  <image x="775" y="802" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82CP043_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82CP043_XH11&quot;"/> 
+  </image>
+  <text x="857.5" y="819" font-size="15" text-anchor="middle">P&gt; 4,28 кПа</text>
+  <image x="1200" y="775" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN82EE163_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN82EE163_ZV01&quot;"/> 
+  </image>
+  <image x="165.5" y="766" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>20KPN82AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN82AP004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="207.5" y="850" font-size="15" text-anchor="middle">20KPN82AP004</text>
+  <image x="500" y="775" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN82CP043&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN82CP043&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Pгл&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1725" y="900" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_3&quot;)</rt:event>
+  </image>
+  <line x1="125" y1="750" x2="1625" y2="750" stroke="black"/> 
+  <line x1="700" y1="750" x2="700" y2="875" stroke="black"/> 
+  <line x1="1000" y1="750" x2="1000" y2="875" stroke="black"/> 
+</svg>

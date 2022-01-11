@@ -1,0 +1,282 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:/RTS/\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kba10" stroke="black" font-size="15" font-weight="700">
+  <title>Обвязка деаэратора</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_nsb&#10;LMod kba00&#10;RMod kba31&#10;RASU"/> 
+  <line x1="920.667" y1="219.334" x2="922.151" y2="96.1514" stroke="black" stroke-width="3"/> 
+  <line x1="608.515" y1="219.334" x2="610" y2="96.1516" stroke="black" stroke-width="3"/> 
+  <line x1="903.954" y1="934.744" x2="904.042" y2="824.244" stroke="black" stroke-width="3"/> 
+  <line x1="610" y1="894" x2="610" y2="824" stroke="black" stroke-width="3"/> 
+  <line x1="312" y1="542.5" x2="425" y2="542.667" stroke="black" stroke-width="3"/> 
+  <g transform="scale(1 1.05 769.121 500.758) scale(0.919999 0.92 767.606 481.818) scale(2.25 2.25 756.242 512.121) scale(2.58 2.58 1160.03 253.03)">
+    <g transform="scale(1 1.22 255.485 940.909) rotate(90 400.939 966.667) rotate(90 250.939 383.333) scale(0.699995 0.329993 493.364 340.152)">
+      <circle cx="117.755" cy="1458.45" r="48.4848" fill="Col_Grey4" stroke="black"/> 
+      <circle cx="117.637" cy="1660.6" r="48.4848" fill="Col_Grey4" stroke="black"/> 
+      <rect x="69.0546" y="1456.45" width="96.9697" height="207.758" rx="0" ry="0" fill="Col_Grey4"/> 
+      <line x1="68.9797" y1="1454.77" x2="68.9797" y2="1663.77" stroke="black"/> 
+      <line x1="166.015" y1="1451.59" x2="166.015" y2="1664.59" stroke="black"/> 
+    </g>
+    <g transform="scale(1.6 1 255.485 959.091) rotate(90 250.939 383.333) scale(0.699995 0.329993 493.364 340.152)">
+      <circle cx="140.626" cy="-1064.55" r="48.4848" fill="Col_Grey4" stroke="black"/> 
+      <circle cx="140.776" cy="-863.459" r="48.4848" fill="Col_Grey4" stroke="black"/> 
+      <line x1="189.151" y1="-1066.94" x2="189.151" y2="-860.186" stroke="black"/> 
+      <rect x="92.9072" y="-1065.52" width="95.4798" height="204.981" rx="0" ry="0" fill="Col_Grey4" stroke="Col_Grey4"/> 
+    </g>
+  </g>
+  <text x="957" y="26" font-size="30" text-anchor="middle">Обвязка деаэратора</text>
+  <rect x="1851.09" y="125.546" width="0" height="0" rx="0" ry="0"/> 
+  <rect x="1861.24" y="333.697" width="0" height="0" rx="0" ry="0"/> 
+  <rect x="1851.39" y="810.849" width="0" height="0" rx="0" ry="0"/> 
+  <line x1="1416.67" y1="525" x2="1769" y2="525" stroke="black" stroke-width="3"/> 
+  <line x1="1417.83" y1="678" x2="1417.83" y2="524" stroke="black" stroke-width="3"/> 
+  <text x="1443" y="559" fill="black" font-size="15">20KBA70<tspan x="1443" dy="15">AA001</tspan>
+  </text>
+  <line x1="1742" y1="908.5" x2="1742" y2="775" stroke="black"/> 
+  <line x1="1426" y1="908.333" x2="1742.5" y2="908.5" stroke="black"/> 
+  <image x="1442.4" y="482.548" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBA70AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBA70AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1235" y="568" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBA70CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA70CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1560" y="482.5" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+    <title>&quot;20KBA70AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBA70AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="NoSP" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1563.33" y="455.667" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20KBA70AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBA70AA201&quot;"/> 
+  </image>
+  <image x="1671" y="482.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <line x1="834" y1="675" x2="1419.58" y2="678.288" stroke="black" stroke-width="3"/> 
+  <line x1="835" y1="775" x2="1773.03" y2="775" stroke="black" stroke-width="3"/> 
+  <image x="1443" y="733" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <g>
+    <polyline points="1534,775 1584,725 1609,750 1559,800 1534,775" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+    <polyline points="1559,800 1609,750 1634,775 1584,825 1559,800" fill="Col_Grey4" stroke="black" stroke-width="1"/> 
+  </g>
+  <image x="1656.36" y="733.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1560.67" y="559" fill="black" font-size="15">20KBA70<tspan x="1560.67" dy="15">AA201</tspan>
+  </text>
+  <text x="1671" y="558" fill="black" font-size="15">20KBA70<tspan x="1671" dy="15">AA101</tspan>
+  </text>
+  <text x="1444.33" y="809.666" fill="black" font-size="15">20KBA70<tspan x="1444.33" dy="15">AA103</tspan>
+  </text>
+  <text x="1655.33" y="810.667" fill="black" font-size="15">20KBA70<tspan x="1655.33" dy="15">AA102</tspan>
+  </text>
+  <text x="1557.67" y="698.333" fill="black" font-size="15">20KBA70<tspan x="1557.67" dy="15">AA401</tspan>
+  </text>
+  <line x1="1426.25" y1="908.75" x2="1426" y2="774" stroke="black"/> 
+  <image x="1550.33" y="865.666" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1550.75" y="942.25" fill="black" font-size="15">20KBA70<tspan x="1550.75" dy="15">AA104</tspan>
+  </text>
+  <image x="1235" y="609.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBA70CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA70CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1305.35" y1="499.454" x2="1305.35" y2="345.454" stroke="black" stroke-width="3"/> 
+  <line x1="1303.88" y1="500" x2="1434" y2="500" stroke="black" stroke-width="3"/> 
+  <line x1="1384" y1="500" x2="1384" y2="415.151" stroke="black" stroke-width="3"/> 
+  <line x1="1433.03" y1="500" x2="1433.03" y2="525" stroke="black" stroke-width="3"/> 
+  <line x1="1222.03" y1="344" x2="1306.94" y2="344" stroke="black" stroke-width="3"/> 
+  <line x1="1220.5" y1="342.5" x2="1221" y2="398" stroke="black" stroke-width="3"/> 
+  <polygon points="1210,396 1221,411 1231,396"/> 
+  <line x1="1383" y1="410.5" x2="1306.5" y2="410" stroke="black" stroke-width="1"/> 
+  <image x="1348" y="368.636" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24988)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+  </image>
+  <image x="1260" y="375" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10.0001)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <line x1="984" y1="725" x2="834" y2="775" stroke="black" stroke-width="3"/> 
+  <line x1="984" y1="725.88" x2="834" y2="775.88" stroke="black" stroke-width="3" transform="flipY(725)"/> 
+  <image x="921.848" y="499.788" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20KBA10CP903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="424.5" y1="600.25" x2="1124" y2="600" stroke="black"/> 
+  <image x="773.849" y="572.444" width="42.4246" height="240" xlink:href="DS_ana_bar.svg">
+    <title>&quot;20KBA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CL902&quot;"/> 
+  </image>
+  <line x1="120.333" y1="190.833" x2="311.833" y2="190.833" stroke="black" stroke-width="3"/> 
+  <line x1="121.168" y1="96.1658" x2="608.5" y2="96.1658" stroke="black" stroke-width="3"/> 
+  <line x1="768.697" y1="160" x2="768.697" y2="70" stroke="black" stroke-width="3"/> 
+  <line x1="923.168" y1="97.4992" x2="1759" y2="97.4992" stroke="black" stroke-width="3"/> 
+  <image x="1300.33" y="58.3332" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBA60CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA60CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="723.667" y="80.3333" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10.0001)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <line x1="767.333" y1="70.8335" x2="897.453" y2="70.8335" stroke="black" stroke-width="3"/> 
+  <text x="652" y="107.5" fill="black" font-size="15">20KBA10<tspan x="652" dy="15">AA102</tspan>
+  </text>
+  <line x1="311.833" y1="543.333" x2="311.833" y2="190.833" stroke="black" stroke-width="3"/> 
+  <line x1="74" y1="892" x2="611.588" y2="892" stroke="black" stroke-width="3"/> 
+  <image x="330.273" y="849.939" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="330.243" y="928.273" fill="black" font-size="15">20KBA10<tspan x="330.243" dy="15">AA103</tspan>
+  </text>
+  <text x="692" y="386.25" font-size="18">20KBA10BB001</text>
+  <text x="900.939" y="994.394" fill="black" font-size="15" text-anchor="middle">KBA00</text>
+  <text x="71.6062" y="994.394" fill="black" font-size="15" text-anchor="middle">KBB</text>
+  <polyline points="525,550 525,850 300,850 300,875 200,875 200,450 75,450 74,917" fill="none" stroke="black"/> 
+  <g>
+    <line x1="490.25" y1="535.25" x2="525" y2="550" stroke="black"/> 
+    <line x1="450.25" y1="535" x2="491.25" y2="535" stroke="black"/> 
+  </g>
+  <g transform="flipX(490.223)">
+    <line x1="420.696" y1="535.25" x2="455.446" y2="550" stroke="black"/> 
+    <line x1="380.696" y1="535" x2="421.696" y2="535" stroke="black"/> 
+  </g>
+  <image x="914.576" y="857.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBA20CQ001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA20CQ001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1310.25" y="457.5" fill="black" font-size="15">20KBA70<tspan x="1310.25" dy="15">AA901</tspan>
+  </text>
+  <image x="727.03" y="532.444" width="42.4246" height="280" xlink:href="DS_ana_bar.svg">
+    <title>&quot;20KBA10CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CL901&quot;"/> 
+  </image>
+  <line x1="809.121" y1="630.227" x2="860.634" y2="630.227" stroke="black"/> 
+  <image x="829.576" y="615.091" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20KBA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="684.758" y1="635.833" x2="736.271" y2="635.833" stroke="black"/> 
+  <image x="535.697" y="620.696" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20KBA10CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <line x1="475" y1="463" x2="583.002" y2="462.667" stroke="black" stroke-width="3"/> 
+  <line x1="943.002" y1="462.5" x2="1057" y2="462" stroke="black" stroke-width="3"/> 
+  <image x="53.2879" y="81.8182" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBA00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kba00&quot;"/> 
+  </image>
+  <image x="53.2879" y="177.273" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPL&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpl&quot;"/> 
+  </image>
+  <image x="855.818" y="57.5757" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPL&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpl&quot;"/> 
+  </image>
+  <image x="1772.98" y="760.606" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCM&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;"/> 
+  </image>
+  <image x="1772.98" y="513.636" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBG10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lbg10&quot;"/> 
+  </image>
+  <image x="1751.98" y="86.9091" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBA00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kba00&quot;"/> 
+  </image>
+  <image x="865.364" y="927.396" width="75" height="25" xlink:href="obj_link.svg" transform="flipY(12.6382) rotate(270 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kba00&quot;"/> 
+  </image>
+  <image x="35.0303" y="927.396" width="75" height="25" xlink:href="obj_link.svg" transform="flipY(12.6382) rotate(270 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbb&quot;"/> 
+  </image>
+  <image x="1621.5" y="246.5" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;20KBA10CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBA10CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="922.848" y="535.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBA10CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBA10CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="477" y1="849.014" x2="477" y2="892" stroke="black" stroke-width="1"/> 
+  <text x="315.125" y="846.25" fill="black" font-size="15" text-anchor="middle">+13.7</text>
+  <text x="559.5" y="835.5" fill="black" font-size="15" text-anchor="middle">+13.2</text>
+  <text x="1083" y="591" fill="black" font-size="15" text-anchor="middle">+16.2</text>
+  <text x="579.5" y="525.5" fill="black" font-size="15" text-anchor="middle">+16.7</text>
+  <text x="158.5" y="439.5" fill="black" font-size="15" text-anchor="middle">+18.7</text>
+  <text x="10" y="22" fill="black" font-size="15">kba10</text>
+  <text x="1538" y="235" fill="black" font-size="15">Постановка ДП в паровой режим</text>
+</svg>

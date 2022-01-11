@@ -1,0 +1,220 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lbg40_60">
+  <title>Система подачи пара на ТФУ и УПТ</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_nsb&#10;LMod lbg20&#10;RMod lbj" revision="3"/> 
+  <line x1="1106.67" y1="192" x2="1106.67" y2="192" stroke="black"/> 
+  <line x1="378.212" y1="484.849" x2="378.212" y2="484.849" stroke="black"/> 
+  <line x1="275" y1="323.5" x2="1284" y2="325" stroke="black" stroke-width="3"/> 
+  <line x1="1283.5" y1="323.5" x2="1283.5" y2="467.25" stroke="black" stroke-width="3"/> 
+  <text x="916.5" y="359.5" font-size="15">20LBG40AA001</text>
+  <g transform="flipY(125) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="567.369,128.775 580.749,136.425 580.749,121.135 567.369,128.775" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1046" y="293" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG40CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG40CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1046" y="328.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG40CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="933.75" y="302" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(1.7949e-005) rotate(90 0 0) flipX(-10) rotate(90 0 0) flipX() flipX(-3.61135e-006)">
+    <title>&quot;20LBG40AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBG40AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1240.25" y="487.25" font-size="15">Пар в ПСВ-3</text>
+  <line x1="849.313" y1="323.105" x2="850.673" y2="248.5" stroke="black" stroke-width="1"/> 
+  <line x1="793.75" y1="244" x2="843.75" y2="244" stroke="black" stroke-width="1"/> 
+  <line x1="793" y1="132.25" x2="793" y2="244.376" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="914.098,618.28 927.478,625.93 927.478,610.64 914.098,618.28" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="815.463" y="200.869" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.25007) flipX(6.24994) flipX(6.24999)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+  </image>
+  <text x="854.283" y="289.258" font-size="15">20LBG40<tspan x="854.283" dy="15">AA903</tspan>
+  </text>
+  <image x="683.75" y="151.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG40CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG40CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="276.056" y1="132" x2="276.056" y2="323.954" stroke="black" stroke-width="3"/> 
+  <text x="260.556" y="54.25" font-size="15">LBA</text>
+  <image x="238.556" y="86" width="75" height="25" xlink:href="obj_link.svg" transform="flipY(12.6382) flipY(12.6383) flipY(12.6382) rotate(270 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lca20&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lba&quot;"/> 
+  </image>
+  <text x="150.75" y="271.75" fill="black" font-size="15">20LBF30AA201</text>
+  <image x="230.75" y="190.75" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10.0001) rotate(270 -3.05176e-005 -10.0001) flipX(1.30437e-005)">
+    <title>&quot;20LBF30AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBF30AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="205.5" y="159.5" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20LBF30AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBF30AA201&quot;"/> 
+  </image>
+  <line x1="275" y1="485" x2="275" y2="675" stroke="black" stroke-width="3"/> 
+  <line x1="276.25" y1="675" x2="1466.25" y2="675" stroke="black" stroke-width="3"/> 
+  <text x="914.5" y="708.5" font-size="15">20LBG60AA001</text>
+  <image x="1046" y="645.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG60CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG60CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1046" y="679.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG60CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG60CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="933.75" y="652.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(1.7949e-005) rotate(90 0 0) flipX(-10) rotate(90 0 0) flipX() flipX(-3.61135e-006)">
+    <title>&quot;20LBG60AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBG60AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g transform="rotate(270 1449.5 513.125) flipY(125) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="510.244,123.8 523.624,131.45 523.624,116.16 510.244,123.8" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="1482" y="681" font-size="15">Установка подпитки теплосети</text>
+  <text x="261.556" y="414.75" font-size="15">LBA</text>
+  <image x="237.556" y="446.5" width="75" height="25" xlink:href="obj_link.svg" transform="flipY(12.6382) flipY(12.6383) flipY(12.6382) rotate(270 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lca20&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lba&quot;"/> 
+  </image>
+  <text x="152.75" y="626.25" fill="black" font-size="15">20LBF60AA201</text>
+  <image x="230" y="545" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10.0001) rotate(270 -3.05176e-005 -10.0001) flipX(1.30437e-005)">
+    <title>&quot;20LBF60AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBF60AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="203.5" y="515" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20LBF60AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBF60AA201&quot;"/> 
+  </image>
+  <line x1="481.813" y1="323.105" x2="483.173" y2="248.5" stroke="black" stroke-width="1"/> 
+  <line x1="426.25" y1="244" x2="476.25" y2="244" stroke="black" stroke-width="1"/> 
+  <line x1="425.5" y1="132.25" x2="425.5" y2="244.376" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="914.102,985.53 927.482,993.18 927.482,977.89 914.102,985.53" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="447.963" y="200.869" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.25007) flipX(6.24994) flipX(6.24999)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+  </image>
+  <text x="486.783" y="289.258" font-size="15">20LBG40<tspan x="486.783" dy="15">AA901</tspan>
+  </text>
+  <image x="316.25" y="151.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG40CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG40CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="485" y1="675" x2="485" y2="601" stroke="black" stroke-width="1"/> 
+  <line x1="425" y1="595" x2="477" y2="595" stroke="black" stroke-width="1"/> 
+  <line x1="425" y1="485" x2="425" y2="595" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="1273.51,986.425 1286.89,994.075 1286.89,978.785 1273.51,986.425" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="450" y="552.5" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.25007) flipX(6.24994) flipX(6.24999)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+  </image>
+  <text x="486.783" y="641.758" font-size="15">20LBG60<tspan x="486.783" dy="15">AA901</tspan>
+  </text>
+  <image x="316.25" y="503.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG60CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG60CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="665.813" y1="323.105" x2="667.173" y2="248.5" stroke="black" stroke-width="1"/> 
+  <line x1="610.25" y1="244" x2="660.25" y2="244" stroke="black" stroke-width="1"/> 
+  <line x1="609.5" y1="132.25" x2="609.5" y2="244.376" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="914.098,801.78 927.478,809.43 927.478,794.14 914.098,801.78" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="631.963" y="200.869" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.25007) flipX(6.24994) flipX(6.24999)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+  </image>
+  <text x="670.783" y="289.258" font-size="15">20LBG40<tspan x="670.783" dy="15">AA902</tspan>
+  </text>
+  <image x="500.25" y="151.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBG40CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG40CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <line x1="775" y1="675" x2="775" y2="942.75" stroke="black" stroke-width="3"/> 
+    <text x="615.5" y="751.231" font-size="15">20LBG62AA001</text>
+    <image x="720" y="740" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-20) flipX(9.99996) rotate(90 0 0) flipX(-3.61135e-006)">
+      <title>&quot;20LBG62AA001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBG62AA001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <g transform="flipY(964.375) flipY(125) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="50.2946,636.268 63.675,643.918 63.675,628.628 50.2946,636.268" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+    <text x="728" y="961.625" font-size="15">Пар из отбора 2</text>
+    <text x="617" y="867.75" fill="black" font-size="15">20LBG62AA201</text>
+    <image x="730" y="827.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 -3.05176e-005 -10.0001) flipX(1.30437e-005)">
+      <title>&quot;20LBG62AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBG62AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <image x="705.25" y="798.75" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBG62AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBG62AA201&quot;"/> 
+    </image>
+  </g>
+  <text x="957" y="39" font-size="30" font-weight="700" text-anchor="middle">Система подачи пара на ТФУ и УПТ</text>
+  <text x="13" y="25.5" font-size="15" font-weight="700">LBG40_60</text>
+</svg>

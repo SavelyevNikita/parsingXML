@@ -1,0 +1,609 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="mxn">
+  <title>Система маслоснабжения регулирования БРУ-К</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_nsb&#10;LMod mvl&#10;RMod paa" revision="3"/> 
+  <rect x="800" y="753" width="250" height="124" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <line x1="1008.52" y1="250.507" x2="1213.25" y2="250.5" stroke="black" stroke-width="1"/> 
+  <line x1="715" y1="250.5" x2="920" y2="250.5" stroke="black" stroke-width="1"/> 
+  <text x="6.66656" y="276.672" font-size="15">20MAN11<tspan x="6.66656" dy="15">AA201</tspan>
+  </text>
+  <text x="155" y="276.672" font-size="15">20MAN12<tspan x="155" dy="15">AA201</tspan>
+  </text>
+  <line x1="99.5" y1="414" x2="1815.75" y2="414" stroke="black" stroke-width="3"/> 
+  <text x="302.304" y="276.672" font-size="15">20MAN21<tspan x="302.304" dy="15">AA201</tspan>
+  </text>
+  <text x="448.637" y="276.672" font-size="15">20MAN22<tspan x="448.637" dy="15">AA201</tspan>
+  </text>
+  <line x1="1233.75" y1="413" x2="1234" y2="829.5" stroke="black" stroke-width="3"/> 
+  <line x1="1494.67" y1="541.333" x2="1494.88" y2="862.333" stroke="black" stroke-width="3"/> 
+  <text x="1378.67" y="276.678" font-size="15">20MAN31<tspan x="1378.67" dy="15">AA201</tspan>
+  </text>
+  <text x="1523" y="276.678" font-size="15">20MAN32<tspan x="1523" dy="15">AA201</tspan>
+  </text>
+  <image x="1694.36" y="559.455" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20LBA50CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBA50CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="1676.33" y="276.678" font-size="15">20MAN41<tspan x="1676.33" dy="15">AA201</tspan>
+  </text>
+  <text x="1821.66" y="276.678" font-size="15">20MAN42<tspan x="1821.66" dy="15">AA201</tspan>
+  </text>
+  <line x1="102" y1="239.39" x2="157" y2="239.25" stroke="black" stroke-width="1"/> 
+  <line x1="157" y1="97.25" x2="156.75" y2="239.75" stroke="black" stroke-width="1"/> 
+  <line x1="251" y1="239.723" x2="308.5" y2="239.634" stroke="black" stroke-width="1"/> 
+  <line x1="306.909" y1="97.6969" x2="308" y2="240" stroke="black" stroke-width="1"/> 
+  <line x1="397" y1="240.235" x2="452.06" y2="239.606" stroke="black" stroke-width="1"/> 
+  <line x1="452" y1="98" x2="452" y2="239.5" stroke="black" stroke-width="1"/> 
+  <line x1="546.667" y1="239.723" x2="593.25" y2="240" stroke="black" stroke-width="1"/> 
+  <line x1="1308" y1="239.25" x2="1370" y2="239.004" stroke="black" stroke-width="1"/> 
+  <line x1="1461" y1="238.5" x2="1518.67" y2="238.667" stroke="black" stroke-width="1"/> 
+  <line x1="1461.5" y1="99.5" x2="1461.25" y2="239" stroke="black" stroke-width="1"/> 
+  <line x1="1608.25" y1="238.25" x2="1667.67" y2="238.723" stroke="black" stroke-width="1"/> 
+  <line x1="1608.75" y1="99.25" x2="1608.75" y2="238" stroke="black" stroke-width="1"/> 
+  <line x1="1758.5" y1="239.25" x2="1818" y2="239" stroke="black" stroke-width="1"/> 
+  <line x1="1759" y1="98" x2="1758.75" y2="239.75" stroke="black" stroke-width="1"/> 
+  <g id="spring" visibility="hidden" rt:detect="disabled" stroke="Col_Grey5" stroke-width="1">
+    <polyline points="104.546,222.172 104.546,223.172" id="obj_spring" fill="none"/> 
+    <rect x="99.5456" y="217.172" width="10" height="10" rx="0" ry="0" id="obj_spring_solenoid" visibility="hidden" rt:detect="disabled" fill="Col_LtBlue"/> 
+  </g>
+  <text x="126.697" y="681.031" fill="black" font-size="15" text-anchor="middle">слив из системы<tspan x="126.697" dy="15">регулирования</tspan>
+  </text>
+  <image x="1387.82" y="930.545" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN12CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN12CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="100" y1="239.674" x2="100" y2="414.667" stroke="black" stroke-width="1"/> 
+  <line x1="251.25" y1="238" x2="251.25" y2="413" stroke="black" stroke-width="1"/> 
+  <line x1="399" y1="239.674" x2="399" y2="413.5" stroke="black" stroke-width="1"/> 
+  <line x1="547" y1="239.674" x2="547.5" y2="413.5" stroke="black" stroke-width="1"/> 
+  <line x1="1815" y1="239" x2="1815" y2="414.75" stroke="black" stroke-width="1"/> 
+  <line x1="1666.5" y1="239" x2="1666.5" y2="413" stroke="black" stroke-width="1"/> 
+  <line x1="1517.21" y1="238.606" x2="1516" y2="412.667" stroke="black" stroke-width="1"/> 
+  <line x1="1368.75" y1="239.5" x2="1368.75" y2="413" stroke="black" stroke-width="1"/> 
+  <polygon points="762.832,223.697 763.165,303.697 802.832,303.697 802.832,223.697" fill="lightgray" stroke="black"/> 
+  <polygon points="867.334,223.864 867.667,303.864 907.334,303.864 907.334,223.864" fill="lightgray" stroke="black"/> 
+  <polygon points="802.832,237.03 815.582,236.947 815.499,271.697 802.832,271.697" fill="Col_Grey2" stroke="black"/> 
+  <polygon points="854.999,237.03 867.582,236.947 867.666,271.697 854.999,271.697" fill="Col_Grey2" stroke="black"/> 
+  <polygon points="815.334,223.697 815.667,303.697 855.334,303.697 855.334,223.697" fill="lightgray" stroke="black"/> 
+  <image x="800.832" y="75.97" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MXN51AA010&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AA010&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="800.468" y="58.697" font-size="15">20MXN51<tspan x="800.468" dy="15">AA010</tspan>
+  </text>
+  <text x="841" y="323" font-size="15">20MXN51</text>
+  <line x1="835.833" y1="303.006" x2="836" y2="414" stroke="black" stroke-width="1"/> 
+  <line x1="592.25" y1="363" x2="827.5" y2="363" stroke="black" stroke-width="1"/> 
+  <line x1="156.5" y1="98" x2="715" y2="98" stroke="black" stroke-width="1"/> 
+  <line x1="715" y1="98" x2="715" y2="250" stroke="black" stroke-width="1"/> 
+  <image x="526" y="104.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN53CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN53CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="844.005" y1="363" x2="920" y2="363" stroke="black" stroke-width="1"/> 
+  <image x="600.333" y="334.394" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN52CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN52CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="748.667" y="377.728" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN51CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN51CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <polygon points="1018.5,224 1018.83,304 1058.5,304 1058.5,224" fill="lightgray" stroke="black"/> 
+  <polygon points="1123,224.167 1123.33,304.167 1163,304.167 1163,224.167" fill="lightgray" stroke="black"/> 
+  <polygon points="1058.5,237.03 1071.25,236.947 1071.17,271.697 1058.5,271.697" fill="Col_Grey2" stroke="black"/> 
+  <polygon points="1110.67,237.03 1123.25,236.947 1123.33,271.697 1110.67,271.697" fill="Col_Grey2" stroke="black"/> 
+  <polygon points="1071,224 1071.33,304 1111,304 1111,224" fill="lightgray" stroke="black"/> 
+  <image x="1055.5" y="75.97" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MXN61AA010&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AA010&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1056.14" y="58.697" font-size="15">20MXN61<tspan x="1056.14" dy="15">AA010</tspan>
+  </text>
+  <text x="1014" y="323" font-size="15">20MXN61</text>
+  <line x1="1308.5" y1="239" x2="1308.5" y2="363" stroke="black" stroke-width="1"/> 
+  <line x1="1091.5" y1="304.003" x2="1091.67" y2="414" stroke="black" stroke-width="1"/> 
+  <line x1="125" y1="785" x2="800" y2="785" stroke="black" stroke-width="3"/> 
+  <line x1="1100" y1="363" x2="1309" y2="363" stroke="black" stroke-width="1"/> 
+  <image x="1125" y="334.394" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN62CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN62CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1007" y="377.728" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN61CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN61CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1007.75" y1="363" x2="1083" y2="363" stroke="black" stroke-width="1"/> 
+  <line x1="920" y1="250" x2="920" y2="363" stroke="black" stroke-width="1"/> 
+  <line x1="1008.25" y1="250" x2="1008.25" y2="363" stroke="black" stroke-width="1"/> 
+  <line x1="1213.25" y1="98" x2="1213.25" y2="251.25" stroke="black" stroke-width="1"/> 
+  <line x1="1212.75" y1="98" x2="1759" y2="98" stroke="black" stroke-width="1"/> 
+  <text x="579" y="613" font-size="15">20MXN17<tspan x="579" dy="15">AP001</tspan>
+  </text>
+  <text x="893" y="658" font-size="15">20MXN25<tspan x="893" dy="15">AT001</tspan>
+  </text>
+  <image x="1219.12" y="104.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN63CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN63CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <path d="M-592.447 -459.23 A8.80483 8.80483 0 1 1 -592.447 -441.62 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 0 1.4013e-045) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <path d="M-592.947 -715.23 A8.80483 8.80483 0 1 1 -592.947 -697.62 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 0 1.4013e-045) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <line x1="229" y1="628" x2="229" y2="928" stroke="black" stroke-width="3"/> 
+  <line x1="425" y1="628" x2="425" y2="928" stroke="black" stroke-width="3"/> 
+  <line x1="227.5" y1="928" x2="675" y2="928" stroke="black" stroke-width="3"/> 
+  <image x="500" y="885.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX()">
+    <title>&quot;20PCB89AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="502.909" y="970.424" font-size="15">20PCB89<tspan x="502.909" dy="15">AA201</tspan>
+  </text>
+  <image x="241" y="891" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB89CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB89CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="240" y="715" font-size="15">20MXN21<tspan x="240" dy="15">AC001</tspan>
+  </text>
+  <text x="435" y="715" font-size="15">20MXN22<tspan x="435" dy="15">AC001</tspan>
+  </text>
+  <line x1="228" y1="629" x2="426.5" y2="628.5" stroke="black" stroke-width="3"/> 
+  <line x1="329" y1="552" x2="329" y2="628" stroke="black" stroke-width="3"/> 
+  <line x1="125" y1="711" x2="125" y2="786.5" stroke="black" stroke-width="3"/> 
+  <line x1="697" y1="446.182" x2="697" y2="775" stroke="black" stroke-width="1"/> 
+  <image x="660.857" y="584" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20MXN17AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN17AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="871" y1="447" x2="871" y2="753" stroke="black" stroke-width="1"/> 
+  <image x="784.667" y="514" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN25CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN25CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1023.67" y1="620.424" x2="1025" y2="753" stroke="black" stroke-width="1"/> 
+  <text x="1118" y="746" font-size="15">20MXN11<tspan x="1118" dy="15">AP001</tspan>
+  </text>
+  <rect x="870" y="778" width="5" height="0" rx="0" ry="0"/> 
+  <image x="1198.52" y="713.334" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20MXN11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1050" y1="863.5" x2="1496.5" y2="863" stroke="black" stroke-width="3"/> 
+  <line x1="695.879" y1="447" x2="1235" y2="447" stroke="black" stroke-width="1"/> 
+  <rect x="1112.37" y="513.497" width="40" height="40" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="1" transform="scale(1.24889 1.24889 997.981 248.773) rotate(44.1277 997.981 248.773)"/> 
+  <polygon points="1041.09,545.663 1065.09,533.663 1066.09,508.663 1040.84,521.913" fill="white" stroke="black"/> 
+  <line x1="834.668" y1="620.502" x2="861.941" y2="620.502" stroke="black"/> 
+  <line x1="876.671" y1="620.6" x2="903.941" y2="620.6" stroke="black"/> 
+  <line x1="696.394" y1="852" x2="800.5" y2="852" stroke="black" stroke-width="1"/> 
+  <image x="814" y="791" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="814" y="825" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1012" y="768" width="25" height="100" xlink:href="DS_ana_bar.svg">
+    <title>&quot;20MXN10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN10CL001&quot;"/> 
+  </image>
+  <text x="860" y="894" font-size="15">20MXN10BB001</text>
+  <line x1="1049.75" y1="829" x2="1235.5" y2="829" stroke="black" stroke-width="3"/> 
+  <image x="1052.45" y="474.97" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN20CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN20CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1234.27" y1="540.121" x2="1496.25" y2="540" stroke="black" stroke-width="3"/> 
+  <text x="1533.88" y="746" font-size="15">20MXN12<tspan x="1533.88" dy="15">AP001</tspan>
+  </text>
+  <image x="1460.28" y="713.334" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20MXN12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1245.39" y="546.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN20CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN20CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1328.21" y="920.606" fill="black" font-size="20" text-anchor="middle">Т подшипников насосов регулирования БРУ-К</text>
+  <image x="1387.82" y="968.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN12CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN12CT012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1093.36" y="930.545" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN11CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN11CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1093.36" y="968.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN11CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN11CT012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1784.73" y="543.152" fill="black" font-size="20" text-anchor="middle">P в ГПК</text>
+  <g transform="rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="2365.88,595.452 2379.26,603.102 2379.26,587.812 2365.88,595.452" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="327.485" y="497.697" fill="black" font-size="15" text-anchor="middle">PCB</text>
+  <path d="M467.89 -408.728 A8 9.305 0 1 0 467.89 -390.119 " fill="none" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <line x1="696.5" y1="794" x2="697" y2="853" stroke="black" stroke-width="1"/> 
+  <line x1="592.75" y1="239.5" x2="592.75" y2="363" stroke="black" stroke-width="1"/> 
+  <rect x="186.5" y="741.5" width="85.5001" height="84.5" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <line x1="210.5" y1="792.75" x2="230.5" y2="812" stroke="black" stroke-width="3"/> 
+  <line x1="248.75" y1="773.5" x2="210" y2="794" stroke="black" stroke-width="3"/> 
+  <line x1="228.57" y1="741" x2="228.57" y2="756" stroke="black" stroke-width="3"/> 
+  <line x1="229.5" y1="812" x2="229.5" y2="827" stroke="black" stroke-width="3"/> 
+  <line x1="227.778" y1="754.592" x2="249.028" y2="774.592" stroke="black" stroke-width="3"/> 
+  <rect x="384.5" y="741.5" width="85.5001" height="84.5" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <line x1="408.5" y1="792.75" x2="426.5" y2="812" stroke="black" stroke-width="3"/> 
+  <line x1="446.75" y1="773.5" x2="408" y2="794" stroke="black" stroke-width="3"/> 
+  <line x1="426.57" y1="741" x2="426.57" y2="756" stroke="black" stroke-width="3"/> 
+  <line x1="425.5" y1="812" x2="425.5" y2="827" stroke="black" stroke-width="3"/> 
+  <line x1="425.778" y1="754.592" x2="447.028" y2="774.592" stroke="black" stroke-width="3"/> 
+  <text x="1063" y="613" font-size="15">20MXN13<tspan x="1063" dy="15">AN001</tspan>
+  </text>
+  <line x1="1040.26" y1="520.733" x2="1040.33" y2="623.454" stroke="black" stroke-width="1"/> 
+  <image x="990" y="582.333" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;20MXN13AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN13AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="502.97" y="851.242" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20PCB89AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+  </image>
+  <image x="648.25" y="915.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCB&quot;"/> 
+  </image>
+  <image x="292" y="529.25" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(90 37.3617 12.4999)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+  </image>
+  <image x="1814.22" y="804.121" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA&quot;"/> 
+  </image>
+  <image x="1814.22" y="850.697" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBA&quot;"/> 
+  </image>
+  <image x="1814.22" y="895.848" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAN&quot;"/> 
+  </image>
+  <image x="1332.12" y="725.5" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MXN10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="100" y="471.5" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20MAN00CH001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN00CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="394" y="471" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20MAN10CH001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN10CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="136" y="458" font-size="15">РЕЖ П/О/Р</text>
+  <text x="419.5" y="457.5" font-size="15">РЕЖ РАСХОЛ</text>
+  <image x="66.7501" y="166.731" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN11CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN11CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="64.2501" y="199.25" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN11CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN11CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN11CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="217.826" y="165.375" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN12CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN12CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="215.326" y="197.894" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN12CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN12CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN12CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="366.826" y="165.375" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN21CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN21CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="364.326" y="197.894" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN21CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN21CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN21CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="514.076" y="165.875" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN22CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN22CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="511.576" y="198.394" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN22CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN22CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN22CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="1336.75" y="162.981" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN31CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN31CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="1334.25" y="195.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN31CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN31CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN31CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="1484.83" y="163.625" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN32CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN32CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="1482.33" y="196.144" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN32CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN32CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN32CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="1631.83" y="161.625" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN41CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN41CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="1631.33" y="194.144" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN41CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN41CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN41CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="1783.08" y="162.125" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20MAN42CG101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN42CG101&quot;"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="1780.58" y="194.644" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20MAN42CG051_XG08&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20MAN42CG051_XG08&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20MAN42CG052_XG07&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <g>
+    <image x="873.832" y="131.958" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN51AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS002&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN50DG002_ZV01&quot;"/> 
+    </image>
+    <image x="873" y="157.75" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20MXN51AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS002&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="875.5" y="113.75" font-size="15">20MXN51<tspan x="875.5" dy="15">AS002</tspan>
+    </text>
+  </g>
+  <g>
+    <image x="733.279" y="130.208" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN51AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS001&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN50DG001_ZV01&quot;"/> 
+    </image>
+    <image x="729.75" y="156" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20MXN51AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="724.75" y="112" font-size="15">20MXN51<tspan x="724.75" dy="15">AS001</tspan>
+    </text>
+  </g>
+  <g>
+    <image x="987.332" y="130.208" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN61AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS001&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN60DG001_ZV01&quot;"/> 
+    </image>
+    <image x="986.5" y="156" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20MXN61AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="979" y="112" font-size="15">20MXN61<tspan x="979" dy="15">AS001</tspan>
+    </text>
+  </g>
+  <g>
+    <image x="1129.03" y="130.208" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN61AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS002&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN60DG002_ZV01&quot;"/> 
+    </image>
+    <image x="1125.5" y="156" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20MXN61AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS002&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1131.5" y="112" font-size="15">20MXN61<tspan x="1131.5" dy="15">AS002</tspan>
+    </text>
+  </g>
+  <image x="583.25" y="265.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN51EU101&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN51EU101&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="166" y="62.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN51EU201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN51EU201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1179" y="273.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN61EU101&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN61EU101&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1581.75" y="67.2501" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN61EU201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN61EU201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1307.12" y="655.75" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MXN11EE002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN11EE002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1287.75" y="649.25" font-size="15">Разр.откл.насосов</text>
+  <text x="1283" y="436.5" font-size="15">ПВР вкл. групп</text>
+  <image x="1464.62" y="443" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAN00CH002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN00CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1437.75" y="436.5" font-size="15">Опробование БРУ-К</text>
+  <image x="1654" y="443" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAN00EE003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN00EE003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1637.75" y="436.5" font-size="15">БРУ-К в Авт. реж.</text>
+  <image x="1245.39" y="509.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MXN20CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1282.76" y="440.909" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20MAN00CH004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAN00CH004VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+  </image>
+  <text x="35" y="20.5" fill="black" font-size="15" font-weight="700">MXN</text>
+  <text x="979" y="30" fill="black" font-size="30" font-weight="700" text-anchor="middle">Система маслоснабжения  регулирования БРУ-К</text>
+  <image x="1744.22" y="936.875" width="145" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;Разогр-расхол&quot;"/> 
+  </image>
+</svg>

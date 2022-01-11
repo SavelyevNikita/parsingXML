@@ -1,0 +1,411 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:/RTS/\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="skuv_25kla43">
+  <title>Система воздухоснабжения пневмокостюмов 25KLA43</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_skuv&#10;LMod skuv_22saq&#10;RMod skuv_25sae_sac" revision="3"/> 
+  <text x="960.5" y="43.6667" font-size="30" font-weight="700" text-anchor="middle">
+    <title>Система вентиляции зданий</title>
+Система воздухоснабжения пневмокостюмов 25KLA43</text>
+  <line x1="1791.09" y1="454.545" x2="1791.09" y2="454.545" stroke="black"/> 
+  <image x="88.875" y="466.875" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CT003&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="73.25" y="162.5" width="206.25" height="633.75" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="1742.27" y1="347.704" x2="1742.27" y2="634.409" stroke="black" stroke-width="3"/> 
+  <line x1="1824.57" y1="490.235" x2="1744.83" y2="490.235" stroke="black" stroke-width="3"/> 
+  <image x="1818.03" y="475.796" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLA00&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kla00&quot;"/> 
+  </image>
+  <line x1="1743" y1="633.659" x2="1331.83" y2="633.659" stroke="black" stroke-width="3"/> 
+  <line x1="1206.54" y1="-239.57" x2="1206.54" y2="-91.5701" stroke="black" transform="rotate(90 689.25 117.497)"/> 
+  <line x1="1093.79" y1="-241.57" x2="1093.79" y2="-89.5701" stroke="black" transform="rotate(90 689.25 117.497)"/> 
+  <line x1="1366.04" y1="652.659" x2="254.25" y2="652.659" stroke="black" stroke-width="3"/> 
+  <g transform="flipX(459) scale(1.27 1.27 1043.36 910.606) scale(1.0524 1.0524 1.4013e-045 1.4013e-045) flipX(963.818) rotate(270 964.576 96.9697) rotate(90 1175.94 787.121) scale(0.380039 0.380039 1162.3 219.697) rotate(270 1162.3 219.697) rotate(270 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="-1924.43" y="1277.04" width="130.303" height="134.849" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="-1860.82" y1="1292.16" x2="-1812.34" y2="1316.41" stroke="black" stroke-width="3"/> 
+      <line x1="-1907.12" y1="1372.28" x2="-1858.62" y2="1396.53" stroke="black" stroke-width="3"/> 
+      <line x1="-1813.86" y1="1316.41" x2="-1909.31" y2="1372.46" stroke="black" stroke-width="3"/> 
+      <line x1="-1859.64" y1="1395.93" x2="-1859.64" y2="1410.93" stroke="black" stroke-width="3"/> 
+      <line x1="-1859.49" y1="1279.09" x2="-1859.49" y2="1294.09" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <text x="1095.13" y="576.925" font-size="15">20QKJ01<tspan x="1095.13" dy="15">AA015</tspan>
+  </text>
+  <text x="1317" y="702.909" font-size="15">25KLA43<tspan x="1317" dy="15">AN002</tspan>
+  </text>
+  <image x="1314.31" y="616.531" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;25KLA43AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <g transform="flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="1806.99,18.9028 1820.37,26.5468 1820.37,11.2598 1806.99,18.9028" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="1047.86" y1="522.409" x2="1047.86" y2="635.531" stroke="black"/> 
+  <line x1="895.863" y1="521.409" x2="897.105" y2="635.773" stroke="black"/> 
+  <g transform="flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="2110.62,-806.967 2124,-799.323 2124,-814.61 2110.62,-806.967" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1022.31" y="541.757" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-1.13687e-013) flipY(-10) flipY(-10) rotate(270 0 -10)">
+    <title>&quot;20QKJ01AA015&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ01AA015&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="970" y="703.909" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="970" dy="15">AC002</tspan>
+  </text>
+  <image x="850.75" y="538.75" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(360 0 -10) rotate(270 0 -10)">
+    <title>&quot;20QKJ11AA214&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ11AA214&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="823.5" y="510.5" width="65" height="25" xlink:href="DS_TPTS_Reg_degree.svg">
+    <title>&quot;20QKJ11AA214&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ11AA214&quot;"/> 
+  </image>
+  <text x="813.25" y="573.125" fill="black" font-size="15" text-anchor="middle">20QKJ11<tspan x="813.25" dy="15">AA214</tspan>
+  </text>
+  <g>
+    <rect x="219.55" y="481.968" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="468.157" y1="610.204" x2="468.157" y2="696.568" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="469.25" y="713.909" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="469.25" dy="15">AT002</tspan>
+  </text>
+  <image x="305.863" y="600.409" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.32897e-005 4.4512e-005) flipY(-10.0001) rotate(90 -0.00012207 -10.0001)">
+    <title>&quot;25KLA43AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="328" y="691.909" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="328" dy="15">AA002</tspan>
+  </text>
+  <image x="1408.08" y="602.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CP004&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1636.23" y="581.863" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.32897e-005 4.4512e-005) flipY(-10.0001) rotate(90 -0.00012207 -10.0001)">
+    <title>&quot;25KLA43AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1663.23" y="670.863" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="1663.23" dy="15">AA004</tspan>
+  </text>
+  <g transform="flipX(1829.73) flipX(1092.61) rotate(270 1446.39 199.242) flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="614.259,1893.59 627.639,1901.24 627.639,1885.95 614.259,1893.59" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="32" y="487" fill="black" font-size="15" text-anchor="middle">
+    <title>11FAK14AA002</title>
+АТМ</text>
+  <image x="932.636" y="510.348" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;QKJ&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_20qkj01&quot;"/> 
+  </image>
+  <image x="396.25" y="564.034" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;25KLA43CP002&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;25KLA43CP002_XG02&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="428.25" y="3.84106" font-size="15" transform="flipY(293)">dP &gt; 0.262  кПа</text>
+  <image x="1408.08" y="542.409" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CT002&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1408.08" y="572.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CF002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CF002&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <rect x="746.769" y="1015.05" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1217.91" y1="609.704" x2="1217.91" y2="696.068" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="1218.5" y="716.659" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="1218.5" dy="15">AT004</tspan>
+  </text>
+  <g>
+    <rect x="555.5" y="598.909" width="207" height="92" rx="0" ry="0" fill="Col_Grey4"/> 
+    <text x="597.75" y="617.909" font-size="15">25KLA43AH002</text>
+    <image x="608.47" y="636.553" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH002C&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH002C&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <image x="659.4" y="636.553" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH002B&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH002B&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <image x="710.81" y="636.553" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH002A&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH002A&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <text x="731.44" y="633.409" font-size="15">A</text>
+    <text x="678.77" y="633.409" font-size="15">B</text>
+    <text x="627.22" y="633.409" font-size="15">C</text>
+    <image x="557.3" y="636.553" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH002D&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH002D&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <text x="576.05" y="633.409" font-size="15">D</text>
+  </g>
+  <line x1="1743" y1="347.409" x2="1331.83" y2="347.409" stroke="black" stroke-width="3"/> 
+  <line x1="920.289" y1="-239.57" x2="920.289" y2="-91.5701" stroke="black" transform="rotate(90 689.25 117.497)"/> 
+  <line x1="807.539" y1="-241.57" x2="807.539" y2="-89.5701" stroke="black" transform="rotate(90 689.25 117.497)"/> 
+  <line x1="1366.04" y1="366.409" x2="254.25" y2="366.409" stroke="black" stroke-width="3"/> 
+  <g transform="flipX(459) scale(1.27 1.27 1043.36 910.606) scale(1.0524 1.0524 1.4013e-045 1.4013e-045) flipX(963.818) rotate(270 964.576 96.9697) rotate(90 1175.94 787.121) scale(0.380039 0.380039 1162.3 219.697) rotate(270 1162.3 219.697) rotate(270 412.288 437.863)">
+    <g transform="rotate(90 1094.11 578.015)">
+      <rect x="-1360.88" y="1277.04" width="130.303" height="134.849" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+      <line x1="-1297.27" y1="1292.16" x2="-1248.79" y2="1316.41" stroke="black" stroke-width="3"/> 
+      <line x1="-1343.57" y1="1372.29" x2="-1295.07" y2="1396.54" stroke="black" stroke-width="3"/> 
+      <line x1="-1250.31" y1="1316.41" x2="-1345.76" y2="1372.47" stroke="black" stroke-width="3"/> 
+      <line x1="-1296.09" y1="1395.94" x2="-1296.09" y2="1410.94" stroke="black" stroke-width="3"/> 
+      <line x1="-1295.94" y1="1279.09" x2="-1295.94" y2="1294.09" stroke="black" stroke-width="3"/> 
+    </g>
+  </g>
+  <text x="1095.13" y="290.675" font-size="15">20QKJ01<tspan x="1095.13" dy="15">AA014</tspan>
+  </text>
+  <text x="1317" y="416.659" font-size="15">25KLA43<tspan x="1317" dy="15">AN001</tspan>
+  </text>
+  <image x="1314.31" y="330.281" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;25KLA43AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <g transform="flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="1950.12,-228.997 1963.5,-221.353 1963.5,-236.64 1950.12,-228.997" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="1047.86" y1="236.159" x2="1047.86" y2="349.281" stroke="black"/> 
+  <line x1="895.863" y1="235.159" x2="897.105" y2="349.523" stroke="black"/> 
+  <g transform="flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="1967.5,-559.067 1980.88,-551.423 1980.88,-566.71 1967.5,-559.067" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1022.31" y="255.507" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-1.13687e-013) flipY(-10) flipY(-10) rotate(270 0 -10)">
+    <title>&quot;20QKJ01AA014&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ01AA014&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="970" y="417.659" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="970" dy="15">AC001</tspan>
+  </text>
+  <image x="850.772" y="254.129" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(360 0 -10) rotate(270 0 -10)">
+    <title>&quot;20QKJ11AA213&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ11AA213&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="823.5" y="224.25" width="65" height="25" xlink:href="DS_TPTS_Reg_degree.svg">
+    <title>&quot;20QKJ11AA213&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20QKJ11AA213&quot;"/> 
+  </image>
+  <text x="814.409" y="287.463" fill="black" font-size="15" text-anchor="middle">20QKJ11<tspan x="814.409" dy="15">AA213</tspan>
+  </text>
+  <g>
+    <rect x="423.21" y="280.817" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="468.157" y1="323.954" x2="468.157" y2="410.318" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="469.25" y="427.659" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="469.25" dy="15">AT001</tspan>
+  </text>
+  <image x="305.863" y="314.159" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.32897e-005 4.4512e-005) flipY(-10.0001) rotate(90 -0.00012207 -10.0001)">
+    <title>&quot;25KLA43AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="328" y="405.659" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="328" dy="15">AA001</tspan>
+  </text>
+  <image x="1408.08" y="316.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CP003&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1636.23" y="295.613" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.32897e-005 4.4512e-005) flipY(-10.0001) rotate(90 -0.00012207 -10.0001)">
+    <title>&quot;25KLA43AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1663.23" y="384.613" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="1663.23" dy="15">AA003</tspan>
+  </text>
+  <g transform="flipX(1829.73) flipX(1092.61) rotate(270 1446.39 199.242) flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="366.36,1750.46 379.74,1758.11 379.74,1742.82 366.36,1750.46" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="932.636" y="224.098" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;QKJ&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_20qkj01&quot;"/> 
+  </image>
+  <image x="396.25" y="277.784" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;25KLA43CP001&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;25KLA43CP001_XG02&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="428.25" y="290.091" font-size="15" transform="flipY(293)">dP &gt; 0.262  кПа</text>
+  <image x="1408.08" y="256.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CT001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1408.08" y="286.409" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;25KLA43CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;25KLA43CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <rect x="950.429" y="813.895" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1217.91" y1="323.454" x2="1217.91" y2="409.818" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="1218.5" y="430.409" fill="black" font-size="15" text-anchor="middle">25KLA43<tspan x="1218.5" dy="15">AT003</tspan>
+  </text>
+  <g>
+    <rect x="555.5" y="312.659" width="207" height="92" rx="0" ry="0" fill="Col_Grey4"/> 
+    <text x="597.75" y="331.659" font-size="15">25KLA43AH001</text>
+    <image x="608.47" y="350.303" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH001C&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH001C&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <image x="659.4" y="350.303" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH001B&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH001B&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <image x="710.81" y="350.303" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH001A&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH001A&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <text x="731.44" y="347.159" font-size="15">A</text>
+    <text x="678.77" y="347.159" font-size="15">B</text>
+    <text x="627.22" y="347.159" font-size="15">C</text>
+    <image x="557.3" y="350.303" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;25KLA43AH001D&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AH001D&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    </image>
+    <text x="576.05" y="347.159" font-size="15">D</text>
+  </g>
+  <text x="1429" y="415" font-size="15">Человек в зоне UJA</text>
+  <image x="601.5" y="224" width="120" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;25KLA43CH001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="601.5" y="510" width="120" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;25KLA43CH002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43CH002VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1320" y="487" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;25KLA43EE011&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43EE011&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <line x1="1770" y1="768.296" x2="254.25" y2="768.296" stroke="black" stroke-width="3"/> 
+  <image x="1074.4" y="716.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.32897e-005 4.4512e-005) flipY(-10.0001) rotate(90 -0.00012207 -10.0001)">
+    <title>&quot;25KLA43AA005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="1768.27" y1="488.704" x2="1768.27" y2="769.409" stroke="black" stroke-width="3"/> 
+  <g transform="flipX(1829.73) flipX(1092.61) rotate(270 1446.39 199.242) flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="713.852,1951.09 727.232,1958.74 727.232,1943.45 713.852,1951.09" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="1069" y="806" font-size="15">25KLA43<tspan x="1069" dy="15">AA005</tspan>
+  </text>
+  <line x1="100" y1="509.794" x2="19.68" y2="509.794" stroke="black" stroke-width="3"/> 
+  <g transform="flipX(1829.73) flipX(1092.61) rotate(270 1446.39 199.242) flipY(189.5) flipY(776.515) rotate(330 1212.44 532.643)">
+    <g>
+      <polygon points="372.699,2024.98 386.079,2032.63 386.079,2017.34 372.699,2024.98" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1451" y="423.5" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;25KLA43CH003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;25KLA43CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="778.5" y="678" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;25KLA43AH002T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;25KLA43AH002T_XG01&quot;"/> 
+  </image>
+  <image x="778.5" y="393" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;25KLA43AH001T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;25KLA43AH001T_XG01&quot;"/> 
+  </image>
+  <text x="788" y="386" fill="black" font-size="15" text-anchor="middle">Терм</text>
+  <text x="788" y="670" fill="black" font-size="15" text-anchor="middle">Терм</text>
+  <image x="1126" y="485.5" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20CMV00CH001VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CMV00CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1k2&quot;"/> 
+  </image>
+  <text x="1205" y="475.5" fill="black" font-size="15" text-anchor="middle">КЛЮЧ ЗИМА-ЛЕТО</text>
+  <text x="30" y="25" fill="black" font-size="15" font-weight="700" text-anchor="start">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+SKUV_25KLA43</text>
+</svg>

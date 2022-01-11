@@ -1,0 +1,1171 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="tzb_to">
+  <title>Контроль состояния ТЗиБ TО</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_to" revision="3"/> 
+  <text x="42" y="25" font-size="15" font-weight="700">TZB_TO</text>
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <text x="965.5" y="33" fill="black" font-size="28" font-weight="700" text-anchor="middle">Контроль состояния ТЗиБ TО</text>
+  <line x1="366" y1="50" x2="366" y2="930" stroke="black" stroke-width="2"/> 
+  <text x="276.25" y="110" fill="black" font-size="18" font-weight="700">Защиты<tspan x="276.25" dy="18">ВПЭН</tspan>
+  </text>
+  <text x="276.25" y="218" fill="black" font-size="18" font-weight="700">Защита<tspan x="276.25" dy="18">откл</tspan>
+<tspan x="276.25" dy="18">всех</tspan>
+<tspan x="276.25" dy="18">ПЭН</tspan>
+  </text>
+  <text x="276.25" y="385" fill="black" font-size="18" font-weight="700">Защиты<tspan x="276.25" dy="18">ПЭН-1</tspan>
+  </text>
+  <rect x="266" y="50" width="450.333" height="880" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="266" y1="287" x2="716" y2="287" stroke="black" stroke-width="2"/> 
+  <line x1="476.286" y1="50" x2="476.286" y2="931.667" stroke="black" stroke-width="2"/> 
+  <image x="371" y="56.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAJ_TZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAJ_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;laj_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="266" y1="199" x2="716" y2="199" stroke="black" stroke-width="2"/> 
+  <line x1="366" y1="121" x2="716" y2="121" stroke="black" stroke-width="2"/> 
+  <image x="371" y="127.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAH_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAH_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lah_tzb&quot;)</rt:event>
+  </image>
+  <line x1="366" y1="160" x2="716" y2="160" stroke="black" stroke-width="2"/> 
+  <image x="371" y="166.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_3&quot;)</rt:event>
+  </image>
+  <image x="371" y="226" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAA_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAA_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;laa_tzb&quot;)</rt:event>
+  </image>
+  <image x="371" y="294" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_TZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="366" y1="327" x2="716" y2="327" stroke="black" stroke-width="2"/> 
+  <image x="369" y="85" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAJ_TZB_2&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAJ_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;laj_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="510.88" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ903_XK95&quot;"/> 
+  </image>
+  <image x="595.297" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ902_XK95&quot;"/> 
+  </image>
+  <image x="482.75" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ901_XK95&quot;"/> 
+  </image>
+  <image x="566.167" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ908_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ908_XK95&quot;"/> 
+  </image>
+  <image x="681" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ907_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ907_XK95&quot;"/> 
+  </image>
+  <image x="539.083" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ005_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ005_XK95&quot;"/> 
+  </image>
+  <image x="624" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ909_XK95&quot;"/> 
+  </image>
+  <image x="652.667" y="57.6666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ904_XK95&quot;"/> 
+  </image>
+  <image x="482.88" y="86.3333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EZ914_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EZ914_XK95&quot;"/> 
+  </image>
+  <image x="538" y="127.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAH02EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAH02EZ001_XK95&quot;"/> 
+  </image>
+  <image x="566.334" y="127.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAH02EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAH02EZ002_XK95&quot;"/> 
+  </image>
+  <image x="509.334" y="127.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAH02EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAH02EZ911_XK95&quot;"/> 
+  </image>
+  <image x="480.667" y="127.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAH02EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAH02EZ901_XK95&quot;"/> 
+  </image>
+  <image x="481" y="164.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAA10EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAA10EZ001_ZV01&quot;"/> 
+  </image>
+  <image x="481.333" y="226.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB00EZ001_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB00EZ001_XK95&quot;"/> 
+  </image>
+  <image x="481" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ909_XK95&quot;"/> 
+  </image>
+  <image x="509" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ913_XK95&quot;"/> 
+  </image>
+  <image x="537.667" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ915_XK95&quot;"/> 
+  </image>
+  <image x="566.667" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ925_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ925_XK95&quot;"/> 
+  </image>
+  <image x="595.333" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ926_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ926_XK95&quot;"/> 
+  </image>
+  <image x="623.667" y="294.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ927_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ927_XK95&quot;"/> 
+  </image>
+  <image x="372" y="334" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_1_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_1_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_1_tzb&quot;)</rt:event>
+  </image>
+  <line x1="367" y1="367" x2="717" y2="367" stroke="black" stroke-width="2"/> 
+  <image x="538" y="333.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ905_XK95&quot;"/> 
+  </image>
+  <image x="509.334" y="333.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ904_XK95&quot;"/> 
+  </image>
+  <image x="480.667" y="333.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ903_XK95&quot;"/> 
+  </image>
+  <image x="371" y="373.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAB01_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB01_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab01_tzb&quot;)</rt:event>
+  </image>
+  <line x1="366" y1="406.333" x2="716" y2="406.333" stroke="black" stroke-width="2"/> 
+  <image x="372" y="413.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAV_TZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAV_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lav_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="367" y1="446.333" x2="717" y2="446.333" stroke="black" stroke-width="2"/> 
+  <image x="481" y="373.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB01EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB01EZ901_XK95&quot;"/> 
+  </image>
+  <image x="507.667" y="373.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB01EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB01EZ911_XK95&quot;"/> 
+  </image>
+  <image x="536" y="373.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB01EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB01EZ902_XK95&quot;"/> 
+  </image>
+  <image x="564.333" y="373.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB01EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB01EZ903_XK95&quot;"/> 
+  </image>
+  <image x="592.667" y="373.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB01EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB01EZ913_XK95&quot;"/> 
+  </image>
+  <image x="509.333" y="413.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV10EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV10EZ906_XK95&quot;"/> 
+  </image>
+  <image x="481.334" y="413.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV10EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV10EZ904_XK95&quot;"/> 
+  </image>
+  <image x="481" y="451.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EZ003_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EZ003_ZV01&quot;"/> 
+  </image>
+  <text x="276.25" y="581.667" fill="black" font-size="18" font-weight="700">Защиты<tspan x="276.25" dy="18">ПЭН-2</tspan>
+  </text>
+  <line x1="265.667" y1="483.667" x2="715.667" y2="483.667" stroke="black" stroke-width="2"/> 
+  <image x="370.667" y="490.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_TZB_2&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_tzb_2&quot;)</rt:event>
+  </image>
+  <line x1="365.667" y1="523.667" x2="715.667" y2="523.667" stroke="black" stroke-width="2"/> 
+  <image x="371.667" y="530.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_1_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_1_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_1_tzb&quot;)</rt:event>
+  </image>
+  <line x1="366.667" y1="563.667" x2="716.667" y2="563.667" stroke="black" stroke-width="2"/> 
+  <image x="370.667" y="570" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAB02_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB02_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab02_tzb&quot;)</rt:event>
+  </image>
+  <line x1="365.667" y1="603" x2="715.667" y2="603" stroke="black" stroke-width="2"/> 
+  <image x="371.667" y="610" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAV_TZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAV_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lav_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="366.667" y1="643" x2="716.667" y2="643" stroke="black" stroke-width="2"/> 
+  <image x="481" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ909_XK95&quot;"/> 
+  </image>
+  <image x="509.333" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ913_XK95&quot;"/> 
+  </image>
+  <image x="537.667" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ915_XK95&quot;"/> 
+  </image>
+  <image x="566" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ925_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ925_XK95&quot;"/> 
+  </image>
+  <image x="593.667" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ926_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ926_XK95&quot;"/> 
+  </image>
+  <image x="622" y="491.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ927_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ927_XK95&quot;"/> 
+  </image>
+  <image x="481.333" y="530.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ905_XK95&quot;"/> 
+  </image>
+  <image x="509.334" y="530.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ904_XK95&quot;"/> 
+  </image>
+  <image x="537.667" y="530.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ903_XK95&quot;"/> 
+  </image>
+  <image x="480.333" y="570.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ901_XK95&quot;"/> 
+  </image>
+  <image x="508.667" y="570.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ911_XK95&quot;"/> 
+  </image>
+  <image x="538" y="570.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ902_XK95&quot;"/> 
+  </image>
+  <image x="566.333" y="570.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ903_XK95&quot;"/> 
+  </image>
+  <image x="594.333" y="570.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB02EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB02EZ913_XK95&quot;"/> 
+  </image>
+  <image x="481" y="610" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV20EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV20EZ906_XK95&quot;"/> 
+  </image>
+  <image x="509.333" y="610" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV20EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV20EZ904_XK95&quot;"/> 
+  </image>
+  <text x="276.25" y="778.667" fill="black" font-size="18" font-weight="700">Защиты<tspan x="276.25" dy="18">ПЭН-3</tspan>
+  </text>
+  <line x1="265.333" y1="680.667" x2="715.333" y2="680.667" stroke="black" stroke-width="2"/> 
+  <image x="370.333" y="687.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_TZB_3&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_TZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_tzb_3&quot;)</rt:event>
+  </image>
+  <line x1="365.333" y1="720.667" x2="715.333" y2="720.667" stroke="black" stroke-width="2"/> 
+  <image x="371.333" y="727.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_1_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_1_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_1_tzb&quot;)</rt:event>
+  </image>
+  <line x1="366.333" y1="786.667" x2="716.333" y2="786.667" stroke="black" stroke-width="2"/> 
+  <image x="370.333" y="793" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAB03_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB03_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab03_tzb&quot;)</rt:event>
+  </image>
+  <line x1="365.333" y1="826" x2="715.333" y2="826" stroke="black" stroke-width="2"/> 
+  <image x="371.333" y="847" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAV_TZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAV_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lav_tzb_1&quot;)</rt:event>
+  </image>
+  <line x1="366.333" y1="894" x2="716.333" y2="894" stroke="black" stroke-width="2"/> 
+  <image x="481.333" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ909_XK95&quot;"/> 
+  </image>
+  <image x="509.33" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ913_XK95&quot;"/> 
+  </image>
+  <image x="537.667" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ915_XK95&quot;"/> 
+  </image>
+  <image x="563.667" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ925_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ925_XK95&quot;"/> 
+  </image>
+  <image x="591.67" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ926_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ926_XK95&quot;"/> 
+  </image>
+  <image x="620.004" y="687.582" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ927_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ927_XK95&quot;"/> 
+  </image>
+  <image x="480.667" y="726.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ905_XK95&quot;"/> 
+  </image>
+  <image x="509" y="726.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ904_XK95&quot;"/> 
+  </image>
+  <image x="481" y="756" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ903_XK95&quot;"/> 
+  </image>
+  <image x="370.667" y="755.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_2_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_2_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_2_tzb&quot;)</rt:event>
+  </image>
+  <image x="481.333" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB03EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB03EZ901_XK95&quot;"/> 
+  </image>
+  <image x="510.333" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB03EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB03EZ911_XK95&quot;"/> 
+  </image>
+  <image x="539" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB03EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB03EZ902_XK95&quot;"/> 
+  </image>
+  <image x="567.333" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB03EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB03EZ903_XK95&quot;"/> 
+  </image>
+  <image x="595.667" y="792.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB03EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB03EZ913_XK95&quot;"/> 
+  </image>
+  <image x="481.333" y="847.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV30EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV30EZ906_XK95&quot;"/> 
+  </image>
+  <image x="510.666" y="847.666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV30EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV30EZ904_XK95&quot;"/> 
+  </image>
+  <line x1="837.5" y1="50" x2="837.5" y2="930" stroke="black" stroke-width="2"/> 
+  <text x="748" y="148" fill="black" font-size="18" font-weight="700">Защиты<tspan x="748" dy="18">ПЭН-4</tspan>
+  </text>
+  <rect x="737.5" y="50" width="450.333" height="880" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="947.786" y1="50" x2="947.786" y2="931.667" stroke="black" stroke-width="2"/> 
+  <image x="842.5" y="57" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_TZB_4&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_TZB_4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_tzb_4&quot;)</rt:event>
+  </image>
+  <line x1="837.5" y1="90" x2="1187.5" y2="90" stroke="black" stroke-width="2"/> 
+  <image x="843.5" y="97" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_2_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_2_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_2_tzb&quot;)</rt:event>
+  </image>
+  <line x1="838.5" y1="130" x2="1188.5" y2="130" stroke="black" stroke-width="2"/> 
+  <image x="842.5" y="136.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAB04_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB04_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab04_tzb&quot;)</rt:event>
+  </image>
+  <line x1="837.5" y1="169.333" x2="1187.5" y2="169.333" stroke="black" stroke-width="2"/> 
+  <image x="843.5" y="176.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAV_TZB_2&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAV_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lav_tzb_2&quot;)</rt:event>
+  </image>
+  <line x1="838.5" y1="209.333" x2="1188.5" y2="209.333" stroke="black" stroke-width="2"/> 
+  <text x="748" y="344.667" fill="black" font-size="18" font-weight="700">Защиты<tspan x="748" dy="18">ПЭН-5</tspan>
+  </text>
+  <line x1="737.167" y1="246.667" x2="1187.17" y2="246.667" stroke="black" stroke-width="2"/> 
+  <image x="842.167" y="253.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_TZB_5&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_TZB_5&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_tzb_5&quot;)</rt:event>
+  </image>
+  <line x1="837.167" y1="286.667" x2="1187.17" y2="286.667" stroke="black" stroke-width="2"/> 
+  <image x="843.167" y="293.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAC_2_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC_2_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lac_2_tzb&quot;)</rt:event>
+  </image>
+  <line x1="838.167" y1="326.667" x2="1188.17" y2="326.667" stroke="black" stroke-width="2"/> 
+  <image x="842.167" y="333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAB05_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB05_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lab05_tzb&quot;)</rt:event>
+  </image>
+  <line x1="837.167" y1="366" x2="1187.17" y2="366" stroke="black" stroke-width="2"/> 
+  <image x="843.167" y="373" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAV_TZB_2&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAV_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lav_tzb_2&quot;)</rt:event>
+  </image>
+  <line x1="838.167" y1="406" x2="1188.17" y2="406" stroke="black" stroke-width="2"/> 
+  <image x="953" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ909_XK95&quot;"/> 
+  </image>
+  <image x="981.667" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ913_XK95&quot;"/> 
+  </image>
+  <image x="1010" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ915_XK95&quot;"/> 
+  </image>
+  <image x="1038.33" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ925_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ925_XK95&quot;"/> 
+  </image>
+  <image x="1066.67" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ926_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ926_XK95&quot;"/> 
+  </image>
+  <image x="1096.67" y="55.8333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ927_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ927_XK95&quot;"/> 
+  </image>
+  <image x="952.667" y="96.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ905_XK95&quot;"/> 
+  </image>
+  <image x="982.667" y="96.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1011" y="96.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ903_XK95&quot;"/> 
+  </image>
+  <image x="953.333" y="136" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB04EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB04EZ901_XK95&quot;"/> 
+  </image>
+  <image x="982" y="136" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB04EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB04EZ911_XK95&quot;"/> 
+  </image>
+  <image x="1010.33" y="136" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB04EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB04EZ902_XK95&quot;"/> 
+  </image>
+  <image x="1039.33" y="136" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB04EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB04EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1068.33" y="136" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB04EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB04EZ913_XK95&quot;"/> 
+  </image>
+  <image x="952.667" y="176.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV40EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV40EZ906_XK95&quot;"/> 
+  </image>
+  <image x="980.667" y="176.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV40EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV40EZ904_XK95&quot;"/> 
+  </image>
+  <image x="952.667" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ909_XK95&quot;"/> 
+  </image>
+  <image x="981.333" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ913_XK95&quot;"/> 
+  </image>
+  <image x="1009.33" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ915_XK95&quot;"/> 
+  </image>
+  <image x="1038.67" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ925_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ925_XK95&quot;"/> 
+  </image>
+  <image x="1067" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ926_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ926_XK95&quot;"/> 
+  </image>
+  <image x="1095.33" y="253.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ927_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ927_XK95&quot;"/> 
+  </image>
+  <image x="952.333" y="292.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ905_XK95&quot;"/> 
+  </image>
+  <image x="981" y="292.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1010.33" y="292.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ903_XK95&quot;"/> 
+  </image>
+  <image x="952.667" y="331.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB05EZ901_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB05EZ901_XK95&quot;"/> 
+  </image>
+  <image x="981" y="331.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB05EZ911_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB05EZ911_XK95&quot;"/> 
+  </image>
+  <image x="1009.33" y="331.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB05EZ902_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB05EZ902_XK95&quot;"/> 
+  </image>
+  <image x="1037.33" y="331.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB05EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB05EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1064.67" y="331.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAB05EZ913_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAB05EZ913_XK95&quot;"/> 
+  </image>
+  <image x="954.333" y="372.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV50EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV50EZ906_XK95&quot;"/> 
+  </image>
+  <image x="983" y="372.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV50EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV50EZ904_XK95&quot;"/> 
+  </image>
+  <text x="748" y="460.5" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">откл</tspan>
+<tspan x="748" dy="18">всех</tspan>
+<tspan x="748" dy="18">КЭН1</tspan>
+  </text>
+  <line x1="737" y1="529.5" x2="1187" y2="529.5" stroke="black" stroke-width="2"/> 
+  <line x1="737" y1="441.5" x2="1187" y2="441.5" stroke="black" stroke-width="2"/> 
+  <image x="842" y="468.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="952.333" y="468.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB10EZ001_XA04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB10EZ001_XA04&quot;"/> 
+  </image>
+  <text x="748" y="558.333" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">КЭН1-1</tspan>
+  </text>
+  <image x="840.667" y="534.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_1&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_1&quot;)</rt:event>
+  </image>
+  <line x1="736.667" y1="624.166" x2="1186.67" y2="624.166" stroke="black" stroke-width="2"/> 
+  <image x="981.833" y="533.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ003_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="533.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ002_XK95&quot;"/> 
+  </image>
+  <image x="1010" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ008_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ006_XK95&quot;"/> 
+  </image>
+  <image x="1039.5" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1067.33" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ914_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ914_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ004_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ004_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="593.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ915_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="593.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ916_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ916_XK95&quot;"/> 
+  </image>
+  <image x="1010" y="593.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EZ918_XK95&quot;"/> 
+  </image>
+  <image x="840.667" y="563.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_2&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_2&quot;)</rt:event>
+  </image>
+  <image x="840.667" y="592" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_3&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_3&quot;)</rt:event>
+  </image>
+  <text x="748" y="655.999" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">КЭН1-2</tspan>
+  </text>
+  <image x="841.333" y="632.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_4&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_4&quot;)</rt:event>
+  </image>
+  <line x1="737.333" y1="693.832" x2="1187.33" y2="693.832" stroke="black" stroke-width="2"/> 
+  <image x="841.333" y="662.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_5&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_5&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_5&quot;)</rt:event>
+  </image>
+  <image x="952.167" y="631.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ002_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="631.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ003_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ004_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ004_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ006_XK95&quot;"/> 
+  </image>
+  <image x="1010" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ008_XK95&quot;"/> 
+  </image>
+  <image x="1039.5" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1067.33" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ914_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ914_XK95&quot;"/> 
+  </image>
+  <image x="1096.33" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ915_XK95&quot;"/> 
+  </image>
+  <image x="1125.67" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ916_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ916_XK95&quot;"/> 
+  </image>
+  <image x="1154" y="661.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EZ918_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="698.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ002_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="698.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ003_XK95&quot;"/> 
+  </image>
+  <image x="952.167" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ004_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ004_XK95&quot;"/> 
+  </image>
+  <image x="981.833" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ006_XK95&quot;"/> 
+  </image>
+  <image x="1010" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ008_XK95&quot;"/> 
+  </image>
+  <image x="1039.5" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1067.33" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ914_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ914_XK95&quot;"/> 
+  </image>
+  <image x="1096" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ915_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ915_XK95&quot;"/> 
+  </image>
+  <image x="1124.33" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ916_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ916_XK95&quot;"/> 
+  </image>
+  <image x="1154.33" y="729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EZ918_XK95&quot;"/> 
+  </image>
+  <text x="748" y="723.666" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">КЭН1-3</tspan>
+  </text>
+  <image x="841.667" y="700" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_6&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_6&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_6&quot;)</rt:event>
+  </image>
+  <line x1="737.667" y1="761.499" x2="1187.67" y2="761.499" stroke="black" stroke-width="2"/> 
+  <image x="841.667" y="730" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_7&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_7&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_7&quot;)</rt:event>
+  </image>
+  <text x="748" y="777" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">откл</tspan>
+<tspan x="748" dy="18">всех</tspan>
+<tspan x="748" dy="18">КЭН2</tspan>
+  </text>
+  <line x1="737.667" y1="838" x2="1187.67" y2="838" stroke="black" stroke-width="2"/> 
+  <image x="842.667" y="788" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="953" y="788.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB20EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB20EZ001_ZV01&quot;"/> 
+  </image>
+  <image x="952.5" y="841.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ002_XK95&quot;"/> 
+  </image>
+  <image x="982" y="841.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ003_XK95&quot;"/> 
+  </image>
+  <image x="952.5" y="872.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ006_XK95&quot;"/> 
+  </image>
+  <image x="982" y="872.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ008_XK95&quot;"/> 
+  </image>
+  <image x="1010.67" y="872.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ010_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ010_XK95&quot;"/> 
+  </image>
+  <image x="1039.33" y="872.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1068.67" y="872.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ905_XK95&quot;"/> 
+  </image>
+  <image x="952.5" y="901.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ918_XK95&quot;"/> 
+  </image>
+  <image x="982" y="901.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ919_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ919_XK95&quot;"/> 
+  </image>
+  <image x="1010.67" y="901.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ920_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ920_XK95&quot;"/> 
+  </image>
+  <image x="1039.33" y="901.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EZ922_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EZ922_XK95&quot;"/> 
+  </image>
+  <text x="748" y="871.166" fill="black" font-size="18" font-weight="700">Защита<tspan x="748" dy="18">КЭН2-1</tspan>
+  </text>
+  <image x="842.333" y="841.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_8&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_8&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_8&quot;)</rt:event>
+  </image>
+  <image x="842.333" y="871.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_9&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_9&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_9&quot;)</rt:event>
+  </image>
+  <line x1="1306.83" y1="50.1666" x2="1306.83" y2="683.333" stroke="black" stroke-width="2"/> 
+  <rect x="1206.83" y="50.1666" width="450.5" height="633.167" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="1417.12" y1="50.1666" x2="1417.12" y2="683.333" stroke="black" stroke-width="2"/> 
+  <line x1="1206" y1="148.333" x2="1656" y2="148.333" stroke="black" stroke-width="2"/> 
+  <text x="1217.33" y="272.167" fill="black" font-size="18" font-weight="700">Защита<tspan x="1217.33" dy="18">откл</tspan>
+<tspan x="1217.33" dy="18">всех</tspan>
+<tspan x="1217.33" dy="18">НСС</tspan>
+  </text>
+  <line x1="1207" y1="333.167" x2="1657" y2="333.167" stroke="black" stroke-width="2"/> 
+  <image x="1312" y="283.167" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="283.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT50EY001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT50EY001_ZV01&quot;"/> 
+  </image>
+  <text x="1217.33" y="84.9993" fill="black" font-size="18" font-weight="700">Защита<tspan x="1217.33" dy="18">КЭН2-2</tspan>
+  </text>
+  <image x="1311.67" y="55.3333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_10&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_10&quot;)</rt:event>
+  </image>
+  <image x="1311.67" y="85.3333" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_11&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_11&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_11&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="54.1666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ002_XK95&quot;"/> 
+  </image>
+  <image x="1452" y="54.1666" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ003_XK95&quot;"/> 
+  </image>
+  <image x="1422.67" y="84.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ006_XK95&quot;"/> 
+  </image>
+  <image x="1452" y="84.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ008_XK95&quot;"/> 
+  </image>
+  <image x="1481.17" y="84.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ010_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ010_XK95&quot;"/> 
+  </image>
+  <image x="1511" y="84.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1540.33" y="84.6667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ905_XK95&quot;"/> 
+  </image>
+  <image x="1422.67" y="116.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ918_XK95&quot;"/> 
+  </image>
+  <image x="1452" y="116.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ919_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ919_XK95&quot;"/> 
+  </image>
+  <image x="1481.17" y="116.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ920_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ920_XK95&quot;"/> 
+  </image>
+  <image x="1511" y="116.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EZ922_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EZ922_XK95&quot;"/> 
+  </image>
+  <image x="1422.67" y="156.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ002_XK95&quot;"/> 
+  </image>
+  <image x="1450.67" y="156.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ003_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ003_XK95&quot;"/> 
+  </image>
+  <image x="1422.67" y="186.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ006_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ006_XK95&quot;"/> 
+  </image>
+  <image x="1450.67" y="186.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ008_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ008_XK95&quot;"/> 
+  </image>
+  <image x="1479.33" y="186.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ010_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ010_XK95&quot;"/> 
+  </image>
+  <image x="1507.67" y="186.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1536.67" y="186.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ905_XK95&quot;"/> 
+  </image>
+  <image x="1422.67" y="216.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ918_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ918_XK95&quot;"/> 
+  </image>
+  <image x="1450.67" y="216.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ919_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ919_XK95&quot;"/> 
+  </image>
+  <image x="1479.33" y="216.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ920_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ920_XK95&quot;"/> 
+  </image>
+  <image x="1507.67" y="216.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EZ922_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EZ922_XK95&quot;"/> 
+  </image>
+  <line x1="1207.67" y1="248.166" x2="1657.67" y2="248.166" stroke="black" stroke-width="2"/> 
+  <text x="1219" y="187.833" fill="black" font-size="18" font-weight="700">Защита<tspan x="1219" dy="18">КЭН2-3</tspan>
+  </text>
+  <image x="1313.34" y="158.167" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_12&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_12&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_12&quot;)</rt:event>
+  </image>
+  <image x="1313.34" y="188.167" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCBTZB_13&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCBTZB_13&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcbtzb_13&quot;)</rt:event>
+  </image>
+  <line x1="1207.33" y1="411.499" x2="1657.33" y2="411.499" stroke="black" stroke-width="2"/> 
+  <text x="1218.67" y="370.166" fill="black" font-size="18" font-weight="700">Защита<tspan x="1218.67" dy="18">НСС-1</tspan>
+  </text>
+  <image x="1312" y="340.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT3_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT3_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct3_tzb&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1452.33" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1481" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ905_XK95&quot;"/> 
+  </image>
+  <image x="1508.67" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ906_XK95&quot;"/> 
+  </image>
+  <image x="1537.33" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ907_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ907_XK95&quot;"/> 
+  </image>
+  <image x="1564.67" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ908_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ908_XK95&quot;"/> 
+  </image>
+  <image x="1594" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ909_XK95&quot;"/> 
+  </image>
+  <image x="1622.67" y="341" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ910_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ910_XK95&quot;"/> 
+  </image>
+  <image x="1424" y="379" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EZ002_XK95&quot;"/> 
+  </image>
+  <line x1="1305.33" y1="373.667" x2="1655.33" y2="373.667" stroke="black" stroke-width="2"/> 
+  <image x="1311.33" y="379" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT2_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT2_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct2_tzb&quot;)</rt:event>
+  </image>
+  <line x1="1209" y1="490.999" x2="1659" y2="490.999" stroke="black" stroke-width="2"/> 
+  <text x="1220.33" y="449.666" fill="black" font-size="18" font-weight="700">Защита<tspan x="1220.33" dy="18">НСС-2</tspan>
+  </text>
+  <image x="1313.67" y="420" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT6_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT6_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct6_tzb&quot;)</rt:event>
+  </image>
+  <line x1="1307" y1="453.167" x2="1657" y2="453.167" stroke="black" stroke-width="2"/> 
+  <image x="1313" y="458.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT5_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT5_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct5_tzb&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1451.67" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1480" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ905_XK95&quot;"/> 
+  </image>
+  <image x="1509" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ906_XK95&quot;"/> 
+  </image>
+  <image x="1536.67" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ907_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ907_XK95&quot;"/> 
+  </image>
+  <image x="1564.33" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ908_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ908_XK95&quot;"/> 
+  </image>
+  <image x="1593.33" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ909_XK95&quot;"/> 
+  </image>
+  <image x="1623" y="418.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ910_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ910_XK95&quot;"/> 
+  </image>
+  <image x="1424" y="458" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EZ002_XK95&quot;"/> 
+  </image>
+  <line x1="1209.33" y1="570.166" x2="1659.33" y2="570.166" stroke="black" stroke-width="2"/> 
+  <text x="1220.67" y="528.833" fill="black" font-size="18" font-weight="700">Защита<tspan x="1220.67" dy="18">НСС-3</tspan>
+  </text>
+  <image x="1314" y="499.167" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT9_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT9_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct9_tzb&quot;)</rt:event>
+  </image>
+  <line x1="1307.33" y1="532.334" x2="1657.33" y2="532.334" stroke="black" stroke-width="2"/> 
+  <image x="1313.33" y="537.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LCT8_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT8_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lct8_tzb&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ903_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ903_XK95&quot;"/> 
+  </image>
+  <image x="1452.33" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ904_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ904_XK95&quot;"/> 
+  </image>
+  <image x="1481" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ905_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ905_XK95&quot;"/> 
+  </image>
+  <image x="1509.33" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ906_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ906_XK95&quot;"/> 
+  </image>
+  <image x="1538.33" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ907_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ907_XK95&quot;"/> 
+  </image>
+  <image x="1567" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ908_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ908_XK95&quot;"/> 
+  </image>
+  <image x="1595.33" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ909_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ909_XK95&quot;"/> 
+  </image>
+  <image x="1624.33" y="499.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ910_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ910_XK95&quot;"/> 
+  </image>
+  <image x="1424" y="538" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EZ002_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EZ002_XK95&quot;"/> 
+  </image>
+  <text x="1216.58" y="627.5" fill="black" font-size="18" font-weight="700">Защиты<tspan x="1216.58" dy="18">ПВД</tspan>
+  </text>
+  <image x="1311.33" y="574" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAD_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lad_tzb&quot;)</rt:event>
+  </image>
+  <line x1="1306.33" y1="606.5" x2="1656.33" y2="606.5" stroke="black" stroke-width="2"/> 
+  <image x="1311.33" y="613" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>&quot;LAH_TZB&quot;</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAH_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lah_tzb&quot;)</rt:event>
+  </image>
+  <line x1="1306.33" y1="645.5" x2="1656.33" y2="645.5" stroke="black" stroke-width="2"/> 
+  <image x="1311.33" y="652" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="1422.67" y="613.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAD01EZ002_XK96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAD01EZ002_XK96&quot;"/> 
+  </image>
+  <image x="1422.67" y="574.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAD01EZ001_XK96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAD01EZ001_XK96&quot;"/> 
+  </image>
+  <image x="1453" y="574.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAD02EZ001_XK96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAD02EZ001_XK96&quot;"/> 
+  </image>
+  <image x="372" y="453" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_1&quot;)</rt:event>
+  </image>
+  <image x="480.667" y="645.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EZ003_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EZ003_ZV01&quot;"/> 
+  </image>
+  <image x="371.667" y="647.001" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_1&quot;)</rt:event>
+  </image>
+  <image x="480" y="898.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EZ003_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EZ003_ZV01&quot;"/> 
+  </image>
+  <image x="371" y="899.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_1&quot;)</rt:event>
+  </image>
+  <image x="952" y="215" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EZ003_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EZ003_ZV01&quot;"/> 
+  </image>
+  <image x="843" y="216.334" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_1&quot;)</rt:event>
+  </image>
+  <image x="952.667" y="410.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EZ003_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EZ003_ZV01&quot;"/> 
+  </image>
+  <image x="843.667" y="412.001" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;LA_EZ_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;la_ez_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="1425" y="650" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAD02EZ002_XK96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAD02EZ002_XK96&quot;"/> 
+  </image>
+</svg>

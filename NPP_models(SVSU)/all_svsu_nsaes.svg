@@ -1,0 +1,857 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_svsu">
+  <title>НОВОВОРОНЕЖСКАЯ АЭС. СВСУ</title>
+  <rt:model modelversion="7.2.0.24" comment="Создано RASU" revision="3"/> 
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="725" y="25" font-size="25" font-weight="bold">НОВОВОРОНЕЖСКАЯ АЭС. СВСУ</text>
+  <image x="53.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-2 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;svbu_svsu&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svbu_svsu&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="423.758" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;fgu_all&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="605.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;доп. ФГУ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;no_fgu_hvo&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <text x="1219.24" y="87.8788" font-size="20" font-weight="bold">КХНП</text>
+  <image x="1200.24" y="115.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ХМ 1-3</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;CXM01EP201&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep201&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1200.24" y="155.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ХМ 4-5</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;CXM01EP202&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep202&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1200.24" y="195.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Общий</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;CXM01EP101&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep101&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1200.24" y="235.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосы потребителей</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;CXM01EP203&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep203&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1200.24" y="275.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ТЗБ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗБ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;TZB&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <text x="228.242" y="87.8788" font-size="20" font-weight="bold">АСРК</text>
+  <image x="32.2424" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_01ukh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;01UKH&quot;"/> 
+  </image>
+  <image x="32.2424" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_02ukh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;02UKH&quot;"/> 
+  </image>
+  <image x="32.2424" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_03ukh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;03UKH&quot;"/> 
+  </image>
+  <image x="32.2424" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_prom&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PROM&quot;"/> 
+  </image>
+  <image x="32.2424" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Радиационный контроль венттрубы 01UKH, здание 00UKS</title>
+    <rt:event type="OnClick">LoadNew(&quot;10uks&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10UKS&quot;"/> 
+  </image>
+  <image x="32.2424" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК здания переработки и хранения радиоактивных отходов UKS отм.0,000.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uks_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKS 00&quot;"/> 
+  </image>
+  <image x="32.2424" y="352.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК здания переработки и хранения радиоактивных отходов UKS отм.+11,400 и +12.000.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uks_11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKS 11&quot;"/> 
+  </image>
+  <image x="32.2424" y="392.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК здания переработки и хранения радиоактивных отходов UKS отм.+15.000</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uks_15&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKS 15&quot;"/> 
+  </image>
+  <image x="32.2424" y="432.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК здания переработки и хранения радиоактивных отходов UKS отм.+7.800  и +8,800.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uks_78&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKS 78&quot;"/> 
+  </image>
+  <image x="32.2424" y="472.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Радиационный контроль в здании хранилища радиоактивных изотопов 01UKT, отм.0,000.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukt_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKT 00&quot;"/> 
+  </image>
+  <image x="32.2424" y="512.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Радиационный контроль в здании хранилища радиоактивных изотопов 01UKT, отм.+3,300.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukt_33&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKT 33&quot;"/> 
+  </image>
+  <image x="32.2424" y="552.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК хранилища свежего топлива UFC отм.0,000.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ufc_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UFC 00&quot;"/> 
+  </image>
+  <image x="32.2424" y="592.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК хранилища свежего топлива UFC отм.+7,400.</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ufc_74&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UFC 74&quot;"/> 
+  </image>
+  <image x="32.2424" y="632.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Радиационный контроль в санитарно-бытовом корпусе UYB отм.0,000</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uyb_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UYB 00&quot;"/> 
+  </image>
+  <image x="32.2424" y="672.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>РК сооружения ГО на 1200 укрываемых UYX</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uyx&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UYX&quot;"/> 
+  </image>
+  <image x="579.242" y="113.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Собственные нужды вспомогательных сооружений 00BCE</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;BCE&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00bce&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="153.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Собственные нужды вспомогательных сооружений 00BCF</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;BCFf&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00bcf&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="193.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Собственные нужды вспомогательных сооружений 00BCG</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;BCG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00bcg&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="233.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Собственные нужды вспомогательных сооружений 00BCH</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;BCH&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00bch&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="273.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UAC</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UAC&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00uac&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="313.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UBN</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UBN&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00ubn&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="353.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UEL</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UEL&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00uel&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="393.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UGA</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UGA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00uga&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="433.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UGD</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UGD&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00ugd&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="473.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UNA</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UNA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00una&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="513.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UNE</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UNE&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00une&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="553.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 00UTH</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;UTH&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00uth&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="593.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 05UBG</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;05UBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;05ubg&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="633.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 05UYP</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;05UYP&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;05uyp&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="673.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Здание 06UBG</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;06UBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;06ubg&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="713.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-1 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BCA-BCB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;10bca-bcb&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="753.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-1 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BCC-BCD&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;10bcc-bcd&quot;)</rt:event>
+  </image>
+  <image x="579.242" y="793.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-2 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;20BCA-BCB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20bca-bcb&quot;)</rt:event>
+  </image>
+  <image x="703.242" y="113.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-2 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;20BCC-BCD&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20bcc-bcd&quot;)</rt:event>
+  </image>
+  <image x="703.242" y="153.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;COM&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;com&quot;)</rt:event>
+  </image>
+  <image x="703.242" y="193.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KRUE220_2-6&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;krue220_2-6&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="703.242" y="233.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KRUE220_7-14_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;krue220_7-14_1&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="703.242" y="273.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KRUE220_7-14_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;krue220_7-14_2&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="703.242" y="313.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KRUE500_1-3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;krue500_1-3&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="703.242" y="353.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KRUE500_4-6&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;krue500_4-6&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <text x="665.242" y="87.8788" font-size="20" font-weight="bold">СКУ ЭЧ</text>
+  <image x="703.242" y="393.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;COM_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;com_1&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="703.242" y="433.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;COM_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;com_2&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <text x="950.24" y="87.8788" font-size="20" font-weight="bold">СКУ ХВО</text>
+  <image x="889.24" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел подогрева исходной воды</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB10_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_1&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел коррекционной обработки</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB10_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_2&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел осветления воды</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB10_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_3&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел сгущения шлама</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB10_4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_4&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел фильтрации коагулированной воды</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB10_5&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_5&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Установки ультрафильтрации</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCB30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="352.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Установки УФ-обеззараживания и дозирования реагентов</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf10&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="392.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Установки обратного осмоса</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf20&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="432.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел подачи ЧОВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="472.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел дозирования реагентов на регенерации</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF33_37&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf33_37&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="512.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Установка обессоливания</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF40_41&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf40_41&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="552.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Установка обессоливания</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF40_45&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf40_45&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="592.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел подачи воды на регенерацию</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF45_50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf45_50&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="632.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Фильтры смешанного действия</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf50&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="672.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел регенерации ФСД</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF52_53&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf52_53&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="712.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел подачи ХОВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCF80&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcf80&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018.24" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Узел нейтрализации</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;GCR10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcr10&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018.24" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Механическая очистка</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;xvo_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;xvo_1&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018.24" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Ионнообменная очистка</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;xvo_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;xvo_2&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018.24" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Усиленная промывка</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;gcb_gcf&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb_gcf&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018.24" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры работы насосов дозаторов</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;dozer&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;dozer&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="889.24" y="752.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры работы УУФ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;gcb30_uuf&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb30_uuf&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="32.2424" y="712.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_srp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;SRP&quot;"/> 
+  </image>
+  <image x="32.2424" y="752.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_srp50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;SRP50&quot;"/> 
+  </image>
+  <image x="151.242" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;10uja&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10UJA&quot;"/> 
+  </image>
+  <image x="151.242" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;10ukc&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10UKC&quot;"/> 
+  </image>
+  <image x="151.242" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_10ukh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10UKH&quot;"/> 
+  </image>
+  <image x="151.242" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_11sac41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;11SAC41&quot;"/> 
+  </image>
+  <image x="151.242" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_11sac51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;11SAC51&quot;"/> 
+  </image>
+  <image x="151.242" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_12sac41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;12SAC41&quot;"/> 
+  </image>
+  <image x="151.242" y="352.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_12sac51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;12SAC51&quot;"/> 
+  </image>
+  <image x="151.242" y="392.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kla21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLA21&quot;"/> 
+  </image>
+  <image x="151.242" y="432.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kla22_42&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLA22-42&quot;"/> 
+  </image>
+  <image x="151.242" y="472.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_10ukc_g&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10UKC_g&quot;"/> 
+  </image>
+  <image x="151.242" y="512.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA&quot;"/> 
+  </image>
+  <image x="151.242" y="552.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM21&quot;"/> 
+  </image>
+  <image x="151.242" y="592.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM22&quot;"/> 
+  </image>
+  <image x="151.242" y="632.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm23&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM23&quot;"/> 
+  </image>
+  <image x="151.242" y="672.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM40&quot;"/> 
+  </image>
+  <image x="151.242" y="712.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_peb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB&quot;"/> 
+  </image>
+  <image x="151.242" y="752.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpf&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPF&quot;"/> 
+  </image>
+  <image x="151.242" y="792.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_go&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ГО&quot;"/> 
+  </image>
+  <image x="32.6666" y="792.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_qur&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;QUR&quot;"/> 
+  </image>
+  <image x="271.242" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_potreb_pgb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50&quot;"/> 
+  </image>
+  <image x="271.242" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_potreb_pgb60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB60&quot;"/> 
+  </image>
+  <image x="271.242" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_1kont&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;1КОНТ&quot;"/> 
+  </image>
+  <image x="271.242" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_1kont_bv&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;1КОНТ_БВ&quot;"/> 
+  </image>
+  <image x="271.242" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_2kont&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;2КОНТ&quot;"/> 
+  </image>
+  <image x="271.242" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_-54&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC -54&quot;"/> 
+  </image>
+  <image x="271.242" y="352.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 00&quot;"/> 
+  </image>
+  <image x="271.242" y="392.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 12&quot;"/> 
+  </image>
+  <image x="271.242" y="432.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_15&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 15&quot;"/> 
+  </image>
+  <image x="271.242" y="472.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 22&quot;"/> 
+  </image>
+  <image x="271.242" y="512.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_24&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 24&quot;"/> 
+  </image>
+  <image x="271.242" y="552.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_48&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 48&quot;"/> 
+  </image>
+  <image x="271.242" y="592.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_84&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 84&quot;"/> 
+  </image>
+  <image x="271.242" y="632.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_19&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 19&quot;"/> 
+  </image>
+  <image x="271.242" y="672.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_06&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 06&quot;"/> 
+  </image>
+  <image x="271.242" y="712.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_14&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 14&quot;"/> 
+  </image>
+  <image x="271.242" y="752.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_26&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 26&quot;"/> 
+  </image>
+  <image x="271.242" y="792.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_81&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 81&quot;"/> 
+  </image>
+  <image x="391.242" y="112.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_-54&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA -54&quot;"/> 
+  </image>
+  <image x="391.242" y="152.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 00&quot;"/> 
+  </image>
+  <image x="391.242" y="192.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_36&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 36&quot;"/> 
+  </image>
+  <image x="391.242" y="232.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_84&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 84&quot;"/> 
+  </image>
+  <image x="391.242" y="272.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_rkz&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;RKZ&quot;"/> 
+  </image>
+  <image x="391.242" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред в зданиях 10UKA, 10UKC</title>
+    <rt:event type="OnClick">LoadNew(&quot;kuj11_14&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUJ11-14&quot;"/> 
+  </image>
+  <image x="391.242" y="352.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред из венттрубы</title>
+    <rt:event type="OnClick">LoadNew(&quot;kuj16_17&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUJ16-17&quot;"/> 
+  </image>
+  <text x="1562.24" y="86.8788" font-size="20" font-weight="bold">СКУ ОРАО</text>
+  <image x="785.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;pvd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ПВД&quot;"/> 
+  </image>
+  <image x="965.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uispro_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;УИСПРО&quot;"/> 
+  </image>
+  <image x="1145.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uonzk_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;УОНЗК&quot;"/> 
+  </image>
+  <image x="1324.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_pz_svsu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ПЗ&quot;"/> 
+  </image>
+  <image x="1510.35" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;МПУ Дубна&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;all_tenzor_svsu&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1387.7" y="155.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_1&quot;"/> 
+  </image>
+  <image x="1507.7" y="155.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_2&quot;"/> 
+  </image>
+  <image x="1507.7" y="195.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_3&quot;"/> 
+  </image>
+  <image x="1507.7" y="235.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_4_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_4_1&quot;"/> 
+  </image>
+  <image x="1507.7" y="275.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_4_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_4_2&quot;"/> 
+  </image>
+  <image x="1507.7" y="315.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_5&quot;"/> 
+  </image>
+  <image x="1507.7" y="355.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_6&quot;"/> 
+  </image>
+  <image x="1750" y="157" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_1&quot;"/> 
+  </image>
+  <image x="1747.7" y="195.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_2&quot;"/> 
+  </image>
+  <image x="1747.7" y="235.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_3&quot;"/> 
+  </image>
+  <image x="1747.7" y="275.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_4_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_4_1&quot;"/> 
+  </image>
+  <image x="1747.7" y="315.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_4_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_4_2&quot;"/> 
+  </image>
+  <image x="1747.7" y="355.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_5&quot;"/> 
+  </image>
+  <image x="1747.7" y="395.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_6&quot;"/> 
+  </image>
+  <image x="1627.7" y="155.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;us_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;us_1&quot;"/> 
+  </image>
+  <image x="1627.7" y="195.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;us_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;us_2&quot;"/> 
+  </image>
+  <image x="1627.7" y="235.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;us_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;us_3&quot;"/> 
+  </image>
+  <image x="1627.7" y="275.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;us_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;us_4&quot;"/> 
+  </image>
+  <image x="1627.7" y="315.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;us_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;us_5&quot;"/> 
+  </image>
+  <text x="1527.7" y="129.682" fill="black" font-size="18">00UKS</text>
+  <text x="1769.7" y="129.682" fill="black" font-size="18">10UKC</text>
+  <text x="1645.7" y="129.682" fill="black" font-size="18">00UKS</text>
+  <image x="1388" y="196" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_1&quot;"/> 
+  </image>
+  <image x="1387.7" y="235.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_2&quot;"/> 
+  </image>
+  <image x="1387.7" y="275.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_3&quot;"/> 
+  </image>
+  <image x="1387.7" y="315.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_4&quot;"/> 
+  </image>
+  <image x="1387.7" y="355.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_5&quot;"/> 
+  </image>
+  <image x="1387.7" y="395.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_6&quot;"/> 
+  </image>
+  <image x="1387.7" y="435.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_7&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_7&quot;"/> 
+  </image>
+  <text x="1404.7" y="129.682" fill="black" font-size="18">00UKS</text>
+  <image x="1387.7" y="475.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_8&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_8&quot;"/> 
+  </image>
+  <image x="1387.7" y="515.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_9&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_9&quot;"/> 
+  </image>
+  <image x="1387.7" y="555.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_10&quot;"/> 
+  </image>
+  <image x="1387.7" y="595.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_11_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_11_1&quot;"/> 
+  </image>
+  <image x="1387.7" y="635.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_11_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_11_2&quot;"/> 
+  </image>
+  <image x="1387.7" y="675.682" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uovs_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uovs_12&quot;"/> 
+  </image>
+  <image x="1018" y="352" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры работы насосов дозаторов</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;доп. ФГУ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;no_fgu_hvo&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1018" y="312.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры работы насосов дозаторов</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;fgu_all&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1752.3" y="528.318" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_1&quot;"/> 
+  </image>
+  <image x="1750" y="567" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_2&quot;"/> 
+  </image>
+  <image x="1750" y="607" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_3&quot;"/> 
+  </image>
+  <image x="1750" y="647" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_4_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_4_1&quot;"/> 
+  </image>
+  <image x="1750" y="687" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_4_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_4_2&quot;"/> 
+  </image>
+  <image x="1750" y="727" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_5&quot;"/> 
+  </image>
+  <image x="1750" y="767" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_6&quot;"/> 
+  </image>
+  <text x="1772" y="501" fill="black" font-size="18">20UKC</text>
+  <text x="16" y="32" font-size="15" font-weight="700">ALL_SVSU</text>
+  <image x="54.5151" y="849" width="150" height="50" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-2 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСРК 7 блок&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;7_all_asrk&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+  <image x="1624.15" y="408.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_1&quot;"/> 
+  </image>
+  <text x="1648.15" y="397.879" fill="black" font-size="18">УОС</text>
+  <image x="1624.15" y="445.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_2&quot;"/> 
+  </image>
+  <image x="1624.15" y="483.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_3&quot;"/> 
+  </image>
+  <image x="1624.15" y="518.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_4&quot;"/> 
+  </image>
+  <image x="1624.15" y="558.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_5&quot;"/> 
+  </image>
+  <image x="1624.15" y="595.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos2_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos2_6&quot;"/> 
+  </image>
+  <image x="1624.15" y="637.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos_tzb_1&quot;"/> 
+  </image>
+  <image x="1624.15" y="677.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos_tzb_2&quot;"/> 
+  </image>
+  <image x="1624.15" y="721.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos_tzb_3&quot;"/> 
+  </image>
+  <image x="1624.15" y="766.879" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uos_tzb_4&quot;"/> 
+  </image>
+  <image x="1387.36" y="759.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro0_fgu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro0_fgu&quot;"/> 
+  </image>
+  <image x="1387.36" y="799.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro1_fgu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro1_fgu&quot;"/> 
+  </image>
+  <image x="1387.36" y="839.333" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jro2_fgu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;jro2_fgu&quot;"/> 
+  </image>
+  <text x="1410.06" y="750" fill="black" font-size="18">ФГУ</text>
+  <image x="237.818" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_svbu_6_7&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВБУ&quot;"/> 
+  </image>
+  <image x="1700" y="927.151" width="150" height="50" xlink:href="obj_Button.svg">
+    <title>Резервное электроснабжение ЗРУ-2 10кВ</title>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСКРО&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;askro&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="15"/> 
+  </image>
+</svg>

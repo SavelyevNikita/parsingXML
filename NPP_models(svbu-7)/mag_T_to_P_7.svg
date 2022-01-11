@@ -1,0 +1,620 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1010" width="1914" height="1010" id="mag_T_to_P" font-size="15" font-weight="700" text-anchor="inherit">
+  <title>Видеокадр расчета абсолютного давления по температуре насыщения</title>
+  <rt:model modelversion="7.2.0.24" comment="Создано NVAES-5\SVBU 02.01.2020 7:59:51">
+    <rt:param name="trans_tbl" datatype="double" comment="trans table" arraysize="151"/> 
+    <rt:param name="mag10_ct" datatype="PlsPVAna" comment="mag10 ct" arraysize="4"/> 
+    <rt:param name="mag20_ct" datatype="PlsPVAna" comment="mag20 ct" arraysize="4"/> 
+    <rt:param name="mag30_ct" datatype="PlsPVAna" comment="mag30 ct" arraysize="4"/> 
+    <rt:param name="mag40_ct" datatype="PlsPVAna" comment="mag40 ct" arraysize="4"/> 
+    <rt:param name="mag10_ct_avg" datatype="double" comment="mag10 ct avg"/> 
+    <rt:param name="mag20_ct_avg" datatype="double" comment="mag20 ct avg"/> 
+    <rt:param name="mag30_ct_avg" datatype="double" comment="mag30 ct avg"/> 
+    <rt:param name="mag40_ct_avg" datatype="double" comment="mag40 ct avg"/> 
+    <rt:param name="mag10_p" datatype="double" comment="mag10 p"/> 
+    <rt:param name="mag20_p" datatype="double" comment="mag20 p"/> 
+    <rt:param name="mag30_p" datatype="double" comment="mag30 p"/> 
+    <rt:param name="mag40_p" datatype="double" comment="mag40 p"/> 
+    <rt:param name="tmp_dbl_1" datatype="double" comment="Parameter tmp_dbl_1"/> 
+    <rt:param name="tmp_dbl_2" datatype="double" comment="Parameter tmp_dbl_2"/> 
+    <rt:param name="tmp_dbl_3" datatype="double" comment="Parameter tmp_dbl_3"/> 
+    <rt:param name="tmp_dbl_4" datatype="double" comment="Parameter tmp_dbl_4"/> 
+    <rt:param name="tmp_int_1" datatype="int" comment="Parameter tmp_dbl_1"/> 
+    <rt:param name="tmp_int_2" datatype="int" comment="Parameter tmp_int_2"/> 
+    <rt:param name="tmp_int_3" datatype="int" comment="Parameter tmp_int_3"/> 
+    <rt:param name="tmp_int_4" datatype="int" comment="Parameter tmp_int_4"/> 
+    <rt:sub>Function printValue(ByVal p As Double) As String
+	printValue = Left(CStr(Round(p, 3)), 6)
+End Function</rt:sub>
+    <rt:sub>Function TtoP(ByVal t As Double) As String
+	&apos; Индексы 0 - 150 массива trans_tbl соответствуют диапазону 45 - 60 градучов по Цельсию с шагом 0.1 градус
+	Dim s as String
+	Dim d as Double
+	Dim v as Double
+	Dim i as int
+	s = &quot;- - -&quot;
+	If (t &gt;= 45 &amp;&amp; t &lt;= 60) Then
+		d = (t - 45.0) / 0.1
+		i = CInt(d) &apos; получить целое с округлением вниз
+		v = trans_tbl(i) + (trans_tbl(i + 1) - trans_tbl(i)) * (d - i)
+		s = printValue(v)
+	End If
+	TtoP = s
+End Function</rt:sub>
+    <rt:event type="OnInitialize">&apos;connect mag10 ct ana pvs
+mag10_ct(0) = RTAPLS.AnaPV(&quot;20MAC10CT002_XQ01&quot;)
+mag10_ct(1) = RTAPLS.AnaPV(&quot;20MAC10CT003_XQ01&quot;)
+mag10_ct(2) = RTAPLS.AnaPV(&quot;20MAC10CT004_XQ01&quot;)
+mag10_ct(3) = RTAPLS.AnaPV(&quot;20MAC10CT005_XQ01&quot;)
+
+&apos;connect mag20 ct ana pvs
+mag20_ct(0) = RTAPLS.AnaPV(&quot;20MAC20CT002_XQ01&quot;)
+mag20_ct(1) = RTAPLS.AnaPV(&quot;20MAC20CT003_XQ01&quot;)
+mag20_ct(2) = RTAPLS.AnaPV(&quot;20MAC20CT004_XQ01&quot;)
+mag20_ct(3) = RTAPLS.AnaPV(&quot;20MAC20CT005_XQ01&quot;)
+
+&apos;connect mag30 ct ana pvs
+mag30_ct(0) = RTAPLS.AnaPV(&quot;20MAC30CT002_XQ01&quot;)
+mag30_ct(1) = RTAPLS.AnaPV(&quot;20MAC30CT003_XQ01&quot;)
+mag30_ct(2) = RTAPLS.AnaPV(&quot;20MAC30CT004_XQ01&quot;)
+mag30_ct(3) = RTAPLS.AnaPV(&quot;20MAC30CT005_XQ01&quot;)
+
+&apos;connect mag40 ct ana pvs
+mag40_ct(0) = RTAPLS.AnaPV(&quot;20MAC40CT002_XQ01&quot;)
+mag40_ct(1) = RTAPLS.AnaPV(&quot;20MAC40CT003_XQ01&quot;)
+mag40_ct(2) = RTAPLS.AnaPV(&quot;20MAC40CT004_XQ01&quot;)
+mag40_ct(3) = RTAPLS.AnaPV(&quot;20MAC40CT005_XQ01&quot;)
+
+&apos; 0 - 150 соответствует диапазону 45 - 60 градучов по Цельсию с шагом 0.1 градус
+trans_tbl(0) = 9.594
+trans_tbl(1) = 9.643
+trans_tbl(2) = 9.693
+trans_tbl(3) = 9.743
+trans_tbl(4) = 9.793
+trans_tbl(5) = 9.843
+trans_tbl(6) = 9.894
+trans_tbl(7) = 9.945
+trans_tbl(8) = 9.996
+trans_tbl(9) = 10.05
+trans_tbl(10) = 10.1
+trans_tbl(11) = 10.15
+trans_tbl(12) = 10.2
+trans_tbl(13) = 10.25
+trans_tbl(14) = 10.31
+trans_tbl(15) = 10.36
+trans_tbl(16) = 10.41
+trans_tbl(17) = 10.46
+trans_tbl(18) = 10.52
+trans_tbl(19) = 10.57
+trans_tbl(20) = 10.63
+trans_tbl(21) = 10.68
+trans_tbl(22) = 10.73
+trans_tbl(23) = 10.79
+trans_tbl(24) = 10.84
+trans_tbl(25) = 10.9
+trans_tbl(26) = 10.95
+trans_tbl(27) = 11.01
+trans_tbl(28) = 11.06
+trans_tbl(29) = 11.12
+trans_tbl(30) = 11.18
+trans_tbl(31) = 11.23
+trans_tbl(32) = 11.29
+trans_tbl(33) = 11.35
+trans_tbl(34) = 11.4
+trans_tbl(35) = 11.46
+trans_tbl(36) = 11.52
+trans_tbl(37) = 11.58
+trans_tbl(38) = 11.63
+trans_tbl(39) = 11.69
+trans_tbl(40) = 11.75
+trans_tbl(41) = 11.81
+trans_tbl(42) = 11.87
+trans_tbl(43) = 11.93
+trans_tbl(44) = 11.99
+trans_tbl(45) = 12.05
+trans_tbl(46) = 12.11
+trans_tbl(47) = 12.17
+trans_tbl(48) = 12.23
+trans_tbl(49) = 12.29
+trans_tbl(50) = 12.35
+trans_tbl(51) = 12.41
+trans_tbl(52) = 12.47
+trans_tbl(53) = 12.54
+trans_tbl(54) = 12.6
+trans_tbl(55) = 12.66
+trans_tbl(56) = 12.72
+trans_tbl(57) = 12.79
+trans_tbl(58) = 12.85
+trans_tbl(59) = 12.91
+trans_tbl(60) = 12.98
+trans_tbl(61) = 13.04
+trans_tbl(62) = 13.11
+trans_tbl(63) = 13.17
+trans_tbl(64) = 13.24
+trans_tbl(65) = 13.3
+trans_tbl(66) = 13.37
+trans_tbl(67) = 13.43
+trans_tbl(68) = 13.5
+trans_tbl(69) = 13.56
+trans_tbl(70) = 13.63
+trans_tbl(71) = 13.7
+trans_tbl(72) = 13.76
+trans_tbl(73) = 13.83
+trans_tbl(74) = 13.9
+trans_tbl(75) = 13.97
+trans_tbl(76) = 14.04
+trans_tbl(77) = 14.1
+trans_tbl(78) = 14.17
+trans_tbl(79) = 14.24
+trans_tbl(80) = 14.31
+trans_tbl(81) = 14.38
+trans_tbl(82) = 14.45
+trans_tbl(83) = 14.52
+trans_tbl(84) = 14.59
+trans_tbl(85) = 14.66
+trans_tbl(86) = 14.73
+trans_tbl(87) = 14.81
+trans_tbl(88) = 14.88
+trans_tbl(89) = 14.95
+trans_tbl(90) = 15.02
+trans_tbl(91) = 15.09
+trans_tbl(92) = 15.17
+trans_tbl(93) = 15.24
+trans_tbl(94) = 15.31
+trans_tbl(95) = 15.39
+trans_tbl(96) = 15.46
+trans_tbl(97) = 15.54
+trans_tbl(98) = 15.61
+trans_tbl(99) = 15.69
+trans_tbl(100) = 15.76
+trans_tbl(101) = 15.84
+trans_tbl(102) = 15.91
+trans_tbl(103) = 15.99
+trans_tbl(104) = 16.07
+trans_tbl(105) = 16.14
+trans_tbl(106) = 16.22
+trans_tbl(107) = 16.3
+trans_tbl(108) = 16.38
+trans_tbl(109) = 16.45
+trans_tbl(110) = 16.53
+trans_tbl(111) = 16.61
+trans_tbl(112) = 16.69
+trans_tbl(113) = 16.77
+trans_tbl(114) = 16.85
+trans_tbl(115) = 16.93
+trans_tbl(116) = 17.01
+trans_tbl(117) = 17.09
+trans_tbl(118) = 17.17
+trans_tbl(119) = 17.25
+trans_tbl(120) = 17.33
+trans_tbl(121) = 17.42
+trans_tbl(122) = 17.5
+trans_tbl(123) = 17.58
+trans_tbl(124) = 17.66
+trans_tbl(125) = 17.75
+trans_tbl(126) = 17.83
+trans_tbl(127) = 17.92
+trans_tbl(128) = 18
+trans_tbl(129) = 18.09
+trans_tbl(130) = 18.17
+trans_tbl(131) = 18.26
+trans_tbl(132) = 18.34
+trans_tbl(133) = 18.43
+trans_tbl(134) = 18.51
+trans_tbl(135) = 18.6
+trans_tbl(136) = 18.69
+trans_tbl(137) = 18.78
+trans_tbl(138) = 18.86
+trans_tbl(139) = 18.95
+trans_tbl(140) = 19.04
+trans_tbl(141) = 19.13
+trans_tbl(142) = 19.22
+trans_tbl(143) = 19.31
+trans_tbl(144) = 19.4
+trans_tbl(145) = 19.49
+trans_tbl(146) = 19.58
+trans_tbl(147) = 19.67
+trans_tbl(148) = 19.76
+trans_tbl(149) = 19.85
+trans_tbl(150) = 19.94
+</rt:event>
+    <rt:sub>Sub mag10_ct_recalc()
+	
+	&apos;calc mag10 avg
+	tmp_dbl_1 = 0
+	Dim i as int
+	i = 0
+	For tmp_int_1 = 0 To 3
+		If (mag10_ct(tmp_int_1).Quality &lt;&gt; PLS_QUAL_BAD) Then
+			i = i + 1
+			tmp_dbl_1 = tmp_dbl_1 + mag10_ct(tmp_int_1).Value
+		End if
+	next tmp_int_1
+	If (i &gt; 0) Then
+		tmp_dbl_1 = tmp_dbl_1 / i
+	End if
+	&apos;write avg
+	mag10_ct_avg = tmp_dbl_1
+
+	&apos;calc P for T value
+	mag10_p = TtoP(mag10_ct_avg)
+	
+End Sub</rt:sub>
+    <rt:sub>Sub mag20_ct_recalc()
+	
+	&apos;calc mag20 avg
+	tmp_dbl_2 = 0
+	Dim i as int
+	i = 0
+	For tmp_int_2 = 0 To 3
+		If (mag20_ct(tmp_int_2).Quality &lt;&gt; PLS_QUAL_BAD) Then
+			i = i + 1
+			tmp_dbl_2 = tmp_dbl_2 + mag20_ct(tmp_int_2).Value
+		End If
+	next tmp_int_2
+	If (i &gt; 0) Then
+		tmp_dbl_2 = tmp_dbl_2 / i
+	End if
+	&apos;write avg
+	mag20_ct_avg = tmp_dbl_2
+	
+	&apos;calc P for T value
+	mag20_p = TtoP(mag20_ct_avg)
+
+End Sub</rt:sub>
+    <rt:sub>Sub mag30_ct_recalc()
+	
+	&apos;calc mag30 avg
+	tmp_dbl_3 = 0
+	Dim i as int
+	i = 0
+	For tmp_int_3 = 0 To 3
+		If (mag30_ct(tmp_int_3).Quality &lt;&gt; PLS_QUAL_BAD) Then
+			i = i + 1
+			tmp_dbl_3 = tmp_dbl_3 + mag30_ct(tmp_int_3).Value
+		End if
+	next tmp_int_3
+	If (i &gt; 0) Then
+		tmp_dbl_3 = tmp_dbl_3 / i
+	End If
+	&apos;write avg
+	mag30_ct_avg = tmp_dbl_3
+	
+	&apos;calc P for T value
+	mag30_p = TtoP(mag30_ct_avg)
+
+End Sub</rt:sub>
+    <rt:sub>Sub mag40_ct_recalc()
+	
+	&apos;calc mag40 avg
+	tmp_dbl_4 = 0
+	Dim i as int
+	i = 0
+	For tmp_int_4 = 0 To 3
+		If (mag40_ct(tmp_int_4).Quality &lt;&gt; PLS_QUAL_BAD) Then
+			i = i + 1
+			tmp_dbl_4 = tmp_dbl_4 + mag40_ct(tmp_int_4).Value
+		End if
+	next tmp_int_4
+	If (i &gt; 0) Then
+		tmp_dbl_4 = tmp_dbl_4 / i
+	End if
+	&apos;write avg
+	mag40_ct_avg = tmp_dbl_4
+	
+	&apos;calc P for T value
+	mag40_p = TtoP(mag40_ct_avg)
+
+End Sub</rt:sub>
+    <rt:changeTrigger name="mag10_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC10CT002_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag10_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag10_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC10CT003_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag10_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag10_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC10CT004_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag10_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag10_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC10CT005_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag10_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag20_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC20CT002_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag20_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag20_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC20CT003_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag20_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag20_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC20CT004_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag20_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag20_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC20CT005_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag20_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag30_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC30CT002_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag30_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag30_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC30CT003_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag30_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag30_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC30CT004_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag30_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag30_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC30CT005_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag30_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag40_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC40CT002_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag40_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag40_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC40CT003_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag40_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag40_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC40CT004_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag40_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="mag40_ct_recalc">
+      <rt:chgItem>ANA(&quot;20MAC40CT005_XQ01&quot;)</rt:chgItem>
+      <rt:code>mag40_ct_recalc()</rt:code>
+    </rt:changeTrigger>
+  </rt:model>
+  <g>
+    <polyline points="-38.6912,-58.7342 -36.6075,375.175 7.16489,475.992 111.405,475.992 111.405,526.545 261.738,526.545 261.738,475.992 329.104,475.992 386.305,404.692 981.489,402.748 1050.62,318.872 1050.62,-59.0871 603.946,-59.0871 604.24,293.859 385.833,293.211 385.833,-58.7342 10.0014,-58.7342 -38.6912,-58.7342" fill="Col_Grey4" stroke="black" stroke-width="3" transform="scale(0.727593 0.627593 558.88 300)"/> 
+  </g>
+  <text x="855" y="24" font-size="30" font-weight="700">Конденсатор</text>
+  <text x="219.693" y="92.9246" font-size="15">20MAG10AC001</text>
+  <text x="690.269" y="91.9246" font-size="15">20MAG20AC001</text>
+  <g>
+    <polyline points="1226.12,-60.2328 1228.21,373.676 1271.98,474.494 1376.22,474.494 1376.22,525.047 1526.55,525.047 1526.55,474.494 1593.92,474.494 1651.12,403.193 2246.3,401.249 2315.43,317.373 2315.43,-60.5858 1868.76,-60.5858 1869.05,292.36 1650.65,291.712 1650.65,-60.2328 1274.82,-60.2328 1226.12,-60.2328" fill="Col_Grey4" stroke="black" stroke-width="3" transform="scale(0.727593 0.627593 558.88 300)"/> 
+  </g>
+  <text x="1137.27" y="91.5916" font-size="15">20MAG30AC001</text>
+  <text x="1613.66" y="90.5956" font-size="15">20MAG40AC001</text>
+  
+  
+  
+  
+  <image x="135" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAC10CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC10CT002_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="285" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAC10CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC10CT003_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="135" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAC10CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC10CT004_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="285" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAC10CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC10CT005_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="135" y="170" width="290" height="100" rx="0" ry="0" fill="white">
+    <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+  </rect>
+  <text x="150" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">T ср =               с</text>
+  <text x="300" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+    <rt:dyn type="text" mode="onchange" value="printValue(mag10_ct_avg)"/> 
+    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+  <text x="150" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">P     =               кПа</text>
+  <text x="300" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+    <rt:dyn type="text" mode="onchange" value="TtoP(mag10_ct_avg)"/> 
+    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+
+
+
+  <g transform="translate(475 0)">
+	  <image x="135" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC20CT002&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC20CT002_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC20CT003&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC20CT003_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="135" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC20CT004&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC20CT004_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC20CT005&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC20CT005_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <rect x="135" y="170" width="290" height="100" rx="0" ry="0" fill="white">
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+	  </rect>
+	  <text x="150" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">T ср =               с</text>
+	  <text x="300" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="printValue(mag20_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+	  <text x="150" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">P     =               кПа</text>
+	  <text x="300" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="TtoP(mag20_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+  </g>
+  
+  
+  
+  
+    <g transform="translate(920 0)">
+	  <image x="135" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC30CT002&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC30CT002_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC30CT003&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC30CT003_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="135" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC30CT004&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC30CT004_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC30CT005&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC30CT005_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <rect x="135" y="170" width="290" height="100" rx="0" ry="0" fill="white">
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+	  </rect>
+	  <text x="150" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">T ср =               с</text>
+	  <text x="300" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="printValue(mag30_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+	  <text x="150" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">P     =               кПа</text>
+	  <text x="300" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="TtoP(mag30_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+  </g>
+  
+  
+  
+  
+    <g transform="translate(1390 0)">
+	  <image x="135" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC40CT002&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC40CT002_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="100" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC40CT003&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC40CT003_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="135" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC40CT004&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC40CT004_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <image x="285" y="135" width="140" height="25" xlink:href="DS_ana.svg">
+	    <title>&quot;20MAC40CT005&quot;</title>
+	    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAC40CT005_XQ01&quot;"/> 
+	    <rt:dyn type="FName" mode="constant" value="true"/> 
+	    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+	    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+	    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+	    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+	    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+	  </image>
+	  <rect x="135" y="170" width="290" height="100" rx="0" ry="0" fill="white">
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+	  </rect>
+	  <text x="150" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">T ср =               с</text>
+	  <text x="300" y="210" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="printValue(mag40_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+	  <text x="150" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle" fill="white" text-anchor="start">P     =               кПа</text>
+	  <text x="300" y="250" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+	    <rt:dyn type="text" mode="onchange" value="TtoP(mag40_ct_avg)"/> 
+	    <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+	_val_</text>
+  </g>
+  
+  <image x="0" y="460" width="1914" height="571" xlink:href="/PORTAL/Vis/NPP_models/t_to_p.png"/> 
+</svg>

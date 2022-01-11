@@ -1,0 +1,168 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lcx">
+  <title>Система подачи конденсата на управление клапанами КОС</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_nsb&#10;LMod lct53&#10;RMod maa"/> 
+  <line x1="934" y1="177" x2="934" y2="394.691" stroke="black" stroke-width="3"/> 
+  <line x1="1233" y1="197" x2="1233" y2="391.66" stroke="black" stroke-width="3"/> 
+  <line x1="611" y1="197" x2="611" y2="393.13" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(44.5342 450 350)">
+    <rect x="478.294" y="148.523" width="99" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey4"/> 
+    <line x1="477.294" y1="247.523" x2="577.294" y2="147.523" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="rotate(44.5342 450 350)">
+    <rect x="707.339" y="-78.0226" width="99" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey4"/> 
+    <line x1="706.339" y1="20.9774" x2="806.339" y2="-79.0226" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="rotate(44.5342 450 350)">
+    <rect x="921.177" y="-287.014" width="99" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey4"/> 
+    <line x1="920.177" y1="-188.014" x2="1020.17" y2="-288.014" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="716.697" y="636.515" visibility="hidden" rt:detect="disabled">20LBQ15<tspan x="716.697" dy="10">AA410</tspan>
+  </text>
+  <text x="890.424" y="772.909" visibility="hidden" rt:detect="disabled">10MAY00EJ101</text>
+  <text x="1450" y="751.632" visibility="hidden" rt:detect="disabled">20LCX10EJ701</text>
+  <line x1="609.758" y1="197" x2="1234" y2="197" stroke="black" stroke-width="3"/> 
+  <text x="610.818" y="274.394" fill="black" font-size="15" text-anchor="middle">20LCX10<tspan x="610.818" dy="15">AT001</tspan>
+  </text>
+  <text x="933.03" y="274.394" fill="black" font-size="15" text-anchor="middle">20LCX10<tspan x="933.03" dy="15">AT002</tspan>
+  </text>
+  <text x="1232.06" y="274.394" fill="black" font-size="15" text-anchor="middle">20LCX10<tspan x="1232.06" dy="15">AT003</tspan>
+  </text>
+  <line x1="610.364" y1="393.56" x2="1234.61" y2="393.56" stroke="black" stroke-width="3"/> 
+  <image x="922.424" y="179.848" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca10&quot;"/> 
+  </image>
+  <text x="912.303" y="88.9697" fill="black" font-size="15">LCA10</text>
+  <line x1="1043.64" y1="443.106" x2="1315.33" y2="442.606" stroke="black" stroke-width="3"/> 
+  <line x1="816" y1="392.651" x2="816" y2="444.166" stroke="black" stroke-width="3"/> 
+  <line x1="1044.11" y1="392.576" x2="1044.11" y2="444.091" stroke="black" stroke-width="3"/> 
+  <line x1="1081" y1="441.091" x2="1081" y2="584.099" stroke="black" stroke-width="3"/> 
+  <image x="1046.12" y="469.364" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20LCX10AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCX10AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="959.879" y="509.758" fill="black" font-size="15">20LCX10<tspan x="959.879" dy="15">AA003</tspan>
+  </text>
+  <line x1="1191.08" y1="444.121" x2="1191.08" y2="587.129" stroke="black" stroke-width="3"/> 
+  <image x="1156.73" y="469.364" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20LCX10AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCX10AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="1217.48" y="509.758" fill="black" font-size="15">20LCX10<tspan x="1217.48" dy="15">AA004</tspan>
+  </text>
+  <line x1="778.954" y1="442.607" x2="778.954" y2="585.615" stroke="black" stroke-width="3"/> 
+  <line x1="668.349" y1="441.091" x2="668.349" y2="584.099" stroke="black" stroke-width="3"/> 
+  <image x="633.514" y="469.364" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20LCX10AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCX10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="549.273" y="509.758" fill="black" font-size="15">20LCX10<tspan x="549.273" dy="15">AA001</tspan>
+  </text>
+  <image x="745.124" y="469.364" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20LCX10AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCX10AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="805.874" y="509.758" fill="black" font-size="15">20LCX10<tspan x="805.874" dy="15">AA002</tspan>
+  </text>
+  <line x1="667.333" y1="586.015" x2="1191" y2="586.015" stroke="black" stroke-width="3"/> 
+  <line x1="933.5" y1="585.546" x2="933.5" y2="637.061" stroke="black" stroke-width="3"/> 
+  <image x="921.394" y="710.788" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;"/> 
+  </image>
+  <text x="914.273" y="720.939" fill="black" font-size="15">LCM</text>
+  <line x1="1313.73" y1="442.606" x2="1314.55" y2="860" stroke="black" stroke-width="3"/> 
+  <rect x="1133.08" y="604.712" width="362.121" height="180.303" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <text x="1161.3" y="678.75" fill="black" font-size="15">20LBS30<tspan x="1161.3" dy="15">AA610</tspan>
+  </text>
+  <text x="1373.42" y="678.75" fill="black" font-size="15">20NAA10<tspan x="1373.42" dy="15">AA610</tspan>
+  </text>
+  <text x="1141.7" y="739.576" fill="black" font-size="15">V отбор<tspan x="1141.7" dy="15">в ПНД-3</tspan>
+  </text>
+  <text x="1400.12" y="739.576" fill="black" font-size="15">V отбор<tspan x="1400.12" dy="15">в бойлер-1</tspan>
+  </text>
+  <line x1="543.578" y1="443.303" x2="815.268" y2="442.803" stroke="black" stroke-width="3"/> 
+  <rect x="362.288" y="604.72" width="362.121" height="180.303" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <text x="391.139" y="678.75" fill="black" font-size="15">20LBQ11<tspan x="391.139" dy="15">AA610</tspan>
+  </text>
+  <text x="751.745" y="678.75" fill="black" font-size="15">20LBQ15<tspan x="751.745" dy="15">AA610</tspan>
+  </text>
+  <line x1="542" y1="442.614" x2="542" y2="860" stroke="black" stroke-width="3"/> 
+  <text x="568.411" y="678.75" fill="black" font-size="15">20LBQ13<tspan x="568.411" dy="15">AA610</tspan>
+  </text>
+  <text x="370.364" y="752.727" fill="black" font-size="15">I отбор</text>
+  <text x="549.667" y="752.727" fill="black" font-size="15">II отбор</text>
+  <text x="733.061" y="752.727" fill="black" font-size="15">III отбор</text>
+  <line x1="542" y1="859.985" x2="1316.88" y2="859.985" stroke="black" stroke-width="3"/> 
+  <line x1="936.076" y1="860" x2="936.076" y2="887" stroke="black" stroke-width="3"/> 
+  <text x="938.273" y="916.242" fill="black" font-size="15" text-anchor="middle">КНДР<tspan x="938.273" dy="15">( в гидрозатвор КПУ)</tspan>
+  </text>
+  <line x1="421.394" y1="220" x2="611.269" y2="220" stroke="black" stroke-dasharray="10,10" stroke-width="1"/> 
+  <line x1="419.879" y1="371.712" x2="609.754" y2="371.712" stroke="black" stroke-dasharray="10,10" stroke-width="1"/> 
+  <line x1="419.879" y1="220.697" x2="419.863" y2="371.281" stroke="black" stroke-dasharray="10,10" stroke-width="1"/> 
+  <image x="295.636" y="269.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LCX10CP101&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCX10CP101&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="324" y="657.75" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(270 0 -3.75)">
+    <title>&quot;20LBQ11AA610&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20LBQ11CG610_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20LBQ11CG611_XB02&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="503.25" y="657.75" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(270 0 -3.75)">
+    <title>&quot;20LBQ11AA610&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20LBQ13CG610_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20LBQ13CG611_XB02&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="686.25" y="657.75" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(270 0 -3.75)">
+    <title>&quot;20LBQ11AA610&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20LBQ15CG610_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20LBQ15CG611_XB02&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1094.5" y="657.75" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(270 0 -3.75)">
+    <title>&quot;20LBQ11AA610&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20LBS30CG610_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20LBS30CG611_XB02&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1456" y="657.75" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="rotate(270 0 -3.75)">
+    <title>&quot;20LBQ11AA610&quot;</title>
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;20NAA10CG610_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;20NAA10CG611_XB02&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <g transform="flipY(18) flipY(118.5) rotate(120 1.4013e-045 1.4013e-045) flipY(224.444) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="2591.48,934.238 2604.86,941.878 2604.86,926.598 2591.48,934.238" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="35" y="23.5" fill="black" font-size="15" font-weight="700">LCX</text>
+  <text x="979" y="31" fill="black" font-size="30" font-weight="700" text-anchor="middle">Система подачи конденсата на управление клапанами КОС</text>
+</svg>

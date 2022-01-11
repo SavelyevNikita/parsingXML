@@ -1,0 +1,589 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1920 1080" width="1920" height="1080" id="20kfb00ep721" stroke-width="2" font-family="AAP_Font2" font-size="20" font-weight="700">
+  <desc>SPPB1</desc>
+  <title>Состояние КФБ</title>
+  <rt:model comment="Created by Pervushin">
+    <rt:event type="OnInitialize"/> 
+  </rt:model>
+  <image x="1137.9" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb04ep721&quot;"/> 
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB04EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB04EU801_ZP07&quot;"/> 
+  </image>
+  <image x="867.138" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb03ep721&quot;"/> 
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB03EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB03EU801_ZP07&quot;"/> 
+  </image>
+  <image x="597.35" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB12EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB12EU801_ZP07&quot;"/> 
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb12ep721&quot;"/> 
+  </image>
+  <image x="557" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB12EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <rect x="14" y="853" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="14" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="14" y="721" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="14" y="589" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <line x1="280" y1="201" x2="280" y2="1058" stroke="black" stroke-dasharray="9"/> 
+  <line x1="551" y1="201" x2="551" y2="1054" stroke="black" stroke-dasharray="9"/> 
+  <line x1="822" y1="201" x2="822" y2="1054" stroke="black" stroke-dasharray="9"/> 
+  <line x1="1364" y1="141" x2="1364" y2="1054" stroke="black" stroke-dasharray="9"/> 
+  <line x1="1635" y1="141" x2="1635" y2="1054" stroke="black" stroke-dasharray="9"/> 
+  <line x1="1906" y1="141" x2="1906" y2="1056.54" stroke="black"/> 
+  <line x1="1093" y1="141" x2="1093" y2="1054" stroke="black" stroke-dasharray="9"/> 
+  <line x1="7" y1="141" x2="1905" y2="141" stroke="black"/> 
+  <line x1="9.51514" y1="198.727" x2="1898.91" y2="198.727" stroke="black"/> 
+  <text x="352.485" y="177.818" font-size="20">ТОПЛИВНАЯ МАТРИЦА, ОБОЛОЧКАТВЭЛ</text>
+  <text x="1226.18" y="165" font-size="20" text-anchor="middle">ГРАНИЦА КОНТУРА<tspan x="1226.18" dy="20">Т/Н РЕАКТОРА</tspan>
+  </text>
+  <line x1="7.06059" y1="140" x2="11.606" y2="1053.82" stroke="black"/> 
+  <line x1="5.48484" y1="263" x2="1897.91" y2="263" stroke="black"/> 
+  <line x1="10.5454" y1="1055" x2="1905" y2="1055" stroke="black"/> 
+  <text x="1765.58" y="165" font-size="20" text-anchor="middle">ГРАНИЦА КОНТУРА<tspan x="1765.58" dy="20">Т/Н РЕАКТОРА</tspan>
+  </text>
+  <text x="107" y="30" font-size="22" font-weight="700" text-anchor="middle">
+    <rt:event type="OnMouseDown"/> 
+    <rt:event type="OnMouseOver"/> 
+20kfb00ep721</text>
+  <text x="141.848" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Подкритичность АЗ</text>
+  <text x="407.758" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Охлаждение АЗ</text>
+  <text x="680.333" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Охлаждение БВ</text>
+  <text x="964.576" y="229" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Теплоотвод<tspan x="964.576" dy="24">от 1к во 2к</tspan>
+  </text>
+  <text x="1238.82" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Целостность 1к</text>
+  <text x="1763.06" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Запас т/н 1к</text>
+  <text x="1493.36" y="238" fill="black" font-size="24" font-style="oblique" text-anchor="middle">Целостность ГО</text>
+  <text x="145.515" y="611" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Nнейтр &gt; 15% ч/з 4 с</text>
+  <image x="130" y="618" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage846">
+    <title>&quot;20CLA70FX801_XP01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLA70FX801_XP01&quot;"/> 
+  </image>
+  <text x="143.425" y="743" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Nнейтр &gt; 1e-3%</text>
+  <text x="147.97" y="809" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Nнейтр &gt; 1e-6%</text>
+  <text x="140.394" y="875" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Треакт &gt; 0</text>
+  <image x="130" y="750" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage848">
+    <title>&quot;20CLA70FX803_XP01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLA70FX803_XP01&quot;"/> 
+  </image>
+  <image x="130" y="816" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage849">
+    <title>&quot;20CLA70FX804_XP01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLA70FX804_XP01&quot;"/> 
+  </image>
+  <image x="130" y="882" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage850">
+    <title>&quot;20CLA70FX805_XP01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLA70FX805_XP01&quot;"/> 
+  </image>
+  <rect x="14" y="655" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="130" y="684" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage847">
+    <title>&quot;20CLA70FX802_XP01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLA70FX802_XP01&quot;"/> 
+  </image>
+  <text x="144.121" y="677" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Nнейтр &gt; 5% ч/з 10 с</text>
+  <rect x="285" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="285" y="721" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="285" y="589" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="401" y="618" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage879">
+    <title>&quot;20JAA00FT801_XP02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA00FT801_XP02&quot;"/> 
+  </image>
+  <text x="414.425" y="743" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Тмах сврд &gt; Тs1к°С</text>
+  <text x="411.394" y="812" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Тs1k-Tcр г.н &lt; 8°С</text>
+  <image x="401" y="750" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage880">
+    <title>&quot;20JAA00FT803_XP02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA00FT803_XP02&quot;"/> 
+  </image>
+  <image x="401" y="819" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage882">
+    <title>&quot;20JAA00FT809_XP02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA00FT809_XP02&quot;"/> 
+  </image>
+  <rect x="285" y="655" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="401" y="684" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage883">
+    <title>&quot;20JAA00FT802_XP02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA00FT802_XP02&quot;"/> 
+  </image>
+  <text x="415.121" y="677" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Тмах сврд &gt; 367°С</text>
+  <text x="1505.73" y="165" font-size="20" text-anchor="middle">ГЕРМЕТИЧНОЕ<tspan x="1505.73" dy="20">ОГРАЖДЕНИЕ  РУ</tspan>
+  </text>
+  <g>
+    <line x1="467.558" y1="346.775" x2="467.558" y2="566.906" stroke="Col_Grey4"/> 
+    <line x1="358.558" y1="346.775" x2="468.061" y2="346.775" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="358.558" y1="567.025" x2="468.061" y2="566.275" stroke="Col_Grey4"/> 
+    <line x1="358.058" y1="345.775" x2="358.058" y2="566.906" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="195.891" y1="347.26" x2="195.891" y2="567.391" stroke="Col_Grey4"/> 
+    <line x1="86.8915" y1="347.26" x2="196.394" y2="347.26" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="86.8915" y1="567.51" x2="196.394" y2="566.76" stroke="Col_Grey4"/> 
+    <line x1="86.3915" y1="346.26" x2="86.3915" y2="567.391" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="741.437" y1="346.866" x2="741.437" y2="566.997" stroke="Col_Grey4"/> 
+    <line x1="632.437" y1="346.866" x2="741.94" y2="346.866" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="632.437" y1="567.116" x2="741.94" y2="566.366" stroke="Col_Grey4"/> 
+    <line x1="631.937" y1="345.866" x2="631.937" y2="566.997" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="1011.22" y1="347.805" x2="1011.22" y2="567.936" stroke="Col_Grey4"/> 
+    <line x1="902.225" y1="347.805" x2="1011.73" y2="347.805" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="902.225" y1="568.055" x2="1011.73" y2="567.305" stroke="Col_Grey4"/> 
+    <line x1="901.725" y1="346.805" x2="901.725" y2="567.936" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="1281.98" y1="346.26" x2="1281.98" y2="566.391" stroke="Col_Grey4"/> 
+    <line x1="1172.98" y1="346.26" x2="1282.49" y2="346.26" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="1172.98" y1="566.51" x2="1282.49" y2="565.76" stroke="Col_Grey4"/> 
+    <line x1="1172.48" y1="345.26" x2="1172.48" y2="566.391" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="1825.71" y1="346.23" x2="1825.71" y2="566.361" stroke="Col_Grey4"/> 
+    <line x1="1716.71" y1="346.23" x2="1826.21" y2="346.23" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="1716.71" y1="566.48" x2="1826.21" y2="565.73" stroke="Col_Grey4"/> 
+    <line x1="1716.21" y1="345.23" x2="1716.21" y2="566.361" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <g>
+    <line x1="1555.59" y1="344.714" x2="1555.59" y2="564.845" stroke="Col_Grey4"/> 
+    <line x1="1446.59" y1="344.714" x2="1556.09" y2="344.714" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+    <line x1="1446.59" y1="564.964" x2="1556.09" y2="564.214" stroke="Col_Grey4"/> 
+    <line x1="1446.09" y1="343.714" x2="1446.09" y2="564.845" stroke="Col_Grey1" stroke-opacity="0.899316"/> 
+  </g>
+  <line x1="561.545" y1="585.333" x2="561.645" y2="585.333" stroke="black"/> 
+  <text x="414.364" y="611" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 2-х Тсврд  &gt; 650°С</text>
+  <rect x="554.97" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="554.97" y="721.364" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="554.97" y="589" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="686.485" y="611" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Тбв &gt; 99°С</text>
+  <image x="670.97" y="618" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage892">
+    <title>&quot;20JNA00FT802_XP12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FT802_XP12&quot;"/> 
+  </image>
+  <text x="684.395" y="743.364" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Hбв &lt; 6м</text>
+  <text x="688.94" y="809.364" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Hбв &lt;9,6м</text>
+  <image x="670.97" y="750.364" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage893">
+    <title>&quot;20JNA00FL801_XP12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FL801_XP12&quot;"/> 
+  </image>
+  <image x="670.97" y="816.364" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage894">
+    <title>&quot;20JNA00FL803_XP12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FL803_XP12&quot;"/> 
+  </image>
+  <rect x="554.97" y="655.364" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="670.97" y="684.364" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage895">
+    <title>&quot;20JNA00FT804_XP12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FT804_XP12&quot;"/> 
+  </image>
+  <text x="685.091" y="677.364" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Тбв &gt; 80°С</text>
+  <rect x="826.182" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="826.182" y="721.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="826.182" y="589" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="942.182" y="618" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage896">
+    <title>&quot;20JEA00FP801_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEA00FP801_XP03&quot;"/> 
+  </image>
+  <text x="955.607" y="743.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 1-м Lпг &lt; Lном+0,5м</text>
+  <text x="960.152" y="809.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 1-м Lпг &lt; Lном-0,5м</text>
+  <image x="941.848" y="749.485" width="30.3337" height="30.5759" xlink:href="bin_indicator.svg" id="SVGImage897">
+    <title>&quot;20JRE00FL803_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JRE00FL803_XP03&quot;"/> 
+  </image>
+  <rect x="826.182" y="655.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="942.182" y="684.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage900">
+    <title>&quot;20JRE00FL802_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JRE00FL802_XP03&quot;"/> 
+  </image>
+  <text x="956.303" y="677.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 3-х Lпг &lt; Lном-0,9м</text>
+  <image x="941.848" y="816.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage902">
+    <title>&quot;20JRE00FL804_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JRE00FL804_XP03&quot;"/> 
+  </image>
+  <line x1="1907" y1="334.697" x2="1907.1" y2="334.697" stroke="black"/> 
+  <text x="955.546" y="611.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 1-м  Pпг &gt;8,1 МПа</text>
+  <text x="955.546" y="611" fill="black" font-size="20" font-style="oblique" text-anchor="middle">в 1-м  Pпг &gt;8,1 МПа</text>
+  <rect x="1097.49" y="589" width="262" height="121" rx="0" ry="0" fill="Col_Grey2" stroke="black">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </rect>
+  <image x="1222" y="618" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage903">
+    <title>&quot;20JNA00FV801_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FV801_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1226.85" y="611" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Vрасх &gt; 60 °C/ч</text>
+  <image x="1144" y="676.849" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage853">
+    <title>&quot;20JAA31FP809_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA31FP809_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1233.82" y="664.727" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Превышение лимитов</text>
+  <image x="1222" y="676.849" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage854">
+    <title>&quot;20JAA32FP810_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA32FP810_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <image x="1309" y="676.849" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage855">
+    <title>&quot;20JAA33FP811_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA33FP811_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1121" y="697" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P31</text>
+  <text x="1202" y="697" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P32</text>
+  <text x="1288.06" y="697" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P33</text>
+  <rect x="1097.49" y="714.121" width="262" height="121" rx="0" ry="0" fill="Col_Grey2" stroke="black">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </rect>
+  <image x="1222" y="743.121" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage904">
+    <title>&quot;20JNA00FV802_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FV802_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1231.75" y="736.121" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="true" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+30&lt;Vрасх&lt;= 60 °C/ч</text>
+  <image x="1144" y="801.97" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage905">
+    <title>&quot;20JAA21FP806_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA21FP806_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1233.72" y="789.848" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Превышение лимитов</text>
+  <image x="1222" y="801.97" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage906">
+    <title>&quot;20JAA22FP807_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA22FP807_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <image x="1309" y="801.97" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage907">
+    <title>&quot;20JAA23FP808_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA23FP808_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </image>
+  <text x="1121" y="823" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P21</text>
+  <text x="1202" y="823" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P22</text>
+  <text x="1288" y="823" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+P23</text>
+  <rect x="1097.79" y="839.424" width="262" height="100" rx="0" ry="0" fill="Col_Grey2" stroke="black">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+  </rect>
+  <text x="1227" y="861" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+Vрасх &lt; =30 °C/ч</text>
+  <image x="1144.3" y="905.273" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage909">
+    <title>&quot;20JAA11FP803_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA11FP803_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+  </image>
+  <text x="1228.02" y="886.151" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+Превышение лимитов</text>
+  <image x="1222.3" y="905.273" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage910">
+    <title>&quot;20JAA12FP804_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA12FP804_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+  </image>
+  <image x="1309.3" y="905.273" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage911">
+    <title>&quot;20JAA13FP805_XP04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA13FP805_XP04&quot;"/> 
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+  </image>
+  <text x="1121.3" y="926.303" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+P11</text>
+  <text x="1202.3" y="926.303" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+P12</text>
+  <text x="1288.3" y="926.303" fill="black" font-size="20" font-style="oblique" text-anchor="middle">
+    <rt:dyn type="visibility" mode="unknown" value="BIN(&quot;20JNA00FV802_XP04&quot;).Value OR BIN(&quot;20JNA00FV801_XP04&quot;).Value" trans="bi">
+      <rt:xy value="false" value2="0"/> 
+      <rt:xy value2="1"/> 
+    </rt:dyn>
+P13</text>
+  <rect x="1368.61" y="853.485" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="1368.61" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="1368.61" y="721.485" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="1368.61" y="589.485" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="1484.61" y="618.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage912">
+    <title>&quot;20JMA00FP801_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA00FP801_XP05&quot;"/> 
+  </image>
+  <text x="1498.03" y="743.485" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Pго &gt; 30 кПа</text>
+  <text x="1495" y="875.485" fill="black" font-size="20" font-style="oblique" text-anchor="middle">QH2 &gt; 4%</text>
+  <image x="1484.61" y="750.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage913">
+    <title>&quot;20JMA00FP803_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA00FP803_XP05&quot;"/> 
+  </image>
+  <image x="1484.61" y="882.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage915">
+    <title>&quot;20JMU00CQ805_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMU00CQ805_XP05&quot;"/> 
+  </image>
+  <rect x="1368.61" y="655.485" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="1484.61" y="684.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage916">
+    <title>&quot;20JMA00FP802_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA00FP802_XP05&quot;"/> 
+  </image>
+  <text x="1498.73" y="677.485" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Pго &gt; 0,4 МПа</text>
+  <rect x="1368.61" y="919.485" width="262" height="80" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="1507.24" y="941.485" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Изолирующая<tspan x="1507.24" dy="20">арматура  не закрыта</tspan>
+  </text>
+  <image x="1484.61" y="966.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage917">
+    <title>&quot;20JMA00AA806_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA00AA806_XP05&quot;"/> 
+  </image>
+  <line x1="1645.15" y1="580.818" x2="1645.25" y2="580.818" stroke="black"/> 
+  <text x="1497.97" y="611.485" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Pго &gt; 0,46 МПа</text>
+  <text x="1500.45" y="808.576" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Разрежение &gt; 30 кПа</text>
+  <image x="1484.61" y="815.576" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage919">
+    <title>&quot;20JMA00FP804_XP05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA00FP804_XP05&quot;"/> 
+  </image>
+  <rect x="1639.82" y="787" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="1639.82" y="722.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <rect x="1639.82" y="590.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="1755.82" y="619.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage920">
+    <title>&quot;20JAA00FL801_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JAA00FL801_XP06&quot;"/> 
+  </image>
+  <text x="1769.24" y="744.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Lбв &lt; 10,5м</text>
+  <text x="1766.21" y="810.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Во всех Lге-2 &lt; 0,7м</text>
+  <image x="1755.82" y="751.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage921">
+    <title>&quot;20JNA00FL802_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FL802_XP06&quot;"/> 
+  </image>
+  <image x="1755.82" y="817.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage923">
+    <title>&quot;20JNG00FL806_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNG00FL806_XP06&quot;"/> 
+  </image>
+  <rect x="1639.82" y="656.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="1755.82" y="685.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage924">
+    <title>&quot;20JEF10FL804_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JEF10FL804_XP06&quot;"/> 
+  </image>
+  <text x="1769.94" y="678.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Lкд &lt; 4м</text>
+  <rect x="1639.82" y="854.061" width="262" height="62" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="1763.46" y="876.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Lприям &lt;= 3,4м</text>
+  <image x="1755.82" y="883.061" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage925">
+    <title>&quot;20JMA10FL803_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JMA10FL803_XP06&quot;"/> 
+  </image>
+  <rect x="1639.82" y="920.061" width="262" height="80" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="1763.57" y="942.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Отсутствует запуск<tspan x="1763.57" dy="20">насосов САПР</tspan>
+  </text>
+  <image x="1755.82" y="966.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage926">
+    <title>&quot;20JNA00FF805_XP06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNA00FF805_XP06&quot;"/> 
+  </image>
+  <text x="1769.18" y="612.061" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Lреакт &lt; хол. патр.</text>
+  <rect x="1631.24" y="30" width="260" height="105" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="1841.48" y="89.7577" fill="black" font-size="20" font-style="oblique" text-anchor="middle">АА19</text>
+  <image x="1810.82" y="99.2424" width="60" height="30" xlink:href="bin_indicator.svg" id="SVGImage955">
+    <title>&quot;22JRN11ER190_XE91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN11ER190_XE91&quot;"/> 
+  </image>
+  <image x="1678.82" y="99.2424" width="60" height="30" xlink:href="bin_indicator.svg" id="SVGImage957">
+    <title>&quot;22JRN04ED002_XE90&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN04ED002_XE90&quot;"/> 
+  </image>
+  <text x="1761.61" y="54.2424" fill="black" font-size="20" font-style="oblique" text-anchor="middle">ФСКУ АЗ 1к</text>
+  <line x1="1804.12" y1="137.393" x2="1804.22" y2="137.393" stroke="black"/> 
+  <rect x="1199.42" y="30" width="423.242" height="105.061" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="1486.3" y="54.2424" font-size="20" text-anchor="middle">Время с момента<tspan x="1486.3" dy="20">срабатывания АЗ</tspan>
+  </text>
+  <text x="1710" y="89.7577" fill="black" font-size="20" font-style="oblique" text-anchor="middle">АА11-AA18</text>
+  <text x="255" y="30" font-size="28" font-weight="700" text-anchor="middle">
+    <rt:event type="OnMouseDown"/> 
+    <rt:event type="OnMouseOver"/> 
+ПБ2</text>
+  <line x1="196.394" y1="1431.82" x2="196.394" y2="1431.82" stroke="black"/> 
+  <rect x="826.182" y="856" width="262" height="55" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="925.182" y="877.182" fill="black" font-size="20" font-style="oblique" text-anchor="middle">все каналы САР<tspan x="925.182" dy="20">не работают</tspan>
+  </text>
+  <image x="1047" y="868.545" width="30.3337" height="30.5759" xlink:href="bin_indicator.svg" id="SVGImage972">
+    <title>&quot;20JNB00AF817_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNB00AF817_XP03&quot;"/> 
+  </image>
+  <rect x="826.182" y="975.061" width="262" height="55" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <text x="935.03" y="1001.06" fill="black" font-size="20" font-style="oblique" text-anchor="middle">работает &lt;<tspan x="935.03" dy="20">3-х каналов СПОТ</tspan>
+  </text>
+  <image x="1047" y="986.485" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage973">
+    <title>&quot;20JNB00AA818_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JNB00AA818_XP03&quot;"/> 
+  </image>
+  <rect x="826.182" y="915.485" width="262" height="55" rx="0" ry="0" fill="Col_Grey2" stroke="black"/> 
+  <image x="1047" y="926.909" width="30" height="30" xlink:href="bin_indicator.svg" id="SVGImage974">
+    <title>&quot;20JRN01EU304_XP03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JRN01EU304_XP03&quot;"/> 
+  </image>
+  <text x="921.394" y="937.727" fill="black" font-size="20" font-style="oblique" text-anchor="middle">Режим расхол.<tspan x="921.394" dy="20">отключен</tspan>
+  </text>
+  <image x="1339" y="79" width="280" height="64.5758" xlink:href="spds_timernd.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20JRN05EH801_XP10&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="1221" y="57" width="94" height="53" xlink:href="bin_tablo.svg">
+    <title>20JRN05EH801_XP10</title>
+    <rt:dyn type="T_String" mode="constant" value="&quot;АЗ&quot;"/> 
+    <rt:dyn type="PointID_status" mode="constant" value="&quot;20JRN05EH801_XP10&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="21"/> 
+    <rt:dyn type="Col_ON" mode="unknown" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="unknown" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;AAP_Font3&quot;"/> 
+    <rt:dyn type="Col_Fail" mode="unknown" value="&quot;Col_Grey1&quot;"/> 
+  </image>
+  <image x="51.8045" y="347.31" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB01EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB01EU801_ZP07&quot;"/> 
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb01ep721&quot;"/> 
+  </image>
+  <image x="14.5454" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB01EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="286" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB02EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="323.471" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB02EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB02EU801_ZP07&quot;"/> 
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb02ep721&quot;"/> 
+  </image>
+  <image x="828" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB03EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="1099" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB04EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="1370" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB05EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="1411.5" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB05EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB05EU801_ZP07&quot;"/> 
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb05ep721&quot;"/> 
+  </image>
+  <image x="1641" y="269" width="235" height="30" xlink:href="spds_timer_bar.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB06EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+  </image>
+  <image x="1681.62" y="346.825" width="179" height="226" xlink:href="spds_bar.svg">
+    <rt:dyn type="link" mode="constant" value="&quot;20kfb06ep721&quot;"/> 
+    <rt:dyn type="dist_mag" mode="constant" value="&quot;20KFB06EU801_ZP05&quot;"/> 
+    <rt:dyn type="dist_mag_vis_ram" mode="constant" value="&quot;20KFB06EU801_ZP07&quot;"/> 
+  </image>
+  <image x="550.939" y="317.788" width="800" height="600" xlink:href="spds_diag_win.svg">
+    <rt:dyn type="PointID1" mode="constant" value="&quot;20KFB00EU800_ZP05&quot;"/> 
+    <rt:dyn type="PointID2" mode="constant" value="40"/> 
+  </image>
+  <text x="881" y="65" font-size="34" font-weight="700" text-anchor="middle">
+    <rt:event type="OnMouseDown"/> 
+    <rt:event type="OnMouseOver"/> 
+Состояние КФБ</text>
+  <image x="1115.36" y="31" width="65" height="65" xlink:href="dull_Logs.bmp"/> 
+  <image x="1115" y="32.4545" width="65" height="65" xlink:href="obj_Button_icon.svg" id="SVGImage1022">
+    <title>Протокол  kfb4</title>
+    <rt:event type="OnClick">VAR(RTA.MyTask.TaskName + &quot;.PORTAL_Command&quot;).ValueString = &quot;REPORT_VIEW OPEN S:kfb&quot;</rt:event>
+  </image>
+</svg>

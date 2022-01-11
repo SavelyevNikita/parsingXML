@@ -1,0 +1,285 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1400 1050" width="1400" height="1050" id="ekp_1" stroke-width="2" font-size="14" font-weight="700">
+  <title>ЭКП 1</title>
+  <rt:model modelversion="7.2.0.24" revision="1">
+    <rt:event type="OnInitialize"/> 
+  </rt:model>
+  <line x1="76.5" y1="241" x2="987.143" y2="241" stroke="black" stroke-width="9"/> 
+  <polyline points="245,438 321,438 321,242" fill="none" stroke="black" stroke-width="9"/> 
+  <polyline points="330,1050 330,856 1121,856 1121,783 1400,783" fill="none" stroke="black" stroke-width="12"/> 
+  <polyline points="176.5,70 176.5,38 277.5,38 277.5,68.25 254.25,20.5" fill="none"/> 
+  <line x1="1040.03" y1="159.545" x2="1040.03" y2="159.545" stroke="black"/> 
+  <line x1="1183.97" y1="479.242" x2="1183.97" y2="479.242" stroke="black"/> 
+  <line x1="1220.33" y1="323.182" x2="1220.33" y2="323.182" stroke="black"/> 
+  <line x1="1183.97" y1="294.394" x2="1183.97" y2="294.394" stroke="black"/> 
+  <line x1="1511.24" y1="783.788" x2="1511.24" y2="783.788" stroke="black"/> 
+  <line x1="1193.06" y1="314.091" x2="1193.06" y2="314.091" stroke="black"/> 
+  <line x1="743.061" y1="-87.4242" x2="743.061" y2="-87.4242" stroke="black"/> 
+  <line x1="1017.3" y1="-79.8485" x2="1017.3" y2="-79.8485" stroke="black"/> 
+  <line x1="311.242" y1="129.242" x2="311.242" y2="129.242" stroke="black"/> 
+  <line x1="1065.79" y1="94.3939" x2="1065.79" y2="94.3939" stroke="black"/> 
+  <line x1="1147.61" y1="256.515" x2="1147.61" y2="256.515" stroke="black"/> 
+  <line x1="1276.39" y1="442.879" x2="1276.39" y2="442.879" stroke="black"/> 
+  <line x1="664.273" y1="268.636" x2="664.273" y2="268.636" stroke="black"/> 
+  <line x1="1194.58" y1="512.576" x2="1194.58" y2="512.576" stroke="black"/> 
+  <line x1="1102.15" y1="488.333" x2="1102.15" y2="488.333" stroke="black"/> 
+  <line x1="1294.58" y1="661.061" x2="1294.58" y2="661.061" stroke="black"/> 
+  <line x1="1176.39" y1="527.727" x2="1176.39" y2="527.727" stroke="black"/> 
+  <line x1="1280.94" y1="586.818" x2="1280.94" y2="586.818" stroke="black"/> 
+  <line x1="1135.48" y1="792.879" x2="1135.48" y2="792.879" stroke="black"/> 
+  <line x1="1382.45" y1="732.273" x2="1382.45" y2="732.273" stroke="black"/> 
+  <line x1="1427.91" y1="571.667" x2="1427.91" y2="571.667" stroke="black"/> 
+  <line x1="1221.85" y1="253.485" x2="1221.85" y2="253.485" stroke="black"/> 
+  <line x1="1130.94" y1="389.848" x2="1130.94" y2="389.848" stroke="black"/> 
+  <polyline/> 
+  <polyline points="294,1050 294,730.705 1400,730.705" fill="none" stroke="black" stroke-width="12"/> 
+  <line x1="1100" y1="175.488" x2="1100" y2="175.488" stroke="black"/> 
+  <line x1="1359.33" y1="900" x2="1359.33" y2="900" stroke="black"/> 
+  <rect x="1031" y="759.143" width="335" height="190" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <text x="542.683" y="711.634" font-size="30">Tгн1</text>
+  <text x="618.439" y="910.801" font-size="30">Tхн1</text>
+  <image x="1049.76" y="820" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(180 0 0)"/> 
+  <text x="1126.88" y="864" font-size="30">JEB10</text>
+  <text x="1044.76" y="803.667" font-size="30">N</text>
+  <g>
+    <text x="573.461" y="831.594" font-size="30">P JEB10</text>
+    <polyline points="560.559,810.809 550.559,831.809 570.559,831.809 560.559,810.809" fill="Col_BGSand" stroke="black"/> 
+  </g>
+  <image x="645.122" y="676.878" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEC11CT901A&quot;"/> 
+    <rt:dyn type="Suffix" mode="constant" value="&quot;XQ01&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="726" y="877.073" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC13FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="728.268" y="801.594" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEC10CP802A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1083.71" y="771.667" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB10CE124A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;N&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <g>
+    <rect x="947.143" y="264.713" width="282.927" height="262.695" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="6"/> 
+    <path d="M1230.03 269.067 A141.429 71.0045 0 1 0 947.178 269.265 " fill="Col_Grey3" stroke="black" stroke-width="6"/> 
+    <path d="M1230.03 287.209 A141.429 75.4392 0 1 0 947.178 287.419 " fill="Col_Grey3" stroke="black" stroke-width="6" transform="flipY(404.535)"/> 
+  </g>
+  <rect x="121.003" y="383.5" width="103.497" height="107.5" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="6"/> 
+  <path d="M251.75 91.649 A53.543 50.5 0 1 0 144.664 91.7895 " fill="Col_Grey3" stroke="black" stroke-width="6" transform="rotate(270 334.428 301.029)"/> 
+  <path d="M251.75 529.528 A53.543 50.5 0 1 0 144.664 529.669 " fill="Col_Grey3" stroke="black" stroke-width="6" transform="flipX(391.794) rotate(270 334.428 301.029)"/> 
+  <rect x="143.501" y="356.5" width="58.5" height="26.5" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="6"/> 
+  <ellipse cx="170.384" cy="355.497" rx="43.5" ry="4"/> 
+  <rect x="146.5" y="378" width="52.5" height="27.5" rx="0" ry="0" fill="Col_Grey3"/> 
+  <text x="122.429" y="446.143" font-size="30">JEG10</text>
+  <text x="1036.14" y="296.788" font-size="30">JEF10<tspan x="1036.14" dy="30">BB001</tspan>
+  </text>
+  <text x="1314.43" y="205.714" font-size="30" text-anchor="middle">Режим<tspan x="1314.43" dy="30">АРМ</tspan>
+  </text>
+  <text x="1269.71" y="293.411" font-size="30" text-anchor="middle">Н</text>
+  <text x="1269.71" y="343.322" font-size="30" text-anchor="middle">Т</text>
+  <text x="1269.71" y="393.464" font-size="30" text-anchor="middle">С</text>
+  <image x="1301.93" y="263.411" width="40" height="40" xlink:href="bin_indicator.svg">
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLR09EH010_ZV01&quot;"/> 
+  </image>
+  <image x="1301.93" y="313.322" width="40" height="40" xlink:href="bin_indicator.svg">
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLR09EH011_ZV01&quot;"/> 
+  </image>
+  <image x="1301.93" y="363.464" width="40" height="40" xlink:href="bin_indicator.svg">
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CLR09EH012_ZV01&quot;"/> 
+  </image>
+  <image x="52.9285" y="55.9071" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS51FT902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="357.357" y="55.9071" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS24FX906&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="724.5" y="55.9071" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS06FX902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Kq&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1051.21" y="55.9071" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS28FX906&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="140.428" y="42.4998" font-size="30" text-anchor="middle">Max Твых ТВС</text>
+  <text x="484.857" y="41.4283" font-size="30" text-anchor="middle">Мин.запас QL</text>
+  <text x="812" y="41.4283" font-size="30" text-anchor="middle">Max Kq</text>
+  <text x="1138.71" y="41.4283" font-size="30" text-anchor="middle">Мин.запас до кр.</text>
+  <image x="1003.14" y="360.25" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21JEF10FL901A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="969.429" y="390.25" font-size="30" text-anchor="middle">L</text>
+  <image x="14.643" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;21JEF21AA904_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;21JEF21AA904_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;21JEF21AA904_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="100" y="158.933" width="142" height="82.0667" xlink:href="DS_pulse_valve.svg"/> 
+  <text x="173" y="163" font-size="30" text-anchor="middle">21JEF21</text>
+  <text x="87.143" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">контр</text>
+  <text x="238.357" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">раб</text>
+  <image x="413" y="158.933" width="142" height="82.0667" xlink:href="DS_pulse_valve.svg"/> 
+  <text x="486" y="163" font-size="30" text-anchor="middle">21JEF21</text>
+  <image x="722" y="158.933" width="142" height="82.0667" xlink:href="DS_pulse_valve.svg"/> 
+  <text x="795" y="163" font-size="30" text-anchor="middle">21JEF21</text>
+  <text x="405.643" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">контр</text>
+  <text x="558.071" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">раб</text>
+  <text x="714.214" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">контр</text>
+  <text x="863.786" y="274.428" font-size="30" font-weight="normal" text-anchor="middle">раб</text>
+  <image x="333.143" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22JEF22AA904_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22JEF22AA904_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22JEF22AA904_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="641.714" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22JEF23AA904_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22JEF23AA904_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22JEF23AA904_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="165.857" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;21JEF21AA903_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;21JEF21AA903_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;21JEF21AA903_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="485.571" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22JEF22AA903_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22JEF22AA903_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22JEF22AA903_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="791.286" y="283.357" width="145" height="40" xlink:href="bitwise_tablo_4bits.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22JEF23AA903_XG11&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22JEF23AA903_XG21&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22JEF23AA903_XG31&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;НЕ ЗАКРЫТ&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="25"/> 
+  </image>
+  <image x="1052.44" y="897.439" width="175" height="40" xlink:href="DS_ana.svg">
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEB10FU001&quot;"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+</svg>

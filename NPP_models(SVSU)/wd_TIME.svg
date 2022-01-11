@@ -1,0 +1,45 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_Grey2" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 320 125" width="320" height="125" id="wd_TIME" stroke-width="2" font-family="AAP_Font3" font-size="14">
+  <desc>диагностика ИБП</desc>
+  <rt:model comment="диагностика ИБП" revision="4.4" modelversion="0.0.0.0">
+    <rt:param name="In_Par" datatype="string" comment="номар абонента в строковой форме"/> 
+    <rt:var name="KKS" datatype="string" comment="базовая часть идентификаторов"/> 
+    <rt:var name="title_base" datatype="string" comment="окончание строки заголовка"/> 
+    <rt:event type="OnInitialize">Dim p1 As String
+KKS = PRJSPEC.ParSplit(In_Par, title_base, p1)</rt:event>
+  </rt:model>
+  <rect x="0" y="0" width="320" height="125" rx="0" ry="0" id="Backgr" fill="Col_BGwin"/> 
+  <text x="160" y="18" id="Title_text" font-weight="bold" text-anchor="middle">
+    <rt:dyn type="text" mode="cyclic" value="&quot;Синхронизация времени \n&quot;+ title_base"/> 
+Синхронизация времени</text>
+  <text x="215" y="60" id="SVGText1">Обобщенное<tspan x="215" dy="15">состояние</tspan>
+  </text>
+  <image x="15" y="45" width="175" height="35" xlink:href="bitwise_tablo_4bits.svg" id="ZV02">
+    <title>KKS + &quot;E01_ZV02&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="KKS + &quot;S01_ZV01 0&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;Норма&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;Аварийное&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;Предупредительное&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;Нет связи&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Grey1&quot;"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;S01_ZV01&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="KKS + &quot;S01_ZV01 1&quot;"/> 
+  </image>
+  <image x="15" y="93" width="115" height="25" xlink:href="DS_ana.svg" id="XQ01">
+    <rt:dyn type="FKKS" mode="constant" value="KKS + &quot;S01_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="title" mode="unknown" value="KKS + &quot;S01_XQ01&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+    <rt:dyn type="ShowGoodColor" mode="constant" value="true"/> 
+    <rt:dyn type="V_Width" mode="constant" value="8"/> 
+  </image>
+  <line x1="0" y1="85" x2="320" y2="85" stroke="black"/> 
+  <line x1="0" y1="40" x2="320" y2="40" stroke="black"/> 
+  <text x="215" y="103" id="SVGText2">Разность<tspan x="215" dy="15">времен</tspan>
+  </text>
+</svg>

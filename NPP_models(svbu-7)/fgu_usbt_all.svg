@@ -1,0 +1,40 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="fgu_usbt_all" stroke-width="3" font-size="15" font-weight="bold">
+  <title>Программы ФГУ. Обобщенный видеокадр</title>
+  <rt:model comment="UMod all_nsb" modelversion="7.2.0.24" revision="3"/> 
+  <text x="959" y="70" fill="black" font-size="30" font-weight="700" text-anchor="middle">Программы ФГУ. Обобщенный видеокадр.</text>
+  <text x="26" y="48.1667" fill="black" font-size="15" font-weight="700">FGU_USBT_ALL</text>
+  <image x="493.833" y="284.5" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;21JNA11EB001&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;21jna11eb001_m1-6&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="581.333" y="240.5" fill="black" font-size="18" text-anchor="middle">Расхолаживание первого контура<tspan x="581.333" dy="18">каналом системы JNA</tspan>
+  </text>
+  <image x="493.833" y="506.167" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;22JNA21EB001&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;22jna21eb001_m1-6&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="581.333" y="448.5" fill="black" font-size="18" text-anchor="middle">Расхолаживание первого контура<tspan x="581.333" dy="18">каналом системы JNA</tspan>
+  </text>
+  <image x="1216.17" y="284.5" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;21PEA10EE001&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;21pea10ee001_m1-4&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="1303.67" y="239.667" fill="black" font-size="18" text-anchor="middle">Включение промывочного устройства<tspan x="1303.67" dy="18">вращающейся сетки 21PEA10AT001</tspan>
+  </text>
+  <image x="1216.17" y="506.167" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;22PEA20EE001&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;22pea20ee001_m1-4&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="1303.66" y="447.667" fill="black" font-size="18" text-anchor="middle">Включение промывочного устройства<tspan x="1303.66" dy="18">вращающейся сетки 22PEA20AT001</tspan>
+  </text>
+  <image x="1625" y="125" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;FGU_USBT&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;fgu_usbt&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+</svg>

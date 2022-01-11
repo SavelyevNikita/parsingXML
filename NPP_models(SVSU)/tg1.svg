@@ -1,0 +1,495 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1920 980" width="1920" height="980" id="TG1">
+  <desc>Вибрация  подшипников и ротора ТГ</desc>
+  <rt:model modelversion="1,0" comment="Создано VNIIAES-ASUTP\grishantsev 07.02.2012 17:53:36"/> 
+  <line x1="1825" y1="555" x2="1825" y2="230" stroke="black"/> 
+  <line x1="1681.33" y1="705" x2="1681.5" y2="230" stroke="black"/> 
+  <line x1="1530.67" y1="705" x2="1530.5" y2="230" stroke="black"/> 
+  <line x1="1424.33" y1="705" x2="1424.5" y2="230" stroke="black"/> 
+  <line x1="1206.67" y1="705" x2="1207" y2="230" stroke="black"/> 
+  <line x1="1125" y1="705" x2="1125" y2="230" stroke="black"/> 
+  <line x1="925" y1="705" x2="925" y2="230" stroke="black"/> 
+  <line x1="840" y1="705" x2="840.5" y2="230" stroke="black"/> 
+  <line x1="636" y1="705" x2="636" y2="230" stroke="black"/> 
+  <line x1="557" y1="705" x2="557.5" y2="230" stroke="black"/> 
+  <line x1="358" y1="705" x2="358.5" y2="230" stroke="black"/> 
+  <line x1="259" y1="705" x2="259.5" y2="230" stroke="black"/> 
+  <line x1="91" y1="705" x2="91" y2="230" stroke="black"/> 
+  <polygon points="1281,134 1281,233.999 1326,213.999 1371,233.999 1371,134 1326,154" fill="Col_Grey3" stroke="none"/> 
+  <polygon points="981.905,132.667 981.905,232.666 1026.9,212.666 1071.9,232.666 1071.9,132.667 1026.9,152.667" fill="Col_Grey3" stroke="none"/> 
+  <polygon points="133.545,132.982 133.545,232.981 178.545,212.981 223.545,232.981 223.545,132.982 178.545,152.982" fill="Col_Grey3" stroke="none"/> 
+  <polygon points="417.759,132.982 417.759,232.981 462.759,212.981 507.759,232.981 507.759,132.982 462.759,152.982" fill="Col_Grey3" stroke="none"/> 
+  <polygon points="702.545,145.545 702.545,220.545 742.545,205.545 782.545,220.545 782.545,145.545 742.545,160.545" fill="Col_Grey3" stroke="none"/> 
+  <image x="127.105" y="885.905" width="200" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Скачок вибрации Р ТГ</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV16&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Скачок вибрации Р ТГ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="127.105" y="927.573" width="200" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Рост вибрации Р ТГ</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV15&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Рост вибрации Р ТГ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="343.765" y="885.905" width="200" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Скачок вибрации П ТГ</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV10&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Скачок вибрации П ТГ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="343.765" y="927.573" width="200" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Рост вибрации П ТГ</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV14&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Рост вибрации П ТГ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="639.599" y="925.355" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;0.5 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV19&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;0.5 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="778.732" y="925.355" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;1.0 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV20&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;1.0 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="916.932" y="925.355" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;1.8 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV21&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;1.8 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <text x="651.666" y="885.888" font-size="16">Низкочастотная вибрация подшипников ТГ</text>
+  <rect x="614.754" y="852.466" width="425.911" height="124.467" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="1090.94" y="925.145" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;0.2 мм</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV17&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;0.2 мм&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="1230.08" y="925.145" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;0,32 мм</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV18&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;0,32 мм&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <text x="1130.31" y="885.888" font-size="16">Вибрация ротора ТГ</text>
+  <rect x="1066.1" y="852.255" width="293.9" height="124.678" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="1415.92" y="924.789" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;4.5 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV11&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;4.5 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="1555.05" y="924.789" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;7,1 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV12&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;7,1 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="1693.25" y="924.789" width="100" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>&gt;11,2 мм/с</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV13&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;&gt;11,2 мм/с&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <text x="1493.05" y="885.329" font-size="16">Вибрация подшипников ТГ</text>
+  <rect x="1391.08" y="851.899" width="425.911" height="124.467" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="1155.02" y="35.6924" width="200" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Неисправность ТГ</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV23&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Неисправность ТГ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <image x="1427.14" y="35.6924" width="250" height="25" xlink:href="bin_indicator_txt.svg">
+    <title>Неисправность ТГ опасная</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV24&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Неисправность ТГ опасная&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1869.27" y="57.8894" font-size="26">ТГ</text>
+  <image x="523.221" y="35.6925" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ЧАСТ ВРАЩ ТГ</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX51CS010A&quot;"/> 
+  </image>
+  <text x="30.4142" y="53.041" font-size="16">Частота вращения, об/мин</text>
+  <line x1="363" y1="48.1924" x2="270" y2="48.1924" stroke="black"/> 
+  <line x1="435.067" y1="48.1924" x2="527" y2="48.1924" stroke="black"/> 
+  <image x="358.98" y="35.6925" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ЧАСТ ВРАЩ ТГ</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS009&quot;"/> 
+  </image>
+  <polygon points="127,126.436 127,226.436 172,206.436 217,226.436 217,126.436 172,146.436" fill="Col_Grey1" stroke="black"/> 
+  <text x="150.143" y="182.436" font-size="16">ЦНД1</text>
+  <rect x="217" y="171.321" width="80.1429" height="10.2306" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="297" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="61.5" y="171.436" width="65" height="10" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <polygon points="411.214,126.436 411.214,226.436 456.214,206.436 501.214,226.436 501.214,126.436 456.214,146.436" fill="Col_Grey1" stroke="black"/> 
+  <text x="434.357" y="182.436" font-size="16">ЦНД2</text>
+  <rect x="501.214" y="171.321" width="82.5952" height="10.2306" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="583.833" y="167" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="317.619" y="171.313" width="93.0954" height="10.2456" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="308" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <polygon points="695,140 695,215 735,200 775,215 775,140 735,155" fill="Col_Grey1" stroke="black"/> 
+  <text x="717.834" y="183.364" font-size="16">ЦВД</text>
+  <rect x="775" y="172.025" width="96.4287" height="9.94961" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="871.691" y="167" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="605" y="171.867" width="90" height="10.2668" rx="7.62939e-006" ry="4.22434" fill="none" stroke="black"/> 
+  <rect x="594.833" y="167" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <polygon points="976.167,126.436 976.167,226.436 1021.17,206.436 1066.17,226.436 1066.17,126.436 1021.17,146.436" fill="Col_Grey1" stroke="black"/> 
+  <text x="999.31" y="182.436" font-size="16">ЦНД3</text>
+  <rect x="1066.17" y="171.559" width="90.4999" height="9.75443" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="1156.17" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="890" y="171.313" width="85.6666" height="10.2456" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="882.167" y="167" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <polygon points="1275.5,126.436 1275.5,226.436 1320.5,206.436 1365.5,226.436 1365.5,126.436 1320.5,146.436" fill="Col_Grey1" stroke="black"/> 
+  <text x="1298.64" y="182.436" font-size="16">ЦНД4</text>
+  <rect x="1365.5" y="171.321" width="97.3538" height="10.2306" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="1462.5" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="1175" y="171.551" width="100" height="9.76937" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="1166.5" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <rect x="1641.9" y="171.198" width="83.0953" height="10.4762" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="1481.43" y="171.551" width="89.5714" height="9.76937" rx="7.62939e-006" ry="4.25" fill="none" stroke="black"/> 
+  <rect x="1472.5" y="166.436" width="10" height="20" rx="7.62939e-006" ry="5.00001" fill="none" stroke="black"/> 
+  <polygon points="1567,138.936 1567,213.936 1642,213.936 1642,138.936" fill="Col_Grey1" stroke="black"/> 
+  <text x="1598" y="182.436" font-size="16">G</text>
+  <polygon points="1724,146.436 1724,206.436 1784,206.436 1784,146.436" fill="Col_Grey1" stroke="black"/> 
+  <text x="1748.5" y="182.436" font-size="16">B</text>
+  <rect x="1783.5" y="171.436" width="66.5" height="10" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="34.5" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY001&quot;"/> 
+  </image>
+  <image x="34.5" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY002&quot;"/> 
+  </image>
+  <image x="34.5" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY003&quot;"/> 
+  </image>
+  <image x="34.5" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY004&quot;"/> 
+  </image>
+  <image x="34.5" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY005&quot;"/> 
+  </image>
+  <image x="321.357" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD13CY001&quot;"/> 
+  </image>
+  <image x="321.357" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD13CY002&quot;"/> 
+  </image>
+  <image x="321.357" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD13CY003&quot;"/> 
+  </image>
+  <image x="321.357" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD13CY004&quot;"/> 
+  </image>
+  <image x="321.357" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD13CY005&quot;"/> 
+  </image>
+  <image x="467.071" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD14</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD14CY001&quot;"/> 
+  </image>
+  <image x="467.071" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD14</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD14CY002&quot;"/> 
+  </image>
+  <image x="467.071" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD14</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD14CY003&quot;"/> 
+  </image>
+  <image x="467.071" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD14</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD14CY004&quot;"/> 
+  </image>
+  <image x="467.071" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD14</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD14CY005&quot;"/> 
+  </image>
+  <image x="609.214" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD15</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD15CY001&quot;"/> 
+  </image>
+  <image x="609.214" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD15</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD15CY002&quot;"/> 
+  </image>
+  <image x="609.214" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD15</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD15CY003&quot;"/> 
+  </image>
+  <image x="609.214" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD15</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD15CY004&quot;"/> 
+  </image>
+  <image x="609.214" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD15</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD15CY005&quot;"/> 
+  </image>
+  <image x="753.928" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD16</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD16CY001&quot;"/> 
+  </image>
+  <image x="753.928" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD16</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD16CY002&quot;"/> 
+  </image>
+  <image x="753.928" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD16</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD16CY003&quot;"/> 
+  </image>
+  <image x="753.928" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD16</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD16CY004&quot;"/> 
+  </image>
+  <image x="753.928" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD16</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD16CY005&quot;"/> 
+  </image>
+  <image x="896.357" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD17</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD17CY001&quot;"/> 
+  </image>
+  <image x="896.357" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD17</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD17CY002&quot;"/> 
+  </image>
+  <image x="896.357" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD17</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD17CY003&quot;"/> 
+  </image>
+  <image x="896.357" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD17</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD17CY004&quot;"/> 
+  </image>
+  <image x="896.357" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD17</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD17CY005&quot;"/> 
+  </image>
+  <image x="1038.5" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD18</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD18CY001&quot;"/> 
+  </image>
+  <image x="1038.5" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD18</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD18CY002&quot;"/> 
+  </image>
+  <image x="1038.5" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD18</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD18CY003&quot;"/> 
+  </image>
+  <image x="1038.5" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD18</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD18CY004&quot;"/> 
+  </image>
+  <image x="1038.5" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD18</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD18CY005&quot;"/> 
+  </image>
+  <image x="1183.21" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD19</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD19CY001&quot;"/> 
+  </image>
+  <image x="1183.21" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD19</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD19CY002&quot;"/> 
+  </image>
+  <image x="1183.21" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD19</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD19CY003&quot;"/> 
+  </image>
+  <image x="1183.21" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD19</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD19CY004&quot;"/> 
+  </image>
+  <image x="1183.21" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD19</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD19CY005&quot;"/> 
+  </image>
+  <image x="1328.93" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD20</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD20CY001&quot;"/> 
+  </image>
+  <image x="1328.93" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD20</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD20CY002&quot;"/> 
+  </image>
+  <image x="1328.93" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD20</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD20CY003&quot;"/> 
+  </image>
+  <image x="1328.93" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD20</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD20CY004&quot;"/> 
+  </image>
+  <image x="1328.93" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD20</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD20CY005&quot;"/> 
+  </image>
+  <image x="1471.07" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MKD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD11CY001&quot;"/> 
+  </image>
+  <image x="1471.07" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MKD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD11CY002&quot;"/> 
+  </image>
+  <image x="1471.07" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MKD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD11CY003&quot;"/> 
+  </image>
+  <image x="1471.07" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MKD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD11CY004&quot;"/> 
+  </image>
+  <image x="1471.07" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MKD11</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD11CY005&quot;"/> 
+  </image>
+  <image x="1615.78" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MKD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD12CY001&quot;"/> 
+  </image>
+  <image x="1615.78" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MKD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD12CY002&quot;"/> 
+  </image>
+  <image x="1615.78" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MKD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD12CY003&quot;"/> 
+  </image>
+  <image x="1615.78" y="694.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MKD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD12CY004&quot;"/> 
+  </image>
+  <image x="1615.78" y="776.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MKD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD12CY005&quot;"/> 
+  </image>
+  <image x="1767.36" y="359.143" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD13CY001&quot;"/> 
+  </image>
+  <image x="1767.36" y="457.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD13CY001&quot;"/> 
+  </image>
+  <image x="1767.36" y="557.857" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MKD13</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKD13CY003&quot;"/> 
+  </image>
+  <image x="176.167" y="359.81" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) MAD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD12CY001&quot;"/> 
+  </image>
+  <image x="176.167" y="458.524" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) MAD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD12CY002&quot;"/> 
+  </image>
+  <image x="176.167" y="558.524" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(О) MAD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY003&quot;"/> 
+  </image>
+  <image x="176.167" y="695.524" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(В) РОТ MAD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD12CY004&quot;"/> 
+  </image>
+  <image x="176.167" y="776.81" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>ВИБР(П) РОТ MAD12</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAD11CY005&quot;"/> 
+  </image>
+  <line x1="116" y1="163.333" x2="116" y2="69" stroke="black"/> 
+  <image x="25" y="80" width="50" height="50" xlink:href="bin_indicator_txt.svg">
+    <rt:dyn type="PointID" mode="constant" value="&quot;10CND02ZV22&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ВПУ\nВКЛ&quot;"/> 
+    <rt:dyn type="T_Font" mode="constant" value="&quot;inherit&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="16"/> 
+  </image>
+  <rect x="85.8864" y="185" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="85.8864" y="163" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="237.045" y="184.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="237.045" y="162.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="369.773" y="184.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="369.773" y="162.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="520.931" y="184.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="520.931" y="162.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="649.5" y="185.454" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="649.5" y="163.454" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="800.658" y="185.227" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="800.658" y="163.227" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="649.5" y="185.454" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="649.5" y="163.454" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="800.658" y="185.227" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="800.658" y="163.227" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="935.5" y="184.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="935.5" y="162.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1086.66" y="184.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1086.66" y="162.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="935.5" y="184.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="935.5" y="162.636" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1086.66" y="184.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1086.66" y="162.409" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.41" y="185" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.41" y="163" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.57" y="184.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.57" y="162.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.41" y="185" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.41" y="163" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.56" y="184.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.56" y="162.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1211.41" y="-981.364" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1211.41" y="-1003.36" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1362.57" y="-981.591" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1362.57" y="-1003.59" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.42" y="185" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1234.42" y="163" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.57" y="184.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1385.57" y="162.773" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1519.5" y="184.727" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1519.5" y="162.727" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1670.66" y="184.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1670.66" y="162.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1519.5" y="184.727" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1519.5" y="162.727" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1670.66" y="184.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1670.66" y="162.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1818.5" y="185.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1818.5" y="163.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1818.5" y="185.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <rect x="1818.5" y="163.5" width="20" height="4.99999" rx="7.62939e-006" ry="2.5" fill="Col_Grey4" stroke="black"/> 
+  <text x="23.3333" y="264.667" font-size="16">Вибростойкость подшипника , мм/с</text>
+  <text x="25.3333" y="324.667" font-size="12">вертикальная</text>
+  <text x="25.3333" y="430.667" font-size="12">горизонтальная</text>
+  <text x="26" y="531.333" font-size="12">осевая</text>
+  <text x="23.3333" y="648" font-size="16">Виброперемещение роторов турбины, мкм</text>
+  <text x="23.3333" y="676.667" font-size="12">вертикальная</text>
+  <text x="23.3333" y="750" font-size="12">горизонтальная</text>
+</svg>

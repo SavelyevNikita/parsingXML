@@ -1,0 +1,912 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lba">
+  <title>Система подачи вод бассейна выдержки на очистку</title>
+  <rt:model modelversion="7.2.0.23" comment="Исправлено 31.03.13 Zagrebaylova S.V."/> 
+  <line x1="464.273" y1="395.424" x2="464.273" y2="430.273" stroke="black" stroke-dasharray="5,5"/> 
+  <line x1="496.455" y1="793.379" x2="567.213" y2="793.379" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="567.121" y1="793.439" x2="637.879" y2="793.439" stroke="black" stroke-width="1"/> 
+  <line x1="346" y1="27.5757" x2="346" y2="976" stroke="black" stroke-width="3"/> 
+  <line x1="211.242" y1="100" x2="282" y2="100" stroke="black" stroke-width="1"/> 
+  <line x1="209.864" y1="49.3636" x2="209.864" y2="100.573" stroke="black" stroke-width="1"/> 
+  <text x="1007.7" y="47.0909" font-size="32">
+    <title>Система паропроводов свежего пара</title>
+LBA</text>
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4690.96,-1259.73 4704.34,-1252.08 4704.34,-1267.37 4690.96,-1259.73" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="187.765" y="67.5456" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>11LBA10AA901</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="57.4545" y="104.455" fill="black" font-size="15">11LBA10AA901</text>
+  <text x="136.848" y="172.394" fill="black" font-size="15">12LBA10AA001</text>
+  <image x="325.939" y="37.3333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA10CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="46.3049" y="152.879" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>11LBA10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA201&quot;"/> 
+  </image>
+  <text x="12.8958" y="260.546" fill="black" font-size="15">11LBA10AA201</text>
+  <text x="351.849" y="318.667" fill="black" font-size="15">10LBA10AA951</text>
+  <text x="317.849" y="14.4848" fill="black" font-size="15">от ПГ-1</text>
+  <image x="320.879" y="232.909" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA10AA951</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA10AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <line x1="282.833" y1="98.879" x2="282.833" y2="341" stroke="black" stroke-width="1"/> 
+  <line x1="22.394" y1="220.803" x2="346" y2="220.803" stroke="black" stroke-width="1"/> 
+  <line x1="346" y1="430.712" x2="798.792" y2="430.712" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(143.182) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4907.52,-1122.98 4920.9,-1115.33 4920.9,-1130.62 4907.52,-1122.98" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4934.72,-1512.73 4948.1,-1505.08 4948.1,-1520.37 4934.72,-1512.73" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="538.5" y="557" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCN&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcn&quot;)</rt:event>
+  </image>
+  <text x="208.454" y="29.2121" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <text x="20.2121" y="201.849" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="43.8049" y="179.394" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>11LBA10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="167.758" y="177.121" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>12LBA10AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <line x1="212.272" y1="340.364" x2="283.03" y2="340.364" stroke="black" stroke-width="1"/> 
+  <line x1="211.894" y1="289.728" x2="211.894" y2="340.937" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4931.32,-1257.7 4944.7,-1250.05 4944.7,-1265.34 4931.32,-1257.7" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="189.795" y="307.91" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>12LBA10AA902</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA10AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="57.4545" y="348.394" fill="black" font-size="15">12LBA10AA902</text>
+  <text x="210.484" y="269.576" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="325.939" y="67.6969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA10CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA10CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="325.939" y="98.637" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA10CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="301.879" y="358.151" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>11LBA10AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="168.606" y="420.394" fill="black" font-size="15">11LBA10AA002</text>
+  <line x1="345.848" y1="975.258" x2="997.606" y2="975.258" stroke="black" stroke-width="3"/> 
+  <line x1="346.849" y1="623.681" x2="805" y2="623.681" stroke="black" stroke-width="3"/> 
+  <image x="195.455" y="631.394" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA10CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="301.061" y="669.167" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA10AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA10AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="171.091" y="686.182" fill="black" font-size="15">10LBA10AA003</text>
+  <line x1="346.879" y1="825.227" x2="805" y2="825.227" stroke="black" stroke-width="3"/> 
+  <image x="195.455" y="835.939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA10CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA10CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="195.455" y="866.364" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA10C???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA10C???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="910.212" y="933.333" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10MAA04AA140</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA04AA140&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="766.576" y="968.667" fill="black" font-size="15">10MAA04AA140</text>
+  <line x1="568" y1="623" x2="568" y2="826" stroke="black" stroke-width="1"/> 
+  <image x="522.394" y="630.621" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA12AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA12AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="394.667" y="664.243" fill="black" font-size="15">10LBA12AA001</text>
+  <image x="460.485" y="728.03" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBA12AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA12AA201&quot;"/> 
+  </image>
+  <text x="588.879" y="746.302" fill="black" font-size="15">10LBA12AA201</text>
+  <image x="522.667" y="709.519" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0.00012207 -9.99994) flipX(1.30437e-005)">
+    <title>10LBA12AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA12AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="385" y="337.667" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;БЗОК&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;bzok&quot;)</rt:event>
+  </image>
+  <image x="364.637" y="783.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA12CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA12CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="610.909" y="777.727" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;maa&quot;)</rt:event>
+  </image>
+  <line x1="805.304" y1="27.1519" x2="805.304" y2="909" stroke="black" stroke-width="3"/> 
+  <line x1="670.546" y1="99.576" x2="741.304" y2="99.576" stroke="black" stroke-width="1"/> 
+  <line x1="669.168" y1="48.9395" x2="669.168" y2="100.149" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4690.54,-800.442 4703.92,-792.792 4703.92,-808.082 4690.54,-800.442" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="647.069" y="67.1219" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>11LBA20AA901</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="516.758" y="104.03" fill="black" font-size="15">11LBA20AA901</text>
+  <text x="596.152" y="171.97" fill="black" font-size="15">12LBA20AA001</text>
+  <image x="785.243" y="37.3333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA20CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="505.609" y="152.455" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>11LBA20AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA201&quot;"/> 
+  </image>
+  <text x="472.2" y="260.122" fill="black" font-size="15">11LBA20AA201</text>
+  <text x="811.153" y="318.243" fill="black" font-size="15">10LBA20AA951</text>
+  <text x="777.153" y="14.4848" fill="black" font-size="15">от ПГ-2</text>
+  <image x="780.183" y="232.485" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA20AA951</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA20AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <line x1="742.137" y1="98.455" x2="742.137" y2="341" stroke="black" stroke-width="1"/> 
+  <line x1="481.698" y1="220.379" x2="805" y2="220.379" stroke="black" stroke-width="1"/> 
+  <g transform="flipY(143.182) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4907.94,-663.692 4921.32,-656.042 4921.32,-671.332 4907.94,-663.692" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5394.02,-1513.15 5407.4,-1505.5 5407.4,-1520.79 5394.02,-1513.15" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="667.758" y="29.2121" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <text x="479.516" y="201.425" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="503.109" y="178.97" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>11LBA20AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="627.062" y="176.697" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>12LBA20AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA20AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <line x1="671.576" y1="339.94" x2="742.334" y2="339.94" stroke="black" stroke-width="1"/> 
+  <line x1="671.198" y1="289.304" x2="671.198" y2="340.513" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4930.9,-798.412 4944.28,-790.762 4944.28,-806.052 4930.9,-798.412" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="649.099" y="307.486" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>12LBA20AA902</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA20AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="516.758" y="347.97" fill="black" font-size="15">12LBA20AA902</text>
+  <text x="669.788" y="269.152" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="785.243" y="67.6969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA20CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA20CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="785.243" y="98.637" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA20CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA20CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="761.183" y="357.727" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>11LBA20AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="627.91" y="419.97" fill="black" font-size="15">11LBA20AA002</text>
+  <image x="654.759" y="630.97" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA20CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA20CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="760.365" y="668.743" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA20AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA20AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="629.818" y="686.182" fill="black" font-size="15">10LBA20AA003</text>
+  <image x="654.759" y="835.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA20CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA20CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="654.759" y="865.94" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA20C???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA20C???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="844.304" y="337.243" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;БЗОК&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;bzok&quot;)</rt:event>
+  </image>
+  <image x="393.061" y="388.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>11LBA50CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11LBA50CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="803.666" y1="908.773" x2="997.606" y2="908.773" stroke="black" stroke-width="3"/> 
+  <image x="910.515" y="866.393" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10MAA02AA140</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA02AA140&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="769.606" y="926.242" fill="black" font-size="15">10MAA02AA140</text>
+  <image x="997.485" y="929.727" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;maa&quot;)</rt:event>
+  </image>
+  <path d="M491.567 -134.443 A8.80483 8.80483 0 1 1 491.567 -116.833 " fill="none" stroke="black" stroke-width="3" transform="rotate(90 804.561 512.334) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <line x1="761" y1="432" x2="761" y2="458" stroke="black" stroke-width="3"/> 
+  <line x1="805" y1="458" x2="760" y2="458" stroke="black" stroke-width="3"/> 
+  <line x1="712.362" y1="430" x2="712.362" y2="473" stroke="black"/> 
+  <rect x="534" y="550" width="84" height="40" rx="0" ry="0" fill="none" stroke="Col_Grey5"/> 
+  <line x1="576" y1="591.5" x2="576" y2="614.5" stroke="black"/> 
+  <g transform="flipY(569.5) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5179.4,-892.653 5192.78,-885.003 5192.78,-900.293 5179.4,-892.653" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="674.862" y="469" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(90 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;man&quot;)</rt:event>
+  </image>
+  <text x="671" y="478" fill="black" font-size="15" text-anchor="middle">MAN</text>
+  <g transform="flipX(777.5)">
+    <line x1="748" y1="586" x2="914" y2="586" stroke="black"/> 
+    <g transform="flipX(563) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="5130.72,-1145.73 5144.1,-1138.08 5144.1,-1153.37 5130.72,-1145.73" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+  </g>
+  <g transform="flipX(376) flipX(777.5)">
+    <line x1="1150" y1="586" x2="1316" y2="586" stroke="black"/> 
+    <g transform="flipX(563) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="4728.72,-1145.73 4742.1,-1138.08 4742.1,-1153.37 4728.72,-1145.73" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+  </g>
+  <line x1="1385.42" y1="394.576" x2="1385.42" y2="429.425" stroke="black" stroke-dasharray="5,5"/> 
+  <line x1="1417.61" y1="792.531" x2="1488.36" y2="792.531" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1488.27" y1="792.591" x2="1559.03" y2="792.591" stroke="black" stroke-width="1"/> 
+  <line x1="1267.15" y1="28.7272" x2="1267.15" y2="911" stroke="black" stroke-width="3"/> 
+  <line x1="1132.39" y1="99.152" x2="1203.15" y2="99.152" stroke="black" stroke-width="1"/> 
+  <line x1="1131.02" y1="48.5151" x2="1131.02" y2="99.725" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4690.11,-338.579 4703.49,-330.929 4703.49,-346.219 4690.11,-338.579" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1108.92" y="66.6971" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>11LBA30AA901</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="978.606" y="103.607" fill="black" font-size="15">11LBA30AA901</text>
+  <text x="1058" y="171.546" fill="black" font-size="15">11LBA30AA001</text>
+  <image x="1247.09" y="37.3333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA30CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA30CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="967.456" y="152.031" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>12LBA30AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA201&quot;"/> 
+  </image>
+  <text x="934.047" y="259.698" fill="black" font-size="15">12LBA30AA201</text>
+  <text x="1273" y="317.819" fill="black" font-size="15">10LBA30AA951</text>
+  <text x="1239" y="13.6363" fill="black" font-size="15">от ПГ-3</text>
+  <image x="1242.03" y="232.061" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA30AA951</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA30AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <line x1="1203.98" y1="98.031" x2="1203.98" y2="340.152" stroke="black" stroke-width="1"/> 
+  <line x1="943.546" y1="219.954" x2="1267.15" y2="219.954" stroke="black" stroke-width="1"/> 
+  <line x1="1275.15" y1="429.864" x2="1727.94" y2="429.864" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(143.182) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4908.36,-201.829 4921.74,-194.179 4921.74,-209.469 4908.36,-201.829" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5855.87,-1513.58 5869.25,-1505.93 5869.25,-1521.22 5855.87,-1513.58" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1459.65" y="556.151" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCN&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lcn&quot;)</rt:event>
+  </image>
+  <text x="1129.61" y="28.3636" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <text x="941.364" y="201.001" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="964.956" y="178.546" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>12LBA30AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1088.91" y="176.273" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>11LBA30AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA30AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <line x1="1133.42" y1="339.516" x2="1204.18" y2="339.516" stroke="black" stroke-width="1"/> 
+  <line x1="1133.05" y1="288.88" x2="1133.05" y2="340.089" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4930.47,-336.549 4943.85,-328.899 4943.85,-344.189 4930.47,-336.549" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1110.95" y="307.062" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>12LBA30AA902</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="978.606" y="347.546" fill="black" font-size="15">12LBA30AA902</text>
+  <text x="1131.64" y="268.728" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="1247.09" y="67.6969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA30CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA30CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1247.09" y="98.637" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA30CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA30CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1223.03" y="357.303" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>12LBA30AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1089.76" y="419.546" fill="black" font-size="15">12LBA30AA002</text>
+  <line x1="1268" y1="622.833" x2="1726.15" y2="622.833" stroke="black" stroke-width="3"/> 
+  <image x="1244.61" y="630.545" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA30CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA30CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1222.21" y="668.318" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA30AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA30AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1291.24" y="685.333" fill="black" font-size="15">10LBA30AA003</text>
+  <line x1="1268.03" y1="824.378" x2="1726.15" y2="824.378" stroke="black" stroke-width="3"/> 
+  <image x="1244.61" y="835.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA30CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA30CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1244.61" y="865.516" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA30C???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA30C???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1489.15" y1="622.151" x2="1489.15" y2="826" stroke="black" stroke-width="1"/> 
+  <image x="1443.55" y="629.772" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA11AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA11AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1516.82" y="663.394" fill="black" font-size="15">10LBA11AA001</text>
+  <image x="1381.64" y="727.182" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBA11AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA11AA201&quot;"/> 
+  </image>
+  <text x="1510.03" y="745.454" fill="black" font-size="15">10LBA11AA201</text>
+  <image x="1443.82" y="708.67" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0.00012207 -9.99994) flipX(1.30437e-005)">
+    <title>10LBA11AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA11AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1306.15" y="336.819" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;БЗОК&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;bzok&quot;)</rt:event>
+  </image>
+  <image x="1285.79" y="782.94" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA11CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA11CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1532.06" y="776.878" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAA&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;maa&quot;)</rt:event>
+  </image>
+  <line x1="1726.46" y1="26.3034" x2="1726.46" y2="976" stroke="black" stroke-width="3"/> 
+  <line x1="1591.7" y1="98.728" x2="1662.46" y2="98.728" stroke="black" stroke-width="1"/> 
+  <line x1="1590.32" y1="48.091" x2="1590.32" y2="99.301" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4689.69,120.709 4703.07,128.359 4703.07,113.069 4689.69,120.709" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1568.22" y="66.2734" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>11LBA40AA901</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA40AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1437.91" y="103.182" fill="black" font-size="15">11LBA40AA901</text>
+  <text x="1517.3" y="171.122" fill="black" font-size="15">11LBA40AA001</text>
+  <image x="1706.39" y="37.3333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA40CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA40CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1426.76" y="151.607" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>12LBA40AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA201&quot;"/> 
+  </image>
+  <text x="1393.35" y="259.274" fill="black" font-size="15">12LBA40AA201</text>
+  <text x="1732.3" y="317.395" fill="black" font-size="15">10LBA40AA951</text>
+  <text x="1698.3" y="13.6363" fill="black" font-size="15">от ПГ-4</text>
+  <image x="1701.33" y="231.637" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA40AA951</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA40AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <line x1="1663.29" y1="97.607" x2="1663.29" y2="340.152" stroke="black" stroke-width="1"/> 
+  <line x1="1402.85" y1="219.531" x2="1726.15" y2="219.531" stroke="black" stroke-width="1"/> 
+  <g transform="flipY(143.182) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4908.78,257.459 4922.16,265.109 4922.16,249.819 4908.78,257.459" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6315.17,-1514 6328.55,-1506.35 6328.55,-1521.64 6315.17,-1514" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="1588.91" y="28.3636" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <text x="1400.67" y="200.577" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="1424.26" y="178.122" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>12LBA40AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1548.21" y="175.849" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>11LBA40AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA40AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <line x1="1592.73" y1="339.092" x2="1663.49" y2="339.092" stroke="black" stroke-width="1"/> 
+  <line x1="1592.35" y1="288.456" x2="1592.35" y2="339.665" stroke="black" stroke-width="1"/> 
+  <g transform="rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4930.05,122.739 4943.43,130.389 4943.43,115.099 4930.05,122.739" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1570.25" y="306.638" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>12LBA40AA902</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1437.91" y="347.122" fill="black" font-size="15">12LBA40AA902</text>
+  <text x="1590.94" y="268.304" fill="black" font-size="15" text-anchor="middle">в атм</text>
+  <image x="1706.39" y="67.6969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA40CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA40CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1706.39" y="98.637" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10JEA40CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1682.33" y="356.879" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>12LBA40AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1549.06" y="419.122" fill="black" font-size="15">12LBA40AA002</text>
+  <image x="1703.91" y="630.121" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA40CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1681.52" y="667.894" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBA40AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA40AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1749.97" y="685.333" fill="black" font-size="15">10LBA40AA003</text>
+  <image x="1703.91" y="834.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA40CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA40CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1703.91" y="865.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>10LBA40C???</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA40C???&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1765.46" y="336.395" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;БЗОК&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;bzok&quot;)</rt:event>
+  </image>
+  <image x="1314.21" y="387.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>12LBA50CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;12LBA50CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <path d="M490.719 326.708 A8.80483 8.80483 0 1 1 490.719 344.318 " fill="none" stroke="black" stroke-width="3" transform="rotate(90 804.561 512.334) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <line x1="1311.15" y1="431.152" x2="1311.15" y2="457.152" stroke="black" stroke-width="3"/> 
+  <line x1="1313.15" y1="457.152" x2="1268.15" y2="457.152" stroke="black" stroke-width="3"/> 
+  <line x1="1370.18" y1="428.788" x2="1370.18" y2="515.726" stroke="black"/> 
+  <rect x="1455.15" y="549.151" width="84" height="40" rx="0" ry="0" fill="none" stroke="Col_Grey5"/> 
+  <line x1="1497.15" y1="590.651" x2="1497.15" y2="613.651" stroke="black"/> 
+  <g transform="flipY(569.5) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5180.25,28.4984 5193.63,36.1484 5193.63,20.8583 5180.25,28.4984" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1332.68" y="527.938" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(90 37.3618 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;lbj&quot;)</rt:event>
+  </image>
+  <text x="1339.94" y="541.938" fill="black" font-size="15" text-anchor="middle">LBJ</text>
+  <g transform="flipX(777.5)">
+    <line x1="-173.151" y1="585.151" x2="-7.15149" y2="585.151" stroke="black"/> 
+    <g transform="flipX(563) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="6051.87,-1146.58 6065.25,-1138.93 6065.25,-1154.22 6051.87,-1146.58" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+  </g>
+  <g transform="flipX(376) flipX(777.5)">
+    <line x1="2071.15" y1="585.151" x2="2237.15" y2="585.151" stroke="black"/> 
+    <g transform="flipX(563) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+      <g transform="rotate(90 1212.44 532.643)">
+        <polygon points="3808.01,-1146.58 3821.39,-1138.93 3821.39,-1154.22 3808.01,-1146.58" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+      </g>
+    </g>
+  </g>
+  <line x1="814" y1="430" x2="1259" y2="430" stroke="black" stroke-width="3"/> 
+  <line x1="1073.67" y1="975.743" x2="1726.67" y2="975.743" stroke="black" stroke-width="3"/> 
+  <line x1="1073.67" y1="909.045" x2="1267.61" y2="909.045" stroke="black" stroke-width="3"/> 
+  <image x="1325.18" y="435.667" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000149632) flipY(-9.99988) rotate(90 6.10352e-005 -9.99994) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10LBD00AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBD00AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1403.97" y="472.727" fill="black" font-size="15">10LBD00AA001</text>
+  <line x1="846.288" y1="430.333" x2="846.288" y2="819" stroke="black" stroke-width="3"/> 
+  <line x1="846" y1="477.348" x2="1150.27" y2="477.348" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="462.606" fill="black" font-size="15">10LBF10AA201</text>
+  <image x="991.091" y="435.307" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF10AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="464.242" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF10AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="456.636" fill="black" font-size="15">БРУ-СН</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5949.54,-1254.4 5962.92,-1246.75 5962.92,-1262.04 5949.54,-1254.4" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="846" y1="545.5" x2="1150.27" y2="545.5" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="530.758" fill="black" font-size="15">10LBF20AA201</text>
+  <image x="991.091" y="503.459" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF20AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF20AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="532.394" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF20AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF20AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="524.787" fill="black" font-size="15">БРУ-СН</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5949.39,-1186.25 5962.77,-1178.6 5962.77,-1193.89 5949.39,-1186.25" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="846" y1="614.708" x2="1150.27" y2="614.708" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="599.966" fill="black" font-size="15">10LBF30AA201</text>
+  <image x="991.091" y="571.667" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF30AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF30AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="601.602" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF30AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF30AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="593.996" fill="black" font-size="15">БРУ-ТФУ</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5950.15,-1117.04 5963.53,-1109.39 5963.53,-1124.68 5950.15,-1117.04" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="846" y1="683.132" x2="1150.27" y2="683.132" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="668.39" fill="black" font-size="15">10LBF40AA201</text>
+  <image x="991.091" y="640.091" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF40AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF40AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="670.026" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF40AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF40AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="662.42" fill="black" font-size="15">БРУ-Д</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5949.66,-1048.62 5963.04,-1040.97 5963.04,-1056.26 5949.66,-1048.62" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="846" y1="750.284" x2="1150.27" y2="750.284" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="735.542" fill="black" font-size="15">10LBF50AA201</text>
+  <image x="991.091" y="708.243" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF50AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF50AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="737.178" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF10AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF10AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="729.571" fill="black" font-size="15">БРУ-Д</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5949.51,-981.466 5962.89,-973.816 5962.89,-989.106 5949.51,-981.466" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="846" y1="818.492" x2="1150.27" y2="818.492" stroke="black" stroke-width="3"/> 
+  <text x="860.606" y="803.75" fill="black" font-size="15">10LBF60AA201</text>
+  <image x="991.091" y="776.451" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX(1.30437e-005)">
+    <title>10LBF60AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF60AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1071.39" y="805.386" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>10LBF60AA201</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBF60AA201&quot;"/> 
+  </image>
+  <text x="1070.88" y="797.78" fill="black" font-size="15">РУ-УПТ</text>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5949.27,-913.256 5962.65,-905.606 5962.65,-920.896 5949.27,-913.256" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1173.67" y="495.454" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lbg&quot;)</rt:event>
+  </image>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6100.88,-824.376 6114.26,-816.727 6114.26,-832.016 6100.88,-824.376" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(1075.94) flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6020.09,-824.892 6033.47,-817.242 6033.47,-832.532 6020.09,-824.892" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(1075.94) flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6020.09,-757.196 6033.47,-749.546 6033.47,-764.836 6020.09,-757.196" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(1095.64) flipX(32) rotate(90 32.7576 296.212) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6100.88,-756.194 6114.26,-748.545 6114.26,-763.834 6100.88,-756.194" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1088.91" y="933.333" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10MAA03AA140</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA03AA140&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <image x="1089.21" y="866.393" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>10MAA01AA140</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA01AA140&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;hydro&quot;"/> 
+  </image>
+  <text x="1163.61" y="968.667" fill="black" font-size="15">10MAA03AA140</text>
+  <text x="1166.64" y="926.242" fill="black" font-size="15">10MAA01AA140</text>
+</svg>

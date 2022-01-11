@@ -1,0 +1,286 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="FGU_00GCB31EC001_M22-25" stroke-width="3" font-size="15" font-weight="bold">
+  <title>ПУ УФФ 00GCB31AT001</title>
+  <rt:model modelversion="7.2.0.24"/> 
+  <polyline points="375,844.697 375,200 300,200" fill="none" stroke="black"/> 
+  <g>
+    <rect x="300.363" y="251.061" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="317.363" y="278.061" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 22</text>
+  </g>
+  <image x="409.363" y="258.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EC001_XS22</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB31EC001_XS22&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <text x="757.576" y="41" fill-opacity="1" font-size="26">ПУ УУФ 00GCB31AT001</text>
+  <text x="17.6063" y="39.197" fill="black" font-size="18" font-weight="bold">FGU_00GCB31EC001_M22-25</text>
+  <image x="199.363" y="188.061" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 21&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M15-21&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="351.863" y="750.561" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="362.863" y="782.894" font-size="28">&amp;</text>
+  <line x1="573.363" y1="336.061" x2="398.363" y2="336.061" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.283" y="315.394" id="SVGText1318" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="409.283" dy="16">00GCB35EE501</tspan>
+  </text>
+  <text x="413.363" y="352.394" id="SVGText1319" fill="black" font-size="16" font-weight="normal">Вкл, GCB35AP001,2</text>
+  <image x="325.363" y="839.061" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 26&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M26-30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <line x1="374.998" y1="726.516" x2="310.028" y2="726.516" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="241.849" y="675">Счетч. циклов<tspan x="241.849" dy="15">УУФ1</tspan>
+<tspan x="241.849" dy="15">Сраб. G</tspan>
+  </text>
+  <image x="296.418" y="715.395" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EE005_ZV05</title>
+    <rt:dyn type="PointID" value="&quot;00GCB31EE005_ZV05&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <polyline points="400,293.576 400,500 575,500" fill="none" stroke="black"/> 
+  <text x="35.9239" y="464.606">00GCB35AP002</text>
+  <text x="62.439" y="479.606" fill="Col_Grey5">КС: ВКЛ</text>
+  <text x="35.9239" y="362.606">00GCB35AP001</text>
+  <text x="62.439" y="377.606" fill="Col_Grey5">КС: ВКЛ</text>
+  <line x1="326" y1="450" x2="238.818" y2="450" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="199.394" y="491.879">00GCB41AP003</text>
+  <text x="225.909" y="506.879" fill="Col_Grey5">КС: ВКЛ</text>
+  <image x="221.394" y="414.879" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB41AP003</title>
+    <rt:dyn type="KKS" value="&quot;00GCB41AP003VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <text x="199.394" y="390.879">00GCB41AP002</text>
+  <text x="223.636" y="405.879" fill="Col_Grey5">КС:  ВКЛ</text>
+  <polyline points="87.3029,325 175,325 175,650 375,650" fill="none" stroke="black"/> 
+  <line x1="174.909" y1="424.531" x2="74.9095" y2="424.531" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="54.5147" y="286.606" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB35AP001</title>
+    <rt:dyn type="KKS" value="&quot;00GCB35AP001VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <image x="54.5147" y="388.606" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB35AP002</title>
+    <rt:dyn type="KKS" value="&quot;00GCB35AP002VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <rect x="148.954" y="553.924" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="153.545" y="586.697" font-size="28">&gt;1</text>
+  <polyline points="275,350 325,350 325,600 375,600" fill="none" stroke="black"/> 
+  <image x="221.394" y="314.879" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB41AP002</title>
+    <rt:dyn type="KKS" value="&quot;00GCB41AP002VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <rect x="300.371" y="518.924" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="301.402" y="553.924" font-size="28">&gt;1</text>
+  <line x1="573.879" y1="385.152" x2="398.879" y2="385.152" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="411.799" y="378.485" id="SVGText1338" fill="black" font-size="16" font-weight="700">00GCB41EE502</text>
+  <text x="413.879" y="402.485" id="SVGText1339" fill="black" font-size="16" font-weight="normal">Вкл, GCB41AP002,3</text>
+  <line x1="573.394" y1="436.303" x2="398.394" y2="436.303" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="411.314" y="429.636" id="SVGText1340" fill="black" font-size="16" font-weight="700">00GCB31EK001</text>
+  <text x="413.394" y="453.636" id="SVGText1341" fill="black" font-size="16" font-weight="normal">Некач. хим.<tspan x="413.394" dy="16">заполненеие</tspan>
+  </text>
+  <text x="412.496" y="493.636" id="SVGText1342" fill="black" font-size="16" font-weight="700">00GCB31EE005</text>
+  <text x="414.576" y="514.636" id="SVGText1343" fill="black" font-size="16" font-weight="normal">Счетчик циклов</text>
+  <polyline points="802,843.939 802,200 727,200" fill="none" stroke="black"/> 
+  <g>
+    <rect x="728.954" y="250.576" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="745.954" y="277.576" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 23</text>
+  </g>
+  <image x="839.954" y="257.576" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EC001_XS23</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB31EC001_XS23&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="627.954" y="187.576" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 21&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M15-21&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="776.454" y="750.076" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="787.454" y="782.409" font-size="28">&amp;</text>
+  <line x1="999.954" y1="335.576" x2="824.954" y2="335.576" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="835.874" y="314.909" id="SVGText1344" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="835.874" dy="16">00GCB36EE501</tspan>
+  </text>
+  <text x="839.954" y="351.909" id="SVGText1345" fill="black" font-size="16" font-weight="normal">Вкл, GCB36AP001,2</text>
+  <image x="749.954" y="838.576" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 26&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M26-30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <line x1="799.589" y1="726.031" x2="734.619" y2="726.031" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="666.44" y="674.515">Счетч. циклов<tspan x="666.44" dy="15">УУФ1</tspan>
+<tspan x="666.44" dy="15">Сраб. G</tspan>
+  </text>
+  <image x="721.009" y="714.91" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EE005_ZV05</title>
+    <rt:dyn type="PointID" value="&quot;00GCB31EE005_ZV05&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <polyline points="825,293.939 825,450 1000,450" fill="none" stroke="black"/> 
+  <line x1="750.591" y1="449.515" x2="650.591" y2="449.515" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="621.985" y="491.394">00GCB36AP002</text>
+  <text x="648.5" y="506.394" fill="Col_Grey5">КС: ВКЛ</text>
+  <image x="639.985" y="414.394" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB36AP002</title>
+    <rt:dyn type="KKS" value="&quot;00GCB36AP002VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <text x="621.985" y="390.394">00GCB36AP001</text>
+  <text x="646.227" y="405.394" fill="Col_Grey5">КС:  ВКЛ</text>
+  <polyline points="677,350 752,350 752,600 799.591,599.515" fill="none" stroke="black"/> 
+  <image x="638.985" y="314.394" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB36AP001</title>
+    <rt:dyn type="KKS" value="&quot;00GCB36AP001VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <rect x="731.962" y="518.439" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="732.993" y="553.439" font-size="28">&gt;1</text>
+  <line x1="999.985" y1="388.818" x2="824.985" y2="388.818" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="837.905" y="382.151" id="SVGText1348" fill="black" font-size="16" font-weight="700">00GCB31EK001</text>
+  <text x="839.985" y="406.151" id="SVGText1349" fill="black" font-size="16" font-weight="normal">Некач. хим.<tspan x="839.985" dy="16">заполненеие</tspan>
+  </text>
+  <text x="841.087" y="446.151" id="SVGText1350" fill="black" font-size="16" font-weight="700">00GCB31EE005</text>
+  <text x="843.167" y="465.151" id="SVGText1351" fill="black" font-size="16" font-weight="normal">Счетчик циклов</text>
+  <polyline points="1225,843.939 1225,200 1150,200" fill="none" stroke="black"/> 
+  <g>
+    <rect x="1148.09" y="250.576" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="1165.09" y="277.576" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 24</text>
+  </g>
+  <image x="1259.09" y="257.576" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EC001_XS24</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB31EC001_XS24&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1054.09" y="187.576" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 21&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M15-21&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="1199.59" y="750.076" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1210.59" y="782.409" font-size="28">&amp;</text>
+  <line x1="1423.09" y1="334.576" x2="1248.09" y2="334.576" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1259.01" y="313.909" id="SVGText1352" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="1259.01" dy="16">00GCB35EE501</tspan>
+  </text>
+  <text x="1263.09" y="350.909" id="SVGText1353" fill="black" font-size="16" font-weight="normal">Вкл, GCB35AP001,2</text>
+  <image x="1173.09" y="838.576" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 26&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M26-30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <line x1="1222.72" y1="726.031" x2="1157.75" y2="726.031" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1089.58" y="674.515">Счетч. циклов<tspan x="1089.58" dy="15">УУФ1</tspan>
+<tspan x="1089.58" dy="15">Сраб. G</tspan>
+  </text>
+  <image x="1144.15" y="714.91" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EE005_ZV05</title>
+    <rt:dyn type="PointID" value="&quot;00GCB31EE005_ZV05&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <polyline points="1249.73,292.091 1250,450 1425,450" fill="none" stroke="black"/> 
+  <line x1="1174.73" y1="449.515" x2="1074.73" y2="449.515" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1046.12" y="491.394">00GCB35AP002</text>
+  <text x="1072.64" y="506.394" fill="Col_Grey5">КС: ВКЛ</text>
+  <image x="1063.12" y="414.394" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB35AP002</title>
+    <rt:dyn type="KKS" value="&quot;00GCB35AP002VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <text x="1046.12" y="390.394">00GCB35AP001</text>
+  <text x="1070.36" y="405.394" fill="Col_Grey5">КС:  ВКЛ</text>
+  <polyline points="1118.36,350 1175,350 1175,600 1222.73,599.515" fill="none" stroke="black"/> 
+  <image x="1063.12" y="314.394" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB35AP001</title>
+    <rt:dyn type="KKS" value="&quot;00GCB35AP001VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <rect x="1156.1" y="518.439" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1157.13" y="553.439" font-size="28">&gt;1</text>
+  <line x1="1423.13" y1="387.818" x2="1248.12" y2="387.818" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1261.04" y="381.151" id="SVGText1354" fill="black" font-size="16" font-weight="700">00GCB31EK001</text>
+  <text x="1263.12" y="405.151" id="SVGText1355" fill="black" font-size="16" font-weight="normal">Некач. хим.<tspan x="1263.12" dy="16">заполненеие</tspan>
+  </text>
+  <text x="1264.22" y="444.151" id="SVGText1356" fill="black" font-size="16" font-weight="700">00GCB31EE005</text>
+  <text x="1266.3" y="464.151" id="SVGText1357" fill="black" font-size="16" font-weight="normal">Счетчик циклов</text>
+  <polyline points="1650,843.939 1650,200 1574.52,199.788" fill="none" stroke="black"/> 
+  <g>
+    <rect x="1572.61" y="250.364" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="1589.61" y="277.364" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 25</text>
+  </g>
+  <image x="1683.61" y="257.364" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EC001_XS25</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB31EC001_XS25&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1478.61" y="187.364" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 21&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M15-21&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="1624.11" y="749.864" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1635.11" y="782.197" font-size="28">&amp;</text>
+  <line x1="1847.61" y1="334.364" x2="1672.61" y2="334.364" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1683.53" y="313.697" id="SVGText1358" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="1683.53" dy="16">00GCB41EE502</tspan>
+  </text>
+  <text x="1687.61" y="350.697" id="SVGText1359" fill="black" font-size="16" font-weight="normal">Вкл, GCB41AP002,3</text>
+  <image x="1597.61" y="838.364" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 26&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;FGU_00GCB31EC001_M26-30&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <line x1="1647.24" y1="725.819" x2="1582.27" y2="725.819" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1514.1" y="674.303">Счетч. циклов<tspan x="1514.1" dy="15">УУФ1</tspan>
+<tspan x="1514.1" dy="15">Сраб. G</tspan>
+  </text>
+  <image x="1568.67" y="714.698" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCB31EE005_ZV05</title>
+    <rt:dyn type="PointID" value="&quot;00GCB31EE005_ZV05&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <polyline points="1674.25,291.879 1675,450 1850,450" fill="none" stroke="black"/> 
+  <line x1="1599.25" y1="449.303" x2="1499.25" y2="449.303" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1470.64" y="491.182">00GCB41AP003</text>
+  <text x="1497.16" y="506.182" fill="Col_Grey5">КС: ВКЛ</text>
+  <image x="1487.64" y="414.182" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB41AP003</title>
+    <rt:dyn type="KKS" value="&quot;00GCB41AP003VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <text x="1470.64" y="390.182">00GCB41AP002</text>
+  <text x="1494.88" y="405.182" fill="Col_Grey5">КС:  ВКЛ</text>
+  <polyline points="1542.88,349.788 1599.52,349.788 1599.52,599.788 1647.25,599.303" fill="none" stroke="black"/> 
+  <image x="1487.64" y="314.182" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCB41AP002</title>
+    <rt:dyn type="KKS" value="&quot;00GCB41AP002VL0&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TYPE1&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;doser&quot;" mode="constant"/> 
+  </image>
+  <rect x="1580.62" y="518.227" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1581.65" y="553.227" font-size="28">&gt;1</text>
+  <line x1="1847.65" y1="387.606" x2="1672.64" y2="387.606" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1685.56" y="380.939" id="SVGText1360" fill="black" font-size="16" font-weight="700">00GCB31EK001</text>
+  <text x="1687.64" y="404.939" id="SVGText1361" fill="black" font-size="16" font-weight="normal">Некач. хим.<tspan x="1687.64" dy="16">заполненеие</tspan>
+  </text>
+  <text x="1688.74" y="445.939" id="SVGText1362" fill="black" font-size="16" font-weight="700">00GCB31EE005</text>
+  <text x="1690.82" y="462.939" id="SVGText1363" fill="black" font-size="16" font-weight="normal">Счетчик циклов</text>
+</svg>

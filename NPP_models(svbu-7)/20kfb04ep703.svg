@@ -1,0 +1,75 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="20kfb04ep703" stroke-width="2" font-family="AAP_Font2" font-size="14" font-weight="700">
+  <desc>SPPB1</desc>
+  <title>Кривые хладноломкости</title>
+  <rt:model comment="Created by Pervushin">
+    <rt:event type="OnInitialize"/> 
+  </rt:model>
+  <image x="67" y="938" width="65" height="65" xlink:href="dull_Logs.bmp"/> 
+  <polyline points="176.5,70 176.5,38 277.5,38 277.5,68.25 254.25,20.5" fill="none"/> 
+  <text x="107" y="30" font-size="22" font-weight="700" text-anchor="middle">20kfb04ep703</text>
+  <image x="294.333" y="110.212" width="1542.42" height="839.394" xlink:href="spds_graph_p_t.svg">
+    <rt:dyn type="Temperature" mode="constant" value="&quot;20JEC00FT901_XP04&quot;"/> 
+    <rt:dyn type="Pressure" mode="constant" value="&quot;20JAA00FP901_XP02&quot;"/> 
+    <rt:dyn type="vrange" mode="onchange" value="BIN(&quot;20JNA00FV801_XP04&quot;).Value*2 + BIN(&quot;20JNA00FV802_XP04&quot;).Value"/> 
+    <rt:dyn type="Tail" mode="constant" value="&quot;20KFB04EU800_XZ13&quot;"/> 
+    <rt:dyn type="BRej" mode="constant" value="&quot;20kfb04ep703&quot;"/> 
+    <rt:dyn type="SRej" mode="constant" value="&quot;20kfb04ep701&quot;"/> 
+  </image>
+  <image x="26" y="103" width="180" height="80" xlink:href="spds_timer_csf.svg">
+    <rt:dyn type="PID" mode="constant" value="&quot;20KFB04EU801_ZP06&quot;"/> 
+    <rt:dyn type="STime" mode="onchange" value="BIN(&quot;20KFB00EU800_ZP05&quot;).FieldTime"/> 
+    <rt:dyn type="Hide" mode="constant" value="true"/> 
+  </image>
+  <image x="-14" y="197" width="254" height="585" xlink:href="spds_menu_vert.svg">
+    <rt:dyn type="dm_color_1" mode="unknown" value="&quot;20KFB01EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_2" mode="unknown" value="&quot;20KFB02EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_3" mode="unknown" value="&quot;20KFB12EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_4" mode="unknown" value="&quot;20KFB03EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_5" mode="unknown" value="&quot;20KFB04EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_6" mode="unknown" value="&quot;20KFB05EU801_ZP05&quot;"/> 
+    <rt:dyn type="dm_color_7" mode="unknown" value="&quot;20KFB06EU801_ZP05&quot;"/> 
+    <rt:dyn type="Frame_1" mode="unknown" value="&quot;20KFB01EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_2" mode="unknown" value="&quot;20KFB02EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_3" mode="unknown" value="&quot;20KFB12EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_4" mode="unknown" value="&quot;20KFB03EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_5" mode="unknown" value="&quot;20KFB04EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_6" mode="unknown" value="&quot;20KFB05EU801_ZP07&quot;"/> 
+    <rt:dyn type="Frame_7" mode="unknown" value="&quot;20KFB06EU801_ZP07&quot;"/> 
+    <rt:dyn type="Link_1" mode="constant" value="&quot;20kfb01ep701&quot;"/> 
+    <rt:dyn type="PointID1" mode="constant" value="&quot;20KFB00EU800_ZP05&quot;"/> 
+    <rt:dyn type="Link_2" mode="constant" value="&quot;20kfb02ep701&quot;"/> 
+    <rt:dyn type="Link_3" mode="constant" value="&quot;20kfb12ep701&quot;"/> 
+    <rt:dyn type="Link_4" mode="constant" value="&quot;20kfb03ep701&quot;"/> 
+    <rt:dyn type="Link_5" mode="constant" value="&quot;20kfb04ep701&quot;"/> 
+    <rt:dyn type="Link_6" mode="constant" value="&quot;20kfb05ep701&quot;"/> 
+    <rt:dyn type="Link_7" mode="constant" value="&quot;20kfb06ep701&quot;"/> 
+  </image>
+  <image x="5" y="814" width="194" height="35" xlink:href="obj_Button.svg" id="kn1211121149">
+    <rt:dyn type="Label" mode="constant" value="&quot;ПАРАМЕТРЫ КФБ4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20kfb04ep702&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="19"/> 
+  </image>
+  <image x="-8.1819" y="868.864" width="80" height="60" xlink:href="spds_instr_button.svg">
+    <rt:dyn type="FileName" mode="constant" value="&quot;ruta&quot;"/> 
+    <rt:dyn type="InstrName" mode="constant" value="&quot;РУТА&quot;"/> 
+  </image>
+  <image x="61.8181" y="868.864" width="80" height="60" xlink:href="spds_instr_button.svg">
+    <rt:dyn type="FileName" mode="constant" value="&quot;ruza&quot;"/> 
+    <rt:dyn type="InstrName" mode="constant" value="&quot;РУЗА&quot;"/> 
+  </image>
+  <image x="131.818" y="868.864" width="80" height="60" xlink:href="spds_instr_button.svg">
+    <rt:dyn type="FileName" mode="constant" value="&quot;ila&quot;"/> 
+    <rt:dyn type="InstrName" mode="constant" value="&quot;ИЛА&quot;"/> 
+  </image>
+  <image x="65.5152" y="934.121" width="65" height="65" xlink:href="obj_Button_icon.svg" id="SVGImage950">
+    <title>Протокол  kfb4</title>
+    <rt:event type="OnClick">VAR(RTA.MyTask.TaskName + &quot;.PORTAL_Command&quot;).ValueString = &quot;REPORT_VIEW OPEN S:kfb4&quot;</rt:event>
+  </image>
+  <image x="132" y="935" width="80" height="60" xlink:href="spds_instr_button.svg">
+    <title>Руководство оператора СППБ</title>
+    <rt:dyn type="FileName" mode="constant" value="&quot;SPDS_Operator_manual&quot;"/> 
+    <rt:dyn type="InstrName" mode="constant" value="&quot;Опер.&quot;"/> 
+    <rt:dyn type="InstrP" mode="constant" value="&quot;Рук-во&quot;"/> 
+  </image>
+</svg>

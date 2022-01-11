@@ -1,0 +1,554 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="er1">
+  <title>ЭЧСР.</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_ehsr"/> 
+  <line x1="630" y1="457" x2="1350.75" y2="457" stroke="gray" stroke-width="6"/> 
+  <text x="875" y="31" font-size="30" font-weight="700">
+    <title>Система регулирования турбины</title>
+ЭЧСР</text>
+  <text x="1305" y="548.75" font-size="15">Генератор в сети</text>
+  <line x1="1798.25" y1="528.75" x2="1798.25" y2="528.75" stroke="black"/> 
+  <text x="541.625" y="431.25" font-size="15">Частота ТГ</text>
+  <image x="1471.25" y="444.25" width="200" height="35" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01CE901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01CE901&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="scale(1.17751 1.17751 1690.91 490.449) scale(1.10146 1.10146 1751.91 527.449)">
+    <circle cx="1449.14" cy="473.039" r="48.4847" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <path d="M1417.93 470.709 Q1432.93 455.709 1447.93 470.709 Q1462.93 485.709 1477.93 470.709 Q1477.93 470.709 1477.93 470.709 " fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  </g>
+  <text x="1335.75" y="487.5" font-size="15">20MKA10</text>
+  <image x="1357.75" y="495.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01EU401A_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01EU401A_ZV10&quot;"/> 
+  </image>
+  <text x="1506" y="433.75" font-size="15">N генератора</text>
+  <rect x="18.75" y="333.75" width="416" height="662" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <text x="34.5625" y="361.583" fill="black" font-size="17">Предварительная защита</text>
+  <text x="47.0625" y="548.083" fill="black" font-size="17">Импульсная разгрузка</text>
+  <text x="48.3125" y="682.583" fill="black" font-size="17">Релейная форсировка</text>
+  <text x="124.563" y="423.083" fill="black" font-size="17">ДИФ</text>
+  <text x="125.187" y="818.083" fill="black" font-size="17">БОМ</text>
+  <image x="88.3125" y="365.583" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH006VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH006VL0&quot;"/> 
+  </image>
+  <image x="88.3125" y="555.958" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH001VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH001VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="691.083" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH002VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH002VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="428.583" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH003VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH003VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="823.833" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH005VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH005VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <text x="291.812" y="423.083" font-size="17">ДИФ сработал</text>
+  <text x="294.937" y="361.833" font-size="17">ПЗ сработала</text>
+  <text x="297.437" y="818.083" font-size="17">ОМ сработал</text>
+  <text x="293.687" y="682.583" font-size="17">РФ сработала</text>
+  <text x="294.937" y="548.083" font-size="17">ИР сработала</text>
+  <image x="340.562" y="368.083" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY10EK100_XK95&quot;</title>
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY10EK100_XK95&quot;"/> 
+  </image>
+  <image x="340.562" y="558.458" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY10EY001_ZV41&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY10EY001_ZV41&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="340.562" y="693.583" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY10EY002_ZV41&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY10EY002_ZV41&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="340.562" y="431.083" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY10EY003_ZV41&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY10EY003_ZV41&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="340.562" y="826.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY10EY005_ZV12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY10EY005_ZV12&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="63.3125" y="880.333" font-size="17">Отмена индикации</text>
+  <image x="88.3125" y="887.788" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH005BTE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH005BTE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="92.0625" y="945.333" font-size="17">Отмена ПАА</text>
+  <text x="287.437" y="483.833" font-size="17">БРМД сработал</text>
+  <image x="340.562" y="493.083" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LBA50DP003_ZV11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LBA50DP003_ZV11&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="88.3125" y="951.333" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH005ATE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH005ATE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="101.438" y="484.833" fill="black" font-size="17">ПВР БРМД</text>
+  <image x="88.3125" y="490.583" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20LBA50CH003VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBA50CH003VL0&quot;"/> 
+  </image>
+  <image x="88.3125" y="590.667" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH101VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH101VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="625.417" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH102VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH102VL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="726.167" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH002ZVL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH002ZVL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="88.3125" y="761.292" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAY10CH002XVL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY10CH002XVL0&quot;"/> 
+    <rt:dyn type="AorVW1isOUT" mode="constant" value="true"/> 
+  </image>
+  <image x="300.25" y="596" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK501_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK501_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <rect x="18.75" y="35.5" width="482" height="264.5" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <text x="313.25" y="59.5" font-size="15">РЕЖИМЫ</text>
+  <text x="318.75" y="87.375" font-size="15">АРМ режим Т</text>
+  <text x="318.75" y="198.938" font-size="15">БРУ-К активен</text>
+  <image x="279.75" y="70.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JDY18EE002A_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JDY18EE002A_XG01&quot;"/> 
+  </image>
+  <image x="279.75" y="181.438" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAN00EE100_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAN00EE100_XG01&quot;"/> 
+  </image>
+  <text x="318.75" y="237.063" font-size="15">СК ТГ&gt;2 закрыты</text>
+  <image x="279.75" y="220.188" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAA00EU192_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAA00EU192_XG01&quot;"/> 
+  </image>
+  <text x="318.75" y="275.75" font-size="15">Все РК ЦВД закрыты</text>
+  <image x="279.75" y="258.875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAA10CG241_ZV11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAA10CG241_ZV11&quot;"/> 
+  </image>
+  <text x="65.7501" y="88" font-size="15">Запрет на больше ОПРЧ</text>
+  <image x="27.5001" y="70.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01DE051_ZV80&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01DE051_ZV80&quot;"/> 
+  </image>
+  <text x="66.5001" y="124.375" font-size="15">Защита генератора</text>
+  <image x="27.5001" y="107.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01EK304A_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01EK304A_XG01&quot;"/> 
+  </image>
+  <text x="65.7501" y="162.438" font-size="15">УПЗ</text>
+  <text x="65.7501" y="198.938" font-size="15">N РУ &gt;98%</text>
+  <text x="65.7501" y="237.063" font-size="15">Мощность недостоверна</text>
+  <image x="27.5001" y="144.938" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JDY01ER201_XK95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JDY01ER201_XK95&quot;"/> 
+  </image>
+  <image x="27.5001" y="181.438" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20JKT00FX911_XH09&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKT00FX911_XH09&quot;"/> 
+  </image>
+  <image x="27.5001" y="220.188" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01CE901_XM26&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01CE901_XM26&quot;"/> 
+  </image>
+  <rect x="782.25" y="60.5" width="260" height="226.25" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <line x1="924.75" y1="93.25" x2="924.75" y2="403.25" stroke="black" stroke-width="3"/> 
+  <polygon points="821.049,398.363 821.049,548.363 933.921,523.363 1046.05,548.363 1046.05,398.363 933.921,423.363" fill="gray" stroke="black" stroke-width="1" transform="scale(2.06338 2.06338 941.789 487.902)"/> 
+  <text x="1051.25" y="358.75" font-size="15">20MAA10</text>
+  <image x="837.25" y="302.5" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20MAA10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAA10CP901&quot;"/> 
+    <rt:dyn type="NoBounds" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS1" mode="constant" value="&quot;20MAA10CP001_XQ01&quot;"/> 
+    <rt:dyn type="FKKS2" mode="constant" value="&quot;20MAA10CP002_XQ01&quot;"/> 
+    <rt:dyn type="FKKS3" mode="constant" value="&quot;20MAA10CP003_XQ01&quot;"/> 
+  </image>
+  <image x="713.75" y="375.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01EU001_ZV11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01EU001_ZV11&quot;"/> 
+  </image>
+  <text x="774.75" y="393.25" fill="black" font-size="15" text-anchor="middle">ОПРЧ</text>
+  <text x="774.125" y="509.875" fill="black" font-size="15" text-anchor="middle">НПРЧ</text>
+  <text x="968.5" y="400" fill="black" font-size="15" text-anchor="middle">Рег Р max</text>
+  <text x="972.25" y="454.125" fill="black" font-size="15" text-anchor="middle">Рег Р норм</text>
+  <text x="966" y="505.625" fill="black" font-size="15" text-anchor="middle">Рег Р min</text>
+  <text x="1118.13" y="437.5" fill="black" font-size="15" text-anchor="middle">РегN</text>
+  <image x="713.75" y="492.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01EU001_ZV12&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01EU001_ZV12&quot;"/> 
+  </image>
+  <image x="889" y="382.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50DU003_XC37&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC37&quot;"/> 
+  </image>
+  <image x="889" y="437.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50DU003_XC34&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC34&quot;"/> 
+  </image>
+  <image x="889" y="487.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50DU003_XC35&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC35&quot;"/> 
+  </image>
+  <image x="1105.63" y="443.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50DU003_XC33&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC33&quot;"/> 
+  </image>
+  <g transform="flipY(69.755) flipX(944.444) rotate(270 944.444 69.755) rotate(90 1446.76 921.194) flipY(955.945) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="-391.586,-394.441 -378.206,-386.797 -378.206,-402.084 -391.586,-394.441" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="837.25" y="163.125" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;20LBA50CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBA50CP902_XQ02&quot;"/> 
+    <rt:dyn type="NoBounds" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FName" mode="constant" value="TRUE"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="909.75" y="79.3751" font-size="15">ГПК</text>
+  <text x="972.25" y="246.875" fill="black" font-size="15">ТРМД</text>
+  <image x="812.25" y="223.125" width="65" height="25" xlink:href="DS_TPTS_Reg_degree.svg">
+    <title>&quot;20MAY50DU003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY50DU003A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+  </image>
+  <image x="882.25" y="211.875" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 -0.000183105 -10)">
+    <title>&quot;20MAY50DU003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAY50DU003A&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="849.75" y="120.625" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20LBA50DP001K&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBA50DP001K&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1400" y="362.25" font-size="15">Выкл.<tspan x="1400" dy="15">сети</tspan>
+<tspan x="1400" dy="15">откл</tspan>
+  </text>
+  <text x="1300" y="368.25" font-size="15">Ген<tspan x="1300" dy="15">откл</tspan>
+  </text>
+  <line x1="1313.75" y1="388" x2="1347.5" y2="435.5" stroke="black"/> 
+  <line x1="1415" y1="395" x2="1395.5" y2="436.562" stroke="black"/> 
+  <image x="1335.25" y="417.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20BAC02EJ705_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20BAC02EJ705_XG03&quot;"/> 
+  </image>
+  <image x="1378.5" y="417.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ABQ43EK705B_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ABQ43EK705B_XG03&quot;"/> 
+  </image>
+  <rect x="623" y="622" width="592.5" height="373.75" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <image x="834.505" y="827.631" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01DE001T&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01DE001T_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="NoBounds" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="806.75" y="844.956" fill="black" font-size="15" text-anchor="middle">Nздн</text>
+  <image x="768.255" y="725.131" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20MKA01DE001K&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01DE001K&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="925.755" y="725.131" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20MKA01DE011&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01DE011&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <g>
+    <line x1="844.935" y1="756.381" x2="844.935" y2="793.881" stroke="black"/> 
+    <line x1="844.725" y1="793.506" x2="877.225" y2="793.506" stroke="black"/> 
+    <line x1="876.685" y1="817.531" x2="876.685" y2="792.531" stroke="black"/> 
+    <g transform="scale(0.569897 0.811121 1680.51 886.444) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+      <polygon points="-680.586,-738.534 -667.206,-730.89 -667.206,-746.177 -680.586,-738.534" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(1780.82)">
+    <line x1="2562.57" y1="756.381" x2="2562.57" y2="793.881" stroke="black"/> 
+    <line x1="2562.36" y1="793.506" x2="2594.86" y2="793.506" stroke="black"/> 
+    <line x1="2594.32" y1="817.531" x2="2594.32" y2="792.531" stroke="black"/> 
+    <g transform="scale(0.569897 0.811121 1680.51 886.444) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+      <polygon points="-680.586,2275.42 -667.206,2283.06 -667.206,2267.77 -680.586,2275.42" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="888.625" y="664.956" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01DE011_XQ31&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01DE011_XQ31&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="NoBounds" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="975.5" y="659.706" fill="black" font-size="15" text-anchor="middle">Темп нагр</text>
+  <text x="864.375" y="682.456" fill="black" font-size="15" text-anchor="middle">MAX</text>
+  <image x="1086.12" y="724.956" width="110" height="31.5152" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MKA01CH011TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH011TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="641.125" y="724.956" width="110" height="31.5152" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MKA01CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1022.38" y="828.706" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01DE051&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01DE051&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="NoBounds" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1101.75" y="823.206" fill="black" font-size="15" text-anchor="middle">N(f)</text>
+  <text x="829.25" y="713.706" fill="black" font-size="15" text-anchor="middle">N кон</text>
+  <text x="695.75" y="702.5" fill="black" font-size="15" text-anchor="middle">кн стоп<tspan x="695.75" dy="15">нагружение</tspan>
+  </text>
+  <text x="1134.87" y="712.456" fill="black" font-size="15" text-anchor="middle">Особый режим</text>
+  <image x="849.625" y="893.419" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20MKA01DE031&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01DE031&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="910.62" y="888.956" fill="black" font-size="15" text-anchor="middle">N макс</text>
+  <image x="848.375" y="951.544" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20MKA01DE021&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01DE021&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="909.37" y="946.206" fill="black" font-size="15" text-anchor="middle">N мин</text>
+  <text x="1148.25" y="913.419" fill="black" font-size="15" text-anchor="middle">N &gt; Nmax</text>
+  <text x="1145.75" y="972.169" fill="black" font-size="15" text-anchor="middle">N &lt; Nmin</text>
+  <image x="1070.37" y="895.919" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01DE001T_ZV44&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01DE001T_ZV44&quot;"/> 
+  </image>
+  <image x="1070.37" y="954.044" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKA01DE001T_ZV43&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKA01DE001T_ZV43&quot;"/> 
+  </image>
+  <image x="498.5" y="445.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAX50CS901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAX50CS901_XQ03&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FName" mode="constant" value="TRUE"/> 
+  </image>
+  <rect x="1303.75" y="38" width="566.25" height="280" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <text x="1564.25" y="162.75" fill="black" font-size="15" text-anchor="middle">Сброс счета</text>
+  <text x="1499.25" y="62.7499" fill="black" font-size="15" text-anchor="middle">Количество срабатываний</text>
+  <image x="1510.25" y="170.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MKA01CH053VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH053VL0&quot;"/> 
+  </image>
+  <text x="1565.25" y="275" fill="black" font-size="15" text-anchor="middle">Отклонение частоты</text>
+  <image x="1477.75" y="281" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01DE051_XQ04&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01DE051_XQ04&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="1678.25" y="281" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAX50DU011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAX50DU011&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1765.75" y="275" fill="black" font-size="15" text-anchor="middle">Зона</text>
+  <text x="1765.75" y="217.25" fill="black" font-size="15" text-anchor="middle">Статизм</text>
+  <text x="1765.75" y="147.5" fill="black" font-size="15" text-anchor="middle">НПРЧ</text>
+  <image x="1710.75" y="153.75" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MKA01CH052VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH052VL0&quot;"/> 
+  </image>
+  <text x="1765.75" y="90" fill="black" font-size="15" text-anchor="middle">OПРЧ</text>
+  <image x="1710.75" y="92.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MKA01CH051VL0&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH051VL0&quot;"/> 
+  </image>
+  <image x="1715.75" y="221.25" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+    <title>&quot;20MAX50DU012&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAX50DU012&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1503" y="97.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01EU001_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1408.25" y="88.75" fill="black" font-size="15" text-anchor="middle">[ Nтг] &gt; 2%</text>
+  <text x="1610.5" y="90" fill="black" font-size="15" text-anchor="middle">ВСЕГО</text>
+  <image x="1320.5" y="97.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01EU001_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01EU001_XQ02&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <rect x="1467.5" y="607.5" width="402.5" height="380" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <image x="1529.54" y="637.243" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBB00DT001_XQ31&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBB00DT001_XQ31&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1529.54" y="675.493" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LBB00FT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBB00FT002&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1485.79" y="654.118" fill="black" font-size="15">Т зад</text>
+  <text x="1507.04" y="692.993" fill="black" font-size="15">Т</text>
+  <text x="1684.02" y="956.313" font-size="15">20LBD00AA240</text>
+  <line x1="1571.27" y1="914.812" x2="1818.77" y2="914.812" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1446.76 921.194) flipY(955.945) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="-988.79,430.923 -975.41,438.567 -975.41,423.28 -988.79,430.923" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1716.52" y="887.312" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;20MAA12AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;20LBD00CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;20LBD00CG240_XQ01&quot;"/> 
+    <rt:dyn type="SP_open" mode="constant" value="95"/> 
+  </image>
+  <g transform="rotate(90 1446.76 921.194) flipY(955.945) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="-1232.54,430.923 -1219.16,438.567 -1219.16,423.28 -1232.54,430.923" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1611.27" y="902.312" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20LBD00AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBD00CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <image x="1315" y="279.463" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;20MKA01DE002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01DE002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1390" y="259" fill="black" font-size="15" text-anchor="middle">ИМИТ ОТКЛ<tspan x="1390" dy="15">ЧАСТ СЕТИ</tspan>
+  </text>
+  <text x="1323" y="150" font-size="15">ПВР ИМИТ<tspan x="1323" dy="15">ОТКЛ ЧАСТ СЕТИ</tspan>
+  </text>
+  <image x="1335" y="173.333" width="110" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;20MKA01CH054&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKA01CH054VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="318.75" y="124.375" font-size="15">Перевод АРМ Т</text>
+  <image x="279.75" y="107.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50EE001_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50EE001_ZV02&quot;"/> 
+  </image>
+  <text x="318.75" y="162.438" font-size="15">Зона АРМ 0.2 МПА</text>
+  <image x="279.75" y="144.938" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAY50EE002_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50EE002_ZV01&quot;"/> 
+  </image>
+  <image x="339.5" y="596" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK502_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK502_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="377.5" y="596" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK503_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK503_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="300.25" y="865" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK601_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK601_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="339.5" y="865" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK602_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK602_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="377.5" y="865" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ARA01EK603_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ARA01EK603_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <image x="1524.53" y="763.68" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+    <title>&quot;20LBB00DT001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBB00DT001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1503.47" y="755.535" font-size="15">РЕГ Т ЗА СПП</text>
+  <text x="1769.13" y="755.864" font-size="15">МЭО ГП</text>
+  <image x="1764.76" y="764.114" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="scale(1.38127 1.38127 0.000147952 -9.99991) rotate(360 0 -10) scale(0.7075 0.7075 0 -10)">
+    <title>&quot;20LBD00AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LBD00AA240&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="19" y="20.5" fill="black" font-size="15" font-weight="700">ER1</text>
+</svg>

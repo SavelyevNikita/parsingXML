@@ -1,0 +1,94 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_20urs">
+  <title>ЗДАНИЕ 20URS</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_bs" revision="3"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="931.083" y="135.333" fill="black" font-size="30" text-anchor="middle">МПУ 20CXU06</text>
+  <image x="668.008" y="266.485" width="300" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20paa01_paa02_paa03_paa04&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20PAA01_ PAA 02_ PAA 03_ PAA 04&quot;"/> 
+  </image>
+  <image x="992.008" y="266.485" width="300" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20pav00_20pcc04_20gmr01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20PAV00_20PCC04_20GMR01&quot;"/> 
+  </image>
+  <image x="800" y="692" width="300" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20r006_ 21r007_r011_r001_20cxv99&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20R006_ 21R007_R011_R001_20CXV99&quot;"/> 
+  </image>
+  <rect x="650" y="226" width="675" height="225" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="650" y1="326" x2="1325" y2="326" stroke="black" stroke-width="2"/> 
+  <line x1="980" y1="225.4" x2="980" y2="450" stroke="black" stroke-width="2"/> 
+  <text x="983" y="367.5" font-size="15">20PCC04AP001<tspan x="983" dy="15">20PCC04AP002</tspan>
+<tspan x="983" dy="15">20PCC04AP003</tspan>
+<tspan x="983" dy="15">20PCC04AP004</tspan>
+  </text>
+  <image x="1118" y="372.879" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20PCC04AP001002003004</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20PCC04AP001002003004_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20PCC04AP001002003004_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20PCC04AP001002003004_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20PCC04AP001002003004_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1589.5" y="154" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20CXU06_Z0</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CXU06_Z0 0&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20CXU06_Z0 1&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;ЗИМА&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;ЛЕТО&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Blue&quot;"/> 
+  </image>
+  <text x="1514.5" y="172.788" font-size="20">Режим</text>
+  <text x="931.083" y="584.333" fill="black" font-size="30" text-anchor="middle">МПУ 20CXV99</text>
+  <rect x="785" y="664" width="330" height="168" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="786" y1="758" x2="1115" y2="758" stroke="black" stroke-width="2"/> 
+  <image x="1588.5" y="596" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20CXV99_Z0</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CXV99_Z0 0&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20CXV99_Z0 1&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;ЗИМА&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;ЛЕТО&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Blue&quot;"/> 
+  </image>
+  <text x="1513.5" y="614.788" font-size="20">Режим</text>
+  <text x="701.75" y="207.125" font-size="15">Вскрыт корпус контроллера</text>
+  <image x="663" y="190.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXU06_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXU06_XM17&quot;"/> 
+  </image>
+  <text x="982.5" y="205.875" font-size="15">Неисправность контроллера</text>
+  <image x="943.75" y="189" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXU06_EK01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXU06_EK01&quot;"/> 
+  </image>
+  <text x="761.75" y="644.125" font-size="15">Вскрыт корпус контроллера</text>
+  <image x="723" y="627.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV99_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV99_XM17&quot;"/> 
+  </image>
+  <text x="1042.5" y="642.875" font-size="15">Неисправность контроллера</text>
+  <image x="1003.75" y="626" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV99_EK01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV99_EK01&quot;"/> 
+  </image>
+  <text x="31" y="25" fill="black" font-size="15" font-weight="700" text-anchor="start">ALL_20URS</text>
+  <text x="931.333" y="43.3333" fill="black" font-size="30" font-weight="700" text-anchor="middle">ЗДАНИЕ 20URS</text>
+</svg>

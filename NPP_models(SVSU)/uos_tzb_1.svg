@@ -1,0 +1,374 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="uos_tzb_1">
+  <title>Блокировки насосов 20KPN81AP001, 20KPN81AP002</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_rao&#10;LMod uos_tzb_6&#10;RMod uos_tzb_2" revision="3"/> 
+  <rect x="75" y="50" width="1550" height="925" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="34" y="19.9394" font-size="15" font-weight="700">UOS_TZB_1</text>
+  <text x="379.581" y="82.591" fill="black" font-size="15">Входные условия</text>
+  <text x="100.728" y="72.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1275" y="88" fill="black" font-size="15" text-anchor="middle">Блокировка сработала</text>
+  <text x="825" y="84" fill="black" font-size="15" text-anchor="middle">Сигнал  сработал</text>
+  <line x1="1050" y1="100" x2="1050" y2="50" stroke="black"/> 
+  <line x1="125" y1="125" x2="1625" y2="125" stroke="black"/> 
+  <text x="133.608" y="119.333" fill="black" font-size="15" font-weight="700">20KPN81EE801  Блокировка насоса 20KPN81AP001 при работе в режиме «вперед»</text>
+  <text x="97.5" y="119.5" fill="black" font-size="15">1</text>
+  <rect x="75" y="100" width="1550" height="175" rx="0" ry="0" fill="none" stroke="black"/> 
+  <line x1="125" y1="50" x2="125" y2="975" stroke="black"/> 
+  <line x1="75" y1="726" x2="1625" y2="726" stroke="black"/> 
+  <line x1="1772" y1="383" x2="1772" y2="383" stroke="black"/> 
+  <line x1="578" y1="345" x2="578" y2="345" stroke="black"/> 
+  <line x1="450" y1="199" x2="450" y2="199" stroke="black"/> 
+  <line x1="450" y1="159" x2="450" y2="159" stroke="black"/> 
+  <line x1="379" y1="133" x2="379" y2="133" stroke="black"/> 
+  <image x="825" y="150" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP010_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP010_XH60&quot;"/> 
+  </image>
+  <line x1="1050" y1="125" x2="1050" y2="275" stroke="black"/> 
+  <line x1="700" y1="100" x2="700" y2="50" stroke="black"/> 
+  <text x="439" y="205.5" fill="black" font-size="15">НАПОР</text>
+  <text x="936" y="31" fill="black" font-size="30" font-weight="700" text-anchor="middle">Блокировки насосов 20KPN81AP001, 20KPN81AP002</text>
+  <image x="165" y="155" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="207.5" y="238" font-size="15" text-anchor="middle">20KPN81AP001</text>
+  <image x="499" y="150" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN81CP010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="500" y="185" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN81CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP011&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="913.625" y="167.75" font-size="15" text-anchor="middle">Pвс&lt;-0.05 МПа</text>
+  <image x="825" y="185" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP011_XH17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP011_XH17&quot;"/> 
+  </image>
+  <text x="900" y="203.75" font-size="15" text-anchor="middle">Pн&gt; 1 МПа</text>
+  <text x="450" y="167.5" fill="black" font-size="15">ВСАС</text>
+  <image x="165" y="330" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="206.5" y="415" font-size="15" text-anchor="middle">20KPN81AP002</text>
+  <image x="1225" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE801_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE801_ZV01&quot;"/> 
+  </image>
+  <image x="1275" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE801_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE801_ZV02&quot;"/> 
+  </image>
+  <image x="1325" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE801_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE801_ZV04&quot;"/> 
+  </image>
+  <image x="1375" y="200" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE801_ZV05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE801_ZV05&quot;"/> 
+  </image>
+  <image x="1225" y="375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE802_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE802_ZV01&quot;"/> 
+  </image>
+  <image x="1275" y="375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE802_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE802_ZV02&quot;"/> 
+  </image>
+  <image x="1325" y="375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE802_ZV03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE802_ZV03&quot;"/> 
+  </image>
+  <image x="1375" y="375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE802_ZV04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE802_ZV04&quot;"/> 
+  </image>
+  <line x1="125" y1="475" x2="1625" y2="475" stroke="black"/> 
+  <text x="137" y="468" fill="black" font-size="15" font-weight="700">20KPN81EE803,804  Блокировка насосов 20KPN81AP001,002  при несоответствующем уровне масла</text>
+  <text x="95" y="300" fill="black" font-size="15">2</text>
+  <image x="166" y="501" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="208.5" y="586" font-size="15" text-anchor="middle">20KPN81AP001</text>
+  <image x="166" y="627" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="208.5" y="712" font-size="15" text-anchor="middle">20KPN81AP002</text>
+  <image x="825" y="537" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL015_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL015_XG11&quot;"/> 
+  </image>
+  <image x="825" y="512" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL011_XG13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL011_XG13&quot;"/> 
+  </image>
+  <image x="825" y="487" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL010_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL010_XG11&quot;"/> 
+  </image>
+  <text x="772.5" y="555.5" font-size="15" text-anchor="middle">L&gt;0,62 МПа</text>
+  <text x="772.5" y="506" font-size="15" text-anchor="middle">L&gt;0,18 МПа</text>
+  <text x="772.5" y="531.5" font-size="15" text-anchor="middle">L&gt;1,06 МПа</text>
+  <image x="825" y="663" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL014_XG13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL014_XG13&quot;"/> 
+  </image>
+  <image x="825" y="638" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL013_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL013_XG15&quot;"/> 
+  </image>
+  <image x="825" y="613" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CL012_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CL012_XG11&quot;"/> 
+  </image>
+  <text x="774.5" y="680.5" font-size="15" text-anchor="middle">L&gt;0,62 МПа</text>
+  <text x="774.5" y="657.5" font-size="15" text-anchor="middle">L&gt;1,06 МПа</text>
+  <text x="774.5" y="627.5" font-size="15" text-anchor="middle">L&gt;0,18 МПа</text>
+  <line x1="1050" y1="475" x2="1050" y2="725" stroke="black"/> 
+  <line x1="700" y1="125" x2="700" y2="275" stroke="black"/> 
+  <line x1="700" y1="475" x2="700" y2="725" stroke="black"/> 
+  <image x="1275" y="525" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE803_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE803_ZV01&quot;"/> 
+  </image>
+  <image x="1325" y="525" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE803_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE803_ZV02&quot;"/> 
+  </image>
+  <image x="1275" y="644" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE804_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE804_ZV01&quot;"/> 
+  </image>
+  <image x="1325" y="644" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE804_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE804_ZV02&quot;"/> 
+  </image>
+  <image x="500" y="765" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CP012</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP012&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Pгл&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="164" y="765" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="206.5" y="850" font-size="15" text-anchor="middle">20KPN81AP001</text>
+  <image x="164" y="885" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0)">
+    <title>&quot;20KPN81AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KPN81AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+  </image>
+  <text x="206.5" y="970" font-size="15" text-anchor="middle">20KPN81AP002</text>
+  <text x="133" y="744.5" fill="black" font-size="15" font-weight="700">20KPN81EE805,806  Блокировка насосов 20KPN81AP001,002  по давлению глицерина в насосе</text>
+  <text x="94" y="748.5" fill="black" font-size="15">4</text>
+  <image x="500" y="880" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CP013</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP013&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Pгл&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="775" y="764" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP012_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP012_XH60&quot;"/> 
+  </image>
+  <text x="858.5" y="782.5" font-size="15" text-anchor="middle">P&lt; 0,5 кПа</text>
+  <image x="775" y="797" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP012_XH13&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP012_XH13&quot;"/> 
+  </image>
+  <text x="857.5" y="814" font-size="15" text-anchor="middle">P&gt; 8,4 кПа</text>
+  <image x="775" y="879" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP013_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP013_XH60&quot;"/> 
+  </image>
+  <text x="858.5" y="897.5" font-size="15" text-anchor="middle">P&lt; 0,5 кПа</text>
+  <image x="775" y="912" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP013_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP013_XH11&quot;"/> 
+  </image>
+  <text x="857.5" y="929" font-size="15" text-anchor="middle">P&gt; 8,4 кПа</text>
+  <image x="1276" y="786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE805_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE805_ZV01&quot;"/> 
+  </image>
+  <image x="1326" y="786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE805_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE805_ZV02&quot;"/> 
+  </image>
+  <image x="1276" y="905" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE806_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE806_ZV01&quot;"/> 
+  </image>
+  <image x="1326" y="905" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81EE806_ZV02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81EE806_ZV02&quot;"/> 
+  </image>
+  <line x1="1050" y1="751" x2="1050" y2="975" stroke="black"/> 
+  <line x1="700" y1="751" x2="700" y2="975" stroke="black"/> 
+  <line x1="125" y1="601" x2="1625" y2="601" stroke="black"/> 
+  <line x1="125" y1="865" x2="1625" y2="865" stroke="black"/> 
+  <image x="1725" y="800" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_2&quot;)</rt:event>
+  </image>
+  <image x="1725" y="850" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_3&quot;)</rt:event>
+  </image>
+  <line x1="125" y1="751" x2="1625" y2="751" stroke="black"/> 
+  <image x="1725" y="900" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;UOS_TZB_4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;uos_tzb_4&quot;)</rt:event>
+  </image>
+  <image x="500" y="400" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE012</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE012&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="499" y="225" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE010</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="825" y="225" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE010_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE010_XH60&quot;"/> 
+  </image>
+  <text x="773.125" y="241.5" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+  <image x="900" y="225" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE010_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE010_XH11&quot;"/> 
+  </image>
+  <text x="981.625" y="240" font-size="15" text-anchor="middle">S&gt;5 об/мин</text>
+  <image x="825" y="400" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE012_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE012_XH60&quot;"/> 
+  </image>
+  <text x="771.625" y="416.75" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+  <image x="900" y="400" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE012_XH11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE012_XH11&quot;"/> 
+  </image>
+  <text x="977.375" y="418.75" font-size="15" text-anchor="middle">S&gt;5 об/мин</text>
+  <line x1="75" y1="450" x2="1625" y2="450" stroke="black"/> 
+  <image x="825" y="325" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP010_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP010_XH60&quot;"/> 
+  </image>
+  <text x="442" y="377.25" fill="black" font-size="15">НАПОР</text>
+  <image x="500" y="325" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN81CP010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="500" y="360" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KPN81CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CP011&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="915" y="341.25" font-size="15" text-anchor="middle">Pвс&lt;-0.05 МПа</text>
+  <image x="825" y="360" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CP011_XH17&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CP011_XH17&quot;"/> 
+  </image>
+  <text x="900" y="377.5" font-size="15" text-anchor="middle">Pн&gt; 1 МПа</text>
+  <text x="450" y="342.75" fill="black" font-size="15">ВСАС</text>
+  <line x1="125" y1="300" x2="1625" y2="300" stroke="black"/> 
+  <text x="94" y="475.5" fill="black" font-size="15">3</text>
+  <text x="150" y="293" fill="black" font-size="15" font-weight="700">20KPN81EE802  Блокировка насоса 20KPN81AP002  при работе в режиме «вперед»</text>
+  <line x1="700" y1="300" x2="700" y2="450" stroke="black"/> 
+  <line x1="1050" y1="300" x2="1050" y2="450" stroke="black"/> 
+  <image x="500" y="569" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE010</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="825" y="569" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE010_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE010_XH60&quot;"/> 
+  </image>
+  <text x="775" y="585" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+  <image x="500" y="695" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE012</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE012&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="825" y="695" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE012_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE012_XH60&quot;"/> 
+  </image>
+  <text x="775" y="712" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+  <image x="499" y="833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE010</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE010&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="824" y="833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE010_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE010_XH60&quot;"/> 
+  </image>
+  <text x="770.625" y="849.75" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+  <image x="500" y="941" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20KPN81CE012</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KPN81CE012&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="825" y="941" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KPN81CE012_XH60&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KPN81CE012_XH60&quot;"/> 
+  </image>
+  <text x="775" y="958" font-size="15" text-anchor="middle">S&lt;0 об/мин</text>
+</svg>

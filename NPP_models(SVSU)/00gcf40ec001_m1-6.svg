@@ -1,0 +1,497 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="00gcf40ec001_m1-6" stroke-width="3" font-size="15" font-weight="bold">
+  <title>Программа пуска, останова и регенерации фильтров второй ступени обессоливания GCF40,41AT001</title>
+  <rt:model modelversion="7.2.0.24"/> 
+  <polyline points="337.303,75 400,75 400,950 750,950 750,125 1025,125 1025,950 1300,950 1300,125 1575,125 1575,950 1613.06,950" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="237" y="51.25" width="120" height="50" xlink:href="DS_TPTS_KO.svg">
+    <title>00GCF40EC001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF40EC001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="264.75" y="45" fill="black" font-size="18" font-weight="bold">ПУСК</text>
+  <g>
+    <rect x="325" y="117" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="342" y="144" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 1</text>
+  </g>
+  <image x="434" y="124" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS01&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <rect x="361.833" y="893.167" width="48.5" height="49.5" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="376.583" y="925.167" fill-opacity="1" font-size="28">&amp;</text>
+  <rect x="1001.5" y="477.5" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1015.5" y="510" fill-opacity="1" font-size="28">&amp;</text>
+  <g>
+    <rect x="952.5" y="149.5" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="969.5" y="176.5" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 2</text>
+  </g>
+  <image x="1061.5" y="157.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS02&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <rect x="1004.14" y="878.227" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1015.02" y="912.227" fill-opacity="1" font-size="28">&amp;</text>
+  <text x="830" y="388.5" fill="Col_Grey5" fill-opacity="1">КС: ВКЛ</text>
+  <text x="827" y="288.5" fill="Col_Grey5" fill-opacity="1">КС: ВКЛ</text>
+  <text x="901.424" y="907.954" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="567.758" y="25.0001" fill-opacity="1" font-size="26">Программа пуска, останова и регенерации фильтров<tspan x="567.758" dy="26">второй ступени обессоливания GCF40,41AT001</tspan>
+  </text>
+  <text x="17.6063" y="39.197" fill="black" font-size="18" font-weight="bold">00GCF40EC001</text>
+  <text x="1063.92" y="230" id="SVGText1288" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="1063.92" dy="16">00GCF45EE505</tspan>
+  </text>
+  <rect x="1001.5" y="675.5" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1012.38" y="708" fill-opacity="1" font-size="28">&amp;</text>
+  <text x="1075" y="267" id="SVGText1291" fill="black" font-size="16" font-weight="normal">Включение насосов<tspan x="1075" dy="16">00GCF45AP005,006</tspan>
+  </text>
+  <line x1="400" y1="801" x2="200" y2="801" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="127.788" y="836.909" fill-opacity="1">00GCF45AA002</text>
+  <image x="139.788" y="758.409" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF45AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="400" y1="736" x2="300" y2="736" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="245.818" y="769.212" fill-opacity="1">00GCF45AA001</text>
+  <image x="258.576" y="691.712" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF45AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="400" y1="675" x2="200" y2="675" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="127.788" y="712.364" fill-opacity="1">00GCF42AA001</text>
+  <image x="139.788" y="633.864" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF42AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF42AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="400.333" y1="612.606" x2="300.333" y2="612.606" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="245.818" y="647.606" fill-opacity="1">00GCF41AA002</text>
+  <image x="258.576" y="570.106" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF41AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF41AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="400.576" y1="552.318" x2="200" y2="552" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="127.788" y="588.606" fill-opacity="1">00GCF41AA001</text>
+  <image x="139.788" y="509.818" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF41AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF41AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="398.818" y1="488.606" x2="298.818" y2="488.606" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="245.818" y="523.606" fill-opacity="1">00GCF40AA007</text>
+  <image x="258.576" y="446.106" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF40AA007</title>
+    <rt:dyn type="KKS" value="&quot;00GCF40AA007&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="399" y1="426" x2="199" y2="426" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="127.788" y="463.364" fill-opacity="1">00GCF40AA002</text>
+  <image x="139.788" y="384.864" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF40AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF40AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="400.333" y1="362.091" x2="300.333" y2="362.091" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="245.818" y="395.091" fill-opacity="1">00GCF40AA001</text>
+  <image x="258.576" y="319.591" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF40AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF40AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="401.363" y1="300.849" x2="198" y2="300" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="127.788" y="336.849" fill-opacity="1">00GCF42AA201</text>
+  <image x="139.788" y="258.349" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+    <title>00GCF42AA201</title>
+    <rt:dyn type="KKS" value="&quot;00GCF42AA201&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+  </image>
+  <line x1="525.5" y1="275.333" x2="425.5" y2="275.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="451" y="265.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF42AA201_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF42AA201_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="532.5" y="275.333" fill-opacity="1" font-size="16">00GCF42AA201</text>
+  <line x1="526.5" y1="337.333" x2="426.5" y2="337.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="327.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="337.333" fill-opacity="1" font-size="16">00GCF40AA001</text>
+  <line x1="526.5" y1="402.333" x2="426.5" y2="402.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="393.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40AA002_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="402.333" fill-opacity="1" font-size="16">00GCF40AA002</text>
+  <line x1="526.5" y1="465.333" x2="426.5" y2="465.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="455.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40AA007_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40AA007_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="465.333" fill-opacity="1" font-size="16">00GCF40AA007</text>
+  <line x1="526.5" y1="525.333" x2="426.5" y2="525.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="515.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF41AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF41AA001_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="525.333" fill-opacity="1" font-size="16">00GCF41AA001</text>
+  <line x1="526.5" y1="586.333" x2="426.5" y2="586.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="576.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF41AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF41AA002_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="586.333" fill-opacity="1" font-size="16">00GCF41AA002</text>
+  <line x1="526.5" y1="651.333" x2="426.5" y2="651.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="641.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF42AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF42AA001_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="651.333" fill-opacity="1" font-size="16">00GCF42AA001</text>
+  <line x1="526.5" y1="712.333" x2="426.5" y2="712.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="702.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF45AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF45AA001_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="712.333" fill-opacity="1" font-size="16">00GCF45AA001</text>
+  <line x1="526.5" y1="775.333" x2="426.5" y2="775.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="452" y="765.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF45AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF45AA002_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="533.5" y="775.333" fill-opacity="1" font-size="16">00GCF45AA002</text>
+  <text x="441.091" y="825" fill-opacity="1" font-size="16">В алгоритм<tspan x="441.091" dy="16">00GCF40EU101</tspan>
+  </text>
+  <text x="443" y="896" fill-opacity="1" font-size="16">00GCF40FF001</text>
+  <line x1="400" y1="225" x2="325" y2="225" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="313.818" y="213.606" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF42AA201_XM15</title>
+    <rt:dyn type="PointID" value="&quot;00GCF42AA201_XM15&quot;" mode="constant"/> 
+  </image>
+  <text x="139" y="354.5" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="139" y="478.5" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="179" y="194.5" id="SVGText1293" fill="black" font-size="15">Рег.клапан<tspan x="179" dy="15">GCB40-41AT001 -</tspan>
+<tspan x="179" dy="15">принудит. дист.</tspan>
+  </text>
+  <text x="262.212" y="412" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="262.212" y="539" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="139" y="605.5" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="262.212" y="663" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="139" y="729" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="262.212" y="786" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <text x="139" y="854.5" fill="Col_Grey5" fill-opacity="1">КС: ОТКР</text>
+  <line x1="600" y1="200" x2="425" y2="200" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="433" y="175.5" id="SVGText1294" fill="black" font-size="16">Дист. режим<tspan x="433" dy="16">00GCF42AA201</tspan>
+  </text>
+  <line x1="600" y1="850" x2="425" y2="850" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="436.546" y="871" id="SVGText1295" fill="black" font-size="18" font-weight="normal">ПВР &quot;Рециркуляция&quot;</text>
+  <line x1="950.667" y1="327.424" x2="850.667" y2="327.424" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="805.667" y="373.424" fill-opacity="1">00GCF45AP006</text>
+  <image x="823.667" y="292.424" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF45AP006</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AP006&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;pump&quot;" mode="constant"/> 
+  </image>
+  <line x1="950.667" y1="227.424" x2="951" y2="451" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="950.667" y1="227.424" x2="850.667" y2="227.424" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="805.667" y="274.424" fill-opacity="1">00GCF45AP005</text>
+  <image x="823.667" y="193.424" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF45AP005</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AP005&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="DeviceType" value="&quot;pump&quot;" mode="constant"/> 
+  </image>
+  <rect x="930.917" y="388.424" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="931.917" y="423.424" fill-opacity="1" font-size="28">&gt;1</text>
+  <line x1="1026" y1="451" x2="951" y2="451" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <g>
+    <rect x="953" y="550" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="970" y="577" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 3</text>
+  </g>
+  <image x="1067" y="558" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS03</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS03&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <line x1="1025" y1="651.667" x2="925" y2="651.667" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="821" y="617.667" fill-opacity="1">Р на всасе<tspan x="821" dy="14">00GCF45AP005,006</tspan>
+<tspan x="821" dy="14">&lt; норм</tspan>
+  </text>
+  <image x="912.5" y="639.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF45CP003_XG54</title>
+    <rt:dyn type="PointID" value="&quot;00GCF45CP003_XG54&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+  </image>
+  <g>
+    <rect x="953.5" y="750.5" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="970.5" y="777.5" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 4</text>
+  </g>
+  <image x="1067.5" y="758.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS04</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS04&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <text x="1155.64" y="825.455" fill-opacity="1" font-size="16">00GCF45AA001</text>
+  <line x1="1028.12" y1="852.121" x2="928.121" y2="852.121" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="888.545" y="889.394" fill-opacity="1">00GCF45AA001</text>
+  <image x="902.788" y="809.621" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF45AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <g>
+    <rect x="1498.44" y="153.015" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="1515.44" y="180.015" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 5</text>
+  </g>
+  <image x="1612.44" y="161.015" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS05</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS05&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <line x1="1573" y1="250" x2="1498" y2="250" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1364" y="230.5" fill-opacity="1" font-size="15">ЭПР за GCF41AT001<tspan x="1364" dy="15">&lt; 1 мкСм/см</tspan>
+  </text>
+  <image x="1486.8" y="238.485" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF41CQ001_XH57</title>
+    <rt:dyn type="PointID" value="&quot;00GCF41CQ001_XH57&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+  </image>
+  <rect x="1551.17" y="275.743" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1562.05" y="309.743" fill-opacity="1" font-size="28">&amp;</text>
+  <g>
+    <rect x="1498.65" y="352.167" width="150" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+    <text x="1515.65" y="379.167" id="SVGText1287" fill="black" font-size="18" font-weight="700">ШАГ 6</text>
+  </g>
+  <image x="1612.65" y="360.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EC001_XS06</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF40EC001_XS06&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <line x1="1573" y1="778" x2="1372" y2="778" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1319" y="812.5" fill-opacity="1">00GCF45AA002</text>
+  <image x="1337" y="735" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF45AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF45AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1573" y1="714.5" x2="1473" y2="714.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1433" y="749.5" fill-opacity="1">00GCF42AA001</text>
+  <image x="1457" y="672" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF42AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF42AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1573" y1="652" x2="1372" y2="652" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1319" y="687.5" fill-opacity="1">00GCF41AA002</text>
+  <image x="1337" y="610" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF41AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF41AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1573" y1="589.5" x2="1473" y2="589.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1433" y="624.5" fill-opacity="1">00GCF41AA001</text>
+  <image x="1459" y="547" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF41AA001</title>
+    <rt:dyn type="KKS" value="&quot;00GCF41AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1573" y1="527" x2="1373" y2="527" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1319" y="562.5" fill-opacity="1">00GCF40AA007</text>
+  <image x="1338" y="485" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF40AA007</title>
+    <rt:dyn type="KKS" value="&quot;00GCF40AA007&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1572.45" y1="464.333" x2="1472.45" y2="464.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1433" y="499.333" fill-opacity="1">00GCF40AA002</text>
+  <image x="1458.45" y="421.833" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>00GCF40AA002</title>
+    <rt:dyn type="KKS" value="&quot;00GCF40AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <line x1="1699" y1="438.333" x2="1599" y2="438.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1623.5" y="428.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40AA002_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1708" y="438.333" fill-opacity="1" font-size="16">00GCF40AA002</text>
+  <line x1="1699" y1="504.333" x2="1599" y2="504.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1623.5" y="494.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40AA007_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40AA007_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1708" y="504.333" fill-opacity="1" font-size="16">00GCF40AA007</text>
+  <line x1="1699" y1="563.333" x2="1599" y2="563.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1623.5" y="553.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF41AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF41AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1708" y="563.333" fill-opacity="1" font-size="16">00GCF41AA001</text>
+  <line x1="1699" y1="624.333" x2="1599" y2="624.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1623.5" y="614.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF41AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF41AA002_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1708" y="624.333" fill-opacity="1" font-size="16">00GCF41AA002</text>
+  <line x1="1699" y1="689.333" x2="1599" y2="689.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1623.5" y="679.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF42AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF42AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1708" y="689.333" fill-opacity="1" font-size="16">00GCF42AA001</text>
+  <text x="1708" y="750.333" fill-opacity="1" font-size="16">00GCF45AA002</text>
+  <text x="1456" y="513" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="1456" y="639" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="1456" y="764" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="1334" y="578.5" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="1334" y="702.5" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <text x="1334" y="827.5" fill="Col_Grey5" fill-opacity="1">КС: ЗАКР</text>
+  <rect x="1549.5" y="824.5" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1560.38" y="858.5" fill-opacity="1" font-size="28">&amp;</text>
+  <image x="1623" y="937" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;К шагу 7&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00gcf40ec001_m7-11&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <line x1="400" y1="875" x2="325" y2="875" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="314" y="863" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF40EU101_ZV01</title>
+    <rt:dyn type="PointID" value="&quot;00GCF40EU101_ZV01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGSand&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <text x="235" y="888.5" fill-opacity="1">Н-ОН Ц1<tspan x="235" dy="15">рециркуляция</tspan>
+  </text>
+  <polyline points="1600,393.939 1600,750 1693.36,750" fill="none" stroke="black"/> 
+  <image x="1623.5" y="740.333" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF45AA002_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF45AA002_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <polyline points="1050,190.424 1050,250 1250,250" fill="none" stroke="black"/> 
+  <polyline points="1050,787.879 1050,825 1125,825" fill="none" stroke="black"/> 
+  <image x="1068.14" y="815.455" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF45AA001_VB9</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF45AA001_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <polyline points="425,158.121 425,900 585.788,900" fill="none" stroke="black"/> 
+  <image x="143" y="52.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40EC001_Z0</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40EC001_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ДИСТАНЦИЯ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <image x="143" y="78.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40EC001_Z0</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40EC001_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;АВТОМАТ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <image x="143" y="103.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40EC001_VB16</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40EC001_VB16 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ПУСК/АВТ.&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <image x="143" y="128.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>00GCF40EC001_VB16</title>
+    <rt:dyn type="PointID_1" value="&quot;00GCF40EC001_VB16 5&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ПУСК/РАЗРЕШ..&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+</svg>

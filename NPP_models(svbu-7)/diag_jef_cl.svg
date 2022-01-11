@@ -1,0 +1,443 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1010" width="1914" height="1010" id="diag_jef_cl" font-size="15" font-weight="700" text-anchor="inherit">
+  <title>Видеокадр согласованности уровнемеров КД</title>
+  <rt:model modelversion="7.2.0.24" revision="0.1" comment="UMod all_nsb&#10;Denisov">
+    <rt:param name="jef10_sb_cl_dvt" datatype="double" comment="jef10 sb deviations" arraysize="6"/> 
+    <rt:param name="jef10_ne_cl_dvt" datatype="double" comment="jef10 ne deviations" arraysize="3"/> 
+    <rt:param name="jef_ne_cl_dvt_15" datatype="double" comment="jef ne deviations for 0.15 criteria" arraysize="3"/> 
+    <rt:param name="jef_ne_cl_dvt_19" datatype="double" comment="jef ne deviations for 0.19 criteria" arraysize="1"/> 
+    <rt:param name="jef_ne_cl_dvt_18" datatype="double" comment="jef ne deviations for 0.18 criteria" arraysize="1"/> 
+    <rt:param name="tmp_dbl_1" datatype="double" comment=""/> 
+    <rt:param name="tmp_dbl_2" datatype="double" comment="Parameter tmp_dbl_2"/> 
+    <rt:param name="tmp_dbl_3" datatype="double" comment="Parameter tmp_dbl_3"/> 
+    <rt:param name="tmp_dbl_4" datatype="double" comment="Parameter tmp_dbl_4"/> 
+    <rt:param name="tmp_int_1" datatype="int" comment=""/> 
+    <rt:param name="tmp_int_2" datatype="int" comment="Parameter tmp_int_2"/> 
+    <rt:param name="tmp_int_3" datatype="int" comment="Parameter tmp_int_3"/> 
+    <rt:param name="tmp_int_4" datatype="int" comment="Parameter tmp_int_4"/> 
+    <rt:param name="jef10_sb_cl" datatype="PlsPVAna" arraysize="6" comment=""/> 
+    <rt:param name="jef10_ne_cl" datatype="PlsPVAna" arraysize="3" comment=""/> 
+    <rt:param name="jef_ne_cl_19" datatype="PlsPVAna" arraysize="1" comment=""/> 
+    <rt:param name="jef_ne_cl_18" datatype="PlsPVAna" arraysize="1" comment="Parameter jef_ne_cl_18"/> 
+    <rt:param name="jef10_sb_cl_mean" datatype="double" comment="Parameter jef10_sb_cl_mean"/> 
+    <rt:param name="jef10_ne_cl_mean" datatype="double" comment="Parameter jef10_ne_cl_mean"/> 
+    <rt:sub>Function printValue(ByVal p As Double) As String
+	If (p &lt; 0) Then
+		printValue = Left(CStr(Round(p, 3)), 6)
+	Else
+		printValue = Left(CStr(Round(p, 3)), 5)
+	End If
+End Function</rt:sub>
+    <rt:sub>Sub jef10_sb_cl_recalc()
+	
+	&apos;calc mean
+	tmp_dbl_1 = 0
+	For tmp_int_1 = 0 To 5
+		tmp_dbl_1 = tmp_dbl_1 + jef10_sb_cl(tmp_int_1).Value
+	next tmp_int_1
+	tmp_dbl_1 = tmp_dbl_1 / 6
+	&apos;write mean
+	jef10_sb_cl_mean = tmp_dbl_1
+	
+	&apos;calc deviations
+	For tmp_int_1 = 0 To 5
+		jef10_sb_cl_dvt(tmp_int_1) = jef10_sb_cl(tmp_int_1).Value - tmp_dbl_1
+	next tmp_int_1
+End Sub</rt:sub>
+    <rt:sub>Sub jef10_ne_cl_recalc()
+
+	&apos;calc mean
+	tmp_dbl_1 = 0
+	For tmp_int_1 = 0 To 2
+		tmp_dbl_1 = tmp_dbl_1 + jef10_ne_cl(tmp_int_1).Value
+	next tmp_int_1
+	tmp_dbl_1 = tmp_dbl_1 / 3
+	&apos;write mean
+	jef10_ne_cl_mean = tmp_dbl_1
+	
+	&apos;calc deviations
+	For tmp_int_1 = 0 To 2
+		jef10_ne_cl_dvt(tmp_int_1) = jef10_ne_cl(tmp_int_1).Value - tmp_dbl_1
+	next tmp_int_1
+
+	&apos;calc 0.19 deviation
+	jef_ne_cl_dvt_19(0) = jef_ne_cl_19(0).Value - tmp_dbl_1
+
+	&apos;calc 0.18 deviation
+	jef_ne_cl_dvt_18(0) = jef_ne_cl_18(0).Value - tmp_dbl_1
+End Sub</rt:sub>
+    <rt:event type="OnInitialize">&apos;connect jef10 sb cl ana pvs
+jef10_sb_cl(0) = RTAPLS.AnaPV(&quot;21JEF10CL801A_XQ01&quot;)
+jef10_sb_cl(1) = RTAPLS.AnaPV(&quot;21JEF10CL801B_XQ01&quot;)
+jef10_sb_cl(2) = RTAPLS.AnaPV(&quot;21JEF10CL801C_XQ01&quot;)
+jef10_sb_cl(3) = RTAPLS.AnaPV(&quot;22JEF10CL801A_XQ01&quot;)
+jef10_sb_cl(4) = RTAPLS.AnaPV(&quot;22JEF10CL801B_XQ01&quot;)
+jef10_sb_cl(5) = RTAPLS.AnaPV(&quot;22JEF10CL801C_XQ01&quot;)
+
+&apos;connect jef10 ne cl ana pvs
+jef10_ne_cl(0) = RTAPLS.AnaPV(&quot;20JEF10CL002A_XQ01&quot;)
+jef10_ne_cl(1) = RTAPLS.AnaPV(&quot;20JEF10CL002B_XQ01&quot;)
+jef10_ne_cl(2) = RTAPLS.AnaPV(&quot;20JEF10CL002C_XQ01&quot;)
+
+&apos;connect jef10 ne cl ana pvs with 0.19 criteria
+jef_ne_cl_19(0) = RTAPLS.AnaPV(&quot;20JEF10CL003_XQ01&quot;)
+
+&apos;connect jef10 ne cl ana pvs with 0.18 criteria
+jef_ne_cl_18(0) = RTAPLS.AnaPV(&quot;20JEF10CL004_XQ01&quot;)</rt:event>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;21JEF10CL801A_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;21JEF10CL801B_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;21JEF10CL801C_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;22JEF10CL801A_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;22JEF10CL801B_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_sb_cl_recalc">
+      <rt:chgItem>ANA(&quot;22JEF10CL801C_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_sb_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_ne_cl_recalc">
+      <rt:chgItem>ANA(&quot;20JEF10CL002A_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_ne_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_ne_cl_recalc">
+      <rt:chgItem>ANA(&quot;20JEF10CL002B_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_ne_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef10_ne_cl_recalc">
+      <rt:chgItem>ANA(&quot;20JEF10CL002C_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_ne_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef_ne_cl_19_recalc">
+      <rt:chgItem>ANA(&quot;20JEF10CL003_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_ne_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+    <rt:changeTrigger name="jef_ne_cl_18_recalc">
+      <rt:chgItem>ANA(&quot;20JEF10CL004_XQ01&quot;)</rt:chgItem>
+      <rt:code>jef10_ne_cl_recalc()</rt:code>
+    </rt:changeTrigger>
+  </rt:model>
+  <text x="957" y="49" font-size="30" text-anchor="middle">Видеокадр согласованности уровнемеров КД</text>
+  <text x="10" y="22" font-size="17" text-anchor="start">diag_jef_cl</text>
+  <g>
+    <g id="TableHeader">
+      <text x="575.272" y="120.53" font-size="15">ПАРАМЕТР/СОСТОЯНИЕ</text>
+      <text x="881.606" y="120.53" font-size="15">ЗНАЧЕНИЕ</text>
+      <rect x="519.424" y="103.53" width="860" height="25" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+      <text x="1031.61" y="120.53" font-size="15">СРЕДНЕЕ</text>
+      <text x="1131.61" y="120.53" font-size="15">ОТКЛ ОТ СР</text>
+      <text x="1265.42" y="120.53" font-size="15">КРИТЕРИЙ</text>
+      <line x1="830.424" y1="103.53" x2="830.424" y2="127.53" stroke="black"/> 
+      <line x1="1242.42" y1="103.53" x2="1242.42" y2="127.53" stroke="black"/> 
+      <line x1="1014.42" y1="103.53" x2="1014.42" y2="127.53" stroke="black"/> 
+      <line x1="1121.42" y1="103.53" x2="1121.42" y2="127.53" stroke="black"/> 
+    </g>
+    <g id="jef10_sb">
+      <rect x="1014.42" y="127.53" width="365" height="202" rx="0" ry="0" fill="white">
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+      </rect>
+      <line x1="654.424" y1="160.447" x2="1014.42" y2="160.447" stroke="black"/> 
+      <line x1="830.424" y1="127.53" x2="830.424" y2="329.53" stroke="black"/> 
+      <text x="667.939" y="150.114" font-size="17">21JEF10CL801A</text>
+      <line x1="654.939" y1="194.447" x2="1014.94" y2="194.447" stroke="black"/> 
+      <line x1="594.424" y1="228.447" x2="1014.42" y2="229.114" stroke="black"/> 
+      <line x1="654.939" y1="262.447" x2="1014.94" y2="262.447" stroke="black"/> 
+      <line x1="654.939" y1="296.447" x2="1014.94" y2="296.447" stroke="black"/> 
+      <text x="667.939" y="184.114" font-size="17">21JEF10CL801B</text>
+      <text x="667.939" y="218.114" font-size="17">21JEF10CL801C</text>
+      <text x="667.939" y="252.114" font-size="17">22JEF10CL801A</text>
+      <text x="667.939" y="286.114" font-size="17">22JEF10CL801B</text>
+      <line x1="1014.42" y1="127.53" x2="1014.42" y2="329.53" stroke="black"/> 
+      <line x1="1121.42" y1="127.53" x2="1121.42" y2="329.53" stroke="black"/> 
+      <image x="834.848" y="131.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;21JEF10CL801A&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;21JEF10CL801A&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.848" y="165.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;21JEF10CL801B&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;21JEF10CL801B&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.848" y="199.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;21JEF10CL801C&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;21JEF10CL801C&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.848" y="233.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;22JEF10CL801A&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;22JEF10CL801A&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.848" y="267.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;22JEF10CL801B&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;22JEF10CL801B&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.848" y="301.235" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;22JEF10CL801C&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;22JEF10CL801C&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <text x="1180.94" y="153.28" id="jef10_deviation_1" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(0))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.94" y="187.28" id="jef10_deviation_2" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(1))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.94" y="221.28" id="jef10_deviation_3" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(2))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.94" y="255.28" id="jef10_deviation_4" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(3))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.94" y="289.28" id="jef10_deviation_5" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(4))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.94" y="323.28" id="jef10_deviation_6" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_dvt(5))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <line x1="1242.42" y1="127.53" x2="1242.42" y2="329.53" stroke="black"/> 
+      <text x="1067.94" y="239.947" id="jef10_mid_value" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_sb_cl_mean)"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <polygon points="1250.94,159.447 1250.94,134.447 1370.94,134.447 1370.94,159.447" id="jef10_1_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(0) &gt; 0.15) || (jef10_sb_cl_dvt(0) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.94,192.447 1250.94,167.447 1370.94,167.447 1370.94,192.447" id="jef10_2_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(1) &gt; 0.15) || (jef10_sb_cl_dvt(1) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.94,225.447 1250.94,200.447 1370.94,200.447 1370.94,225.447" id="jef10_3_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(2) &gt; 0.15) || (jef10_sb_cl_dvt(2) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.94,258.447 1250.94,233.447 1370.94,233.447 1370.94,258.447" id="jef10_4_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(3) &gt; 0.15) || (jef10_sb_cl_dvt(3) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.94,291.447 1250.94,266.447 1370.94,266.447 1370.94,291.447" id="jef10_5_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(4) &gt; 0.15) || (jef10_sb_cl_dvt(4) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.94,324.447 1250.94,299.447 1370.94,299.447 1370.94,324.447" id="jef10_6_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_sb_cl_dvt(5) &gt; 0.15) || (jef10_sb_cl_dvt(5) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <text x="667.939" y="320.114" font-size="17">22JEF10CL801C</text>
+      <line x1="654.939" y1="127.447" x2="654.939" y2="329.947" stroke="black"/> 
+      <text x="539.939" y="235.28" font-size="22">КД<tspan x="539.939" dy="22">СБ</tspan>
+      </text>
+      <text x="620" y="186.114" font-size="22">I</text>
+      <text x="615" y="287.78" font-size="22">II</text>
+      <line x1="595" y1="127.447" x2="594.939" y2="329.947" stroke="black"/> 
+      <text x="1270.94" y="185.447" font-size="15">+-0,15м</text>
+      <text x="1270.94" y="218.447" font-size="15">+-0,15м</text>
+      <text x="1270.94" y="251.447" font-size="15">+-0,15м</text>
+      <text x="1270.94" y="284.447" font-size="15">+-0,15м</text>
+      <text x="1270.94" y="317.447" font-size="15">+-0,15м</text>
+      <rect x="519.424" y="128.53" width="860" height="202" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+      <text x="1270.94" y="152.447" font-size="15">+-0,15м</text>
+    </g>
+    <g id="jef10_ne">
+      <rect x="1014.17" y="335.485" width="365" height="101" rx="0" ry="0" fill="white">
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+      </rect>
+      <line x1="654.167" y1="368.402" x2="1014.17" y2="368.402" stroke="black"/> 
+      <line x1="830.167" y1="335.485" x2="830.167" y2="436.485" stroke="black"/> 
+      <text x="667.687" y="358.068" font-size="17">20JEF10CL002A</text>
+      <line x1="654.687" y1="402.402" x2="1014.69" y2="402.402" stroke="black"/> 
+      <text x="667.687" y="392.069" font-size="17">20JEF10CL002B</text>
+      <text x="667.687" y="426.069" font-size="17">20JEF10CL002C</text>
+      <line x1="1014.17" y1="335.485" x2="1014.17" y2="436.485" stroke="black"/> 
+      <line x1="1121.17" y1="335.485" x2="1121.17" y2="436.485" stroke="black"/> 
+      <image x="834.587" y="339.19" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;20JEF10CL002A&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20JEF10CL002A&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.587" y="373.19" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;20JEF10CL002B&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20JEF10CL002B&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="834.587" y="407.19" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;20JEF10CL002C&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20JEF10CL002C&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <text x="1180.69" y="361.235" id="jef10_deviation_1" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_dvt(0))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.69" y="395.235" id="jef10_deviation_2" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_dvt(1))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1180.69" y="429.235" id="jef10_deviation_3" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_dvt(2))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <line x1="1242.17" y1="335.485" x2="1242.17" y2="436.485" stroke="black"/> 
+      <text x="1067.69" y="395.902" id="jef10_mid_value" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_mean)"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <polygon points="1250.69,367.402 1250.69,342.402 1370.69,342.402 1370.69,367.402" id="jef10_1_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_ne_cl_dvt(0) &gt; 0.15) || (jef10_ne_cl_dvt(0) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.69,400.402 1250.69,375.402 1370.69,375.402 1370.69,400.402" id="jef10_2_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_ne_cl_dvt(1) &gt; 0.15) || (jef10_ne_cl_dvt(1) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1250.69,433.402 1250.69,408.402 1370.69,408.402 1370.69,433.402" id="jef10_3_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef10_ne_cl_dvt(2) &gt; 0.15) || (jef10_ne_cl_dvt(2) &lt; -0.15)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <line x1="654.687" y1="335.402" x2="654.687" y2="436.485" stroke="black"/> 
+      <text x="586.687" y="395.235" font-size="22" text-anchor="middle">КД НЭ</text>
+      <text x="1270.69" y="393.402" font-size="15">+-0,15м</text>
+      <text x="1270.69" y="426.402" font-size="15">+-0,15м</text>
+      <text x="1270.69" y="360.402" font-size="15">+-0,15м</text>
+      <rect x="519.167" y="336.485" width="860" height="101" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+    </g>
+    <g id="jef10_ne_18_19">
+      <rect x="1015.2" y="445.606" width="363.076" height="69.2" rx="0" ry="0" fill="white">
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_BG"/> 
+      </rect>
+      <line x1="656.197" y1="479.523" x2="1016.2" y2="479.523" stroke="black"/> 
+      <line x1="831.424" y1="445.53" x2="831.424" y2="507.53" stroke="black"/> 
+      <text x="668.717" y="468.189" font-size="17">20JEF10CL003</text>
+      <text x="668.717" y="503.19" font-size="17">20JEF10CL004</text>
+      <line x1="1016.42" y1="447.53" x2="1016.42" y2="517.53" stroke="black"/> 
+      <line x1="1121.42" y1="447.53" x2="1121.42" y2="517.53" stroke="black"/> 
+      <image x="835.617" y="449.311" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;20JEF10CL003&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20JEF10CL003&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <image x="835.617" y="484.311" width="175" height="25" xlink:href="DS_ana.svg">
+        <title>&quot;20JEF10CL004&quot;</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20JEF10CL004&quot;"/> 
+        <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+        <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+        <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+        <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+        <rt:dyn type="ShowEU" mode="constant" value="true"/> 
+      </image>
+      <text x="1181.72" y="471.356" id="jef10_deviation_1" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef_ne_cl_dvt_19(0))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1181.72" y="506.356" id="jef10_deviation_2" fill="black" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef_ne_cl_dvt_18(0))"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <line x1="1241.42" y1="447.53" x2="1241.42" y2="517.53" stroke="black"/> 
+      <polygon points="1251.72,477.523 1251.72,452.523 1371.72,452.523 1371.72,477.523" id="jef10_1_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef_ne_cl_dvt_19(0) &gt; 0.19) || (jef_ne_cl_dvt_19(0) &lt; -0.19)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <polygon points="1251.72,511.523 1251.72,486.523 1371.72,486.523 1371.72,511.523" id="jef10_2_criteria" fill="Col_Green">
+        <rt:dyn type="fill" mode="onchange" value="(jef_ne_cl_dvt_18(0) &gt; 0.18) || (jef_ne_cl_dvt_18(0) &lt; -0.18)" trans="it">
+          <rt:xy value="1" value2="Col_Green"/> 
+          <rt:xy value2="Col_Red"/> 
+        </rt:dyn>
+      </polygon>
+      <line x1="656.424" y1="447.53" x2="656.424" y2="517.53" stroke="black"/> 
+      <text x="587.717" y="484.356" font-size="22" text-anchor="middle">КД</text>
+      <text x="1271.72" y="504.523" font-size="15">+-0,18м</text>
+      <text x="1271.72" y="470.523" font-size="15">+-0,19м</text>
+      <rect x="519.182" y="443.591" width="860.818" height="74.4089" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+      <text x="1068.72" y="471.356" id="jef10_ne_mid_value" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_mean)"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+      <text x="1068.72" y="506.356" id="jef20_ne_mid_value" font-family="AAP_Font2" font-size="25" font-weight="600" text-anchor="middle">
+        <rt:dyn type="text" mode="onchange" value="printValue(jef10_ne_cl_mean)"/> 
+        <rt:dyn type="fill" mode="unknown" value="Color_ANA_GOOD"/> 
+_val_</text>
+    </g>
+  </g>
+</svg>

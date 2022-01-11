@@ -1,0 +1,891 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1020" width="1914" height="1020" id="skuv_22sac20_40_41">
+  <title>Вентиляция помещений БПУ в здании UBB</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_skuv&#10;LMod skuv_22qkj_2&#10;RMod skuv_22sac30_50_51" revision="3"/> 
+  <rect x="1275.81" y="417.029" width="104.849" height="199.485" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <polygon points="1123.32,526.606 1110.82,552.106 1136.82,551.606" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polygon points="1291.07,-475.058 1278.57,-449.558 1304.57,-450.058" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <rect x="1276.33" y="118.514" width="104.849" height="199.485" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <image x="1296.17" y="106" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22QKJ-2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22qkj_2&quot;"/> 
+  </image>
+  <polygon points="1124.15,45.1301 1111.65,70.63 1137.65,70.13" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polygon points="1291.9,6.41795 1279.4,31.9179 1305.4,31.4179" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polyline points="1629,350 1800,350 1800,750 1910,750" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="1700" y="433" width="190.99" height="207" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <line x1="638.976" y1="335.397" x2="638.476" y2="86" stroke="black" stroke-width="3"/> 
+  <line x1="195" y1="633" x2="1473.67" y2="633" stroke="black" stroke-width="3"/> 
+  <line x1="1381" y1="810" x2="1625" y2="810" stroke="black" stroke-width="3"/> 
+  <line x1="527" y1="923" x2="1826.12" y2="923" stroke="black" stroke-width="3"/> 
+  <line x1="862" y1="502" x2="862" y2="502" stroke="black"/> 
+  <text x="900.939" y="37.2726" font-size="30" font-weight="700" text-anchor="middle">Вентиляция помещений БПУ в здании UBB (22SAC20, 22SAC40, 22SAC41)</text>
+  <line x1="1.43034" y1="993" x2="308.437" y2="993" stroke="black" stroke-width="3"/> 
+  <image x="14.9369" y="950.939" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;21SAC20AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21SAC20AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="122" y="950.939" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC20AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="3" y1="993" x2="3" y2="87" stroke="black" stroke-width="3"/> 
+  <line x1="195.909" y1="906" x2="529.81" y2="906" stroke="black" stroke-width="3"/> 
+  <image x="376.576" y="864.485" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC41AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC41AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="515.674" y="886.182" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.26362e-005)">
+    <title>&quot;22SAC41AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC41AN001&quot;"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="499.857" y="842.813" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC41CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC41CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1225" y="971.788" font-size="15">22SAC41<tspan x="1225" dy="15">AH001</tspan>
+  </text>
+  <image x="1444.5" y="880.625" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC41AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC41AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1446.39" y="960.939" font-size="15">22SAC41<tspan x="1446.39" dy="15">AA001</tspan>
+  </text>
+  <line x1="195" y1="803.364" x2="195" y2="908" stroke="black" stroke-width="3"/> 
+  <image x="1551.24" y="929.121" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC41CM001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC41CM001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1551.24" y="892.969" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC41CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC41CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="381.242" y="944.788" font-size="15">22SAC41<tspan x="381.242" dy="15">AA002</tspan>
+  </text>
+  <text x="514.424" y="970.432" font-size="15">22SAC41<tspan x="514.424" dy="15">AN001</tspan>
+  </text>
+  <line x1="2" y1="795" x2="1361.55" y2="795" stroke="black" stroke-width="3"/> 
+  <image x="1338.5" y="773.625" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.26362e-005)">
+    <title>&quot;22SAC20AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="1534" y="768.375" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC20AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1534.27" y="849.636" font-size="15">22SAC20<tspan x="1534.27" dy="15">AA002</tspan>
+  </text>
+  <text x="303.818" y="831.455" font-size="15">22SAC20<tspan x="303.818" dy="15">AA202</tspan>
+  </text>
+  <image x="1118.79" y="764.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC20CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC20CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1340.33" y="860.242" font-size="15">22SAC20<tspan x="1340.33" dy="15">AN002</tspan>
+  </text>
+  <path d="M64.364 406.388 A8.20885 11.1255 0 0 0 47.9629 406.198 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 320.236 530.133)"/> 
+  <line x1="195" y1="334.576" x2="195" y2="785.182" stroke="black" stroke-width="3"/> 
+  <image x="1707" y="610" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SAC40CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SAC40CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="635.212" y1="796" x2="637" y2="631.091" stroke="black" stroke-width="3"/> 
+  <image x="206.5" y="590" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC40AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="201" y="674" font-size="15">22SAC40<tspan x="201" dy="15">AA004</tspan>
+  </text>
+  <text x="285" y="674" font-size="15">22SAC40<tspan x="285" dy="15">AA202</tspan>
+  </text>
+  <line x1="707" y1="633" x2="707" y2="547" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="798" y1="635.005" x2="798" y2="554" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="715.455" y="582.606" font-size="15">22SAC41<tspan x="715.455" dy="15">AT004</tspan>
+  </text>
+  <line x1="366.439" y1="633" x2="366.439" y2="532" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="454.497" y1="632.25" x2="454.497" y2="532" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="291" y="528" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="197" y1="336" x2="1466.09" y2="333.667" stroke="black" stroke-width="3"/> 
+  <image x="206.5" y="294" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC40AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="203" y="374" font-size="15">22SAC40<tspan x="203" dy="15">AA003</tspan>
+  </text>
+  <text x="285" y="374" font-size="15">22SAC40<tspan x="285" dy="15">AA201</tspan>
+  </text>
+  <text x="710.909" y="285.848" font-size="15">22SAC40<tspan x="710.909" dy="15">AT003</tspan>
+  </text>
+  <polygon points="94.2909,681.692 81.7909,707.192 107.791,706.692" transform="flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <line x1="826" y1="398" x2="827" y2="336.545" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1713.06" y1="112" x2="1910" y2="112" stroke="black" stroke-width="3"/> 
+  <image x="1809.65" y="69.125" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC20AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1810.58" y="149.697" font-size="15">22SAC20<tspan x="1810.58" dy="15">AA001</tspan>
+  </text>
+  <text x="1672.09" y="145.875" font-size="15">22SAC20<tspan x="1672.09" dy="15">AN001</tspan>
+  </text>
+  <line x1="2" y1="87" x2="1700.94" y2="87" stroke="black" stroke-width="3"/> 
+  <text x="130.212" y="124.152" font-size="15">22SAC20AA201</text>
+  <image x="1482.76" y="57.0303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC20CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC20CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1628.58" y1="617" x2="1629.11" y2="322.364" stroke="black" stroke-width="3"/> 
+  <text x="515.03" y="147.182" font-size="15">22SAC40<tspan x="515.03" dy="15">AA203</tspan>
+  </text>
+  <line x1="22" y1="496" x2="197.303" y2="494.727" stroke="black" stroke-width="3"/> 
+  <image x="109" y="453.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;21SAC40AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21SAC40AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="29.6363" y="453.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;22SAC40AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="23" y1="587.788" x2="23" y2="494.939" stroke="black" stroke-width="3"/> 
+  <polygon points="22.9999,573.5 10.4999,599 36.4999,598.5"/> 
+  <image x="1705.99" y="473" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SAC40CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SAC40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1705.99" y="507" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SAC40CM001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SAC40CM001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1733.64" y="451" font-size="15">20UBB13R011</text>
+  <text x="1702.45" y="571.576" font-size="15">БПУ-Н</text>
+  <text x="1702.45" y="469.303" font-size="15">БПУ-О</text>
+  <text x="1730.45" y="310.242" font-size="15">22SAC40<tspan x="1730.45" dy="15">AA401</tspan>
+  </text>
+  <text x="1815.52" y="784.151" font-size="15">22SAC20<tspan x="1815.52" dy="15">AA401</tspan>
+  </text>
+  <line x1="1910" y1="112" x2="1910" y2="751.25" stroke="black" stroke-width="3"/> 
+  <text x="370.394" y="380.545" font-size="15">22SAC40<tspan x="370.394" dy="15">AT001</tspan>
+  </text>
+  <text x="116" y="533.5" font-size="15">21SAC40<tspan x="116" dy="15">AA002</tspan>
+  </text>
+  <text x="31.8788" y="534.333" font-size="15">22SAC40<tspan x="31.8788" dy="15">AA002</tspan>
+  </text>
+  <text x="21.0606" y="933.455" font-size="15">21SAC20<tspan x="21.0606" dy="15">AA004</tspan>
+  </text>
+  <text x="128.061" y="930.424" font-size="15">22SAC20<tspan x="128.061" dy="15">AA004</tspan>
+  </text>
+  <text x="375.545" y="679.545" font-size="15">22SAC40<tspan x="375.545" dy="15">AT002</tspan>
+  </text>
+  <text x="1641" y="306.5" font-size="15">20SAC40<tspan x="1641" dy="15">AH002</tspan>
+  </text>
+  <text x="514.394" y="757.515" font-size="15">22SAC40<tspan x="514.394" dy="15">AA204</tspan>
+  </text>
+  <image x="161" y="44.4999" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC20AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA201&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="284" y="291.152" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX() rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC40AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA201&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="284" y="589.424" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipX() rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC40AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA202&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="299" y="752" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC20AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA202&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="382.816" y="224.202" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="399.484" y1="312.91" x2="399.484" y2="399.274" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="712.051" y="553.65" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="865.237" y1="310.17" x2="865.237" y2="396.534" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="94.3264" y="509.134" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="399.484" y1="718.39" x2="399.484" y2="804.754" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="421.616" y="840.508" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="865.237" y1="718.39" x2="865.237" y2="804.754" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="735" y="973" font-size="15">22SAC41<tspan x="735" dy="15">AT003</tspan>
+  </text>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="158.59" y="1139.89" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="893.402" y1="1115.9" x2="893.402" y2="1202.26" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="914.48" y="973" font-size="15">22SAC41<tspan x="914.48" dy="15">AT002</tspan>
+  </text>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="330.808" y="1314.18" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1138.44" y1="1115.86" x2="1138.44" y2="1202.22" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <text x="1092.48" y="973" font-size="15">22SAC41<tspan x="1092.48" dy="15">AT001</tspan>
+  </text>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="501.974" y="1488.48" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1382.73" y1="1116.57" x2="1382.73" y2="1202.93" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <image x="287.909" y="562.364" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC40AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA202&quot;"/> 
+  </image>
+  <polygon points="-206.902,2021.84 -219.402,2047.34 -193.402,2046.84" transform="flipX(1825.84) flipX(1728.84) rotate(270 157 559.75)"/> 
+  <text x="1846.42" y="928.333" font-size="15">АТМ</text>
+  <image x="287.909" y="264.636" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC40AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA201&quot;"/> 
+  </image>
+  <line x1="366.439" y1="333.818" x2="366.439" y2="232.818" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="454.497" y1="335.333" x2="454.497" y2="234.333" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="657" y="535" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CP004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="293" y="228" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1677.24" y="67.375" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.26362e-005)">
+    <title>&quot;22SAC20AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="8.6361" y="633.364" font-size="15">АТМ</text>
+  <line x1="23" y1="497.97" x2="23" y2="318.515" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <polygon points="-275.52,3538.08 -288.02,3563.58 -262.02,3563.08" transform="flipX(1728.84) rotate(270 157 559.75)"/> 
+  <text x="330.184" y="996.95" font-size="15">АТМ</text>
+  <image x="301.546" y="724.818" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC20AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA202&quot;"/> 
+  </image>
+  <image x="165.06" y="21.0303" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC20AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC20AA201&quot;"/> 
+  </image>
+  <line x1="707" y1="337.151" x2="707" y2="254" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="798" y1="335.278" x2="798" y2="251" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="657" y="240" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="684.667" y="375.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="827" y1="698" x2="827" y2="635.697" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="684.667" y="673.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="830" y="154" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20SBJ06AA213&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ06AA213&quot;"/> 
+  </image>
+  <rect x="1096" y="238" width="95" height="81" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <text x="1450" y="383" font-size="15">22SAC40<tspan x="1450" dy="15">AN001</tspan>
+  </text>
+  <line x1="1478.02" y1="321.5" x2="1631.24" y2="323.061" stroke="black" stroke-width="3"/> 
+  <image x="1109" y="226" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PEB&quot;"/> 
+  </image>
+  <text x="1381.79" y="262" font-size="15">22QKJ01<tspan x="1381.79" dy="15">AA023</tspan>
+  </text>
+  <text x="1280.58" y="261" font-size="15">22QKJ11<tspan x="1280.58" dy="15">AA221</tspan>
+  </text>
+  <image x="1447" y="300" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22SAC40AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1292" y="373" font-size="15">22SAC40<tspan x="1292" dy="15">AC003</tspan>
+  </text>
+  <text x="1543.76" y="273.061" font-size="15">22SAC40<tspan x="1543.76" dy="15">AA601</tspan>
+  </text>
+  <line x1="1525" y1="318" x2="1525" y2="243.853" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="1073.76" y="375.242" font-size="15">22SAC40AC001</text>
+  <image x="1243.15" y="169.03" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY() rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22QKJ11AA221&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ11AA221&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="1537.7" y="292.424" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="flipX(0.000250627)"/> 
+  <image x="1447.76" y="232.273" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <polygon points="1118.42,309.616 1168.42,310.116 1168.42,359.616 1118.42,359.616" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="1133.42" y1="335.116" x2="1143.92" y2="324.116" stroke="black" stroke-width="3"/> 
+    <line x1="1143.42" y1="344.116" x2="1153.42" y2="334.616" stroke="black" stroke-width="3"/> 
+    <line x1="1143.42" y1="344.616" x2="1143.42" y2="324.616" stroke="black" stroke-width="3"/> 
+    <line x1="1118.42" y1="335.116" x2="1134.17" y2="335.116" stroke="black" stroke-width="3"/> 
+    <line x1="1152.75" y1="334.616" x2="1168.5" y2="334.616" stroke="black" stroke-width="3"/> 
+  </g>
+  <g>
+    <polygon points="1304.24,308.586 1354.24,309.086 1354.24,358.586 1304.24,358.586" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="1319.24" y1="334.086" x2="1329.74" y2="323.086" stroke="black" stroke-width="3"/> 
+    <line x1="1329.24" y1="343.086" x2="1339.24" y2="333.586" stroke="black" stroke-width="3"/> 
+    <line x1="1329.24" y1="343.586" x2="1329.24" y2="323.586" stroke="black" stroke-width="3"/> 
+    <line x1="1304.24" y1="334.086" x2="1319.99" y2="334.086" stroke="black" stroke-width="3"/> 
+    <line x1="1338.57" y1="333.586" x2="1354.32" y2="333.586" stroke="black" stroke-width="3"/> 
+  </g>
+  <image x="1202" y="149" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22QKJ11AA221&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ11AA221&quot;"/> 
+  </image>
+  <image x="1336.09" y="182.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -9.99997)">
+    <title>&quot;22QKJ01AA023&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ01AA023&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <polygon points="831.927,291.904 819.427,317.404 845.427,316.904" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polygon points="985.152,-238.743 972.652,-213.243 998.652,-213.743" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <rect x="1095.15" y="536.151" width="95" height="81" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <text x="1449.15" y="679.151" font-size="15">22SAC40<tspan x="1449.15" dy="15">AN002</tspan>
+  </text>
+  <line x1="1477.17" y1="617.651" x2="1629.73" y2="613.97" stroke="black" stroke-width="3"/> 
+  <image x="1108.15" y="524.152" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PEB&quot;"/> 
+  </image>
+  <text x="1380.94" y="560.151" font-size="15">22QKJ01<tspan x="1380.94" dy="15">AA024</tspan>
+  </text>
+  <text x="1279.73" y="559.151" font-size="15">22QKJ11<tspan x="1279.73" dy="15">AA222</tspan>
+  </text>
+  <image x="1446.15" y="596.151" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22SAC40AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1291.15" y="671.151" font-size="15">22SAC40<tspan x="1291.15" dy="15">AC004</tspan>
+  </text>
+  <text x="1542.91" y="569.213" font-size="15">22SAC40<tspan x="1542.91" dy="15">AA602</tspan>
+  </text>
+  <line x1="1524.15" y1="614.151" x2="1524.15" y2="540.005" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="1072.91" y="670.394" font-size="15">22SAC40AC002</text>
+  <image x="1242.64" y="466.485" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY() rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22QKJ11AA222&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ11AA222&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="1536.85" y="585.576" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="flipX(0.000250627)"/> 
+  <image x="1446.91" y="528.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <polygon points="1117.57,607.768 1167.57,608.268 1167.57,657.768 1117.57,657.768" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="1132.57" y1="633.268" x2="1143.07" y2="622.268" stroke="black" stroke-width="3"/> 
+    <line x1="1142.57" y1="642.268" x2="1152.57" y2="632.768" stroke="black" stroke-width="3"/> 
+    <line x1="1142.57" y1="642.768" x2="1142.57" y2="622.768" stroke="black" stroke-width="3"/> 
+    <line x1="1117.57" y1="633.268" x2="1133.32" y2="633.268" stroke="black" stroke-width="3"/> 
+    <line x1="1151.9" y1="632.768" x2="1167.65" y2="632.768" stroke="black" stroke-width="3"/> 
+  </g>
+  <g>
+    <polygon points="1303.39,606.738 1353.39,607.238 1353.39,656.738 1303.39,656.738" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="1318.39" y1="632.238" x2="1328.89" y2="621.238" stroke="black" stroke-width="3"/> 
+    <line x1="1328.39" y1="641.238" x2="1338.39" y2="631.738" stroke="black" stroke-width="3"/> 
+    <line x1="1328.39" y1="641.738" x2="1328.39" y2="621.738" stroke="black" stroke-width="3"/> 
+    <line x1="1303.39" y1="632.238" x2="1319.14" y2="632.238" stroke="black" stroke-width="3"/> 
+    <line x1="1337.72" y1="631.738" x2="1353.47" y2="631.738" stroke="black" stroke-width="3"/> 
+  </g>
+  <image x="1201.15" y="447.152" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22QKJ11AA222&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ11AA222&quot;"/> 
+  </image>
+  <image x="1335.24" y="480.652" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -9.99997)">
+    <title>&quot;22QKJ01AA024&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKJ01AA024&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <polygon points="830.558,772.797 818.058,798.297 844.058,797.797" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polygon points="983.782,-721.249 971.282,-695.749 997.282,-696.249" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <rect x="902.302" y="416.667" width="104.849" height="199.485" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <text x="1013.15" y="561.151" font-size="15">20SBJ05<tspan x="1013.15" dy="15">AA014</tspan>
+  </text>
+  <text x="908.151" y="560.151" font-size="15">20SBJ06<tspan x="908.151" dy="15">AA214</tspan>
+  </text>
+  <image x="922.151" y="404.152" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SBJ&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value=""/> 
+  </image>
+  <polygon points="520.88,526.021 508.38,551.521 534.38,551.021" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <text x="899.151" y="672.151" font-size="15">22SAC40AH004</text>
+  <image x="868.621" y="468.424" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-1.13687e-013) rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;20SBJ06AA214&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ06AA214&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="963.15" y="481.652" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -9.99997)">
+    <title>&quot;20SBJ05AA014&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ05AA014&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g>
+    <polygon points="931.78,607.738 981.78,608.238 981.78,657.738 931.78,657.738" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="946.78" y1="633.238" x2="957.28" y2="622.238" stroke="black" stroke-width="3"/> 
+    <line x1="956.78" y1="642.238" x2="966.78" y2="632.738" stroke="black" stroke-width="3"/> 
+    <line x1="956.78" y1="642.738" x2="956.78" y2="622.738" stroke="black" stroke-width="3"/> 
+    <line x1="931.78" y1="633.238" x2="947.53" y2="633.238" stroke="black" stroke-width="3"/> 
+    <line x1="966.11" y1="632.738" x2="981.86" y2="632.738" stroke="black" stroke-width="3"/> 
+  </g>
+  <polygon points="688.622,-474.472 676.122,-448.972 702.122,-449.472" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <line x1="847.151" y1="424.152" x2="906.151" y2="424.152" stroke="black" stroke-dasharray="5,5"/> 
+  <image x="706" y="413.152" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SBJ06CT014&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SBJ06CT014&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <polygon points="-647.837,827.875 -660.337,853.375 -634.337,852.875" transform="rotate(90 169.605 77.602) flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <image x="830" y="449.758" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20SBJ06AA214&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ06AA214&quot;"/> 
+  </image>
+  <rect x="902.151" y="118.515" width="104.849" height="199.485" rx="0" ry="0" fill="none" stroke="black" stroke-width="1"/> 
+  <text x="1013" y="263" font-size="15">20SBJ05<tspan x="1013" dy="15">AA013</tspan>
+  </text>
+  <text x="908" y="262" font-size="15">20SBJ06<tspan x="908" dy="15">AA213</tspan>
+  </text>
+  <image x="922" y="106" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SBJ&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value=""/> 
+  </image>
+  <polygon points="520.636,45.1295 508.136,70.6295 534.136,70.1295" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <text x="899" y="374" font-size="15">22SAC40AH003</text>
+  <image x="868.47" y="170.272" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY() rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;20SBJ06AA213&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ06AA213&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="963" y="183.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -9.99997)">
+    <title>&quot;20SBJ05AA013&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SBJ05AA013&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g>
+    <polygon points="931.63,309.586 981.63,310.086 981.63,359.586 931.63,359.586" fill="Col_Grey4" stroke="black" stroke-width="2"/> 
+    <line x1="946.63" y1="335.086" x2="957.13" y2="324.086" stroke="black" stroke-width="3"/> 
+    <line x1="956.63" y1="344.086" x2="966.63" y2="334.586" stroke="black" stroke-width="3"/> 
+    <line x1="956.63" y1="344.586" x2="956.63" y2="324.586" stroke="black" stroke-width="3"/> 
+    <line x1="931.63" y1="335.086" x2="947.38" y2="335.086" stroke="black" stroke-width="3"/> 
+    <line x1="965.96" y1="334.586" x2="981.71" y2="334.586" stroke="black" stroke-width="3"/> 
+  </g>
+  <polygon points="688.378,6.41904 675.878,31.919 701.878,31.419" transform="flipY(130.905) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <line x1="847" y1="126" x2="906" y2="126" stroke="black" stroke-dasharray="5,5"/> 
+  <image x="706" y="115" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SBJ06CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SBJ06CT013&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <polygon points="-620.761,1174.46 -633.261,1199.96 -607.261,1199.46" transform="rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <g transform="scale(1.41 1.41 27.4545 237.121) scale(0.64313 0.64313 1873.19 332.499)">
+    <circle cx="-994.778" cy="220.733" r="23" fill="gray" stroke="black"/> 
+    <path d="M-994.778 222.733 L-1004.78 242.483 L-984.778 242.483 " fill="Col_BGSand"/> 
+    <path d="M-478.657 -821.725 L-488.407 -799.475 L-468.407 -799.475 " fill="Col_BGSand" transform="rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <path d="M936.156 832.643 L926.406 854.893 L946.406 854.893 " fill="Col_BGSand" transform="flipX(93.5629) rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <circle cx="-994.208" cy="220.627" r="8" fill="Col_BGSand"/> 
+    <circle cx="-994.538" cy="220.416" r="4" fill="gray"/> 
+  </g>
+  <image x="8.15068" y="384.136" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC40CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1733.64" y="556.333" font-size="15">20UBB13R021</text>
+  <image x="561.472" y="695.61" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC40AA204&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA204&quot;"/> 
+  </image>
+  <image x="599.942" y="711.882" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-1.13687e-013) rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC40AA204&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA204&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="565.5" y="97.4281" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;22SAC40AA203&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA203&quot;"/> 
+  </image>
+  <image x="603.97" y="113.7" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;22SAC40AA203&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA203&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="1042.48" y="842.813" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22SAC41CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC41CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g>
+    <rect x="1226.18" y="883.515" width="70" height="70" rx="0" ry="0" fill="Col_Grey4"/> 
+    <image x="1236.18" y="891.015" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;22SAC41AH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC41AH001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <image x="646.394" y="980.636" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PK&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;asrk_22sac41&quot;"/> 
+  </image>
+  <image x="1411" y="451.5" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;22SAC40EE005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40EE005&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1689" y="174.5" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>&quot;22CMB00CH001VL0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22CMB00CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1k2&quot;"/> 
+  </image>
+  <g>
+    <text x="1462.5" y="421.5" font-size="15">Ключ Автомат Дист</text>
+    <image x="1501.5" y="444.5" width="70" height="30" xlink:href="DS_TPTS_VL_num.svg">
+      <title>&quot;22SAC40CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    </image>
+    <text x="1475" y="438.5" font-size="15">22SAC40CH001</text>
+    <image x="1501.5" y="492" width="70" height="30" xlink:href="DS_TPTS_VL_num.svg">
+      <title>&quot;22SAC40CH002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40CH002VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    </image>
+    <text x="1475" y="487" font-size="15">22SAC40CH002</text>
+  </g>
+  <g>
+    <rect x="460.515" y="270.121" width="170" height="90" rx="0" ry="0" fill="Col_Grey4"/> 
+    <image x="464.788" y="305" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;22SAC40AH001A&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH001A&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="484.515" y="287.091" font-size="15">22SAC40AH001</text>
+    <image x="520" y="305" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;22SAC40AH001B&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH001B&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <image x="575" y="305" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;22SAC40AH001C&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH001C&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="484" y="302.5" font-size="15">A</text>
+    <text x="542" y="302.5" font-size="15">B</text>
+    <text x="596" y="302.5" font-size="15">C</text>
+    <g>
+      <rect x="460.515" y="571.121" width="170" height="90" rx="0" ry="0" fill="Col_Grey4"/> 
+      <image x="464.788" y="606" width="50" height="55" xlink:href="DS_switch.svg">
+        <title>&quot;22SAC40AH002A&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH002A&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+      </image>
+      <text x="484.515" y="588.091" font-size="15">22SAC40AH002</text>
+      <image x="520" y="606" width="50" height="55" xlink:href="DS_switch.svg">
+        <title>&quot;22SAC40AH002B&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH002B&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+      </image>
+      <image x="575" y="606" width="50" height="55" xlink:href="DS_switch.svg">
+        <title>&quot;22SAC40AH002C&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AH002C&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+      </image>
+      <text x="484" y="603.5" font-size="15">A</text>
+      <text x="542" y="603.5" font-size="15">B</text>
+      <text x="596" y="603.5" font-size="15">C</text>
+    </g>
+  </g>
+  <g>
+    <line x1="1080.98" y1="920.875" x2="1080.98" y2="857.239" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+    <line x1="1174.98" y1="920.875" x2="1174.98" y2="857.239" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  </g>
+  <line x1="628" y1="868.5" x2="628" y2="920.5" stroke="black" stroke-dasharray="5,5"/> 
+  <line x1="718" y1="874.5" x2="718" y2="874.5" stroke="black"/> 
+  <image x="508" y="234.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;22SAC40AH001T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22SAC40AH001T_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="500.5" y="355.5" font-size="15" transform="flipY(293)">Темп.</text>
+  <image x="508" y="683.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;22SAC40AH002T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22SAC40AH002T_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="500.5" y="-93.4999" font-size="15" transform="flipY(293)">Темп.</text>
+  <image x="1037.13" y="354.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;22SAC40AH003T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22SAC40AH003T_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="1029.63" y="235.25" font-size="15" transform="flipY(293)">Темп.</text>
+  <image x="1037.13" y="654.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;22SAC40AH004T&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22SAC40AH004T_XG01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="1029.63" y="-64.7499" font-size="15" transform="flipY(293)">Темп.</text>
+  <image x="1733" y="255.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAC42&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22sac42&quot;"/> 
+  </image>
+  <image x="1705.99" y="579.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20SAC40CM002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20SAC40CM002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1651" y="323" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;20SAC40AH002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20SAC40AH002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="13" y="14.5" fill="black" font-size="15" font-weight="700" text-anchor="start">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+SKUV_22SAC20_40_41</text>
+  <image x="1716" y="328" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC40AA401</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC40AA401_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC40AA401_XB02&quot;"/> 
+  </image>
+  <image x="1815" y="728" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC20AA401</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC20AA401_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC20AA401_XB02&quot;"/> 
+  </image>
+  <text x="1810" y="405.5" font-size="15">22SAC40<tspan x="1810" dy="15">AA470</tspan>
+  </text>
+  <polyline points="1710.5,351 1710.5,401 1800.5,401" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="1721.5" y="378.5" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC40AA470</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC40AA470_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC40AA470_XB02&quot;"/> 
+  </image>
+  <line x1="1800" y1="700" x2="1909.59" y2="700" stroke="black" stroke-width="3"/> 
+  <text x="1819" y="660" font-size="15">22SAC20<tspan x="1819" dy="15">AA470</tspan>
+  </text>
+  <image x="1815" y="678" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC20AA470</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC20AA470_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC20AA470_XB02&quot;"/> 
+  </image>
+  <polyline points="1800,675 1750,675 1750,750 1625,750 1625,810" fill="none" stroke="black" stroke-width="3"/> 
+  <polyline points="1750,700 1625,700 1625,750" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="1650" y="726" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC20AA403</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC20AA403_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC20AA403_XB02&quot;"/> 
+  </image>
+  <image x="1650" y="676" width="70" height="45" xlink:href="DS_pivot_valve.svg" transform="rotate(0 0 0)">
+    <title>22SAC20AA471</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;22SAC20AA471_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;22SAC20AA471_XB02&quot;"/> 
+  </image>
+  <text x="1659" y="661.5" font-size="15">22SAC20<tspan x="1659" dy="15">AA471</tspan>
+  </text>
+  <text x="1654" y="785" font-size="15">22SAC20<tspan x="1654" dy="15">AA403</tspan>
+  </text>
+  <image x="1294" y="405" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22QKJ-2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22qkj_2&quot;"/> 
+  </image>
+  <image x="9" y="297" width="175" height="25" xlink:href="DS_ana_ASRK.svg">
+    <title>&quot;21SAC40CR002B01&quot;</title>
+    <rt:dyn type="IsExp" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;21SAC40CR002B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_Map" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+  <image x="9" y="329" width="175" height="25" xlink:href="DS_ana_ASRK.svg">
+    <title>&quot;22SAC40CR002B01&quot;</title>
+    <rt:dyn type="IsExp" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CR002B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_Map" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+  <image x="214" y="398" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;22SAC40AA003E&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA003E&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="203.5" y="471.5" font-size="15">22SAC40<tspan x="203.5" dy="15">AA003E</tspan>
+  </text>
+  <image x="212.75" y="695" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;22SAC40AA004E&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAC40AA004E&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="202.25" y="768.5" font-size="15">22SAC40<tspan x="202.25" dy="15">AA004E</tspan>
+  </text>
+</svg>

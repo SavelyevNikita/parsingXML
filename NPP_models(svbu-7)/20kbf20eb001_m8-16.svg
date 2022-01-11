@@ -1,0 +1,335 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="20kbf20eb001_m8-16" stroke-width="3" font-size="15" font-weight="bold">
+  <title>Программа пуска выпарной установки для переработки боросодержащих вод в режиме &quot;на себя&quot; и останова</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod fgu_svo_all"/> 
+  <polyline points="909.03,412.029 907.863,471.363 994.03,470.53" fill="none" stroke="black"/> 
+  <polyline points="278.03,420.03 276.863,479.364 363.03,478.531" fill="none" stroke="black"/> 
+  <polyline points="279.697,177.029 278.53,236.363 364.697,235.53" fill="none" stroke="black"/> 
+  <polyline points="167.333,95.3334 247.333,95.3334 249.333,955.333 550,955 550,135 875,133.333 875,950 1200,950 1200,135 1475,135 1475,940" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="17.6063" y="39.197" fill="black" font-size="15" font-weight="700">20KBF20EB001</text>
+  <image x="132" y="81" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 7&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20kbf20eb001_m3-7&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="157.166" y="163.166" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="167.166" y="183" fill="black" font-size="18" font-weight="700">ШАГ 8</text>
+  <text x="169" y="211.083" fill="Col_Grey5">Т ожид</text>
+  <text x="255.333" y="211.5" font-size="16">0 с</text>
+  <line x1="303.333" y1="193.333" x2="157.333" y2="193.166" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <rect x="158.167" y="396.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="168.167" y="418.333" fill="black" font-size="18" font-weight="700">ШАГ 9</text>
+  <text x="170.001" y="444.417" fill="Col_Grey5">Т ожид</text>
+  <text x="256.334" y="444.834" font-size="16">0 с</text>
+  <line x1="304.334" y1="426.667" x2="158.334" y2="426.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <polyline points="273.5,621.336 274,788 450,788" fill="none" stroke="black"/> 
+  <line x1="449.83" y1="719.669" x2="273.834" y2="719.669" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="307.007" y="742.669" fill="black" font-size="16" font-weight="normal">ОТКP 20KBF31AA201</text>
+  <text x="305.007" y="695.336" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="305.007" dy="16">20KBF20EE007</tspan>
+  </text>
+  <image x="1427" y="926.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 17&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20kbf20eb001_m17-22&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="262" y="164.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;8&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="294.833" y="226.167" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF21AA003_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF21AA003_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="375.833" y="243.167" font-size="16">20KBF21AA003</text>
+  <line x1="248" y1="266" x2="204" y2="266" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="104.5" y="261.833" text-anchor="middle">L в 20KBF20BB001<tspan x="104.5" dy="15">&gt; 0.7 м</tspan>
+  </text>
+  <image x="193.667" y="252.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF21CL001_XH13&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF21CL001_XH13&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="262" y="400" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;9&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="294.5" y="470.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF21AA003_VB9 3&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF21AA003_VB9 3&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ЗАКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="375.5" y="488.5" font-size="16">20KBF21AA003</text>
+  <line x1="247" y1="497" x2="147" y2="497" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="87" y="530">20KBF21AA003</text>
+  <text x="111.167" y="545" fill="Col_Grey5">КС: ЗАКР</text>
+  <image x="111.167" y="454" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBF21AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20KBF21AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <rect x="157.5" y="615.167" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="167.5" y="636" fill="black" font-size="18" font-weight="700">ШАГ 10</text>
+  <text x="169.334" y="663.083" fill="Col_Grey5">Т ожид</text>
+  <text x="255.668" y="663.5" font-size="16">0 с</text>
+  <line x1="303.668" y1="645.334" x2="157.667" y2="645.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="261" y="617.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;10&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="307" y="764" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="307" dy="16">20KBF20EE008</tspan>
+  </text>
+  <text x="312" y="812" fill="black" font-size="16" font-weight="normal">ОТКP 20KBF31AA202</text>
+  <rect x="227.333" y="873.5" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="238.333" y="908.5" font-size="28">&amp;</text>
+  <line x1="250.333" y1="823.5" x2="212.5" y2="823.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="135" y="816.167" text-anchor="middle">F охл. воды<tspan x="135" dy="15">&gt;5 М3/Ч</tspan>
+  </text>
+  <image x="194.333" y="810.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF31CF003_XH11&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF31CF003_XH11&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="250.333" y1="733.5" x2="211" y2="733.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="133.333" y="729.5" text-anchor="middle">F охл. воды<tspan x="133.333" dy="15">&gt;150 М3/Ч</tspan>
+  </text>
+  <image x="194.333" y="720.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF31CF001_XH11&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF31CF001_XH11&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <polyline points="912.031,188.363 910.864,247.697 997.031,246.864" fill="none" stroke="black"/> 
+  <rect x="789.5" y="174.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="799.5" y="194.333" fill="black" font-size="18" font-weight="700">ШАГ 11</text>
+  <text x="801.334" y="222.417" fill="Col_Grey5">Т ожид</text>
+  <text x="893.667" y="222.834" font-size="16">0 с</text>
+  <line x1="935.667" y1="204.667" x2="789.667" y2="204.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="897.333" y="176" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;11&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="926.833" y="238.5" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF21AA202_VB9 11&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF21AA202_VB9 11&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;АВТОМАТ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1007.83" y="256.5" font-size="16">20KBF21AA202</text>
+  <line x1="876.333" y1="274" x2="776.333" y2="274" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="716.333" y="307">20KBF21AA202</text>
+  <text x="740.5" y="322" fill="Col_Grey5">КС: АВТО</text>
+  <image x="740.5" y="231" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+    <title>&quot;20KBF21AA202&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20KBF21AA202&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+  </image>
+  <rect x="789.833" y="390.166" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="799.833" y="409.667" fill="black" font-size="18" font-weight="700">ШАГ 12</text>
+  <text x="801.667" y="438.083" fill="Col_Grey5">Т ожид</text>
+  <text x="894" y="438.5" font-size="16">0 с</text>
+  <line x1="936" y1="420.333" x2="790" y2="420.166" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="896.333" y="391.333" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;12&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="923.5" y="460.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF21AA002_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF21AA002_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1003.5" y="477.833" font-size="16">20KBF21AA002</text>
+  <line x1="876.333" y1="489.333" x2="776.333" y2="489.333" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="716.333" y="522.333">20KBF21AA002</text>
+  <text x="726.333" y="537.333" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="738.333" y="446.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBF21AA002&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20KBF21AA002&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <polyline points="916,607 915.667,695.335 1091.67,695.335" fill="none" stroke="black"/> 
+  <text x="948.667" y="671.335" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="948.667" dy="16">20KBF20EE009</tspan>
+  </text>
+  <text x="953.667" y="719.335" fill="black" font-size="16" font-weight="normal">ОТКP 20KBF21AA203</text>
+  <rect x="792.833" y="593.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="802.833" y="613.333" fill="black" font-size="18" font-weight="700">ШАГ 13</text>
+  <text x="804.667" y="641.417" fill="Col_Grey5">Т ожид</text>
+  <text x="897" y="641.834" font-size="16">0 с</text>
+  <line x1="939" y1="623.667" x2="793" y2="623.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="903.333" y="595" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;13&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="876" y1="802" x2="836" y2="802" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="738.333" y="797.833" text-anchor="middle">T в 20KBF20AT001<tspan x="738.333" dy="15">&gt; 95 C</tspan>
+  </text>
+  <image x="823.334" y="788.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF20CT001_XH01&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20CT001_XH01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="877" y1="712" x2="836.334" y2="711.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="745.667" y="707.833" text-anchor="middle">P греющего пара<tspan x="745.667" dy="15">&gt; 0.05 МПА</tspan>
+  </text>
+  <image x="823.334" y="698.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF21CP001_XH11&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF21CP001_XH11&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <polyline points="1511.36,196.363 1510.2,255.697 1596.36,254.864" fill="none" stroke="black"/> 
+  <rect x="1392.17" y="174.5" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1402.17" y="194.667" fill="black" font-size="18" font-weight="700">ШАГ 14</text>
+  <text x="1404" y="222.417" fill="Col_Grey5">Т ожид</text>
+  <text x="1496.33" y="222.834" font-size="16">0 с</text>
+  <line x1="1538.33" y1="204.667" x2="1392.33" y2="204.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1502" y="176.333" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;14&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="1527.83" y="245.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF20AA003_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF20AA003_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1607.83" y="263.833" font-size="16">20KBF20AA003</text>
+  <line x1="1475.33" y1="272" x2="1375.33" y2="272" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1315.33" y="305">20KBF20AA003</text>
+  <text x="1325.33" y="320" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1337.33" y="229" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBF20AA003&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20KBF20AA003&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <polyline points="1499.5,391.002 1500,557.666 1676,557.666" fill="none" stroke="black"/> 
+  <line x1="1675.83" y1="489.335" x2="1499.83" y2="489.335" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1533.01" y="512.335" fill="black" font-size="16" font-weight="normal">АВР KBF30AP001 AP002</text>
+  <text x="1531.01" y="465.002" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="1531.01" dy="16">20KBF30EE001</tspan>
+  </text>
+  <rect x="1383.5" y="384.833" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1393.5" y="405.666" fill="black" font-size="18" font-weight="700">ШАГ 15</text>
+  <text x="1395.33" y="432.749" fill="Col_Grey5">Т ожид</text>
+  <text x="1481.67" y="433.166" font-size="16">0 с</text>
+  <line x1="1529.67" y1="415" x2="1383.67" y2="414.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1533" y="533.666" fill="black" font-size="16" font-weight="700">В алгоритм<tspan x="1533" dy="16">20KBF20EE010</tspan>
+  </text>
+  <text x="1538" y="581.666" fill="black" font-size="16" font-weight="normal">ОТКP 20KBF20AA202</text>
+  <image x="1488.67" y="387" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;15&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="1475" y1="518.5" x2="1437" y2="518.5" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1337.67" y="514.5" text-anchor="middle">F флегмы в<tspan x="1337.67" dy="15">вып. апп. &gt;1 М3/Ч</tspan>
+  </text>
+  <image x="1424" y="505.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBF30CF002_XH11&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF30CF002_XH11&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <polyline points="1509.7,663.696 1508.54,723.03 1594.7,722.197" fill="none" stroke="black"/> 
+  <rect x="1390.51" y="641.833" width="146.667" height="55.167" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1400.51" y="662" fill="black" font-size="18" font-weight="700">ШАГ 16</text>
+  <text x="1402.34" y="689.75" fill="Col_Grey5">Т ожид</text>
+  <text x="1494.67" y="690.167" font-size="16">0 с</text>
+  <line x1="1536.67" y1="672" x2="1390.67" y2="671.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1498.67" y="643.667" width="25" height="25" xlink:href="ps_NVO_StepNumber.svg">
+    <title>&quot;20KBF20EB001_VB28&quot;</title>
+    <rt:dyn type="PointID" value="&quot;20KBF20EB001_VB28&quot;" mode="constant"/> 
+    <rt:dyn type="StepNumber" value="&quot;16&quot;" mode="constant"/> 
+    <rt:dyn type="Col_On" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_Off" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <image x="1526.83" y="711.833" width="75" height="20" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20KBF21AA001_VB9 4&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20KBF21AA001_VB9 4&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;ОТКРЫТЬ&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Green&quot;" mode="constant"/> 
+  </image>
+  <text x="1608.83" y="729.833" font-size="16">20KBF21AA001</text>
+  <line x1="1477" y1="741" x2="1377" y2="741" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1317" y="774">20KBF21AA001</text>
+  <text x="1327" y="789" fill="Col_Grey5">КС: ОТКР</text>
+  <image x="1339" y="698" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBF21AA001&quot;</title>
+    <rt:dyn type="KKS" value="&quot;20KBF21AA001&quot;" mode="constant"/> 
+    <rt:dyn type="DATA_NARY" value="&quot;TPTS&quot;" mode="constant"/> 
+    <rt:dyn type="Drive" value="&quot;moto&quot;" mode="constant"/> 
+  </image>
+  <g>
+    <rect x="854.5" y="836.833" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="865.5" y="871.833" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="225" y="300" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="236" y="335" fill="black" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="225" y="540" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="236" y="575" fill="black" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="850" y="329" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="861" y="364" fill="black" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="850" y="529" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="861" y="564" fill="black" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="1454" y="325" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="1465" y="360" fill="black" font-size="28">&amp;</text>
+  </g>
+  <g>
+    <rect x="1454" y="579" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+    <text x="1465" y="614" fill="black" font-size="28">&amp;</text>
+  </g>
+  <text x="972" y="27" fill-opacity="1" font-size="30" font-weight="700" text-anchor="middle">Программа пуска выпарной установки для переработки боросодержащих вод<tspan x="972" dy="30">в режиме &quot;на себя&quot; и останова</tspan>
+  </text>
+</svg>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" color="Col_BGSand" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="quc2" font-weight="bold">
+  <title>Система АХК  систем конденсата</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_svo&#xA;LMod quc1&#xA;RMod qug&#xA;RASU" revision="4.1" />
+  <line x1="261.882" y1="155" x2="261.882" y2="455" stroke="black" />
+  <line x1="261.882" y1="452.5" x2="261.882" y2="763.75" stroke="black" stroke-width="3" />
+  <line x1="1009.75" y1="153.75" x2="1009.75" y2="453.75" stroke="black" />
+  <line x1="1009.75" y1="451.25" x2="1009.75" y2="762.5" stroke="black" stroke-width="3" />
+  <line x1="629" y1="154.25" x2="629" y2="454.25" stroke="black" />
+  <line x1="629" y1="451.75" x2="629" y2="763" stroke="black" stroke-width="3" />
+  <line x1="1743.14" y1="153" x2="1743.14" y2="760.167" stroke="black" stroke-width="3" />
+  <line x1="350.06" y1="154.651" x2="350.06" y2="453" stroke="black" stroke-width="1" />
+  <line x1="173.06" y1="156.166" x2="173.06" y2="453" stroke="black" stroke-width="1" />
+  <text x="957" y="50" fill="black" font-size="30" text-anchor="middle">Система АХК систем конденсата</text>
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black" />
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black" />
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)" />
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <rt:event type="OnClick">LoadNew("fal50_70")</rt:event>
+    </polygon>
+  </g>
+  <text x="1688.25" y="118.633" font-size="15" text-anchor="middle">Конденсат ГП ПСВ</text>
+  <line x1="1743" y1="153.28" x2="1714.76" y2="153.28" stroke="black" stroke-width="3" />
+  <image x="1709.5" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)" />
+  <text x="876.76" y="342.56" font-size="15" text-anchor="middle">
+    20LCP20
+    <tspan x="876.76" dy="15">AP001</tspan>
+  </text>
+  <image x="972.26" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP30AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCP30AP001"</title>
+  </image>
+  <text x="970.76" y="342.56" font-size="15" text-anchor="middle">
+    20LCP30
+    <tspan x="970.76" dy="15">AP001</tspan>
+  </text>
+  <text x="1648.5" y="571.974" font-size="15" text-anchor="middle">20QUC70AC001</text>
+  <text x="724.03" y="571.974" font-size="15" text-anchor="middle">20QUC20AC001</text>
+  <text x="357.242" y="571.974" font-size="15" text-anchor="middle">20QUC00AC001</text>
+  <line x1="540" y1="155.015" x2="540" y2="453" stroke="black" stroke-width="1" />
+  <line x1="720" y1="153.818" x2="477.669" y2="153.818" stroke="black" stroke-width="3" />
+  <image x="506.669" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB21AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCB21AP001"</title>
+  </image>
+  <text x="501.257" y="342.56" font-size="15" text-anchor="middle">
+    20LCB21
+    <tspan x="501.257" dy="15">AP001</tspan>
+  </text>
+  <line x1="719" y1="153.5" x2="719" y2="453" stroke="black" stroke-width="1" />
+  <image x="593.669" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB22AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCB22AP001"</title>
+  </image>
+  <text x="586.742" y="342.56" font-size="15" text-anchor="middle">
+    20LCB22
+    <tspan x="586.742" dy="15">AP001</tspan>
+  </text>
+  <line x1="785.773" y1="452.151" x2="538" y2="452.151" stroke="black" stroke-width="1" />
+  <image x="681.669" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB23AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCB23AP001"</title>
+  </image>
+  <text x="675.227" y="342.56" font-size="15" text-anchor="middle">
+    20LCB23
+    <tspan x="675.227" dy="15">AP001</tspan>
+  </text>
+  <image x="768.621" y="436.561" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA20&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca20&quot;" />
+  </image>
+  <image x="448.379" y="140.409" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA20&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca20&quot;" />
+  </image>
+  <image x="138.465" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCM10AP001"</title>
+  </image>
+  <text x="132.7" y="342.56" font-size="15" text-anchor="middle">
+    20LCM10
+    <tspan x="132.7" dy="15">AP001</tspan>
+  </text>
+  <image x="226.465" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM20AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCM20AP001"</title>
+  </image>
+  <text x="221.488" y="342.56" font-size="15" text-anchor="middle">
+    20LCM20
+    <tspan x="221.488" dy="15">AP001</tspan>
+  </text>
+  <image x="314.465" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM30AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCM30AP001"</title>
+  </image>
+  <text x="308.973" y="342.56" font-size="15" text-anchor="middle">
+    20LCM30
+    <tspan x="308.973" dy="15">AP001</tspan>
+  </text>
+  <line x1="352" y1="153.818" x2="109.729" y2="153.818" stroke="black" stroke-width="3" />
+  <line x1="419.833" y1="452.151" x2="172.06" y2="452.151" stroke="black" stroke-width="1" />
+  <image x="381.909" y="436.561" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCM&quot;" />
+    <rt:event type="OnClick" />
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;" />
+  </image>
+  <image x="81.4392" y="140.409" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCM&quot;" />
+    <rt:event type="OnClick" />
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;" />
+  </image>
+  <line x1="920.24" y1="154.682" x2="920.24" y2="453" stroke="black" stroke-width="1" />
+  <line x1="1011" y1="153.818" x2="874.91" y2="153.818" stroke="black" stroke-width="3" />
+  <line x1="1060" y1="452.151" x2="919.24" y2="452.151" stroke="black" stroke-width="1" />
+  <image x="1042.7" y="436.561" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCP&quot;" />
+    <rt:event type="OnClick" />
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcp&quot;" />
+  </image>
+  <image x="884.26" y="263.818" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 0 0) flipX(6.63708e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP20AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <title>"20LCP20AP001"</title>
+  </image>
+  <text x="1697.51" y="351.243" font-size="15" text-anchor="middle">
+    20QUC70
+    <tspan x="1697.51" dy="15">AP001</tspan>
+  </text>
+  <rect x="133.882" y="761.863" width="245" height="150" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <image x="192.882" y="798.863" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC00CQ001&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC00CQ001"</title>
+  </image>
+  <text x="255.882" y="777.863" font-size="15" text-anchor="middle">20QUC00AX001</text>
+  <rect x="503.593" y="762.287" width="245" height="225.002" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <image x="562.593" y="790.287" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC20CQ001&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC20CQ001"</title>
+  </image>
+  <text x="625.593" y="778.287" font-size="15" text-anchor="middle">20QUC20AX001</text>
+  <image x="561.593" y="827.287" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC20CQ004&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC20CQ004"</title>
+  </image>
+  <image x="561.593" y="864.287" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC20CQ003&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC20CQ003"</title>
+  </image>
+  <image x="561.593" y="901.287" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC20CQ002&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC20CQ002"</title>
+  </image>
+  <rect x="878.91" y="762.958" width="245" height="150" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <image x="937.91" y="790.958" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC40CQ001&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC40CQ001"</title>
+  </image>
+  <text x="1000.91" y="778.958" font-size="15" text-anchor="middle">20QUC40AX001</text>
+  <image x="936.91" y="827.959" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC40CQ002&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC40CQ002"</title>
+  </image>
+  <rect x="1616.5" y="761.879" width="245" height="150" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <image x="1675.5" y="798.879" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC70CQ001&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC70CQ001"</title>
+  </image>
+  <text x="1735.58" y="777.273" font-size="15" text-anchor="middle">20QUC70AX001</text>
+  <text x="531.06" y="810.576" font-size="15" text-anchor="middle">УЭП</text>
+  <text x="162" y="819.25" font-size="15" text-anchor="middle">УЭП</text>
+  <text x="531.818" y="841.515" font-size="15" text-anchor="middle">Na</text>
+  <g>
+    <text x="528.787" y="873.333" font-size="15" text-anchor="middle">O</text>
+    <text x="538.636" y="876.879" font-size="13" text-anchor="middle">2</text>
+  </g>
+  <text x="531.818" y="921.818" font-size="15" text-anchor="middle">pH</text>
+  <text x="906.52" y="814" font-size="15" text-anchor="middle">УЭП</text>
+  <text x="908.79" y="850.606" font-size="15" text-anchor="middle">pH</text>
+  <text x="1641.64" y="817.273" font-size="15" text-anchor="middle">Na</text>
+  <g>
+    <g>
+      <rect x="236.367" y="542.53" width="50" height="50.0001" rx="0" ry="0" fill="gray" stroke="black" stroke-width="3" />
+      <line x1="261.367" y1="542.53" x2="261.367" y2="554.197" stroke="black" stroke-width="3" />
+      <line x1="261.367" y1="553.863" x2="274.697" y2="565.197" stroke="black" stroke-width="3" />
+      <line x1="274.697" y1="564.197" x2="249.697" y2="572.53" stroke="black" stroke-width="3" />
+      <line x1="261.367" y1="425.804" x2="250.397" y2="435.804" stroke="black" stroke-width="3" transform="flipY(503.667)" />
+      <line x1="261.367" y1="580.863" x2="261.367" y2="592.53" stroke="black" stroke-width="3" />
+    </g>
+    <g>
+      <line x1="235.367" y1="555.953" x2="210.367" y2="555.953" stroke="black" stroke-width="1" />
+      <line x1="236.367" y1="580.953" x2="211.367" y2="580.953" stroke="black" stroke-width="1" />
+      <polygon points="300.181,291.815 300.181,301.065 306.431,296.315" transform="scale(2.2265 2.2265 383.125 84.625)" />
+      <polygon points="571.505,303.043 571.505,312.293 577.755,307.543" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+    </g>
+    <text x="138.367" y="575.53" font-size="15" text-anchor="middle">20PGB60-70</text>
+  </g>
+  <g>
+    <g>
+      <rect x="604.03" y="542.973" width="50" height="50.0001" rx="0" ry="0" fill="gray" stroke="black" stroke-width="3" />
+      <line x1="629.03" y1="542.973" x2="629.03" y2="554.64" stroke="black" stroke-width="3" />
+      <line x1="629.03" y1="554.306" x2="642.363" y2="565.64" stroke="black" stroke-width="3" />
+      <line x1="642.363" y1="564.64" x2="617.363" y2="572.973" stroke="black" stroke-width="3" />
+      <line x1="629.03" y1="425.361" x2="618.06" y2="435.361" stroke="black" stroke-width="3" transform="flipY(503.667)" />
+      <line x1="629.03" y1="581.306" x2="629.03" y2="592.973" stroke="black" stroke-width="3" />
+    </g>
+    <g>
+      <line x1="603.03" y1="555.973" x2="578.03" y2="555.973" stroke="black" stroke-width="1" />
+      <line x1="604.03" y1="580.973" x2="579.03" y2="580.973" stroke="black" stroke-width="1" />
+      <polygon points="465.312,291.826 465.312,301.076 471.561,296.326" transform="scale(2.2265 2.2265 383.125 84.625)" />
+      <polygon points="406.374,303.054 406.374,312.304 412.624,307.554" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+    </g>
+    <text x="506.03" y="575.973" font-size="15" text-anchor="middle">20PGB60-70</text>
+  </g>
+  <text x="83.3936" y="186.364" font-size="15" text-anchor="middle">
+    20LCM01BB001,002
+    <tspan x="83.3936" dy="15">20LCM03BB001</tspan>
+  </text>
+  <text x="111.394" y="111.758" font-size="15" text-anchor="middle">
+    Дренажи здания
+    <tspan x="111.394" dy="15">20UMA</tspan>
+  </text>
+  <text x="480.75" y="111.758" font-size="15" text-anchor="middle">
+    Основной конденсат
+    <tspan x="480.75" dy="15">с напора КЭН II ст.</tspan>
+  </text>
+  <text x="847.48" y="111.758" font-size="15" text-anchor="middle">
+    Обессоленная
+    <tspan x="847.48" dy="15">вода</tspan>
+  </text>
+  <text x="842.61" y="186.364" font-size="15" text-anchor="middle">
+    20LCP01,02BB001
+    <tspan x="842.61" dy="15">(20LCP03BB001)</tspan>
+  </text>
+  <text x="460.03" y="293.939" font-size="15" text-anchor="middle">КЭН-II</text>
+  <image x="828.88" y="140.409" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCP&quot;" />
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcp&quot;" />
+  </image>
+  <line x1="1369.49" y1="155" x2="1369.49" y2="764.771" stroke="black" stroke-width="3" />
+  <line x1="133.272" y1="785.818" x2="107.652" y2="785.818" stroke="black" stroke-width="1" />
+  <polygon points="256.256,413.414 256.256,422.664 262.506,417.914" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="614.981,395.449 614.981,404.699 621.231,399.949" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="75.1817" y="812.243" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <line x1="133.682" y1="826.772" x2="108.062" y2="826.772" stroke="black" stroke-width="1" />
+  <line x1="501.272" y1="786.454" x2="475.652" y2="786.454" stroke="black" stroke-width="1" />
+  <polygon points="421.538,413.7 421.538,422.95 427.788,418.2" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="449.698,395.735 449.698,404.985 455.948,400.235" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="443.182" y="812.243" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <line x1="501.682" y1="827.408" x2="476.062" y2="827.408" stroke="black" stroke-width="1" />
+  <line x1="878.363" y1="786.818" x2="852.743" y2="786.818" stroke="black" stroke-width="1" />
+  <polygon points="590.904,413.863 590.904,423.113 597.154,418.363" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="280.333,395.898 280.333,405.148 286.583,400.398" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="820.273" y="812.243" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <line x1="878.773" y1="827.772" x2="853.153" y2="827.772" stroke="black" stroke-width="1" />
+  <line x1="1251.21" y1="787.333" x2="1225.59" y2="787.333" stroke="black" stroke-width="1" />
+  <polygon points="758.363,414.094 758.363,423.344 764.613,418.594" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="112.874,396.13 112.874,405.38 119.124,400.63" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="1193.12" y="812.243" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <line x1="1251.62" y1="828.287" x2="1226" y2="828.287" stroke="black" stroke-width="1" />
+  <line x1="1618.12" y1="786" x2="1592.5" y2="786" stroke="black" stroke-width="1" />
+  <polygon points="923.154,413.495 923.154,422.745 929.404,417.995" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="-51.9176,395.531 -51.9176,404.781 -45.6676,400.031" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="1560.03" y="812.243" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <line x1="1618.53" y1="826.954" x2="1592.91" y2="826.954" stroke="black" stroke-width="1" />
+  <text x="1277" y="810" font-size="15" text-anchor="middle">УЭП</text>
+  <image x="1310.08" y="793.638" width="175" height="25" xlink:href="DS_ana.svg">
+    <rt:dyn type="FName" mode="constant" value="false" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20QUC50CQ001&quot;" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+    <title>"20QUC50CQ001"</title>
+  </image>
+  <text x="1370.08" y="783.215" font-size="15" text-anchor="middle">20QUC50AX001</text>
+  <rect x="1251.21" y="764.063" width="245" height="150" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <line x1="1370.95" y1="155.531" x2="1342.71" y2="155.531" stroke="black" stroke-width="3" />
+  <image x="1282.77" y="143.031" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LDB&quot;" />
+    <rt:event type="OnClick" />
+    <rt:dyn type="ModName" mode="constant" value="&quot;ldb&quot;" />
+  </image>
+  <rect x="55.75" y="662.5" width="1812.5" height="20" rx="0" ry="0" fill="url(#PortalHatch1)" stroke="Col_Grey5" />
+  <text x="95.7501" y="645" fill="black" font-size="15" text-anchor="middle">20UMA</text>
+  <text x="95.7501" y="706.25" fill="black" font-size="15" text-anchor="middle">20UMX</text>
+  <text x="1826.88" y="645.5" fill="black" font-size="15" text-anchor="middle">20UMA</text>
+  <text x="1826.88" y="706.75" fill="black" font-size="15" text-anchor="middle">20UMX</text>
+  <g transform="rotate(90 1434.12 311.105) rotate(198.121 282.38 937.257) rotate(280.803 1619.81 407.256)">
+    <path d="M1727.16 -1718.07 A8.80483 8.80483 0 1 1 1727.16 -1700.46 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 807.304 426.678) rotate(270 980.127 441.195) flipY() translate(0 -828) translate(229.642 442.62)" />
+    <path d="M-1844.39 1889.64 A8.80483 8.80483 0 1 1 -1844.39 1907.25 " fill="none" stroke="black" stroke-width="3" transform="rotate(180 1630.39 413.332) rotate(270 807.304 426.678) rotate(270 980.127 441.195) flipY() translate(0 -828) translate(229.642 442.62)" />
+  </g>
+  <line x1="1407.25" y1="155.531" x2="1363.5" y2="155.531" stroke="black" stroke-width="1" />
+  <g transform="rotate(90 1434.12 311.105) rotate(198.121 282.38 937.257) rotate(280.803 1619.81 407.256)">
+    <path d="M2053.87 -1534.98 A8.80483 8.80483 0 1 1 2053.87 -1517.37 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 807.304 426.678) rotate(270 980.127 441.195) flipY() translate(0 -828) translate(229.642 442.62)" />
+    <path d="M-2171.1 1706.55 A8.80483 8.80483 0 1 1 -2171.1 1724.16 " fill="none" stroke="black" stroke-width="3" transform="rotate(180 1630.39 413.332) rotate(270 807.304 426.678) rotate(270 980.127 441.195) flipY() translate(0 -828) translate(229.642 442.62)" />
+  </g>
+  <line x1="1781.75" y1="153.28" x2="1738" y2="153.28" stroke="black" stroke-width="1" />
+  <text x="1850.5" y="157.5" font-size="15" text-anchor="middle">В конденсатор</text>
+  <line x1="1793.5" y1="554.545" x2="1768.5" y2="554.545" stroke="black" stroke-width="1" />
+  <line x1="1793.5" y1="579.545" x2="1768.5" y2="579.545" stroke="black" stroke-width="1" />
+  <polygon points="1016.12,291.182 1016.12,300.432 1022.37,295.682" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <polygon points="-144.439,302.41 -144.439,311.66 -138.189,306.91" transform="flipX(506.958) scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="1860.55" y="570.727" font-size="15" text-anchor="middle">20PGB60-70</text>
+  <g>
+    <rect x="1718.5" y="542.545" width="50" height="50.0001" rx="0" ry="0" fill="gray" stroke="black" stroke-width="3" />
+    <line x1="1743.5" y1="542.545" x2="1743.5" y2="554.212" stroke="black" stroke-width="3" />
+    <line x1="1743.5" y1="553.878" x2="1756.83" y2="565.212" stroke="black" stroke-width="3" />
+    <line x1="1756.83" y1="564.212" x2="1731.83" y2="572.545" stroke="black" stroke-width="3" />
+    <line x1="1743.5" y1="425.789" x2="1732.53" y2="435.789" stroke="black" stroke-width="3" transform="flipY(503.667)" />
+    <line x1="1743.5" y1="580.878" x2="1743.5" y2="592.545" stroke="black" stroke-width="3" />
+  </g>
+  <polygon points="975.591,110.731 975.591,119.981 981.841,115.231" transform="scale(2.2265 2.2265 383.125 84.625)" />
+  <text x="1669.13" y="157.5" font-size="15" text-anchor="middle">NAB10</text>
+  <text x="1320.13" y="119.258" font-size="15" text-anchor="middle">Очищенный конденсат АОУ</text>
+  <text x="11" y="24.5" fill="black" font-size="15" text-anchor="start">QUC2</text>
+</svg>

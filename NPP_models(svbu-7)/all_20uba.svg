@@ -1,0 +1,422 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_20uba">
+  <title>ЗДАНИЕ 20UBA</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_bs" revision="3"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="931.083" y="107.333" fill="black" font-size="30" text-anchor="middle">МПУ 20CXV97</text>
+  <image x="724.25" y="154" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sac51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAC51&quot;"/> 
+  </image>
+  <image x="1034.25" y="154" width="150" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sae22_20gmm15&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAE22_20GMM15&quot;"/> 
+  </image>
+  <image x="400.5" y="154" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;25sac35_55&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;25SAC35_55&quot;"/> 
+  </image>
+  <image x="1366" y="154" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sae42&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAE42&quot;"/> 
+  </image>
+  <rect x="275" y="138" width="1300" height="250" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="275" y1="213" x2="1575" y2="213" stroke="black" stroke-width="2"/> 
+  <line x1="600" y1="138" x2="600" y2="388" stroke="black" stroke-width="2"/> 
+  <line x1="925" y1="138" x2="925" y2="388" stroke="black" stroke-width="2"/> 
+  <line x1="1250" y1="388" x2="1250" y2="138" stroke="black" stroke-width="2"/> 
+  <text x="609.75" y="263.453" font-size="15">20SAC51AN001<tspan x="609.75" dy="15">20SAC51AN002</tspan>
+  </text>
+  <text x="934.25" y="249.156" font-size="15">20SAE22AN001<tspan x="934.25" dy="15">20SAE22AN002</tspan>
+  </text>
+  <text x="1255.13" y="263.453" font-size="15">20SAE42AN001<tspan x="1255.13" dy="15">20SAE42AN003</tspan>
+  </text>
+  <image x="736.75" y="253.832" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC51AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC51AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC51AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC51AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC51AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1064.25" y="239.535" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAE22AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAE22AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAE22AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAE22AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAE22AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1384.13" y="253.832" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAE42AN001003</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAE42AN001003_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAE42AN001003_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAE42AN001003_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAE42AN001003_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1612" y="77.5" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20CXV97_Z0</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CXV97_Z0 0&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20CXV97_Z0 1&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;ЗИМА&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;ЛЕТО&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Blue&quot;"/> 
+  </image>
+  <text x="1537" y="96.288" font-size="20">Режим</text>
+  <text x="328" y="119.75" font-size="15">Пожар в помещении</text>
+  <image x="289.25" y="99.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV97_XG01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV97_XG01&quot;"/> 
+  </image>
+  <text x="581.75" y="121" font-size="15">Вскрыт корпус контроллера</text>
+  <image x="543" y="101" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV97_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV97_XM17&quot;"/> 
+  </image>
+  <text x="285" y="296.25" font-size="15">25SAC55AN001<tspan x="285" dy="15">25SAC55AN002</tspan>
+  </text>
+  <image x="412" y="286.629" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAC55AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAC55AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAC55AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAC55AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAC55AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="609.75" y="321.828" font-size="15">20SAC51AN003<tspan x="609.75" dy="15">20SAC51AN004</tspan>
+  </text>
+  <image x="736.75" y="312.207" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC51AN003004</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC51AN003004_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC51AN003004_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC51AN003004_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC51AN003004_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="934.25" y="293" font-size="15">20SAE22AN003<tspan x="934.25" dy="15">20SAE22AN004</tspan>
+  </text>
+  <image x="1064.25" y="283.379" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAE22AN003004</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAE22AN003004_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAE22AN003004_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAE22AN003004_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAE22AN003004_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="934.25" y="340" font-size="15">20GMM15AP001<tspan x="934.25" dy="15">20GMM15AP002</tspan>
+  </text>
+  <image x="1064.25" y="330.379" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20GMM15AP001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20GMM15AP001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20GMM15AP001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20GMM15AP001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20GMM15AP001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="1255.13" y="321.828" font-size="15">20SAE42AN002<tspan x="1255.13" dy="15">20SAE42AN004</tspan>
+  </text>
+  <image x="1384.13" y="312.207" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAE42AN002004</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAE42AN002004_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAE42AN002004_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAE42AN002004_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAE42AN002004_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="931.083" y="420.833" fill="black" font-size="30" text-anchor="middle">МПУ 20CXV98</text>
+  <image x="723.25" y="498.5" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;25sac54&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;25SAC54&quot;"/> 
+  </image>
+  <image x="1033.25" y="498.5" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;25sae41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;25SAE41&quot;"/> 
+  </image>
+  <image x="393.87" y="774" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sac01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAC01&quot;"/> 
+  </image>
+  <image x="399.5" y="498.5" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;25sac31_51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;25SAC31_51&quot;"/> 
+  </image>
+  <image x="1357" y="498.5" width="110" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sac56&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAC56&quot;"/> 
+  </image>
+  <text x="608" y="642.845" font-size="15">25SAC54AN001<tspan x="608" dy="15">25SAC54AN002</tspan>
+  </text>
+  <text x="1254.63" y="642.845" font-size="15">20SAC56AN001<tspan x="1254.63" dy="15">20SAC56AN002</tspan>
+  </text>
+  <image x="735" y="633.224" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAC54AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAC54AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAC54AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAC54AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAC54AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1383.62" y="633.224" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC56AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC56AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC56AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC56AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC56AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <image x="1614" y="398.5" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20CXV98_Z0</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20CXV98_Z0 0&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20CXV98_Z0 1&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;ЗИМА&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;ЛЕТО&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Blue&quot;"/> 
+  </image>
+  <text x="1539" y="417.288" font-size="20">Режим</text>
+  <text x="931.25" y="642.845" font-size="15">25SAE41AN001<tspan x="931.25" dy="15">25SAE41AN002</tspan>
+  </text>
+  <image x="1061.25" y="633.224" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAE41AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAE41AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAE41AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAE41AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAE41AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="284.5" y="642.845" font-size="15">25SAC51AN001<tspan x="284.5" dy="15">25SAC51AN002</tspan>
+  </text>
+  <image x="409.5" y="633.224" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAC51AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAC51AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAC51AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAC51AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAC51AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="282" y="906.953" font-size="15">20SAC01AN001<tspan x="282" dy="15">20SAC01AN002</tspan>
+  </text>
+  <image x="410.99" y="897.332" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC01AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC01AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC01AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC01AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC01AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="327.75" y="452.875" font-size="15">Пожар от оператора</text>
+  <image x="289" y="436" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV98_EK02</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV98_EK02&quot;"/> 
+  </image>
+  <text x="581.5" y="452.875" font-size="15">Вскрыт корпус контроллера</text>
+  <image x="542.75" y="436" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV98_XM17</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV98_XM17&quot;"/> 
+  </image>
+  <text x="867.25" y="452.875" font-size="15">Неисправность контроллера</text>
+  <image x="828.5" y="436" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20CXV98_EK01</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CXV98_EK01&quot;"/> 
+  </image>
+  <rect x="275" y="475" width="1300" height="262" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="275.667" y1="559.333" x2="1569.67" y2="559.333" stroke="black" stroke-width="2"/> 
+  <line x1="600" y1="475" x2="600" y2="736" stroke="black" stroke-width="2"/> 
+  <line x1="925" y1="475" x2="925" y2="738" stroke="black" stroke-width="2"/> 
+  <line x1="1250" y1="737" x2="1250" y2="475" stroke="black" stroke-width="2"/> 
+  <image x="874.499" y="774" width="250" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20sac31_36_25sae21_25sac34&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20SAC31_36_25SAE21_25SAC34&quot;"/> 
+  </image>
+  <rect x="275" y="750" width="1000" height="225" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <line x1="274.25" y1="825" x2="1275" y2="825" stroke="black" stroke-width="2"/> 
+  <line x1="600" y1="750" x2="600" y2="975" stroke="black" stroke-width="2"/> 
+  <text x="939.5" y="878.75" font-size="15">25SAC34AN001<tspan x="939.5" dy="15">25SAC34AN002</tspan>
+  </text>
+  <image x="1066.5" y="869.129" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAC34AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAC34AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAC34AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAC34AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAC34AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="939.5" y="915.672" font-size="15">20SAC36AN001<tspan x="939.5" dy="15">20SAC36AN002</tspan>
+  </text>
+  <image x="1066.5" y="906.051" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC36AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC36AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC36AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC36AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC36AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="615.75" y="854.75" font-size="15">20SAC31AN001<tspan x="615.75" dy="15">20SAC31AN002</tspan>
+  </text>
+  <image x="745.75" y="845.129" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC31AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC31AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC31AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC31AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC31AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="615.75" y="898.594" font-size="15">20SAC31AN003<tspan x="615.75" dy="15">20SAC31AN004</tspan>
+  </text>
+  <image x="745.75" y="888.973" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20SAC31AN003004</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;20SAC31AN003004_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;20SAC31AN003004_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;20SAC31AN003004_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;20SAC31AN003004_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="615.75" y="945.594" font-size="15">25SAE21AN001<tspan x="615.75" dy="15">25SAE21AN002</tspan>
+  </text>
+  <image x="745.75" y="935.973" width="181.818" height="24.2424" xlink:href="bitwise_tablo_4bits.svg">
+    <title>25SAE21AN001002</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;25SAE21AN001002_Z0 0&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;АВР НЕ ГОТОВ&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;АВР ДИСТ&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;АВР ГОТОВ&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;25SAE21AN001002_Z0 1&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;25SAE21AN001002_Z0 2&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;25SAE21AN001002_Z0 3&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;АВР СРАБОТАЛ&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey3&quot;"/> 
+  </image>
+  <text x="16" y="25" fill="black" font-size="15" font-weight="700" text-anchor="start">ALL_20UBA</text>
+  <text x="931.333" y="43.3333" fill="black" font-size="30" font-weight="700" text-anchor="middle">ЗДАНИЕ 20UBA</text>
+</svg>

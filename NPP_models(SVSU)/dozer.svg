@@ -1,0 +1,776 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="dozer">
+  <desc>Система маслоснабжения регулирования турбины</desc>
+  <title>Система обессоленной воды</title>
+  <rt:model modelversion="ver 1.0" comment="Создано Svetlana-VAIO\Svetlana 18.10.2012 21:55:57"/> 
+  <text x="662.5" y="24.75" font-size="30">Параметры работы насосов дозаторов</text>
+  <line x1="1134.27" y1="471.212" x2="1134.27" y2="471.212" stroke="black"/> 
+  <text x="525" y="80" font-size="15">Насосы-дозаторы едкого натра</text>
+  <text x="50" y="80" font-size="15">Насосы-дозаторы серной кислоты</text>
+  <line x1="50" y1="147.5" x2="200" y2="147.5" stroke="black" stroke-width="3"/> 
+  <image x="75" y="110" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB16AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="200" y="290" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB16ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="250" y="135" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="250" y="195" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="250" y="255" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="50" y="210" font-size="15">00GCB16AP001</text>
+  <line x1="50" y1="272.5" x2="200" y2="272.5" stroke="black" stroke-width="3"/> 
+  <image x="75" y="235" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB16AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB16AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="50" y="335" font-size="15">00GCB16AP002</text>
+  <line x1="200" y1="274" x2="200" y2="146" stroke="black" stroke-width="3"/> 
+  <line x1="200" y1="210" x2="225" y2="210" stroke="black" stroke-width="3"/> 
+  <text x="400" y="160" font-size="15">мг/л</text>
+  <text x="400" y="280" font-size="15">%</text>
+  <text x="400" y="220" font-size="15">г/см3</text>
+  <text x="50" y="409" font-size="15">Насосы-дозаторы коагулянта</text>
+  <line x1="507.111" y1="148.333" x2="657.111" y2="148.333" stroke="black" stroke-width="3"/> 
+  <image x="532.111" y="110.833" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB35AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="657.111" y="290.833" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB35ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="707.111" y="135.833" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35CH027&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="707.111" y="195.833" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35CH029&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="707.111" y="255.833" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35CH028&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="507.111" y="210.833" font-size="15">00GCB35AP001</text>
+  <line x1="507.111" y1="273.333" x2="657.111" y2="273.333" stroke="black" stroke-width="3"/> 
+  <image x="532.111" y="235.833" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB35AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB35AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="507.111" y="335.833" font-size="15">00GCB35AP002</text>
+  <line x1="657.111" y1="274.833" x2="657.111" y2="146.833" stroke="black" stroke-width="3"/> 
+  <line x1="657.111" y1="210.833" x2="682.111" y2="210.833" stroke="black" stroke-width="3"/> 
+  <text x="857.111" y="160.833" font-size="15">мг/л</text>
+  <text x="857.111" y="280.833" font-size="15">%</text>
+  <text x="857.111" y="220.833" font-size="15">г/см3</text>
+  <text x="50" y="738" font-size="15">Насосы-дозаторы флокулянта</text>
+  <line x1="49" y1="470.556" x2="199" y2="470.556" stroke="black" stroke-width="3"/> 
+  <image x="74" y="433.056" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB14AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="199" y="613.056" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB14ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="249" y="458.056" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="249" y="518.056" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="249" y="578.056" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="49" y="533.056" font-size="15">00GCB14AP001</text>
+  <line x1="49" y1="595.556" x2="199" y2="595.556" stroke="black" stroke-width="3"/> 
+  <image x="74" y="558.056" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB14AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB14AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="49" y="658.056" font-size="15">00GCB14AP002</text>
+  <line x1="199" y1="597.056" x2="199" y2="469.056" stroke="black" stroke-width="3"/> 
+  <line x1="199" y1="533.056" x2="224" y2="533.056" stroke="black" stroke-width="3"/> 
+  <text x="399" y="483.056" font-size="15">мг/л</text>
+  <text x="399" y="603.056" font-size="15">%</text>
+  <text x="399" y="543.056" font-size="15">г/см3</text>
+  <text x="525" y="738" font-size="15">Насосы-дозаторы гипохлорита натрия</text>
+  <line x1="50" y1="787.5" x2="200" y2="787.5" stroke="black" stroke-width="3"/> 
+  <image x="75" y="750" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB15AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="200" y="930" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB15ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="250" y="775" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="250" y="835" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="250" y="895" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="50" y="850" font-size="15">00GCB15AP001</text>
+  <line x1="50" y1="912.5" x2="200" y2="912.5" stroke="black" stroke-width="3"/> 
+  <image x="75" y="875" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB15AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB15AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="50" y="975" font-size="15">00GCB15AP002</text>
+  <line x1="200" y1="914" x2="200" y2="786" stroke="black" stroke-width="3"/> 
+  <line x1="200" y1="850" x2="225" y2="850" stroke="black" stroke-width="3"/> 
+  <text x="400" y="800" font-size="15">мг/л</text>
+  <text x="400" y="920" font-size="15">%</text>
+  <text x="400" y="860" font-size="15">г/см3</text>
+  <text x="525" y="409" font-size="15">Насосы-дозаторы серной кислоты</text>
+  <line x1="1454.56" y1="788.5" x2="1604.56" y2="788.5" stroke="black" stroke-width="3"/> 
+  <image x="1479.56" y="751" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF32AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1604.56" y="931" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF32ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1654.56" y="776" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1654.56" y="836" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1654.56" y="896" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1454.56" y="851" font-size="15">00GCF32AP001</text>
+  <line x1="1454.56" y1="913.5" x2="1604.56" y2="913.5" stroke="black" stroke-width="3"/> 
+  <image x="1479.56" y="876" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF32AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF32AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="1454.56" y="976" font-size="15">00GCF32AP002</text>
+  <line x1="1604.56" y1="915" x2="1604.56" y2="787" stroke="black" stroke-width="3"/> 
+  <line x1="1604.56" y1="851" x2="1629.56" y2="851" stroke="black" stroke-width="3"/> 
+  <text x="1804.56" y="801" font-size="15">мг/л</text>
+  <text x="1804.56" y="921" font-size="15">%</text>
+  <text x="1804.56" y="861" font-size="15">г/см3</text>
+  <text x="1000" y="80" font-size="15">Насосы-дозаторы едкого натра </text>
+  <text x="1000" y="409" font-size="15">Насосы-дозаторы серной кислоты</text>
+  <line x1="978.111" y1="139" x2="1128.11" y2="139" stroke="black" stroke-width="3"/> 
+  <image x="1003.11" y="101.5" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF33AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1143.11" y="101.5" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF33ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="978.111" y="186.5" font-size="15">00GCF33AP001</text>
+  <line x1="1128.11" y1="340.5" x2="1128.11" y2="137.5" stroke="black" stroke-width="3"/> 
+  <line x1="1128.11" y1="186.5" x2="1153.11" y2="186.5" stroke="black" stroke-width="3"/> 
+  <line x1="978.111" y1="239" x2="1128.11" y2="239" stroke="black" stroke-width="3"/> 
+  <image x="1003.11" y="201.5" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF33AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="978.111" y="286.5" font-size="15">00GCF33AP002</text>
+  <line x1="978.111" y1="339" x2="1128.11" y2="339" stroke="black" stroke-width="3"/> 
+  <image x="1003.11" y="301.5" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF33AP003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33AP003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="978.111" y="386.5" font-size="15">00GCF33AP003</text>
+  <line x1="1128.11" y1="286.5" x2="1153.11" y2="286.5" stroke="black" stroke-width="3"/> 
+  <image x="1178.11" y="151.5" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1328.11" y="176.5" font-size="15">М3</text>
+  <text x="1178.11" y="201.5" font-size="15">На ФРА</text>
+  <image x="1178.11" y="251.5" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1328.11" y="276.5" font-size="15">М3</text>
+  <text x="1178.11" y="301.5" font-size="15">На ОН - фильтры</text>
+  <image x="1143.11" y="331.5" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF33ED002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF33ED002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1475" y="738" font-size="15">Насосы-дозаторы едкого натра</text>
+  <line x1="987" y1="787.5" x2="1137" y2="787.5" stroke="black" stroke-width="3"/> 
+  <image x="1012" y="750" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF13AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF13AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1137" y="930" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF13ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF13ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1187" y="775" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF13CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1187" y="895" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF13CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="987" y="850" font-size="15">00GCF13AP002</text>
+  <line x1="987" y1="912.5" x2="1137" y2="912.5" stroke="black" stroke-width="3"/> 
+  <image x="1012" y="875" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF13AP003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF13AP003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="987" y="975" font-size="15">00GCF13AP003</text>
+  <line x1="1137" y1="914" x2="1137" y2="786" stroke="black" stroke-width="3"/> 
+  <line x1="1137" y1="850" x2="1162" y2="850" stroke="black" stroke-width="3"/> 
+  <text x="1337" y="800" font-size="15">мг/л</text>
+  <text x="1337" y="920" font-size="15">г/см3</text>
+  <text x="1475" y="80" font-size="15">Насосы-дозаторы серной кислоты</text>
+  <line x1="1462" y1="147.5" x2="1612" y2="147.5" stroke="black" stroke-width="3"/> 
+  <image x="1487" y="110" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCR20AP003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20AP003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1612" y="290" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCR20ED003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20ED003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1662" y="135" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1662" y="255" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1462" y="210" font-size="15">00GCR20AP003</text>
+  <line x1="1462" y1="272.5" x2="1612" y2="272.5" stroke="black" stroke-width="3"/> 
+  <image x="1487" y="235" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCR20AP004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20AP004&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="1462" y="335" font-size="15">00GCR20AP004</text>
+  <line x1="1612" y1="274" x2="1612" y2="146" stroke="black" stroke-width="3"/> 
+  <line x1="1612" y1="210" x2="1637" y2="210" stroke="black" stroke-width="3"/> 
+  <text x="1812" y="160" font-size="15">мг-экв/дм3</text>
+  <text x="1812" y="280" font-size="15">мг-экв/дм3</text>
+  <text x="1475" y="409" font-size="15">Насосы-дозаторы едкого натра</text>
+  <line x1="1457" y1="472.5" x2="1607" y2="472.5" stroke="black" stroke-width="3"/> 
+  <image x="1482" y="435" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCR20AP005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20AP005&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1607" y="615" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCR20ED005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20ED005&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1657" y="460" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1657" y="580" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20CH004&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1457" y="535" font-size="15">00GCR20AP005</text>
+  <line x1="1457" y1="597.5" x2="1607" y2="597.5" stroke="black" stroke-width="3"/> 
+  <image x="1482" y="560" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCR20AP006</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCR20AP006&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="1457" y="660" font-size="15">00GCR20AP006</text>
+  <line x1="1607" y1="599" x2="1607" y2="471" stroke="black" stroke-width="3"/> 
+  <line x1="1607" y1="535" x2="1632" y2="535" stroke="black" stroke-width="3"/> 
+  <text x="1807" y="485" font-size="15">мг-экв/дм3</text>
+  <text x="1807" y="605" font-size="15">мг-экв/дм3</text>
+  <text x="1000" y="738" font-size="15">Насосы-дозаторы антискаланта</text>
+  <line x1="514" y1="787.5" x2="664" y2="787.5" stroke="black" stroke-width="3"/> 
+  <image x="539" y="750" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB41AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="664" y="930" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB41ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="714" y="775" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="714" y="835" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41CH004&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="714" y="895" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="514" y="850" font-size="15">00GCB41AP002</text>
+  <line x1="514" y1="912.5" x2="664" y2="912.5" stroke="black" stroke-width="3"/> 
+  <image x="539" y="875" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB41AP003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB41AP003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="514" y="975" font-size="15">00GCB41AP003</text>
+  <line x1="664" y1="914" x2="664" y2="786" stroke="black" stroke-width="3"/> 
+  <line x1="664" y1="850" x2="689" y2="850" stroke="black" stroke-width="3"/> 
+  <text x="864" y="800" font-size="15">мг/л</text>
+  <text x="864" y="920" font-size="15">%</text>
+  <text x="864" y="860" font-size="15">г/см3</text>
+  <text x="1662" y="185" font-size="15">Щелочность в БН</text>
+  <text x="1662" y="235" font-size="15">Концентрация<tspan x="1662" dy="15">серной кислоты</tspan>
+  </text>
+  <text x="1657" y="510" font-size="15">Кислотность в БН</text>
+  <text x="1657" y="560" font-size="15">Концентрация<tspan x="1657" dy="15">едкого натра</tspan>
+  </text>
+  <image x="271.75" y="303.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB20FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB20FF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="458" y="321.25" font-size="15">м3/ч</text>
+  <image x="270.75" y="621.556" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB20FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB20FF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="457" y="639.056" font-size="15">м3/ч</text>
+  <image x="728.861" y="299.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB40CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB40CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="915.111" y="316.833" font-size="15">м3/ч</text>
+  <image x="271.5" y="938" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB10CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB10CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="459.25" y="955.5" font-size="15">м3/ч</text>
+  <image x="1676.06" y="939" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF30CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF30CF002&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1863.81" y="956.5" font-size="15">м3/ч</text>
+  <image x="737.75" y="938.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB40CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB40CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="926" y="956" font-size="15">м3/ч</text>
+  <image x="1209.25" y="939.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF10CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF10CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1390" y="957.25" font-size="15">м3/ч</text>
+  <image x="271.75" y="335.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB16EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB16EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="458" y="353" font-size="15">л/ч</text>
+  <image x="728.861" y="331.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB35EU004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB35EU004&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="915.111" y="348.833" font-size="15">л/ч</text>
+  <image x="270.75" y="653.556" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB14EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB14EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="457" y="671.056" font-size="15">л/ч</text>
+  <image x="1676.06" y="971.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCF32EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF32EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1863.81" y="989.251" font-size="15">л/ч</text>
+  <image x="271.5" y="969.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB15EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB15EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="459.25" y="987.25" font-size="15">л/ч</text>
+  <image x="737.75" y="971.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB41EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB41EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="926" y="988.75" font-size="15">л/ч</text>
+  <image x="1209.25" y="974.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCF13EU001_XQ57&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF13EU001_XQ57&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <text x="1390" y="992.25" font-size="15">л/ч</text>
+  <image x="160.75" y="109.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB16AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB16AP001_XA61&quot;"/> 
+  </image>
+  <image x="162" y="236.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB16AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB16AP002_XA61&quot;"/> 
+  </image>
+  <image x="160.25" y="430.556" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB14AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB14AP001_XA61&quot;"/> 
+  </image>
+  <image x="161.5" y="557.306" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB14AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB14AP002_XA61&quot;"/> 
+  </image>
+  <image x="160.25" y="747.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB15AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB15AP001_XA61&quot;"/> 
+  </image>
+  <image x="161.5" y="874.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB15AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB15AP002_XA61&quot;"/> 
+  </image>
+  <image x="618.611" y="108.333" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB35AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB35AP001_XA61&quot;"/> 
+  </image>
+  <image x="619.861" y="235.083" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB35AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB35AP002_XA61&quot;"/> 
+  </image>
+  <image x="1563.56" y="749" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF32AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF32AP001_XA61&quot;"/> 
+  </image>
+  <image x="1564.81" y="875.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF32AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF32AP002_XA61&quot;"/> 
+  </image>
+  <image x="1088.86" y="99" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF33AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF33AP001_XA61&quot;"/> 
+  </image>
+  <image x="1090.11" y="198.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF33AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF33AP002_XA61&quot;"/> 
+  </image>
+  <image x="1088.86" y="302" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF33AP003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF33AP003_XA61&quot;"/> 
+  </image>
+  <image x="624.25" y="748.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB41AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB41AP002_XA61&quot;"/> 
+  </image>
+  <image x="625.5" y="873.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB41AP003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB41AP003_XA61&quot;"/> 
+  </image>
+  <image x="1573.25" y="107.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCR20AP003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCR20AP003_XA61&quot;"/> 
+  </image>
+  <image x="1573.5" y="232.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCR20AP004_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCR20AP004_XA61&quot;"/> 
+  </image>
+  <image x="1567.75" y="432.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCR20AP005_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCR20AP005_XA61&quot;"/> 
+  </image>
+  <image x="1568" y="557" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCR20AP006_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCR20AP006_XA61&quot;"/> 
+  </image>
+  <image x="1096.5" y="747.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF13AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF13AP002_XA61&quot;"/> 
+  </image>
+  <image x="1097.75" y="872" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF13AP003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF13AP003_XA61&quot;"/> 
+  </image>
+  <text x="90.7501" y="61.1667" font-size="20" font-weight="bold">Узел осветления</text>
+  <text x="563.25" y="61.1667" font-size="20" font-weight="bold">Хим.промывки УУФ</text>
+  <text x="1057" y="61.1667" font-size="20" font-weight="bold">Регенерация</text>
+  <text x="1505.75" y="61.1667" font-size="20" font-weight="bold">Нейтрализация</text>
+  <text x="1079.5" y="719.417" font-size="20" font-weight="bold">УОО</text>
+  <text x="1484.5" y="717.75" font-size="20" font-weight="bold">Коррекция pH в ББ</text>
+  <line x1="507.778" y1="480.222" x2="657.778" y2="480.222" stroke="black" stroke-width="3"/> 
+  <image x="532.778" y="442.722" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB36AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="657.778" y="622.722" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCB36ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="707.778" y="467.722" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="707.778" y="527.722" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36CH003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="707.778" y="587.722" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="507.778" y="542.722" font-size="15">00GCB36AP001</text>
+  <line x1="507.778" y1="605.222" x2="657.778" y2="605.222" stroke="black" stroke-width="3"/> 
+  <image x="532.778" y="567.722" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCB36AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB36AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="507.778" y="667.722" font-size="15">00GCB36AP002</text>
+  <line x1="657.778" y1="606.722" x2="657.778" y2="478.722" stroke="black" stroke-width="3"/> 
+  <line x1="657.778" y1="542.722" x2="682.778" y2="542.722" stroke="black" stroke-width="3"/> 
+  <text x="857.778" y="492.722" font-size="15">мг/л</text>
+  <text x="857.778" y="612.722" font-size="15">%</text>
+  <text x="857.778" y="552.722" font-size="15">г/см3</text>
+  <line x1="979.778" y1="455.222" x2="1129.78" y2="455.222" stroke="black" stroke-width="3"/> 
+  <image x="1004.78" y="417.722" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF37AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37AP001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <image x="1144.78" y="417.722" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF37ED001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="979.778" y="502.722" font-size="15">00GCF37AP001</text>
+  <line x1="1129.78" y1="656.722" x2="1129.78" y2="453.722" stroke="black" stroke-width="3"/> 
+  <line x1="1129.78" y1="502.722" x2="1154.78" y2="502.722" stroke="black" stroke-width="3"/> 
+  <line x1="979.778" y1="555.222" x2="1129.78" y2="555.222" stroke="black" stroke-width="3"/> 
+  <image x="1004.78" y="517.722" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF37AP002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37AP002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="979.778" y="602.722" font-size="15">00GCF37AP002</text>
+  <line x1="979.778" y1="655.222" x2="1129.78" y2="655.222" stroke="black" stroke-width="3"/> 
+  <image x="1004.78" y="617.722" width="75" height="75" xlink:href="DS_Reg_pump.svg">
+    <title>00GCF37AP003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37AP003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Outlet_dir" mode="constant" value="&quot;TB&quot;"/> 
+  </image>
+  <text x="979.778" y="702.722" font-size="15">00GCF37AP003</text>
+  <line x1="1129.78" y1="602.722" x2="1154.78" y2="602.722" stroke="black" stroke-width="3"/> 
+  <image x="1179.78" y="467.722" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37CH001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1329.78" y="492.722" font-size="15">М3</text>
+  <text x="1179.78" y="517.722" font-size="15">На Н - фильтры</text>
+  <image x="1179.78" y="567.722" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37CH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1329.78" y="592.722" font-size="15">М3</text>
+  <text x="1179.78" y="617.722" font-size="15">На ФРК</text>
+  <image x="1144.78" y="647.722" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>00GCF37ED002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF37ED002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="729.278" y="629.972" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB40CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB40CF001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="917.028" y="647.472" font-size="15">м3/ч</text>
+  <image x="729.278" y="662.722" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;00GCB36EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB36EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="917.028" y="680.222" font-size="15">л/ч</text>
+  <image x="619.278" y="439.972" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB36AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB36AP001_XA61&quot;"/> 
+  </image>
+  <image x="620.528" y="566.722" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCB36AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCB36AP002_XA61&quot;"/> 
+  </image>
+  <image x="1091.78" y="416.222" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF37AP001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF37AP001_XA61&quot;"/> 
+  </image>
+  <image x="1093.03" y="515.972" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF37AP002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF37AP002_XA61&quot;"/> 
+  </image>
+  <image x="1091.78" y="619.222" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00GCF37AP003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF37AP003_XA61&quot;"/> 
+  </image>
+</svg>

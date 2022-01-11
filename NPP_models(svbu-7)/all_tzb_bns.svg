@@ -1,0 +1,32 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_tzb_bns">
+  <title>ТЗиБ БНС</title>
+  <rt:model comment="UMod all_nsb" modelversion="7.2.0.24" revision="3"/> 
+  <text x="960" y="70" fill="black" font-size="30" font-weight="700" text-anchor="middle">Технологические защиты и блокировки БНС</text>
+  <text x="12" y="25.5" font-size="15" font-weight="700">ALL_TZB_BNS</text>
+  <image x="825" y="176" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC_TZB_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pac_tzb_1&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="825" y="226" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC_TZB_2&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pac_tzb_2&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="825" y="276" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC_TZB_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pac_tzb_3&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="825" y="326" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC_TZB_4&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pac_tzb_4&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="825" y="400" width="175" height="36" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC_TZB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;pcc_tzb&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+</svg>

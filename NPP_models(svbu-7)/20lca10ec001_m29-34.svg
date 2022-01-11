@@ -1,0 +1,499 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="20lca10ec001_m29-34" stroke-width="3" font-size="15" font-weight="bold">
+  <title>ФГУ 20LCA10EC001 в сторону ПУСК</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod fgu_to_all"/> 
+  <line x1="1596" y1="901" x2="1512" y2="901" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <polyline points="1683.17,291.674 1683.57,374.515 1910.28,374.194" fill="none" stroke="black"/> 
+  <text x="1696.11" y="350.023" font-size="16">Включить выбранный<tspan x="1696.11" dy="16">КЭН 2 ступени</tspan>
+  </text>
+  <polyline points="397.894,535.88 398.051,751.758 624.761,751.437" fill="none" stroke="black"/> 
+  <polyline points="397.89,799.674 398.29,882.515 625,882.194" fill="none" stroke="black"/> 
+  <text x="410.83" y="859.023" font-size="16">Подтвердить готовность<tspan x="410.83" dy="16">КЭН 2 ступени</tspan>
+  </text>
+  <polyline points="234.106,85.8484 312.106,85.8484 312,972 656,972 656,96 1096,96 1096,760 1240,760 1240,260 1596,260 1596,976 1800,976" fill="none" stroke="black"/> 
+  <text x="988.875" y="42.9167" fill-opacity="1" font-size="30" font-weight="700" text-anchor="middle">ФГУ 20LCA10EC001 в сторону ПУСК</text>
+  <text x="12.6063" y="33.197" fill="black" font-size="15" font-weight="700">20LCA10EC001</text>
+  <image x="1700" y="25" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;lca00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;lca00&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="192.682" y="72.2121" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 28&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lca10ec001_m23-28&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <rect x="272.13" y="783.652" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="422.13" y1="813.652" x2="272.13" y2="813.652" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="282.13" y="803.652" fill="black" font-size="18" font-weight="700">ШАГ 31</text>
+  <text x="282.13" y="831.652" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="412.13" y="831.652" font-size="16" text-anchor="end">0 с</text>
+  <image x="387.13" y="785.652" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA10EC001_XS31</title>
+    <rt:dyn type="PointID" value="&quot;20LCA10EC001_XS31&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="152.03" y="869.818">ДА</text>
+  <polyline points="144.03,852.818 144.03,877.818 311.03,878.818" fill="none" stroke="black"/> 
+  <image x="226.03" y="865.818" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;20LCA10CH003TE0_Z0 1&quot;</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA10CH003TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <rect x="291.2" y="890.651" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="302.2" y="925.651" font-size="28">&amp;</text>
+  <rect x="272.091" y="113.621" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="422.091" y1="143.621" x2="272.091" y2="143.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="282.091" y="133.621" fill="black" font-size="18" font-weight="700">ШАГ 29</text>
+  <text x="282.091" y="161.621" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="412.091" y="161.621" font-size="16" text-anchor="end">0 с</text>
+  <image x="387.091" y="115.621" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA10EC001_XS29</title>
+    <rt:dyn type="PointID" value="&quot;20LCA10EC001_XS29&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="624.091" y1="202.621" x2="399.091" y2="202.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="194.621" font-size="16">20LCA20AA001 ЗАКР</text>
+  <line x1="624.091" y1="230.621" x2="399.091" y2="230.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="222.621" font-size="16">20LCA20AA002 ЗАКР</text>
+  <line x1="624.091" y1="261.621" x2="399.091" y2="261.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="253.621" font-size="16">20LCA20AA003 ЗАКР</text>
+  <line x1="624.091" y1="291.621" x2="399.091" y2="291.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="283.621" font-size="16">20LCA20AA201 в ДУ/закр</text>
+  <line x1="624.091" y1="323.621" x2="399.091" y2="323.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="315.621" font-size="16">20LCA20AA202 в ДУ/закр</text>
+  <line x1="624.091" y1="354.621" x2="399.091" y2="354.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="410.091" y="346.621" font-size="16">20LCA20AA203 в ДУ/закр</text>
+  <text x="410.091" y="377.621" font-size="16">20LCA20EE001 ВЫВЕСТИ</text>
+  <rect x="290" y="445.288" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="301" y="480.288" font-size="28">&amp;</text>
+  <line x1="313" y1="348.682" x2="263" y2="348.682" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="336.682" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA202_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA202_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="352.682" text-anchor="end">20LCA20AA202 ДИСТ</text>
+  <line x1="313" y1="429.288" x2="263" y2="429.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="417.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20EE001TE0_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20EE001TE0_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="433.288" text-anchor="end">20LCA20EE001 ВЫВЕДЕНА</text>
+  <line x1="313" y1="404.288" x2="263" y2="404.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="392.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA203_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA203_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="408.288" text-anchor="end">20LCA20AA203 ДИСТ</text>
+  <line x1="313" y1="375.288" x2="263" y2="375.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="251" y="363.288" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA20AA203_XC02</title>
+    <rt:dyn type="PointID" value="&quot;20LCA20AA203_XC02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="379.288" text-anchor="end">20LCA20AA203 ЗАКР</text>
+  <line x1="313" y1="319.288" x2="263" y2="319.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="251" y="307.288" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA20AA202_XC02</title>
+    <rt:dyn type="PointID" value="&quot;20LCA20AA202_XC02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="323.288" text-anchor="end">20LCA20AA202 ЗАКР</text>
+  <line x1="313" y1="293.288" x2="263" y2="293.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="281.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA201_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA201_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="297.288" text-anchor="end">20LCA20AA201 ДИСТ</text>
+  <line x1="313" y1="264.288" x2="263" y2="264.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="251" y="252.288" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA20AA201_XC02</title>
+    <rt:dyn type="PointID" value="&quot;20LCA20AA201_XC02&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="268.288" text-anchor="end">20LCA20AA201 ЗАКР</text>
+  <line x1="313" y1="237.288" x2="263" y2="237.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="225.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA003_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA003_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="241.288" text-anchor="end">20LCA20AA003 ЗАКР</text>
+  <line x1="313" y1="212.288" x2="263" y2="212.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="200.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA002_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA002_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="216.288" text-anchor="end">20LCA20AA002 ЗАКР</text>
+  <line x1="313" y1="188.288" x2="263" y2="188.288" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="243.5" y="176.288" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA20AA001_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA20AA001_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="238" y="192.288" text-anchor="end">20LCA20AA001 ЗАКР</text>
+  <polyline points="400.5,170 400.657,385.878 627.367,385.557" fill="none" stroke="black"/> 
+  <rect x="271.243" y="503.167" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="421.243" y1="533.167" x2="271.243" y2="533.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="281.243" y="523.167" fill="black" font-size="18" font-weight="700">ШАГ 30</text>
+  <text x="281.243" y="551.167" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="411.243" y="551.167" font-size="16" text-anchor="end">0 с</text>
+  <image x="386.243" y="505.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA10EC001_XS30</title>
+    <rt:dyn type="PointID" value="&quot;20LCA10EC001_XS30&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="623.243" y1="593.167" x2="398.243" y2="593.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.243" y="585.167" font-size="16">20LCA21EE002 ВВЕСТИ</text>
+  <line x1="623.243" y1="625.167" x2="398.243" y2="625.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.243" y="617.167" font-size="16">20LCA22EE002 ВВЕСТИ</text>
+  <line x1="623.243" y1="658.167" x2="398.243" y2="658.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.243" y="650.167" font-size="16">20LCA23EE002 ВВЕСТИ</text>
+  <line x1="623.243" y1="690.167" x2="398.243" y2="690.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.243" y="682.167" font-size="16">20LCA21EE004 ВВЕСТИ</text>
+  <line x1="623.243" y1="721.167" x2="398.243" y2="721.167" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="409.243" y="713.167" font-size="16">20LCA22EE004 ВВЕСТИ</text>
+  <text x="409.243" y="744.167" font-size="16">20LCA23EE004 ВВЕСТИ</text>
+  <rect x="287.636" y="720.712" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="298.636" y="755.712" font-size="28">&amp;</text>
+  <line x1="310.636" y1="699.712" x2="260.636" y2="699.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="687.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA23EE004TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA23EE004TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="702.712" text-anchor="end">20LCA23EE004 ВВЕДЕНА</text>
+  <line x1="310.636" y1="674.712" x2="260.636" y2="674.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="662.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA22EE004TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA22EE004TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="677.712" text-anchor="end">20LCA22EE004 ВВЕДЕНА</text>
+  <line x1="310.636" y1="649.712" x2="260.636" y2="649.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="637.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA21EE004TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA21EE004TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="652.712" text-anchor="end">20LCA21EE004 ВВЕДЕНА</text>
+  <line x1="310.636" y1="624.712" x2="260.636" y2="624.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="612.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA23EE002TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA23EE002TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="627.712" text-anchor="end">20LCA23EE002 ВВЕДЕНА</text>
+  <line x1="310.636" y1="599.712" x2="260.636" y2="599.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="587.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA22EE002TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA22EE002TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="602.712" text-anchor="end">20LCA22EE002 ВВЕДЕНА</text>
+  <line x1="310.636" y1="575.712" x2="260.636" y2="575.712" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="241.136" y="563.712" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA21EE002TE0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA21EE002TE0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="236.636" y="578.712" text-anchor="end">20LCA21EE002 ВВЕДЕНА</text>
+  <polyline points="979.033,464.349 1022.03,464.349 1022.03,594.349 1064.03,594.349" fill="none" stroke="black"/> 
+  <polyline points="980.703,311.015 1023.7,311.015 1023.7,441.016 1065.7,441.016" fill="none" stroke="black"/> 
+  <polyline points="980.033,159.515 1023.03,159.515 1023.03,289.515 1065.03,289.515 1065.03,669.516 1097.03,669.516" fill="none" stroke="black"/> 
+  <polyline points="1176.03,106.515 1176.43,189.356 1403.14,189.035" fill="none" stroke="black"/> 
+  <text x="1188.97" y="178.864" font-size="16">Проверка условий</text>
+  <rect x="1053.41" y="106.045" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1203.41" y1="136.045" x2="1053.41" y2="136.045" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1063.41" y="126.045" fill="black" font-size="18" font-weight="700">ШАГ 32</text>
+  <text x="1063.41" y="154.045" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1193.41" y="154.045" font-size="16" text-anchor="end">0 с</text>
+  <image x="1168.41" y="108.045" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA10EC001_XS32</title>
+    <rt:dyn type="PointID" value="&quot;20LCA10EC001_XS32&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <rect x="1000.12" y="232.485" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1011.12" y="267.485" font-size="28">&amp;</text>
+  <line x1="1023.12" y1="207.485" x2="973.123" y2="207.485" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="953.123" y="219.485" text-anchor="end">20LCB21CH001 КЭН 2-1 РАБОТА</text>
+  <line x1="1023.12" y1="188.485" x2="973.123" y2="188.485" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="953.123" y="194.485" text-anchor="end">20LCB20ED001 ПВР АВР КЭН 2-1</text>
+  <image x="961.123" y="147.485" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCB21EE001_XA01</title>
+    <rt:dyn type="PointID" value="&quot;20LCB21EE001_XA01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="953.123" y="164.485" text-anchor="end">20LCB21EE001 РАЗР ВКЛ КЭН 2-1</text>
+  <image x="955.613" y="177.546" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB20ED001VL0_Z0 0</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB20ED001VL0_Z0 0&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <image x="957.123" y="203.546" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB21CH001VL0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB21CH001VL0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <rect x="1001.15" y="387" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1012.15" y="422.001" font-size="28">&amp;</text>
+  <line x1="1024.15" y1="366" x2="974.153" y2="366" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="954.153" y="371" text-anchor="end">20LCB22CH001 КЭН 2-2 РАБОТА</text>
+  <line x1="1024.15" y1="340" x2="974.153" y2="340" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="954.153" y="345" text-anchor="end">20LCB20ED001 ПВР АВР КЭН 2-2</text>
+  <image x="962.153" y="299" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCB22EE001_XA01</title>
+    <rt:dyn type="PointID" value="&quot;20LCB22EE001_XA01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="954.153" y="316" text-anchor="end">20LCB22EE001 РАЗР ВКЛ КЭН 2-2</text>
+  <image x="956.633" y="329.061" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB20ED001VL0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB20ED001VL0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <image x="958.153" y="355.061" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB22CH001VL0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB22CH001VL0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <rect x="999.243" y="538.031" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1010.24" y="573.031" font-size="28">&amp;</text>
+  <line x1="1022.24" y1="519.031" x2="972.243" y2="519.031" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="952.243" y="524.031" text-anchor="end">20LCB23CH001 КЭН 2-3 РАБОТА</text>
+  <line x1="1022.24" y1="493.031" x2="972.243" y2="493.031" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="952.243" y="498.031" text-anchor="end">20LCB20ED001 ПВР АВР КЭН 2-3</text>
+  <image x="960.243" y="452.031" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCB23EE001_XA01</title>
+    <rt:dyn type="PointID" value="&quot;20LCB23EE001_XA01&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Green&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="952.243" y="469.031" text-anchor="end">20LCB23EE001 РАЗР ВКЛ КЭН 2-3</text>
+  <image x="954.723" y="482.092" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB20ED001VL0_Z0 2</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB20ED001VL0_Z0 2&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <image x="956.243" y="508.092" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB23CH001VL0_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB23CH001VL0_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <rect x="1040.53" y="604.349" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1043.53" y="639.349" font-size="28">&gt;1</text>
+  <rect x="1077.32" y="687.562" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1088.32" y="722.562" font-size="28">&amp;</text>
+  <polyline points="1476.46,573 1519.46,573 1518.5,696 1561,696" fill="none" stroke="black"/> 
+  <polyline points="1480,433 1521.5,433 1521.5,559 1561.33,558.667" fill="none" stroke="black"/> 
+  <polyline points="1478,289 1520,289 1520,406.5 1561.33,406.667 1561,760 1596,760" fill="none" stroke="black"/> 
+  <rect x="1497.55" y="351.137" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1508.55" y="386.137" font-size="28">&amp;</text>
+  <rect x="1498.58" y="497.652" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1509.58" y="532.652" font-size="28">&amp;</text>
+  <rect x="1496.67" y="638.682" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1507.67" y="673.682" font-size="28">&amp;</text>
+  <rect x="1537.96" y="704" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1540.96" y="739" font-size="28">&gt;1</text>
+  <rect x="1574.75" y="770.213" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1585.75" y="805.213" font-size="28">&amp;</text>
+  <rect x="1553.17" y="272.833" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1703.17" y1="302.834" x2="1553.17" y2="302.834" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1563.17" y="292.833" fill="black" font-size="18" font-weight="700">ШАГ 33</text>
+  <text x="1563.17" y="320.834" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1693.17" y="320.834" font-size="16" text-anchor="end">0 с</text>
+  <image x="1668.17" y="274.833" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20LCA10EC001_XS33</title>
+    <rt:dyn type="PointID" value="&quot;20LCA10EC001_XS33&quot;" mode="constant"/> 
+    <rt:dyn type="Col_ON" value="&quot;Col_Red&quot;" mode="constant"/> 
+    <rt:dyn type="Col_OFF" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+  </image>
+  <line x1="1521.42" y1="337.44" x2="1471.42" y2="337.44" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1451.92" y="325.44" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA21AA003_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA21AA003_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1448.42" y="341.44" text-anchor="end">20LCA21AA003 ОТКР</text>
+  <line x1="1521.42" y1="313.44" x2="1471.42" y2="313.44" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1451.92" y="301.44" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA21AA004_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA21AA004_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1448.42" y="317.44" text-anchor="end">20LCA21AA004 ОТКР</text>
+  <image x="1451.92" y="277.44" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB21AP001_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB21AP001_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1448.42" y="293.44" text-anchor="end">20LCB21AP001 ВКЛ</text>
+  <line x1="1522.42" y1="481.621" x2="1472.42" y2="481.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1452.92" y="469.621" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA22AA003_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA22AA003_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1449.42" y="485.621" text-anchor="end">20LCA22AA003 ОТКР</text>
+  <line x1="1522.42" y1="457.621" x2="1472.42" y2="457.621" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1452.92" y="445.621" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA22AA004_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA22AA004_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1449.42" y="461.621" text-anchor="end">20LCA22AA004 ОТКР</text>
+  <image x="1452.92" y="421.621" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB22AP001_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB22AP001_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1449.42" y="437.621" text-anchor="end">20LCB22AP001 ВКЛ</text>
+  <line x1="1519.91" y1="621.833" x2="1469.91" y2="621.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1450.41" y="609.833" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA23AA003_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA23AA003_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1446.91" y="625.833" text-anchor="end">20LCA23AA003 ОТКР</text>
+  <line x1="1519.91" y1="597.833" x2="1469.91" y2="597.833" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <image x="1450.41" y="585.833" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCA23AA004_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCA23AA004_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1446.91" y="601.833" text-anchor="end">20LCA23AA004 ОТКР</text>
+  <image x="1450.41" y="562.833" width="44" height="22" xlink:href="bitwise_tablo_4bits.svg">
+    <title>20LCB23AP001_Z0 1</title>
+    <rt:dyn type="PointID_1" value="&quot;20LCB23AP001_Z0 1&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0000" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Text_0001" value="&quot;&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0000" value="&quot;Col_BGSand&quot;" mode="constant"/> 
+    <rt:dyn type="Color_0001" value="&quot;Col_Red&quot;" mode="constant"/> 
+  </image>
+  <text x="1446.91" y="578.833" text-anchor="end">20LCB23AP001 ВКЛ</text>
+  <rect x="1554.47" y="829.227" width="150" height="55" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <line x1="1704.47" y1="859.227" x2="1554.47" y2="859.227" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1564.47" y="849.227" fill="black" font-size="18" font-weight="700">ШАГ 34</text>
+  <text x="1564.47" y="877.227" fill="Col_Grey5" font-size="15">Т ожид</text>
+  <text x="1694.47" y="877.227" font-size="16" text-anchor="end">0 с</text>
+  <rect x="1570.62" y="917.288" width="46" height="46" rx="0" ry="0" fill="Col_BGSand" fill-opacity="1" stroke="black" stroke-opacity="1" stroke-width="3"/> 
+  <text x="1573.62" y="952.288" font-size="28">&gt;1</text>
+  <image x="1426.7" y="887.909" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Из шага 23&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lca10ec001_m23-28&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="1747.91" y="962.667" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;В шаг 35&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;20lca10ec001_m35-45&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="1585.05" y="25.3049" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;fgu_to_all&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;fgu_to_all&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="18"/> 
+  </image>
+  <image x="90" y="825" width="110" height="30" xlink:href="DS_TPTS_TE_spec.svg">
+    <title>&quot;20LCA10CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+</svg>

@@ -1,0 +1,346 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kbc_tzb_2">
+  <title>Защиты насосов KBC</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_tzb_ro&#10;LMod kbc_tzb_1&#10;RMod kbc_tzb_3" revision="4.1"/> 
+  <rect x="75" y="26" width="1775" height="949" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="73" y="18.9394" font-size="20">KBC_tzb_2</text>
+  <text x="379.581" y="54.5908" fill="black" font-size="15">Входные условия</text>
+  <line x1="1151" y1="26" x2="1151" y2="76" stroke="black"/> 
+  <line x1="1500" y1="26" x2="1500" y2="76" stroke="black"/> 
+  <text x="100.728" y="44.9898" fill="black" font-size="15" text-anchor="middle">N<tspan x="100.728" dy="15">П/П</tspan>
+  </text>
+  <text x="1323.58" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала на сигнал</text>
+  <text x="1675.08" y="54.5908" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <text x="975.581" y="55.5908" fill="black" font-size="15" text-anchor="middle">Накладка ввода / вывода</text>
+  <line x1="801" y1="76" x2="801" y2="26" stroke="black"/> 
+  <line x1="125.743" y1="100.773" x2="1850.74" y2="100.773" stroke="black"/> 
+  <text x="133.608" y="93.3328" fill="black" font-size="15" font-weight="700">20KBC13EZ001 Отключение насоса 20KBC13AP001</text>
+  <text x="95.3938" y="94.9578" fill="black" font-size="15">1</text>
+  <rect x="75" y="76" width="1775" height="900" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="919.757" y="183.182" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC13CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC13CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <line x1="125.581" y1="26.5908" x2="125" y2="975" stroke="black"/> 
+  <image x="1300" y="188" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZM04&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZM04&quot;"/> 
+  </image>
+  <line x1="124.581" y1="166" x2="1850" y2="166" stroke="black"/> 
+  <image x="1674.75" y="186.682" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZV54&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZV54&quot;"/> 
+  </image>
+  <line x1="125.456" y1="674" x2="801" y2="674" stroke="black"/> 
+  <line x1="125.879" y1="904" x2="801" y2="904" stroke="black"/> 
+  <line x1="75" y1="599" x2="1850" y2="599" stroke="black"/> 
+  <line x1="125.242" y1="624.045" x2="1850.24" y2="624.045" stroke="black"/> 
+  <text x="133.76" y="616.484" fill="black" font-size="15" font-weight="700">20KBC40EE001 Отключение насосов 20KBC50AP001-003 (Защита от кавитации)</text>
+  <text x="95.4545" y="618.606" fill="black" font-size="15">3</text>
+  <line x1="555" y1="470" x2="555" y2="600" stroke="black"/> 
+  <line x1="555" y1="625" x2="555" y2="792" stroke="black"/> 
+  <image x="145" y="389" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC13CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC13CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="389" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13CP002_XH64&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13CP002_XH64&quot;"/> 
+  </image>
+  <image x="451" y="187.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13CF001_XH58&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13CF001_XH58&quot;"/> 
+  </image>
+  <line x1="350" y1="168" x2="350" y2="275" stroke="black"/> 
+  <text x="562.606" y="139.621" fill="black" font-size="15">НАСОС 20KBC13AP001 ВКЛ</text>
+  <line x1="75.3333" y1="433.167" x2="1850.33" y2="433.167" stroke="black"/> 
+  <line x1="125.575" y1="470.212" x2="1850.57" y2="470.212" stroke="black"/> 
+  <text x="134.093" y="450.651" fill="black" font-size="15" font-weight="700">20KBC30EZ001 Отключение насоса 20KBC30AP001</text>
+  <text x="95.8786" y="451.276" fill="black" font-size="15">2</text>
+  <line x1="125" y1="560" x2="1850" y2="560" stroke="black"/> 
+  <line x1="125.818" y1="708.409" x2="801.157" y2="708.409" stroke="black"/> 
+  <image x="150" y="200" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC13CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC13CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="562.606" y="588.591" fill="black" font-size="15">L 20KBC30BB001 &lt; 0.15 М</text>
+  <text x="562.606" y="201.576" fill="black" font-size="15">F 20KBC12CF001 &lt; 15 М3/Ч</text>
+  <text x="562.606" y="310.409" fill="black" font-size="15">P ВСАС 20KBC13AP001<tspan x="562.606" dy="15">&lt; 0.02 МПА</tspan>
+  </text>
+  <text x="562.606" y="398.742" fill="black" font-size="15">P НАПОР 20KBC13AP001<tspan x="562.606" dy="15">&lt; 0.43 МПА</tspan>
+  </text>
+  <text x="562.606" y="502.046" fill="black" font-size="15">НАСОС 20KBC30AP001 ВКЛ</text>
+  <text x="562.606" y="694.03" fill="black" font-size="15">ИЗ 20KBC40BB001 ЗАКР</text>
+  <text x="562.606" y="775.515" fill="black" font-size="15">ИЗ 20KBC40BB002 ЗАКР</text>
+  <text x="562.606" y="839.015" fill="black" font-size="15">L БАК 20KBC40BB001<tspan x="562.606" dy="15">&lt; 0.3 М</tspan>
+  </text>
+  <text x="562.606" y="891.015" fill="black" font-size="15">ВСАС 20KBC60AP001 ЗАКР</text>
+  <text x="562.606" y="920.53" fill="black" font-size="15">L БАК 20KBC40BB002<tspan x="562.606" dy="15">&lt; 0.3 М</tspan>
+  </text>
+  <text x="562.606" y="540.5" fill="black" font-size="15">P НАПОР 20KBC30AP001<tspan x="562.606" dy="15">&lt; 0.38 МПА</tspan>
+  </text>
+  <line x1="75.3333" y1="793.5" x2="1850.33" y2="793.5" stroke="black"/> 
+  <line x1="125.575" y1="817" x2="1850.57" y2="817" stroke="black"/> 
+  <text x="134.093" y="810.984" fill="black" font-size="15" font-weight="700">20KBC40EE004 Отключение насоса 20KBC60AP001 (Защита от кавитации)</text>
+  <text x="95.4545" y="811.818" fill="black" font-size="15">4</text>
+  <line x1="125" y1="275" x2="1850" y2="275" stroke="black"/> 
+  <text x="562.606" y="652.469" fill="black" font-size="15">L БАК 20KBC40BB001<tspan x="562.606" dy="15">&lt; 0.3 М</tspan>
+  </text>
+  <text x="562.606" y="726.894" fill="black" font-size="15">L БАК 20KBC40BB002<tspan x="562.606" dy="15">&lt; 0.3 М</tspan>
+  </text>
+  <text x="562.606" y="962.955" fill="black" font-size="15">ВСАС 20KBC60AP001 ЗАКР</text>
+  <image x="147.916" y="299.364" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC13CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC13CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="555" y1="100" x2="555" y2="432" stroke="black"/> 
+  <line x1="555" y1="817" x2="555" y2="974" stroke="black"/> 
+  <line x1="800" y1="100" x2="800" y2="432" stroke="black"/> 
+  <line x1="1151" y1="100" x2="1151" y2="432" stroke="black"/> 
+  <line x1="1500" y1="100" x2="1500" y2="432" stroke="black"/> 
+  <line x1="800" y1="470" x2="800" y2="600" stroke="black"/> 
+  <line x1="1151" y1="470" x2="1151" y2="600" stroke="black"/> 
+  <line x1="1500" y1="470" x2="1500" y2="600" stroke="black"/> 
+  <line x1="800" y1="625" x2="800" y2="792" stroke="black"/> 
+  <line x1="1151" y1="625" x2="1151" y2="792" stroke="black"/> 
+  <line x1="1500" y1="625" x2="1500" y2="792" stroke="black"/> 
+  <line x1="801" y1="817" x2="801" y2="974" stroke="black"/> 
+  <line x1="1151" y1="817" x2="1151" y2="974" stroke="black"/> 
+  <line x1="1500" y1="817" x2="1500" y2="974" stroke="black"/> 
+  <image x="147.916" y="530.122" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC30CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC30CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="530" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30CP002_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30CP002_XH56&quot;"/> 
+  </image>
+  <image x="147.916" y="566.274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC30CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC30CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="567" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30CL001_XH56&quot;"/> 
+  </image>
+  <image x="147.916" y="642.274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC40CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC40CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="643.273" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40CL001_XH56&quot;"/> 
+  </image>
+  <image x="147.916" y="718.274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC40CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC40CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="716.697" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40CL002_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40CL002_XH56&quot;"/> 
+  </image>
+  <image x="147.916" y="827.274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC40CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC40CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="827" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40CL001_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40CL001_XH56&quot;"/> 
+  </image>
+  <image x="147.916" y="911.274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KBC40CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KBC40CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="451" y="911" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40CL002_XH56&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40CL002_XH56&quot;"/> 
+  </image>
+  <line x1="125.002" y1="350" x2="1850" y2="350" stroke="black"/> 
+  <line x1="125.788" y1="525.955" x2="801.635" y2="525.955" stroke="black"/> 
+  <line x1="125" y1="749.5" x2="800.847" y2="749.5" stroke="black"/> 
+  <line x1="125" y1="859.5" x2="800.847" y2="859.5" stroke="black"/> 
+  <line x1="125" y1="943.5" x2="800.847" y2="943.5" stroke="black"/> 
+  <image x="919.757" y="297" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC13CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC13CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="302" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1674.75" y="300.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="919" y="386" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC13CH004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC13CH004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="388" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZM03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZM03&quot;"/> 
+  </image>
+  <image x="1673.99" y="388.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZV53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZV53&quot;"/> 
+  </image>
+  <image x="919.757" y="502.727" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC30CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC30CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="505" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30EZ001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30EZ001_ZM01&quot;"/> 
+  </image>
+  <image x="1674.75" y="505.227" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30EZ001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30EZ001_ZV51&quot;"/> 
+  </image>
+  <image x="919.757" y="562" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC30CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC30CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="564" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30EZ001_ZM02&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30EZ001_ZM02&quot;"/> 
+  </image>
+  <image x="1674.75" y="564.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC30EZ001_ZV52&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC30EZ001_ZV52&quot;"/> 
+  </image>
+  <image x="919.757" y="687.455" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC40CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="688" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40EE001_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40EE001_ZM01&quot;"/> 
+  </image>
+  <image x="1674.75" y="689.955" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40EE001_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40EE001_ZV51&quot;"/> 
+  </image>
+  <image x="919.757" y="875.606" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KBC40CH004TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40CH004TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40EE004_ZM01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40EE004_ZM01&quot;"/> 
+  </image>
+  <image x="1674.75" y="878.106" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC40EE004_ZV51&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC40EE004_ZV51&quot;"/> 
+  </image>
+  <image x="322.5" y="97" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KBC13AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC13AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="322.5" y="463" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KBC30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <image x="322.5" y="648" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBC40AA005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="322.5" y="727" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBC40AA006&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40AA006&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="322.5" y="841" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBC40AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="322.5" y="916" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KBC40AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC40AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="1735.64" y="964" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KBC_tzb_3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kbc_tzb_3&quot;)</rt:event>
+  </image>
+  <image x="1622" y="964" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;KBC_tzb_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;kbc_tzb_1&quot;)</rt:event>
+  </image>
+  <text x="202" y="118.5" fill="black" font-size="15">20KBC13AP001</text>
+  <text x="202" y="488.5" fill="black" font-size="15">20KBC30AP001</text>
+  <text x="194" y="688.5" fill="black" font-size="15">20KBC40AA005</text>
+  <text x="194" y="765.5" fill="black" font-size="15">20KBC40AA006</text>
+  <text x="194" y="876.5" fill="black" font-size="15">20KBC40AA003</text>
+  <text x="194" y="956.5" fill="black" font-size="15">20KBC40AA004</text>
+  <image x="450" y="301" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>20KBC13CP001_XH56</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13CP001_XH56&quot;"/> 
+  </image>
+  <line x1="350" y1="225" x2="1850" y2="225" stroke="black"/> 
+  <text x="563" y="250" fill="black" font-size="15">F 20KBC12CF001 &gt; 140 М3/Ч</text>
+  <image x="450" y="239" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13CF001_XH08&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13CF001_XH08&quot;"/> 
+  </image>
+  <image x="1675" y="236" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20KBC13EZ001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20KBC13EZ001_ZV01&quot;"/> 
+  </image>
+</svg>

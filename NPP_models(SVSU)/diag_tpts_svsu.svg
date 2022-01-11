@@ -1,0 +1,111 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1580 1035" width="1580" height="1035" id="diag_tpts_svsu">
+  <rt:model modelversion="7.2.0.24" comment="Создано RTA\Евгений 28.07.2012 8:42:50">
+    <rt:var name="MKS1_00CXB51GH001" datatype="PlsPVBin" comment="Переменная MKS1 ПТК СКУ УС"/> 
+    <rt:var name="MKS1_00CXB51GH002" datatype="PlsPVBin" comment="Переменная MKS1 ПТК СКУ УС"/> 
+    <rt:var name="MKS1_00CXB51GH003" datatype="PlsPVBin" comment="Переменная MKS1 ПТК СКУ УС"/> 
+    <rt:sub>Function Calc_But_Color_By_Code (ByVal code As UShort) As String
+If ((code &amp; 4) &gt; 0) Then
+	Calc_But_Color_By_Code = &quot;Col_Red&quot;
+ElseIf ((code &amp; 2) &gt; 0) Then
+	Calc_But_Color_By_Code = &quot;Col_Yellow&quot;
+ElseIf ((code &amp; 9) == 1) Then
+	Calc_But_Color_By_Code = &quot;Col_LtBlue&quot;
+ElseIf ((code &amp; 8) == 0) Then
+	Calc_But_Color_By_Code = &quot;Col_Green&quot;
+Else
+	Calc_But_Color_By_Code = &quot;Col_Grey1&quot;
+End If
+End Function</rt:sub>
+    <rt:sub>Function Allow_But_By_Code (ByVal code As UShort) As String
+If ((code &amp; 12) &gt; 0) Then
+	Allow_But_By_Code = &quot;disabled&quot;
+Else
+	Allow_But_By_Code = &quot;enabled&quot;
+End If
+End Function</rt:sub>
+    <rt:sub>Function TPTS_set_Color(ByVal pvMKS As PlsPVBin) As String
+If pvMKS == Nothing Then
+	TPTS_set_Color = &quot;Col_Grey1&quot;
+ElseIf pvMKS.Quality == PLS_QUAL_BAD Then
+	TPTS_set_Color = &quot;Col_Grey1&quot;
+ElseIf (pvMKS.Value &amp; 0x6E0F) != 0 Then
+	TPTS_set_Color = &quot;Col_Red&quot;
+ElseIf (pvMKS.Value &amp; 0x9150) != 0 Then
+	TPTS_set_Color = &quot;Col_Yellow&quot;
+Else
+	TPTS_set_Color = &quot;Col_Green&quot;
+End If
+End Function</rt:sub>
+    <rt:sub>Sub ShowCol_ALL()
+//Dim col As String
+//R10
+But_gates_R10.But_Color = Calc_But_Color_By_Code (R10_gates_stat)
+But_set_00CXB51GH001.rt_detect = Allow_But_By_Code (R10_Set_stat(0))
+But_gate_00CXB51GH001.But_Color = Calc_But_Color_By_Code (R10_Set_stat(0))
+But_set_00CXB51GH002.rt_detect = Allow_But_By_Code (R10_Set_stat(0))
+But_gate_00CXB51GH002.But_Color = Calc_But_Color_By_Code (R10_Set_stat(0))
+But_set_00CXB51GH003.rt_detect = Allow_But_By_Code (R10_Set_stat(0))
+But_gate_00CXB51GH003.But_Color = Calc_But_Color_By_Code (R10_Set_stat(0))
+
+//
+End Sub</rt:sub>
+    <rt:event type="OnInitialize">//R10
+Set MKS1_00CXB51GH001 = BIN(&quot;00CXB51GH001MKS01_NARY&quot;)</rt:event>
+Set MKS1_00CXB51GH002 = BIN(&quot;00CXB51GH002MKS01_NARY&quot;)</rt:event>
+Set MKS1_00CXB51GH003 = BIN(&quot;00CXB51GH003MKS01_NARY&quot;)</rt:event>
+    <rt:cycleTrigger name="Show_Buts" cycle="1" unit="second">
+      <rt:code>ShowCol_ALL()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <image x="60" y="65" width="285" height="20" xlink:href="obj_Button.svg" id="But_gates_R10">
+    <rt:dyn type="Label" mode="constant" value="&quot;Состояние шлюзов ПТК СКУ УС&quot;"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagTPTSgatesR10&quot;, &quot;Диагностика шлюзов&quot;, &quot;wd_diagTPTSgate_g2&quot;, &quot;10CXB51GH001|ПТк СКУ УС|10&quot;)</rt:event>
+  </image>
+  <text x="60" y="98.5" font-size="12">Состояние абонентов, имитация и наличие связи</text>
+  <image x="60" y="102" width="145" height="20" xlink:href="obj_Button.svg" id="But_set_00CXB51GH001">
+    <rt:dyn type="Label" mode="constant" value="&quot;00CXB51GH001 (аб.028)&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;diag_028&quot;)</rt:event>
+    <rt:dyn type="But_Color" mode="onchange" value="TPTS_set_Color (MKS1_00CXB51GH001)"/> 
+  </image>
+  <image x="205" y="105" width="20" height="20" xlink:href="bool_checkbox.svg" id="imit_00CXB51GH001" rt:detect="disabled">
+    <rt:dyn type="Col_ON" mode="constant" value="Color_Imitation"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Grey4&quot;"/> 
+    <rt:dyn type="Stat" mode="onchange" value="(00CXB51GH001_MKS01_NARY.Value &amp; 0xA0) &gt; 0"/> 
+    <rt:dyn type="Qual" mode="onchange" value="00CXB51GH001_MKS01_NARY.Quality"/> 
+  </image>
+  <image x="230" y="102" width="115" height="20" xlink:href="obj_Button.svg" id="But_gate_00CXB51GH001">
+    <rt:dyn type="Label" mode="constant" value="&quot;Связь с аб. 028&quot;"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagTPTSsetR10&quot;, &quot;Диагностика стойки&quot;, &quot;wd_diagTPTSset_g2&quot;, &quot;00CXB51GH001|10&quot;)</rt:event>
+  </image>
+  <image x="55" y="150" width="145" height="20" xlink:href="obj_Button.svg" id="But_set_00CXB51GH002">
+    <rt:dyn type="Label" mode="constant" value="&quot;00CXB51GH002 (аб.029)&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;diag_029&quot;)</rt:event>
+    <rt:dyn type="But_Color" mode="onchange" value="TPTS_set_Color (MKS1_00CXB51GH002)"/> 
+  </image>
+  <image x="205" y="155" width="20" height="20" xlink:href="bool_checkbox.svg" id="imit_00CXB51GH002" rt:detect="disabled">
+    <rt:dyn type="Col_ON" mode="constant" value="Color_Imitation"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Grey4&quot;"/> 
+    <rt:dyn type="Stat" mode="onchange" value="(00CXB51GH002_MKS01_NARY.Value &amp; 0xA0) &gt; 0"/> 
+    <rt:dyn type="Qual" mode="onchange" value="00CXB51GH002_MKS01_NARY.Quality"/> 
+  </image>
+  <image x="225" y="150" width="115" height="20" xlink:href="obj_Button.svg" id="But_gate_00CXB51GH002">
+    <rt:dyn type="Label" mode="constant" value="&quot;Связь с аб. 029&quot;"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagTPTSsetR10&quot;, &quot;Диагностика стойки&quot;, &quot;wd_diagTPTSset_g2&quot;, &quot;00CXB51GH002|10&quot;)</rt:event>
+  </image>
+  <image x="55" y="200" width="145" height="20" xlink:href="obj_Button.svg" id="But_set_00CXB51GH003">
+    <rt:dyn type="Label" mode="constant" value="&quot;00CXB51GH003 (аб.030)&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;diag_030&quot;)</rt:event>
+    <rt:dyn type="But_Color" mode="onchange" value="TPTS_set_Color (MKS1_00CXB51GH003)"/> 
+  </image>
+  <image x="205" y="200" width="20" height="20" xlink:href="bool_checkbox.svg" id="imit_00CXB51GH3" rt:detect="disabled">
+    <rt:dyn type="Col_ON" mode="constant" value="Color_Imitation"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Grey4&quot;"/> 
+    <rt:dyn type="Stat" mode="onchange" value="(00CXB51GH003_MKS01_NARY.Value &amp; 0xA0) &gt; 0"/> 
+    <rt:dyn type="Qual" mode="onchange" value="00CXB51GH003_MKS01_NARY.Quality"/> 
+  </image>
+  <image x="235" y="200" width="115" height="20" xlink:href="obj_Button.svg" id="But_gate_00CXB51GH003">
+    <rt:dyn type="Label" mode="constant" value="&quot;Связь с аб. 030&quot;"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagTPTSsetR10&quot;, &quot;Диагностика стойки&quot;, &quot;wd_diagTPTSset_g2&quot;, &quot;00CXB51GH003|10&quot;)</rt:event>
+  </image>
+</svg>

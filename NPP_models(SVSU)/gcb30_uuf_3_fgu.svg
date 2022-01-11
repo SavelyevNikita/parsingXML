@@ -1,0 +1,77 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="gcb30_uuf_3_fgu">
+  <rt:model modelversion="7.2.0.23" comment="Создано PAZDNIKOV\user 28.06.2013 12:33:07"/> 
+  <text x="1000" y="50" font-size="30" text-anchor="middle">ФГУ установкой ультрафильтрации 00GCB33AT001</text>
+  <image x="125" y="125" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH202&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="300" y="150" font-size="15">Задание объёма воды на один фильтроцикл</text>
+  <image x="125" y="250" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH001VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="300" y="300" font-size="15">Установка направления потока фильтрации</text>
+  <image x="125" y="375" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH002VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="300" y="400" font-size="15">Прямая физическая промывка</text>
+  <image x="125" y="500" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH009VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="300" y="525" font-size="15">Выбор направления первого потока обратной промывки</text>
+  <image x="125" y="625" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH007VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="300" y="675" font-size="15">Выбор принудительного действия с установкой фильтрации</text>
+  <image x="125" y="750" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <text x="950" y="150" font-size="15">Объём воды через УУФ-3 в текущем фильтроцикле</text>
+  <image x="750" y="125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCB33FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCB33FF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1000" y="250" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH005VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1175" y="275" font-size="15">Прямая физическая промывка</text>
+  <image x="1000" y="500" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH006VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1175" y="525" font-size="15">Прямая физическая промывка</text>
+  <image x="125" y="807" width="90" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCB30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb30&quot;)</rt:event>
+  </image>
+  <image x="749" y="169.5" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>00GCB33CH004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH004VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+  </image>
+  <text x="950" y="193.5" font-size="15">старт/сброс фильтроцикла</text>
+  <text x="304" y="204.5" font-size="15">РЕАГЕНТ ХИМ ПР УУФ-3</text>
+  <image x="123" y="164" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <title>00GCB33CH003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB33CH003VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="OneLine" mode="constant" value="true"/> 
+  </image>
+</svg>

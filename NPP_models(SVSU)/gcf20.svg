@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" color="Col_BGSand" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="gcf20">
+  <desc>Система маслоснабжения регулирования турбины</desc>
+  <title>Система обессоленной воды</title>
+  <rt:model modelversion="ver 1.0" comment="Создано Svetlana-VAIO\Svetlana 18.10.2012 21:55:57" />
+  <line x1="1134.27" y1="471.212" x2="1134.27" y2="471.212" stroke="black" />
+  <line x1="1837" y1="832.061" x2="1837" y2="103.273" stroke="black" stroke-width="3" />
+  <line x1="1901" y1="987" x2="1901" y2="195.697" stroke="black" stroke-width="1" />
+  <rect x="250" y="675" width="50" height="75" rx="0" ry="0" fill="none" stroke-width="3" />
+  <rect x="250" y="675" width="50" height="75" rx="0" ry="0" fill="none" stroke-width="4" />
+  <text x="407.273" y="26.4546" font-size="30">Установки обратного осмоса</text>
+  <line x1="108" y1="750.242" x2="108" y2="20" stroke="black" stroke-width="3" />
+  <line x1="1849.97" y1="740" x2="1899.97" y2="740" stroke="black" />
+  <line x1="187" y1="948.727" x2="187" y2="186.727" stroke="black" />
+  <text x="1546.73" y="177.606" font-size="15">
+    00GCF21
+    <tspan x="1546.73" dy="15">AA004</tspan>
+  </text>
+  <line x1="311.546" y1="102.727" x2="1839.55" y2="102.727" stroke="black" stroke-width="3" />
+  <line x1="312.546" y1="101.727" x2="312.546" y2="19.7272" stroke="black" stroke-width="3" />
+  <image x="267.576" y="31.3032" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF21AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AA001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="944.985" y1="148.272" x2="944.985" y2="89.939" stroke="black" stroke-width="3" />
+  <image x="631.516" y="73.0602" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="974.758" y="73.0602" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CP005&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1164.67" y="73.0602" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1354.73" y="73.0602" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CQ001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CQ001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <line x1="945.122" y1="146.727" x2="1543.61" y2="146.727" stroke="black" stroke-width="3" />
+  <line x1="1541.55" y1="147.727" x2="1541.55" y2="102.845" stroke="black" stroke-width="3" />
+  <line x1="1240.55" y1="195.727" x2="1825.43" y2="195.727" stroke="black" stroke-width="1" />
+  <line x1="1241.08" y1="195.737" x2="1241.08" y2="134.07" stroke="black" stroke-width="1" />
+  <image x="1614.64" y="59.9392" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 1.72364e-006 -10)">
+    <title>00GCF21AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AA003&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="530.001" y1="101.242" x2="529.985" y2="43.7272" stroke="black" stroke-width="1" />
+  <text x="1104.22" y="22.9692" font-size="15">
+    00GCF21
+    <tspan x="1104.22" dy="15">AA005</tspan>
+  </text>
+  <image x="1469.46" y="153.909" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF21AA004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AA004&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="Drive" mode="constant" value="&quot;solenoid&quot;" />
+  </image>
+  <text x="822.395" y="66.0002" font-size="15">00GCF21AT001</text>
+  <line x1="528.485" y1="44.7272" x2="1570.55" y2="44.7272" stroke="black" stroke-width="1" />
+  <image x="951.546" y="116.727" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="193.272" y="141.697" font-size="15">
+    00GCF21
+    <tspan x="193.272" dy="15">AA002</tspan>
+  </text>
+  <text x="193.272" y="62.9092" font-size="15">
+    00GCF21
+    <tspan x="193.272" dy="15">AA001</tspan>
+  </text>
+  <text x="516.546" y="152.283" font-size="15">00GCF21AP001</text>
+  <image x="1251.5" y="166.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CP004&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1637.81" y="166.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21CF002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="1582.97" y="55.3332" font-size="15">00GCF21AA003</text>
+  <line x1="107" y1="20.7272" x2="313.546" y2="20.7272" stroke="black" stroke-width="3" />
+  <line x1="311.102" y1="186.727" x2="187.545" y2="186.727" stroke="black" stroke-width="1" />
+  <line x1="1569.87" y1="103.272" x2="1569.87" y2="43.7272" stroke="black" stroke-width="1" />
+  <image x="1029.61" y="2.5762" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF21AA005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AA005&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="312.546" y1="187.727" x2="312.546" y2="102.068" stroke="black" stroke-width="1" />
+  <image x="267.491" y="109.449" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF21AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AA002&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <path d="M-599.795 -1178.97 A8.30551 11.9749 0 1 0 -599.795 -1155.02 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <g>
+    <rect x="821.046" y="72.2272" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="959.773" y1="109.772" x2="820.773" y2="73.7722" stroke="black" stroke-width="3" />
+  </g>
+  <text x="936.031" y="94.788" font-size="15">1</text>
+  <g>
+    <rect x="1133.85" y="117.439" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="1272.57" y1="154.984" x2="1133.57" y2="118.984" stroke="black" stroke-width="3" />
+  </g>
+  <text x="1248.82" y="139.818" font-size="15">2</text>
+  <image x="546.698" y="67.7272" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF21AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF21AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <text x="1546.18" y="359.546" font-size="15">
+    00GCF22
+    <tspan x="1546.18" dy="15">AA004</tspan>
+  </text>
+  <line x1="311" y1="284.667" x2="1839" y2="284.667" stroke="black" stroke-width="3" />
+  <line x1="312" y1="283.667" x2="312" y2="201.667" stroke="black" stroke-width="3" />
+  <image x="267.03" y="213.243" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF22AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AA001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="944.439" y1="330.212" x2="944.439" y2="271.879" stroke="black" stroke-width="3" />
+  <image x="630.97" y="255" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="974.212" y="255" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CP005&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1164.12" y="255" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1354.18" y="255" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CQ001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CQ001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <line x1="944.576" y1="328.667" x2="1543.06" y2="328.667" stroke="black" stroke-width="3" />
+  <line x1="1541" y1="329.667" x2="1541" y2="284.785" stroke="black" stroke-width="3" />
+  <line x1="1240" y1="377.667" x2="1824.88" y2="377.667" stroke="black" stroke-width="1" />
+  <line x1="1240.53" y1="377.677" x2="1240.53" y2="316.01" stroke="black" stroke-width="1" />
+  <image x="1614.09" y="241.879" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 1.72364e-006 -10)">
+    <title>00GCF22AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AA003&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="529.455" y1="283.182" x2="529.439" y2="225.667" stroke="black" stroke-width="1" />
+  <text x="1103.67" y="204.909" font-size="15">
+    00GCF22
+    <tspan x="1103.67" dy="15">AA005</tspan>
+  </text>
+  <image x="1468.91" y="335.849" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF22AA004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AA004&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="Drive" mode="constant" value="&quot;solenoid&quot;" />
+  </image>
+  <text x="821.849" y="247.94" font-size="15">00GCF22AT001</text>
+  <line x1="527.939" y1="226.667" x2="1570" y2="226.667" stroke="black" stroke-width="1" />
+  <image x="951" y="298.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="192.727" y="323.637" font-size="15">
+    00GCF22
+    <tspan x="192.727" dy="15">AA002</tspan>
+  </text>
+  <text x="192.727" y="244.849" font-size="15">
+    00GCF22
+    <tspan x="192.727" dy="15">AA001</tspan>
+  </text>
+  <text x="516" y="334.223" font-size="15">00GCF22AP001</text>
+  <image x="1250.95" y="348.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CP004&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1637.26" y="348.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22CF002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="1582.42" y="237.273" font-size="15">00GCF22AA003</text>
+  <path d="M-593.371 472.792 A8.30551 11.9749 0 1 0 -593.371 496.742 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="199.848" y1="202.667" x2="313" y2="202.667" stroke="black" stroke-width="3" />
+  <line x1="310.556" y1="368.667" x2="187" y2="368.667" stroke="black" stroke-width="1" />
+  <line x1="1569.32" y1="285.212" x2="1569.32" y2="225.667" stroke="black" stroke-width="1" />
+  <image x="1029.06" y="184.516" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF22AA005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AA005&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="312" y1="369.667" x2="312" y2="284.008" stroke="black" stroke-width="1" />
+  <image x="266.945" y="291.389" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF22AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AA002&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <path d="M-417.855 -1178.42 A8.30551 11.9749 0 1 0 -417.855 -1154.47 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="110.515" y1="202.652" x2="176.445" y2="202.652" stroke="black" stroke-width="3" />
+  <g>
+    <rect x="820.5" y="254.167" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="959.227" y1="291.712" x2="820.227" y2="255.712" stroke="black" stroke-width="3" />
+  </g>
+  <text x="935.485" y="276.728" font-size="15">1</text>
+  <g>
+    <rect x="1133.3" y="299.379" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="1272.02" y1="336.924" x2="1133.02" y2="300.924" stroke="black" stroke-width="3" />
+  </g>
+  <text x="1248.27" y="321.758" font-size="15">2</text>
+  <image x="546.152" y="249.667" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF22AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF22AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <text x="1545.7" y="540.303" font-size="15">
+    00GCF23
+    <tspan x="1545.7" dy="15">AA004</tspan>
+  </text>
+  <line x1="310.515" y1="465.424" x2="1838.52" y2="465.424" stroke="black" stroke-width="3" />
+  <line x1="311.515" y1="464.424" x2="311.515" y2="382.424" stroke="black" stroke-width="3" />
+  <image x="266.545" y="394" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF23AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AA001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="943.954" y1="510.969" x2="943.954" y2="452.636" stroke="black" stroke-width="3" />
+  <image x="630.485" y="435.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="973.727" y="435.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CP005&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1163.64" y="435.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1353.7" y="435.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CQ001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CQ001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <line x1="944.091" y1="509.424" x2="1542.58" y2="509.424" stroke="black" stroke-width="3" />
+  <line x1="1540.52" y1="510.424" x2="1540.52" y2="465.542" stroke="black" stroke-width="3" />
+  <line x1="1239.52" y1="558.424" x2="1824.4" y2="558.424" stroke="black" stroke-width="1" />
+  <line x1="1240.05" y1="558.434" x2="1240.05" y2="496.767" stroke="black" stroke-width="1" />
+  <image x="1613.61" y="422.636" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 1.72364e-006 -10)">
+    <title>00GCF23AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AA003&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="528.97" y1="463.939" x2="528.954" y2="406.424" stroke="black" stroke-width="1" />
+  <text x="1103.19" y="385.666" font-size="15">
+    00GCF23
+    <tspan x="1103.19" dy="15">AA005</tspan>
+  </text>
+  <image x="1468.43" y="516.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF23AA004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AA004&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="Drive" mode="constant" value="&quot;solenoid&quot;" />
+  </image>
+  <text x="821.364" y="428.697" font-size="15">00GCF23AT001</text>
+  <line x1="527.454" y1="407.424" x2="1569.52" y2="407.424" stroke="black" stroke-width="1" />
+  <image x="950.515" y="479.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="192.242" y="504.394" font-size="15">
+    00GCF23
+    <tspan x="192.242" dy="15">AA002</tspan>
+  </text>
+  <text x="192.242" y="425.606" font-size="15">
+    00GCF23
+    <tspan x="192.242" dy="15">AA001</tspan>
+  </text>
+  <text x="515.515" y="514.98" font-size="15">00GCF23AP001</text>
+  <image x="1250.47" y="529.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CP004&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1636.78" y="529.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23CF002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="1581.94" y="418.03" font-size="15">00GCF23AA003</text>
+  <path d="M-412.613 473.277 A8.30551 11.9749 0 1 0 -412.613 497.227 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="199.363" y1="383.424" x2="312.515" y2="383.424" stroke="black" stroke-width="3" />
+  <line x1="310.071" y1="549.424" x2="186.515" y2="549.424" stroke="black" stroke-width="1" />
+  <line x1="1568.84" y1="465.969" x2="1568.84" y2="406.424" stroke="black" stroke-width="1" />
+  <image x="1028.58" y="365.273" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF23AA005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AA005&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="311.515" y1="550.424" x2="311.515" y2="464.765" stroke="black" stroke-width="1" />
+  <image x="266.46" y="472.146" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF23AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AA002&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <path d="M-237.098 -1177.94 A8.30551 11.9749 0 1 0 -237.098 -1153.99 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="110.03" y1="383.409" x2="175.96" y2="383.409" stroke="black" stroke-width="3" />
+  <g>
+    <rect x="820.015" y="434.924" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="958.742" y1="472.469" x2="819.742" y2="436.469" stroke="black" stroke-width="3" />
+  </g>
+  <text x="935" y="457.485" font-size="15">1</text>
+  <g>
+    <rect x="1132.82" y="480.136" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="1271.54" y1="517.682" x2="1132.54" y2="481.682" stroke="black" stroke-width="3" />
+  </g>
+  <text x="1247.79" y="502.516" font-size="15">2</text>
+  <image x="545.667" y="430.424" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF23AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF23AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <text x="1545.18" y="721.879" font-size="15">
+    00GCF24
+    <tspan x="1545.18" dy="15">AA004</tspan>
+  </text>
+  <line x1="310" y1="647" x2="1838" y2="647" stroke="black" stroke-width="3" />
+  <line x1="311" y1="646" x2="311" y2="564" stroke="black" stroke-width="3" />
+  <image x="266.03" y="575.576" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF24AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AA001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="943.439" y1="692.545" x2="943.439" y2="634.212" stroke="black" stroke-width="3" />
+  <image x="629.97" y="617.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="973.212" y="617.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CP005&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1163.12" y="617.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1353.18" y="617.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CQ001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CQ001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <line x1="943.576" y1="691" x2="1542.06" y2="691" stroke="black" stroke-width="3" />
+  <line x1="1540" y1="692" x2="1540" y2="647.118" stroke="black" stroke-width="3" />
+  <line x1="1239" y1="740" x2="1823.88" y2="740" stroke="black" stroke-width="1" />
+  <line x1="1239.53" y1="740.01" x2="1239.53" y2="678.343" stroke="black" stroke-width="1" />
+  <image x="1613.09" y="604.212" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 1.72364e-006 -10)">
+    <title>00GCF24AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AA003&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="528.455" y1="645.515" x2="528.439" y2="588" stroke="black" stroke-width="1" />
+  <text x="1102.67" y="567.242" font-size="15">
+    00GCF24
+    <tspan x="1102.67" dy="15">AA005</tspan>
+  </text>
+  <image x="1467.91" y="698.182" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF24AA004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AA004&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="Drive" mode="constant" value="&quot;solenoid&quot;" />
+  </image>
+  <text x="820.849" y="610.273" font-size="15">00GCF24AT001</text>
+  <line x1="526.939" y1="589" x2="1569" y2="589" stroke="black" stroke-width="1" />
+  <image x="950" y="661" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="191.727" y="685.97" font-size="15">
+    00GCF24
+    <tspan x="191.727" dy="15">AA002</tspan>
+  </text>
+  <text x="191.727" y="607.182" font-size="15">
+    00GCF24
+    <tspan x="191.727" dy="15">AA001</tspan>
+  </text>
+  <text x="515" y="696.556" font-size="15">00GCF24AP001</text>
+  <image x="1249.95" y="710.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CP004&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1636.26" y="710.909" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24CF002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="1581.42" y="599.606" font-size="15">00GCF24AA003</text>
+  <path d="M-231.038 473.792 A8.30551 11.9749 0 1 0 -231.038 497.742 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="198.848" y1="565" x2="312" y2="565" stroke="black" stroke-width="3" />
+  <line x1="309.556" y1="731" x2="186" y2="731" stroke="black" stroke-width="1" />
+  <line x1="1568.32" y1="647.545" x2="1568.32" y2="588" stroke="black" stroke-width="1" />
+  <image x="1028.06" y="546.849" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF24AA005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AA005&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="311" y1="732" x2="311" y2="646.341" stroke="black" stroke-width="1" />
+  <image x="265.945" y="653.722" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF24AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AA002&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <path d="M-55.5223 -1177.42 A8.30551 11.9749 0 1 0 -55.5223 -1153.47 " fill="none" stroke="black" stroke-width="1" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="109.515" y1="564.985" x2="175.445" y2="564.985" stroke="black" stroke-width="3" />
+  <g>
+    <rect x="819.5" y="616.5" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="958.227" y1="654.045" x2="819.227" y2="618.045" stroke="black" stroke-width="3" />
+  </g>
+  <text x="934.485" y="639.061" font-size="15">1</text>
+  <g>
+    <rect x="1132.3" y="661.712" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="1271.02" y1="699.257" x2="1132.02" y2="663.257" stroke="black" stroke-width="3" />
+  </g>
+  <text x="1247.27" y="684.091" font-size="15">2</text>
+  <image x="545.152" y="612" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF24AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF24AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <text x="1545.18" y="905.182" font-size="15">
+    00GCF25
+    <tspan x="1545.18" dy="15">AA004</tspan>
+  </text>
+  <line x1="310" y1="830.303" x2="1838" y2="830.303" stroke="black" stroke-width="3" />
+  <line x1="311" y1="829.303" x2="311" y2="747.303" stroke="black" stroke-width="3" />
+  <image x="266.03" y="758.879" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF25AA001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AA001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="943.439" y1="875.848" x2="943.439" y2="817.515" stroke="black" stroke-width="3" />
+  <image x="629.97" y="800.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="973.212" y="800.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CP005&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1163.12" y="800.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1353.18" y="800.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CQ001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CQ001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <line x1="943.576" y1="874.303" x2="1542.06" y2="874.303" stroke="black" stroke-width="3" />
+  <line x1="1540" y1="875.303" x2="1540" y2="830.421" stroke="black" stroke-width="3" />
+  <line x1="1239" y1="923.303" x2="1902.45" y2="922.97" stroke="black" stroke-width="1" />
+  <line x1="1239.53" y1="923.313" x2="1239.53" y2="861.646" stroke="black" stroke-width="1" />
+  <image x="1613.09" y="787.515" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 1.72364e-006 -10)">
+    <title>00GCF25AA003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AA003&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="528.455" y1="828.818" x2="528.439" y2="771.303" stroke="black" stroke-width="1" />
+  <text x="1102.67" y="750.545" font-size="15">
+    00GCF25
+    <tspan x="1102.67" dy="15">AA005</tspan>
+  </text>
+  <image x="1467.91" y="881.485" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF25AA004</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AA004&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+    <rt:dyn type="Drive" mode="constant" value="&quot;solenoid&quot;" />
+  </image>
+  <text x="820.849" y="793.576" font-size="15">00GCF25AT001</text>
+  <line x1="526.939" y1="772.303" x2="1569" y2="772.303" stroke="black" stroke-width="1" />
+  <image x="950" y="844.303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="191.727" y="869.273" font-size="15">
+    00GCF25
+    <tspan x="191.727" dy="15">AA002</tspan>
+  </text>
+  <text x="191.727" y="790.485" font-size="15">
+    00GCF25
+    <tspan x="191.727" dy="15">AA001</tspan>
+  </text>
+  <text x="515" y="879.859" font-size="15">00GCF25AP001</text>
+  <image x="1249.95" y="894.212" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CP004&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1636.26" y="894.212" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25CF002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25CF002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <text x="1581.42" y="782.909" font-size="15">00GCF25AA003</text>
+  <path d="M-47.7352 473.792 A8.30551 11.9749 0 1 0 -47.7352 497.742 " fill="none" stroke="black" stroke-width="3" transform="rotate(270 121.069 222.559) rotate(0 1.4013e-045 1.4013e-045) flipX(332.641) flipX(878.38) flipY() translate(0 -828) translate(638.352 55.1549) matrix(-1 0 0 1 0 0)" />
+  <line x1="198.848" y1="748.303" x2="312" y2="748.303" stroke="black" stroke-width="3" />
+  <line x1="309.556" y1="914.303" x2="186" y2="914.303" stroke="black" stroke-width="1" />
+  <line x1="1568.32" y1="830.848" x2="1568.32" y2="771.303" stroke="black" stroke-width="1" />
+  <image x="1028.06" y="730.152" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -1.52588e-005 -10)">
+    <title>00GCF25AA005</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AA005&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="311" y1="915.303" x2="311" y2="829.644" stroke="black" stroke-width="1" />
+  <image x="265.945" y="837.025" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>00GCF25AA002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AA002&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="109.515" y1="748.288" x2="175.445" y2="748.288" stroke="black" stroke-width="3" />
+  <g>
+    <rect x="819.5" y="799.803" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="958.227" y1="837.348" x2="819.227" y2="801.348" stroke="black" stroke-width="3" />
+  </g>
+  <text x="934.485" y="822.364" font-size="15">1</text>
+  <g>
+    <rect x="1132.3" y="845.015" width="139.394" height="39.394" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3" />
+    <line x1="1271.02" y1="882.56" x2="1132.02" y2="846.56" stroke="black" stroke-width="3" />
+  </g>
+  <text x="1247.27" y="867.394" font-size="15">2</text>
+  <image x="545.152" y="795.303" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>00GCF25AP001</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCF25AP001&quot;" />
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;" />
+    <rt:dyn type="Operate" mode="constant" value="true" />
+  </image>
+  <line x1="1849.97" y1="558.985" x2="1899.97" y2="558.985" stroke="black" />
+  <line x1="1850.97" y1="379.227" x2="1900.97" y2="379.227" stroke="black" />
+  <line x1="1850.97" y1="196.409" x2="1900.97" y2="196.409" stroke="black" />
+  <line x1="41.8488" y1="476.682" x2="107.779" y2="476.682" stroke="black" stroke-width="3" />
+  <image x="3" y="462.939" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCF10&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;gcf10&quot;" />
+  </image>
+  <line x1="241" y1="948.197" x2="187.303" y2="948.197" stroke="black" stroke-width="1" />
+  <text x="345.125" y="950" font-size="15" text-anchor="middle">
+    ЧОВ от
+    <tspan x="345.125" dy="15">00GCF30AP003,004</tspan>
+  </text>
+  <g transform="flipX(206.903) flipX(133.153) flipX(467.434) rotate(30 1.4013e-045 1.4013e-045) flipY(224.444) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="830.265,215.729 843.645,223.369 843.645,208.089 830.265,215.729" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)" />
+    </g>
+  </g>
+  <line x1="1094.25" y1="986" x2="1902" y2="986" stroke="black" stroke-width="1" />
+  <image x="1010.42" y="970.182" width="85" height="25" xlink:href="obj_link.svg" transform="flipX(42.5) rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCR10&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;gcr10&quot;" />
+  </image>
+  <line x1="1147.16" y1="947.955" x2="1023.61" y2="947.955" stroke="black" stroke-width="1" />
+  <g transform="flipX(467.434) rotate(30 1.4013e-045 1.4013e-045) flipY(224.444) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="371.375,1013.01 384.755,1020.65 384.755,1005.37 371.375,1013.01" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)" />
+    </g>
+  </g>
+  <line x1="1146" y1="987" x2="1146" y2="948" stroke="black" stroke-width="1" />
+  <text x="921.375" y="937.5" font-size="15" text-anchor="middle">
+    В систему оборотного
+    <tspan x="921.375" dy="15">охлаждения</tspan>
+  </text>
+  <line x1="1734.26" y1="102.7" x2="1734.26" y2="57.8182" stroke="black" stroke-width="3" />
+  <line x1="1732.76" y1="59.3182" x2="1798.69" y2="59.3182" stroke="black" stroke-width="3" />
+  <image x="1789.83" y="44.1818" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCF30&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;gcf30&quot;" />
+  </image>
+  <image x="650.25" y="132.25" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf21ec001_m1-7&quot;" />
+  </image>
+  <image x="650.25" y="312.25" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf22ec001_m1-7&quot;" />
+  </image>
+  <image x="650.25" y="494.75" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf23ec001_m1-7&quot;" />
+  </image>
+  <image x="650.25" y="676.5" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf24ec001_m1-7&quot;" />
+  </image>
+  <image x="650.25" y="858.75" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ФГУ&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;00gcf25ec001_m1-7&quot;" />
+  </image>
+  <image x="756.5" y="118.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21FP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21FP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="756.5" y="299.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22FP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22FP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="756.5" y="480.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23FP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23FP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="756.5" y="661.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24FP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24FP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="756.5" y="845.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25FP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25FP002&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1057" y="160.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21FP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21FP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1057" y="343.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22FP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22FP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1057" y="523.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23FP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23FP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1057" y="704.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24FP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24FP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1057" y="889.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25FP003</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25FP003&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1650" y="136" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF21FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF21FF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1650" y="316" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF22FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF22FF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1650" y="496" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF23FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF23FF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1650" y="678" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF24FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF24FF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="1650" y="861" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>00GCF25FF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;00GCF25FF001&quot;" />
+    <rt:dyn type="ShowFrame" mode="constant" value="true" />
+    <rt:dyn type="X" mode="constant" value="&quot;dF&quot;" />
+    <rt:dyn type="Color_Readings" mode="constant" value="true" />
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false" />
+  </image>
+  <image x="398.25" y="73" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF11CL001</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF21CP001_XG54&quot;" />
+  </image>
+  <image x="398.25" y="255" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF11CL001</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF22CP001_XG54&quot;" />
+  </image>
+  <image x="398.25" y="436" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF11CL001</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF23CP001_XG54&quot;" />
+  </image>
+  <image x="398.25" y="617" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF11CL001</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF24CP001_XG54&quot;" />
+  </image>
+  <image x="398.25" y="800" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>00GCF11CL001</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00GCF25CP001_XG54&quot;" />
+  </image>
+  <text x="377.625" y="64.7502" font-size="15">P&lt; норм</text>
+  <text x="377.625" y="245.5" font-size="15">P&lt; норм</text>
+  <text x="377.625" y="428.75" font-size="15">P&lt; норм</text>
+  <text x="377.625" y="609.5" font-size="15">P&lt; норм</text>
+  <text x="377.625" y="790.5" font-size="15">P&lt; норм</text>
+  <image x="1789.83" y="8.7501" width="95" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCB-GCF&quot;" />
+    <rt:event type="OnClick">LoadNew("")</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;gcb_gcf&quot;" />
+  </image>
+</svg>

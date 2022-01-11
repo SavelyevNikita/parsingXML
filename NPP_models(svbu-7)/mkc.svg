@@ -1,0 +1,1071 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="mkc">
+  <title>Температурный контроль генератора</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_skutg&#10;LMod mka03&#10;RMod mkf01" revision="3"/> 
+  <line x1="1357" y1="60" x2="1357" y2="981.25" stroke="black" stroke-width="3"/> 
+  <text x="594.406" y="67.5" fill="black" font-size="20" font-weight="700">Генератор</text>
+  <text x="1571.38" y="67.5" fill="black" font-size="20" font-weight="700">Возбудитель</text>
+  <text x="1619.34" y="849.47" fill="black" font-size="15" font-weight="700" text-anchor="middle">Контроль возбудителя</text>
+  <image x="1615.44" y="880.72" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKC10CL001_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKC10CL001_XG01&quot;"/> 
+  </image>
+  <text x="1747.94" y="898.22" fill="black" font-size="15" text-anchor="middle">Жидк. корп. возбудителя</text>
+  <image x="1400" y="865.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CM001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CM001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1400" y="896.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CM002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CM002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1392.5" y="573.375" fill="black" font-size="15" font-weight="700">Температура воды на сливе</text>
+  <image x="1418.13" y="591.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT017&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT017&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="629.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT018&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT018&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="668.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT019&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT019&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="706.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT020&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT020&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1504.88" y="762" fill="black" font-size="15" text-anchor="middle">Средняя Т воды  на<tspan x="1504.88" dy="15">вых. из ВО</tspan>
+  </text>
+  <image x="1418.13" y="783.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA18FT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA18FT003_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1505.62" y="481" fill="black" font-size="15" text-anchor="middle">Средняя T воздуха на<tspan x="1505.62" dy="15">вых.из ВО</tspan>
+  </text>
+  <image x="1418.13" y="503.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA18FT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA18FT002_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1772.63" y="481" fill="black" font-size="15" text-anchor="middle">Средняя T воздуха<tspan x="1772.63" dy="15">на вх. в ВО</tspan>
+  </text>
+  <image x="1685.13" y="503.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA18FT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA18FT001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="591.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="629.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="668.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="706.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1505.63" y="111.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура холодного<tspan x="1505.63" dy="15">воздуха на вых.из ВО</tspan>
+  </text>
+  <image x="1418.13" y="140.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="180" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="140.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="180" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1772.63" y="111.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура горячего<tspan x="1772.63" dy="15">воздуха на вх.в ВО</tspan>
+  </text>
+  <image x="1418.13" y="219.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="258.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="297.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT009&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT009&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="336.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT010&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="374.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT013&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1418.13" y="413.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT014&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT014&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="219.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT007&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="258.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT008&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT008&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="297.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="336.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="374.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT015&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT015&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1685.13" y="413.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKC10CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKC10CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1772.63" y="566.5" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура баббит.вклад.<tspan x="1772.63" dy="15">опорного подшипника</tspan>
+  </text>
+  <text x="873.625" y="810.47" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура баббита вкладыша подшипника ТГ</text>
+  <text x="268.545" y="810.47" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура стали нажимных колец</text>
+  <text x="577.625" y="926.5" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура масла на сливе из подшипников турбогенератора</text>
+  <image x="382.005" y="934.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="598.255" y="934.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1637.62" y="951.5" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура масла на сливе из подшипников возбудителя</text>
+  <image x="1442" y="959.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAV38CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAV38CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1658.25" y="959.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAV38CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAV38CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="36.2727" y="184.72" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="321.563" y="111.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Температура изоляции обмотки статора</text>
+  <image x="36.2727" y="215.738" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="36.2727" y="247.125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="36.2727" y="277.375" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="250.563" y="186" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="250.563" y="216.83" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="250.563" y="247.705" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT007&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="250.563" y="278.33" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT008&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT008&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="473.411" y="186.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT009&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT009&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="473.411" y="217.011" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT010&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="473.411" y="247.511" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="473.411" y="277.886" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="149.72" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT013&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="180.738" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT014&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT014&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="212.125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT015&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT015&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="242.375" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="273.329" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT017&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT017&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="304.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT018&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT018&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="335.034" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT019&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT019&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="365.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT020&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT020&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="396.284" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT021&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT021&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="426.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT022&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT022&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="457.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT023&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT023&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="697.467" y="487.534" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA11CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA11CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="777.967" y="111.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Темп. активной стали<tspan x="777.967" dy="15">сердечника статора</tspan>
+  </text>
+  <image x="931.125" y="149.72" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="365.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT015&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT015&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="180.738" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="396.284" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT017&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT017&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="212.125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="426.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT019&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT019&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="242.375" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT007&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="457.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT021&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT021&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="273.329" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT009&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT009&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="487.534" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT023&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT023&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="304.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="517.928" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT025&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT025&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="931.125" y="335.034" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT013&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1012.63" y="111.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Темп. дист.на сливе из<tspan x="1012.63" dy="15">нажим.колец стор. турбины</tspan>
+  </text>
+  <image x="931.125" y="548.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA14CT027&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA14CT027&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="364.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT015&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT015&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="179.738" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="395.284" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT017&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT017&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="211.125" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="425.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT019&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT019&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="241.375" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT007&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="456.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT021&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT021&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="272.329" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT009&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT009&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="486.534" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT023&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT023&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="303.159" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="516.928" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT025&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT025&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="334.034" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT013&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT013&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1172.13" y="547.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT027&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT027&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1252" y="96.75" fill="black" font-size="15" font-weight="700" text-anchor="middle">Темп. дист.на сливе из<tspan x="1252" dy="15">нажим. колец</tspan>
+<tspan x="1252" dy="15">стор.возбудителя</tspan>
+  </text>
+  <image x="1172.13" y="148.72" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA15CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA15CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="336.484" y="641" fill="black" font-size="15" text-anchor="middle">MAX T обмотки<tspan x="336.484" dy="15">статора</tspan>
+  </text>
+  <image x="251.06" y="665.137" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="82.3561" y="695.909" fill="black" font-size="15">№ точки MAX</text>
+  <image x="48.6061" y="703.568" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="337.045" y="720.485" fill="black" font-size="15" text-anchor="middle">MIN Т обмотки<tspan x="337.045" dy="15">статора</tspan>
+  </text>
+  <image x="249.545" y="739.872" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT002_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="491.796" y="695.909" fill="black" font-size="15">dT MAX-MIN</text>
+  <image x="450.545" y="704.659" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT003_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="783.967" y="616" fill="black" font-size="15" text-anchor="middle">MAX T активной стали<tspan x="783.967" dy="15">сердечника статора</tspan>
+  </text>
+  <image x="696.467" y="646.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA13FT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA13FT001_XQ01&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <text x="730.217" y="696.75" fill="black" font-size="15">№ точки MAX</text>
+  <image x="696.467" y="699.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA13FG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA13FG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1010.75" y="614.75" fill="black" font-size="15" text-anchor="middle">MAX T дист.колец нажимных<tspan x="1010.75" dy="15">со стороны турбины</tspan>
+  </text>
+  <image x="931.25" y="646.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA17FT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA17FT001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="965" y="696.75" fill="black" font-size="15">№ точки MAX</text>
+  <image x="931.25" y="699.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA17FG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA17FG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1243.75" y="614.75" fill="black" font-size="15" text-anchor="middle">MAX T дист.колец нажимных<tspan x="1243.75" dy="15">со стороны возбудителя</tspan>
+  </text>
+  <image x="1173.25" y="647.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA17FT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA17FT002_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1207" y="697.75" fill="black" font-size="15">№ точки MAX</text>
+  <image x="1173.25" y="700.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA17FG002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA17FG002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="68" y="838.069" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA13CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA13CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="293.938" y="838.069" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA12CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA12CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="68.152" y="871.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA13CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA13CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="294.09" y="871.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA12CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA12CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="154.969" y="831.129" fill="black" font-size="15" text-anchor="middle">сторона турбины</text>
+  <text x="374.787" y="831.129" fill="black" font-size="15" text-anchor="middle">сторона возбудителя</text>
+  <image x="691" y="839.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="691" y="871.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="881.25" y="839.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="881.25" y="871.22" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="19.151" y="202.22" fill="black" font-size="15">1</text>
+  <text x="19.151" y="233.238" fill="black" font-size="15">2</text>
+  <text x="19.151" y="264.625" fill="black" font-size="15">3</text>
+  <text x="19.151" y="294.875" fill="black" font-size="15">4</text>
+  <text x="228" y="205.5" fill="black" font-size="15">5</text>
+  <text x="228" y="236.33" fill="black" font-size="15">6</text>
+  <text x="228" y="267.205" fill="black" font-size="15">7</text>
+  <text x="228" y="297.83" fill="black" font-size="15">8</text>
+  <text x="450.848" y="204.136" fill="black" font-size="15">9</text>
+  <text x="445.848" y="234.511" fill="black" font-size="15">10</text>
+  <text x="445.848" y="265.011" fill="black" font-size="15">11</text>
+  <text x="445.848" y="295.386" fill="black" font-size="15">12</text>
+  <text x="674" y="167.22" fill="black" font-size="15">1</text>
+  <text x="674" y="198.238" fill="black" font-size="15">2</text>
+  <text x="674" y="229.625" fill="black" font-size="15">3</text>
+  <text x="674" y="259.875" fill="black" font-size="15">4</text>
+  <text x="674" y="290.829" fill="black" font-size="15">5</text>
+  <text x="674" y="321.659" fill="black" font-size="15">6</text>
+  <text x="674" y="352.534" fill="black" font-size="15">7</text>
+  <text x="674" y="383.159" fill="black" font-size="15">8</text>
+  <text x="674" y="413.784" fill="black" font-size="15">9</text>
+  <text x="669" y="444.159" fill="black" font-size="15">10</text>
+  <text x="669" y="474.659" fill="black" font-size="15">11</text>
+  <text x="669" y="505.034" fill="black" font-size="15">12</text>
+  <text x="908" y="167.22" fill="black" font-size="15">1</text>
+  <text x="908" y="198.238" fill="black" font-size="15">2</text>
+  <text x="908" y="229.625" fill="black" font-size="15">3</text>
+  <text x="908" y="259.875" fill="black" font-size="15">4</text>
+  <text x="908" y="290.829" fill="black" font-size="15">5</text>
+  <text x="908" y="321.659" fill="black" font-size="15">6</text>
+  <text x="908" y="352.534" fill="black" font-size="15">7</text>
+  <text x="908" y="383.159" fill="black" font-size="15">8</text>
+  <text x="908" y="413.784" fill="black" font-size="15">9</text>
+  <text x="903" y="444.159" fill="black" font-size="15">10</text>
+  <text x="903" y="474.659" fill="black" font-size="15">11</text>
+  <text x="903" y="505.034" fill="black" font-size="15">12</text>
+  <text x="903" y="535.428" fill="black" font-size="15">13</text>
+  <text x="903" y="565.561" fill="black" font-size="15">14</text>
+  <text x="1149" y="166.22" fill="black" font-size="15">1</text>
+  <text x="1149" y="197.238" fill="black" font-size="15">2</text>
+  <text x="1149" y="228.625" fill="black" font-size="15">3</text>
+  <text x="1149" y="258.875" fill="black" font-size="15">4</text>
+  <text x="1149" y="289.829" fill="black" font-size="15">5</text>
+  <text x="1149" y="320.659" fill="black" font-size="15">6</text>
+  <text x="1149" y="351.534" fill="black" font-size="15">7</text>
+  <text x="1149" y="382.159" fill="black" font-size="15">8</text>
+  <text x="1149" y="412.784" fill="black" font-size="15">9</text>
+  <text x="1144" y="443.159" fill="black" font-size="15">10</text>
+  <text x="1144" y="473.659" fill="black" font-size="15">11</text>
+  <text x="1144" y="504.034" fill="black" font-size="15">12</text>
+  <text x="1144" y="534.428" fill="black" font-size="15">13</text>
+  <text x="1144" y="564.561" fill="black" font-size="15">14</text>
+  <text x="128.243" y="168.909" fill="black" font-size="15" font-weight="700" text-anchor="middle">сторона турбины</text>
+  <text x="337" y="167.773" fill="black" font-size="15" font-weight="700" text-anchor="middle">средняя часть</text>
+  <text x="562.303" y="168.909" fill="black" font-size="15" font-weight="700" text-anchor="middle">сторона возбудителя</text>
+  <text x="950" y="31" font-size="30" font-weight="700" text-anchor="middle">
+    <title>Температурный контрольгенератора</title>
+Температурный контроль</text>
+  <text x="32.75" y="35.25" fill="black" font-size="15" font-weight="700" text-anchor="start">MKC</text>
+  <text x="337.5" y="340" fill="black" font-size="15" text-anchor="middle">MAX T обмотки<tspan x="337.5" dy="15">средняя часть</tspan>
+  </text>
+  <image x="250" y="364" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT005_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="283.75" y="411.25" fill="black" font-size="15">№ точки MAX</text>
+  <image x="250" y="419.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FG003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FG003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="337.5" y="470" fill="black" font-size="15" text-anchor="middle">MIN Т обмотки<tspan x="337.5" dy="15">средняя часть</tspan>
+  </text>
+  <image x="250" y="497.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT008&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT008_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="291.251" y="553" fill="black" font-size="15">dT MAX-MIN</text>
+  <image x="250" y="561.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT011_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dT&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="563" y="340" fill="black" font-size="15" text-anchor="middle">MAX T обмотки<tspan x="563" dy="15">сторона возбудителя</tspan>
+  </text>
+  <image x="475.5" y="364.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT006_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="509.25" y="411.75" fill="black" font-size="15">№ точки MAX</text>
+  <image x="475.5" y="419.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FG004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FG004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="563" y="470" fill="black" font-size="15" text-anchor="middle">MIN Т обмотки<tspan x="563" dy="15">ст. возбудителя</tspan>
+  </text>
+  <image x="475.5" y="497.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT009&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT009_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="516.751" y="553.5" fill="black" font-size="15">dT MAX-MIN</text>
+  <image x="475.5" y="562.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT012&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT012_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dT&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="124.848" y="338.637" fill="black" font-size="15" text-anchor="middle">MAX T обмотки<tspan x="124.848" dy="15">сторона турбины</tspan>
+  </text>
+  <image x="36.2727" y="362.774" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT004_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="67.2121" y="417.803" fill="black" font-size="15">№ точки MAX</text>
+  <image x="36.2727" y="425.802" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FG002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FG002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;№&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="123.424" y="473.485" fill="black" font-size="15" text-anchor="middle">MIN Т обмотки<tspan x="123.424" dy="15">ст. турбины</tspan>
+  </text>
+  <image x="36.2727" y="500.872" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT007&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT007_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="76.2424" y="553.788" fill="black" font-size="15">dT MAX-MIN</text>
+  <image x="36.2727" y="562.538" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA16FT010&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA16FT010_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dT&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+</svg>

@@ -1,0 +1,30 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1274 828" width="1274" height="828" id="KHNP_ALL">
+  <rt:model comment="created by Shevalovskiy"/> 
+  <text x="645.26" y="63.585" fill="black" font-size="32" text-anchor="middle">Обобщенный видеокадр</text>
+  <image x="345" y="136.5" width="248" height="72.5" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;XM1-3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep201&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="30"/> 
+  </image>
+  <image x="723" y="136.5" width="248" height="72.5" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;XM4-5&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep202&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="30"/> 
+  </image>
+  <image x="345" y="295.5" width="248" height="72.5" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ОБЩИЙ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep101&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="30"/> 
+  </image>
+  <image x="723" y="295.5" width="248" height="72.5" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Насосы потребителей&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;00cxm01ep203&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="30"/> 
+  </image>
+  <image x="345" y="453.5" width="248" height="72.5" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗБ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;TZB&quot;)</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="30"/> 
+  </image>
+</svg>

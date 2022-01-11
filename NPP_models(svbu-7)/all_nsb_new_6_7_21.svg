@@ -1,0 +1,1200 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_nsb">
+  <title>НОВОВОРОНЕЖСКАЯ АЭС. ЭНЕРГОБЛОК №7</title>
+  <rt:model modelversion="7.2.0.24" comment="RASU" revision="3">
+    <rt:var name="but_color_ASRK" datatype="ushort" value="9" comment="Variable but_color_ASRK()"/> 
+    <rt:sub>Function but_color_ASRK()
+If (((BIN(&quot;20GHC10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GHC10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GMS10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GMS10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLC21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLC22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR202B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR202B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR402B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR402B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE24CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE24CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPF40CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPF40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM40CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM40CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA20CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA30CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA30CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA30CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA30CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCM81CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCQ50CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCQ50CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20NDA10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20NDA10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20NDA10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20NDA10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB15CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB15CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB25CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB25CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB35CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB35CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB45CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB45CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PGB50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PGB60CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB60CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PGB60CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB60CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA16CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA27CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA27CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA36CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA36CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC14CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR603B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR603B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR604B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR604B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR605B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR605B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR606B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR606B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR607B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR607B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR608B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR608B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KAA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KAA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLB22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KLB22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA10CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA10CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA10CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC50CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH44CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B02_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B02_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KAA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KAA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLB22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KLB22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH44CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but_color_ASRK = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20GHC10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GHC10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GMS10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GMS10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLC21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLC22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR202B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR202B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR402B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR402B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE24CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE24CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPF40CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPF40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPK10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPK30CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK30CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPK30CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK30CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM40CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM40CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCM81CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCQ50CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCQ50CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB15CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB15CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB25CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB25CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB35CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB35CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB45CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB45CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA16CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA27CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA27CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC14CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR603B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR603B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR604B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR604B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR605B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR605B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR606B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR606B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR607B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR607B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR608B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR608B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KAA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KAA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC40CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC40CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21SAC50CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH44CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B02_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B02_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KAA20CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KAA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH44CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but_color_ASRK = 67	&apos; мигает  желтым
+ElseIf (((BIN(&quot;20KUD10AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10CT001_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KUD10CT001_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10CT002_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KUD10CT002_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10CT001_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUR10CT001_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20CT001_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUR20CT001_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA27AA812_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA27AA812_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA27AA812_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F2&quot;).Quality &gt; 0)))  Then
+		but_color_ASRK = 71	&apos; мигает  ,белым
+	Else
+		but_color_ASRK = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:cycleTrigger name="but_color_ASRK" cycle="1" unit="second">
+      <rt:code>but_color_ASRK()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="194.875" y="77.5" font-size="20" font-weight="bold">СКУ РО</text>
+  <text x="690.75" y="77.5" font-size="20" font-weight="bold">УСБТ</text>
+  <image x="563.5" y="896.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_suz_usbt&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СУЗ УСБТ&quot;"/> 
+  </image>
+  <text x="1161.75" y="77.5" font-size="20" font-weight="bold">СКУ ТО</text>
+  <text x="634.75" y="35.5" font-size="25" font-weight="bold">НОВОВОРОНЕЖСКАЯ АЭС. ЭНЕРГОБЛОК №7</text>
+  <image x="1562.03" y="153" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_skuv&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ В&quot;"/> 
+  </image>
+  <image x="1562.03" y="98" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_skueh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ЭЧ&quot;"/> 
+  </image>
+  <image x="1562.03" y="206.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_svo&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ CВО&quot;"/> 
+  </image>
+  <image x="1562.03" y="367.125" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_ehsr&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСР&quot;"/> 
+  </image>
+  <image x="1562.03" y="258.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_asrk&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСРК&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but_color_ASRK, Col_Ar(9))"/> 
+  </image>
+  <image x="1562.03" y="314.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_aknp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АКНП&quot;"/> 
+  </image>
+  <image x="1562.03" y="420.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_asvd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АСВД&quot;"/> 
+  </image>
+  <image x="1562.03" y="473.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_skud&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУД&quot;"/> 
+  </image>
+  <image x="1562.03" y="526.25" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_suz&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;КЭ СУЗ&quot;"/> 
+  </image>
+  <image x="1562.03" y="579" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;srvpe&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СРВПЭ&quot;"/> 
+  </image>
+  <image x="1562.03" y="632.25" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_pz&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СКУ ПЗ&quot;"/> 
+  </image>
+  <image x="16.5001" y="896.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;fgu_ro_all&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ РО&quot;"/> 
+  </image>
+  <image x="16.5001" y="950.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_tzb_ro&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗиБ РО&quot;"/> 
+  </image>
+  <image x="1683" y="950.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;НАКЛАДКИ&quot;"/> 
+  </image>
+  <image x="563.5" y="950.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_tzb_usbt&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗиБ УСБТ&quot;"/> 
+  </image>
+  <image x="1747" y="206.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_tzb_svo&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗиБ СВО&quot;"/> 
+  </image>
+  <image x="1562.03" y="688" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_tdvd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТДВД&quot;"/> 
+  </image>
+  <image x="1747" y="473.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_svrk&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВРК&quot;"/> 
+  </image>
+  <g>
+    <image x="964" y="842.75" width="150" height="40" xlink:href="obj_Button.svg">
+      <rt:event type="OnClick">LoadNew(&quot;fgu_to_all&quot;)</rt:event>
+      <rt:dyn type="Label" mode="constant" value="&quot;ФГУ TО&quot;"/> 
+    </image>
+    <image x="964" y="896.5" width="150" height="40" xlink:href="obj_Button.svg">
+      <rt:event type="OnClick">LoadNew(&quot;all_tzb_to&quot;)</rt:event>
+      <rt:dyn type="Label" mode="constant" value="&quot;ТЗиБ ТО&quot;"/> 
+    </image>
+    <image x="1293.25" y="842.75" width="150" height="40" xlink:href="obj_Button.svg">
+      <rt:event type="OnClick">LoadNew(&quot;all_skutg&quot;)</rt:event>
+      <rt:dyn type="Label" mode="constant" value="&quot;СТК TГ&quot;"/> 
+    </image>
+    <image x="1293.25" y="896.5" width="150" height="40" xlink:href="obj_Button.svg">
+      <rt:event type="OnClick">LoadNew(&quot;all_echsz&quot;)</rt:event>
+      <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСЗ&quot;"/> 
+    </image>
+    <image x="1127.25" y="896.5" width="150" height="40" xlink:href="obj_Button.svg">
+      <rt:event type="OnClick">LoadNew(&quot;all_tzb_bns&quot;)</rt:event>
+      <rt:dyn type="Label" mode="constant" value="&quot;ТЗиБ БНС&quot;"/> 
+    </image>
+  </g>
+  <image x="129.333" y="666.06" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система очистки радиоактивных технологических сдувок</title>
+    <rt:event type="OnClick">LoadNew(&quot;kpm21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM21&quot;"/> 
+  </image>
+  <image x="129.333" y="702.06" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система очистки радиоактивных технологических сдувок</title>
+    <rt:event type="OnClick">LoadNew(&quot;kpm22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM22&quot;"/> 
+  </image>
+  <image x="129.333" y="737.28" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система очистки радиоактивных технологических сдувок</title>
+    <rt:event type="OnClick">LoadNew(&quot;kpm23&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM23&quot;"/> 
+  </image>
+  <image x="983" y="87" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система накопления и деаэрации питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;laa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAA&quot;"/> 
+  </image>
+  <image x="983" y="119" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;lab00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB00&quot;"/> 
+  </image>
+  <image x="1207" y="87" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система подачи конденсата на управление обратными соленоидными клапанами на отборах турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcx&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCX&quot;"/> 
+  </image>
+  <image x="1094" y="87" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основого конденсата</title>
+    <rt:event type="OnClick">LoadNew(&quot;lca00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCA00&quot;"/> 
+  </image>
+  <image x="1094" y="119" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основного конденсата</title>
+    <rt:event type="OnClick">LoadNew(&quot;lca10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCA10&quot;"/> 
+  </image>
+  <image x="1320" y="119" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосная установка основной охлаждающей воды №2</title>
+    <rt:event type="OnClick">LoadNew(&quot;pac02&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC02&quot;"/> 
+  </image>
+  <image x="1320" y="151.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосная установка основной охлаждающей воды №3</title>
+    <rt:event type="OnClick">LoadNew(&quot;pac03&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC03&quot;"/> 
+  </image>
+  <image x="1094" y="807" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль параметров НСС СПП</title>
+    <rt:event type="OnClick">LoadNew(&quot;lct50kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT50kip&quot;"/> 
+  </image>
+  <image x="983" y="706" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов собственных нужд в здании</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbg20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG20&quot;"/> 
+  </image>
+  <image x="983" y="526" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вспомогательной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;lah&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAH&quot;"/> 
+  </image>
+  <image x="983" y="151.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC00&quot;"/> 
+  </image>
+  <image x="983" y="422.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенерации высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;lad00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD00&quot;"/> 
+  </image>
+  <image x="983" y="457" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенарации высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;lad51_61&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD51_61&quot;"/> 
+  </image>
+  <image x="983" y="492" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенарации высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;lad52_62&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD52_62&quot;"/> 
+  </image>
+  <image x="983" y="186.545" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC10&quot;"/> 
+  </image>
+  <image x="983" y="218.454" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC20&quot;"/> 
+  </image>
+  <image x="983" y="249.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC30&quot;"/> 
+  </image>
+  <image x="983" y="284.598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC40&quot;"/> 
+  </image>
+  <image x="983" y="321.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;lac50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC50&quot;"/> 
+  </image>
+  <image x="983" y="562.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Вспомогательные питательные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;laj&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAJ&quot;"/> 
+  </image>
+  <image x="983" y="635" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG&quot;"/> 
+  </image>
+  <image x="983" y="772.833" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сепаратора-пароперегревателя</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbj&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBJ&quot;"/> 
+  </image>
+  <image x="983" y="807" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система утплотнения турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbw&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBW&quot;"/> 
+  </image>
+  <image x="983" y="598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов свежего пара</title>
+    <rt:event type="OnClick">LoadNew(&quot;lba&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBA&quot;"/> 
+  </image>
+  <image x="983" y="671" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов собственных нужд в здании</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbg10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG10&quot;"/> 
+  </image>
+  <image x="983" y="740.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов собственных нужд в здании</title>
+    <rt:event type="OnClick">LoadNew(&quot;lbg40_60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG40-60&quot;"/> 
+  </image>
+  <image x="1320" y="422.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ТА-Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;ta&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;TA&quot;"/> 
+  </image>
+  <image x="1320" y="355.295" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;pcc34&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC34&quot;"/> 
+  </image>
+  <image x="1094" y="186.545" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB11&quot;"/> 
+  </image>
+  <image x="1207" y="186.545" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦНД</title>
+    <rt:event type="OnClick">LoadNew(&quot;mac&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAC&quot;"/> 
+  </image>
+  <image x="1207" y="218.454" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подшипники турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;mad&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAD&quot;"/> 
+  </image>
+  <image x="1094" y="562.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система обессоленной воды здания 10UMA</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCP&quot;"/> 
+  </image>
+  <image x="1207" y="151.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Теломеханический контроль ЦВД</title>
+    <rt:event type="OnClick">LoadNew(&quot;maa10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAA10&quot;"/> 
+  </image>
+  <image x="1207" y="119" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦВД</title>
+    <rt:event type="OnClick">LoadNew(&quot;maa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAA&quot;"/> 
+  </image>
+  <image x="1094" y="598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сепарации и промперегрева</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcs50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCS50&quot;"/> 
+  </image>
+  <image x="1094" y="635" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сепарации и промперегрева</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcs60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCS60&quot;"/> 
+  </image>
+  <image x="1094" y="526" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дренажей паропроводов высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCN&quot;"/> 
+  </image>
+  <image x="1094" y="671" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сепаратора СПП</title>
+    <rt:event type="OnClick">LoadNew(&quot;lct50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT50&quot;"/> 
+  </image>
+  <image x="1094" y="704.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>НСС-1 СПП</title>
+    <rt:event type="OnClick">LoadNew(&quot;lct51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT51&quot;"/> 
+  </image>
+  <image x="1094" y="739.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>НСС-2 СПП</title>
+    <rt:event type="OnClick">LoadNew(&quot;lct52&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT52&quot;"/> 
+  </image>
+  <image x="1094" y="772.833" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>НСС-3 СПП</title>
+    <rt:event type="OnClick">LoadNew(&quot;lct53&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCT53&quot;"/> 
+  </image>
+  <image x="1094" y="218.454" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB12&quot;"/> 
+  </image>
+  <image x="1094" y="249.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb13&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB13&quot;"/> 
+  </image>
+  <image x="1094" y="457" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенерации низкого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcc30_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCC30,40&quot;"/> 
+  </image>
+  <image x="1094" y="492" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дренажей здания 10UMA</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcm&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCM&quot;"/> 
+  </image>
+  <image x="1094" y="151.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основного конденсата</title>
+    <rt:event type="OnClick">LoadNew(&quot;lca20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCA20&quot;"/> 
+  </image>
+  <image x="1094" y="284.598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB21&quot;"/> 
+  </image>
+  <image x="1094" y="321.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB22&quot;"/> 
+  </image>
+  <image x="1094" y="355.295" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КЭН-1-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb23&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB23&quot;"/> 
+  </image>
+  <image x="1094" y="390.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль КЭН-1ст.</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb10kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB10kip&quot;"/> 
+  </image>
+  <image x="1094" y="422.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль КЭН-1ст.</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcb20kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCB20kip&quot;"/> 
+  </image>
+  <image x="1207" y="704.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроовдов сетевой воды в здании 20UMA</title>
+    <rt:event type="OnClick">LoadNew(&quot;nda10_nab10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;NDA10_NAB10&quot;"/> 
+  </image>
+  <image x="1207" y="739.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроовдов сетевой воды в здании 20UMA</title>
+    <rt:event type="OnClick">LoadNew(&quot;nda20_nab20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;NDA20_NAB20&quot;"/> 
+  </image>
+  <image x="1207" y="390.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система смазки турбины и турбогенератора</title>
+    <rt:event type="OnClick">LoadNew(&quot;mav2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAV2&quot;"/> 
+  </image>
+  <image x="1207" y="284.598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Вакуумные насосы</title>
+    <rt:event type="OnClick">LoadNew(&quot;majkip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAJkip&quot;"/> 
+  </image>
+  <image x="1207" y="355.295" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;man&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAN&quot;"/> 
+  </image>
+  <image x="1207" y="422.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система маслоснабжения регулирования турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;max10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAX10&quot;"/> 
+  </image>
+  <image x="1207" y="249.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вакуумирования главных конденсаторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;maj&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAJ&quot;"/> 
+  </image>
+  <image x="1207" y="671" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система маслоснабжения регулирования БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;mxn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MXN&quot;"/> 
+  </image>
+  <image x="1207" y="457" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регулирования турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;max51_59&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAX51-59&quot;"/> 
+  </image>
+  <image x="1207" y="321.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дренажей турбоустановки</title>
+    <rt:event type="OnClick">LoadNew(&quot;mal10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAL10,20&quot;"/> 
+  </image>
+  <image x="1207" y="635" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроподъема и ВПУ</title>
+    <rt:event type="OnClick">LoadNew(&quot;mvl&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MVL&quot;"/> 
+  </image>
+  <image x="1320" y="249.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;pcb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCB&quot;"/> 
+  </image>
+  <image x="1207" y="807" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система основной охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;pab&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAB&quot;"/> 
+  </image>
+  <image x="1320" y="218.454" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система очистки трубок конденсаторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;pah&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAH&quot;"/> 
+  </image>
+  <image x="1207" y="772.833" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система механических очистных устройств</title>
+    <rt:event type="OnClick">LoadNew(&quot;paa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAA&quot;"/> 
+  </image>
+  <image x="1207" y="492" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Электронная часть системы регулирования</title>
+    <rt:event type="OnClick">LoadNew(&quot;may80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAY80&quot;"/> 
+  </image>
+  <image x="1320" y="87" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосная установка основной охлаждающей воды №1</title>
+    <rt:event type="OnClick">LoadNew(&quot;pac01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC01&quot;"/> 
+  </image>
+  <image x="1320" y="186.545" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосная установка основной охлаждающей воды №4</title>
+    <rt:event type="OnClick">LoadNew(&quot;pac04&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAC04&quot;"/> 
+  </image>
+  <image x="1320" y="284.598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система механических очистных устройств</title>
+    <rt:event type="OnClick">LoadNew(&quot;pcc01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC01&quot;"/> 
+  </image>
+  <image x="1320" y="321.689" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КИП насосных установок</title>
+    <rt:event type="OnClick">LoadNew(&quot;pcc01kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC01kip&quot;"/> 
+  </image>
+  <image x="127.5" y="92" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система главных циркуляционных трубопроводов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jec10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEC10&quot;"/> 
+  </image>
+  <image x="350" y="199.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса промконтура</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50_p1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50-P1&quot;"/> 
+  </image>
+  <image x="128.333" y="521.758" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система хранения теплоносителя эксплуатационного качества</title>
+    <rt:event type="OnClick">LoadNew(&quot;kbb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBB&quot;"/> 
+  </image>
+  <image x="129.333" y="594.015" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система борного концентрата</title>
+    <rt:event type="OnClick">LoadNew(&quot;kbc40_60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBC40-60&quot;"/> 
+  </image>
+  <image x="128.333" y="414.371" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подпиточный насос</title>
+    <rt:event type="OnClick">LoadNew(&quot;kba31&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA31&quot;"/> 
+  </image>
+  <image x="128.333" y="450.121" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подпиточный насос</title>
+    <rt:event type="OnClick">LoadNew(&quot;kba32&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA32&quot;"/> 
+  </image>
+  <image x="128.333" y="486.008" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подпиточный насос</title>
+    <rt:event type="OnClick">LoadNew(&quot;kba33&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA33&quot;"/> 
+  </image>
+  <image x="129.333" y="630.008" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система низкотемпературной очистки теплоносителя</title>
+    <rt:event type="OnClick">LoadNew(&quot;kbe50_60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBE50-60&quot;"/> 
+  </image>
+  <image x="127.5" y="128.478" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система главных циркуляционных трубопроводов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jec20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEC20&quot;"/> 
+  </image>
+  <image x="127.5" y="164.289" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система главных циркуляционных трубопроводов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jec30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEC30&quot;"/> 
+  </image>
+  <image x="127.5" y="199.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система главных циркуляционных трубопроводов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jec40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEC40&quot;"/> 
+  </image>
+  <image x="127.5" y="235.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система организованных протечек теплоносителя эксплутационного качества</title>
+    <rt:event type="OnClick">LoadNew(&quot;jet&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JET&quot;"/> 
+  </image>
+  <image x="128.333" y="378.856" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки-подпитки</title>
+    <rt:event type="OnClick">LoadNew(&quot;kba10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA10&quot;"/> 
+  </image>
+  <image x="128.333" y="307.167" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки-подпитки I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;kba00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA00&quot;"/> 
+  </image>
+  <image x="350" y="235.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса промконтура</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50_p2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50-P2&quot;"/> 
+  </image>
+  <image x="350" y="270.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса промконтура</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50_p3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50-P3&quot;"/> 
+  </image>
+  <image x="350" y="306.539" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb90&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB90&quot;"/> 
+  </image>
+  <image x="350" y="413.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система отбора проб на РК продувочной воды ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;qun10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;QUN10-40&quot;"/> 
+  </image>
+  <image x="350" y="449.281" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_ktn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTN&quot;"/> 
+  </image>
+  <image x="350" y="377.743" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система отбора проб II контура и БОУ</title>
+    <rt:event type="OnClick">LoadNew(&quot;quh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;QUH&quot;"/> 
+  </image>
+  <image x="128.333" y="557.265" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дистилята</title>
+    <rt:event type="OnClick">LoadNew(&quot;kbc10_30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBC10-30&quot;"/> 
+  </image>
+  <image x="350" y="342.228" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сжатого воздуха для пневмоприводов арматуры</title>
+    <rt:event type="OnClick">LoadNew(&quot;qfa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;QFA&quot;"/> 
+  </image>
+  <image x="128.5" y="270.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система подачи масла в маслобаки ГЦН</title>
+    <rt:event type="OnClick">LoadNew(&quot;jev50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEV50&quot;"/> 
+  </image>
+  <image x="16.5001" y="92" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Баковое хозяйство</title>
+    <rt:event type="OnClick">LoadNew(&quot;bak&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;BAK&quot;"/> 
+  </image>
+  <image x="16.5001" y="128.478" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов бассейна выдержки и шахт ВКУ</title>
+    <rt:event type="OnClick">LoadNew(&quot;fak50_60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;FAK50-60&quot;"/> 
+  </image>
+  <image x="16.5001" y="199.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система подачи вод бассейна выдержки на очистку</title>
+    <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;FAL50-70&quot;"/> 
+  </image>
+  <image x="16.5001" y="164.289" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки баков запаса раствора реагента для химического закрепления йода</title>
+    <rt:event type="OnClick">LoadNew(&quot;fak80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;FAK80&quot;"/> 
+  </image>
+  <image x="16.5001" y="342.228" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система парогенераторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jea10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEA10&quot;"/> 
+  </image>
+  <image x="16.5001" y="377.743" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система парогенераторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jea20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEA20&quot;"/> 
+  </image>
+  <image x="16.5001" y="413.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система парогенераторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jea30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEA30&quot;"/> 
+  </image>
+  <image x="16.5001" y="449.38" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система парогенераторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;jea40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEA40&quot;"/> 
+  </image>
+  <image x="16.5001" y="234.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система подачи вод бассейна выдержки на очистку</title>
+    <rt:event type="OnClick">LoadNew(&quot;fal51_52&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;FAL51-52&quot;"/> 
+  </image>
+  <image x="16.5001" y="520.637" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры ГЦНА</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB00&quot;"/> 
+  </image>
+  <image x="16.5001" y="557.387" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Главный циркуляционный насосный агрегат</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB10&quot;"/> 
+  </image>
+  <image x="16.5001" y="593.38" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Главный циркуляционный насосный агрегат</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB20&quot;"/> 
+  </image>
+  <image x="16.5001" y="629.432" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Главный циркуляционный насосный агрегат</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB30&quot;"/> 
+  </image>
+  <image x="16.5001" y="665.432" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Главный циркуляционный насосный агрегат</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB40&quot;"/> 
+  </image>
+  <image x="16.5001" y="700.652" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программа пуска ГЦНА-1</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB11&quot;"/> 
+  </image>
+  <image x="16.5001" y="736.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программа пуска ГЦНА-2</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB21&quot;"/> 
+  </image>
+  <image x="16.5001" y="771.674" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программа пуска ГЦНА-3</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb31&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB31&quot;"/> 
+  </image>
+  <image x="16.5001" y="808.25" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программа пуска ГЦНА-4</title>
+    <rt:event type="OnClick">LoadNew(&quot;jeb41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB41&quot;"/> 
+  </image>
+  <image x="16.5001" y="270.539" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Корпус реактора</title>
+    <rt:event type="OnClick">LoadNew(&quot;jaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JAA&quot;"/> 
+  </image>
+  <image x="16.5001" y="485.13" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система контроля уровня в парогенераторах и влажности пара в паропроводах</title>
+    <rt:event type="OnClick">LoadNew(&quot;jea50_90&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEA50-90&quot;"/> 
+  </image>
+  <image x="238.75" y="92" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дренажей и организованных протечек I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;kta_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTA1&quot;"/> 
+  </image>
+  <image x="129.333" y="808.302" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система газоснабжения азотом</title>
+    <rt:event type="OnClick">LoadNew(&quot;kra10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KRA10-20&quot;"/> 
+  </image>
+  <image x="129.333" y="773.378" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сжигания водорода из радиоакти</title>
+    <rt:event type="OnClick">LoadNew(&quot;kpl&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPL&quot;"/> 
+  </image>
+  <image x="238.75" y="128.478" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система дренажей и организованных протечек I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;kta_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTA2&quot;"/> 
+  </image>
+  <image x="238.75" y="164.289" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система газовых сдувок</title>
+    <rt:event type="OnClick">LoadNew(&quot;ktb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTB&quot;"/> 
+  </image>
+  <image x="238.75" y="199.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система сбора боросодержащих вод систем</title>
+    <rt:event type="OnClick">LoadNew(&quot;ktc&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTC&quot;"/> 
+  </image>
+  <image x="238.75" y="235.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система спецканализации здания (напорная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;kth1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTH1&quot;"/> 
+  </image>
+  <image x="238.75" y="594.432" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;lab30_60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB30-60&quot;"/> 
+  </image>
+  <image x="238.75" y="270.939" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система спецканализации здания (напорная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;kth2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTH2&quot;"/> 
+  </image>
+  <image x="238.75" y="306.539" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система спецканализации здания (напорная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;kth3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTH3&quot;"/> 
+  </image>
+  <image x="238.75" y="342.228" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система спецканализации здания (напорная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;kth4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTH4&quot;"/> 
+  </image>
+  <image x="238.75" y="485.637" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроиспытаний и продувки датчиков КИП дистилятом</title>
+    <rt:event type="OnClick">LoadNew(&quot;kwa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KWA&quot;"/> 
+  </image>
+  <image x="238.75" y="522.387" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроиспытаний ПГ по II контуру</title>
+    <rt:event type="OnClick">LoadNew(&quot;kwb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KWB50&quot;"/> 
+  </image>
+  <image x="238.75" y="558.38" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроиспытаний и продувки датчиков КИП боросодержащей водой</title>
+    <rt:event type="OnClick">LoadNew(&quot;kwc&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KWC&quot;"/> 
+  </image>
+  <image x="238.75" y="413.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система отбора проб из оборудования здания 10UJA</title>
+    <rt:event type="OnClick">LoadNew(&quot;kua10_50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUA10-50&quot;"/> 
+  </image>
+  <image x="238.75" y="630.432" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки и дренажей ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcq00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCQ00&quot;"/> 
+  </image>
+  <image x="238.75" y="665.652" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки и дренажей ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcq01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCQ01&quot;"/> 
+  </image>
+  <image x="238.75" y="701.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки и дренажей ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcq10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCQ10-20&quot;"/> 
+  </image>
+  <image x="238.75" y="736.674" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки и дренажей ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcq30_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCQ30-40&quot;"/> 
+  </image>
+  <image x="238.75" y="449.38" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система автоматизированного химического контроля I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;kua60_80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUA60-80&quot;"/> 
+  </image>
+  <image x="238.75" y="773.25" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>КИП системы продувки и дренажей ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;lcq10kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCQ10kip&quot;"/> 
+  </image>
+  <image x="350" y="92" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50&quot;"/> 
+  </image>
+  <image x="350" y="128.478" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50-1&quot;"/> 
+  </image>
+  <image x="350" y="164.289" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;pgb50_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50-2&quot;"/> 
+  </image>
+  <image x="238.75" y="377.743" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система контроля плотности облицовки бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;ktq&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTQ&quot;"/> 
+  </image>
+  <image x="1320" y="457" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Градирня</title>
+    <rt:event type="OnClick">LoadNew(&quot;ura&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;URA&quot;"/> 
+  </image>
+  <image x="1562.03" y="742" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_akga&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АКГА&quot;"/> 
+  </image>
+  <image x="16.5001" y="304.539" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль параметров корпуса реактора</title>
+    <rt:event type="OnClick">LoadNew(&quot;jaa_contr&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JAA-CONTR&quot;"/> 
+  </image>
+  <image x="181.5" y="949.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;ro_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;РО накладки&quot;"/> 
+  </image>
+  <image x="729.875" y="950" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;usbt_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;УСБТ накладки&quot;"/> 
+  </image>
+  <image x="965" y="950" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;to_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ТО накладки&quot;"/> 
+  </image>
+  <image x="1127" y="950" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;bns_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;БНС накладки&quot;"/> 
+  </image>
+  <image x="1294" y="950" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;echsz_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСЗ накладки&quot;"/> 
+  </image>
+  <image x="1747" y="367.125" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;svo_nakladki&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВО накладки&quot;"/> 
+  </image>
+  <image x="729.875" y="896.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_dsz&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ДСЗ&quot;"/> 
+  </image>
+  <image x="1683" y="897.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;skkv&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СККВ&quot;"/> 
+  </image>
+  <image x="1562.03" y="795.454" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;sakut&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;САКУТ&quot;"/> 
+  </image>
+  <image x="564" y="842.5" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;fgu_usbt_all&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ УСБТ&quot;"/> 
+  </image>
+  <image x="1747" y="258.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;fgu_svo_all&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ СВО&quot;"/> 
+  </image>
+  <image x="1747.48" y="579" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;axk-1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;AXK-1&quot;"/> 
+  </image>
+  <image x="1747.48" y="632.25" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;axk-2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;AXK-2&quot;"/> 
+  </image>
+  <image x="181.5" y="900" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;avr_ro&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АВР РО&quot;"/> 
+  </image>
+  <image x="1129" y="843" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;avr_to&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АВР ТО&quot;"/> 
+  </image>
+  <image x="1563.03" y="846.454" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_bs&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;МПУ БС&quot;"/> 
+  </image>
+  <image x="350" y="950" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;all_saudg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;САУ ДГ&quot;"/> 
+  </image>
+  <text x="50" y="25" fill="black" font-size="15" font-weight="700" text-anchor="middle">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+ALL_NSB</text>
+  <image x="127" y="341" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки-подпитки I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;20kba00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20KBA00&quot;"/> 
+  </image>
+  <image x="1207" y="526" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;mkf01&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MKF01&quot;"/> 
+  </image>
+  <image x="1207" y="562.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;mkf50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MKF50&quot;"/> 
+  </image>
+  <image x="1207" y="598" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;mkg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MKG&quot;"/> 
+  </image>
+  <image x="1320" y="526" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_cn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;CN&quot;"/> 
+  </image>
+  <image x="1320" y="390.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_pen&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEN&quot;"/> 
+  </image>
+  <image x="1319" y="491" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asvd_tg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;TG&quot;"/> 
+  </image>
+  <image x="1320" y="562.515" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;er1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСР&quot;"/> 
+  </image>
+  <image x="983" y="355.295" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль ПЭН_1</title>
+    <rt:event type="OnClick">LoadNew(&quot;lackip_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LACkip-1&quot;"/> 
+  </image>
+  <image x="983" y="390.841" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Контроль ПЭН_2</title>
+    <rt:event type="OnClick">LoadNew(&quot;lackip_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LACkip-2&quot;"/> 
+  </image>
+  <image x="350" y="484.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jkm_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JKM_1&quot;"/> 
+  </image>
+  <image x="350" y="519" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;jkm_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JKM_2&quot;"/> 
+  </image>
+  <image x="1320" y="598" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система утплотнения турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;reg_to&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Рег. ТО&quot;"/> 
+  </image>
+  <image x="1747" y="314.75" width="150" height="40" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;uptv_fgu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ФГУ УПТВ&quot;"/> 
+  </image>
+  <image x="782.5" y="129" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Быстродействующий запорно-отсечной клапан</title>
+    <rt:event type="OnClick">LoadNew(&quot;pab_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAB1&quot;"/> 
+  </image>
+  <image x="782.5" y="163.819" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Быстродействующий запорно-отсечной клапан</title>
+    <rt:event type="OnClick">LoadNew(&quot;pab_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAB2&quot;"/> 
+  </image>
+  <image x="782.5" y="200.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Быстродействующий запорно-отсечной клапан</title>
+    <rt:event type="OnClick">LoadNew(&quot;pab_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAB3&quot;"/> 
+  </image>
+  <image x="782.5" y="236.622" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Быстродействующий запорно-отсечной клапан</title>
+    <rt:event type="OnClick">LoadNew(&quot;pab_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PAB4&quot;"/> 
+  </image>
+  <image x="782.5" y="271.7" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;peb1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB1&quot;"/> 
+  </image>
+  <image x="782.5" y="306.917" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;peb2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB2&quot;"/> 
+  </image>
+  <image x="782.5" y="378.871" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;pec10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEC10&quot;"/> 
+  </image>
+  <image x="782.5" y="414.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;pec20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEC20&quot;"/> 
+  </image>
+  <image x="782.5" y="342.917" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;peb10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB10-20&quot;"/> 
+  </image>
+  <image x="783" y="450.047" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;psp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP&quot;"/> 
+  </image>
+  <image x="782.5" y="484.835" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;psp1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 1&quot;"/> 
+  </image>
+  <image x="782.5" y="520.69" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;psp2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 2&quot;"/> 
+  </image>
+  <image x="557" y="90.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов бассейна выдержки и шахт ВКУ-Сплинкерная система</title>
+    <rt:event type="OnClick">LoadNew(&quot;fak_jmn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;FAK-JMN&quot;"/> 
+  </image>
+  <image x="668" y="90.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JND&quot;"/> 
+  </image>
+  <image x="668" y="415.69" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного охлаждения активной зоны (пассивная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng50_80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG50-80&quot;"/> 
+  </image>
+  <image x="668" y="451.292" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура ответственных потребителей здания 10UJA</title>
+    <rt:event type="OnClick">LoadNew(&quot;kaa1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA1&quot;"/> 
+  </image>
+  <image x="668" y="484.835" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура ответственных потребителей здания 10UJA</title>
+    <rt:event type="OnClick">LoadNew(&quot;kaa2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA2&quot;"/> 
+  </image>
+  <image x="668" y="520.69" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема КИП насосов промконтура охлаждения потребителей 1 канал</title>
+    <rt:event type="OnClick">LoadNew(&quot;kaa11_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA11-12&quot;"/> 
+  </image>
+  <image x="668" y="556.852" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема КИП насосов промконтура охлаждения потребителей 2 канал</title>
+    <rt:event type="OnClick">LoadNew(&quot;kaa21_22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA21-22&quot;"/> 
+  </image>
+  <image x="668" y="129" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnd11_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JND11_12&quot;"/> 
+  </image>
+  <image x="668" y="163.819" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnd21_22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JND21_22&quot;"/> 
+  </image>
+  <image x="668" y="200.917" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система компенсации давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;jef&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEF&quot;"/> 
+  </image>
+  <image x="668" y="272.871" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG10&quot;"/> 
+  </image>
+  <image x="668" y="308.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG20&quot;"/> 
+  </image>
+  <image x="668" y="344.047" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng30&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG30&quot;"/> 
+  </image>
+  <image x="668" y="379.835" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG40&quot;"/> 
+  </image>
+  <image x="668" y="236.917" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;jng10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG10-40&quot;"/> 
+  </image>
+  <image x="557" y="129" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема КИП насосов бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;21_22fak&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21-22FAK&quot;"/> 
+  </image>
+  <image x="557" y="163.819" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;21jna&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21JNA&quot;"/> 
+  </image>
+  <image x="557" y="199.538" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;22jna&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22JNA&quot;"/> 
+  </image>
+  <image x="557" y="236.7" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного и планового расхолаживания низкого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;jna11_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNA11_12&quot;"/> 
+  </image>
+  <image x="557" y="272.917" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного и планового расхолаживания низкого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;jna21_22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNA21_22&quot;"/> 
+  </image>
+  <image x="557" y="308.493" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного расхолаживания ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB&quot;"/> 
+  </image>
+  <image x="557" y="343.835" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного  расхолаживания ПГ1 и ПГ2</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb10kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB10KIP&quot;"/> 
+  </image>
+  <image x="557" y="377.835" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Схема обвязки и КИП насоса аварийного  расхолаживания ПГ3 и ПГ4</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb30kip&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB30KIP&quot;"/> 
+  </image>
+  <image x="784.5" y="90.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов свежего пара</title>
+    <rt:event type="OnClick">LoadNew(&quot;lba10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBA10-40&quot;"/> 
+  </image>
+  <image x="557" y="413.69" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB50&quot;"/> 
+  </image>
+  <image x="557" y="449.852" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB60&quot;"/> 
+  </image>
+  <image x="557" y="485.474" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb70&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB70&quot;"/> 
+  </image>
+  <image x="557" y="521.078" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;jnb80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB80&quot;"/> 
+  </image>
+  <image x="667.5" y="592.474" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аврийного газоудаления</title>
+    <rt:event type="OnClick">LoadNew(&quot;ktp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KTP&quot;"/> 
+  </image>
+  <image x="668" y="628.078" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система паропроводов свежего пара</title>
+    <rt:event type="OnClick">LoadNew(&quot;lba&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBA&quot;"/> 
+  </image>
+</svg>

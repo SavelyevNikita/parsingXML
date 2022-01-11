@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" color="Col_BGSand" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="ALL_SKUEH" stroke="black">
+  <rt:model modelversion="7.2.0.24" comment="Создано VNIIAES-ASUTP" revision="2.0" > 
+
+    <rt:param name="stat_color_BLOLG_T" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_SHPT_SNE_NE" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BDE" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BDF" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_SHEMAS_N" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_SHPT_SAE" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BBD" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BBA" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BHB" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BBC" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BHC" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BHA" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_10BBB" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    <rt:param name="stat_color_SHPT_SUZ" datatype="ushort" value="9" comment="код цвета рамки"/> 
+    
+    <rt:sub>Function AltStation_Color(ByVal AltStName As String) As UShort
+
+Dim result As UShort
+
+Dim AltStCount As Integer
+Dim AltStNames(20) As String
+Dim par_rest As String
+Dim index As Integer
+par_rest = PRJSPEC.GetAllPars(AltStName, AltStCount, AltStNames)
+
+Dim alt_st(20) As PlsStation &apos; Не более 20-ти станций
+
+Dim NoAckCounterSum7 As Integer
+Dim AlarmCounterSum7 As Integer
+Dim NoAckCounterSum6 As Integer
+Dim AlarmCounterSum6 As Integer
+Dim NoAckCounterSum5 As Integer
+Dim AlarmCounterSum5 As Integer
+Dim NoAckCounterSumOthers As Integer
+Dim AlarmCounterSumOthers As Integer
+Dim tmpStation As PlsStation
+
+NoAckCounterSum7 = 0
+AlarmCounterSum7 = 0
+NoAckCounterSum6 = 0
+AlarmCounterSum6 = 0
+NoAckCounterSum5 = 0
+AlarmCounterSum5 = 0
+NoAckCounterSumOthers = 0
+AlarmCounterSumOthers = 0
+
+index = 0
+While (index &lt; AltStCount)
+  Set tmpStation = RTAPLS.Station(AltStNames(index))
+
+  If (tmpStation &lt;&gt; nothing &amp;&amp; tmpStation.StationType == PLS_STATIONTYP_ALTERNATE) Then
+
+	NoAckCounterSum7 = NoAckCounterSum7 + tmpStation.NoAckCounterSum(7)
+	AlarmCounterSum7 = AlarmCounterSum7 + tmpStation.AlarmCounterSum(7)
+	NoAckCounterSum6 = NoAckCounterSum6 + tmpStation.NoAckCounterSum(6)
+	AlarmCounterSum6 = AlarmCounterSum6 + tmpStation.AlarmCounterSum(6)
+	NoAckCounterSum5 = NoAckCounterSum5 + tmpStation.NoAckCounterSum(5)
+	AlarmCounterSum5 = AlarmCounterSum5 + tmpStation.AlarmCounterSum(5)
+	NoAckCounterSumOthers = NoAckCounterSumOthers + tmpStation.NoAckCounterSum(4) + tmpStation.NoAckCounterSum(3) + tmpStation.NoAckCounterSum(2) + tmpStation.NoAckCounterSum(1)
+	AlarmCounterSumOthers = AlarmCounterSumOthers + tmpStation.AlarmCounterSum(4) + tmpStation.AlarmCounterSum(3) + tmpStation.AlarmCounterSum(2) + tmpStation.AlarmCounterSum(1)
+
+  End If
+
+  index = index + 1
+Wend
+
+result = 9		&apos;нет станции - стандартный серый цвет
+
+If (NoAckCounterSum7 &gt; 0) Then
+	result = 1 | 64	&apos; мигает красным
+ElseIf (AlarmCounterSum7 &gt; 0) Then
+	result = 1		&apos; красный
+ElseIf (NoAckCounterSum6 &gt; 0) Then
+	result = 3 | 64	&apos; мигает желтым
+ElseIf (AlarmCounterSum6 &gt; 0) Then
+	result = 3		&apos; желтый
+ElseIf (NoAckCounterSum5 &gt; 0) Then
+	result = 6 | 64	&apos; мигает голубым
+ElseIf (AlarmCounterSum5 &gt; 0) Then
+	result = 6		&apos; голубой
+ElseIf (NoAckCounterSumOthers &gt; 0) Then
+	result = 7 | 64	&apos; мигает белым
+ElseIf (AlarmCounterSumOthers &gt; 0) Then
+	result = 7		&apos; белый
+Else
+	result = 9	&apos;цвет фона
+End If
+
+AltStation_Color = result
+
+End Function</rt:sub>
+    <rt:sub>Sub Light_frames()
+	'stat_color_BLOLG_T = AltStation_Color(&quot;&quot;)
+	'stat_color_SHPT_SNE_NE = AltStation_Color(&quot;&quot;)
+	stat_color_10BDE = AltStation_Color(&quot;0000#10BDE&quot;)
+	stat_color_10BDF = AltStation_Color(&quot;0000#10BDF&quot;)
+	stat_color_SHEMAS_N = AltStation_Color(&quot;0000#SHEMAS_N&quot;)
+	stat_color_SHPT_SAE = AltStation_Color(&quot;000B#SHPT_SAE&quot;)
+	stat_color_10BBD = AltStation_Color(&quot;0000#10BBD&quot;)
+	'stat_color_10BBA = AltStation_Color(&quot;&quot;)
+	stat_color_10BHB = AltStation_Color(&quot;0000#10BHB&quot;)
+	stat_color_10BBC = AltStation_Color(&quot;0000#10BBC&quot;)
+	stat_color_10BHC = AltStation_Color(&quot;0000#10BHC&quot;)
+	stat_color_10BHA = AltStation_Color(&quot;0000#10BHA&quot;)
+	stat_color_10BBB = AltStation_Color(&quot;0000#10BBB&quot;)
+	'stat_color_SHPT_SUZ = AltStation_Color(&quot;&quot;)
+	
+End Sub</rt:sub>
+    <rt:cycleTrigger name="cycle_1s" cycle="1" unit="second">
+      <rt:code>Light_frames()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  
+  <text x="874.333" y="49.3333" fill="black" font-size="30" text-anchor="middle">Обобщенный видеокадр СКУ ЭЧ</text>
+  <image x="1076" y="150" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("blolg_t")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Блок Г-Т&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+  </image>
+  <image x="490" y="651" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("shpt_sne_ne")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЩПТ СНЭ НЭ&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+  </image>
+  <image x="576" y="526" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bde")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BDE&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BDE, Col_Ar(9))"/>
+  </image>
+  <image x="1076" y="526" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bdf")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BDF&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BDF, Col_Ar(9))"/>
+  </image>
+  <image x="576" y="150" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("shemas_n")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Схема СН&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_SHEMAS_N, Col_Ar(9))"/>
+  </image>
+  <image x="812" y="650" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("shpt_sae")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЩПТ САЭ&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_SHPT_SAE, Col_Ar(9))"/>
+  </image>
+  <image x="1198" y="275" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bbd")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BBD&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BBD, Col_Ar(9))"/>
+  </image>
+  <image x="448" y="274" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bba")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BBA&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+  </image>
+  <image x="812" y="400" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bhb")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BHB&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BHB, Col_Ar(9))"/>
+  </image>
+  <image x="950" y="275" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bbc")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BBC&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BBC, Col_Ar(9))"/>
+  </image>
+  <image x="1149" y="400" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bhc")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BHC&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BHC, Col_Ar(9))"/>
+  </image>
+  <image x="490" y="400" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bha")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BHA&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BHA, Col_Ar(9))"/>
+  </image>
+  <image x="699" y="275" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("10bbb")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;10BBB&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(stat_color_10BBB, Col_Ar(9))"/>
+  </image>
+  <rect x="427" y="125" width="1000.5" height="625" rx="0" ry="0" fill="none" stroke="black" stroke-width="3" />
+  <line x1="427" y1="250" x2="1427.5" y2="250" stroke="black" stroke-width="3" />
+  <line x1="428" y1="376" x2="1428" y2="376" stroke="black" stroke-width="3" />
+  <line x1="427" y1="500" x2="1429" y2="500" stroke="black" stroke-width="3" />
+  <line x1="428" y1="625" x2="1427.5" y2="625" stroke="black" stroke-width="3" />
+  <line x1="926" y1="125" x2="926" y2="250" stroke="black" stroke-width="3" />
+  <line x1="676" y1="250" x2="676" y2="375" stroke="black" stroke-width="3" />
+  <line x1="926" y1="250" x2="926" y2="375" stroke="black" stroke-width="3" />
+  <line x1="1176" y1="250" x2="1176" y2="375" stroke="black" stroke-width="3" />
+  <line x1="751.3" y1="375" x2="751.3" y2="500" stroke="black" stroke-width="3" />
+  <line x1="1077" y1="375" x2="1077" y2="500" stroke="black" stroke-width="3" />
+  <line x1="926" y1="500" x2="926" y2="625" stroke="black" stroke-width="3" />
+  <line x1="751.3" y1="623" x2="751.3" y2="748" stroke="black" stroke-width="3" />
+  <line x1="1077" y1="623" x2="1077" y2="748" stroke="black" stroke-width="3" />
+  <image x="1149" y="650" width="200" height="50" xlink:href="obj_Button.svg" font-weight="500">
+    <rt:event type="OnClick">LoadNew("shpt_suz")</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЩПТ СУЗ&quot;" />
+    <rt:dyn type="T_Size" mode="constant" value="30" />
+    <rt:dyn type="T_Weight" mode="constant" value="&quot;normal&quot;" />
+  </image>
+</svg>

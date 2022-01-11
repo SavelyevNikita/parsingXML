@@ -1,0 +1,597 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="skuv_kle23">
+  <title>Вытяжная система вентиляции помещений НЭ и СВО в здании UKC</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_skuv&#10;LMod skuv_kle08_09&#10;RMod skuv_kle24" revision="3"/> 
+  <line x1="1510.5" y1="368.5" x2="1510.5" y2="418.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="862" y1="502" x2="862" y2="502" stroke="black"/> 
+  <text x="340.212" y="29.5454" font-size="30" font-weight="700">Вытяжная система вентиляции помещений НЭ и СВО в здании UKC (20KLE23)</text>
+  <line x1="1876" y1="169.776" x2="170" y2="169.776" stroke="black" stroke-width="3"/> 
+  <polygon points="-513.687,-87.0845 -526.187,-61.5845 -500.187,-62.0845" transform="flipX(154.213) rotate(90 169.605 77.602) flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <image x="1025" y="133" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CT002&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1875" y1="60" x2="1875" y2="772" stroke="black" stroke-width="3"/> 
+  <text x="32.7576" y="148.545" font-size="15">Из помещений<tspan x="32.7576" dy="15">здания UKC</tspan>
+<tspan x="32.7576" dy="15">с возможными</tspan>
+<tspan x="32.7576" dy="15">протечками</tspan>
+<tspan x="32.7576" dy="15">радиоакт сред</tspan>
+  </text>
+  <line x1="849" y1="417" x2="849" y2="772" stroke="black" stroke-width="3"/> 
+  <image x="617.333" y="600.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CF004&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CF004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="607" y1="471" x2="607" y2="721" stroke="black" stroke-width="3"/> 
+  <line x1="373.184" y1="721" x2="607" y2="721" stroke="black" stroke-width="3"/> 
+  <line x1="375.224" y1="471" x2="607" y2="471" stroke="black" stroke-width="3"/> 
+  <image x="864.924" y="127.25" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA013&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA013&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="865.549" y="205.75" font-size="15">20KLE23<tspan x="865.549" dy="15">AA013</tspan>
+  </text>
+  <text x="697.5" y="466" font-size="15">20KLE23<tspan x="697.5" dy="15">AA014</tspan>
+  </text>
+  <image x="522" y="428.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA007&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA007&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="526" y="509.265" font-size="15">20KLE23<tspan x="526" dy="15">AA007</tspan>
+  </text>
+  <text x="427" y="510.286" font-size="15">20KLE23<tspan x="427" dy="15">AA201</tspan>
+  </text>
+  <image x="422" y="428.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;20KLE23AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA201&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="426.06" y="405.03" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20KLE23AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA201&quot;"/> 
+  </image>
+  <text x="332" y="521" font-size="15">20KLE23<tspan x="332" dy="15">AN001</tspan>
+  </text>
+  <image x="522" y="678.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA008&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA008&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="526" y="759.265" font-size="15">20KLE23<tspan x="526" dy="15">AA008</tspan>
+  </text>
+  <text x="427" y="760.286" font-size="15">20KLE23<tspan x="427" dy="15">AA202</tspan>
+  </text>
+  <image x="422" y="678.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(0 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;20KLE23AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA202&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="426.06" y="655.03" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20KLE23AA202&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA202&quot;"/> 
+  </image>
+  <text x="332" y="771" font-size="15">20KLE23<tspan x="332" dy="15">AN002</tspan>
+  </text>
+  <line x1="157" y1="707" x2="343.592" y2="707" stroke="black" stroke-width="3"/> 
+  <image x="322" y="686" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.26362e-005)">
+    <title>&quot;20KLE23AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="197" y="664.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA010&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA010&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="203" y="745.265" font-size="15">20KLE23<tspan x="203" dy="15">AA010</tspan>
+  </text>
+  <line x1="157" y1="457" x2="343.592" y2="457" stroke="black" stroke-width="3"/> 
+  <image x="197" y="414.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA009&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA009&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="203" y="495.265" font-size="15">20KLE23<tspan x="203" dy="15">AA009</tspan>
+  </text>
+  <image x="322" y="436" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.26362e-005)">
+    <title>&quot;20KLE23AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <line x1="157" y1="457.224" x2="157" y2="707.224" stroke="black" stroke-width="3"/> 
+  <line x1="82" y1="582.09" x2="157" y2="582.09" stroke="black" stroke-width="3"/> 
+  <line x1="849" y1="771" x2="1874" y2="771" stroke="black" stroke-width="3"/> 
+  <image x="864.924" y="728.499" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA006&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA006&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1797.47" y="728.499" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="949.84" y="1644.84" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1808.7" y1="907.797" x2="1808.7" y2="994.161" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="817.96" y="1511.32" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1621.03" y1="907.802" x2="1621.03" y2="994.167" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="549.258" y="1238.46" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1238.07" y1="907.232" x2="1238.07" y2="993.596" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="687.466" y="1379.21" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1435.33" y1="907.802" x2="1435.33" y2="994.167" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <line x1="1255" y1="720.583" x2="1255" y2="770.583" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="1221" y="706.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP006&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1798.35" y="810.379" font-size="15">20KLE23<tspan x="1798.35" dy="15">AA003</tspan>
+  </text>
+  <text x="865.549" y="810.379" font-size="15">20KLE23<tspan x="865.549" dy="15">AA006</tspan>
+  </text>
+  <text x="1407.75" y="717.5" font-size="15">20KLE23<tspan x="1407.75" dy="15">AT009</tspan>
+  </text>
+  <line x1="1099" y1="726.705" x2="1099" y2="770.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1212" y1="770.583" x2="1212" y2="832.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="607" y1="595" x2="1875" y2="595" stroke="black" stroke-width="3"/> 
+  <image x="864.924" y="552.499" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA005&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1797.47" y="552.499" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="1122.87" y="1476.93" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1810.82" y1="666.702" x2="1810.82" y2="753.064" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="990.02" y="1342.44" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1621.78" y1="666.708" x2="1621.78" y2="753.072" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="721.319" y="1069.58" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1238.82" y1="666.136" x2="1238.82" y2="752.5" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="856.65" y="1207.4" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1431.97" y1="666.708" x2="1431.97" y2="753.072" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <line x1="1255" y1="544.583" x2="1255" y2="594.583" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="1798.35" y="634.379" font-size="15">20KLE23<tspan x="1798.35" dy="15">AA002</tspan>
+  </text>
+  <text x="865.549" y="634.379" font-size="15">20KLE23<tspan x="865.549" dy="15">AA005</tspan>
+  </text>
+  <text x="1407.75" y="542.5" font-size="15">20KLE23<tspan x="1407.75" dy="15">AT005</tspan>
+  </text>
+  <line x1="1098" y1="550.705" x2="1098" y2="594.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1212" y1="594.583" x2="1212" y2="651.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="1525.61" y="645.583" font-size="15">20KLE23<tspan x="1525.61" dy="15">AH002</tspan>
+  </text>
+  <line x1="850" y1="418.832" x2="1875" y2="418.832" stroke="black" stroke-width="3"/> 
+  <image x="864.924" y="376.332" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1797.47" y="376.332" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;20KLE23AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="1294.56" y="1307.35" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1810.82" y1="425.376" x2="1810.82" y2="511.74" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="1159.79" y="1170.91" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1619.04" y1="425.383" x2="1619.04" y2="511.747" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="891.09" y="898.046" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1236.08" y1="424.813" x2="1236.08" y2="511.177" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <g transform="scale(0.73 0.73 439.5 285.5)">
+    <rect x="1024.49" y="1033.92" width="65" height="65" rx="0" ry="0" fill="Col_Grey4" transform="rotate(360 532.506 746.174) rotate(0 532.1 745.087) rotate(314.645 525.5 325)"/> 
+    <line x1="1426.49" y1="425.383" x2="1426.49" y2="511.746" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <line x1="1255" y1="368.416" x2="1255" y2="418.416" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="1798.35" y="458.212" font-size="15">20KLE23<tspan x="1798.35" dy="15">AA001</tspan>
+  </text>
+  <text x="865.549" y="458.212" font-size="15">20KLE23<tspan x="865.549" dy="15">AA004</tspan>
+  </text>
+  <text x="1407.75" y="365.5" font-size="15">20KLE23<tspan x="1407.75" dy="15">AT001</tspan>
+  </text>
+  <image x="929.453" y="475.416" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP010&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP010&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1098" y1="374.538" x2="1098" y2="418.661" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1212" y1="418.416" x2="1212" y2="480.661" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="1114.61" y="475.416" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP007&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP007&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1525.61" y="467.416" font-size="15">20KLE23<tspan x="1525.61" dy="15">AH001</tspan>
+  </text>
+  <text x="15.5151" y="577.061" font-size="15">В вент<tspan x="15.5151" dy="15">трубу</tspan>
+  </text>
+  <g>
+    <rect x="1527.94" y="382.243" width="70" height="70" rx="0" ry="0" fill="Col_Grey4"/> 
+    <image x="1537.94" y="389.743" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;20KLE23AH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AH001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g>
+    <rect x="1527.94" y="560.697" width="70" height="70" rx="0" ry="0" fill="Col_Grey4"/> 
+    <image x="1537.94" y="568.197" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;20KLE23AH002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AH002&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g>
+    <rect x="1527.94" y="733.909" width="70" height="70" rx="0" ry="0" fill="Col_Grey4"/> 
+    <image x="1537.94" y="741.409" width="50" height="55" xlink:href="DS_switch.svg">
+      <title>&quot;20KLE23AH003&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AH003&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1525.61" y="819.583" font-size="15">20KLE23<tspan x="1525.61" dy="15">AH003</tspan>
+    </text>
+  </g>
+  <g transform="scale(1.41 1.41 27.4545 237.121) scale(0.64313 0.64313 1873.19 332.499)">
+    <circle cx="-684.804" cy="60.8703" r="23" fill="gray" stroke="black"/> 
+    <path d="M-684.804 62.8703 L-694.804 82.6203 L-674.804 82.6203 " fill="Col_BGSand"/> 
+    <path d="M-398.645 -482.259 L-408.395 -460.009 L-388.395 -460.009 " fill="Col_BGSand" transform="rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <path d="M613.182 701.005 L603.432 723.253 L623.432 723.253 " fill="Col_BGSand" transform="flipX(93.5629) rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <circle cx="-684.235" cy="60.7643" r="8" fill="Col_BGSand"/> 
+    <circle cx="-684.564" cy="60.5533" r="4" fill="gray"/> 
+  </g>
+  <image x="357" y="94" width="226" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CR202B01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CR202B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+  <polygon points="-513.687,895.384 -526.187,920.884 -500.187,920.384" transform="flipX(154.213) rotate(90 169.605 77.602) flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <polygon points="151.337,902.52 138.837,928.02 164.837,927.52" transform="flipX(128.541) flipX(154.213) rotate(90 169.605 77.602) flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <image x="1611" y="388.967" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CF001&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="424.416" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM001&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="565.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CF002&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CF002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="600.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM002&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="741.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CF003&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CF003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="776.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM003&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1114.06" y="827.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP009&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP009&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="929.453" y="827.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP012&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP012&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="929.453" y="651.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP011&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="955.45" y="706.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CT005&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1115.61" y="651.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP008&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP008&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="955.45" y="530.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CT004&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1221" y="530.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP005&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1221" y="353.967" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP004&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="955.45" y="353.967" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CT003&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CT003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="811.954" y1="169" x2="811.954" y2="596" stroke="black" stroke-width="3"/> 
+  <image x="767.5" y="433.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 6.10352e-005 -9.99994)">
+    <title>&quot;20KLE23AA014&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA014&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="776.304" y="283.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(270 0 0) flipX() flipX() flipY(-10) flipY(-10)">
+    <title>&quot;20KLE23AA203&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA203&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="true"/> 
+  </image>
+  <image x="700.576" y="291.5" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20KLE23AA203&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23AA203&quot;"/> 
+  </image>
+  <text x="693" y="341.109" font-size="15">20KLE23<tspan x="693" dy="15">AA203</tspan>
+  </text>
+  <image x="325" y="575" width="64" height="45.5" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20KLE23EE003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KLE23EE003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1333" y="475.416" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP001&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1333" y="827.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP003&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1333" y="651.583" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CP002&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1347.5" y1="370.5" x2="1347.5" y2="420.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1120" y1="419.416" x2="1120" y2="473.661" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1488.5" y1="418.5" x2="1488.5" y2="480.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1387.5" y1="418.5" x2="1387.5" y2="480.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1120" y1="594.5" x2="1120" y2="651.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1120" y1="770.5" x2="1120" y2="823.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1347.5" y1="544.5" x2="1347.5" y2="594.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1347.5" y1="720.5" x2="1347.5" y2="770.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1488.5" y1="594.5" x2="1488.5" y2="651.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1387.5" y1="594.5" x2="1387.5" y2="651.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1488.5" y1="770.5" x2="1488.5" y2="832.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1387.5" y1="770.5" x2="1387.5" y2="832.745" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <text x="964" y="818" font-size="15">20KLE23AT012</text>
+  <text x="964" y="643" font-size="15">20KLE23AT008</text>
+  <text x="964" y="466" font-size="15">20KLE23AT004</text>
+  <text x="1138.25" y="720.5" font-size="15">20KLE23<tspan x="1138.25" dy="15">AT011</tspan>
+  </text>
+  <text x="1138.25" y="543.75" font-size="15">20KLE23<tspan x="1138.25" dy="15">AT007</tspan>
+  </text>
+  <text x="1138.25" y="368.25" font-size="15">20KLE23<tspan x="1138.25" dy="15">AT003</tspan>
+  </text>
+  <text x="1238" y="818" font-size="15">20KLE23AT010</text>
+  <text x="1238" y="643" font-size="15">20KLE23AT006</text>
+  <text x="1238" y="466" font-size="15">20KLE23AT002</text>
+  <image x="623.25" y="233.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CF005&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CF005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="958" y1="418.416" x2="958" y2="480.661" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1085" y1="418.416" x2="1085" y2="480.661" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="958" y1="594.583" x2="958" y2="656.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1085" y1="594.583" x2="1085" y2="656.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="958" y1="770.583" x2="958" y2="832.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1085" y1="770.583" x2="1085" y2="832.828" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="1489.5" y="530.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM005&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1489.5" y="353.967" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM004&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1510.5" y1="544.5" x2="1510.5" y2="594.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <line x1="1510.5" y1="720.5" x2="1510.5" y2="770.5" stroke="black" stroke-dasharray="5,5" stroke-width="1"/> 
+  <image x="1489.5" y="706.134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CM006&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CM006&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="102" y="25" fill="black" font-size="15" font-weight="700" text-anchor="middle">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+SKUV_KLE23</text>
+  <image x="463" y="181" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CT001&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1355" y="68.5" font-size="15">Из помещений с постоянными<tspan x="1355" dy="15">протечками радиоактивных сред</tspan>
+  </text>
+  <image x="1375" y="94" width="225" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CR201B01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CR201B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+  <image x="1375" y="133" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CR401B01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CR401B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+  <polygon points="-687.019,-1832.24 -714.439,-1817.73 -714.439,-1848.37" transform="flipX(154.213) rotate(90 169.605 77.602) flipY(392.405) rotate(90 1392.93 388.195) scale(0.62 0.62 1341 369.75) rotate(270 1341 369.75)"/> 
+  <g transform="scale(1.41 1.41 27.4545 237.121) scale(0.64313 0.64313 1873.19 332.499)">
+    <circle cx="998.98" cy="60.8703" r="23" fill="gray" stroke="black"/> 
+    <path d="M998.98 62.8703 L988.98 82.6203 L1008.98 82.6203 " fill="Col_BGSand"/> 
+    <path d="M695.868 797.26 L686.118 819.51 L706.118 819.51 " fill="Col_BGSand" transform="rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <path d="M-481.331 -578.515 L-491.081 -556.267 L-471.081 -556.267 " fill="Col_BGSand" transform="flipX(93.5629) rotate(49.456 0 1.4013e-045) flipY(38.875)"/> 
+    <circle cx="999.549" cy="60.7643" r="8" fill="Col_BGSand"/> 
+    <circle cx="999.22" cy="60.5533" r="4" fill="gray"/> 
+  </g>
+  <image x="358" y="134" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KLE23CR402B01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KLE23CR402B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;R&quot;"/> 
+  </image>
+</svg>

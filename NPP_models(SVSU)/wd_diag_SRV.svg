@@ -1,0 +1,262 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGmain" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 400 250" width="400" height="250" id="wd_diag_SRV" stroke-width="2" font-family="AAP_Font3" font-size="15" font-weight="bold">
+  <desc>Диагностика рабочих станций</desc>
+  <rt:model comment="служебный видеокадр ПОРТАЛа" revision="4.1">
+    <rt:param name="In_Par" datatype="string" comment="Parameter !"/> 
+    <rt:param name="Active" datatype="boolean" comment="Parameter !"/> 
+    <rt:var name="PVID_base" datatype="string" comment="базовая часть идентификаторов"/> 
+    <rt:var name="title_base" datatype="string" comment="окончание строки заголовка"/> 
+    <rt:var name="Stat_text" datatype="string" comment="текст статуса для для серверов другого контура"/> 
+    <rt:var name="IP1_text" datatype="string" comment="IP1"/> 
+    <rt:var name="IP2_text" datatype="string" comment="IP2"/> 
+    <rt:var name="N" datatype="uint" comment="номер"/> 
+    <rt:var name="Color" datatype="uint" comment="цвет статуса"/> 
+    <rt:var name="Validity" datatype="boolean" value="false" comment="Достоверность данных"/> 
+    <rt:var name="SRV_Nodes" datatype="RtaNode" arraysize="3" comment="Массив серверов"/> 
+    <rt:var name="RealLocalNetMask" datatype="ushort" value="3" comment="реальная маска локальной сети, т.е. как данная РС видит все остальные узлы."/> 
+    <rt:var name="Local_Node" datatype="RtaNode" comment="локальный узел"/> 
+    <rt:sub>Sub ShNds()
+Dim Node As RtaNode
+Dim SRV_i As UInt
+
+
+SRV_i = 0
+RealLocalNetMask = 0
+Local_Node = RTA.LocalNode
+
+For Each Node in RTA.Nodes
+ /* If Node.NodeId != Local_Node.NodeId Then
+	RealLocalNetMask = RealLocalNetMask | Node.NetMask
+  End If*/
+  If (Node.IsServer == False) Then
+	
+   Else
+	If (SRV_i &lt; 3) Then
+		SRV_Nodes(SRV_i) = Node
+	End If
+	SRV_i = SRV_i + 1
+   End If
+Next Node
+RealLocalNetMask = Local_Node.NetMask
+Validity = ((RealLocalNetMask &amp; 0xC) != 0)
+
+&apos;нужно для правильной работы на неоперативном контуре
+If SRV_Nodes(0).NodeName = &quot;40HCB30&quot; Then
+SRV_Nodes(2) = SRV_Nodes(0)
+SRV_Nodes(0) = SRV_Nodes(3)
+SRV_Nodes(3) = SRV_Nodes(1)
+SRV_Nodes(1) = SRV_Nodes(0)
+End If
+
+End Sub</rt:sub>
+    <rt:sub>Sub Calc_Color()
+
+&apos;для работы с другим контуром
+ if N == 0 Then
+   Color = NodStatColor(SRV1a_Stat)
+ ElseIf N == 1 Then
+   Color = NodStatColor(SRV1b_Stat)
+ ElseIf N == 2 Then
+   Color = NodStatColor(SRV2a_Stat)
+ ElseIf N == 3 Then
+   Color = NodStatColor(SRV2b_Stat)
+ Else
+   Color = Col_Ar(7)
+ End If
+ if Color == 38531328 Then
+   Stat_text = &quot;РАБОТАЕТ(МАСТЕР)&quot;
+ ElseIf Color == 267756928 Then
+   Stat_text = &quot;РАБОТА В РЕЗЕРВЕ&quot;
+ ElseIf Color == 50395898 Then
+   Stat_text = &quot;РЕЖИМ ПУСКА&quot;
+ ElseIf Color == 16777461 Then
+   Stat_text = &quot;НЕТ&quot;
+ Else
+Stat_text = &quot;&quot;
+ End If
+End Sub</rt:sub>
+    <rt:sub>Sub GetNodeStatus()
+Dim SRV_ID As String
+Dim NStatus As UShort
+Dim NDStatus As UShort
+Dim NodeNet As UShort
+Dim IP1 As String
+Dim IP2 As String
+Dim CPU_load As UShort
+Dim NdID As RtaNode
+
+NdID = SRV_Nodes(N)
+
+If NdID == Nothing Then
+	t_ID.text = &quot;&quot;
+	rect_ID.fill = Col_Ar(7)
+	t_Status.text = &quot;&quot;
+	rect_Status.fill = Col_Ar(7)
+	t_Net_1.text = &quot;&quot;
+	t_Net_2.text = &quot;&quot;
+	rect_Net_1.fill = Col_Ar(7)
+	rect_Net_2.fill = Col_Ar(7)
+	t_DataOK.text = &quot;&quot;
+	rect_DataOK.fill = Col_Ar(7)
+	t_ImpTasks.text = &quot;&quot;
+	rect_ImpTasks.fill = Col_Ar(7)
+
+Else
+	NdID.Refresh()
+	SRV_ID = PLStrCut(NdID.NodeName, 20)
+	NStatus = NdID.NodeStatus
+	IP1 = NdID.IPAddress
+	IP2 = NdID.IPAddress_2
+	NodeNet = NdID.NetMask &amp; 0xC
+	&apos;далее, если своя сеть есть (старшие биты), то младшие биты по И переносим в старшие
+	&apos;это позволит быстрее определять отказы т.к. старшие биты обсчитываются через несколько минут
+	If ((RealLocalNetMask &amp; 4) &gt; 0) Then
+		NodeNet = NodeNet &amp; (((NdID.NetMask &amp; 1) * 4) | 8)
+	End If
+	If ((RealLocalNetMask &amp; 8) &gt; 0) Then
+		NodeNet = NodeNet &amp; (((NdID.NetMask &amp; 2) * 4) | 4)
+	End If
+
+	t_ID.text = NdID.NodeName
+	If Active Then
+		rect_ID.fill = Col_Ar(14)
+	Else
+		rect_ID.fill = Col_Ar(8)
+	End If
+	t_Status.text = ENodeState(NStatus, True)
+	rect_Status.fill = NodStatColor(NStatus)
+	t_Net_1.text = IP1
+	t_Net_2.text = IP2
+	If NStatus &lt; 4 Then
+		rect_Net_1.fill = Col_Ar(8)
+		rect_Net_2.fill = Col_Ar(8)
+		t_DataOK.text = &quot;--&quot;
+		rect_DataOK.fill = Col_Ar(8)
+		t_ImpTasks.text = &quot;--&quot;
+		rect_ImpTasks.fill = Col_Ar(8)
+	Else
+		If (IP1 == &quot;&quot;) || ((RealLocalNetMask &amp; 0xC) == 0) Then
+			rect_Net_1.fill = Col_Ar(8)
+		Else
+			rect_Net_1.fill = Col_Ar((NodeNet &amp; 4) / 4 + 1)
+		End If	
+		If (IP2 == &quot;&quot;) || ((RealLocalNetMask &amp; 0xC) == 0) Then
+			rect_Net_2.fill = Col_Ar(8)
+		Else
+			rect_Net_2.fill = Col_Ar((NodeNet &amp; 8) / 8 + 1)
+		End If	
+		NDStatus = NdID.DataStatus
+		If (NDStatus &amp; RTDATA_STAT_OK) &gt; 0 Then
+			t_DataOK.text = &quot;Да&quot;
+			rect_DataOK.fill = Col_Ar(2)
+		Else
+			t_DataOK.text = &quot;Нет&quot;
+			rect_DataOK.fill = Col_Ar(1)
+		End If
+&apos;задачи пока сделаны через флаги
+		If (NDStatus &amp; RTDATA_STAT_TASKS_OK) Then
+			t_ImpTasks.text = &quot;Работают все&quot;
+			rect_ImpTasks.fill = Col_Ar(2)
+		Else
+			t_ImpTasks.text = &quot;Работают не все&quot;
+			rect_ImpTasks.fill = Col_Ar(1)
+		End If
+	End If
+End If
+
+End Sub</rt:sub>
+    <rt:event type="OnInitialize">Dim p1 As String
+PVID_base = PRJSPEC.ParSplit(In_Par, title_base, p1)
+N = CUByte(p1)
+
+&apos;ip адреса для серверов другого контура
+ if N == 0 Then
+   IP1_text = &quot;192.168.2.1&quot;
+   IP2_text = &quot;192.168.4.1&quot;
+ ElseIf N == 1 Then
+   IP1_text = &quot;192.168.2.2&quot;
+   IP2_text = &quot;192.168.4.2&quot;
+ ElseIf N == 2 Then
+   IP1_text = &quot;192.168.6.3&quot;
+   IP2_text = &quot;192.168.8.3&quot;
+ ElseIf N == 3 Then
+   IP1_text = &quot;192.168.6.4&quot;
+   IP2_text = &quot;192.168.8.4&quot;
+ End If
+
+
+ShNds()
+Calc_Color()
+GetNodeStatus()</rt:event>
+    <rt:cycleTrigger name="ChkNds" cycle="15" unit="second">
+      <rt:code>ShNds()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="CCol_GetNodeStatus" cycle="1" unit="second">
+      <rt:code>Calc_Color()</rt:code>
+      <rt:code>GetNodeStatus()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <rect x="0" y="0" width="400" height="250" rx="0" ry="0" fill="Col_BGwin"/> 
+  <text x="199" y="22" id="Title_text" font-weight="bold" text-anchor="middle">
+    <rt:dyn type="text" mode="cyclic" value="title_base"/> 
+сервер</text>
+  <rect x="0" y="41" width="400" height="169" rx="0" ry="0" id="backgr" fill="Col_BGwin"/> 
+  <rect x="198" y="43" width="200" height="25" rx="0" ry="0" id="rect_ID" fill="Col_Grey1"/> 
+  <rect x="198" y="71" width="200" height="25" rx="0" ry="0" id="rect_Status" fill="Col_Grey1"/> 
+  <rect x="198" y="99" width="200" height="25" rx="0" ry="0" id="rect_Net_1" fill="Col_Grey1"/> 
+  <rect x="198" y="127" width="200" height="25" rx="0" ry="0" id="rect_Net_2" fill="Col_Grey1"/> 
+  <rect x="198" y="155" width="200" height="25" rx="0" ry="0" id="rect_DataOK" fill="Col_Grey1"/> 
+  <rect x="198" y="183" width="200" height="25" rx="0" ry="0" id="rect_ImpTasks" fill="Col_Grey1"/> 
+  <text x="300.239" y="61.5" id="t_ID" text-anchor="middle">Сервер</text>
+  <text x="300.239" y="89" id="t_Status" text-anchor="middle">Статус</text>
+  <text x="300.739" y="116" id="t_Net_1" text-anchor="middle">IP адрес 1</text>
+  <text x="300.239" y="144.5" id="t_Net_2" text-anchor="middle">IP адрес 2</text>
+  <text x="300.239" y="173" id="t_DataOK" text-anchor="middle">НЕТ</text>
+  <text x="300.239" y="199.773" id="t_ImpTasks" text-anchor="middle">Работают не все</text>
+  <text x="21" y="61" id="SVGText8">Сетевое имя сервера</text>
+  <text x="21" y="88.5" id="SVGText9">Статус</text>
+  <text x="21" y="115.5" id="SVGText10">Сеть 1</text>
+  <text x="21" y="144" id="SVGText11">Сеть 2</text>
+  <text x="21" y="172.5" id="SVGText12">Data OK</text>
+  <text x="21" y="199.273" id="SVGText13">Важные задачи</text>
+  <polyline points="1,69 399,69 399,98 1,98 1,126 399,126 399,154 1,154 1,182 399,182" id="SVGPolyline10" fill="none" stroke="black" stroke-width="1"/> 
+  <polyline points="1,42 1,209 399,209 399,42 1,42" id="SVGPolyline11" fill="none" stroke="black" stroke-width="1"/> 
+  <g visibility="hidden" rt:detect="disabled">
+    <rt:dyn type="visibility" mode="constant" value="SRV_Nodes(N) == Nothing" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <rect x="0" y="40" width="400" height="169" rx="0" ry="0" fill="Col_BGwin"/> 
+    <rect x="200" y="54.5" width="200" height="24" rx="0" ry="0" fill="white" stroke="none"/> 
+    <rect x="200" y="80.5" width="200" height="24" rx="0" ry="0" fill="white" stroke="none">
+      <rt:dyn type="fill" mode="cyclic" value="Color"/> 
+    </rect>
+    <text x="16" y="72" id="Title_text3" font-weight="bold" text-anchor="start">Сетевое имя сервера</text>
+    <text x="16" y="97" id="Title_text4" font-weight="bold" text-anchor="start">Статус</text>
+    <text x="16" y="122" id="Title_text5" font-weight="bold" text-anchor="start">Сеть 1</text>
+    <text x="16" y="145" id="Title_text41" font-weight="bold" text-anchor="start">Сеть 2</text>
+    <text x="300" y="121.5" id="Title_text42" font-weight="bold" text-anchor="middle">
+      <rt:dyn type="text" mode="unknown" value="IP1_text"/> 
+192.168.6.4</text>
+    <text x="300" y="147.5" id="Title_text421" font-weight="bold" text-anchor="middle">
+      <rt:dyn type="text" mode="unknown" value="IP2_text"/> 
+192.168.8.4</text>
+    <text x="300" y="98" id="Title_text2" font-weight="bold" text-anchor="middle">
+      <rt:dyn type="text" mode="unknown" value="Stat_text"/> 
+статус</text>
+    <text x="300" y="73" id="Title_text1" font-weight="bold" text-anchor="middle">
+      <rt:dyn type="text" mode="cyclic" value="PVID_base"/> 
+станция</text>
+    <polyline points="1,55 399,55 399,80 1,80 1,105 399,105 399,105 399,130 1,130 1,155 399,155" fill="none" stroke="black" stroke-width="1"/> 
+  </g>
+  <image x="225" y="217" width="160" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;MKB00&quot;, &quot;Состояние МКБ&quot;, &quot;wd_MKB&quot;, PVID_base + &quot;|&quot; + title_base + &quot;|0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ДИАГНОСТИКА МКБ&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="15" y="217" width="160" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;UPS00&quot;, &quot;Состояние ИБП&quot;, &quot;wd_UPS&quot;, PVID_base + &quot;|&quot; + title_base + &quot;|0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ДИАГНОСТИКА ИБП&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+</svg>

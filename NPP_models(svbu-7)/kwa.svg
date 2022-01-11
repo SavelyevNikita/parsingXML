@@ -1,0 +1,299 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kwa">
+  <title>Система гидроиспытаний барботера и продувки датчиков КИП дистиллятом</title>
+  <rt:model modelversion="7.2.0.23" comment="Создано VNIIAES-ASUTP&#10;UMod all_nsb&#10;LMod kua60_80&#10;RMod kwb50" revision="2.0"/> 
+  <line x1="1119.12" y1="595" x2="1593.7" y2="595" stroke="black"/> 
+  <line x1="1433.82" y1="938.379" x2="1593.7" y2="939.228" stroke="black"/> 
+  <line x1="1433.82" y1="852.015" x2="1593.7" y2="852.864" stroke="black"/> 
+  <line x1="1433.82" y1="764.136" x2="1593.7" y2="764.985" stroke="black"/> 
+  <line x1="1433.82" y1="679.772" x2="1593.7" y2="680.621" stroke="black"/> 
+  <line x1="1500" y1="142.667" x2="1500" y2="54.0303" stroke="black" stroke-width="3"/> 
+  <line x1="547" y1="273" x2="736" y2="273" stroke="black" stroke-width="3"/> 
+  <line x1="1793" y1="55.6364" x2="1793" y2="503" stroke="black" stroke-width="3"/> 
+  <line x1="63.788" y1="500" x2="1794.88" y2="500.727" stroke="black" stroke-width="3"/> 
+  <image x="296.364" y="465.879" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;20KWA10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWA10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="326.666" y="469.939" fill="black" font-size="15" text-anchor="middle">20KWA10AP001</text>
+  <image x="77.2727" y="534.152" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWA10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWA10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="336.303" y="534.151" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWA10CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWA10CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="475.636" y="469.94" width="70" height="52.5" xlink:href="DS_reflux_valve.svg" transform="flipX(-6.78543e-005)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="511.242" y="466.909" fill="black" font-size="15" text-anchor="middle">20KWA10AA601</text>
+  <image x="546.424" y="534.152" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20KWA10CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20KWA10CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <line x1="1433" y1="592.424" x2="1433" y2="939.396" stroke="black" stroke-width="1"/> 
+  <rect x="1585.77" y="640.197" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1669.12" y="687.166" fill="black" font-size="15" text-anchor="middle">20UKA04R010</text>
+  <line x1="735" y1="500" x2="735" y2="139" stroke="black" stroke-width="3"/> 
+  <line x1="576.121" y1="137.151" x2="736" y2="138" stroke="black" stroke-width="3"/> 
+  <image x="624" y="95" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="656.545" y="96.152" fill="black" font-size="15" text-anchor="middle">20KWA18AA101</text>
+  <image x="623.954" y="231" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="658.5" y="231" fill="black" font-size="15" text-anchor="middle">20KWA18AA102</text>
+  <line x1="853" y1="427.091" x2="853" y2="498.485" stroke="black" stroke-width="3"/> 
+  <line x1="852.242" y1="427.091" x2="982.545" y2="427.091" stroke="black" stroke-width="3"/> 
+  <image x="829.515" y="385.182" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="rotate(0 0 0) flipX(6.24979) rotate(360 0 0) flipX(6.24991)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="872.243" y="383.121" fill="black" font-size="15" text-anchor="middle">20KWA10AA901</text>
+  <g transform="flipX(511.739) rotate(180 1212.44 532.643)">
+    <polygon points="171.119,97.8448 184.499,105.489 184.499,90.2018 171.119,97.8448" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="996.182" y="431.637" font-size="15">в трап</text>
+  <text x="1200.7" y="364.636" font-size="20" font-weight="bold">UKC</text>
+  <image x="124.545" y="457.818" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-5.81924e-007) rotate(360 -0.00012207 -10)">
+    <title>&quot;20KWA10AA101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="159.091" y="457.818" fill="black" font-size="15" text-anchor="middle">20KWA10AA101</text>
+  <text x="629.758" y="362.879" fill="black" font-size="15" text-anchor="middle">20KWA18AA201</text>
+  <image x="1748.36" y="355.697" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 0 -10) flipY(-10.0002) rotate(270 0 -10)">
+    <title>&quot;22KBC10AA801&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KBC10AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1690.76" y="398.485" fill="black" font-size="15" text-anchor="middle">22KBC10AA801</text>
+  <image x="1747.36" y="146.47" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 0 -10) flipY(-10.0002) rotate(270 0 -10)">
+    <title>&quot;21KBC10AA802&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21KBC10AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1689.76" y="184.258" fill="black" font-size="15" text-anchor="middle">21KBC10AA802</text>
+  <image x="1747.51" y="71.622" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 0 -10) flipY(-10.0002) rotate(270 0 -10)">
+    <title>&quot;20KBC10AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KBC10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1692.76" y="108.606" fill="black" font-size="15" text-anchor="middle">20KBC10AA001</text>
+  <ellipse cx="1338.3" cy="208.333" rx="37.8788" ry="81.8182" fill="Col_Grey4"/> 
+  <ellipse cx="1537.88" cy="207.818" rx="37.8788" ry="81.8182" fill="Col_Grey4"/> 
+  <rect x="1338.3" y="125" width="194.697" height="165.151" rx="0" ry="0" fill="Col_Grey4"/> 
+  <rect x="1401.94" y="114.394" width="81.0605" height="10.6061" rx="0" ry="0" fill="Col_Grey4"/> 
+  <text x="1374.67" y="282.485" font-size="15">20JEG10BB001</text>
+  <image x="1315.58" y="153.788" width="25" height="100" xlink:href="DS_ana_bar.svg">
+    <title>&quot;20JEG10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEG10CL001&quot;"/> 
+  </image>
+  <image x="1358.36" y="158.697" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEG10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEG10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1359.51" y="213.849" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEG10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEG10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <line x1="1498.48" y1="55.6364" x2="1794.88" y2="56.0606" stroke="black" stroke-width="3"/> 
+  <rect x="1272" y="301.045" width="635" height="22.7273" rx="0" ry="0" fill="url(#PortalHatch1)" stroke="black" stroke-width="3"/> 
+  <rect x="1786.76" y="295.5" width="15.1515" height="30.303" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <text x="447.212" y="141.424" fill="black" font-size="15" text-anchor="middle">к баку<tspan x="447.212" dy="15">20KBC16BB001</tspan>
+  </text>
+  <text x="441.939" y="273.97" fill="black" font-size="15" text-anchor="middle">к баку<tspan x="441.939" dy="15">20KBC17BB001</tspan>
+  </text>
+  <rect x="1264.56" y="64" width="22.7428" height="746.606" rx="0" ry="0" fill="url(#PortalHatch1)" stroke="black" stroke-width="3"/> 
+  <text x="1834.85" y="268.182" font-size="20" font-weight="bold">UJA</text>
+  <image x="19.1211" y="489.606" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBC10-30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbc10_30&quot;"/> 
+  </image>
+  <image x="516.395" y="125.758" width="85" height="25" xlink:href="obj_link.svg" transform="flipX(42.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBC10-30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbc10_30&quot;"/> 
+  </image>
+  <image x="516.395" y="259.091" width="85" height="25" xlink:href="obj_link.svg" transform="flipX(42.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBC10-30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbc10_30&quot;"/> 
+  </image>
+  <image x="690.333" y="325.758" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10.0001) rotate(270 6.10352e-005 -10)"/> 
+  <text x="957" y="25" font-size="30" font-weight="700" text-anchor="middle">
+    <title>Система автоматизированного химического контроля первого контура</title>
+Система гидроиспытаний барботера и продувки датчиков КИП дистиллятом</text>
+  <text x="11" y="24.5" font-size="15" font-weight="bold">KWA</text>
+  <text x="1299.42" y="364.637" font-size="20" font-weight="bold">UKA</text>
+  <rect x="1264.09" y="490.939" width="25.7576" height="16.6364" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <image x="106.364" y="565.667" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWA10CH001TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWA10CH001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="366.091" y="565.667" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWA10CH002TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWA10CH002TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="570.849" y="565.667" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20KWA10CH003TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20KWA10CH003TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="86.9394" y="614.015" fill="black" font-size="15">P всас &lt;0.035 МПа</text>
+  <text x="348.636" y="614.015" fill="black" font-size="15">P напор &lt;0.72 МПА</text>
+  <text x="586.515" y="614.015" fill="black" font-size="15">F &lt; 1 М3/Ч</text>
+  <line x1="848.67" y1="700" x2="849.02" y2="851.394" stroke="black" stroke-width="1"/> 
+  <line x1="1208" y1="700" x2="1208" y2="851.546" stroke="black" stroke-width="1"/> 
+  <line x1="664.02" y1="700" x2="664.02" y2="851.394" stroke="black" stroke-width="1"/> 
+  <line x1="483.454" y1="700" x2="483.454" y2="851.242" stroke="black" stroke-width="1"/> 
+  <rect x="397.258" y="837.59" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="478.333" y="883.333" fill="black" font-size="15" text-anchor="middle">20UKC04R044</text>
+  <text x="401.909" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA14<tspan x="401.909" dy="15">AA101</tspan>
+  </text>
+  <image x="439.515" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <rect x="578.41" y="837.742" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="660.56" y="884.711" fill="black" font-size="15" text-anchor="middle">
+    <title>21FAK14AA002</title>
+20UKC04R045</text>
+  <image x="619.67" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="583.061" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA15<tspan x="583.061" dy="15">AA101</tspan>
+  </text>
+  <rect x="759.41" y="837.742" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="841.56" y="884.711" fill="black" font-size="15" text-anchor="middle">20UKC25R014</text>
+  <image x="804.67" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="769.97" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA16<tspan x="769.97" dy="15">AA101</tspan>
+  </text>
+  <rect x="1120.56" y="837.894" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1202.71" y="884.863" fill="black" font-size="15" text-anchor="middle">20UKC04R050</text>
+  <image x="1160.82" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1124.36" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA20<tspan x="1124.36" dy="15">AA101</tspan>
+  </text>
+  <line x1="1030.02" y1="700" x2="1030.02" y2="851.394" stroke="black" stroke-width="1"/> 
+  <rect x="940.41" y="837.742" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1022.56" y="884.711" fill="black" font-size="15" text-anchor="middle">20UKC10R055</text>
+  <image x="985.67" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="953.97" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA19<tspan x="953.97" dy="15">AA101</tspan>
+  </text>
+  <rect x="35.894" y="835.924" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="118.045" y="882.893" fill="black" font-size="15" text-anchor="middle">20UKC24R006</text>
+  <rect x="215.803" y="837.439" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="297.954" y="884.408" fill="black" font-size="15" text-anchor="middle">20UKC04R037</text>
+  <line x1="121.143" y1="700" x2="121.143" y2="835.607" stroke="black" stroke-width="1"/> 
+  <image x="76.7934" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="40.3333" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA12<tspan x="40.3333" dy="15">AA101</tspan>
+  </text>
+  <text x="220" y="757.606" fill="black" font-size="15" text-anchor="middle">20KWA12<tspan x="220" dy="15">AA101</tspan>
+  </text>
+  <line x1="301.833" y1="700" x2="301.833" y2="839.848" stroke="black" stroke-width="1"/> 
+  <image x="256.46" y="727.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <line x1="122.151" y1="700" x2="1208.52" y2="700" stroke="black"/> 
+  <image x="1147.7" y="458.061" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-5.81924e-007) rotate(360 -0.00012207 -10)">
+    <title>&quot;20KWA10AA101&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1181.58" y="456.954" fill="black" font-size="15" text-anchor="middle">20KWA17AA101</text>
+  <line x1="1120.2" y1="500" x2="1120.2" y2="698.515" stroke="black" stroke-width="1"/> 
+  <image x="1478.76" y="552.075" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1513.76" y="553.227" fill="black" font-size="15" text-anchor="middle">20KWA11AA101</text>
+  <image x="1478.76" y="639.075" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1513.76" y="639.075" fill="black" font-size="15" text-anchor="middle">20KWA11AA102</text>
+  <rect x="1585.77" y="554.349" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1669.12" y="601.318" fill="black" font-size="15" text-anchor="middle">20UKA04R024</text>
+  <rect x="1585.77" y="811.591" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1669.12" y="858.56" fill="black" font-size="15" text-anchor="middle">20UKA04R025</text>
+  <image x="1478.76" y="723.469" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1513.76" y="724.621" fill="black" font-size="15" text-anchor="middle">20KWA11AA103</text>
+  <image x="1478.76" y="810.469" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1513.76" y="810.469" fill="black" font-size="15" text-anchor="middle">20KWA11AA104</text>
+  <rect x="1585.77" y="725.743" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1669.12" y="772.712" fill="black" font-size="15" text-anchor="middle">20UKA04R018</text>
+  <rect x="1585.77" y="896.955" width="171.212" height="77.2727" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1669.12" y="943.924" fill="black" font-size="15" text-anchor="middle">20UKA04R026</text>
+  <image x="1478.76" y="895.833" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(360 -0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <text x="1513.76" y="895.833" fill="black" font-size="15" text-anchor="middle">20KWA11AA105</text>
+  <rect x="1262.53" y="586.864" width="25.7576" height="16.6364" rx="0" ry="0" fill="Col_BGSand" stroke="black"/> 
+  <image x="281" y="418" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;kwa_tzb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KWA-TZB&quot;"/> 
+  </image>
+</svg>

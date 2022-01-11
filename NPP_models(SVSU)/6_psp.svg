@@ -1,0 +1,590 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="psp">
+  <title>Программа ступенчатого пуска</title>
+  <rt:model modelversion="7.2.0.23" comment="Создано VNIIAES-ASUTP&#10;UMod all_nsb&#10;LMod pec20&#10;RMod psp_1" revision="2.0"/> 
+  <text x="1021.41" y="37.6061" fill="black" font-size="30" text-anchor="middle">AСП 10XLA30 13UBN</text>
+  <rect x="4.50002" y="95.75" width="1907.5" height="899.25" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="109" y1="94.5" x2="109" y2="995" stroke="black" stroke-width="3"/> 
+  <text x="28.2501" y="122.917" font-size="17">0 ст.</text>
+  <text x="9.50004" y="165.167" font-size="17">15-25 сек</text>
+  <image x="1700" y="16" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;След.&quot;"/> 
+  </image>
+  <text x="1702.22" y="281.75" font-size="15">15SAD01AN003</text>
+  <image x="1728.47" y="279.5" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1635.88" y="200.5" font-size="15">15SAD01AN001</text>
+  <image x="1662.13" y="197.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1773.81" y="200.5" font-size="15">15SAD01AN002</text>
+  <image x="1800.06" y="197.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="1810.25" y="377.25" width="50" height="55" xlink:href="DS_switch.svg">
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1835.25" y="382.25" fill="black" font-size="15" text-anchor="middle">15SAD43AH002</text>
+  <image x="1668.31" y="377.25" width="50" height="55" xlink:href="DS_switch.svg">
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1693.31" y="382.25" fill="black" font-size="15" text-anchor="middle">15SAD43AH001</text>
+  <image x="1810.25" y="111.75" width="50" height="55" xlink:href="DS_switch.svg">
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1835.25" y="116.75" fill="black" font-size="15" text-anchor="middle">15SAE40AH006</text>
+  <image x="1668.31" y="111.75" width="50" height="55" xlink:href="DS_switch.svg">
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1693.31" y="116.75" fill="black" font-size="15" text-anchor="middle">15SAE40AH005</text>
+  <image x="136.75" y="289.5" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;15KLA43&quot;"/> 
+  </image>
+  <text x="114.25" y="209" font-size="15">15KLA43AN002</text>
+  <image x="139.25" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;15KLA43AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLA43AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="114.25" y="112.25" font-size="15">15KLA43AN001</text>
+  <image x="139.25" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;15KLA43AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLA43AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="274.25" y="112.25" font-size="15">15KLE48AN001</text>
+  <image x="299.25" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <title>&quot;15KLE48AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="274.25" y="209" font-size="15">15KLE48AN002</text>
+  <image x="299.25" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <title>&quot;15KLE48AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="296.75" y="289.5" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAC44-24&quot;"/> 
+  </image>
+  <image x="1035.76" y="194.875" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;FAL51-52&quot;"/> 
+  </image>
+  <image x="934.625" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000244141 -4.57764e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;10FAL51AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10FAL51AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="934.625" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000244141 -1.52588e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;10FAL52AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10FAL52AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="910.875" y="112.25" font-size="15">10FAL51AP001</text>
+  <text x="910.875" y="209" font-size="15">10FAL52AP001</text>
+  <image x="932.125" y="289.5" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;FAL50-70&quot;"/> 
+  </image>
+  <text x="1458.25" y="112.25" font-size="15">10KBC50AP001</text>
+  <image x="1483.88" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 0 0) flipX() flipX()">
+    <title>&quot;10KBC50AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KBC50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1458.25" y="209" font-size="15">10KBC50AP002</text>
+  <image x="1483.88" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(360 0 0) flipX() flipX()">
+    <title>&quot;10KBC50AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KBC50AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1458.25" y="306.75" font-size="15">10KBC50AP003</text>
+  <image x="1483.88" y="308.5" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 0 0) flipX() flipX()">
+    <title>&quot;10KBC50AP003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KBC50AP003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1481.38" y="387" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KBC40-60&quot;"/> 
+  </image>
+  <text x="752.625" y="512.5" font-size="15">10KUJ13AN001</text>
+  <text x="752.625" y="601.75" font-size="15">10KUJ13AN002</text>
+  <image x="777" y="512.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.16224e-005) flipX(-1.37091e-005)">
+    <title>&quot;10KUJ13AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KUJ13AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="777" y="603.5" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-1.16224e-005) flipX(-1.37091e-005)">
+    <title>&quot;10KUJ13AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KUJ13AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="774.5" y="681" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KUJ11-14&quot;"/> 
+  </image>
+  <image x="182.875" y="711.25" width="85" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAC44-24&quot;"/> 
+  </image>
+  <image x="460.5" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 -0.00012207 -9.15527e-005) rotate(270 -4.7363e-005 -2.95822e-005)">
+    <title>&quot;10MAV11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAV11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="434.25" y="112.25" font-size="15">10MAV11AP001</text>
+  <text x="434.25" y="209" font-size="15">10MAV12AP001</text>
+  <image x="460.5" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 -6.10352e-005 -0.000152588) rotate(270 -4.7363e-005 -2.95822e-005)">
+    <title>&quot;10MAV12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAV12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="458" y="289.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAV2&quot;"/> 
+  </image>
+  <text x="582.5" y="209" fill="black" font-size="15">10MVL12AP001</text>
+  <image x="608.125" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 0.000154373 2.98027e-007) rotate(270 2.26701e-006 -3.41667e-006) flipX() flipX()">
+    <title>&quot;10MVL12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MVL12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="582.5" y="112.25" fill="black" font-size="15">10MVL11AP001</text>
+  <image x="608.125" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 -6.10352e-005 -3.05176e-005) rotate(270 2.26701e-006 -3.41667e-006) flipX() flipX()">
+    <title>&quot;10MVL11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MVL11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="605.625" y="289.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MVL&quot;"/> 
+  </image>
+  <image x="777" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 0.00012207 -0.000106812) rotate(270 0 -6.10352e-005)">
+    <title>&quot;10KTA21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KTA21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="752.625" y="112.25" font-size="15">10KTA21AP001</text>
+  <image x="777" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 0 -0.000106812) rotate(270 0 -6.10352e-005)">
+    <title>&quot;10KTA22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KTA22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="752.625" y="209" font-size="15">10KTA22AP001</text>
+  <image x="777" y="308.5" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 0.00012207 -0.000106812) rotate(270 0 -6.10352e-005)">
+    <title>&quot;10KTA23AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KTA23AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="752.625" y="306.75" font-size="15">10KTA23AP001</text>
+  <image x="774.5" y="387" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KTA-1&quot;"/> 
+  </image>
+  <image x="1164.5" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000244141 -4.57764e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;00PCD01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00PCD01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1138.25" y="112.25" font-size="15">00PCD01AP001</text>
+  <image x="1164.5" y="212.25" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000244141 -4.57764e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;00PCD01AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00PCD01AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1138.25" y="209" font-size="15">00PCD01AP002</text>
+  <text x="1301.25" y="112.25" fill="black" font-size="15">10MAK10AE001</text>
+  <image x="1327.5" y="114" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 0 0) flipX() flipX()">
+    <title>&quot;10MAK10AE001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAK10AE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1325" y="191" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MVL&quot;"/> 
+  </image>
+  <image x="1104.51" y="512.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.38896e-005) flipX(-5.63228e-005)">
+    <title>&quot;10JEB11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1185.88" y="535.25" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB10&quot;"/> 
+  </image>
+  <image x="1104.51" y="603.5" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.38896e-005) flipX(-5.63228e-005)">
+    <title>&quot;10JEB21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1081.38" y="512.5" font-size="15">10JEB11AP001</text>
+  <image x="1185.88" y="626" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB20&quot;"/> 
+  </image>
+  <image x="1104.51" y="695.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.38896e-005) flipX(-5.63228e-005)">
+    <title>&quot;10JEB31AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB31AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1081.38" y="601.75" font-size="15">10JEB21AP001</text>
+  <image x="1185.88" y="717.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB30&quot;"/> 
+  </image>
+  <image x="1104.51" y="787.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.38896e-005) flipX(-5.63228e-005)">
+    <title>&quot;10JEB41AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB41AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1081.38" y="784.5" font-size="15">10JEB41AP001</text>
+  <image x="1185.88" y="809.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB40&quot;"/> 
+  </image>
+  <text x="1081.38" y="692.75" font-size="15">10JEB31AP001</text>
+  <text x="910.875" y="512.5" fill="black" font-size="15">10KPM21AN001</text>
+  <image x="937.75" y="512.75" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 0 0) flipX() flipX()">
+    <title>&quot;10KPM21AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPM21AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="910.875" y="601.75" fill="black" font-size="15">10KPM21AN002</text>
+  <image x="937.75" y="603.5" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000244141 0) rotate(90 0 0) flipX() flipX()">
+    <title>&quot;10KPM21AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPM21AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="935.25" y="682" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPM21&quot;"/> 
+  </image>
+  <image x="935.25" y="718.25" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPM22&quot;"/> 
+  </image>
+  <image x="935.25" y="754.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPM23&quot;"/> 
+  </image>
+  <text x="582.5" y="512.5" fill="black" font-size="15">10KPL11AN001</text>
+  <image x="607.5" y="512.75" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 6.11739e-007 -4.75958e-006) flipX() flipX()">
+    <title>&quot;10KPL11AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL11AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="582.5" y="601.75" fill="black" font-size="15">10KPL12AN001</text>
+  <image x="607.5" y="603.5" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 6.11739e-007 -4.75958e-006) flipX() flipX()">
+    <title>&quot;10KPL12AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL12AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="582.5" y="692.25" fill="black" font-size="15">10KPL13AN001</text>
+  <image x="607.5" y="696.978" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(0 6.11739e-007 -4.75958e-006) flipX() flipX()">
+    <title>&quot;10KPL13AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL13AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="422.25" y="638.75" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;10KPL14AH002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL14AH002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="447.25" y="633.75" fill="black" font-size="15" text-anchor="middle">10KPL14AH002</text>
+  <image x="409.75" y="706" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KPL&quot;"/> 
+  </image>
+  <rect x="116.25" y="500" width="207" height="92" rx="0" ry="0" fill="Col_Grey4"/> 
+  <text x="158.5" y="519" font-size="15">15KLE48AH001</text>
+  <image x="169.22" y="537.644" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH001C&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH001C&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="220.15" y="537.644" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH001B&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH001B&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="271.56" y="537.644" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH001A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH001A&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="292.19" y="534.5" font-size="15">A</text>
+  <text x="239.52" y="534.5" font-size="15">B</text>
+  <text x="187.97" y="534.5" font-size="15">C</text>
+  <image x="118.05" y="537.644" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH001D&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH001D&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="136.8" y="534.5" font-size="15">D</text>
+  <rect x="117.5" y="605" width="207" height="92" rx="0" ry="0" fill="Col_Grey4"/> 
+  <text x="159.75" y="625" font-size="15">15KLE48AH002</text>
+  <text x="293.19" y="640.5" font-size="15">A</text>
+  <text x="240.52" y="640.5" font-size="15">B</text>
+  <text x="188.97" y="640.5" font-size="15">C</text>
+  <image x="170.22" y="642.568" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH002C&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH002C&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="221.15" y="642.568" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH002B&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH002B&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="272.56" y="642.568" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH002A&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="119.05" y="642.568" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;15KLE48AH002D&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;15KLE48AH002D&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="137.8" y="640.5" font-size="15">D</text>
+  <rect x="352.25" y="500" width="190" height="107.576" rx="0" ry="0" fill="Col_Grey4"/> 
+  <text x="444.98" y="519.363" fill="black" font-size="15" text-anchor="middle">10KPL14AH001</text>
+  <image x="369.98" y="528.363" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;10KPL14AH001A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL14AH001A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="473.19" y="529.363" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;10KPL14AH001B&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10KPL14AH001B&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="395.74" y="599.818" fill="black" font-size="15" text-anchor="middle">A</text>
+  <text x="497.43" y="599.818" fill="black" font-size="15" text-anchor="middle">B</text>
+  <text x="1337.13" y="734.5" font-size="15">15SAE23AN001</text>
+  <image x="1362.75" y="730.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1475.26" y="734.5" font-size="15">15SAE23AN002</text>
+  <image x="1500.88" y="730.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1336.5" y="918.25" font-size="15">15SAC23AN001</text>
+  <image x="1362.75" y="914" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1474.63" y="918.25" font-size="15">15SAC23AN002</text>
+  <image x="1500.88" y="914" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1337.13" y="463.25" font-size="15">15SAE21AN001</text>
+  <image x="1362.75" y="459" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1475.26" y="463.25" font-size="15">15SAE21AN002</text>
+  <image x="1500.88" y="459" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1635.88" y="463.25" font-size="15">15SAC54AN001</text>
+  <image x="1662.13" y="462" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1773.81" y="463.25" font-size="15">15SAC54AN002</text>
+  <image x="1800.06" y="462" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1337.13" y="554" font-size="15">15SAE45AN001</text>
+  <image x="1362.75" y="549.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1475.26" y="554" font-size="15">15SAE45AN002</text>
+  <image x="1500.88" y="549.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="1724.5" y="549" width="50" height="55" xlink:href="DS_switch.svg">
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1749.5" y="554" fill="black" font-size="15" text-anchor="middle">15KLA44AH001</text>
+  <text x="1337.13" y="644.5" font-size="15">15SAE34AN001</text>
+  <image x="1362.75" y="640.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1475.26" y="644.5" font-size="15">15SAE34AN002</text>
+  <image x="1500.88" y="640.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1635.88" y="644.5" font-size="15">15SAC36AN001</text>
+  <image x="1662.13" y="642.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1773.81" y="644.5" font-size="15">15SAC36AN002</text>
+  <image x="1800.06" y="642.25" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1635.88" y="732" font-size="15">15SAC36AN003</text>
+  <image x="1662.13" y="731.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1773.81" y="732" font-size="15">15SAC36AN004</text>
+  <image x="1800.06" y="731.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1336.5" y="825" font-size="15">15SAC56AN001</text>
+  <image x="1362.75" y="820.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1474.63" y="825" font-size="15">15SAC56AN002</text>
+  <image x="1500.88" y="820.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1638.88" y="825" font-size="15">15SAD24AN001</text>
+  <image x="1662.13" y="826.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1773.81" y="825" font-size="15">15SAD24AN002</text>
+  <image x="1800.06" y="826.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1702.22" y="911.25" font-size="15">15SAD24AN003</text>
+  <image x="1728.47" y="913" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(7.76052e-005) flipX(-7.29016e-006) flipX(-3.76639e-005) flipX(-1.26362e-005)">
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <g>
+    <image x="979" y="52.1875" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10BFY47EG214_XM31&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10BFY47EG214_XM31&quot;"/> 
+    </image>
+    <image x="1176" y="52.1875" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10BFY47EG214_XM39&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10BFY47EG214_XM39&quot;"/> 
+    </image>
+    <image x="1457" y="52.1875" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10BFY47EG214_XM21&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10BFY47EG214_XM21&quot;"/> 
+    </image>
+    <image x="1597" y="52.1875" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10BFY47EG214_XM22&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10BFY47EG214_XM22&quot;"/> 
+    </image>
+    <text x="1009" y="69.9905" font-size="17">Ступенчатый пуск</text>
+    <text x="1206" y="69.9905" font-size="17">Ступенчатый пуск окончен</text>
+    <text x="1488" y="69.4981" font-size="17">ДГ не готов</text>
+    <text x="1627" y="69.4981" font-size="17">Неисправность в РДЭС</text>
+    <text x="693.25" y="69.4981" font-size="17">N ДГэл</text>
+    <image x="761" y="52.1875" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;10BFY47EG214_XQ01&quot;</title>
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;N&quot;"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="FKKS" mode="constant" value="&quot;10BFY47EG214&quot;"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ21&quot;"/> 
+    </image>
+    <text x="410" y="69.4981" font-size="17">Частота ДГ</text>
+    <image x="507.75" y="52.1875" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;10BFY47EG214_XQ17&quot;</title>
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;f&quot;"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="FKKS" mode="constant" value="&quot;10BFY47EG214&quot;"/> 
+      <rt:dyn type="Suffix" mode="constant" value="&quot;XQ17&quot;"/> 
+    </image>
+    <text x="19" y="69.4981" font-size="17">Скорость вращения ДГ</text>
+    <image x="228" y="52.1875" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;10XKA30CE330_XQ01&quot;</title>
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;n&quot;"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="FKKS" mode="constant" value="&quot;10XKA30CE330&quot;"/> 
+    </image>
+  </g>
+  <text x="41" y="25" fill="black" font-size="15" text-anchor="middle">PSP</text>
+</svg>

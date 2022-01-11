@@ -1,0 +1,1271 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="avr_to">
+  <rt:model modelversion="7.2.0.24" comment="Создано НВ АЭС"/> 
+  <rect x="-13.0909" y="77.2727" width="1922.72" height="896.97" rx="3.0303" ry="9.09124" fill="Col_BGSand" stroke="black"/> 
+  <text x="967" y="44" fill="black" font-size="30" text-anchor="middle">АВР механизмов турбинного отделения</text>
+  <text x="21.7766" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН</text>
+  <text x="136.667" y="131.728" font-size="15" font-style="normal">MAV11AP001</text>
+  <text x="306.698" y="131.728" font-size="15" font-style="normal">MAV12AP001</text>
+  <text x="981.213" y="108.395" font-size="20" font-style="normal" font-weight="bold">МНР БРУ-К</text>
+  <text x="1029.76" y="131.728" font-size="15" font-style="normal">MXN11AP001</text>
+  <text x="1183.76" y="131.728" font-size="15" font-style="normal">MXN12AP001</text>
+  <image x="11.019" y="522.879" width="70" height="56" xlink:href="DS_TPTS_AVR.svg">
+    <title>&quot;20LAB10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAB10ED001TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="204.913" y="596.164" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 0.000126553 1.4782e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="204.913" y="649.109" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 7.86781e-005 2.38419e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV10AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV10AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="261" y="632.963" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LAV10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="263.922" y="307.222" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20LCB11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="263.922" y="362.229" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 1.29411e-005 5.5566e-005)">
+    <title>&quot;20LCB12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="263.922" y="416.972" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 0.000137664 6.76975e-006)">
+    <title>&quot;20LCB13AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB13AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="102" y="220.743" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LCB10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="312.139" y="803.896" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKF02AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF02AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="312.139" y="856.896" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKF03AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF03AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="309" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MKF02ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF02ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="249.571" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-005 -4.35829e-005)">
+    <title>&quot;20MAV11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAV11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="418.516" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 -2.47383e-006 -4.35829e-005)">
+    <title>&quot;20MAV12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAV12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="65.6059" y="119.985" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MAV10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAV10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1129.36" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 -0.00026722 3.69072e-005)">
+    <title>&quot;20MXN11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1285.76" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -0.000183796 6.64711e-005)">
+    <title>&quot;20MXN12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="969.21" y="119.985" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MXN10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MXN10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="552" y="119.985" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MAX10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAX10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <text x="1573.27" y="131.728" font-size="15" font-style="normal">MVL11AP001</text>
+  <text x="1748.85" y="131.728" font-size="15" font-style="normal">MVL12AP001</text>
+  <image x="1858.94" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 -7.53403e-005 -4.43459e-005) flipX() flipX()">
+    <title>&quot;20MVL12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MVL12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1681.87" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 0.000166893 6.81877e-005) flipX() flipX()">
+    <title>&quot;20MVL11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MVL11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1505.61" y="119.985" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MVL10ED001&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MVL10ED001&quot;"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="552.624" y="804.411" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKF52AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF52AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="552.624" y="858.411" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKF53AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF53AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="551" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MKF52ED001&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKF52ED001&quot;"/> 
+  </image>
+  <image x="1857.68" y="305.563" width="50" height="50" xlink:href="DS_motor.svg" transform="flipX(6.10352e-005) flipX(2.70338e-005)">
+    <title>&quot;20PCC01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="72.8785" y="802.805" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MAJ21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAJ21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="72.8785" y="856.805" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MAJ22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAJ22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="72.8785" y="910.805" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MAJ23AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAJ23AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="3.06076" y="108.395" font-size="20" font-style="normal" font-weight="bold">MHC</text>
+  <image x="4.5455" y="168.591" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAV&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mav2&quot;"/> 
+  </image>
+  <image x="334.818" y="169.152" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20CHE41EA071_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CHE41EA071_ZV01&quot;"/> 
+  </image>
+  <text x="622.424" y="131.728" font-size="15" font-style="normal">MAX11AP001</text>
+  <text x="786.576" y="131.728" font-size="15" font-style="normal">MAX12AP001</text>
+  <image x="732.025" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-005 -4.35829e-005)">
+    <title>&quot;20MAX11AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAX11AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="897.97" y="117.485" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 -2.47383e-006 -4.35829e-005)">
+    <title>&quot;20MAX12AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAX12AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="494.06" y="108.395" font-size="20" font-style="normal" font-weight="bold">MHP</text>
+  <text x="622.424" y="163" font-size="15" font-style="normal">Разр. вкл.</text>
+  <text x="786.576" y="163" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="701" y="145.97" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAX11EE002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAX11EE002_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="865.73" y="145.97" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAX12EE002_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAX12EE002_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="494.606" y="168.591" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAX&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;max10&quot;"/> 
+  </image>
+  <image x="970" y="168.591" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MXN&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mxn&quot;"/> 
+  </image>
+  <image x="1511" y="168.591" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MVL&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mvl&quot;"/> 
+  </image>
+  <text x="1576.27" y="163" font-size="15" font-style="normal">Разр. вкл.</text>
+  <text x="1750.85" y="163" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1652.88" y="145.97" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MVL11EE004_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MVL11EE004_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1829.61" y="145.97" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MVL12EE004_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MVL12EE004_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="33.0001" y="249.909" font-size="20" font-style="normal" font-weight="bold">КЭН1</text>
+  <image x="170.364" y="230.743" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA10&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca10&quot;"/> 
+  </image>
+  <image x="252" y="230.743" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB10kip&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb10kip&quot;"/> 
+  </image>
+  <image x="2.57582" y="319.722" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA19EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA19EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="2.5758" y="374.729" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB18EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB18EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="2.5758" y="429.472" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD11EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD11EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="181.879" y="313.199" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="208.515" y="319.722" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB11EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB11EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="181.879" y="369.207" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="208.515" y="374.729" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB12EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB12EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="181.879" y="423.949" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="208.515" y="429.472" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB13EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB13EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="318.909" y="374.729" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB12&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb12&quot;"/> 
+  </image>
+  <image x="318.909" y="429.472" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB13&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb13&quot;"/> 
+  </image>
+  <image x="318.909" y="319.722" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB11&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb11&quot;"/> 
+  </image>
+  <image x="663.043" y="307.199" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20LCB21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="663.043" y="362.206" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 1.29411e-005 5.5566e-005)">
+    <title>&quot;20LCB22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="663.043" y="416.949" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 0.000137664 6.76975e-006)">
+    <title>&quot;20LCB23AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB23AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="506.121" y="220.743" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LCB20ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCB20ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="430.121" y="249.909" font-size="20" font-style="normal" font-weight="bold">КЭН2</text>
+  <image x="574.485" y="230.743" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA20&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca20&quot;"/> 
+  </image>
+  <image x="656.121" y="230.743" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB20kip&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb20kip&quot;"/> 
+  </image>
+  <image x="402.697" y="319.699" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA16EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA16EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="402.697" y="374.706" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB15EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB15EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="402.697" y="429.449" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC16EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC16EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="582" y="313.176" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="608.636" y="319.699" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB21EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB21EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="582" y="369.184" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="608.636" y="374.706" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB22EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB22EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="582" y="423.926" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="608.636" y="429.449" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCB23EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCB23EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="718.03" y="374.706" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB22&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb22&quot;"/> 
+  </image>
+  <image x="718.03" y="429.449" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB23&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb23&quot;"/> 
+  </image>
+  <image x="718.03" y="319.699" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB21&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb21&quot;"/> 
+  </image>
+  <image x="1062.74" y="308.715" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20LCT51AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT51AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1062.74" y="363.722" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 1.29411e-005 5.5566e-005)">
+    <title>&quot;20LCT52AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT52AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1062.74" y="418.465" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 0.000137664 6.76975e-006)">
+    <title>&quot;20LCT53AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT53AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="903.818" y="220.743" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LCT50ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="837.818" y="249.909" font-size="20" font-style="normal" font-weight="bold">НСС</text>
+  <image x="972.182" y="230.743" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT50&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct50&quot;"/> 
+  </image>
+  <image x="1053.82" y="230.743" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCBT50kip&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct50kip&quot;"/> 
+  </image>
+  <image x="802.394" y="321.215" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA13EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA13EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="802.394" y="376.222" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB19EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB19EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="802.394" y="430.965" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC13EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC13EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="981.7" y="314.692" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1007.83" y="321.215" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT51EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT51EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="981.7" y="370.7" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1007.83" y="376.222" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT52EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT52EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="981.7" y="425.442" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1007.83" y="430.965" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCT53EE001_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCT53EE001_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1117.73" y="376.222" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT52&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct52&quot;"/> 
+  </image>
+  <image x="1117.73" y="430.965" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT53&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct53&quot;"/> 
+  </image>
+  <image x="1117.73" y="321.215" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT51&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct51&quot;"/> 
+  </image>
+  <image x="1456.77" y="309.25" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20PAC02AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PAC02AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1456.77" y="364.257" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 1.29411e-005 5.5566e-005)">
+    <title>&quot;20PAC03AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PAC03AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1456.77" y="419" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 0.000137664 6.76975e-006)">
+    <title>&quot;20PAC04AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PAC04AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1201.39" y="321.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB17EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB17EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1201.39" y="376.757" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC18EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC18EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1201.39" y="431.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD17EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD17EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1377.73" y="311.227" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1401.83" y="321.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PAC02EE001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PAC02EE001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1374.73" y="371.235" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1401.83" y="376.757" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PAC03EE001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PAC03EE001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1374.73" y="425.977" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1401.83" y="431.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PAC04EE001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PAC04EE001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1512.26" y="376.757" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PAC03&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pac03&quot;"/> 
+  </image>
+  <image x="1512.26" y="431.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PAC04&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pac04&quot;"/> 
+  </image>
+  <image x="1513.85" y="321.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PAC02&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pac02&quot;"/> 
+  </image>
+  <image x="1456.74" y="253.735" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20PAC01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PAC01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1201.39" y="266.235" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA18EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA18EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1374.7" y="259.712" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1513.82" y="266.235" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PAC01&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pac01&quot;"/> 
+  </image>
+  <image x="1401.83" y="266.235" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20PAC01EE001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PAC01EE001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1230" y="249.303" font-size="20" font-style="normal" font-weight="bold">ЦН</text>
+  <image x="1664" y="220.743" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20PCC01EE011&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC01EE011&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1612" y="249.909" font-size="20" font-style="normal" font-weight="bold">НТВ</text>
+  <image x="1732.36" y="230.743" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCC01&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;pcc01&quot;"/> 
+  </image>
+  <image x="1814" y="230.743" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCC01kip&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;pcc01kip&quot;"/> 
+  </image>
+  <image x="1599.58" y="321.73" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA20EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA20EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1599.58" y="376.737" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC20EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC20EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1857" y="366" width="50" height="50" xlink:href="DS_motor.svg" transform="flipX(6.10352e-005) flipX(2.70338e-005)">
+    <title>&quot;20PCC01AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC01AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="6.5" y="615.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAB00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lab00&quot;"/> 
+  </image>
+  <image x="107.697" y="535.06" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA17EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA17EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="283" y="522.773" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="308.136" y="535.06" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC10EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC10EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="357.152" y="522.561" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-006 4.76837e-007)">
+    <title>&quot;20LAC10AP001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="330" y="616" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac10&quot;"/> 
+  </image>
+  <text x="108.5" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="134.5" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV10EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV10EE002_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="529.64" y="596.164" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 0.000126553 1.4782e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="529.64" y="649.109" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 7.86781e-005 2.38419e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV20AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV20AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="583.727" y="632.963" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LAV20ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV20ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="434.424" y="535.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB16EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB16EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="609.727" y="522.773" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="634.863" y="535.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC20EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC20EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="683.879" y="522.56" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-006 4.76837e-007)">
+    <title>&quot;20LAC20AP001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="659.727" y="615.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac20&quot;"/> 
+  </image>
+  <text x="433.015" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="459.015" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV20EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV20EE002_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="858.761" y="596.165" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 0.000126553 1.4782e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="858.761" y="649.109" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 7.86781e-005 2.38419e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV30AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV30AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="914.848" y="632.963" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LAV30ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV30ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="765.545" y="535.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC17EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC17EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="940.848" y="522.773" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="965.984" y="535.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC30EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC30EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1015" y="522.561" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-006 4.76837e-007)">
+    <title>&quot;20LAC30AP001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="990.85" y="615.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac30&quot;"/> 
+  </image>
+  <text x="763.015" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="789.015" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV30EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV30EE002_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1189.05" y="596.165" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 0.000126553 1.4782e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV40AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV40AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1189.05" y="649.109" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 7.86781e-005 2.38419e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV40AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV40AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1245.85" y="632.963" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LAV40ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV40ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1093.54" y="535.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD16EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD16EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1271.85" y="522.773" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1293.98" y="535.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC40EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC40EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1343" y="522.561" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-006 4.76837e-007)">
+    <title>&quot;20LAC40AP001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC40AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1321.85" y="615.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC40&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac40&quot;"/> 
+  </image>
+  <text x="1098.43" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1124.57" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV40EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV40EE002_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1516.05" y="596.164" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 0.000126553 1.4782e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV50AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1516.05" y="649.109" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(90 7.86781e-005 2.38419e-005) flipY(0.000219214) flipY(0.000118776) rotate(270 -0.00012207 -1.52588e-005)">
+    <title>&quot;20LAV50AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV50AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1572.85" y="632.963" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LAV50ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAV50ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1418.54" y="535.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD15EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD15EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1596.85" y="522.773" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1618.98" y="535.061" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAC50EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAC50EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1668" y="522.56" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 -1.90735e-006 4.76837e-007)">
+    <title>&quot;20LAC50AP001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;pump&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAC50AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1646.85" y="615.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac50&quot;"/> 
+  </image>
+  <text x="1416.27" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1442.27" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAV50EE002_XA01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAV50EE002_XA01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1749.51" y="505.992" font-size="20" font-style="normal" font-weight="bold">ВПЭН</text>
+  <image x="1738" y="535.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BDE08EG201_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BDE08EG201_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1825" y="486.826" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAJ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;laj&quot;"/> 
+  </image>
+  <image x="1830.89" y="623.372" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(360 3.90669e-005 3.70018e-005)">
+    <title>&quot;20LAJ01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LAJ01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1748.85" y="636.454" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1774.98" y="642.963" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LAJ01EE003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LAJ01EE003_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="7" y="765.454" font-size="20" font-style="normal" font-weight="bold">ВКВН</text>
+  <image x="70.7576" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MAJ20ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAJ20ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="140" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAJ&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;maj&quot;"/> 
+  </image>
+  <image x="137" y="781.848" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAJkip&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;majkip&quot;"/> 
+  </image>
+  <text x="-1" y="813.5" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="25.136" y="820.023" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAJ21EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAJ21EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="-1" y="869.508" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="25.136" y="875.03" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAJ22EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAJ22EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="-1" y="924.25" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="25.136" y="929.773" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAJ23EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAJ23EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="254" y="765.454" font-size="20" font-style="normal" font-weight="bold">НОС</text>
+  <image x="377.545" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MKF01&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkf01&quot;"/> 
+  </image>
+  <text x="237.182" y="836.864" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="264.318" y="843.387" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKF01EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKF01EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="491" y="765.454" font-size="20" font-style="normal" font-weight="bold">НОР</text>
+  <image x="619.879" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MKF50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkf50&quot;"/> 
+  </image>
+  <text x="477.576" y="836.864" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="503.712" y="843.387" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKF50EE001_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKF50EE001_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="776.866" y="805.169" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKG10AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKG10AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="776.866" y="859.169" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MKG11AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKG11AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="804.242" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MKG10ED001&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MKG10ED001&quot;"/> 
+  </image>
+  <text x="732.242" y="765.454" font-size="20" font-style="normal" font-weight="bold">ВЕНТ</text>
+  <image x="873.121" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MKG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkg&quot;"/> 
+  </image>
+  <image x="1032.82" y="804.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCP10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1032.82" y="858.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCP20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1032.82" y="912.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCP30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="970.82" y="765.454" font-size="20" font-style="normal" font-weight="bold">ХОВ</text>
+  <image x="1026.58" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LCP20ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCP20ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1097.32" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCP&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcp&quot;"/> 
+  </image>
+  <text x="958.727" y="814.894" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="985.86" y="821.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCP10EE003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCP10EE003_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="958.727" y="868.902" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="984.86" y="874.424" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCP20EE003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCP20EE003_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="958.727" y="923.644" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="984.86" y="929.167" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCP30EE003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCP30EE003_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1272.22" y="803.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCM10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1272.22" y="857.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCM20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1272.22" y="911.199" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20LCM30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1223.42" y="764.848" font-size="20" font-style="normal" font-weight="bold">ДБ</text>
+  <image x="1267.18" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20LCM10ED001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20LCM10ED001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+  </image>
+  <image x="1337.93" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCM&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;"/> 
+  </image>
+  <text x="1196.33" y="813.894" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1222.47" y="820.417" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM10EY001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM10EY001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1196.33" y="869.902" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1222.47" y="875.424" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20LCM20EY001_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20LCM20EY001_ZV01&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <image x="1489.84" y="806.684" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MAM11AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAM11AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1489.84" y="860.684" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20MAM12AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAM12AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1512.21" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20MAM10ED001&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAM10ED001&quot;"/> 
+  </image>
+  <text x="1455.21" y="765.454" font-size="20" font-style="normal" font-weight="bold">КПУ</text>
+  <image x="1582.09" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBW&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lbw&quot;"/> 
+  </image>
+  <image x="1754.19" y="806.684" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20PCC03AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC03AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.19" y="860.684" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;20PCC03AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC03AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1765.27" y="736.287" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>&quot;20PCC03EE007&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC03EE007&quot;"/> 
+  </image>
+  <text x="1691.27" y="764.848" font-size="20" font-style="normal" font-weight="bold">на ДГ</text>
+  <image x="1835.15" y="746.287" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCC34&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pcc34&quot;"/> 
+  </image>
+  <text x="124" y="833.773" font-size="15" font-style="normal">MAJ21AP001</text>
+  <text x="124" y="890" font-size="15" font-style="normal">MAJ22AP001</text>
+  <text x="124" y="941" font-size="15" font-style="normal">MAJ23AP001</text>
+  <text x="364.212" y="831.197" font-size="15" font-style="normal">MKF02AP001</text>
+  <text x="364.212" y="887.424" font-size="15" font-style="normal">MKF03AP001</text>
+  <text x="605.303" y="835.288" font-size="15" font-style="normal">MKF52AP001</text>
+  <text x="605.303" y="891.515" font-size="15" font-style="normal">MKF53AP001</text>
+  <text x="829.303" y="830.743" font-size="15" font-style="normal">MKG10AN001</text>
+  <text x="829.303" y="886.969" font-size="15" font-style="normal">MKG11AN001</text>
+  <text x="1084" y="887.5" font-size="15" font-style="normal">LCP20AP001</text>
+  <text x="1084" y="834.5" font-size="15" font-style="normal">LCP10AP001</text>
+  <text x="1084" y="940.5" font-size="15" font-style="normal">LCP30AP001</text>
+  <text x="1325" y="887.5" font-size="15" font-style="normal">LCM20AP001</text>
+  <text x="1325" y="834.5" font-size="15" font-style="normal">LCM10AP001</text>
+  <text x="1325" y="940.5" font-size="15" font-style="normal">LCM30AP001</text>
+  <text x="1540" y="889.5" font-size="15" font-style="normal">MAM12AN001</text>
+  <text x="1540" y="836.5" font-size="15" font-style="normal">MAM11AN001</text>
+  <text x="1806" y="888.5" font-size="15" font-style="normal">PCC03AP002</text>
+  <text x="1806" y="835.5" font-size="15" font-style="normal">PCC03AP001</text>
+  <text x="1800" y="433.712" font-size="15" font-style="normal">PCC01AP002</text>
+  <text x="1803.97" y="294.318" font-size="15" font-style="normal">PCC01AP001</text>
+  <text x="98.5" y="609.5" font-size="15" font-style="normal">LAV10AP001</text>
+  <text x="98.5" y="689.803" font-size="15" font-style="normal">LAV10AP002</text>
+  <text x="423.015" y="609.5" font-size="15" font-style="normal">LAV20AP001</text>
+  <text x="423.015" y="689.803" font-size="15" font-style="normal">LAV20AP002</text>
+  <text x="753.015" y="609.5" font-size="15" font-style="normal">LAV30AP001</text>
+  <text x="753.015" y="689.803" font-size="15" font-style="normal">LAV30AP002</text>
+  <text x="1082.52" y="609.5" font-size="15" font-style="normal">LAV40AP001</text>
+  <text x="1082.52" y="689.803" font-size="15" font-style="normal">LAV40AP002</text>
+  <text x="1406.27" y="609.5" font-size="15" font-style="normal">LAV50AP001</text>
+  <text x="1406.27" y="689.803" font-size="15" font-style="normal">LAV50AP002</text>
+  <text x="1804" y="688.5" font-size="15" font-style="normal">LAJ01AP001</text>
+  <line x1="-3.63638" y1="208" x2="1919.09" y2="208" stroke="black"/> 
+  <line x1="793.364" y1="724.242" x2="793.364" y2="724.242" stroke="black"/> 
+  <line x1="-4.48486" y1="478.152" x2="1918.24" y2="478.152" stroke="black"/> 
+  <line x1="-2.12118" y1="719.197" x2="1920.6" y2="719.197" stroke="black"/> 
+  <line x1="482" y1="78.7879" x2="482" y2="206.061" stroke="black"/> 
+  <line x1="616.091" y1="207.576" x2="616.091" y2="207.576" stroke="black"/> 
+  <line x1="961.56" y1="79.0001" x2="961.56" y2="206.273" stroke="black"/> 
+  <line x1="1594" y1="209" x2="1594" y2="477" stroke="black"/> 
+  <line x1="1195.5" y1="209" x2="1195.5" y2="477" stroke="black"/> 
+  <line x1="797.5" y1="209" x2="797.5" y2="477" stroke="black"/> 
+  <line x1="396.5" y1="209" x2="396.5" y2="477" stroke="black"/> 
+  <line x1="91" y1="478.303" x2="91" y2="719.212" stroke="black"/> 
+  <line x1="602.454" y1="916.667" x2="602.454" y2="916.667" stroke="black"/> 
+  <line x1="418.742" y1="479.303" x2="418.742" y2="720.212" stroke="black"/> 
+  <line x1="748.621" y1="478.788" x2="748.621" y2="719.697" stroke="black"/> 
+  <line x1="1078.74" y1="478.788" x2="1078.74" y2="719.697" stroke="black"/> 
+  <line x1="1403.59" y1="479.303" x2="1403.59" y2="720.212" stroke="black"/> 
+  <line x1="1732.74" y1="478.818" x2="1732.74" y2="719.727" stroke="black"/> 
+  <line x1="235.303" y1="718.001" x2="235" y2="972.547" stroke="black"/> 
+  <line x1="475.303" y1="718.001" x2="475" y2="972.547" stroke="black"/> 
+  <line x1="715.303" y1="718.001" x2="715" y2="972.547" stroke="black"/> 
+  <line x1="955.303" y1="718.001" x2="955" y2="972.547" stroke="black"/> 
+  <line x1="1195.3" y1="718.001" x2="1195" y2="972.547" stroke="black"/> 
+  <line x1="1435.3" y1="718.001" x2="1435" y2="972.547" stroke="black"/> 
+  <line x1="1675.3" y1="718.001" x2="1675" y2="972.547" stroke="black"/> 
+  <image x="6.5" y="650" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac00&quot;"/> 
+  </image>
+  <text x="134" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН1</text>
+  <text x="459" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН2</text>
+  <text x="784" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН3</text>
+  <text x="1109" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН4</text>
+  <text x="1434" y="505.992" font-size="20" font-style="normal" font-weight="bold">ПЭН5</text>
+  <image x="1778.61" y="176" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20CHE41EA071_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CHE41EA071_ZV01&quot;"/> 
+  </image>
+  <text x="1617.21" y="193.939" font-size="15" font-style="normal">здв и/или запр АВР</text>
+  <text x="181.546" y="186.364" font-size="15" font-style="normal">здв и/или запр АВР</text>
+  <image x="1711.55" y="851.242" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20CHE41EA071_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20CHE41EA071_ZV01&quot;"/> 
+  </image>
+  <text x="1680.27" y="830.485" font-size="15" font-style="normal">здв и/или<tspan x="1680.27" dy="15">запр АВР</tspan>
+  </text>
+  <line x1="1335" y1="77" x2="1335.29" y2="207.121" stroke="black"/> 
+  <image x="1446" y="117" width="50" height="50" xlink:href="DS_motor.svg" transform="rotate(0 0.000166893 6.81877e-005) flipX() flipX()">
+    <title>&quot;20MAK10AE001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAK10AE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1345" y="130.5" font-size="15" font-style="normal">MAK10AE001</text>
+  <text x="1340.36" y="164" font-size="15" font-style="normal">Разр. вкл.</text>
+  <image x="1417.83" y="147" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAK10EE003_XA61&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAK10EE003_XA61&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Green&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1536.15" y="107.395" font-size="20" font-style="normal" font-weight="bold">НГПР и ВПУ</text>
+</svg>

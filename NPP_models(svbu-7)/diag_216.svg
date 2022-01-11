@@ -1,0 +1,78 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_Grey2" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1600 1070" width="1600" height="1070" id="diag_216" font-family="AAP_Font3" font-size="14">
+  <rt:model comment="UMod diag_TPTS&#10;">
+    <rt:var name="PVId_base" datatype="string" value="20CRF62" comment="Базовая часть идентификаторов стойки"/> 
+  </rt:model>
+  <text x="800" y="33.5" fill="Col_Grey5" font-size="20" font-weight="bold" text-anchor="middle">Диагностика ПТК ТПТС-НТ нижнего уровня. Абонент 216. Шкаф 20CRF62.</text>
+  <g>
+    <image x="175" y="52.5" width="1250" height="1000" xlink:href="DS_TNT_DM_EXT.svg">
+      <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;IM01DM01&quot;"/> 
+    </image>
+  </g>
+  <image x="1200" y="107.5" width="50" height="120" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;IM&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CRF62IM01&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1302&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+  <image x="375" y="107.5" width="50" height="120" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;YBEA&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CRF62IM01YBEA02&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1671&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;10LDP10EK021|10LDP10EK021||||||||||||||||||||||||||||||&quot;"/> 
+  </image>
+  <image x="1200" y="247.5" width="50" height="120" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;IM&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CRF62IM02&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1302&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+  <image x="760" y="247.5" width="50" height="120" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;YAE&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CRF62IM02YAE09&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1661&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;10LDP10CP001|||||||||||||&quot;"/> 
+  </image>
+  <image x="870" y="247.5" width="50" height="120" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;YESG&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CRF62IM02YESG11&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1673&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;10LDP10AP001|10LDP10AA101||&quot;"/> 
+  </image>
+  <g>
+    <rect x="321" y="667.5" width="105" height="60" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey5" stroke-width="1"/> 
+    <polyline points="321,727.5 321,667.5 406,667.5" fill="none" stroke="Col_Grey2" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.5"/> 
+    <text x="373.5" y="682" font-size="12" text-anchor="middle">1012</text>
+  </g>
+  <image x="430" y="667.5" width="50" height="60" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;ENC L&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;PA_000&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1211&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+  <image x="485" y="667.5" width="50" height="60" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;FMC L&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;PA_000&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1211&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+
+  <g>
+    <rect x="869" y="667.5" width="105" height="60" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey5" stroke-width="1"/> 
+    <polyline points="869,727.5 869,667.5 954,667.5" fill="none" stroke="Col_Grey2" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.5"/> 
+    <text x="921.5" y="682" font-size="12" text-anchor="middle">1012</text>
+  </g>
+  <image x="980" y="667.5" width="50" height="60" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;ENC R&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;PA_000&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1211&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+  <image x="1035" y="667.5" width="50" height="60" xlink:href="DS_TNT_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;FMC R&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;PA_000&quot;"/> 
+    <rt:dyn type="MN" mode="constant" value="&quot;1211&quot;"/> 
+    <rt:dyn type="LIST" mode="constant" value="&quot;&quot;"/> 
+  </image>
+</svg>
+

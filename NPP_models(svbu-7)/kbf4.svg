@@ -1,0 +1,290 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="kbf4" font-weight="bold">
+  <title>Система переработки теплоносителя</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_svo&#10;LMod kbf3&#10;RMod kbh&#10;RASU" revision="4.1"/> 
+  <polyline points="1550,875 1550,600 925,600" fill="none" stroke="black"/> 
+  <line x1="1425" y1="600" x2="1425" y2="883.249" stroke="black"/> 
+  <polyline points="-919.264,875 -132.264,875 -132.264,600 117.736,600 184.403,689.667" fill="none" stroke="black" transform="flipX(396.368)"/> 
+  <polyline points="205.667,575 500,575 566.667,664.667" fill="none" stroke="black"/> 
+  <polyline points="242,475 575,475" fill="none" stroke="black" stroke-width="3"/> 
+  <polyline points="237,375 575,375 575,664" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="1075" y1="725" x2="1425" y2="725" stroke="black"/> 
+  <line x1="611.402" y1="901.828" x2="611.402" y2="850.313" stroke="black"/> 
+  <line x1="1401.52" y1="881.061" x2="1401.52" y2="881.061" stroke="black"/> 
+  <text x="1357" y="559.5" font-size="15">20KBF60AP001</text>
+  <image x="1175" y="572" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>"20KBF20CP005_XQ01"</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20KBF20CP005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <polygon points="4.66213,267.842 18.0522,275.486 18.0522,260.199 4.66213,267.842" fill="black" stroke="black" stroke-width="1" transform="rotate(150 419.449 722.255) flipX(1444.75) rotate(180 1279.17 367.814)"/> 
+  <text x="587.652" y="935.313" font-size="15">В трап</text>
+  <text x="1356" y="920.5" font-size="15">20KBF60AP002</text>
+  <image x="1175" y="847" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>"20KBF20CP004_XQ01"</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20KBF20CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1390" y="632.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(-0.000103498)">
+    <title>"20KBF20AA011"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA011&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1243" y="675" font-size="15">20KBF20AA011</text>
+  <text x="384" y="405.922" font-size="15">20KBF20AA005</text>
+  <image x="1390" y="757.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(-0.000103498)">
+    <title>"20KBF20AA012"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA012&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1244" y="805.5" font-size="15">20KBF20AA012</text>
+  <image x="1711" y="862" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPM40&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpm40&quot;"/> 
+  </image>
+  <image x="340.711" y="532.333" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000103498)">
+    <title>"20KBF20AA010"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA010&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="309.417" y="602.448" font-size="15">20KBF20AA010</text>
+  <polygon points="200,189.981 200,210.576 213.92,200"/> 
+  <text x="31" y="200" font-size="15">Горячий дистиллят<tspan x="31" dy="15">на промывку FKA</tspan>
+  </text>
+  <image x="1008" y="712" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPF61&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpf61&quot;"/> 
+  </image>
+  <g>
+    <g transform="scale(1.20229 1.20229 494.357 783.884) scale(1.09423 1.09423 802.361 785.692) scale(0.79 0.77 462.333 800.333)">
+      <ellipse cx="650.064" cy="841.622" rx="61.5" ry="23" fill="Col_Grey4"/> 
+      <ellipse cx="648.564" cy="665.622" rx="61.5" ry="23" fill="Col_Grey4"/> 
+      <rect x="586.564" y="662.622" width="124" height="180" rx="0" ry="0" fill="Col_Grey4"/> 
+      <g fill="Col_Grey2">
+        <g fill="Col_Grey2">
+          <line x1="391.372" y1="275.187" x2="566.372" y2="275.187" stroke="black" stroke-width="3" transform="rotate(90 293.25 568.5)"/> 
+          <line x1="391.372" y1="150.188" x2="566.372" y2="150.188" stroke="black" stroke-width="3" transform="rotate(90 293.25 568.5)"/> 
+          <path d="M711.56 666.908 A62.5 25 0 1 0 586.568 666.892 " fill="none" stroke="black" stroke-width="3"/> 
+          <path d="M711.564 37.4635 A62.5 25 0 1 0 586.572 37.4465 " fill="none" stroke="black" stroke-width="3" transform="flipY(439.397)"/> 
+        </g>
+      </g>
+    </g>
+    <text x="556.792" y="715.73" font-size="14">L&gt;1.4</text>
+    <text x="556.542" y="753.98" font-size="14">L&gt;1.3</text>
+    <text x="557.042" y="792.73" font-size="14">L&lt;0.15</text>
+    <image x="636.292" y="698.563" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>"20KBF20CL005_XG03"</title>
+            <rt:dyn type="PointID" mode="constant" value="&quot;20KBF20CL005_XG03&quot;"/> 
+    </image>
+    <image x="637.292" y="736.813" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>"20KBF20CL005_XG02"</title>
+            <rt:dyn type="PointID" mode="constant" value="&quot;20KBF20CL005_XG02&quot;"/> 
+    </image>
+    <image x="638.292" y="775.563" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>"20KBF20CL005_XG51"</title>
+            <rt:dyn type="PointID" mode="constant" value="&quot;20KBF20CL005_XG51&quot;"/> 
+    </image>
+  </g>
+  <text x="405" y="850" font-size="15">20KBF60BB001</text>
+  <polygon points="1674,464.981 1674,485.576 1687.92,475"/> 
+  <text x="1701.4" y="481.5" font-size="15">KPN</text>
+  <text x="383" y="512.5" font-size="15">20KBF20AA008</text>
+  <image x="415" y="432.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 0 -10)">
+    <title>"20KBF20AA008"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA008&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1465" y="705" width="60" height="45" xlink:href="DS_TPTS_AVR_sel.svg">
+    <title>"20KBF60EE001"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF60EE001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="11" y="24.5" font-size="15" font-weight="bold">KBF4</text>
+  <text x="957" y="28" font-size="30" text-anchor="middle">Система переработки теплоносителя</text>
+  <polyline points="200,200 1325,200 1325,368" fill="none" stroke="black"/> 
+  <text x="33" y="250" font-size="15">Пар от системы<tspan x="33" dy="15">20LBG10-70</tspan>
+  </text>
+  <image x="175" y="237" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KBF1&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbf1&quot;"/> 
+  </image>
+  <polyline points="244,250 1175,250 1175,368" fill="none" stroke="black"/> 
+  <image x="175" y="361" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KBF1&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kbf1&quot;"/> 
+  </image>
+  <image x="175" y="463" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk&quot;"/> 
+  </image>
+  <image x="415" y="332.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000103498)">
+    <title>"20KBF20AA005"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA005&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="31" y="430" font-size="15">Кубовый остаток, шлам</text>
+  <path d="M2689.72 1.57503 A8.80483 8.80483 0 1 1 2689.72 19.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <g>
+    <path d="M2764.72 1.575 A8.80483 8.80483 0 1 1 2764.72 19.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+    <line x1="300" y1="250" x2="300" y2="366.75" stroke="black"/> 
+    <line x1="300" y1="383.25" x2="300" y2="475" stroke="black"/> 
+  </g>
+  <g>
+    <path d="M2689.72 126.575 A8.80483 8.80483 0 1 1 2689.72 144.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+    <line x1="375" y1="200" x2="375" y2="241.75" stroke="black"/> 
+    <line x1="375" y1="258.25" x2="375" y2="366" stroke="black"/> 
+  </g>
+  <line x1="375" y1="384" x2="375" y2="475" stroke="black"/> 
+  <line x1="500" y1="250" x2="500" y2="375" stroke="black"/> 
+  <g>
+    <path d="M2514.71 126.575 A8.80483 8.80483 0 1 1 2514.71 144.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+    <line x1="550" y1="200" x2="550.005" y2="241.75" stroke="black"/> 
+    <line x1="550" y1="259.333" x2="550" y2="375" stroke="black"/> 
+  </g>
+  <polygon points="200,564.981 200,585.576 213.92,575"/> 
+  <text x="779" y="403.485" font-size="15">20KBF20AA006</text>
+  <polyline points="-848.166,375 201.834,375 201.834,825" fill="none" stroke="black" stroke-width="3" transform="flipX(413.417)"/> 
+  <image x="600" y="425" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>"20KBF20CP001_XQ01"</title>
+        <rt:dyn type="FKKS" mode="constant" value="&quot;20KBF20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1675" y="363" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk2&quot;"/> 
+  </image>
+  <image x="815" y="332.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>"20KBF20AA006"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA006&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <polyline points="625,475 1675,475" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="830" y="432.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000103498)">
+    <title>"20KBF20AA007"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA007&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="797" y="502.364" font-size="15">20KBF20AA007</text>
+  <g>
+    <path d="M1738.72 1.575 A8.80483 8.80483 0 1 1 1738.72 19.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+    <line x1="1326" y1="383.25" x2="1326" y2="475" stroke="black"/> 
+  </g>
+  <line x1="1300" y1="200" x2="1300" y2="375" stroke="black"/> 
+  <g>
+    <path d="M1889.72 1.575 A8.80483 8.80483 0 1 1 1889.72 19.185 " fill="none" stroke="black" stroke-width="1" transform="flipX(1647.18) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+    <line x1="1175" y1="383.25" x2="1175" y2="475" stroke="black"/> 
+  </g>
+  <line x1="1050" y1="250" x2="1050" y2="375" stroke="black"/> 
+  <image x="740" y="557.5" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000103498)">
+    <title>"20KBF20AA009"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA009&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="708" y="626.864" font-size="15">20KBF20AA009</text>
+  <polyline points="1575,875 1575,525 700,525 700,600" fill="none" stroke="black"/> 
+  <image x="1386.92" y="840.674" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000303852) flipX(-0.000107115)">
+    <title>"20KBF60AP002"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF60AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1386.92" y="565.121" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000303852) flipX(-0.000107115)">
+    <title>"20KBF60AP001"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF60AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1064.23" y="483" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(-0.000103498)">
+    <title>"20KBF20AA013"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA013&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="1034" y="554.114" font-size="15">20KBF20AA013</text>
+  <text x="1763" y="480.5" font-size="15">На установку<tspan x="1763" dy="15">цементирования</tspan>
+  </text>
+  <polyline points="875,600 875,925 950,925" fill="none" stroke="black"/> 
+  <polyline points="825,475 825,425 1016,425" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="915" y="382.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>"20KBF20AA014"</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20KBF20AA014&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="915" y="455.5" font-size="15">20KBF20<tspan x="915" dy="15">AA014</tspan>
+  </text>
+  <polyline points="241,525 325,525 325,475" fill="none" stroke="black" stroke-width="3"/> 
+  <image x="950" y="912" width="90" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPF15&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpf15&quot;"/> 
+  </image>
+  <polyline points="1675,425 1625,425 1625,475" fill="none" stroke="black"/> 
+  <image x="1675" y="412.75" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk2&quot;"/> 
+  </image>
+  <polyline points="875,925 875,975 950,975" fill="none" stroke="black"/> 
+  <image x="950" y="963" width="90" height="25" xlink:href="obj_link.svg" transform="flipX(45)">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk2&quot;"/> 
+  </image>
+  <text x="145" y="581.5" font-size="15">0 SCB</text>
+  <polyline points="1000,425 1000,450 1075,450" fill="none" stroke="black"/> 
+  <image x="1075" y="438" width="75" height="25" xlink:href="obj_link.svg" transform="flipX(37.5)">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk2&quot;"/> 
+  </image>
+  <text x="1057" y="980.5" font-size="15">От 20KPK20BB003</text>
+  <line x1="1175" y1="250" x2="1200" y2="250" stroke="black"/> 
+  <image x="1200" y="237" width="75" height="25" xlink:href="obj_link.svg">
+   
+   
+        <rt:dyn type="TextStr" mode="constant" value="&quot;KPK2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kpk2&quot;"/> 
+  </image>
+  <text x="1037" y="430.519" font-size="15">KPC</text>
+  <g transform="flipX(1140.67)">
+    <polygon points="1269.34,415 1269.34,435.595 1255.42,425.019"/> 
+  </g>
+  <text x="192" y="531.5" font-size="15">KPC</text>
+  <g transform="flipX(1140.67)">
+    <polygon points="2045.26,514.981 2045.26,535.576 2031.34,525"/> 
+  </g>
+</svg>

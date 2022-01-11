@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" color="Col_BGSand" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="ALL_TZB" stroke="black" stroke-width="3" font-size="14">
+  <title>tzb_all</title>
+  <rt:model comment="Создано VNIIAES-ASUTP" />
+  <text x="12.8333" y="46.9583" fill="black" font-size="18" font-weight="700">ALL_TZB</text>
+  <text x="960" y="61.9861" fill="black" font-size="26" font-weight="700" text-anchor="middle">ЗАЩИТЫ И БЛОКИРОВКИ</text>
+  <rect x="969.5" y="386.25" width="0" height="0" rx="0" ry="0" />
+  <line x1="175.75" y1="-49.375" x2="175.75" y2="-49.375" stroke="black" />
+  <line x1="575" y1="225" x2="575" y2="225" stroke="black" />
+  <image x="125" y="500" width="500" height="200" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗ и Б - СВО&quot;" />
+    <rt:event type="OnClick">LoadNew("all_tzb_svo")</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="60" />
+  </image>
+  <image x="725" y="500" width="500" height="200" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗ и Б - БНС&quot;" />
+    <rt:event type="OnClick">LoadNew("all_tzb_bns")</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="60" />
+  </image>
+  <image x="125" y="200" width="500" height="200" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗ и Б - РО&quot;" />
+    <rt:event type="OnClick">LoadNew("all_tzb_ro")</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="60" />
+  </image>
+  <image x="725" y="200" width="500" height="200" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗ и Б - ТО&quot;" />
+    <rt:event type="OnClick">LoadNew("all_tzb_to")</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="60" />
+  </image>
+  <image x="1325" y="200" width="500" height="200" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ТЗ и Б - УСБТ&quot;" />
+    <rt:event type="OnClick">LoadNew("all_tzb_usbt")</rt:event>
+    <rt:dyn type="T_Size" mode="constant" value="60" />
+  </image>
+</svg>

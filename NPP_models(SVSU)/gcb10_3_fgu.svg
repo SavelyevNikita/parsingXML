@@ -1,0 +1,34 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="gcb10_3_fgu">
+  <desc>Система маслоснабжения регулирования турбины</desc>
+  <title>Система обессоленной воды</title>
+  <rt:model modelversion="ver 1.0" comment="Создано Svetlana-VAIO\Svetlana 18.10.2012 21:55:57"/> 
+  <text x="845.25" y="46" font-size="32">ФГУ узла осветления воды</text>
+  <line x1="1134.27" y1="471.212" x2="1134.27" y2="471.212" stroke="black"/> 
+  <image x="850" y="375" width="85" height="25" xlink:href="obj_link.svg" transform="rotate(0 37.3619 12.5)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;GCB10-3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;gcb10_3&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;GCB10-3&quot;"/> 
+  </image>
+  <image x="850" y="100" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB10CH014VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="850" y="187" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB10CH100VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="850" y="275" width="160" height="75" xlink:href="DS_TPTS_VL_spec.svg">
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB10CH104VL0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="53" y="109.667" font-size="14">00GCB10EC003</text>
+  <image x="48" y="124.167" width="120" height="50" xlink:href="DS_TPTS_KO.svg">
+    <title>00GCB10EC003</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;00GCB10EC003&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="1033.5" y="138" font-size="15">ПУ РАБ ОТСТ-ФЛОКУЛ</text>
+  <text x="1033.5" y="224" font-size="15">ВЫБОР 00GCB10AT004,5,6</text>
+  <text x="1033.5" y="314" font-size="15">ДЕЙСТВИЕ ОТСТ-ФЛОКУЛ</text>
+</svg>

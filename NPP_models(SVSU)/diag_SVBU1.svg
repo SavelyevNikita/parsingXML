@@ -1,0 +1,1966 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1600 950" width="1600" height="950" id="diag_SVBU1" font-size="14" font-weight="600">
+  <desc>Диагностический видеокадр</desc>
+  <rt:model comment="created by">
+    <rt:timeTrigger name="OnLn_trig" delay="1">
+      <rt:code>OnLn()</rt:code>
+    </rt:timeTrigger>
+    <rt:var name="Chan_Color" datatype="uint" comment="Цвет подсистем" arraysize="27"/> 
+    <rt:var name="Chan_Color1" datatype="uint" comment="Цвет сети 1" arraysize="23"/> 
+    <rt:var name="Chan_Color2" datatype="uint" comment="Цвет сети 2" arraysize="23"/> 
+    <rt:var name="Chan_Color3" datatype="uint" comment="Цвет сети 1 для подсистем" arraysize="25"/> 
+    <rt:var name="Chan_Color4" datatype="uint" comment="Цвет сети 2 для подсистем" arraysize="25"/> 
+    <rt:var name="Stat_Cluster_1" datatype="ushort" comment="кластер 0" value="0"/> 
+    <rt:var name="Stat_Cluster_2" datatype="ushort" value="0" comment="кластер 1"/> 
+    <rt:var name="Local_Node" datatype="RtaNode" comment="локальный узел"/> 
+    <rt:var name="RealLocalNetMask" datatype="ushort" value="3" comment="реальная маска локальной сети, т.е. как данная РС видит все остальные узлы."/> 
+    <rt:var name="SRV_Nodes" datatype="RtaNode" comment="Массив серверов" arraysize="3"/> 
+    <rt:var name="WS_Nodes" datatype="RtaNode" comment="массив рабочих станций" arraysize="23"/> 
+    <rt:var name="Total_i" datatype="uint" value="0" comment="всего найдено рабочих станций"/> 
+    <rt:var name="Validity" datatype="boolean" comment="Достоверность данных" value="false"/> 
+    <rt:sub>Sub Calc_But_Color()
+
+&apos;Определение цветовой раскраски подсистем
+
+Dim i As UShort
+Dim ch_code As UShort
+For i = 0 To PPD_CH_num
+	ch_code = PPD_CH(i) &amp; 14
+	If ((ch_code &amp; 4) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(1)
+	ElseIf ((ch_code &amp; 2) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(3)
+	ElseIf ((ch_code &amp; 14) == 0) Then
+		Chan_Color(i) = Col_Ar(2)
+	Else
+		Chan_Color(i) = Col_Ar(8)
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub CheckStatus()
+&apos;!!!! здесь было определение принадлежности серверов к системам
+&apos;это нужно для высвечивания кнопок каналов, стоек и т.п.
+
+Stat_Cluster_1 = SysHealth(1)
+Stat_Cluster_2 = SysHealth(2)
+End Sub</rt:sub>
+    <rt:sub>Sub ShNds()
+
+&apos;Используется для цветовой индикации экранов АРМ
+
+Dim Node As RtaNode
+Dim WS_i As UInt
+Dim WS_j As UInt
+Dim WS_k As UInt
+Dim SRV_i As UInt
+
+WS_i = 0
+SRV_i = 0
+Total_i = 0
+WS_k = 0
+RealLocalNetMask = 0
+Local_Node = RTA.LocalNode
+
+For Each Node in RTA.Nodes
+  If Node.NodeId != Local_Node.NodeId Then
+	RealLocalNetMask = RealLocalNetMask | Node.NetMask
+  End If
+  If (Node.IsServer == False) Then
+	Total_i = Total_i + 1
+	&apos;Заполняем только видимые 23
+	If ((WS_k &lt; 1) &amp;&amp; (WS_i &lt; 23)) Then
+		WS_Nodes(WS_i) = Node
+
+	
+
+&apos; анализ сети
+		
+		If (Node.NetMask &amp; 8) != 0 Then       &apos; сеть 2 есть
+			Chan_Color2(WS_i) = Col_Ar(25)  &apos; зеленый
+		Else					    &apos; сети 1 нет
+			Chan_Color2(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+		If (Node.NetMask &amp; 4) != 0 Then      &apos; сеть 1 есть
+			Chan_Color1(WS_i) = Col_Ar(25) &apos; зеленый
+		Else					    &apos; сети 2 нет
+			Chan_Color1(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+
+		WS_i = WS_i + 1
+	End If
+	
+
+
+   Else
+	If (SRV_i &lt; 3) Then
+		SRV_Nodes(SRV_i) = Node
+	End If
+	SRV_i = SRV_i + 1
+   End If
+Next Node
+
+Validity = ((RealLocalNetMask &amp; 3) != 0)
+
+&apos;Добиваем остальные до 23 нулями
+If (WS_i &lt; 20) Then
+  For WS_j = WS_i to 23
+	WS_Nodes(WS_j) = Nothing
+
+	Chan_Color1(WS_j) = Col_Ar(11)		&apos; белый
+	Chan_Color2(WS_j) = Col_Ar(11)
+
+  Next WS_j
+End If
+
+If (!prim_cluster) Then
+
+	WS_Nodes(20) = WS_Nodes(0)
+	Chan_Color2(20) = Chan_Color2(0)
+	Chan_Color1(20) = Chan_Color1(0)
+
+	WS_Nodes(0) = WS_Nodes(4)
+	Chan_Color2(0) = Col_Ar(11)
+	Chan_Color1(0) = Col_Ar(11)
+
+
+	WS_Nodes(21) = WS_Nodes(1)
+	Chan_Color2(21) = Chan_Color2(1)
+	Chan_Color1(21) = Chan_Color1(1)
+
+	WS_Nodes(1) = WS_Nodes(4)
+	Chan_Color2(1) = Col_Ar(11)
+	Chan_Color1(1) = Col_Ar(11)
+
+	WS_Nodes(22) = WS_Nodes(2)
+	Chan_Color2(22) = Chan_Color2(2)
+	Chan_Color1(22) = Chan_Color1(2)
+
+	WS_Nodes(2) = WS_Nodes(4)
+	Chan_Color2(2) = Col_Ar(11)
+	Chan_Color1(2) = Col_Ar(11)
+
+
+End If
+
+End Sub</rt:sub>
+    <rt:sub>Sub Calc_Color3()
+
+&apos;Используется для цветовой индикации сети1,2 подсистем
+
+Dim i As UShort
+Dim bit As UShort
+Dim j As String
+Dim x1 As UShort
+Dim x2 As UShort
+Dim KKS1 As String
+Dim KKS2 As String
+
+j=0
+i=0
+
+For i = i to 24
+ j=i
+
+ if i=15 Then
+  bit=0x20
+ ElseIf i=16 Then
+  bit=0x20
+ Else
+  bit=0x80
+ End If
+
+  if i&lt;10 Then
+   KKS1 = &quot;1DT0&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;1DT0&quot;+j+&quot;E01_ST02&quot;
+  Else
+   KKS1 = &quot;1DT&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;1DT&quot;+j+&quot;E01_ST02&quot;
+  End If
+
+	If (BIN(KKS1).Quality + BIN(KKS2).Quality=0) Then
+	   Chan_Color3(i)= Col_Ar(11)
+	   Chan_Color4(i)= Col_Ar(11)
+	Else
+	   x1=((BIN(KKS1).Value &amp; 0x10) &gt; 0)+((BIN(KKS2).Value &amp; 0x10) &gt; 0)
+	   x2=((BIN(KKS1).Value &amp; bit) &gt; 0)+((BIN(KKS2).Value &amp; bit) &gt; 0)
+ 		If x1=0 Then
+		Chan_Color3(i)= Col_Ar(25)
+		ElseIf x1=1 Then
+		Chan_Color3(i)= Col_Ar(3)
+		Else
+		Chan_Color3(i)= Col_Ar(1)
+		End If
+
+ 		If x2=0 Then
+		Chan_Color4(i)= Col_Ar(25)
+		ElseIf x2=1 Then
+		Chan_Color4(i)= Col_Ar(3)
+		Else
+		Chan_Color4(i)= Col_Ar(1)
+		End If
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub OnLn()
+
+Dim j As UShort
+For j = 0 to 22
+
+	if PC1.KKS == WS_Nodes(j).NodeName then
+		PC1.NdID = WS_Nodes(j)
+	End if
+
+	if PC2.KKS == WS_Nodes(j).NodeName then
+		PC2.NdID = WS_Nodes(j)
+	End if
+
+	if PC3.KKS == WS_Nodes(j).NodeName then
+		PC3.NdID = WS_Nodes(j)
+	End if
+
+	if PC4.KKS == WS_Nodes(j).NodeName then
+		PC4.NdID = WS_Nodes(j)
+	End if
+
+	if PC5.KKS == WS_Nodes(j).NodeName then
+		PC5.NdID = WS_Nodes(j)
+	End if
+
+	if PC6.KKS == WS_Nodes(j).NodeName then
+		PC6.NdID = WS_Nodes(j)
+	End if
+
+	if PC7.KKS == WS_Nodes(j).NodeName then
+		PC7.NdID = WS_Nodes(j)
+	End if
+
+	if PC8.KKS == WS_Nodes(j).NodeName then
+		PC8.NdID = WS_Nodes(j)
+	End if
+
+	if PC9.KKS == WS_Nodes(j).NodeName then
+		PC9.NdID = WS_Nodes(j)
+	End if
+
+	if PC10.KKS == WS_Nodes(j).NodeName then
+		PC10.NdID = WS_Nodes(j)
+	End if
+
+	if PC11.KKS == WS_Nodes(j).NodeName then
+		PC11.NdID = WS_Nodes(j)
+	End if
+
+	if PC12.KKS == WS_Nodes(j).NodeName then
+		PC12.NdID = WS_Nodes(j)
+	End if
+
+	if PC13.KKS == WS_Nodes(j).NodeName then
+		PC13.NdID = WS_Nodes(j)
+	End if
+
+	if PC14.KKS == WS_Nodes(j).NodeName then
+		PC14.NdID = WS_Nodes(j)
+	End if
+
+	if PC15.KKS == WS_Nodes(j).NodeName then
+		PC15.NdID = WS_Nodes(j)
+	End if
+
+	if PC16.KKS == WS_Nodes(j).NodeName then
+		PC16.NdID = WS_Nodes(j)
+	End if
+
+	if PC17.KKS == WS_Nodes(j).NodeName then
+		PC17.NdID = WS_Nodes(j)
+	End if
+
+	if PC18.KKS == WS_Nodes(j).NodeName then
+		PC18.NdID = WS_Nodes(j)
+	End if
+
+	if PC19.KKS == WS_Nodes(j).NodeName then
+		PC19.NdID = WS_Nodes(j)
+	End if
+
+	if PC20.KKS == WS_Nodes(j).NodeName then
+		PC20.NdID = WS_Nodes(j)
+	End if
+
+	if PC21.KKS == WS_Nodes(j).NodeName then
+		PC21.NdID = WS_Nodes(j)
+	End if
+
+	if PC22.KKS == WS_Nodes(j).NodeName then
+		PC22.NdID = WS_Nodes(j)
+	End if
+
+	if PC23.KKS == WS_Nodes(j).NodeName then
+		PC23.NdID = WS_Nodes(j)
+	End if
+
+Next j
+
+end sub</rt:sub>
+    <rt:event type="OnInitialize">Dim i As UShort
+
+	Chan_Color(i) = Col_Ar(8)
+If !prim_cluster Then
+	Chan_Color(24) = Col_Ar(8)
+End If
+
+Calc_But_Color()
+CheckStatus()
+ShNds()
+Calc_Color3()</rt:event>
+    <rt:cycleTrigger name="Calc_All" cycle="5" unit="second">
+      <rt:code>Calc_But_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChStat" cycle="1" unit="second">
+      <rt:code>CheckStatus()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChkNds" cycle="15" unit="second">
+      <rt:code>ShNds()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="Color3" cycle="1" unit="second">
+      <rt:code>Calc_Color3()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <rect x="736.5" y="332.25" width="588.5" height="176.417" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="497" y="332.5" width="234.5" height="175.75" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="254.5" y="333" width="136.5" height="174.25" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="17" y="52" width="851" height="200" rx="0" ry="0" fill="none" stroke="blue"/> 
+  <rect x="871.5" y="80" width="148.5" height="160" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="1100" y="275" width="500" height="40" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор ИК резервный (10CKK80)</title>
+  </rect>
+  <image x="150" y="804" width="40" height="40" xlink:href="GW.svg" id="srvpe22">
+    <title>СРВПЭ-2</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan19&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT19|СРВПЭ-2|19&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(19)"/> 
+  </image>
+  <text x="246.667" y="98">АРМ ВИУП</text>
+  <rect x="778.5" y="632.5" width="204.5" height="85.75" rx="0" ry="0" id="Cluster_11" visibility="visible" rt:detect="enabled" fill="#97ffb6" fill-opacity="0.699994" stroke="black" stroke-dasharray="5,5">
+    <rt:dyn type="fill" mode="onchange" value="Stat_Cluster_2" trans="it">
+      <rt:xy value="1" value2="Col_Grey1"/> 
+      <rt:xy value="2" value2="#ffb7b7"/> 
+      <rt:xy value="3" value2="#97ffb6"/> 
+      <rt:xy value2="#ffff82"/> 
+    </rt:dyn>
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_2a&quot;).ValueString() != &quot;&quot;) || (VAR(&quot;VIS.SERVER_2b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="346" y="630" width="240" height="90" rx="0" ry="0" id="Cluster_1" fill="#97ffb6" fill-opacity="0.699994" stroke="black" stroke-dasharray="5,5">
+    <rt:dyn type="fill" mode="onchange" value="Stat_Cluster_1" trans="it">
+      <rt:xy value="1" value2="Col_Grey1"/> 
+      <rt:xy value="2" value2="#ffb7b7"/> 
+      <rt:xy value="3" value2="#97ffb6"/> 
+      <rt:xy value2="#ffff82"/> 
+    </rt:dyn>
+  </rect>
+  <text x="449" y="713.5" font-size="16" font-weight="600" text-anchor="middle">Серверы ИУК</text>
+  <rect x="-3" y="333" width="251" height="173" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="461" y="80" width="233.5" height="160" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="50" y="80" width="290" height="160" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <rect x="40" y="275" width="1000" height="40" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор иУK резервный (10CKK60)</title>
+  </rect>
+  <text x="527.5" y="96.5">АРМ ВИУТ</text>
+  <text x="204" y="98">АРМ ВИУР</text>
+  <text x="43.5" y="491.5" text-anchor="middle">АРМ СНЭ</text>
+  <text x="825" y="69.5" id="Text_2" font-size="16" font-weight="600" text-anchor="middle">БПУ</text>
+  <rect x="10" y="260" width="1000" height="40" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор ИУК основой (10CKK50)</title>
+  </rect>
+  <text x="434" y="282" font-size="16" font-weight="600">
+    <title>Коммутаторы ИУК</title>
+Коммутаторы ИУК</text>
+  <rect x="540" y="575" width="250" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор межсерверного обмена резервный (10CKK40)</title>
+  </rect>
+  <rect x="513" y="560" width="252.5" height="49.5" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор межсерверного обмена основной (10CKK30)</title>
+  </rect>
+  <text x="631.475" y="582.789" font-size="16" font-weight="600" text-anchor="middle">
+    <title>Коммутатор межсерверного обмена</title>
+Коммутаторы<tspan x="631.475" dy="16">межсерверного обмена</tspan>
+  </text>
+  <text x="883" y="714" visibility="visible" rt:detect="enabled" font-size="16" font-weight="600" text-anchor="middle">
+    <title>Серверы НК СВБУ</title>
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_2a&quot;).ValueString() != &quot;&quot;) || (VAR(&quot;VIS.SERVER_2b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Серверы ИК</text>
+  <rect x="268" y="745" width="840" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор шлюзов СНЭ резервный (10CKK20)</title>
+  </rect>
+  <rect x="248" y="730" width="835" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор шлюзов СНЭ основной (10CKK10)</title>
+  </rect>
+  <text x="588" y="760" font-size="16" font-weight="600">
+    <title>Коммутатор сети шлюзов</title>
+Коммутаторы сети шлюзов</text>
+  <rect x="1173" y="745" width="180" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор СБ2 резервный (12CKK20)</title>
+  </rect>
+  <rect x="1148" y="730" width="180" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор СБ2 основной (12CKK10)</title>
+  </rect>
+  <text x="1226" y="755.5" font-size="16" font-weight="600" text-anchor="middle">
+    <title>Коммутатор СБ2</title>
+Коммутаторы СБ2</text>
+  <rect x="23" y="745" width="180" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор СБ1 резервный (11CKK20)</title>
+  </rect>
+  <rect x="-2" y="730" width="180" height="50" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор СБ1 основной (11CKK10)</title>
+  </rect>
+  <text x="81.5" y="756" font-size="16" font-weight="600" text-anchor="middle">
+    <title>Коммутатор СБ1</title>
+Коммутаторы СБ1</text>
+  <text x="633" y="720" font-size="16" font-weight="600">Сеть шлюзов</text>
+  <text x="1176" y="853.447">УСБТ-2</text>
+  <text x="1258" y="853.447">СРВПЭ-1</text>
+  <text x="285" y="857" text-anchor="middle">СКУ<tspan x="285" dy="14">ЭО</tspan>
+  </text>
+  <text x="327.688" y="857.334" text-anchor="middle">СКУ<tspan x="327.688" dy="14">ТТО</tspan>
+  </text>
+  <text x="372.107" y="857.334" text-anchor="middle">АСРК</text>
+  <text x="412.158" y="857.334" text-anchor="middle">СКУ<tspan x="412.158" dy="14">ПЗ</tspan>
+  </text>
+  <text x="450.526" y="857.334" text-anchor="middle">СВД</text>
+  <text x="637.056" y="857.334" text-anchor="middle">СКУ<tspan x="637.056" dy="14">РО-4</tspan>
+  </text>
+  <text x="1037.48" y="857.334" text-anchor="middle">СКУ<tspan x="1037.48" dy="14">ЭЧ</tspan>
+  </text>
+  <text x="936.526" y="857.334" text-anchor="middle">КЭ<tspan x="936.526" dy="14">СУЗ</tspan>
+  </text>
+  <text x="788.579" y="857.334" text-anchor="middle">СКУ<tspan x="788.579" dy="14">ТО-1</tspan>
+  </text>
+  <text x="1090.11" y="857.334" text-anchor="middle">СДРУ</text>
+  <text x="837.529" y="857.334" text-anchor="middle">СКУ<tspan x="837.529" dy="14">ТО-2</tspan>
+  </text>
+  <image x="994" y="266" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор ИУК основной (10CKK50)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK50&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор ИУК основной&quot;"/> 
+  </image>
+  <image x="1024" y="279" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор ИУК резервный (10CKK60)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK60&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор ИУК резервный&quot;"/> 
+  </image>
+  <image x="748.895" y="561.263" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор межсерверного обмена основной (10CKK30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор \n межсерверного обмена основной&quot;"/> 
+  </image>
+  <image x="773.895" y="576.263" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор межсерверного обмена резервный (10CKK40)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK40&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор \n межсерверного обмена резервный&quot;"/> 
+  </image>
+  <image x="1065" y="732.051" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор сети шлюзов основной (10CKK10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор \n сети шлюзов основной&quot;"/> 
+  </image>
+  <image x="1090" y="747.577" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор сети шлюзов резервный (10CKK20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор \n сети шлюзов резервный&quot;"/> 
+  </image>
+  <image x="1309.69" y="732.051" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор СБ2 основной (12CKK10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12CKK10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор СБ2 основной&quot;"/> 
+  </image>
+  <image x="1334.84" y="747.577" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор СБ2 резервный (12CKK20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12CKK20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор СБ2 резервный&quot;"/> 
+  </image>
+  <image x="159.382" y="732.051" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор СБ1 основной (11CKK10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11CKK10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор СБ1 основной&quot;"/> 
+  </image>
+  <image x="184.54" y="747.577" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор СБ1 резервный (11CKK20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11CKK20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор СБ1 резервный&quot;"/> 
+  </image>
+  <text x="494.582" y="857.334" text-anchor="middle">СКУ<tspan x="494.582" dy="14">РО-1</tspan>
+  </text>
+  <text x="738.582" y="857.334" text-anchor="middle">СКУ<tspan x="738.582" dy="14">ХВО</tspan>
+  </text>
+  <text x="985.1" y="857.334" text-anchor="middle">СКУ<tspan x="985.1" dy="14">СК</tspan>
+  </text>
+  <g id="Serv_2a_str3" visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="298.493,436 308.493,441 298.493,446" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="441" y1="601.993" x2="441" y2="641.993" stroke="black" stroke-width="2"/> 
+    <line x1="476.25" y1="602" x2="440" y2="601.993" stroke="black" stroke-width="2"/> 
+    <path d="M497.04 602.893 A10.5263 8.42126 0 1 0 476.02 602.858 " fill="none" stroke="black" stroke-width="2"/> 
+    <line x1="513" y1="602.25" x2="496.5" y2="602" stroke="black" stroke-width="2"/> 
+    <polyline points="146,597 136,602 146,607" transform="flipX(325)"/> 
+  </g>
+  <g id="Serv_2a_str4">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="298.493,449 308.493,454 298.493,459" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="454" y1="615.5" x2="454" y2="640.993" stroke="black" stroke-width="2"/> 
+    <line x1="454" y1="615.993" x2="476" y2="616" stroke="black" stroke-width="2"/> 
+    <path d="M496.57 615.419 A10.5263 8.42126 0 1 0 475.55 615.384 " fill="none" stroke="black" stroke-width="2"/> 
+    <line x1="495" y1="616.25" x2="537.5" y2="615.993" stroke="black" stroke-width="2"/> 
+    <polyline points="119,611 109,616 119,621" transform="flipX(325)"/> 
+  </g>
+  <g id="Serv_2b_str3" visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_2a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-489,747 -479,752 -489,757" transform="rotate(270 65 65)"/> 
+    <line x1="752" y1="615" x2="752" y2="670.5" stroke="black" stroke-width="2"/> 
+    <line x1="777" y1="671.5" x2="751" y2="671.5" stroke="black" stroke-width="2"/> 
+    <polyline points="-126.5,666 -136.5,671 -126.5,676" transform="flipX(325)"/> 
+  </g>
+  <g id="Serv_2b_str4" visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_2a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-504,762 -494,767 -504,772" transform="rotate(270 65 65)"/> 
+    <line x1="767" y1="630.5" x2="767" y2="656" stroke="black" stroke-width="2"/> 
+    <line x1="777" y1="657" x2="766" y2="657" stroke="black" stroke-width="2"/> 
+    <polyline points="-125.5,652 -135.5,657 -125.5,662" transform="flipX(325)"/> 
+  </g>
+  <g id="Serv_1b_str5">
+    <rt:dyn type="visibility" mode="constant" value="VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-580,514 -570,519 -580,524" transform="rotate(270 65 65)"/> 
+    <line x1="519" y1="706" x2="519" y2="725" stroke="black" stroke-width="2"/> 
+    <polyline points="378,514 388,519 378,524" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="Serv_1a_str5">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="ii">
+      <rt:xy value="0" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-580,359 -570,364 -580,369" transform="rotate(270 65 65)"/> 
+    <line x1="364" y1="705" x2="364" y2="725" stroke="black" stroke-width="2"/> 
+    <polyline points="378,359 388,364 378,369" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="Serv_1a_str6">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-580,374 -570,379 -580,384" transform="rotate(270 65 65)"/> 
+    <line x1="379" y1="709" x2="379" y2="730" stroke="black" stroke-width="2"/> 
+  </g>
+  <g id="viyp1_st1">
+    <polyline points="-42.3334,221.125 -32.3334,225.125 -42.3334,229.125" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(2)"/> 
+    </polyline>
+    <line x1="225.125" y1="168.256" x2="225.125" y2="257.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(2)"/> 
+    </line>
+    <polyline points="-91.744,221.125 -81.744,225.125 -91.744,229.125" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(2)"/> 
+    </polyline>
+  </g>
+  <image x="118.15" y="168.079" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC20">
+    <title>АРМ ВИУР-2 (10CWA20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWA20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУР-2&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyr2_st1">
+    <polyline points="-106.436,144.15 -96.436,148.15 -106.436,152.15" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(1)"/> 
+    </polyline>
+    <line x1="148.124" y1="234.436" x2="148.124" y2="250.436" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(1)"/> 
+    </line>
+    <polyline points="-92.564,144.124 -82.564,148.124 -92.564,152.124" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(1)"/> 
+    </polyline>
+  </g>
+  <g id="viyr2_st2">
+    <polyline points="-107.436,164.15 -97.436,168.15 -107.436,172.15" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(1)"/> 
+    </polyline>
+    <line x1="168.15" y1="234.91" x2="168.15" y2="260.436" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(1)"/> 
+    </line>
+  </g>
+  <g id="viyr1_st1">
+    <polyline points="-43.3333,84.208 -33.3333,88.208 -43.3333,92.208" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(0)"/> 
+    </polyline>
+    <line x1="88.208" y1="169.256" x2="88.208" y2="258.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(0)"/> 
+    </line>
+    <polyline points="-90.744,84.208 -80.744,88.208 -90.744,92.208" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(0)"/> 
+    </polyline>
+  </g>
+  <g id="viyr1_st2">
+    <polyline points="-43.3333,104.208 -33.3333,108.208 -43.3333,112.208" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(0)"/> 
+    </polyline>
+    <line x1="108.208" y1="172.256" x2="108.208" y2="260.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(0)"/> 
+    </line>
+  </g>
+  <image x="195" y="104.139" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC21">
+    <title>АРМ ВИУP-3 (10CWA30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWA30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУP-3&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyp1_st2">
+    <polyline points="-42.3334,241.125 -32.3334,245.125 -42.3334,249.125" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(2)"/> 
+    </polyline>
+    <line x1="245.125" y1="172.256" x2="245.125" y2="260.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(2)"/> 
+    </line>
+  </g>
+  <g id="viyp2_st2">
+    <polyline points="-107,301 -97,305 -107,309" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(3)"/> 
+    </polyline>
+    <line x1="305" y1="235" x2="305" y2="260" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(3)"/> 
+    </line>
+  </g>
+  <image x="255" y="168.079" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC24">
+    <title>АРМ ВИУP-4 (10CWA40)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWA40&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУP-4&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyp2_st1">
+    <polyline points="-107,281 -97,285 -107,289" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(3)"/> 
+    </polyline>
+    <line x1="285" y1="235" x2="285" y2="251" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(3)"/> 
+    </line>
+    <polyline points="-92,281 -82,285 -92,289" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(3)"/> 
+    </polyline>
+  </g>
+  <g id="viyt1_st1">
+    <polyline points="-40.8334,495 -30.8334,499 -40.8334,503" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(4)"/> 
+    </polyline>
+    <line x1="499" y1="166.756" x2="499" y2="255.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(4)"/> 
+    </line>
+    <polyline points="-93.244,495 -83.244,499 -93.244,503" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(4)"/> 
+    </polyline>
+  </g>
+  <g id="viyt1_st2">
+    <polyline points="-40.8334,512 -30.8334,516 -40.8334,520" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(4)"/> 
+    </polyline>
+    <line x1="516" y1="170.756" x2="516" y2="258.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(4)"/> 
+    </line>
+  </g>
+  <image x="526.5" y="166.579" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC6">
+    <title>АРМ ВИУТ-2 (10CWB20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWB20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУТ-2&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyt2_st1">
+    <polyline points="-105.5,552.5 -95.5,556.5 -105.5,560.5" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(5)"/> 
+    </polyline>
+    <line x1="556.5" y1="233.5" x2="556.5" y2="249.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(5)"/> 
+    </line>
+    <polyline points="-93.5,552.5 -83.5,556.5 -93.5,560.5" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(5)"/> 
+    </polyline>
+  </g>
+  <g id="viyt2_st2">
+    <polyline points="-105.5,572.5 -95.5,576.5 -105.5,580.5" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(5)"/> 
+    </polyline>
+    <line x1="576.5" y1="233.5" x2="576.5" y2="258.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(5)"/> 
+    </line>
+  </g>
+  <g id="ns_ctai_st1">
+    <line x1="33" y1="304" x2="33" y2="339" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(10)"/> 
+    </line>
+    <polyline points="-179,29 -169,33 -179,37" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(10)"/> 
+    </polyline>
+    <polyline points="-8,29 2,33 -8,37" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(10)"/> 
+    </polyline>
+  </g>
+  <g id="ns_ctai_st2">
+    <polyline points="-194,63 -184,67 -194,71" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(10)"/> 
+    </polyline>
+    <line x1="67" y1="320" x2="67.333" y2="341" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(10)"/> 
+    </line>
+    <polyline points="-6,63.333 4,67.333 -6,71.333" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(10)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st1">
+    <polyline points="-179.5,282 -169.5,286 -179.5,290" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(12)"/> 
+    </polyline>
+    <line x1="286" y1="304.5" x2="286" y2="339.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(12)"/> 
+    </line>
+    <polyline points="-5.5,282 4.5,286 -5.5,290" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(12)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st2">
+    <polyline points="-193.5,303 -183.5,307 -193.5,311" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(12)"/> 
+    </polyline>
+    <line x1="307" y1="319.5" x2="307" y2="340.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(12)"/> 
+    </line>
+    <polyline points="-7.5,303 2.5,307 -7.5,311" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(12)"/> 
+    </polyline>
+  </g>
+  <image x="-0.386299" y="805.035" width="40" height="40" xlink:href="GW.svg" id="azpz2">
+    <title>АЗ-ПЗ-2</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan13&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT13|АЗ-ПЗ-2|13&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(13)"/> 
+  </image>
+  <g id="azpz2_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(13)"/> 
+    <polyline points="-657.931,7.2057 -647.93,11.2057 -657.93,15.2057" transform="rotate(270 65 65)"/> 
+    <line x1="11.2057" y1="782.93" x2="11.2057" y2="810.93" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(13)"/> 
+    </line>
+    <polyline points="461.93,7.2057 471.93,11.2057 461.93,15.2057" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="azpz2_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(13)"/> 
+    <polyline points="463.93,24.2057 473.93,28.2057 463.93,32.2057" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="28.2057" y1="796.93" x2="28.2057" y2="810.93" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(13)"/> 
+    </line>
+    <polyline points="-670.93,24.2057 -660.93,28.2057 -670.93,32.2057" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="1179.53" y="806.745" width="40" height="40" xlink:href="GW.svg" id="usbt2">
+    <title>УСБТ-2</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan10&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT10|УСБТ-2|10&quot;)</rt:event>
+    <rt:dyn type="Color" mode="cyclic" value="Chan_Color(10)"/> 
+  </image>
+  <g id="usbt2_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(10)"/> 
+    <polyline points="-659.61,1187.49 -649.609,1191.49 -659.609,1195.49" transform="rotate(270 65 65)"/> 
+    <line x1="1191.49" y1="784.609" x2="1191.49" y2="812.609" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(10)"/> 
+    </line>
+    <polyline points="463.609,1187.49 473.609,1191.49 463.609,1195.49" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="usbt2_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(10)"/> 
+    <polyline points="465.609,1204.49 475.609,1208.49 465.609,1212.49" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1208.49" y1="798.609" x2="1208.49" y2="812.609" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(10)"/> 
+    </line>
+    <polyline points="-670.609,1204.49 -660.609,1208.49 -670.609,1212.49" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <g id="usbt3_st1" fill="black">
+    <rt:dyn type="fill" mode="unknown" value="Chan_Color3(11)"/> 
+    <polyline points="-657.931,82.956 -647.93,86.956 -657.93,90.956" transform="rotate(270 65 65)"/> 
+    <line x1="86.956" y1="782.93" x2="86.956" y2="810.93" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="constant" value="Chan_Color3(11)"/> 
+    </line>
+    <polyline points="461.93,82.956 471.93,86.956 461.93,90.956" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="usbt3_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(11)"/> 
+    <polyline points="463.93,99.956 473.93,103.956 463.93,107.956" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="103.956" y1="796.93" x2="103.5" y2="810.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(11)"/> 
+    </line>
+    <polyline points="-670.93,99.956 -660.93,103.956 -670.93,107.956" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="266.688" y="807.632" width="40" height="40" xlink:href="GW.svg" id="sky_eo">
+    <title>СКУ ЭО</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan22&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT22|СКУ ЭО|22&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(22)"/> 
+  </image>
+  <g id="sky_eo_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(22)"/> 
+    <polyline points="-659.251,274.25 -649.25,278.25 -659.25,282.25" transform="rotate(270 65 65)"/> 
+    <line x1="278.25" y1="784.25" x2="278.25" y2="812.25" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(22)"/> 
+    </line>
+    <polyline points="463.25,274.25 473.25,278.25 463.25,282.25" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_eo_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(22)"/> 
+    <polyline points="465.25,291.25 475.25,295.25 465.25,299.25" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="295.25" y1="798.25" x2="295.25" y2="812.25" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(22)"/> 
+    </line>
+    <polyline points="-672.25,291.25 -662.25,295.25 -672.25,299.25" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="74.93" y="805.035" width="40" height="40" xlink:href="GW.svg" id="usbt3">
+    <title>УСБТ-3</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan11&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT11|УСБТ-3|11&quot;)</rt:event>
+    <rt:dyn type="Color" mode="cyclic" value="Chan_Color(11)"/> 
+  </image>
+  <image x="308.008" y="807.632" width="40" height="40" xlink:href="GW.svg" id="sky_tto">
+    <title>СКУ ТТО</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan17&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT17|СКУ ТТО|17&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(17)"/> 
+  </image>
+  <g id="sky_tto_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(17)"/> 
+    <polyline points="-659.001,315.5 -649,319.5 -659,323.5" transform="rotate(270 65 65)"/> 
+    <line x1="319.5" y1="784" x2="319.5" y2="812" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(17)"/> 
+    </line>
+    <polyline points="463,315.5 473,319.5 463,323.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_tto_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(17)"/> 
+    <polyline points="465,332.5 475,336.5 465,340.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="336.5" y1="798" x2="336.5" y2="812" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(17)"/> 
+    </line>
+    <polyline points="-672,332.5 -662,336.5 -672,340.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="351.427" y="807.632" width="40" height="40" xlink:href="GW.svg" id="asrk">
+    <title>АСРК</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan20&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT20|АСРК|20&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(20)"/> 
+  </image>
+  <g id="asrk_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(20)"/> 
+    <polyline points="-660.001,359.75 -650,363.75 -660,367.75" transform="rotate(270 65 65)"/> 
+    <line x1="363.75" y1="785" x2="363.75" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(20)"/> 
+    </line>
+    <polyline points="464,359.75 474,363.75 464,367.75" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="asrk_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(20)"/> 
+    <polyline points="466,376.75 476,380.75 466,384.75" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="380.75" y1="799" x2="380.75" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(20)"/> 
+    </line>
+    <polyline points="-673,376.75 -663,380.75 -673,384.75" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="392.478" y="807.632" width="40" height="40" xlink:href="GW.svg" id="sky_pz">
+    <title>СКУ ПЗ</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan15&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT15|СКУ ПЗ|15&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(15)"/> 
+  </image>
+  <g id="sky_pz_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(15)"/> 
+    <polyline points="-660.001,401 -650,405 -660,409" transform="rotate(270 65 65)"/> 
+    <line x1="405" y1="785" x2="405" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(15)"/> 
+    </line>
+    <polyline points="464,401 474,405 464,409" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_pz_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(15)"/> 
+    <polyline points="466,418 476,422 466,426" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="422" y1="799" x2="422" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(15)"/> 
+    </line>
+    <polyline points="-672,418 -662,422 -672,426" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="432.056" y="808.684" width="40" height="40" xlink:href="GW.svg" id="svd">
+    <title>СВД</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan23&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT23|СВД|23&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(23)"/> 
+  </image>
+  <g id="svd_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(23)"/> 
+    <polyline points="-660.001,440 -650,444 -660,448" transform="rotate(270 65 65)"/> 
+    <line x1="444" y1="785" x2="444" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(23)"/> 
+    </line>
+    <polyline points="464,440 474,444 464,448" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="svd_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(23)"/> 
+    <polyline points="467,457 477,461 467,465" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="461" y1="799" x2="461" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(23)"/> 
+    </line>
+    <polyline points="-672,457 -662,461 -672,465" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="474.902" y="809.21" width="40" height="40" xlink:href="GW.svg" id="sky_ro1">
+    <title>СКУ РО-1</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(0)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan00&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT00|СКУ РО-1|0&quot;)</rt:event>
+  </image>
+  <g id="sky_ro1_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(0)"/> 
+    <polyline points="-659.001,483.5 -649,487.5 -659,491.5" transform="rotate(270 65 65)"/> 
+    <line x1="487.5" y1="786" x2="487.5" y2="813.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(0)"/> 
+    </line>
+    <polyline points="465,483.5 475,487.5 465,491.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ro1_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(0)"/> 
+    <polyline points="467,500.5 477,504.5 467,508.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="504.5" y1="800" x2="504.5" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(0)"/> 
+    </line>
+    <polyline points="-672,500.5 -662,504.5 -672,508.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="717.902" y="809.21" width="40" height="40" xlink:href="GW.svg" id="sky_hvo">
+    <title>СКУ ХВО</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(24)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan24&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT24|СКУ ХВО|24&quot;)</rt:event>
+  </image>
+  <g id="sky_hvo_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(24)"/> 
+    <polyline points="-659.001,726.5 -649,730.5 -659,734.5" transform="rotate(270 65 65)"/> 
+    <line x1="730.5" y1="786" x2="730.5" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(24)"/> 
+    </line>
+    <polyline points="465,726.5 475,730.5 465,734.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_hvo_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(24)"/> 
+    <polyline points="467,743.5 477,747.5 467,751.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="747.5" y1="800" x2="747.5" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(24)"/> 
+    </line>
+    <polyline points="-672,743.5 -662,747.5 -672,751.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="617.376" y="808.684" width="40" height="40" xlink:href="GW.svg" id="sky_ro4">
+    <title>СКУ РО-4</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(3)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan03&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT03|СКУ РО-4|3&quot;)</rt:event>
+  </image>
+  <g id="sky_ro4_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(3)"/> 
+    <polyline points="-659.501,626.5 -649.5,630 -659.5,634.5" transform="rotate(270 65 65)"/> 
+    <line x1="630.5" y1="786.5" x2="630.5" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(3)"/> 
+    </line>
+    <polyline points="465.5,626.5 475.5,630.5 465.5,634.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ro4_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(3)"/> 
+    <polyline points="467.5,643.5 477.5,647.5 467.5,651.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="647.5" y1="800.5" x2="647.5" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(3)"/> 
+    </line>
+    <polyline points="-672.5,643.5 -662.5,647.5 -672.5,651.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="967.43" y="809.316" width="40" height="40" xlink:href="GW.svg" id="sky_sk">
+    <title>СКУ СК</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(21)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan21&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT21|СКУ СК|21&quot;)</rt:event>
+  </image>
+  <g id="sky_sk_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(21)"/> 
+    <polyline points="-659.501,975.5 -649.5,979.5 -659.5,983.5" transform="rotate(270 65 65)"/> 
+    <line x1="979.5" y1="785.5" x2="979.5" y2="813.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(21)"/> 
+    </line>
+    <polyline points="464.5,975.5 474.5,979.5 464.5,983.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_sk_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(21)"/> 
+    <polyline points="467.5,992.5 477.5,996.5 467.5,1000.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="996.5" y1="799.5" x2="996.5" y2="813.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(21)"/> 
+    </line>
+    <polyline points="-671.5,992.5 -661.5,996.5 -671.5,1000.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="1017.8" y="808.684" width="40" height="40" xlink:href="GW.svg" id="sky_eche">
+    <title>СКУ ЭЧ</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(8)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan08&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT08|СКУ ЭЧ|08&quot;)</rt:event>
+  </image>
+  <g id="sky_ech_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(8)"/> 
+    <polyline points="-660.001,1026 -650,1030 -660,1034" transform="rotate(270 65 65)"/> 
+    <line x1="1030" y1="786" x2="1030" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(8)"/> 
+    </line>
+    <polyline points="465,1026 475,1030 465,1034" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ech_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(8)"/> 
+    <polyline points="467,1043 477,1047 467,1051" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1047" y1="800" x2="1047" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(8)"/> 
+    </line>
+    <polyline points="-672,1043 -662,1047 -672,1051" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="917.846" y="808.684" width="40" height="40" xlink:href="GW.svg" id="ke_suz">
+    <title>КЭ СУЗ</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan14&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT14|КЭ СУЗ|14&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(14)"/> 
+  </image>
+  <g id="sgiu_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(14)"/> 
+    <polyline points="-659.501,927 -649.5,931 -659.5,935" transform="rotate(270 65 65)"/> 
+    <line x1="931" y1="786.5" x2="931" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(14)"/> 
+    </line>
+    <polyline points="465.5,927 475.5,931 465.5,935" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sgiu_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(14)"/> 
+    <polyline points="467.5,944 477.5,948 467.5,952" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="948" y1="800.5" x2="948" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(14)"/> 
+    </line>
+    <polyline points="-672.5,944 -662.5,948 -672.5,952" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="768.109" y="809.737" width="40" height="40" xlink:href="GW.svg" id="sky_to1">
+    <title>СКУ ТО-1</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan05&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT05|СКУ ТО-1|05&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(5)"/> 
+  </image>
+  <g id="sky_v_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(5)"/> 
+    <polyline points="-659.501,777 -649.5,781 -659.5,785" transform="rotate(270 65 65)"/> 
+    <line x1="781" y1="786.5" x2="781" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(5)"/> 
+    </line>
+    <polyline points="465.5,777 475.5,781 465.5,785" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_v_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(5)"/> 
+    <polyline points="468,794 478,798 468,802" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="798" y1="800" x2="798" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(5)"/> 
+    </line>
+    <polyline points="-672,794 -662,798 -672,802" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="1068.43" y="809.737" width="40" height="40" xlink:href="GW.svg" id="sdru">
+    <title>СДРУ</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan16&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT16|СДРУ|16&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(16)"/> 
+  </image>
+  <g id="sdru_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(16)"/> 
+    <polyline points="-659.501,1075 -649.5,1079 -659.5,1083" transform="rotate(270 65 65)"/> 
+    <line x1="1079" y1="786.5" x2="1079" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(16)"/> 
+    </line>
+    <polyline points="465.5,1075 475.5,1079 465.5,1083" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sdru_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(16)"/> 
+    <polyline points="467.5,1092 477.5,1096 467.5,1100" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1096" y1="800.5" x2="1096" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(16)"/> 
+    </line>
+    <polyline points="-672.5,1092 -662.5,1096 -672.5,1100" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="817.849" y="809.737" width="40" height="40" xlink:href="GW.svg" id="sau_to2">
+    <title>САУ ТО-2</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan06&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT06|СКУ ТО-2|06&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(06)"/> 
+  </image>
+  <g id="sau_dg_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(6)"/> 
+    <polyline points="-659.501,827.5 -649.5,831.5 -659.5,835.5" transform="rotate(270 65 65)"/> 
+    <line x1="831.5" y1="786.5" x2="831.5" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(6)"/> 
+    </line>
+    <polyline points="465.5,827.5 475.5,831.5 465.5,835.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sau_dg_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(6)"/> 
+    <polyline points="468.5,844.5 478.5,848.5 468.5,852.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="848.5" y1="800.5" x2="848.5" y2="814.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(6)"/> 
+    </line>
+    <polyline points="-672.5,844.5 -662.5,848.5 -672.5,852.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <g/> 
+  <g>
+    <polyline points="188,730 178,735 188,740"/> 
+    <line x1="187" y1="735" x2="243" y2="735" stroke="black" stroke-width="2"/> 
+    <polyline points="412,730 402,735 412,740" transform="flipX(325)"/> 
+    <g>
+      <polyline points="212,782 202,787 212,792"/> 
+      <line x1="208" y1="787" x2="263" y2="787" stroke="black" stroke-width="2"/> 
+      <polyline points="392,782 382,787 392,792" transform="flipX(325)"/> 
+    </g>
+  </g>
+  <text x="738" y="40" id="Text_1" font-size="32" font-weight="normal" text-anchor="middle">Структура СВБУ</text>
+  <image x="7" y="343.237" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC10">
+    <title>АРМ СНЭ (10CWK10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWK10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СНЭ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <text x="-1.3333" y="855.667">АЗ-ПЗ-2</text>
+  <text x="73.193" y="855.667">УСБТ-3</text>
+  <text x="146.404" y="855.667">СРВПЭ-2</text>
+  <g>
+    <polyline points="1092,732 1082,737 1092,742"/> 
+    <line x1="1088" y1="737" x2="1138" y2="737" stroke="black" stroke-width="2"/> 
+    <polyline points="-487,732 -497,737 -487,742" transform="flipX(325)"/> 
+    <g>
+      <polyline points="1117,785 1107,790 1117,795"/> 
+      <line x1="1111" y1="790" x2="1168" y2="790" stroke="black" stroke-width="2"/> 
+      <polyline points="-513,785 -523,790 -513,795" transform="flipX(325)"/> 
+    </g>
+  </g>
+  <rect x="1070" y="260" width="500" height="40" rx="0" ry="0" fill="lightsteelblue" stroke="black">
+    <title>Коммутатор ИК основной (10CKK70)</title>
+  </rect>
+  <text x="1344.5" y="280" font-size="16" font-weight="600" text-anchor="middle">
+    <title>Коммутаторы ИК</title>
+Коммутаторы ИК</text>
+  <image x="1552.49" y="266" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор ИК основной (10CKK70)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK70&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор ИК основной&quot;"/> 
+  </image>
+  <image x="1582.49" y="279" width="15" height="45" xlink:href="spec_I_M.svg">
+    <title>Коммутатор ИК резервный (10CKK80)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK80&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;Коммутатор ИК резервный&quot;"/> 
+  </image>
+  <g id="Serv_2b_str7">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-489.5,545 -479.5,550 -489.5,555" transform="rotate(270 65 65)"/> 
+    <line x1="550" y1="615.5" x2="550" y2="671" stroke="black" stroke-width="2"/> 
+    <line x1="551" y1="672" x2="525" y2="672" stroke="black" stroke-width="2"/> 
+    <polyline points="528.5,666.5 518.5,671.5 528.5,676.5"/> 
+  </g>
+  <g id="Serv_2b_str8">
+    <rt:dyn type="visibility" mode="constant" value="(VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-505,565 -495,570 -505,575" transform="rotate(270 65 65)"/> 
+    <line x1="570" y1="631.5" x2="570" y2="657" stroke="black" stroke-width="2"/> 
+    <line x1="571" y1="658" x2="560" y2="658" stroke="black" stroke-width="2"/> 
+    <polyline points="562.5,652.5 552.5,657.5 562.5,662.5"/> 
+  </g>
+  <image x="466.5" y="102.639" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC5">
+    <title>АРМ ВИУТ-1 (10CWB10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWB10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУТ-1&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="58" y="104.139" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC19">
+    <title>АРМ ВИУР (10CWA10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWA10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУР-1&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g>
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="-580,529 -570,534 -580,539" transform="rotate(270 65 65)"/> 
+    <line x1="534" y1="709" x2="534" y2="730" stroke="black" stroke-width="2"/> 
+  </g>
+  <g id="srvpe2_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(19)"/> 
+    <polyline points="-656.751,164 -646.75,168 -656.75,172" transform="rotate(270 65 65)"/> 
+    <line x1="168" y1="781.75" x2="168" y2="809.75" stroke="black" stroke-width="2">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(19)"/> 
+    </line>
+    <polyline points="460.75,164 470.75,168 460.75,172" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <image x="1262" y="808" width="40" height="40" xlink:href="GW.svg" id="srvpe12">
+    <title>СРВПЭ-1</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan18&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT18|СРВПЭ-1|18&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(18)"/> 
+  </image>
+  <g id="Serv_1b">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <image x="530" y="651" width="15" height="30" xlink:href="spec_I_M.svg">
+      <title>Сервер ОК СВБУ (4CKB08)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;4CKB08&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ОК СВБУ (4CKB08)&quot;"/> 
+    </image>
+    <rect x="471" y="640" width="110" height="60" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ИУК СВБУ (10CKM20)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV1b_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM20|Сервер ИУК СВБУ (10CKM20)|1&quot;)</rt:event>
+    </rect>
+    <image x="562.5" y="648" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ИУК СВБУ (10CKM20)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;10CKM20&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ИУК СВБУ (10CKM20)&quot;"/> 
+    </image>
+    <text x="518.25" y="675" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ИУК СВБУ (10CKM20)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM20|Сервер ИУК СВБУ (10CKM20)|1&quot;)</rt:event>
+10CKM20</text>
+  </g>
+  <g id="Serv_1a">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <rect x="351" y="640" width="110" height="60" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ИУК СВБУ (10CKM10)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV1a_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM10|Сервер ИУК СВБУ (10CKM10)|0&quot;)</rt:event>
+    </rect>
+    <image x="440" y="647.5" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ИУК СВБУ (10CKM10)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;10CKM10&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ИУК СВБУ (10CKM10)&quot;"/> 
+    </image>
+    <text x="392.25" y="675" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ИУК СВБУ (10CKM10)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM10|Сервер ИУК СВБУ (10CKM10)|0&quot;)</rt:event>
+10CKM10</text>
+  </g>
+  <g id="Serv_2a" visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_2a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <image x="858" y="651" width="15" height="30" xlink:href="spec_I_M.svg">
+      <title>Сервер НК СВБУ (4CKA09)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;4CKA09&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер НК СВБУ (4CKA09)&quot;"/> 
+    </image>
+    <rect x="780" y="640" width="110" height="60" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ИК СВБУ (10CKM30)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV2a_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM30|Сервер ИК СВБУ (10CKM30)|2&quot;)</rt:event>
+    </rect>
+    <image x="870.34" y="645.921" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ИК СВБУ (10CKM30)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;10CKM30&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ИК СВБУ (10CKM30)&quot;"/> 
+    </image>
+    <text x="828" y="676" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ИК СВБУ (10CKM30)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM30|Сервер ИК СВБУ (10CKM30)|2&quot;)</rt:event>
+10CKM30</text>
+  </g>
+  <g id="Serv_2b" visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_2b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <image x="961" y="651" width="15" height="30" xlink:href="spec_I_M.svg">
+      <title>Сервер НК СВБУ (4CKB09)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;4CKB09&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер НК СВБУ (4CKB09)&quot;"/> 
+    </image>
+    <rect x="896" y="640" width="110" height="60" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ИК СВБУ (10CKM40)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV2b_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM40|Сервер ИК СВБУ (10CKM40)|3&quot;)</rt:event>
+    </rect>
+    <text x="940" y="675" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ИК СВБУ (10CKM40)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;10CKM40|Сервер ИК СВБУ (10CKM40)|3&quot;)</rt:event>
+10CKM40</text>
+    <image x="986.5" y="646.5" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ИК СВБУ (10CKM40)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;10CKM40&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ИК СВБУ (10CKM40)&quot;"/> 
+    </image>
+  </g>
+  <g id="srvpe1_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(18)"/> 
+    <polyline points="-659.61,1274.49 -649.609,1278.49 -659.609,1282.49" transform="rotate(270 65 65)"/> 
+    <line x1="1278.49" y1="784.609" x2="1278.5" y2="811" stroke="black" stroke-width="2">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(18)"/> 
+    </line>
+    <polyline points="462.609,1274.49 472.609,1278.49 462.609,1282.49" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <image x="517.056" y="807.684" width="40" height="40" xlink:href="GW.svg" id="sky_ro2">
+    <title>СКУ РО-2</title>
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan01&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT01|СКУ РО-2|0&quot;)</rt:event>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(1)"/> 
+  </image>
+  <g id="sky_ro2_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(1)"/> 
+    <polyline points="-659.001,525 -649,529 -659,533" transform="rotate(270 65 65)"/> 
+    <line x1="529" y1="784" x2="529" y2="812" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(1)"/> 
+    </line>
+    <polyline points="463,525 473,529 463,533" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ro2_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(1)"/> 
+    <polyline points="466,542 476,546 466,550" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="546" y1="798" x2="546" y2="812" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(1)"/> 
+    </line>
+    <polyline points="-670.5,542 -661,546 -671,550" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="567.902" y="808.21" width="40" height="40" xlink:href="GW.svg" id="sky_ro3">
+    <title>СКУ РО-3</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(2)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan02&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT02|СКУ РО-3|2&quot;)</rt:event>
+  </image>
+  <g id="sky_ro3_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(2)"/> 
+    <polyline points="-658.001,576.5 -648,580.5 -658,584.5" transform="rotate(270 65 65)"/> 
+    <line x1="580.5" y1="785" x2="580.5" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(2)"/> 
+    </line>
+    <polyline points="464,576.5 474,580.5 464,584.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ro3_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(2)"/> 
+    <polyline points="466,593.5 476,597.5 466,601.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="597.5" y1="799" x2="597.5" y2="813" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(2)"/> 
+    </line>
+    <polyline points="-671,593.5 -661,597.5 -671,601.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <text x="537" y="857.334" text-anchor="middle">СКУ<tspan x="537" dy="14">РО-2</tspan>
+  </text>
+  <text x="588" y="857.334" text-anchor="middle">СКУ<tspan x="588" dy="14">РО-3</tspan>
+  </text>
+  <text x="885.219" y="857.334" text-anchor="middle">СКУ<tspan x="885.219" dy="14">ТО-3</tspan>
+  </text>
+  <text x="688.848" y="857.334" text-anchor="middle">СКУ<tspan x="688.848" dy="14">РО-5</tspan>
+  </text>
+  <image x="667.425" y="809.316" width="40" height="40" xlink:href="GW.svg" id="sky_ro5">
+    <title>СКУ РО-5</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(4)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan04&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT04|СКУ РО-5|4&quot;)</rt:event>
+  </image>
+  <g id="sky_ro5_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(4)"/> 
+    <polyline points="-659.501,675.5 -649.5,679.5 -659.5,683.5" transform="rotate(270 65 65)"/> 
+    <line x1="679.5" y1="785.5" x2="679.5" y2="813.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(4)"/> 
+    </line>
+    <polyline points="464.5,675.5 474.5,679.5 464.5,683.5" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_ro5_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(4)"/> 
+    <polyline points="467.5,692.5 477.5,696.5 467.5,700.5" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="696.5" y1="799.5" x2="696.5" y2="813.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(4)"/> 
+    </line>
+    <polyline points="-671.5,692.5 -661.5,696.5 -671.5,700.5" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="867.796" y="808.684" width="40" height="40" xlink:href="GW.svg" id="sky_to3">
+    <title>СКУ ТО-3</title>
+    <rt:dyn type="Color" mode="onchange" value="Chan_Color(7)"/> 
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;diagPPDchan07&quot;, &quot;Диагностика ППД&quot;, &quot;wd_diagPPDchannel_RxTx&quot;, &quot;4DT07|СКУ ТО-3|07&quot;)</rt:event>
+  </image>
+  <g id="sky_to3_st1" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color3(7)"/> 
+    <polyline points="-660.001,876 -650,880 -660,884" transform="rotate(270 65 65)"/> 
+    <line x1="880" y1="786" x2="880" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color3(7)"/> 
+    </line>
+    <polyline points="465,876 475,880 465,884" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="sky_to3_st2" fill="black">
+    <rt:dyn type="fill" mode="onchange" value="Chan_Color4(7)"/> 
+    <polyline points="467,893 477,897 467,901" stroke="none" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="897" y1="800" x2="897" y2="814" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="onchange" value="Chan_Color4(7)"/> 
+    </line>
+    <polyline points="-672,893 -662,897 -672,901" stroke="none" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="877" y="103" width="42" height="60" xlink:href="Arm_3H_1.svg" id="PC18">
+    <title>АРМ АСРК (10CWH90)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH90&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ АСРК&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_2b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="777,560 767,565 777,570"/> 
+    <line x1="776.5" y1="565" x2="923" y2="565" stroke="black" stroke-width="2"/> 
+    <polyline points="296.5,917 306.5,922 296.5,927" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="922" y1="565" x2="922" y2="639" stroke="black" stroke-width="2"/> 
+  </g>
+  <g visibility="visible" rt:detect="enabled">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_2b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <polyline points="800,597 790,602 800,607"/> 
+    <line x1="798" y1="601" x2="903" y2="601" stroke="black" stroke-width="2"/> 
+    <polyline points="296.5,897 306.5,902 296.5,907" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="902.5" y1="600" x2="902.5" y2="639" stroke="black" stroke-width="2"/> 
+  </g>
+  <image x="955.5" y="113.5" width="50" height="50" xlink:href="Print.svg"/> 
+  <image x="336" y="399" width="50" height="50" xlink:href="Print.svg"/> 
+  <g>
+    <rect x="1133" y="605" width="390" height="115" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="2"/> 
+    <rect x="1139.5" y="682.167" width="15" height="15" rx="0" ry="0" fill="Col_Red" stroke="black"/> 
+    <rect x="1139.33" y="662.666" width="15" height="15" rx="0" ry="0" fill="Col_Yellow" stroke="black"/> 
+    <rect x="1139.33" y="643.666" width="15" height="15" rx="0" ry="0" fill="Col_LtBlue" stroke="black"/> 
+    <rect x="1139.33" y="624.667" width="15" height="15" rx="0" ry="0" fill="Col_Green" stroke="black"/> 
+    <rect x="1139.5" y="701.167" width="15" height="15" rx="0" ry="0" fill="Col_Grey1" stroke="black"/> 
+    <text x="1139.33" y="618.667" font-size="11" font-weight="700">Цветовая кодировка для диагностики:</text>
+    <text x="1157.83" y="636.666">работа в основном режиме без нарушений</text>
+    <text x="1157.83" y="655.666">работа в резерве без нарушений</text>
+    <text x="1157.83" y="674.666">переходный процесс или частичные наруш</text>
+    <text x="1157.5" y="694.167">не работает / отказ / прочие проблемы</text>
+    <text x="1157.5" y="713.167">неизвестно или не проверяется</text>
+  </g>
+  <g id="print_5" transform="rotate(90 1145 335.25)">
+    <polyline points="209.25,934.75 219.25,938.75 209.25,942.75" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="938.75" y1="518" x2="938.75" y2="554.25" stroke="black" stroke-width="1"/> 
+    <polyline points="-392.125,934.75 -382.125,938.75 -392.125,942.75" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="353.414" y="108.778" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_1">
+    <polyline points="-94.2222,379.414 -84.2222,383.414 -94.2222,387.414" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="383.414" y1="165.778" x2="383.414" y2="249.778" stroke="black" stroke-width="1"/> 
+    <polyline points="-38.7778,379.414 -28.7778,383.414 -38.7778,387.414" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="407.414" y="109.278" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_2">
+    <polyline points="-93.7223,433.414 -83.7223,437.414 -93.7223,441.414" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="437.414" y1="166.278" x2="437.414" y2="250.278" stroke="black" stroke-width="1"/> 
+    <polyline points="-39.2777,433.414 -29.2777,437.414 -39.2777,441.414" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="608.5" y="103.639" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC7">
+    <title>АРМ ВИУТ-3 (10CWB40)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWB40&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ВИУТ-4&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyt1_st3">
+    <polyline points="-40.8334,633 -30.8334,637 -40.8334,641" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(6)"/> 
+    </polyline>
+    <line x1="637" y1="166.756" x2="636.5" y2="255" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(6)"/> 
+    </line>
+    <polyline points="-93.244,633 -83.244,637 -93.244,641" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(6)"/> 
+    </polyline>
+  </g>
+  <g id="viyt1_st4">
+    <polyline points="-40.8334,659 -30.8334,663 -40.8334,667" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(6)"/> 
+    </polyline>
+    <line x1="663" y1="170.756" x2="663" y2="258.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(6)"/> 
+    </line>
+  </g>
+  <rect x="707.5" y="80" width="156.5" height="160" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <g id="viyt1_st5">
+    <polyline points="-41.8334,742 -31.8334,746 -41.8334,750" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(7)"/> 
+    </polyline>
+    <line x1="746" y1="167.756" x2="746" y2="256.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(7)"/> 
+    </line>
+    <polyline points="-92.244,742 -82.244,746 -92.244,750" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(7)"/> 
+    </polyline>
+  </g>
+  <g id="viyt1_st6">
+    <polyline points="-41.8334,759 -31.8334,763 -41.8334,767" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(7)"/> 
+    </polyline>
+    <line x1="763" y1="171.756" x2="763" y2="259.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(7)"/> 
+    </line>
+  </g>
+  <image x="773.5" y="167.579" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC9">
+    <title>АРМ НСБ-2 (10CWD30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWD30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ НСБ-2&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="viyt2_st3">
+    <polyline points="-106.5,799.5 -96.5,803.5 -106.5,807.5" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(8)"/> 
+    </polyline>
+    <line x1="803.5" y1="234.5" x2="803.5" y2="250.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(8)"/> 
+    </line>
+    <polyline points="-92.5,799.5 -82.5,803.5 -92.5,807.5" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(8)"/> 
+    </polyline>
+  </g>
+  <g id="viyt2_st4">
+    <polyline points="-106.5,819.5 -96.5,823.5 -106.5,827.5" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(8)"/> 
+    </polyline>
+    <line x1="823.5" y1="234.5" x2="823.5" y2="259.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(8)"/> 
+    </line>
+  </g>
+  <image x="713.5" y="103.639" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC8">
+    <title>АРМ НСБ-1 (10CWD20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWD20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ НСБ-1&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <text x="752.5" y="98.5">АРМ HСБ</text>
+  <g id="viyt1_st7">
+    <polyline points="-42.8334,886 -32.8334,890 -42.8334,894" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(17)"/> 
+    </polyline>
+    <line x1="890" y1="168.756" x2="890" y2="257.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(17)"/> 
+    </line>
+    <polyline points="-91.244,886 -81.244,890 -91.244,894" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(17)"/> 
+    </polyline>
+  </g>
+  <g id="viyt1_st8">
+    <polyline points="-41.8334,900 -31.8334,904 -41.8334,908" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(17)"/> 
+    </polyline>
+    <line x1="904" y1="165" x2="904" y2="255.756" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(17)"/> 
+    </line>
+  </g>
+  <text x="939.5" y="219">БП рад.<tspan x="939.5" dy="14">контроля</tspan>
+  </text>
+  <image x="259" y="345" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC13">
+    <title>АРМ Админ. (10CWE40)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWE40&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ Админ.&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="98" y="343.237" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC11">
+    <title>АРМ СНЭ (10CWK30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWK30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СНЭ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="ns_ctai_st3">
+    <line x1="122" y1="304" x2="122" y2="339" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(11)"/> 
+    </line>
+    <polyline points="-179,118 -169,122 -179,126" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(11)"/> 
+    </polyline>
+    <polyline points="-8,118 2,122 -8,126" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(11)"/> 
+    </polyline>
+  </g>
+  <g id="ns_ctai_st4">
+    <polyline points="-194,152 -184,156 -194,160" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(11)"/> 
+    </polyline>
+    <line x1="156" y1="320" x2="156.333" y2="341" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(11)"/> 
+    </line>
+    <polyline points="-6,152.333 4,156.333 -6,160.333" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(11)"/> 
+    </polyline>
+  </g>
+  <image x="156.612" y="417.278" width="50" height="50" xlink:href="Print.svg"/> 
+  <image x="195.612" y="367.778" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_7">
+    <polyline points="63,186.414 73,190.414 63,194.414" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="190.414" y1="323" x2="190.414" y2="407" stroke="black" stroke-width="1"/> 
+    <polyline points="-196,186.414 -186,190.414 -196,194.414" transform="rotate(270 65 65)"/> 
+  </g>
+  <text x="618.125" y="491.5" text-anchor="middle">АРМ НС ЦТАИ</text>
+  <g id="ns_hc_st3">
+    <polyline points="-180.5,604.211 -170.5,608.211 -180.5,612.211" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(11)"/> 
+    </polyline>
+    <line x1="608.211" y1="305.5" x2="607.75" y2="405" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(11)"/> 
+    </line>
+    <polyline points="58.5,604.211 68.5,608.211 58.5,612.211" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(11)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st4">
+    <polyline points="-194.5,625.211 -184.5,629.211 -194.5,633.211" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(11)"/> 
+    </polyline>
+    <line x1="629.211" y1="320.5" x2="629" y2="406" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(11)"/> 
+    </line>
+    <polyline points="59.5,625.211 69.5,629.211 59.5,633.211" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(11)"/> 
+    </polyline>
+  </g>
+  <image x="581.211" y="410" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC12">
+    <title>АРМ НС ЦТАИ (10CWE30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWE30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ НС ЦТАИ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="499.112" y="409.278" width="50" height="50" xlink:href="Print.svg"/> 
+  <image x="534.112" y="357.778" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_10">
+    <polyline points="62,517.914 72,521.914 62,525.914" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="521.914" y1="322" x2="521.914" y2="406" stroke="black" stroke-width="1"/> 
+    <polyline points="-195,517.914 -185,521.914 -195,525.914" transform="rotate(270 65 65)"/> 
+  </g>
+  <g id="print_11">
+    <polyline points="21,552 31,556 21,560" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="556" y1="322" x2="556.5" y2="370" stroke="black" stroke-width="1"/> 
+    <polyline points="-195,552 -185,556 -195,560" transform="rotate(270 65 65)"/> 
+  </g>
+  <g id="print_12">
+    <polyline points="20,218 30,222 20,226" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="222" y1="321" x2="222.5" y2="369" stroke="black" stroke-width="1"/> 
+    <polyline points="-194,218 -184,222 -194,226" transform="rotate(270 65 65)"/> 
+  </g>
+  <g id="print_13">
+    <polyline points="54,360 64,364 54,368" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="364.75" y1="365" x2="364.5" y2="401" stroke="black" stroke-width="1"/> 
+  </g>
+  <polyline points="349,361 339,366 349,371"/> 
+  <line x1="343" y1="365" x2="365" y2="365" stroke="black"/> 
+  <g id="ns_hc_st5">
+    <polyline points="-179.75,674.961 -169.75,678.961 -179.75,682.961" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(13)"/> 
+    </polyline>
+    <line x1="678.961" y1="304.75" x2="678.961" y2="339.75" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(13)"/> 
+    </line>
+    <polyline points="-5.25,674.961 4.75,678.961 -5.25,682.961" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(13)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st6">
+    <polyline points="-194.75,695.961 -184.75,699.961 -194.75,703.961" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(13)"/> 
+    </polyline>
+    <line x1="699.961" y1="319.75" x2="699.75" y2="340" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(13)"/> 
+    </line>
+    <polyline points="-5.25,695.961 4.75,699.961 -5.25,703.961" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(13)"/> 
+    </polyline>
+  </g>
+  <image x="647.961" y="345.25" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC14">
+    <title>АРМ ДИ СВБУ (10CWE50)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWE50&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ДИ СВБУ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <text x="303.125" y="455" text-anchor="middle">АРМ Админ.<tspan x="303.125" dy="14">СВБУ</tspan>
+  </text>
+  <text x="696.875" y="421" text-anchor="middle">АРМ ДИ<tspan x="696.875" dy="14">СВБУ</tspan>
+  </text>
+  <text x="895" y="96.75">АРМ АСРК</text>
+  <image x="740.461" y="345.75" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC15">
+    <title>АРМ ПЗ (10CWH10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ПЗ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="811.25" y="410" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC16">
+    <title>АРМ СВО (10CWH30)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH30&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СВО&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="881.25" y="346.25" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC17">
+    <title>АРМ СВ (10CWH20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СВ&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <g id="ns_hc_st7">
+    <polyline points="-180.25,766.461 -170.25,770.461 -180.25,774.461" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(14)"/> 
+    </polyline>
+    <line x1="770.461" y1="305.25" x2="770.461" y2="340.25" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(14)"/> 
+    </line>
+    <polyline points="-4.75,766.461 5.25,770.461 -4.75,774.461" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(14)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st8">
+    <polyline points="-195.25,787.461 -185.25,791.461 -195.25,795.461" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(14)"/> 
+    </polyline>
+    <line x1="791.461" y1="320.25" x2="791.25" y2="340.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(14)"/> 
+    </line>
+    <polyline points="-4.75,787.461 5.25,791.461 -4.75,795.461" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(14)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st9">
+    <polyline points="-179.5,837.961 -169.5,841.961 -179.5,845.961" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(15)"/> 
+    </polyline>
+    <line x1="841.961" y1="304.5" x2="841.5" y2="404" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(15)"/> 
+    </line>
+    <polyline points="57.5,837.961 67.5,841.961 57.5,845.961" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(15)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st10">
+    <polyline points="-193.5,858.961 -183.5,862.961 -193.5,866.961" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(15)"/> 
+    </polyline>
+    <line x1="862.961" y1="319.5" x2="862.75" y2="405" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(15)"/> 
+    </line>
+    <polyline points="58.5,858.961 68.5,862.961 58.5,866.961" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(15)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st11">
+    <polyline points="-180.25,909.461 -170.25,913.461 -180.25,917.461" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(16)"/> 
+    </polyline>
+    <line x1="913.461" y1="305.25" x2="913.461" y2="340.25" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(16)"/> 
+    </line>
+    <polyline points="-4.75,909.461 5.25,913.461 -4.75,917.461" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(16)"/> 
+    </polyline>
+  </g>
+  <g id="ns_hc_st12">
+    <polyline points="-195.25,930.461 -185.25,934.461 -195.25,938.461" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(16)"/> 
+    </polyline>
+    <line x1="934.461" y1="320.25" x2="934.25" y2="340.5" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(16)"/> 
+    </line>
+    <polyline points="-4.75,930.461 5.25,934.461 -4.75,938.461" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(16)"/> 
+    </polyline>
+  </g>
+  <image x="967" y="417.5" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_14">
+    <polyline points="65,989.914 75,993.914 65,997.914" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="993.914" y1="325" x2="993.914" y2="409" stroke="black" stroke-width="1"/> 
+    <polyline points="-198,989.914 -188,993.914 -198,997.914" transform="rotate(270 65 65)"/> 
+  </g>
+  <text x="774.625" y="421.25" text-anchor="middle">АРМ ПЗ</text>
+  <text x="849" y="485" text-anchor="middle">АРМ СВО</text>
+  <text x="924" y="420" text-anchor="middle">АРМ СВ</text>
+  <line x1="415" y1="300" x2="415" y2="634" stroke="black"/> 
+  <line x1="425" y1="317" x2="425" y2="633.5" stroke="black"/> 
+  <line x1="481" y1="300" x2="481" y2="635" stroke="black"/> 
+  <line x1="491" y1="320" x2="491" y2="635" stroke="black"/> 
+  <polyline points="-195,486.75 -185,490.75 -195,494.75" transform="rotate(270 65 65)"/> 
+  <polyline points="-180,477 -170,481 -180,485" transform="rotate(270 65 65)"/> 
+  <polyline points="-180,411 -170,415 -180,419" transform="rotate(270 65 65)"/> 
+  <polyline points="-195,421 -185,425 -195,429" transform="rotate(270 65 65)"/> 
+  <polyline points="288,410.25 297.75,415.25 288,420.25" transform="flipY(236) rotate(270 65 65)"/> 
+  <polyline points="287.5,420.75 297.5,425.75 287.5,430.75" transform="flipY(236) rotate(270 65 65)"/> 
+  <polyline points="288.75,476.5 298.5,481.5 288.75,486.5" transform="flipY(236) rotate(270 65 65)"/> 
+  <polyline points="288.25,486 298.25,491 288.25,496" transform="flipY(236) rotate(270 65 65)"/> 
+  <rect x="1128.5" y="79" width="284.5" height="164.5" rx="0" ry="0" fill="Col_BGmain" stroke="black" stroke-dasharray="5,5"/> 
+  <image x="1194.5" y="166.579" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC2">
+    <title>АРМ ТП (10CWE20)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWE20&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ ТП&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="1134.5" y="102.639" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC1">
+    <title>АРМ ТП (10CWE10)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWE10&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;ТП&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <text x="1173.5" y="97.5">АРМ ТП</text>
+  <image x="1102" y="345" width="42" height="60" xlink:href="Arm_3H_1.svg" id="PC3">
+    <title>АРМ СВРК (10CWH50)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH50&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СВРК&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="1206" y="345" width="42" height="60" xlink:href="Arm_3H_1.svg" id="PC4">
+    <title>АРМ СКУД (10CWH40)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CWH40&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;АРМ СКУД&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="1400" y="350" width="42" height="60" xlink:href="Arm_3H_1.svg" id="PC23">
+    <title>УПД (10CKK90)</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10CKK90&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;УПД&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="1296.11" y="106.778" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_15">
+    <polyline points="-96.2223,1322.11 -86.2223,1326.11 -96.2223,1330.11" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1326.11" y1="163.778" x2="1326.11" y2="247.778" stroke="black" stroke-width="1"/> 
+    <polyline points="-36.7777,1322.11 -26.7777,1326.11 -36.7777,1330.11" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="1350.11" y="107.278" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_16">
+    <polyline points="-95.7224,1376.11 -85.7224,1380.11 -95.7224,1384.11" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1380.11" y1="164.278" x2="1380.11" y2="248.278" stroke="black" stroke-width="1"/> 
+    <polyline points="-37.2776,1376.11 -27.2776,1380.11 -37.2776,1384.11" transform="rotate(270 65 65)"/> 
+  </g>
+  <image x="1259.78" y="416.945" width="50" height="50" xlink:href="Print.svg"/> 
+  <g id="print_17">
+    <polyline points="64.9997,1285.78 74.9997,1289.78 64.9997,1293.78" transform="flipY(236) rotate(270 65 65)"/> 
+    <line x1="1289.78" y1="325" x2="1289.78" y2="409" stroke="black" stroke-width="1"/> 
+    <polyline points="-198,1285.78 -188,1289.78 -198,1293.78" transform="rotate(270 65 65)"/> 
+  </g>
+  <text x="1124" y="420" text-anchor="middle">АРМ СВРК</text>
+  <text x="1224" y="418" text-anchor="middle">АРМ СКУД</text>
+  <g id="ns_hc_st17">
+    <polyline points="-184.917,1408.79 -174.917,1412.79 -184.917,1416.79" fill="black" transform="rotate(270 65 65)"/> 
+    <line x1="1412.33" y1="306" x2="1412.79" y2="344.917" stroke="black" stroke-width="1"/> 
+    <polyline points="-0.0833664,1408.79 9.91663,1412.79 -0.0833664,1416.79" fill="black" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <g id="ns_hc_st18">
+    <polyline points="-199.917,1429.79 -189.917,1433.79 -199.917,1437.79" fill="black" transform="rotate(270 65 65)"/> 
+    <line x1="1433.79" y1="324.917" x2="1433.58" y2="345.167" stroke="black" stroke-width="1"/> 
+    <polyline points="-0.0833664,1429.79 9.91663,1433.79 -0.0833664,1437.79" fill="black" transform="flipY(236) rotate(270 65 65)"/> 
+  </g>
+  <text x="1422" y="425" text-anchor="middle">УПД</text>
+  <polyline points="-181,1335 -171,1340 -181,1345" transform="rotate(270 65 65)"/> 
+  <line x1="860" y1="530" x2="860" y2="557.75" stroke="black" stroke-width="2"/> 
+  <line x1="859" y1="608.75" x2="859" y2="638.5" stroke="black" stroke-width="2"/> 
+  <polyline points="296.5,854.5 306.5,859.5 296.5,864.5" transform="flipY(236) rotate(270 65 65)"/> 
+  <path d="M828.167 414.329 A8.29083 8.42126 0 0 0 811.897 414.329 " fill="none" stroke="black" stroke-width="2" transform="rotate(90 764.493 509.461)"/> 
+  <line x1="859" y1="572" x2="859" y2="594" stroke="black" stroke-width="2"/> 
+  <path d="M864.994 415.149 A8.29083 8.42126 0 0 0 848.474 415.318 " fill="none" stroke="black" stroke-width="2" transform="rotate(90 764.493 509.461)"/> 
+  <polyline points="-196,1381.5 -186,1386.5 -196,1391.5" transform="rotate(270 65 65)"/> 
+  <line x1="844" y1="520" x2="844" y2="557.25" stroke="black" stroke-width="2"/> 
+  <polyline points="296.5,839.5 306.5,844.5 296.5,849.5" transform="flipY(236) rotate(270 65 65)"/> 
+  <path d="M864.994 429.665 A8.29083 8.42126 0 0 0 848.474 429.834 " fill="none" stroke="black" stroke-width="2" transform="rotate(90 764.493 509.461)"/> 
+  <line x1="844" y1="609" x2="844" y2="640" stroke="black" stroke-width="2"/> 
+  <path d="M828.167 429.327 A8.29083 8.42126 0 0 0 811.897 429.327 " fill="none" stroke="black" stroke-width="2" transform="rotate(90 764.493 509.461)"/> 
+  <line x1="844" y1="572" x2="844" y2="594" stroke="black" stroke-width="2"/> 
+  <line x1="941.75" y1="540" x2="941.75" y2="645.5" stroke="black" stroke-width="2"/> 
+  <polyline points="296.5,937.5 306.5,942.5 296.5,947.5" transform="flipY(236) rotate(270 65 65)"/> 
+  <polyline points="-196.25,1350 -186.25,1355 -196.25,1360" transform="rotate(270 65 65)"/> 
+  <polyline points="-181.25,1365 -171.25,1370 -181.25,1375" transform="rotate(270 65 65)"/> 
+  <line x1="957.5" y1="550" x2="957.5" y2="651" stroke="black" stroke-width="2"/> 
+  <polyline points="296.5,952.5 306.5,957.5 296.5,962.5" transform="flipY(236) rotate(270 65 65)"/> 
+  <line x1="1340" y1="308" x2="1340" y2="520" stroke="black" stroke-width="2"/> 
+  <line x1="1355" y1="322.5" x2="1355" y2="530" stroke="black" stroke-width="2"/> 
+  <line x1="1370" y1="307.25" x2="1370" y2="540" stroke="black" stroke-width="2"/> 
+  <line x1="1385" y1="322" x2="1385" y2="550" stroke="black" stroke-width="2"/> 
+  <line x1="844" y1="520" x2="1340" y2="520" stroke="black" stroke-width="2"/> 
+  <line x1="860" y1="530" x2="1355" y2="530" stroke="black" stroke-width="2"/> 
+  <line x1="941.75" y1="540" x2="1370" y2="540" stroke="black" stroke-width="2"/> 
+  <line x1="957.5" y1="550" x2="1385" y2="550" stroke="black" stroke-width="2"/> 
+  <g id="viyr2_st3">
+    <polyline points="-105.436,1219.15 -95.436,1223.15 -105.436,1227.15" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(1)"/> 
+    </polyline>
+    <line x1="1223.12" y1="233.436" x2="1223.12" y2="249.436" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(1)"/> 
+    </line>
+    <polyline points="-93.564,1219.12 -83.564,1223.12 -93.564,1227.12" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(1)"/> 
+    </polyline>
+  </g>
+  <g id="viyr2_st4">
+    <polyline points="-106.436,1239.15 -96.436,1243.15 -106.436,1247.15" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(1)"/> 
+    </polyline>
+    <line x1="1243.15" y1="233.91" x2="1243.15" y2="259.436" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(1)"/> 
+    </line>
+  </g>
+  <g id="viyr1_st3">
+    <polyline points="-42.3333,1159.21 -32.3333,1163.21 -42.3333,1167.21" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(0)"/> 
+    </polyline>
+    <line x1="1163.21" y1="168.256" x2="1163.21" y2="257.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(0)"/> 
+    </line>
+    <polyline points="-91.744,1159.21 -81.744,1163.21 -91.744,1167.21" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(0)"/> 
+    </polyline>
+  </g>
+  <g id="viyr1_st4">
+    <polyline points="-42.3333,1179.21 -32.3333,1183.21 -42.3333,1187.21" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(0)"/> 
+    </polyline>
+    <line x1="1183.21" y1="171.256" x2="1183.21" y2="259.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(0)"/> 
+    </line>
+  </g>
+  <g id="viyp1_st3">
+    <polyline points="-133.333,1105.13 -123.333,1109.13 -133.333,1113.13" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(2)"/> 
+    </polyline>
+    <line x1="1109.13" y1="259.256" x2="1109.13" y2="348.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(2)"/> 
+    </line>
+    <polyline points="-0.744003,1105.13 9.256,1109.13 -0.744003,1113.13" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(2)"/> 
+    </polyline>
+  </g>
+  <g id="viyp1_st4">
+    <polyline points="-133.333,1125.13 -123.333,1129.13 -133.333,1133.13" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(2)"/> 
+    </polyline>
+    <line x1="1129.13" y1="263.256" x2="1129.13" y2="351.256" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(2)"/> 
+    </line>
+  </g>
+  <g id="viyp2_st3">
+    <polyline points="-188,1233 -178,1237 -188,1241" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color2(3)"/> 
+    </polyline>
+    <line x1="1237" y1="316" x2="1237" y2="341" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color2(3)"/> 
+    </line>
+  </g>
+  <g id="viyp2_st4">
+    <polyline points="-188,1213 -178,1217 -188,1221" fill="black" transform="rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(3)"/> 
+    </polyline>
+    <line x1="1217" y1="316" x2="1217" y2="332" stroke="black" stroke-width="1">
+      <rt:dyn type="stroke" mode="unknown" value="Chan_Color1(3)"/> 
+    </line>
+    <polyline points="-11,1213 -1,1217 -11,1221" fill="black" transform="flipY(236) rotate(270 65 65)">
+      <rt:dyn type="fill" mode="unknown" value="Chan_Color1(3)"/> 
+    </polyline>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg color="Col_Grey2" viewBox="0 0 1274 910" width="1274" height="910" id="diag_035" font-family="AAP_Font3" font-size="14">
+  <rt:model comment="UMod diag_TPTS&#10;LMod diag_034&#10;RMod diag_251&#10;">
+    <rt:var name="PVId_base" datatype="string" value="00CXB98GH101_3" comment="Базовая часть идентификаторов стойки"/> 
+  </rt:model>
+  <text x="600" y="26" fill="Col_Grey5" font-size="20" font-weight="bold" text-anchor="middle">Диагностика ПТК нижнего уровня. Абонент 35 (модуль 1333).</text>
+  <g>
+    <image x="140" y="100" width="85" height="80" xlink:href="TPTS_modul.svg"/> 
+  </g>
+  <image x="237.5" y="100" width="50" height="80" xlink:href="DS_TPTS_HEAD.svg">
+    <rt:dyn type="MT" mode="constant" value="&quot;FKM&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;00CXB98GH101_3FKM001&quot;"/> 
+<!-- FKM -->
+    <rt:dyn type="MN" mode="constant" value="&quot;1333&quot;"/> 
+    <title>1,0;
+</title> 
+  </image>
+  <g>
+<image x= "25" y="700" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS01_M6&quot;"/>   <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS01_M6&quot;"/> <rt:dyn type="Col_ON" mode="constant" value="Color_Imitation"/> </image> <text x= "50" y="715">- ИМИТАЦИЯ АНАЛОГОВОГО СИГНАЛА</text>     
+<image x= "25" y="750" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS01_M8&quot;"/>   <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS01_M8&quot;"/> <rt:dyn type="Col_ON" mode="constant" value="Color_Imitation"/> </image> <text x= "50" y="765">- ИМИТАЦИЯ ДИСКРЕТНОГО СИГНАЛА</text>     
+<image x="425" y="650" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS01_M13&quot;"/>  <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS01_M13&quot;"/></image>                                                               <text x="450" y="665">- Неисправность MODBUS</text>             
+<image x="425" y="700" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS01_M15&quot;"/>  <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS01_M15&quot;"/></image>                                                               <text x="450" y="715">- НЕИСПРАВНОСТЬ АВТОМАТИКИ</text>         
+<image x="825" y="676" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS02_M21&quot;"/>  <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS02_M21&quot;"/></image>                                                               <text x="850" y="690">- НЕИСПРАВН. ПАССИВНОГО МОДУЛЯ 1333</text>    
+<image x="825" y="700" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS02_M22&quot;"/>  <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS02_M22&quot;"/></image>                                                               <text x="850" y="715">- НЕИСПРАВН. АКТИВНОГО МОДУЛЯ 1333</text>     
+<image x="825" y="725" width="20" height="20" xlink:href="bin_indicator.svg"> <rt:dyn type="PointID" mode="constant" value="PVId_base + &quot;MKS02_M27&quot;"/>  <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;MKS02_M27&quot;"/></image>                                                               <text x="850" y="740">- НЕИСПРАВН. ОБМЕНА В ФОРМАТЕ ШОО</text>  
+    <image x="825" y="760" width="275" height="40" xlink:href="TPTS_ZTT.svg">
+      <rt:dyn type="KKS" mode="constant" value="PVId_base + &quot;ZTT00&quot;"/> 
+      <rt:dyn type="title" mode="unknown" value="PVId_base + &quot;ZTT00&quot;"/> 
+    </image>
+  </g>
+</svg>
+

@@ -1,0 +1,880 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1600 950" width="1600" height="950" id="SERVs_1" font-size="14" font-weight="600">
+  <desc>Диагностический видеокадр</desc>
+  <rt:model comment="Создано VNIIAES-ASUTP">
+    <rt:timeTrigger name="OnLn_trig" delay="1">
+      <rt:code>OnLn()</rt:code>
+    </rt:timeTrigger>
+    <rt:var name="Chan_Color" datatype="uint" comment="Цвет подсистем" arraysize="29"/> 
+    <rt:var name="Chan_Color1" datatype="uint" comment="Цвет сети 1" arraysize="23"/> 
+    <rt:var name="Chan_Color2" datatype="uint" comment="Цвет сети 2" arraysize="23"/> 
+    <rt:var name="Chan_Color3" datatype="uint" comment="Цвет сети 1 для подсистем" arraysize="29"/> 
+    <rt:var name="Chan_Color4" datatype="uint" comment="Цвет сети 2 для подсистем" arraysize="29"/> 
+    <rt:var name="Stat_Cluster_1" datatype="ushort" comment="кластер 0" value="0"/> 
+    <rt:var name="Stat_Cluster_2" datatype="ushort" value="0" comment="кластер 1"/> 
+    <rt:var name="Local_Node" datatype="RtaNode" comment="локальный узел"/> 
+    <rt:var name="RealLocalNetMask" datatype="ushort" value="3" comment="реальная маска локальной сети, т.е. как данная РС видит все остальные узлы."/> 
+    <rt:var name="SRV_Nodes" datatype="RtaNode" comment="Массив серверов" arraysize="3"/> 
+    <rt:var name="WS_Nodes" datatype="RtaNode" comment="массив рабочих станций" arraysize="23"/> 
+    <rt:var name="Total_i" datatype="uint" value="0" comment="всего найдено рабочих станций"/> 
+    <rt:var name="Validity" datatype="boolean" comment="Достоверность данных" value="false"/> 
+    <rt:sub>Sub Calc_But_Color()
+
+&apos;Определение цветовой раскраски подсистем
+
+Dim i As UShort
+Dim ch_code As UShort
+For i = 0 To 29
+	ch_code = PPD_CH(i) &amp; 14
+	If ((ch_code &amp; 4) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(1)
+	ElseIf ((ch_code &amp; 2) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(3)
+	ElseIf ((ch_code &amp; 14) == 0) Then
+		Chan_Color(i) = Col_Ar(2)
+	Else
+		Chan_Color(i) = Col_Ar(8)
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub CheckStatus()
+&apos;!!!! здесь было определение принадлежности серверов к системам
+&apos;это нужно для высвечивания кнопок каналов, стоек и т.п.
+
+Stat_Cluster_1 = SysHealth(1)
+Stat_Cluster_2 = SysHealth(2)
+End Sub</rt:sub>
+    <rt:sub>Sub ShNds()
+
+&apos;Используется для цветовой индикации экранов АРМ
+
+Dim Node As RtaNode
+Dim WS_i As UInt
+Dim WS_j As UInt
+Dim WS_k As UInt
+Dim SRV_i As UInt
+
+WS_i = 0
+SRV_i = 0
+Total_i = 0
+WS_k = 0
+RealLocalNetMask = 0
+Local_Node = RTA.LocalNode
+
+For Each Node in RTA.Nodes
+  If Node.NodeId != Local_Node.NodeId Then
+	RealLocalNetMask = RealLocalNetMask | Node.NetMask
+  End If
+  If (Node.IsServer == False) Then
+	Total_i = Total_i + 1
+	&apos;Заполняем только видимые 23
+	If ((WS_k &lt; 1) &amp;&amp; (WS_i &lt; 23)) Then
+		WS_Nodes(WS_i) = Node
+
+	
+
+&apos; анализ сети
+		
+		If (Node.NetMask &amp; 8) != 0 Then       &apos; сеть 2 есть
+			Chan_Color2(WS_i) = Col_Ar(25)  &apos; зеленый
+		Else					    &apos; сети 1 нет
+			Chan_Color2(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+		If (Node.NetMask &amp; 4) != 0 Then      &apos; сеть 1 есть
+			Chan_Color1(WS_i) = Col_Ar(25) &apos; зеленый
+		Else					    &apos; сети 2 нет
+			Chan_Color1(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+
+		WS_i = WS_i + 1
+	End If
+	
+
+
+   Else
+	If (SRV_i &lt; 3) Then
+		SRV_Nodes(SRV_i) = Node
+	End If
+	SRV_i = SRV_i + 1
+   End If
+Next Node
+
+Validity = ((RealLocalNetMask &amp; 3) != 0)
+
+&apos;Добиваем остальные до 23 нулями
+If (WS_i &lt; 20) Then
+  For WS_j = WS_i to 23
+	WS_Nodes(WS_j) = Nothing
+
+	Chan_Color1(WS_j) = Col_Ar(11)		&apos; белый
+	Chan_Color2(WS_j) = Col_Ar(11)
+
+  Next WS_j
+End If
+
+If (!prim_cluster) Then
+
+	WS_Nodes(20) = WS_Nodes(0)
+	Chan_Color2(20) = Chan_Color2(0)
+	Chan_Color1(20) = Chan_Color1(0)
+
+	WS_Nodes(0) = WS_Nodes(4)
+	Chan_Color2(0) = Col_Ar(11)
+	Chan_Color1(0) = Col_Ar(11)
+
+
+	WS_Nodes(21) = WS_Nodes(1)
+	Chan_Color2(21) = Chan_Color2(1)
+	Chan_Color1(21) = Chan_Color1(1)
+
+	WS_Nodes(1) = WS_Nodes(4)
+	Chan_Color2(1) = Col_Ar(11)
+	Chan_Color1(1) = Col_Ar(11)
+
+	WS_Nodes(22) = WS_Nodes(2)
+	Chan_Color2(22) = Chan_Color2(2)
+	Chan_Color1(22) = Chan_Color1(2)
+
+	WS_Nodes(2) = WS_Nodes(4)
+	Chan_Color2(2) = Col_Ar(11)
+	Chan_Color1(2) = Col_Ar(11)
+
+
+End If
+
+End Sub</rt:sub>
+    <rt:sub>Sub Calc_Color3()
+
+&apos;Используется для цветовой индикации сети1,2 подсистем
+
+Dim i As UShort
+Dim bit As UShort
+Dim j As String
+Dim x1 As UShort
+Dim x2 As UShort
+Dim KKS1 As String
+Dim KKS2 As String
+
+j=0
+i=0
+
+For i = i to 29
+ j=i
+
+ if i=15 Then
+  bit=0x20
+ ElseIf i=16 Then
+  bit=0x20
+ Else
+  bit=0x80
+ End If
+
+  if i&lt;10 Then
+   KKS1 = &quot;1DT0&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;1DT0&quot;+j+&quot;E01_ST02&quot;
+  Else
+   KKS1 = &quot;1DT&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;1DT&quot;+j+&quot;E01_ST02&quot;
+  End If
+
+	If (BIN(KKS1).Quality + BIN(KKS2).Quality=0) Then
+	   Chan_Color3(i)= Col_Ar(11)
+	   Chan_Color4(i)= Col_Ar(11)
+	Else
+	   x1=((BIN(KKS1).Value &amp; 0x10) &gt; 0)+((BIN(KKS2).Value &amp; 0x10) &gt; 0)
+	   x2=((BIN(KKS1).Value &amp; bit) &gt; 0)+((BIN(KKS2).Value &amp; bit) &gt; 0)
+ 		If x1=0 Then
+		Chan_Color3(i)= Col_Ar(25)
+		ElseIf x1=1 Then
+		Chan_Color3(i)= Col_Ar(3)
+		Else
+		Chan_Color3(i)= Col_Ar(1)
+		End If
+
+ 		If x2=0 Then
+		Chan_Color4(i)= Col_Ar(25)
+		ElseIf x2=1 Then
+		Chan_Color4(i)= Col_Ar(3)
+		Else
+		Chan_Color4(i)= Col_Ar(1)
+		End If
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub OnLn()
+
+Dim j As UShort
+For j = 0 to 22
+
+	if PC1.KKS == WS_Nodes(j).NodeName then
+		PC1.NdID = WS_Nodes(j)
+	End if
+
+	if PC2.KKS == WS_Nodes(j).NodeName then
+		PC2.NdID = WS_Nodes(j)
+	End if
+
+	if PC3.KKS == WS_Nodes(j).NodeName then
+		PC3.NdID = WS_Nodes(j)
+	End if
+
+	if PC4.KKS == WS_Nodes(j).NodeName then
+		PC4.NdID = WS_Nodes(j)
+	End if
+
+	if PC5.KKS == WS_Nodes(j).NodeName then
+		PC5.NdID = WS_Nodes(j)
+	End if
+
+	if PC6.KKS == WS_Nodes(j).NodeName then
+		PC6.NdID = WS_Nodes(j)
+	End if
+
+	if PC7.KKS == WS_Nodes(j).NodeName then
+		PC7.NdID = WS_Nodes(j)
+	End if
+
+	if PC8.KKS == WS_Nodes(j).NodeName then
+		PC8.NdID = WS_Nodes(j)
+	End if
+
+	if PC9.KKS == WS_Nodes(j).NodeName then
+		PC9.NdID = WS_Nodes(j)
+	End if
+
+	if PC10.KKS == WS_Nodes(j).NodeName then
+		PC10.NdID = WS_Nodes(j)
+	End if
+
+	if PC11.KKS == WS_Nodes(j).NodeName then
+		PC11.NdID = WS_Nodes(j)
+	End if
+
+	if PC12.KKS == WS_Nodes(j).NodeName then
+		PC12.NdID = WS_Nodes(j)
+	End if
+
+	if PC13.KKS == WS_Nodes(j).NodeName then
+		PC13.NdID = WS_Nodes(j)
+	End if
+
+	if PC14.KKS == WS_Nodes(j).NodeName then
+		PC14.NdID = WS_Nodes(j)
+	End if
+
+	if PC15.KKS == WS_Nodes(j).NodeName then
+		PC15.NdID = WS_Nodes(j)
+	End if
+
+	if PC16.KKS == WS_Nodes(j).NodeName then
+		PC16.NdID = WS_Nodes(j)
+	End if
+
+	if PC17.KKS == WS_Nodes(j).NodeName then
+		PC17.NdID = WS_Nodes(j)
+	End if
+
+	if PC18.KKS == WS_Nodes(j).NodeName then
+		PC18.NdID = WS_Nodes(j)
+	End if
+
+	if PC19.KKS == WS_Nodes(j).NodeName then
+		PC19.NdID = WS_Nodes(j)
+	End if
+
+	if PC20.KKS == WS_Nodes(j).NodeName then
+		PC20.NdID = WS_Nodes(j)
+	End if
+
+	if PC21.KKS == WS_Nodes(j).NodeName then
+		PC21.NdID = WS_Nodes(j)
+	End if
+
+	if PC22.KKS == WS_Nodes(j).NodeName then
+		PC22.NdID = WS_Nodes(j)
+	End if
+
+	if PC23.KKS == WS_Nodes(j).NodeName then
+		PC23.NdID = WS_Nodes(j)
+	End if
+
+Next j
+
+end sub</rt:sub>
+    <rt:event type="OnInitialize">Dim i As UShort
+
+	Chan_Color(i) = Col_Ar(8)
+If !prim_cluster Then
+	Chan_Color(29) = Col_Ar(8)
+End If
+
+Calc_But_Color()
+CheckStatus()
+ShNds()
+Calc_Color3()</rt:event>
+    <rt:cycleTrigger name="Calc_All" cycle="5" unit="second">
+      <rt:code>Calc_But_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChStat" cycle="1" unit="second">
+      <rt:code>CheckStatus()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChkNds" cycle="15" unit="second">
+      <rt:code>ShNds()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="Color3" cycle="1" unit="second">
+      <rt:code>Calc_Color3()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <rect x="973" y="675" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM70E02_ZV17&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="973" y="650" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM60E02_ZV17&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="348" y="675" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM70E02_ZV16&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="349.667" y="652" width="625" height="25" rx="0" ry="0" id="SVGRectangle280" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM60E02_ZV16&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="974" y="625.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM50E02_ZV17&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="348.667" y="626" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM50E02_ZV16&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="975" y="600" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CEJ10E01_PS01&quot;).Value &amp; 2" trans="it">
+      <rt:xy value="1" value2="Col_LtGreen"/> 
+      <rt:xy value2="Col_LtRed"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="975" y="575" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CEJ10E01_PS01&quot;).Value &amp; 2" trans="it">
+      <rt:xy value="1" value2="Col_LtGreen"/> 
+      <rt:xy value2="Col_LtRed"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="600" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CEJ10E01_PS01&quot;).Value &amp; 1" trans="it">
+      <rt:xy value="1" value2="Col_LtGreen"/> 
+      <rt:xy value2="Col_LtRed"/> 
+    </rt:dyn>
+  </rect>
+  <text x="454.273" y="642" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="1077.97" y="643.333" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="651.227" y="643.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="1274.92" y="643.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="812.667" y="644" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="1434.67" y="643.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="925.333" y="639.394" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="1549.03" y="645" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <rect x="351.667" y="577" width="625" height="25" rx="0" ry="0" id="SVGRectangle3" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CEJ10E01_PS01&quot;).Value &amp; 1" trans="it">
+      <rt:xy value="1" value2="Col_LtGreen"/> 
+      <rt:xy value2="Col_LtRed"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="550.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CKK20E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="551" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CKK20E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="526.668" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CKK10E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <text x="1077.97" y="669.333" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1274.92" y="669.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1434.67" y="669.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="925" y="668" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="1549.03" y="668" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <rect x="350.667" y="527.001" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;22CKK10E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="501.334" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CKK20E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <text x="454.273" y="695.333" font-size="16" font-weight="600" text-anchor="middle">20BRT63GH001</text>
+  <text x="651.227" y="695.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="1077.97" y="695.333" font-size="16" font-weight="600" text-anchor="middle">20BRT83GH001</text>
+  <text x="1274.92" y="695.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="812.667" y="695.333" font-size="16" font-weight="600" text-anchor="middle">10</text>
+  <text x="1434.67" y="695.333" font-size="16" font-weight="600" text-anchor="middle">10</text>
+  <text x="925.333" y="694" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1549.03" y="694" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="455.606" y="669.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="651.227" y="669.333" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="812.667" y="669.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <rect x="350.667" y="501.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CKK20E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="476.334" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CKK10E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="476.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;21CKK10E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="451" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK90E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="451.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK90E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="426.001" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK80E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="426.334" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK80E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="400.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK70E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="401" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK70E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="375.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK60E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="376" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK60E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="350.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK50E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="350.666" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK50E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="324.334" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK40E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="324.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK40E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="299" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK30E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="299.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK30E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="274" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK20E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350.667" y="274.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK20E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="248.666" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK10E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="248.999" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKK10E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="224" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM40E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="224.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM40E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="201.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM30E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="201.666" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM30E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="176.333" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM20E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="176.666" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM20E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="976" y="150.667" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM10E02_ZV06&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <rect x="350" y="151" width="625" height="25" rx="0" ry="0" fill="Col_LtRed" stroke="none">
+    <rt:dyn type="fill" mode="onchange" value="BIN(&quot;20CKM10E02_ZV05&quot;).Value" trans="it">
+      <rt:xy value="1" value2="Col_LtRed"/> 
+      <rt:xy value2="Col_LtGreen"/> 
+    </rt:dyn>
+  </rect>
+  <text x="166.394" y="121" font-size="16" font-weight="600" text-anchor="middle">Оборудование</text>
+  <g/> 
+  <text x="738" y="28" id="Text_1" font-size="32" font-weight="normal" text-anchor="middle">Серверы и коммутаторы</text>
+  <rect x="2" y="77" width="1598" height="624" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <line x1="352" y1="100" x2="1600" y2="100" stroke="black" stroke-width="3"/> 
+  <line x1="2.00005" y1="150" x2="1600" y2="150" stroke="black" stroke-width="3"/> 
+  <line x1="2.6226e-006" y1="175" x2="1600" y2="175" stroke="black"/> 
+  <line x1="2.6226e-006" y1="200" x2="1600" y2="200" stroke="black"/> 
+  <line x1="2.6226e-006" y1="225" x2="1600" y2="225" stroke="black"/> 
+  <line x1="2.6226e-006" y1="250" x2="1600" y2="250" stroke="black"/> 
+  <line x1="2.6226e-006" y1="275" x2="1600" y2="275" stroke="black"/> 
+  <line x1="2.6226e-006" y1="300" x2="1600" y2="300" stroke="black"/> 
+  <line x1="2.6226e-006" y1="325" x2="1600" y2="325" stroke="black"/> 
+  <line x1="2.6226e-006" y1="350" x2="1600" y2="350" stroke="black"/> 
+  <line x1="2.6226e-006" y1="375" x2="1600" y2="375" stroke="black"/> 
+  <line x1="2.6226e-006" y1="400" x2="1600" y2="400" stroke="black"/> 
+  <line x1="2.6226e-006" y1="425" x2="1600" y2="425" stroke="black"/> 
+  <line x1="2.6226e-006" y1="450" x2="1600" y2="450" stroke="black"/> 
+  <line x1="2.6226e-006" y1="475" x2="1600" y2="475" stroke="black"/> 
+  <line x1="2.6226e-006" y1="500" x2="1600" y2="500" stroke="black"/> 
+  <line x1="2.6226e-006" y1="525" x2="1600" y2="525" stroke="black"/> 
+  <line x1="2.6226e-006" y1="550" x2="1600" y2="550" stroke="black"/> 
+  <line x1="350" y1="75" x2="349" y2="701" stroke="black" stroke-width="3"/> 
+  <line x1="975" y1="75" x2="975" y2="701" stroke="black" stroke-width="3"/> 
+  <text x="622.455" y="92.394" font-size="16" font-weight="600" text-anchor="middle">Основное питание</text>
+  <text x="1311.85" y="92.394" font-size="16" font-weight="600" text-anchor="middle">Резервное питание</text>
+  <line x1="550" y1="100" x2="548" y2="701" stroke="black" stroke-width="3"/> 
+  <line x1="750" y1="100" x2="748" y2="701" stroke="black" stroke-width="3"/> 
+  <line x1="875" y1="100" x2="871" y2="700" stroke="black" stroke-width="3"/> 
+  <line x1="1175" y1="100" x2="1172" y2="701" stroke="black" stroke-width="3"/> 
+  <line x1="1375" y1="100" x2="1378" y2="701" stroke="black" stroke-width="3"/> 
+  <line x1="1500" y1="100" x2="1500" y2="701" stroke="black" stroke-width="3"/> 
+  <text x="453.242" y="123.303" font-size="16" font-weight="600" text-anchor="middle">KKS шкафа<tspan x="453.242" dy="16">питания</tspan>
+  </text>
+  <text x="652" y="123" font-size="16" font-weight="600" text-anchor="middle">Расположение<tspan x="652" dy="16">шкафа питания</tspan>
+  </text>
+  <text x="820.697" y="129.485" font-size="16" font-weight="600" text-anchor="middle">Месторасп.</text>
+  <text x="927.697" y="129.485" font-size="16" font-weight="600" text-anchor="middle">Автомат</text>
+  <text x="1075.94" y="123.303" font-size="16" font-weight="600" text-anchor="middle">KKS шкафа<tspan x="1075.94" dy="16">питания</tspan>
+  </text>
+  <text x="1278" y="125" font-size="16" font-weight="600" text-anchor="middle">Расположение<tspan x="1278" dy="16">шкафа питания</tspan>
+  </text>
+  <text x="1439.7" y="129.758" font-size="16" font-weight="600" text-anchor="middle">Месторасп.</text>
+  <text x="1552.12" y="129.485" font-size="16" font-weight="600" text-anchor="middle">Автомат</text>
+  <line x1="200" y1="150" x2="194" y2="700" stroke="black" stroke-width="3"/> 
+  <text x="275.152" y="170.121" font-size="16" font-weight="600" text-anchor="middle">20CKM10</text>
+  <text x="275.152" y="192.879" font-size="16" font-weight="600" text-anchor="middle">20CKM20</text>
+  <text x="275.152" y="218.667" font-size="16" font-weight="600" text-anchor="middle">20CKM30</text>
+  <text x="275.152" y="241.364" font-size="16" font-weight="600" text-anchor="middle">20CKM40</text>
+  <text x="455.273" y="169.636" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="195.424" font-size="16" font-weight="600" text-anchor="middle">20BRT63GH002</text>
+  <text x="455.273" y="218.636" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="245.909" font-size="16" font-weight="600" text-anchor="middle">20BRT63GH002</text>
+  <text x="653.727" y="168.636" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="192.879" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="217.121" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="244.909" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="814.667" y="169.667" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="192.333" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="216.333" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="244.394" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="927.333" y="168.636" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="927.333" y="194.394" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="927.333" y="217.121" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="927.333" y="243.394" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="1551.03" y="168.636" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="1551.03" y="194.394" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="1551.03" y="217.121" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="1551.03" y="243.394" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="56" y="168.636" font-size="16" font-weight="600" text-anchor="middle">ШСУ ИУК</text>
+  <text x="1078.97" y="169.636" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="195.424" font-size="16" font-weight="600" text-anchor="middle">20BRT83GH002</text>
+  <text x="1078.97" y="218.636" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="245.909" font-size="16" font-weight="600" text-anchor="middle">20BRT83GH002</text>
+  <text x="1277.42" y="168.636" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="192.879" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="217.121" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="244.909" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <image x="1000" y="25" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;АРМы&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;ARMs&quot;)</rt:event>
+  </image>
+  <image x="1125" y="24" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;Серв + Комм&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;SERVs&quot;)</rt:event>
+  </image>
+  <text x="56" y="193.969" font-size="16" font-weight="600" text-anchor="middle">ШСУ ИУК</text>
+  <text x="50" y="217.667" font-size="16" font-weight="600" text-anchor="middle">ШСУ ИК</text>
+  <text x="50" y="242" font-size="16" font-weight="600" text-anchor="middle">ШСУ ИК</text>
+  <text x="1436.67" y="168.333" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="190.999" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="214.999" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="243.06" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="33.5" y="268.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="274.152" y="267" font-size="16" font-weight="600" text-anchor="middle">20CKK10</text>
+  <text x="33.5" y="294" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="317.667" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="344.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="368.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="393.667" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="274.152" y="294.333" font-size="16" font-weight="600" text-anchor="middle">20CKK20</text>
+  <text x="274.152" y="319" font-size="16" font-weight="600" text-anchor="middle">20CKK30</text>
+  <text x="274.152" y="341.667" font-size="16" font-weight="600" text-anchor="middle">20CKK40</text>
+  <text x="274.152" y="365.667" font-size="16" font-weight="600" text-anchor="middle">20CKK50</text>
+  <text x="274.152" y="393.667" font-size="16" font-weight="600" text-anchor="middle">20CKK60</text>
+  <text x="33.5" y="420.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="444.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="494" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="519.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="547.333" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="33.5" y="570" font-size="16" font-weight="600" text-anchor="middle">ШТК</text>
+  <text x="274.152" y="419" font-size="16" font-weight="600" text-anchor="middle">20CKK70</text>
+  <text x="274.152" y="442.667" font-size="16" font-weight="600" text-anchor="middle">20CKK80</text>
+  <text x="274.152" y="495.667" font-size="16" font-weight="600" text-anchor="middle">21CKK10</text>
+  <text x="274.152" y="520.667" font-size="16" font-weight="600" text-anchor="middle">21CKK20</text>
+  <text x="274.152" y="544.667" font-size="16" font-weight="600" text-anchor="middle">22CKK10</text>
+  <text x="274.152" y="568.667" font-size="16" font-weight="600" text-anchor="middle">22CKK20</text>
+  <text x="455.273" y="268.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="292.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="319" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="344.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="368.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="391" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="417" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="455.273" y="442.667" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="653.727" y="267" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="291.243" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="315.485" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="343.273" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="369.667" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="393.91" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="418.152" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="653.727" y="445.94" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="1078.97" y="267.667" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="293.667" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="317.667" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="341.667" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="368.333" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="395" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="419" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1078.97" y="445.667" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1277.42" y="269.667" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="293.91" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="318.152" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="345.94" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="369.667" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="393.91" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="418.152" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="1277.42" y="445.94" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="814.667" y="268.333" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="319" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="369.667" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="814.667" y="420.333" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="41" y="468.333" font-size="16" font-weight="600" text-anchor="middle">ШСПД</text>
+  <text x="274.152" y="467" font-size="16" font-weight="600" text-anchor="middle">20CKK90</text>
+  <text x="455.273" y="468.333" font-size="16" font-weight="600" text-anchor="middle">20BRT53GH002</text>
+  <text x="653.727" y="469" font-size="16" font-weight="600" text-anchor="middle">20UBB18R008</text>
+  <text x="1078.97" y="467" font-size="16" font-weight="600" text-anchor="middle">20BRT73GH002</text>
+  <text x="1277.42" y="469" font-size="16" font-weight="600" text-anchor="middle">20UBB18R013</text>
+  <text x="814.667" y="293.333" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="814.667" y="345.667" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="814.667" y="393.667" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="814.667" y="443" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="814.667" y="467" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="927.333" y="268.333" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="927.333" y="292.333" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="927.333" y="318.333" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="927.333" y="343" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="927.333" y="369.667" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <text x="927.333" y="393.667" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <text x="927.333" y="417.667" font-size="16" font-weight="600" text-anchor="middle">Q06</text>
+  <text x="927.333" y="445.667" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="927.333" y="467" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1551.03" y="269.667" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1551.03" y="293.667" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1551.03" y="319.667" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="1551.03" y="344.334" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="1551.03" y="371.001" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <text x="1551.03" y="395.001" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <text x="1551.03" y="419.001" font-size="16" font-weight="600" text-anchor="middle">Q06</text>
+  <text x="1551.03" y="447.001" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="1551.03" y="468.334" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1436.67" y="271" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="321.667" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="372.334" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="423" font-size="16" font-weight="600" text-anchor="middle">2</text>
+  <text x="1436.67" y="296" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="1436.67" y="348.334" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="1436.67" y="396.334" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="1436.67" y="445.667" font-size="16" font-weight="600" text-anchor="middle">6</text>
+  <text x="1436.67" y="469.667" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="456.273" y="493.667" font-size="16" font-weight="600" text-anchor="middle">21BRU51GH001</text>
+  <text x="456.273" y="517.667" font-size="16" font-weight="600" text-anchor="middle">21BRU51GH001</text>
+  <text x="1079.97" y="492.333" font-size="16" font-weight="600" text-anchor="middle">21BRU53GH001</text>
+  <text x="1079.97" y="518.333" font-size="16" font-weight="600" text-anchor="middle">21BRU53GH001</text>
+  <text x="456.273" y="543.666" font-size="16" font-weight="600" text-anchor="middle">22BRU71GH001</text>
+  <text x="456.273" y="567" font-size="16" font-weight="600" text-anchor="middle">22BRU71GH001</text>
+  <text x="1079.97" y="544.333" font-size="16" font-weight="600" text-anchor="middle">22BRU73GH001</text>
+  <text x="1079.97" y="568.333" font-size="16" font-weight="600" text-anchor="middle">22BRU73GH001</text>
+  <text x="653.227" y="494" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="653.227" y="517.333" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="1276.92" y="495" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="1276.92" y="517.333" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="653.227" y="541.667" font-size="16" font-weight="600" text-anchor="middle">22UBP05R003</text>
+  <text x="653.227" y="568.333" font-size="16" font-weight="600" text-anchor="middle">22UBP05R003</text>
+  <text x="1276.92" y="541.666" font-size="16" font-weight="600" text-anchor="middle">22UBP05R003</text>
+  <text x="1276.92" y="568.333" font-size="16" font-weight="600" text-anchor="middle">22UBP05R003</text>
+  <text x="814.667" y="494.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="814.667" y="519" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="1436.67" y="493.667" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="1436.67" y="517.667" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="814.667" y="544.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="814.667" y="569" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="1436.67" y="544.333" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="1436.67" y="568.333" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="927.333" y="493.667" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="927.333" y="516.394" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="927.333" y="541.667" font-size="16" font-weight="600" text-anchor="middle">Q01</text>
+  <text x="927.333" y="564.394" font-size="16" font-weight="600" text-anchor="middle">Q02</text>
+  <text x="1551.03" y="493.667" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="1551.03" y="520.334" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <text x="1551.03" y="544.333" font-size="16" font-weight="600" text-anchor="middle">Q04</text>
+  <text x="1551.03" y="570" font-size="16" font-weight="600" text-anchor="middle">Q05</text>
+  <image x="1250" y="25" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;diag_SVBU&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;diag_SVBU&quot;)</rt:event>
+  </image>
+  <line x1="3" y1="576" x2="1603" y2="576" stroke="black"/> 
+  <line x1="2" y1="602" x2="1602" y2="602" stroke="black"/> 
+  <text x="81.5" y="594.333" font-size="16" font-weight="600" text-anchor="middle">СЕРВЕР СРВПЭ</text>
+  <text x="271.652" y="594.333" font-size="16" font-weight="600" text-anchor="middle">21CEJ10</text>
+  <text x="1079.97" y="594.333" font-size="16" font-weight="600" text-anchor="middle">21BRU53GH001</text>
+  <text x="1276.92" y="594.333" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="1436.67" y="594.333" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="927.333" y="593" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1551.03" y="593" font-size="16" font-weight="600" text-anchor="middle">Q06</text>
+  <text x="81.5" y="619.333" font-size="16" font-weight="600" text-anchor="middle">СЕРВЕР СРВПЭ</text>
+  <text x="271.652" y="620.333" font-size="16" font-weight="600" text-anchor="middle">22CEJ10</text>
+  <text x="456.273" y="620.333" font-size="16" font-weight="600" text-anchor="middle">22BRU71GH001</text>
+  <text x="653.227" y="620.333" font-size="16" font-weight="600" text-anchor="middle">22UBP13R002</text>
+  <text x="1079.97" y="620.333" font-size="16" font-weight="600" text-anchor="middle">22BRU73GH001</text>
+  <text x="1276.92" y="620.333" font-size="16" font-weight="600" text-anchor="middle">22UBP13R002</text>
+  <text x="814.667" y="620.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <text x="1436.67" y="620.333" font-size="16" font-weight="600" text-anchor="middle">8</text>
+  <text x="927.333" y="619" font-size="16" font-weight="600" text-anchor="middle">Q03</text>
+  <text x="1551.03" y="619" font-size="16" font-weight="600" text-anchor="middle">Q06</text>
+  <text x="457.606" y="594.333" font-size="16" font-weight="600" text-anchor="middle">21BRU51GH001</text>
+  <text x="653.227" y="594.333" font-size="16" font-weight="600" text-anchor="middle">21UBP05R003</text>
+  <text x="814.667" y="594.333" font-size="16" font-weight="600" text-anchor="middle">4</text>
+  <line x1="1" y1="625" x2="1598" y2="625" stroke="black"/> 
+  <text x="68.5" y="645" font-size="16" font-weight="600" text-anchor="middle">СЕРВЕР ЭКП</text>
+  <text x="272.152" y="643.667" font-size="16" font-weight="600" text-anchor="middle">20CKM50</text>
+  <line x1="1" y1="651" x2="1601" y2="651" stroke="black"/> 
+  <line x1="0" y1="677" x2="1600" y2="677" stroke="black"/> 
+  <text x="33.5" y="669.333" font-size="16" font-weight="600" text-anchor="middle">ГК 1</text>
+  <text x="269.652" y="669.333" font-size="16" font-weight="600" text-anchor="middle">20CKM60</text>
+  <text x="32.5" y="694.333" font-size="16" font-weight="600" text-anchor="middle">ГК 2</text>
+  <text x="269.652" y="695.333" font-size="16" font-weight="600" text-anchor="middle">20CKM70</text>
+</svg>

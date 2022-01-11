@@ -1,0 +1,1044 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="lackip_2">
+  <title>Контроль ПЭН_2</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_nsb&#10;LMod lackip_1&#10;RMod lad00" revision="4.1"/> 
+  <line x1="400" y1="55" x2="400" y2="960" stroke="black" stroke-width="2"/> 
+  <line x1="600" y1="55" x2="600" y2="960" stroke="black" stroke-width="1"/> 
+  <line x1="800" y1="55" x2="800" y2="960" stroke="black" stroke-width="1"/> 
+  <line x1="999.833" y1="55" x2="1000" y2="960" stroke="black" stroke-width="1"/> 
+  <line x1="50" y1="85" x2="1400" y2="85" stroke="black" stroke-width="2"/> 
+  <text x="168" y="77" font-size="15">ПАРАМЕТР</text>
+  <text x="435" y="77" font-size="15">20LAC10AP001</text>
+  <line x1="50" y1="130" x2="1400" y2="130" stroke="black" stroke-width="2"/> 
+  <line x1="50" y1="320" x2="1400" y2="320" stroke="black" stroke-width="2"/> 
+  <text x="110" y="112.75" font-size="15">Ток электродвигателя</text>
+  <text x="75" y="412" font-size="15">Давление масла на 1-й подшипник</text>
+  <image x="1475" y="698" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac10&quot;"/> 
+  </image>
+  <image x="1475" y="648" width="80" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC00&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac00&quot;"/> 
+  </image>
+  <image x="1475" y="748" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac20&quot;"/> 
+  </image>
+  <image x="1475" y="798" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac30&quot;"/> 
+  </image>
+  <text x="957" y="29" font-size="30" font-weight="700" text-anchor="middle">Контроль ПЭН_2</text>
+  <text x="19" y="21.5" font-size="15" font-weight="700">LACKIP_2</text>
+  <rect x="50" y="55" width="1350" height="905" rx="0" ry="0" fill="none" stroke="black" stroke-width="2"/> 
+  <text x="641" y="77" font-size="15">20LAC20AP001</text>
+  <line x1="1200" y1="55" x2="1200" y2="960" stroke="black" stroke-width="1"/> 
+  <text x="110" y="175" font-size="15">Давление на напоре</text>
+  <line x1="50" y1="225" x2="1400" y2="225" stroke="black" stroke-width="2"/> 
+  <text x="111" y="342" font-size="15">Перепад на фильтре ПЭН</text>
+  <line x1="50" y1="365" x2="1400" y2="365" stroke="black" stroke-width="2"/> 
+  <text x="83" y="606.5" font-size="15">Давление масла в конце масл. линии</text>
+  <text x="126" y="678" font-size="15">Т масла после м/о</text>
+  <text x="90" y="764" font-size="15">dP масла на фильтре</text>
+  <text x="86.25" y="888.25" font-size="15">Т в контуре торцевого<tspan x="86.25" dy="15">упл. (сторона э/дв)</tspan>
+  </text>
+  <image x="1475" y="848" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC40&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac40&quot;"/> 
+  </image>
+  <image x="1475" y="898" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAC50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac50&quot;"/> 
+  </image>
+  <text x="841" y="75" font-size="15">20LAC30AP001</text>
+  <text x="1042" y="75" font-size="15">20LAC40AP001</text>
+  <text x="1243" y="75" font-size="15">20LAC50AP001</text>
+  <image x="1600" y="650" width="100" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LACKIP_1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lackip_1&quot;"/> 
+  </image>
+  <image x="415" y="95" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBA17EG201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBA17EG201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="135" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="165" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="195" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="110" y="267.5" font-size="15">Давление на всасе</text>
+  <image x="415" y="230" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="260" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="290" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB01CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="330" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20LAB01FP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB01FP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="370" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="400" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="430" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="50" y1="460" x2="1400.5" y2="460.5" stroke="black" stroke-width="2"/> 
+  <text x="80" y="500" font-size="15">Давление масла на 2-й подшипник</text>
+  <image x="415" y="465" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP006A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP006A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="495" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP006B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP006B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="525" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP006C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP006C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="50" y1="555" x2="1400.5" y2="555.5" stroke="black" stroke-width="2"/> 
+  <image x="415" y="560.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP012A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP012A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="590.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP012B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP012B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="415" y="620.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP012C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP012C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="50" y1="650" x2="1400.5" y2="650.5" stroke="black" stroke-width="2"/> 
+  <line x1="50" y1="695" x2="1400.5" y2="695.5" stroke="black" stroke-width="2"/> 
+  <image x="415" y="660" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CT035&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CT035&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="95" y="715.75" font-size="15">Т масла в маслобаке</text>
+  <image x="415" y="705" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="49.5" y1="738" x2="1400" y2="738.5" stroke="black" stroke-width="2"/> 
+  <line x1="50" y1="780" x2="1400.5" y2="780.5" stroke="black" stroke-width="2"/> 
+  <image x="415" y="745" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="75" y="806.5" font-size="15">Давление в линии разгрузки</text>
+  <image x="415" y="790" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC10CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC10CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="50" y1="825" x2="1400.5" y2="825.5" stroke="black" stroke-width="2"/> 
+  <text x="85" y="850.5" font-size="15">Осевой сдвиг ротора</text>
+  <image x="415" y="836" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC10CG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC10CG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;G&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="50.5" y1="870" x2="1401" y2="870.5" stroke="black" stroke-width="2"/> 
+  <line x1="49.5" y1="915" x2="1400" y2="915.5" stroke="black" stroke-width="2"/> 
+  <image x="415" y="880" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC10CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC10CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="88" y="936.25" font-size="15">Т в контуре торцевого упл.<tspan x="88" dy="15">(сторона св.конца вала)</tspan>
+  </text>
+  <image x="415" y="925" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC10CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC10CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="135.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="165.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="195.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="230.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="260.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="290.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB02CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="330.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20LAB02FP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB02FP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="370.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="400.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="430.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="465.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP006A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP006A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="495.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP006B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP006B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="525.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP006C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP006C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="560.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP012A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP012A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="590.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP012B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP012B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="620.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP012C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP012C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="660.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CT035&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CT035&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="705.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="745.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV20CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="790.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC20CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC20CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="836.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC20CG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC20CG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;G&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="880.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC20CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC20CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="614.5" y="925.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC20CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC20CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="135.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="165.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="195.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="230.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="260.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="290.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB03CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="330.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20LAB03FP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB03FP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="370.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="400.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="430.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="465.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP006A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP006A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="495.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP006B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP006B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="525.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP006C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP006C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="560.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP012A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP012A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="590.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP012B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP012B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="620.75" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP012C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP012C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="660.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CT035&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CT035&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="705.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="745.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV30CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="790.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC30CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC30CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="836.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC30CG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC30CG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;G&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="880.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC30CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC30CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815.136" y="925.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC30CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC30CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="135.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="165.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="195.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="230.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="260.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="290.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB04CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="330.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20LAB04FP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB04FP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="370.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="400.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="430.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="465.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP006A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP006A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="495.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP006B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP006B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="525.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP006C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP006C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="560.341" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP012A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP012A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="590.341" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP012B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP012B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="620.341" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP012C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP012C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="660.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CT035&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CT035&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="705.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="745.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV40CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV40CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="790.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC40CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC40CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="836.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC40CG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC40CG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;G&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="880.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC40CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC40CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1014.95" y="925.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC40CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC40CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="135" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP003A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP003A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="165" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP003B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP003B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="195" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP003C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP003C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="230" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP002A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP002A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="260" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP002B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP002B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="290" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAB05CP002C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05CP002C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="330" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>20LAB05FP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB05FP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="370" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP004A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP004A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="400" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP004B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP004B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="430" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP004C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP004C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="465" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP006A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP006A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="495" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP006B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP006B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="525" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP006C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP006C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="560.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP012A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP012A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="590.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP012B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP012B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="620.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP012C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP012C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="660" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CT035&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CT035&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="705" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CT036&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CT036&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="745" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAV50CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAV50CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="790" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC50CP011&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC50CP011&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="836" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC50CG001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC50CG001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;G&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="880" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC50CT016&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC50CT016&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="925" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20LAC50CT024&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAC50CT024&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="615" y="95" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBB16EG201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBB16EG201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="815" y="95" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC17EG201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC17EG201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1015" y="95" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD16EG201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD16EG201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1215" y="95" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBD15EG201&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBD15EG201&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+</svg>

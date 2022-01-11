@@ -1,0 +1,82 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1940 1000" width="1940" height="1000" id="orao_all_UPTV" font-size="15" font-weight="700">
+  <title>Обобщенный видеокадр  подсистемы УПТВ</title>
+  <rt:model modelversion="7.2.0.24" comment="Создано VNIIAES-ASUTP\seregin 07.08.2013 18:14:20" revision="1.0"/> 
+  <text x="960" y="40" font-size="28" text-anchor="middle">Обобщенный видеокадр подсистемы УПТВ</text>
+  <line x1="463.03" y1="896.061" x2="463.03" y2="896.061" stroke="black"/> 
+  <text x="391" y="178.243" font-size="18" text-anchor="middle">Подача перекиси и сорбента</text>
+  <text x="391" y="480" id="SVGText15" font-size="18" text-anchor="middle">I ступень очистки (бак 10KPF21BB002)</text>
+  <text x="391" y="331" id="SVGText14" font-size="18" text-anchor="middle">I ступень очистки (бак 10KPF21BB001)</text>
+  <text x="391" y="629" font-size="18" text-anchor="middle">I ступень очистки</text>
+  <text x="943.484" y="178.243" font-size="18" text-anchor="middle">II ступень очистки (бак 10KPF22BB001)</text>
+  <text x="943.484" y="328.152" font-size="18" text-anchor="middle">II ступень очистки (бак 10KPF22BB002)</text>
+  <text x="943.484" y="477.878" font-size="18" text-anchor="middle">II ступень очистки</text>
+  <text x="943.484" y="628.151" font-size="18" text-anchor="middle">Контрольные баки</text>
+  <text x="1503.51" y="178.243" font-size="18" text-anchor="middle">Кондиционирование солей (выпаривание)</text>
+  <text x="1503.51" y="310.152" font-size="18" text-anchor="middle">Кондиционирование солей<tspan x="1503.51" dy="18">(сброс концентрата и доочистка)</tspan>
+  </text>
+  <text x="1503.51" y="478.03" font-size="18" text-anchor="middle">Установка кондиционирования солей</text>
+  <text x="16" y="32" font-size="20" font-weight="bold">ORAO_ALL_UPTV</text>
+  <text x="1503.51" y="628" id="SVGText24" font-size="18" text-anchor="middle">Вызов программ ФГУ</text>
+  <image x="303.5" y="198.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_1&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="303.5" y="348.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_2&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="303.5" y="498.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_3&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="303.5" y="648.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_4&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="855.984" y="198.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_5&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_5&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="855.984" y="348.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_6&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_6&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="855.984" y="498.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_7&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_7&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="855.984" y="648.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_8&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_8&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="1416.01" y="198.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_9&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_9&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="1416.01" y="348.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_10&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_10&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="1416.01" y="498.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_11&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <image x="1416.01" y="648.697" width="175" height="36" xlink:href="obj_Button.svg" font-size="18">
+    <rt:event type="OnClick">LoadNew (&quot;uptv_fgu&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;uptv_fgu&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="22"/> 
+  </image>
+  <text x="943.484" y="115" font-size="18" text-anchor="middle">УПТВ</text>
+</svg>

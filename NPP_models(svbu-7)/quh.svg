@@ -1,0 +1,778 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="quh" stroke-width="3" font-size="15" font-weight="700">
+  <title>Система отбора проб II контура и БОУ</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_nsb&#10;LMod qfa&#10;RMod qun10_40&#10;RASU"/> 
+  <text x="10" y="22" font-size="15">QUH</text>
+  <line x1="1791.09" y1="454.545" x2="1791.09" y2="454.545" stroke="black"/> 
+  <line x1="1859.55" y1="909.091" x2="1859.55" y2="909.091" stroke="black"/> 
+  <rect x="7.49024" y="223.612" width="1842" height="28" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-3.4902 -19.6585)"/> 
+  <rect x="7.49024" y="150.909" width="1842" height="28" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-3.4902 -19.6585)"/> 
+  <text x="13.25" y="654.25" font-size="15" font-weight="bold">20UJB</text>
+  <text x="10.7501" y="590.5" font-size="15" font-weight="bold">20UJA</text>
+  <text x="7.00008" y="722.75" font-size="15" font-weight="bold">20UKA</text>
+  <line x1="344.024" y1="582.312" x2="344.024" y2="139.446" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="580.274" y1="582.982" x2="580.274" y2="132.746" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="818.774" y1="581.642" x2="818.774" y2="136.096" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="485.606" y1="906.25" x2="485.606" y2="947.159" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="919.837,-523.514 933.217,-515.87 933.217,-531.157 919.837,-523.514" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="400" y="980.977" font-size="15">В бак 20QUK10BB001</text>
+  <text x="389" y="539.75" font-size="15">21QUH20<tspan x="389" dy="15">AA803</tspan>
+  </text>
+  <image x="319.75" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH20AA803&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH20AA803&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="357.25" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="333.5" y="155" font-size="15">JNB60</text>
+  <image x="321.894" y="197.342" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;jnb60&quot;"/> 
+  </image>
+  <text x="360.375" y="106.25" font-size="15" text-anchor="middle">Конденсат пара из<tspan x="360.375" dy="15">трубопровода СПОТ ПГ-2</tspan>
+  </text>
+  <text x="390" y="776.25" font-size="15">22QUH20<tspan x="390" dy="15">AA804</tspan>
+  </text>
+  <image x="319.75" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH20AA804&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH20AA804&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="357.25" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="625.75" y="539.75" font-size="15">21QUH20<tspan x="625.75" dy="15">AA805</tspan>
+  </text>
+  <image x="556.5" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH20AA805&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH20AA805&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="594" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="570.25" y="155" font-size="15">JNB70</text>
+  <image x="558.644" y="197.342" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;jnb70&quot;"/> 
+  </image>
+  <text x="597.125" y="106.25" font-size="15" text-anchor="middle">Конденсат пара из<tspan x="597.125" dy="15">трубопровода СПОТ ПГ-3</tspan>
+  </text>
+  <text x="625.75" y="776.25" font-size="15">22QUH20<tspan x="625.75" dy="15">AA806</tspan>
+  </text>
+  <image x="554.5" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH20AA806&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH20AA806&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="594" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="863.75" y="539.75" font-size="15">21QUH20<tspan x="863.75" dy="15">AA807</tspan>
+  </text>
+  <image x="794.5" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH20AA807&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH20AA807&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="832" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="808.25" y="155" font-size="15">JNB80</text>
+  <image x="796.644" y="197.342" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;jnb80&quot;"/> 
+  </image>
+  <text x="835.125" y="106.25" font-size="15" text-anchor="middle">Конденсат пара из<tspan x="835.125" dy="15">трубопровода СПОТ ПГ-4</tspan>
+  </text>
+  <text x="862.75" y="776.25" font-size="15">22QUH20<tspan x="862.75" dy="15">AA808</tspan>
+  </text>
+  <image x="794.5" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH20AA808&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH20AA808&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="832" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="106.624" y1="584.155" x2="106.624" y2="136.65" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="151.75" y="539.75" font-size="15">21QUH20<tspan x="151.75" dy="15">AA801</tspan>
+  </text>
+  <image x="82.5" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH20AA801&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH20AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="119.506" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="96.25" y="155" font-size="15">JNB50</text>
+  <image x="85.006" y="197.342" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;jnb50&quot;"/> 
+  </image>
+  <text x="123.125" y="106.25" font-size="15" text-anchor="middle">Конденсат пара из<tspan x="123.125" dy="15">трубопровода СПОТ ПГ-1</tspan>
+  </text>
+  <text x="152.75" y="776.25" font-size="15">22QUH20<tspan x="152.75" dy="15">AA802</tspan>
+  </text>
+  <image x="82.5" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH20AA802&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH20AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="119.506" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <g>
+    <g>
+      <line x1="64.525" y1="437.125" x2="117" y2="437.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2813.55,-840.59 2826.93,-832.95 2826.93,-848.23 2813.55,-840.59" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="64.525" y1="465.875" x2="117" y2="465.875" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3651.05,-811.845 3664.43,-804.195 3664.43,-819.48 3651.05,-811.845" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="2266.11" y="1561.98" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="2341.87" y1="1575.61" x2="2390.36" y2="1599.86" stroke="black" stroke-width="3"/> 
+        <line x1="2295.58" y1="1655.74" x2="2344.07" y2="1679.99" stroke="black" stroke-width="3"/> 
+        <line x1="2388.84" y1="1599.86" x2="2293.39" y2="1655.92" stroke="black" stroke-width="3"/> 
+        <line x1="2343.05" y1="1679.39" x2="2343.05" y2="1694.39" stroke="black" stroke-width="3"/> 
+        <line x1="2343.2" y1="1562.54" x2="2343.2" y2="1577.54" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="41.5002" y="398.75" font-size="15">20QUH20<tspan x="41.5002" dy="15">AC002</tspan>
+    </text>
+    <text x="2.5" y="455" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="301.775" y1="436.375" x2="354.25" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3050.8,-841.34 3064.18,-833.7 3064.18,-848.98 3050.8,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="301.775" y1="465.125" x2="354.25" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3413.8,-812.595 3427.18,-804.945 3427.18,-820.23 3413.8,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="1788.17" y="1563.5" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="1863.93" y1="1577.13" x2="1912.42" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="1817.64" y1="1657.26" x2="1866.13" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="1910.9" y1="1601.38" x2="1815.45" y2="1657.44" stroke="black" stroke-width="3"/> 
+        <line x1="1865.11" y1="1680.91" x2="1865.11" y2="1695.91" stroke="black" stroke-width="3"/> 
+        <line x1="1865.26" y1="1564.06" x2="1865.26" y2="1579.06" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="279.75" y="398" font-size="15">20QUH20<tspan x="279.75" dy="15">AC004</tspan>
+    </text>
+    <text x="239.75" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="538.525" y1="436.375" x2="591" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3287.55,-841.34 3300.93,-833.7 3300.93,-848.98 3287.55,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="538.525" y1="465.125" x2="591" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3177.05,-812.595 3190.43,-804.945 3190.43,-820.23 3177.05,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="1311.25" y="1563.49" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="1387.01" y1="1577.13" x2="1435.5" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="1340.72" y1="1657.26" x2="1389.21" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="1433.98" y1="1601.38" x2="1338.53" y2="1657.43" stroke="black" stroke-width="3"/> 
+        <line x1="1388.19" y1="1680.9" x2="1388.19" y2="1695.9" stroke="black" stroke-width="3"/> 
+        <line x1="1388.34" y1="1564.05" x2="1388.34" y2="1579.05" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="515.5" y="398" font-size="15">20QUH20<tspan x="515.5" dy="15">AC006</tspan>
+    </text>
+    <text x="476.5" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="776.525" y1="436.375" x2="829" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3525.55,-841.34 3538.93,-833.7 3538.93,-848.98 3525.55,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="776.525" y1="465.125" x2="829" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2939.05,-812.595 2952.43,-804.945 2952.43,-820.23 2939.05,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="831.806" y="1563.5" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="907.566" y1="1577.13" x2="956.056" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="861.276" y1="1657.26" x2="909.766" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="954.536" y1="1601.38" x2="859.086" y2="1657.44" stroke="black" stroke-width="3"/> 
+        <line x1="908.746" y1="1680.91" x2="908.746" y2="1695.91" stroke="black" stroke-width="3"/> 
+        <line x1="908.896" y1="1564.06" x2="908.896" y2="1579.06" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="754.5" y="398" font-size="15">20QUH20<tspan x="754.5" dy="15">AC008</tspan>
+    </text>
+    <text x="714.5" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="64.5253" y1="292.125" x2="117" y2="292.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2813.55,-985.595 2826.93,-977.945 2826.93,-993.235 2813.55,-985.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="64.5251" y1="320.875" x2="117" y2="320.875" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3651.05,-956.845 3664.43,-949.195 3664.43,-964.485 3651.05,-956.845" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="2266.11" y="1854.08" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="2341.87" y1="1867.71" x2="2390.36" y2="1891.96" stroke="black" stroke-width="3"/> 
+        <line x1="2295.58" y1="1947.84" x2="2344.07" y2="1972.09" stroke="black" stroke-width="3"/> 
+        <line x1="2388.84" y1="1891.96" x2="2293.39" y2="1948.02" stroke="black" stroke-width="3"/> 
+        <line x1="2343.05" y1="1971.49" x2="2343.05" y2="1986.49" stroke="black" stroke-width="3"/> 
+        <line x1="2343.2" y1="1854.64" x2="2343.2" y2="1869.64" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="42.5002" y="253.75" font-size="15">20QUH20<tspan x="42.5002" dy="15">AC001</tspan>
+    </text>
+    <text x="2.50005" y="310" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="301.775" y1="291.375" x2="354.25" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3050.8,-986.34 3064.18,-978.695 3064.18,-993.98 3050.8,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="301.775" y1="320.125" x2="354.25" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3413.8,-957.595 3427.18,-949.945 3427.18,-965.235 3413.8,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="1788.18" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="1863.94" y1="1869.21" x2="1912.43" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="1817.65" y1="1949.34" x2="1866.14" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="1910.91" y1="1893.46" x2="1815.46" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="1865.12" y1="1973" x2="1865.12" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="1865.27" y1="1856.15" x2="1865.27" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="279.75" y="253" font-size="15">20QUH20<tspan x="279.75" dy="15">AC003</tspan>
+    </text>
+    <text x="239.75" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="538.525" y1="291.375" x2="591" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3287.55,-986.34 3300.93,-978.695 3300.93,-993.98 3287.55,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="538.525" y1="320.125" x2="591" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3177.05,-957.595 3190.43,-949.945 3190.43,-965.235 3177.05,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="1311.26" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="1387.02" y1="1869.21" x2="1435.51" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="1340.73" y1="1949.34" x2="1389.22" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="1433.99" y1="1893.46" x2="1338.54" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="1388.2" y1="1973" x2="1388.2" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="1388.35" y1="1856.15" x2="1388.35" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="516.5" y="253" font-size="15">20QUH20<tspan x="516.5" dy="15">AC005</tspan>
+    </text>
+    <text x="476.5" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="776.525" y1="291.375" x2="829" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3525.55,-986.34 3538.93,-978.695 3538.93,-993.98 3525.55,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="776.525" y1="320.125" x2="829" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2939.05,-957.595 2952.43,-949.945 2952.43,-965.235 2939.05,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="831.816" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="907.576" y1="1869.21" x2="956.066" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="861.286" y1="1949.34" x2="909.776" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="954.546" y1="1893.46" x2="859.096" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="908.756" y1="1973" x2="908.756" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="908.906" y1="1856.15" x2="908.906" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="754.5" y="253" font-size="15">20QUH20<tspan x="754.5" dy="15">AC007</tspan>
+    </text>
+    <text x="714.5" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <line x1="1312.27" y1="582.312" x2="1312.27" y2="140.283" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="1548.52" y1="583.652" x2="1548.52" y2="129.396" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="1787.02" y1="582.982" x2="1787.02" y2="131.909" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <line x1="1453.86" y1="906.25" x2="1453.86" y2="947.159" stroke="black" stroke-width="3"/> 
+  <g transform="rotate(90 1212.44 532.643)">
+    <polygon points="919.837,444.736 933.217,452.38 933.217,437.093 919.837,444.736" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1368.25" y="980.977" font-size="15">В бак 20QUK10BB001</text>
+  <text x="1357.25" y="539.75" font-size="15">21QUH10<tspan x="1357.25" dy="15">AA803</tspan>
+  </text>
+  <image x="1288" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH10AA803&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH10AA803&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1325.5" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <image x="1290.14" y="198.428" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.6379) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcq10_20&quot;"/> 
+  </image>
+  <text x="1358.25" y="776.25" font-size="15">22QUH10<tspan x="1358.25" dy="15">AA804</tspan>
+  </text>
+  <image x="1288" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH10AA804&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH10AA804&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1325.5" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1594" y="539.75" font-size="15">21QUH10<tspan x="1594" dy="15">AA805</tspan>
+  </text>
+  <image x="1524.75" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH10AA805&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH10AA805&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1562.25" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <image x="1526.89" y="198.428" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.638) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcq30_40&quot;"/> 
+  </image>
+  <text x="1591" y="776.25" font-size="15">22QUH10<tspan x="1591" dy="15">AA806</tspan>
+  </text>
+  <image x="1522.75" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH10AA806&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH10AA806&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1562.25" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1832" y="539.75" font-size="15">21QUH10<tspan x="1832" dy="15">AA807</tspan>
+  </text>
+  <image x="1762.75" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH10AA807&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH10AA807&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1800.25" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <image x="1764.89" y="198.428" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.6377) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcq30_40&quot;"/> 
+  </image>
+  <text x="1833" y="776.25" font-size="15">22QUH10<tspan x="1833" dy="15">AA808</tspan>
+  </text>
+  <image x="1762.75" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH10AA808&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH10AA808&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1800.25" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <line x1="1075.37" y1="582.313" x2="1075.37" y2="136.096" stroke="black" stroke-width="3" transform="flipY() translate(0 -828) translate(20.3816 -266.38) scale(1 1.49255)"/> 
+  <text x="1120" y="539.75" font-size="15">21QUH10<tspan x="1120" dy="15">AA801</tspan>
+  </text>
+  <image x="1050.75" y="512" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;21QUH10AA801&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;21QUH10AA801&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1088.25" y="596.046" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1064.5" y="155" font-size="15">LCQ10-20</text>
+  <image x="1052.89" y="198.428" width="60" height="25" xlink:href="obj_link.svg" transform="flipY(12.6379) flipY(12.638) flipY(12.638) rotate(270 42.3619 12.4999) rotate(0 37.3619 12.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcq10_20&quot;"/> 
+  </image>
+  <text x="1091.38" y="98.75" font-size="15" text-anchor="middle">Отбор пробы из<tspan x="1091.38" dy="15">объединенной линии</tspan>
+<tspan x="1091.38" dy="15">продувки ПГ-1</tspan>
+  </text>
+  <text x="1121" y="776.25" font-size="15">22QUH10<tspan x="1121" dy="15">AA802</tspan>
+  </text>
+  <image x="1050.75" y="744.871" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;22QUH10AA802&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QUH10AA802&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <rect x="1088.25" y="668.75" width="15" height="28" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <g>
+    <g>
+      <line x1="1032.77" y1="437.125" x2="1085.25" y2="437.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3781.8,-840.59 3795.18,-832.95 3795.18,-848.23 3781.8,-840.59" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1032.77" y1="465.875" x2="1085.25" y2="465.875" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2682.8,-811.845 2696.18,-804.195 2696.18,-819.48 2682.8,-811.845" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="315.589" y="1561.98" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="391.349" y1="1575.61" x2="439.839" y2="1599.86" stroke="black" stroke-width="3"/> 
+        <line x1="345.059" y1="1655.74" x2="393.549" y2="1679.99" stroke="black" stroke-width="3"/> 
+        <line x1="438.319" y1="1599.86" x2="342.869" y2="1655.92" stroke="black" stroke-width="3"/> 
+        <line x1="392.529" y1="1679.39" x2="392.529" y2="1694.39" stroke="black" stroke-width="3"/> 
+        <line x1="392.679" y1="1562.54" x2="392.679" y2="1577.54" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1010.75" y="398.75" font-size="15">20QUH10<tspan x="1010.75" dy="15">AC002</tspan>
+    </text>
+    <text x="970.75" y="455" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1270.02" y1="436.375" x2="1322.5" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4019.05,-841.34 4032.43,-833.7 4032.43,-848.98 4019.05,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1270.02" y1="465.125" x2="1322.5" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2445.55,-812.595 2458.93,-804.945 2458.93,-820.23 2445.55,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-162.351" y="1563.5" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-86.5908" y1="1577.13" x2="-38.1008" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="-132.881" y1="1657.26" x2="-84.3909" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="-39.6208" y1="1601.38" x2="-135.071" y2="1657.44" stroke="black" stroke-width="3"/> 
+        <line x1="-85.4109" y1="1680.91" x2="-85.4109" y2="1695.91" stroke="black" stroke-width="3"/> 
+        <line x1="-85.2609" y1="1564.06" x2="-85.2609" y2="1579.06" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1249" y="398" font-size="15">20QUH10<tspan x="1249" dy="15">AC004</tspan>
+    </text>
+    <text x="1208" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1506.78" y1="436.375" x2="1559.25" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4255.8,-841.34 4269.18,-833.7 4269.18,-848.98 4255.8,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1506.78" y1="465.125" x2="1559.25" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2208.8,-812.595 2222.18,-804.945 2222.18,-820.23 2208.8,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-639.271" y="1563.49" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-563.511" y1="1577.13" x2="-515.021" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="-609.801" y1="1657.26" x2="-561.311" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="-516.541" y1="1601.38" x2="-611.991" y2="1657.43" stroke="black" stroke-width="3"/> 
+        <line x1="-562.331" y1="1680.9" x2="-562.331" y2="1695.9" stroke="black" stroke-width="3"/> 
+        <line x1="-562.181" y1="1564.05" x2="-562.181" y2="1579.05" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1483.75" y="398" font-size="15">20QUH10<tspan x="1483.75" dy="15">AC006</tspan>
+    </text>
+    <text x="1444.75" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1744.78" y1="436.375" x2="1797.25" y2="436.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4493.8,-841.34 4507.18,-833.7 4507.18,-848.98 4493.8,-841.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1744.78" y1="465.125" x2="1797.25" y2="465.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="1970.8,-812.595 1984.18,-804.945 1984.18,-820.23 1970.8,-812.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-1118.71" y="1563.5" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-1042.95" y1="1577.13" x2="-994.463" y2="1601.38" stroke="black" stroke-width="3"/> 
+        <line x1="-1089.24" y1="1657.26" x2="-1040.75" y2="1681.51" stroke="black" stroke-width="3"/> 
+        <line x1="-995.983" y1="1601.38" x2="-1091.43" y2="1657.44" stroke="black" stroke-width="3"/> 
+        <line x1="-1041.77" y1="1680.91" x2="-1041.77" y2="1695.91" stroke="black" stroke-width="3"/> 
+        <line x1="-1041.62" y1="1564.06" x2="-1041.62" y2="1579.06" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1723.75" y="398" font-size="15">20QUH10<tspan x="1723.75" dy="15">AC008</tspan>
+    </text>
+    <text x="1682.75" y="454.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1032.78" y1="292.125" x2="1085.25" y2="292.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="3781.8,-985.595 3795.18,-977.945 3795.18,-993.235 3781.8,-985.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1032.78" y1="320.875" x2="1085.25" y2="320.875" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2682.8,-956.845 2696.18,-949.195 2696.18,-964.485 2682.8,-956.845" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="315.589" y="1854.08" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="391.349" y1="1867.71" x2="439.839" y2="1891.96" stroke="black" stroke-width="3"/> 
+        <line x1="345.059" y1="1947.84" x2="393.549" y2="1972.09" stroke="black" stroke-width="3"/> 
+        <line x1="438.319" y1="1891.96" x2="342.869" y2="1948.02" stroke="black" stroke-width="3"/> 
+        <line x1="392.529" y1="1971.49" x2="392.529" y2="1986.49" stroke="black" stroke-width="3"/> 
+        <line x1="392.679" y1="1854.64" x2="392.679" y2="1869.64" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1011.75" y="253.75" font-size="15">20QUH10<tspan x="1011.75" dy="15">AC001</tspan>
+    </text>
+    <text x="970.75" y="310" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1270.02" y1="291.375" x2="1322.5" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4019.05,-986.34 4032.43,-978.695 4032.43,-993.98 4019.05,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1270.02" y1="320.125" x2="1322.5" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2445.55,-957.595 2458.93,-949.945 2458.93,-965.235 2445.55,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-162.341" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-86.5808" y1="1869.21" x2="-38.0908" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="-132.871" y1="1949.34" x2="-84.3809" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="-39.6108" y1="1893.46" x2="-135.061" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="-85.4009" y1="1973" x2="-85.4009" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="-85.2509" y1="1856.15" x2="-85.2509" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1249" y="253" font-size="15">20QUH10<tspan x="1249" dy="15">AC003</tspan>
+    </text>
+    <text x="1208" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1506.78" y1="291.375" x2="1559.25" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4255.8,-986.34 4269.18,-978.695 4269.18,-993.98 4255.8,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1506.78" y1="320.125" x2="1559.25" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="2208.8,-957.595 2222.18,-949.945 2222.18,-965.235 2208.8,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-639.261" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-563.501" y1="1869.21" x2="-515.011" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="-609.791" y1="1949.34" x2="-561.301" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="-516.531" y1="1893.46" x2="-611.981" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="-562.321" y1="1973" x2="-562.321" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="-562.171" y1="1856.15" x2="-562.171" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1484.75" y="253" font-size="15">20QUH10<tspan x="1484.75" dy="15">AC005</tspan>
+    </text>
+    <text x="1444.75" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <g>
+    <g>
+      <line x1="1744.78" y1="291.375" x2="1797.25" y2="291.375" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="4493.8,-986.34 4507.18,-978.695 4507.18,-993.98 4493.8,-986.34" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="1744.78" y1="320.125" x2="1797.25" y2="320.125" stroke="black" stroke-width="3"/> 
+      <g transform="flipX(478.875) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+        <g transform="rotate(90 1212.44 532.643)">
+          <polygon points="1970.8,-957.595 1984.18,-949.945 1984.18,-965.235 1970.8,-957.595" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+        </g>
+      </g>
+    </g>
+    <g transform="scale(0.700001 0.700001 84.5 295.625) scale(0.89 0.89 227.455 526.515) scale(1.66 1.66 208.515 836.364) rotate(90 460.03 669.697) scale(0.479999 0.479999 796.394 169.697) rotate(360 412.288 437.863)">
+      <g transform="rotate(90 1094.11 578.015)">
+        <rect x="-1118.7" y="1855.58" width="145" height="134" rx="0" ry="0" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+        <line x1="-1042.94" y1="1869.21" x2="-994.453" y2="1893.46" stroke="black" stroke-width="3"/> 
+        <line x1="-1089.23" y1="1949.34" x2="-1040.74" y2="1973.59" stroke="black" stroke-width="3"/> 
+        <line x1="-995.973" y1="1893.46" x2="-1091.42" y2="1949.53" stroke="black" stroke-width="3"/> 
+        <line x1="-1041.76" y1="1973" x2="-1041.76" y2="1988" stroke="black" stroke-width="3"/> 
+        <line x1="-1041.61" y1="1856.15" x2="-1041.61" y2="1871.15" stroke="black" stroke-width="3"/> 
+      </g>
+    </g>
+    <text x="1722.75" y="253" font-size="15">20QUH10<tspan x="1722.75" dy="15">AC007</tspan>
+    </text>
+    <text x="1682.75" y="309.25" font-size="15">PGB50</text>
+  </g>
+  <text x="1316.37" y="98.75" font-size="15" text-anchor="middle">Отбор пробы из<tspan x="1316.37" dy="15">объединенной линии</tspan>
+<tspan x="1316.37" dy="15">продувки ПГ-2</tspan>
+  </text>
+  <text x="1562.62" y="98.75" font-size="15" text-anchor="middle">Отбор пробы из<tspan x="1562.62" dy="15">объединенной линии</tspan>
+<tspan x="1562.62" dy="15">продувки ПГ-3</tspan>
+  </text>
+  <text x="1803.87" y="98.75" font-size="15" text-anchor="middle">Отбор пробы из<tspan x="1803.87" dy="15">объединенной линии</tspan>
+<tspan x="1803.87" dy="15">продувки ПГ-4</tspan>
+  </text>
+  <text x="1768.25" y="155" font-size="15">LCQ30-40</text>
+  <text x="1525.75" y="155" font-size="15">LCQ30-40</text>
+  <text x="1284.5" y="155" font-size="15">LCQ10-20</text>
+  <g>
+    <line x1="1805.75" y1="262.25" x2="1882" y2="262.25" stroke="black" stroke-width="3"/> 
+    <line x1="1879.87" y1="223.25" x2="1879.87" y2="264.159" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(209.375) flipY(205.625) rotate(90 1212.44 532.643)">
+      <polygon points="1658.34,870.486 1671.72,878.13 1671.72,862.843 1658.34,870.486" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+    <text x="1878.25" y="178" font-size="15" text-anchor="middle">Из<tspan x="1878.25" dy="15">солевого</tspan>
+<tspan x="1878.25" dy="15">отсека</tspan>
+    </text>
+  </g>
+  <g>
+    <line x1="1572" y1="261.5" x2="1648.25" y2="261.5" stroke="black" stroke-width="3"/> 
+    <line x1="1646.12" y1="222.5" x2="1646.12" y2="263.409" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(209.375) flipY(205.625) rotate(90 1212.44 532.643)">
+      <polygon points="1659.09,636.736 1672.47,644.38 1672.47,629.093 1659.09,636.736" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+    <text x="1644.5" y="177.25" font-size="15" text-anchor="middle">Из<tspan x="1644.5" dy="15">солевого</tspan>
+<tspan x="1644.5" dy="15">отсека</tspan>
+    </text>
+  </g>
+  <g>
+    <line x1="1330.75" y1="262.25" x2="1407" y2="262.25" stroke="black" stroke-width="3"/> 
+    <line x1="1404.87" y1="223.25" x2="1404.87" y2="264.159" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(209.375) flipY(205.625) rotate(90 1212.44 532.643)">
+      <polygon points="1658.34,395.486 1671.72,403.13 1671.72,387.843 1658.34,395.486" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+    <text x="1403.25" y="178" font-size="15" text-anchor="middle">Из<tspan x="1403.25" dy="15">солевого</tspan>
+<tspan x="1403.25" dy="15">отсека</tspan>
+    </text>
+  </g>
+  <g>
+    <line x1="1095.75" y1="261.5" x2="1172" y2="261.5" stroke="black" stroke-width="3"/> 
+    <line x1="1169.87" y1="222.5" x2="1169.87" y2="263.409" stroke="black" stroke-width="3"/> 
+    <g transform="flipY(209.375) flipY(205.625) rotate(90 1212.44 532.643)">
+      <polygon points="1659.09,160.486 1672.47,168.13 1672.47,152.843 1659.09,160.486" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+    <text x="1168.25" y="177.25" font-size="15" text-anchor="middle">Из<tspan x="1168.25" dy="15">солевого</tspan>
+<tspan x="1168.25" dy="15">отсека</tspan>
+    </text>
+  </g>
+  <rect x="1064" y="866.25" width="770" height="45" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <text x="1370.25" y="895.75" font-size="18">20QUH10AT001</text>
+  <rect x="98.75" y="866.25" width="770" height="45" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <text x="406" y="895.75" font-size="18">20QUH20AT001</text>
+  <text x="957" y="26" font-size="30" text-anchor="middle">Система отбора проб II контура и БОУ</text>
+  <line x1="1875" y1="825" x2="17.0404" y2="825" stroke="black" stroke-dasharray="40" stroke-width="1"/> 
+  <text x="8.13634" y="845.636" font-size="15" font-weight="bold">20UKC</text>
+</svg>

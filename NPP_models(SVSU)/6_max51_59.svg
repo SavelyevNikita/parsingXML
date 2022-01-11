@@ -1,0 +1,707 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="max51_59">
+  <desc>Система маслоснабжения регулирования турбины</desc>
+  <title>Cистема регулирования турбины</title>
+  <rt:model modelversion="ver 1.0" revision="3.0" comment="Создано VNIIAES-ASUTP"/> 
+  <line x1="1157.71" y1="111.689" x2="1157.71" y2="312.009" stroke="black" stroke-width="3"/> 
+  <line x1="912" y1="112.39" x2="912" y2="312.71" stroke="black" stroke-width="3"/> 
+  <line x1="1157.71" y1="749.841" x2="1157.71" y2="950.161" stroke="black" stroke-width="3"/> 
+  <line x1="913.151" y1="750.542" x2="913.151" y2="950.862" stroke="black" stroke-width="3"/> 
+  <line x1="132.757" y1="748.485" x2="132.697" y2="964" stroke="black" stroke-width="3"/> 
+  <circle cx="1857.21" cy="524.788" r="48.4847" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <line x1="1036" y1="425" x2="1037" y2="625" stroke="black" stroke-width="3"/> 
+  <line x1="1523.12" y1="159.546" x2="1523.36" y2="892.424" stroke="black" stroke-width="3"/> 
+  <rect x="1375.92" y="425" width="296.97" height="205.303" rx="0.544922" ry="17.9691" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <line x1="542" y1="157.577" x2="542" y2="890.91" stroke="black" stroke-width="3"/> 
+  <rect x="396.091" y="425" width="296.97" height="205.303" rx="0.544922" ry="17.9691" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <line x1="270.636" y1="525.758" x2="1810.03" y2="525" stroke="gray" stroke-width="6"/> 
+  <line x1="540.75" y1="890" x2="767" y2="890" stroke="black" stroke-width="3"/> 
+  <rect x="431.939" y="270.197" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="456.56" y="372.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX55CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX55CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="926.698" y="57.5759" font-size="32">
+    <title>Система регулирования турбины</title>
+MAX51-59</text>
+  <line x1="761" y1="159.74" x2="762" y2="417" stroke="black" stroke-width="3"/> 
+  <line x1="13.75" y1="73.25" x2="11.5453" y2="751.515" stroke="black" stroke-width="3"/> 
+  <line x1="388" y1="748.75" x2="388" y2="985.714" stroke="black" stroke-width="3"/> 
+  <line x1="542.485" y1="159.091" x2="762" y2="159.74" stroke="black" stroke-width="3"/> 
+  <text x="118.75" y="990" font-size="15">ГПК</text>
+  <g transform="flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="880.163,-876.812 893.543,-869.168 893.543,-884.455 880.163,-876.812" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="628.727" y="823.879" font-size="15">10LBJ20AT001</text>
+  <line x1="689" y1="938.394" x2="689.25" y2="983.75" stroke="black" stroke-width="3"/> 
+  <text x="87.25" y="520.75" font-size="15">10MAX50AE001</text>
+  <line x1="689" y1="75" x2="689" y2="106" stroke="black" stroke-width="3"/> 
+  <text x="634" y="231.909" font-size="15">10LBJ10AT001</text>
+  <image x="575.818" y="131.303" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC01AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC01CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC01CG143_XB02&quot;"/> 
+  </image>
+  <image x="514.303" y="132" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC10AA240&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC10CG242_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC10CG241_XG01&quot;"/> 
+  </image>
+  <image x="442.133" y="145.875" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAC10AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC10CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <rect x="833.97" y="57.5757" width="0" height="0" rx="0" ry="0"/> 
+  <image x="456.56" y="341.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX55EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX55EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <polygon points="282.046,449.902 282.046,599.902 394.924,574.902 507.045,599.902 507.045,449.902 394.924,474.902" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="348.606" y="527.932" font-size="15">10MAC10</text>
+  <polygon points="577.985,449.902 577.985,599.902 690.863,574.902 802.984,599.902 802.984,449.902 690.863,474.902" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="644.545" y="527.932" font-size="15">10MAC20</text>
+  <image x="575.818" y="862.909" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC02AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC02CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC02CG143_XB02&quot;"/> 
+  </image>
+  <image x="514.318" y="861.424" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC20AA240&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC20CG242_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC20CG241_XG01&quot;"/> 
+  </image>
+  <image x="442.133" y="876.841" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAC20CG240&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC20CG240&quot;"/> 
+  </image>
+  <image x="61" y="162.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS901&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="72" y="566.25" font-size="15">МУТ</text>
+  <image x="35.5324" y="775.952" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10LBD00AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBD00CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <line x1="13.0605" y1="750" x2="389" y2="750" stroke="black" stroke-width="3"/> 
+  <text x="132.25" y="151.637" font-size="15">n ТГ</text>
+  <line x1="387" y1="984.668" x2="1373.36" y2="984.848" stroke="black" stroke-width="3"/> 
+  <line x1="13.0606" y1="72.7273" x2="1375" y2="75" stroke="black" stroke-width="3"/> 
+  <text x="1311.85" y="824.849" font-size="15">10LBJ40AT001</text>
+  <line x1="1372.83" y1="939.394" x2="1371.85" y2="983.333" stroke="black" stroke-width="3"/> 
+  <line x1="1373.25" y1="75" x2="1372.98" y2="107.213" stroke="black" stroke-width="3"/> 
+  <text x="1319.39" y="231.206" font-size="15">10LBJ30AT001</text>
+  <image x="1559.04" y="145.875" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAC30CG240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC30CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <rect x="1777.09" y="54.5455" width="0" height="0" rx="0" ry="0"/> 
+  <polygon points="1262.17,449.902 1262.17,599.902 1375.04,574.902 1487.17,599.902 1487.17,449.902 1375.04,474.902" fill="gray" stroke="black" stroke-width="3"/> 
+  <text x="1328.73" y="524.902" font-size="15">10MAC30</text>
+  <polygon points="1558.11,449.902 1558.11,599.902 1670.98,574.902 1783.1,599.902 1783.1,449.902 1670.98,474.902" fill="Col_Grey4" stroke="black" stroke-width="3"/> 
+  <text x="1624.67" y="524.902" font-size="15">10MAC40</text>
+  <image x="1559.04" y="876.841" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAC40CG240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC40CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <polygon points="923.288,449.902 923.288,599.902 1036.16,574.902 1148.29,599.902 1148.29,449.902 1036.16,474.902" fill="gray" stroke="black" stroke-width="3"/> 
+  <text x="989.848" y="529.417" font-size="15">10MAA10</text>
+  <line x1="1302" y1="161" x2="1524.5" y2="160.606" stroke="black" stroke-width="3"/> 
+  <image x="1430.5" y="130.303" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC03AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC03CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC03CG143_XB02&quot;"/> 
+  </image>
+  <line x1="1287" y1="887" x2="1522.98" y2="891" stroke="black" stroke-width="3"/> 
+  <image x="1430.5" y="863.909" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC02AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC04CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC04CG143_XB02&quot;"/> 
+  </image>
+  <line x1="1302.76" y1="160.286" x2="1304" y2="417" stroke="black" stroke-width="3"/> 
+  <g>
+    <rect x="1323" y="833.363" width="100" height="106.061" rx="0" ry="0" fill="gray" stroke="black" stroke-width="1"/> 
+    <line x1="1373" y1="834" x2="1373" y2="850" stroke="black"/> 
+    <line x1="1373" y1="939" x2="1373" y2="925" stroke="black"/> 
+    <line x1="1373" y1="849.5" x2="1397.75" y2="875.25" stroke="black"/> 
+    <line x1="1349" y1="899.25" x2="1398" y2="875" stroke="black"/> 
+    <line x1="1373" y1="925.25" x2="1349" y2="899" stroke="black"/> 
+  </g>
+  <g>
+    <rect x="1322.77" y="106.561" width="100" height="106.061" rx="0" ry="0" fill="gray" stroke="black" stroke-width="1"/> 
+    <line x1="1372.77" y1="107.198" x2="1372.77" y2="123.198" stroke="black"/> 
+    <line x1="1372.77" y1="212.198" x2="1372.77" y2="198.198" stroke="black"/> 
+    <line x1="1372.77" y1="122.698" x2="1397.52" y2="148.448" stroke="black"/> 
+    <line x1="1348.77" y1="172.448" x2="1397.77" y2="148.198" stroke="black"/> 
+    <line x1="1372.77" y1="198.448" x2="1348.77" y2="172.198" stroke="black"/> 
+  </g>
+  <rect x="639.077" y="831.924" width="100" height="106.061" rx="0" ry="0" fill="gray" stroke="black" stroke-width="1"/> 
+  <line x1="689.077" y1="832.561" x2="689.077" y2="848.561" stroke="black"/> 
+  <line x1="689.077" y1="937.561" x2="689.077" y2="923.561" stroke="black"/> 
+  <line x1="689.077" y1="848.061" x2="713.827" y2="873.811" stroke="black"/> 
+  <line x1="665.077" y1="897.811" x2="714.077" y2="873.561" stroke="black"/> 
+  <line x1="689.077" y1="923.811" x2="665.077" y2="897.561" stroke="black"/> 
+  <g>
+    <rect x="639.076" y="106.561" width="100" height="106.061" rx="0" ry="0" fill="gray" stroke="black" stroke-width="1"/> 
+    <line x1="689.076" y1="107.198" x2="689.076" y2="123.198" stroke="black"/> 
+    <line x1="689.076" y1="212.198" x2="689.076" y2="198.198" stroke="black"/> 
+    <line x1="689.076" y1="122.698" x2="713.826" y2="148.448" stroke="black"/> 
+    <line x1="665.076" y1="172.448" x2="714.076" y2="148.198" stroke="black"/> 
+    <line x1="689.076" y1="198.448" x2="665.076" y2="172.198" stroke="black"/> 
+  </g>
+  <text x="481.56" y="291.5" font-size="15">10MAX55AS001</text>
+  <rect x="1414.77" y="270.197" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="1439.39" y="372.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX57CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX57CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1439.39" y="341.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX57EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX57EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1464.39" y="291.5" font-size="15">10MAX57AS001</text>
+  <rect x="431.439" y="654.483" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="456.06" y="756.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX56CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX56CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="456.06" y="726.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX56EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX56EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="481.06" y="674.487" font-size="15">10MAX56AS001</text>
+  <rect x="1415.29" y="654.483" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="1439.91" y="756.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX58CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX58CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1439.91" y="726.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX58EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX58EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1464.91" y="674.487" font-size="15">10MAX58AS001</text>
+  <rect x="21.1364" y="823.288" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="45.7574" y="924.621" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX59CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX59CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="45.7574" y="892.621" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX59EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX59EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+  </image>
+  <text x="70.7576" y="844.591" font-size="15">10MAX59AS001</text>
+  <image x="814.39" y="216.078" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAA11AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA11CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <text x="900.195" y="98.5004" font-size="15">ГПК</text>
+  <g transform="flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="17.6639,-97.367 31.0439,-89.723 31.0439,-105.01 17.6639,-97.367" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="934.948" y="150" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10LBA50CP902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LBA50CP902_XQ02&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1190.95" y="216.078" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAA13AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA13CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <g transform="flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="17.3646,148.192 30.7446,155.836 30.7446,140.549 17.3646,148.192" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1144.05" y="98.5004" font-size="15">ГПК</text>
+  <line x1="922" y1="398" x2="1037" y2="426" stroke="black" stroke-width="3"/> 
+  <line x1="753" y1="398" x2="868" y2="426" stroke="black" stroke-width="3" transform="flipX(952.5)"/> 
+  <line x1="762" y1="415" x2="923" y2="450" stroke="black" stroke-width="3"/> 
+  <line x1="325" y1="416" x2="486" y2="451" stroke="black" stroke-width="3" transform="flipX(815.5)"/> 
+  <line x1="764" y1="271" x2="925" y2="306" stroke="black" stroke-width="3" transform="flipY(452.5)"/> 
+  <line x1="1127" y1="595" x2="1288" y2="630" stroke="black" stroke-width="3"/> 
+  <line x1="765" y1="633.74" x2="766" y2="891" stroke="black" stroke-width="3"/> 
+  <line x1="1286" y1="630.74" x2="1287" y2="888" stroke="black" stroke-width="3"/> 
+  <line x1="922" y1="726" x2="1037" y2="754" stroke="black" stroke-width="3" transform="flipY(691)"/> 
+  <line x1="753" y1="726" x2="868" y2="754" stroke="black" stroke-width="3" transform="flipY(691) flipX(952.5)"/> 
+  <rect x="802.743" y="658.483" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="827.364" y="760.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX52CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX52CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="827.364" y="730.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX52EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX52EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="852.364" y="678.487" font-size="15">10MAX52AS001</text>
+  <rect x="1046.3" y="658.483" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="1068.54" y="760.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX54CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX54CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1068.54" y="730.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX54EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX54EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1093.54" y="678.487" font-size="15">10MAX54AS001</text>
+  <image x="814.542" y="825.229" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAA12AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA12CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <text x="901.347" y="975.652" font-size="15">ГПК</text>
+  <g transform="flipY(955.646) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="-830.539,-96.216 -817.159,-88.572 -817.159,-103.859 -830.539,-96.216" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <image x="1191.1" y="825.229" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10MAA14AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA14CG240&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+  </image>
+  <g transform="flipY(955.945) flipY(107.444) flipY(980.944) rotate(90 1212.44 532.643)">
+    <polygon points="-830.838,148.343 -817.458,155.987 -817.458,140.7 -830.838,148.343" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+  </g>
+  <text x="1142.2" y="975.652" font-size="15">ГПК</text>
+  <image x="884.5" y="874.555" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAA02AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAA02CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAA02CG143_XB02&quot;"/> 
+  </image>
+  <image x="1131" y="874.555" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAA04AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAA04CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAA04CG143_XB02&quot;"/> 
+  </image>
+  <text x="1824.39" y="593.091" font-size="15">Генератор</text>
+  <text x="1818.61" y="509.212" font-size="15">10MKA10</text>
+  <text x="968.515" y="139.394" font-size="15">Давление ГПК</text>
+  <path d="M1826 524 Q1841 509 1856 524 Q1871 539 1886 524 Q1886 524 1886 524 " fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <line x1="1798.25" y1="528.75" x2="1798.25" y2="528.75" stroke="black"/> 
+  <text x="560.03" y="101.515" font-size="15">10MAC01<tspan x="560.03" dy="15">AA140</tspan>
+  </text>
+  <text x="1425.79" y="101.515" font-size="15">10MAC03<tspan x="1425.79" dy="15">AA140</tspan>
+  </text>
+  <text x="476.697" y="101.515" font-size="15">10MAC10<tspan x="476.697" dy="15">AA240</tspan>
+  </text>
+  <text x="1513.06" y="101.515" font-size="15">10MAC30<tspan x="1513.06" dy="15">AA240</tspan>
+  </text>
+  <text x="1042.48" y="234.848" font-size="15">10MAA13<tspan x="1042.48" dy="15">AA240</tspan>
+  </text>
+  <text x="945.515" y="234.849" font-size="15">10MAA11<tspan x="945.515" dy="15">AA240</tspan>
+  </text>
+  <text x="804.061" y="136.364" font-size="15">10MAA01<tspan x="804.061" dy="15">AA140</tspan>
+  </text>
+  <text x="1187" y="136.364" font-size="15">10MAA03<tspan x="1187" dy="15">AA140</tspan>
+  </text>
+  <text x="804.606" y="910.606" font-size="15">10MAA02<tspan x="804.606" dy="15">AA140</tspan>
+  </text>
+  <text x="1187.55" y="910.606" font-size="15">10MAA04<tspan x="1187.55" dy="15">AA140</tspan>
+  </text>
+  <text x="1043.48" y="834.848" font-size="15">10MAA14<tspan x="1043.48" dy="15">AA240</tspan>
+  </text>
+  <text x="946.515" y="834.849" font-size="15">10MAA12<tspan x="946.515" dy="15">AA240</tspan>
+  </text>
+  <text x="558.515" y="937.879" font-size="15">10MAC02<tspan x="558.515" dy="15">AA140</tspan>
+  </text>
+  <text x="1428.85" y="937.879" font-size="15">10MAC04<tspan x="1428.85" dy="15">AA140</tspan>
+  </text>
+  <text x="476.697" y="937.879" font-size="15">10MAC20<tspan x="476.697" dy="15">AA240</tspan>
+  </text>
+  <text x="1513.06" y="936.364" font-size="15">10MAC40<tspan x="1513.06" dy="15">AA240</tspan>
+  </text>
+  <text x="161.545" y="781.424" font-size="15">10LBD00<tspan x="161.545" dy="15">AA240</tspan>
+  </text>
+  <image x="1495.36" y="130.303" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC30AA240&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC30CG242_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC30CG241_XG01&quot;"/> 
+  </image>
+  <image x="1457.51" y="215.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAC30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAC30CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1494.44" y="862.424" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAC20AA240&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAC40CG242_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAC40CG241_XG01&quot;"/> 
+  </image>
+  <image x="1457.52" y="806.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAC40CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAC40CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="947.909" y="428.788" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAA10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAA10CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="438.818" y="215.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAC10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAC10CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="435.788" y="806.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAC30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAC30CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="601" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="202.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="242.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS002&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="282.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS003&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="322.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS004&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="362.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS005&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="402.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX50CS006&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX50CS006&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="61" y="454.242" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX51CS010AXQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX51CS010AXQ01&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;S&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FName" mode="constant" value="TRUE"/> 
+  </image>
+  <rect x="34.2727" y="125.758" width="237.879" height="595.454" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="884.5" y="805.25" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;10MAA12AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;10MAA12CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;10MAA12CG240_XQ01&quot;"/> 
+  </image>
+  <image x="1131" y="805.25" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;10MAA12AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;10MAA14CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;10MAA14CG240_XQ01&quot;"/> 
+  </image>
+  <g>
+    <image x="85.7651" y="647.25" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10MAX50CS061&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10MAX50CS061_XG01&quot;"/> 
+    </image>
+    <text x="164.265" y="666" fill="black" font-size="15" text-anchor="middle">Боек №1 АБ</text>
+  </g>
+  <g>
+    <image x="85.7651" y="686" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;10MAX50CS062&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;10MAX50CS062_XG01&quot;"/> 
+    </image>
+    <text x="164.265" y="704.75" fill="black" font-size="15" text-anchor="middle">Боек №2 АБ</text>
+  </g>
+  <image x="884.5" y="196.75" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;10MAA11AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;10MAA11CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;10MAA11CG240_XQ01&quot;"/> 
+  </image>
+  <image x="884.5" y="128" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAA01AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAA01CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAA01CG143_XB02&quot;"/> 
+  </image>
+  <image x="1130" y="128" width="55" height="55" xlink:href="DS_TurbValve_cutout.svg">
+    <title>&quot;10MAA03AA140&quot;</title>
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;10MAA03CG141_XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;10MAA03CG143_XB02&quot;"/> 
+  </image>
+  <image x="1130" y="196.75" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;10MAA13AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;10MAA13CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;10MAA13CG240_XQ01&quot;"/> 
+  </image>
+  <image x="1764.5" y="895" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MAX10&quot;"/> 
+  </image>
+  <image x="469.06" y="307" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAC10DG002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC10DG002A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1081.04" y="696" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAA14DG003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA14DG003A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="839.864" y="696" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAA12DG003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA12DG003A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="468.56" y="692" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAC20DG002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC20DG002A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1451.89" y="307" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAC30DG002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC30DG002A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1452.41" y="692" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAC40DG002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAC40DG002A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <rect x="1047.15" y="265.197" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="1084.27" y="302" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAA13DG003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA13DG003A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1071.77" y="367.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX53CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX53CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1071.77" y="336.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX53EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX53EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1096.77" y="286.5" font-size="15">10MAX53AS001</text>
+  <rect x="803.591" y="265.197" width="224.242" height="132.546" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="1"/> 
+  <image x="840.712" y="302" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10MAA11DG003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAA11DG003A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="853.212" y="286.5" font-size="15">10MAX51AS001</text>
+  <image x="828.212" y="336.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX51EU001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX51EU001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;I&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="828.212" y="367.78" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MAX51CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MAX51CP001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="58.2574" y="857.5" width="150" height="30" xlink:href="DS_TPTS_IBR_set.svg">
+    <title>&quot;10LBB00DG002A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBB00DG002A&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="52.25" y="446.5" font-size="15">Фаза вращения ротора</text>
+  <image x="1672" y="86" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;10MKA01EU401A_ZV10&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10MKA01EU401A_ZV10&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="1779.48" y="104.75" fill="black" font-size="15" text-anchor="middle">Генератор в сети</text>
+  <image x="1672" y="124.875" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;00ABQ43EK705B_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;00ABQ43EK705B_XG03&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="1803.86" y="143.625" fill="black" font-size="15" text-anchor="middle">Выключатель сети откл</text>
+  <image x="1672" y="163.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;10BAC02EJ705_XG03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;10BAC02EJ705_XG03&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+  </image>
+  <text x="1772.61" y="182.5" fill="black" font-size="15" text-anchor="middle">Генератор откл</text>
+  <image x="113.5" y="526.25" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;10MAX50AE001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAX50AE001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="1755.75" y="282.5" fill="black" font-size="15">ТРМД</text>
+  <image x="1744.25" y="361" width="65" height="25" xlink:href="DS_TPTS_Reg_degree.svg">
+    <title>&quot;10MAY50DU003A_XQ01&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAY50DU003A&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+  </image>
+  <image x="1741.75" y="291.5" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(90 -0.000244141 -10.0002) rotate(270 -0.000183105 -10)">
+    <title>&quot;10MAY50DU003A&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10MAY50DU003A&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="105" y="753.75" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+    <title>&quot;10MAA12AA240&quot;</title>
+    <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;10LBD00CG241_XG01&quot;"/> 
+    <rt:dyn type="PointID_ANA" mode="constant" value="&quot;10LBD00CG240_XQ01&quot;"/> 
+  </image>
+  <image x="275.5" y="891.645" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+    <title>&quot;10LBB00DT001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBB00DT001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="258" y="883.5" font-size="15">РЕГ Т ЗА СПП</text>
+  <text x="279.875" y="778.75" font-size="15">МЭО ГП</text>
+  <image x="275.5" y="787" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="scale(1.38127 1.38127 0.000147952 -9.99991) rotate(360 0 -10) scale(0.7075 0.7075 0 -10)">
+    <title>&quot;10LBD00AA240&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBD00AA240&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="278" y="961.25" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;10LBB00DT001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBB00DT001&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;10LBD00AA201_ZV01&quot;"/> 
+  </image>
+  <image x="1736" y="611" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MKA01CE901_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKA01CE901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <text x="1703" y="628.667" fill="black" font-size="14">Nэл</text>
+</svg>

@@ -1,0 +1,344 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGmain" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 400 335" width="400" height="335" id="wd_diag_WS" stroke-width="2" font-family="AAP_Font3" font-size="15" font-weight="bold">
+  <desc>Диагностика рабочих станций</desc>
+  <rt:model comment="диагностика состаяния рабочей станции" revision="4.1">
+    <rt:param name="In_Par" datatype="string" comment="Получаемый параметр"/> 
+    <rt:param name="Active" datatype="boolean" value="false" comment="Получаемый параметр"/> 
+    <rt:var name="PVID_base" datatype="string" comment="базовая часть идентификаторов"/> 
+    <rt:var name="title_base" datatype="string" comment="окончание строки заголовка"/> 
+    <rt:var name="N" datatype="uint" comment="номер" value="23"/> 
+    <rt:var name="Validity" datatype="boolean" value="false" comment="Достоверность данных"/> 
+    <rt:var name="Total_i" datatype="uint" value="0" comment="всего найдено рабочих станций"/> 
+    <rt:var name="WS_Nodes" datatype="RtaNode" comment="массив рабочих станций" arraysize="23"/> 
+    <rt:var name="RealLocalNetMask" datatype="ushort" value="3" comment="реальная маска локальной сети, т.е. как данная РС видит все остальные узлы."/> 
+    <rt:var name="Local_Node" datatype="RtaNode" comment="локальный узел"/> 
+    <rt:var name="NdID" datatype="RtaNode" comment="интерфейс узла"/> 
+    <rt:sub>Sub ShNds()
+Dim Node As RtaNode
+Dim WS_i As UInt
+Dim WS_j As UInt
+Dim WS_k As UInt
+Dim SRV_i As UInt
+
+WS_i = 0
+SRV_i = 0
+Total_i = 0
+
+RealLocalNetMask = 0
+Local_Node = RTA.LocalNode
+
+For Each Node in RTA.Nodes
+/*  If Node.NodeId != Local_Node.NodeId Then
+	RealLocalNetMask = RealLocalNetMask | Node.NetMask
+  End If*/
+  If (Node.IsServer == False) Then
+	Total_i = Total_i + 1
+	&apos;Заполняем только видимые 23
+	If (WS_i &lt; 23) Then
+		WS_Nodes(WS_i) = Node
+		WS_i = WS_i + 1
+	End If
+	
+   	
+   End If
+
+Next Node
+
+RealLocalNetMask = Local_Node.NetMask
+Validity = ((RealLocalNetMask &amp; 0xC) != 0)
+
+
+&apos;Добиваем остальные до 23 нулями
+If (WS_i &lt; 22) Then
+  For WS_j = WS_i to 22
+	WS_Nodes(WS_j) = Nothing
+  Next WS_j
+End If
+/*
+&apos;для правильной работы на неоперативном контуре
+If WS_Nodes(0).NodeName = &quot;4CRV02&quot; Then
+WS_Nodes(21) = WS_Nodes(0)
+WS_Nodes(0) = WS_Nodes(20)
+End If
+*/
+End Sub</rt:sub>
+    <rt:sub>Sub GetNodeStatus()
+Dim WS_ID As String
+Dim NStatus As UShort
+Dim NDStatus As UShort
+Dim NodeNet As UShort
+Dim IP1 As String
+Dim IP2 As String
+Dim CPU_load As UShort
+Dim LocalNDID As UInt
+
+NdID = WS_Nodes(N)
+
+If NdID == Nothing Then
+	t_ID.text = &quot;&quot;
+	rect_ID.fill = Col_Ar(7)
+	t_Status.text = &quot;&quot;
+	rect_Status.fill = Col_Ar(7)
+	t_Net_1.text = &quot;&quot;
+	t_Net_2.text = &quot;&quot;
+	rect_Net_1.fill = Col_Ar(7)
+	rect_Net_2.fill = Col_Ar(7)
+	t_CPU.text = &quot;&quot;
+	rect_CPU.fill = Col_Ar(7)
+	t_DataOK.text = &quot;&quot;
+	rect_DataOK.fill = Col_Ar(7)
+	t_Repl_S.text = &quot;&quot;
+	rect_Repl_S.fill = Col_Ar(7)
+	t_Repl_R.text = &quot;&quot;
+	rect_Repl_R.fill = Col_Ar(7)
+	t_Vis.text = &quot;&quot;
+	rect_Vis.fill = Col_Ar(7)
+
+Else
+	NdID.Refresh()
+	WS_ID = PLStrCut(NdID.NodeName, 20)
+	NStatus = NdID.NodeStatus
+	IP1 = NdID.IPAddress
+	IP2 = NdID.IPAddress_2
+	LocalNDID = RTA.LocalNode.NodeId
+	If NdID.NodeId == LocalNDID Then
+		NodeNet = RealLocalNetMask &amp; 0xC	&apos;берём только старшие биты
+	Else
+		NodeNet = NdID.NetMask &amp; 0xC
+		&apos;далее, если своя сеть есть (старшие биты), то младшие биты по И переносим в старшие
+		&apos;это позволит быстрее определять отказы т.к. старшие биты обсчитываются через несколько минут
+		If ((RealLocalNetMask &amp; 4) &gt; 0) Then
+			NodeNet = NodeNet &amp; (((NdID.NetMask &amp; 1) * 4) | 8)
+		End If
+		If ((RealLocalNetMask &amp; 8) &gt; 0) Then
+			NodeNet = NodeNet &amp; (((NdID.NetMask &amp; 2) * 4) | 4)
+		End If
+	End If
+	CPU_load = NdID.CPULoad
+
+	t_ID.text = NdID.NodeName
+	If Active Then
+		If NdID.NodeId == LocalNDID Then
+			rect_ID.fill = Col_Ar(2)
+		Else
+			rect_ID.fill = Col_Ar(14)
+		End If
+	Else
+		If NdID.NodeId == LocalNDID Then
+			rect_ID.fill = Col_Ar(14)
+		Else
+			rect_ID.fill = Col_Ar(8)
+		End If
+	End If
+	t_Status.text = ENodeState(NStatus, False)
+	rect_Status.fill = NodStatColor(NStatus)
+	t_Net_1.text = IP1
+	t_Net_2.text = IP2
+	If NStatus &lt; 4 Then
+		rect_Net_1.fill = Col_Ar(8)
+		rect_Net_2.fill = Col_Ar(8)
+		t_CPU.text = &quot;--&quot;
+		rect_CPU.fill = Col_Ar(8)
+		t_DataOK.text = &quot;--&quot;
+		rect_DataOK.fill = Col_Ar(8)
+		t_Repl_S.text = &quot;--&quot;
+		rect_Repl_S.fill = Col_Ar(8)
+		t_Repl_R.text = &quot;--&quot;
+		rect_Repl_R.fill = Col_Ar(8)
+		t_Vis.text = &quot;--&quot;
+		rect_Vis.fill = Col_Ar(8)
+	Else
+		If (IP1 == &quot;&quot;) || ((RealLocalNetMask &amp; 0xC) == 0) Then
+			rect_Net_1.fill = Col_Ar(8)
+		Else
+			rect_Net_1.fill = Col_Ar((NodeNet &amp; 4) / 4 + 1)
+		End If	
+		If (IP2 == &quot;&quot;) || ((RealLocalNetMask &amp; 0xC) == 0) Then
+			rect_Net_2.fill = Col_Ar(8)
+		Else
+			rect_Net_2.fill = Col_Ar((NodeNet &amp; 8) / 8 + 1)
+		End If	
+		t_CPU.text = CStr(CPU_load)
+		If CPU_load &gt; 90 Then
+			rect_CPU.fill = Col_Ar(1)
+		ElseIf CPU_load &gt; 75 Then
+			rect_CPU.fill = Col_Ar(3)
+		Else
+			rect_CPU.fill = Col_Ar(2)
+		End If
+		NDStatus = NdID.DataStatus
+		If (NDStatus &amp; RTDATA_STAT_OK) &gt; 0 Then
+			t_DataOK.text = &quot;Да&quot;
+			rect_DataOK.fill = Col_Ar(2)
+		Else
+			t_DataOK.text = &quot;Нет&quot;
+			rect_DataOK.fill = Col_Ar(1)
+		End If
+&apos;задачи сделаны через флаги
+		If (NDStatus &amp; RTDATA_STAT_FEATURE_7_OK) Then
+			t_Repl_S.text = &quot;Работает&quot;
+			rect_Repl_S.fill = Col_Ar(2)
+		Else
+			t_Repl_S.text = &quot;Не работает&quot;
+			rect_Repl_S.fill = Col_Ar(1)
+		End If
+		If (NDStatus &amp; RTDATA_STAT_FEATURE_8_OK) Then
+			t_Repl_R.text = &quot;Работает&quot;
+			rect_Repl_R.fill = Col_Ar(2)
+		Else
+			t_Repl_R.text = &quot;Не работает&quot;
+			rect_Repl_R.fill = Col_Ar(1)
+		End If
+		If (NDStatus &amp; RTDATA_STAT_FEATURE_4_OK) Then
+			t_Vis.text = &quot;Работает&quot;
+			rect_Vis.fill = Col_Ar(2)
+		Else
+			t_Vis.text = &quot;Не работает&quot;
+			rect_Vis.fill = Col_Ar(1)
+		End If
+	End If
+End If
+
+
+//отображение для станций неоперативного контура (смотрим с ОК) 
+if N == 23 then
+	if PVID_base == &quot;4CRV02&quot; then
+		t_ID.text = PVID_base
+		t_Status.text = &quot;Неоперативный контур&quot;
+		t_Net_1.text = &quot;192.168.6.27&quot;
+		t_Net_2.text = &quot;192.168.8.27&quot;
+	End if
+
+	if PVID_base == &quot;4CRV03&quot; then
+		t_ID.text = PVID_base
+		t_Status.text = &quot;Неоперативный контур&quot;
+		t_Net_1.text = &quot;192.168.6.11&quot;
+		t_Net_2.text = &quot;192.168.8.11&quot;
+	End if
+
+	if PVID_base == &quot;4CKA11&quot; then
+		t_ID.text = PVID_base
+		t_Status.text = &quot;Неоперативный контур&quot;
+		t_Net_1.text = &quot;192.168.6.112&quot;
+		t_Net_2.text = &quot;192.168.8.112&quot;
+	End if
+End if
+
+//для диагностики на неоперативном контуре (не придумал как упростить и унифицировать для всех проектов)
+If (WS_Nodes(0).NodeName = &quot;4CRV02&quot;)||(WS_Nodes(1).NodeName = &quot;4CRV02&quot;)||(WS_Nodes(2).NodeName = &quot;4CRV02&quot;) Then
+	if (PVID_base != &quot;4CRV02&quot;)&amp;&amp;(PVID_base != &quot;4CRV03&quot;) then
+		t_ID.text = PVID_base
+		t_Status.text = &quot;Оперативный контур&quot;
+	End if
+
+End If
+
+
+End Sub</rt:sub>
+    <rt:event type="OnInitialize">Dim p1 As String
+PVID_base = PRJSPEC.ParSplit(In_Par, title_base, p1)
+Dim i As Int
+ShNds()
+
+For i = 0 to 23
+if PVID_base == WS_Nodes(i).NodeName then
+	N = i
+End if
+
+Next i
+
+t_ID.text = PVID_base
+/*
+if N == 23 then
+	if PVID_base == &quot;4CRV02&quot; then
+		t_Status.text = &quot;Неоперативный контур&quot;
+		t_Net_1.text = &quot;192.168.6.10&quot;
+		t_Net_2.text = &quot;192.168.8.10&quot;
+
+	End if
+
+	if PVID_base == &quot;4CRV03&quot; then
+		t_Status.text = &quot;Неоперативный контур&quot;
+		t_Net_1.text = &quot;192.168.6.11&quot;
+		t_Net_2.text = &quot;192.168.8.11&quot;
+	End if
+End if*/
+
+
+GetNodeStatus()</rt:event>
+    <rt:cycleTrigger name="ChkNds" cycle="15" unit="second">
+      <rt:code>ShNds()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="GetNodeStatus" cycle="1" unit="second">
+      <rt:code>GetNodeStatus()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <rect x="0" y="0" width="400" height="335" rx="0" ry="0" fill="Col_BGwin"/> 
+  <image x="225" y="300" width="160" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;MKB00&quot;, &quot;Состояние МКБ&quot;, &quot;wd_MKB&quot;, PVID_base + &quot;|&quot; + title_base + &quot;|0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ДИАГНОСТИКА МКБ&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <image x="15" y="300" width="160" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">Open_Win_Uni(False, &quot;UPS00&quot;, &quot;Состояние ИБП&quot;, &quot;wd_UPS&quot;, PVID_base + &quot;|&quot; + title_base + &quot;|0&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ДИАГНОСТИКА ИБП&quot;"/> 
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+  </image>
+  <text x="199" y="24" id="Title_text" font-weight="bold" text-anchor="middle">
+    <rt:dyn type="text" mode="cyclic" value="title_base"/> 
+станция</text>
+  <text x="299" y="59" id="Heopkont_1" font-weight="700" text-anchor="middle">
+    <rt:dyn type="visibility" mode="constant" value="N==23" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <rt:dyn type="text" mode="unknown" value="PVID_base"/> 
+Неоперативный контур</text>
+  <text x="299" y="87" id="Heopkont_2" font-weight="700" text-anchor="middle">
+    <rt:dyn type="visibility" mode="constant" value="N==23" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Неоперативный контур</text>
+  <text x="299" y="115" id="Heopkont_3" font-weight="700" text-anchor="middle">
+    <rt:dyn type="visibility" mode="constant" value="N==23" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Неоперативный контур</text>
+  <text x="299" y="143" id="Heopkont_4" font-weight="700" text-anchor="middle">
+    <rt:dyn type="visibility" mode="constant" value="N==23" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+Неоперативный контур</text>
+  <rect x="0" y="40" width="400" height="255" rx="0" ry="0" id="backgr" fill="Col_BGwin"/> 
+  <rect x="198" y="42" width="200" height="25" rx="0" ry="0" id="rect_ID" fill="Col_Grey1"/> 
+  <rect x="198" y="70" width="200" height="25" rx="0" ry="0" id="rect_Status" fill="Col_Grey1"/> 
+  <rect x="198" y="98" width="200" height="25" rx="0" ry="0" id="rect_Net_1" fill="Col_Grey1"/> 
+  <rect x="198" y="126" width="200" height="25" rx="0" ry="0" id="rect_Net_2" fill="Col_Grey1"/> 
+  <rect x="198" y="154" width="200" height="25" rx="0" ry="0" id="rect_CPU" fill="Col_Grey1"/> 
+  <rect x="198" y="182" width="200" height="25" rx="0" ry="0" id="rect_DataOK" fill="Col_Grey1"/> 
+  <rect x="198" y="210" width="200" height="25" rx="0" ry="0" id="rect_Repl_S" fill="Col_Grey1"/> 
+  <rect x="198" y="238" width="200" height="25" rx="0" ry="0" id="rect_Repl_R" fill="Col_Grey1"/> 
+  <rect x="198" y="266" width="200" height="25" rx="0" ry="0" id="rect_Vis" fill="Col_Grey1"/> 
+  <text x="297.5" y="59" id="t_ID" text-anchor="middle">Рабочая станция</text>
+  <text x="297.5" y="87" id="t_Status" text-anchor="middle">Статус</text>
+  <text x="298" y="115" id="t_Net_1" text-anchor="middle">IP адрес 1</text>
+  <text x="297.5" y="143" id="t_Net_2" text-anchor="middle">IP адрес 2</text>
+  <text x="297.5" y="171" id="t_CPU" text-anchor="middle">CPU</text>
+  <text x="297.5" y="199" id="t_DataOK" text-anchor="middle">НЕТ</text>
+  <text x="297" y="227" id="t_Repl_S" text-anchor="middle">Не работает</text>
+  <text x="297" y="255" id="t_Repl_R" text-anchor="middle">Не работает</text>
+  <text x="297" y="283" id="t_Vis" text-anchor="middle">Не работает</text>
+  <text x="33.5" y="283" id="SVGText10">Визуализация</text>
+  <text x="33.5" y="255" id="SVGText11">Приём данных</text>
+  <text x="33.5" y="227" id="SVGText12">Передача данных</text>
+  <text x="33.5" y="199" id="SVGText13">Data OK</text>
+  <text x="33.5" y="171" id="SVGText14">CPU %</text>
+  <text x="33.5" y="115" id="SVGText15">Сеть 1</text>
+  <text x="33.5" y="143" id="SVGText16">Сеть 2</text>
+  <text x="33.5" y="87" id="SVGText17">Статус</text>
+  <text x="33.5" y="59" id="SVGText18">Сетевое имя АРМ</text>
+  <polyline points="1,68 399,68 399,97 1,97 1,125 399,125 399,153 1,153 1,181 399,181 399,209 1,209 1,237 399,237 399,265 1,265 1,293 399,293 399,41 1,41 1,293" id="SVGPolyline2" fill="none" stroke="black" stroke-width="1"/> 
+</svg>

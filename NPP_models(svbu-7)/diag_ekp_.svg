@@ -1,0 +1,496 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1600 950" width="1600" height="950" id="diag_ekp" font-size="14" font-weight="600">
+  <desc>Диагностический видеокадр</desc>
+  <rt:model comment="created by">
+    <rt:timeTrigger name="OnLn_trig" delay="1">
+      <rt:code>OnLn()</rt:code>
+    </rt:timeTrigger>
+    <rt:var name="Chan_Color" datatype="uint" comment="Цвет подсистем" arraysize="34"/> 
+    <rt:var name="Chan_Color1" datatype="uint" comment="Цвет сети 1" arraysize="23"/> 
+    <rt:var name="Chan_Color2" datatype="uint" comment="Цвет сети 2" arraysize="23"/> 
+    <rt:var name="Chan_Color3" datatype="uint" comment="Цвет сети 1 для подсистем" arraysize="34"/> 
+    <rt:var name="Chan_Color4" datatype="uint" comment="Цвет сети 2 для подсистем" arraysize="34"/> 
+    <rt:var name="Stat_Cluster_1" datatype="ushort" comment="кластер 0" value="0"/> 
+    <rt:var name="Stat_Cluster_2" datatype="ushort" value="0" comment="кластер 1"/> 
+    <rt:var name="Local_Node" datatype="RtaNode" comment="локальный узел"/> 
+    <rt:var name="RealLocalNetMask" datatype="ushort" value="3" comment="реальная маска локальной сети, т.е. как данная РС видит все остальные узлы."/> 
+    <rt:var name="SRV_Nodes" datatype="RtaNode" comment="Массив серверов" arraysize="3"/> 
+    <rt:var name="WS_Nodes" datatype="RtaNode" comment="массив рабочих станций" arraysize="23"/> 
+    <rt:var name="Total_i" datatype="uint" value="0" comment="всего найдено рабочих станций"/> 
+    <rt:var name="Validity" datatype="boolean" comment="Достоверность данных" value="false"/> 
+    <rt:sub>Sub Calc_But_Color()
+
+&apos;Определение цветовой раскраски подсистем
+
+Dim i As UShort
+Dim ch_code As UShort
+For i = 0 To 34
+	ch_code = PPD_CH(i) &amp; 14
+	If ((ch_code &amp; 4) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(1)
+	ElseIf ((ch_code &amp; 2) &gt; 0) Then
+		Chan_Color(i) = Col_Ar(3)
+	ElseIf ((ch_code &amp; 14) == 0) Then
+		Chan_Color(i) = Col_Ar(2)
+	Else
+		Chan_Color(i) = Col_Ar(8)
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub CheckStatus()
+&apos;!!!! здесь было определение принадлежности серверов к системам
+&apos;это нужно для высвечивания кнопок каналов, стоек и т.п.
+
+Stat_Cluster_1 = SysHealth(1)
+Stat_Cluster_2 = SysHealth(2)
+End Sub</rt:sub>
+    <rt:sub>Sub ShNds()
+
+&apos;Используется для цветовой индикации экранов АРМ
+
+Dim Node As RtaNode
+Dim WS_i As UInt
+Dim WS_j As UInt
+Dim WS_k As UInt
+Dim SRV_i As UInt
+
+WS_i = 0
+SRV_i = 0
+Total_i = 0
+WS_k = 0
+RealLocalNetMask = 0
+Local_Node = RTA.LocalNode
+
+For Each Node in RTA.Nodes
+  If Node.NodeId != Local_Node.NodeId Then
+	RealLocalNetMask = RealLocalNetMask | Node.NetMask
+  End If
+  If (Node.IsServer == False) Then
+	Total_i = Total_i + 1
+	&apos;Заполняем только видимые 23
+	If ((WS_k &lt; 1) &amp;&amp; (WS_i &lt; 23)) Then
+		WS_Nodes(WS_i) = Node
+
+	
+
+&apos; анализ сети
+		
+		If (Node.NetMask &amp; 8) != 0 Then       &apos; сеть 2 есть
+			Chan_Color2(WS_i) = Col_Ar(25)  &apos; зеленый
+		Else					    &apos; сети 1 нет
+			Chan_Color2(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+		If (Node.NetMask &amp; 4) != 0 Then      &apos; сеть 1 есть
+			Chan_Color1(WS_i) = Col_Ar(25) &apos; зеленый
+		Else					    &apos; сети 2 нет
+			Chan_Color1(WS_i) = Col_Ar(1)  &apos; красный
+
+		End If
+
+
+
+		WS_i = WS_i + 1
+	End If
+	
+
+
+   Else
+	If (SRV_i &lt; 3) Then
+		SRV_Nodes(SRV_i) = Node
+	End If
+	SRV_i = SRV_i + 1
+   End If
+Next Node
+
+Validity = ((RealLocalNetMask &amp; 3) != 0)
+
+&apos;Добиваем остальные до 23 нулями
+If (WS_i &lt; 20) Then
+  For WS_j = WS_i to 23
+	WS_Nodes(WS_j) = Nothing
+
+	Chan_Color1(WS_j) = Col_Ar(11)		&apos; белый
+	Chan_Color2(WS_j) = Col_Ar(11)
+
+  Next WS_j
+End If
+
+If (!prim_cluster) Then
+
+	WS_Nodes(20) = WS_Nodes(0)
+	Chan_Color2(20) = Chan_Color2(0)
+	Chan_Color1(20) = Chan_Color1(0)
+
+	WS_Nodes(0) = WS_Nodes(4)
+	Chan_Color2(0) = Col_Ar(11)
+	Chan_Color1(0) = Col_Ar(11)
+
+
+	WS_Nodes(21) = WS_Nodes(1)
+	Chan_Color2(21) = Chan_Color2(1)
+	Chan_Color1(21) = Chan_Color1(1)
+
+	WS_Nodes(1) = WS_Nodes(4)
+	Chan_Color2(1) = Col_Ar(11)
+	Chan_Color1(1) = Col_Ar(11)
+
+	WS_Nodes(22) = WS_Nodes(2)
+	Chan_Color2(22) = Chan_Color2(2)
+	Chan_Color1(22) = Chan_Color1(2)
+
+	WS_Nodes(2) = WS_Nodes(4)
+	Chan_Color2(2) = Col_Ar(11)
+	Chan_Color1(2) = Col_Ar(11)
+
+
+End If
+
+End Sub</rt:sub>
+    <rt:sub>Sub Calc_Color3()
+
+&apos;Используется для цветовой индикации сети1,2 подсистем
+
+Dim i As UShort
+Dim bit As UShort
+Dim j As String
+Dim x1 As UShort
+Dim x2 As UShort
+Dim KKS1 As String
+Dim KKS2 As String
+
+j=0
+i=0
+
+For i = i to 34
+ j=i
+
+ if i=16 Then
+  bit=0x20
+ ElseIf i=17 Then
+   bit=0x20
+ Else
+  bit=0x80
+ End If
+
+  if i&lt;10 Then
+   KKS1 = &quot;2DT0&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;2DT0&quot;+j+&quot;E01_ST02&quot;
+  Else
+   KKS1 = &quot;2DT&quot;+j+&quot;E01_ST01&quot;
+   KKS2 = &quot;2DT&quot;+j+&quot;E01_ST02&quot;
+  End If
+
+	If (BIN(KKS1).Quality + BIN(KKS2).Quality=0) Then
+	   Chan_Color3(i)= Col_Ar(11)
+	   Chan_Color4(i)= Col_Ar(11)
+	Else
+	   x1=((BIN(KKS1).Value &amp; 0x10) &gt; 0)+((BIN(KKS2).Value &amp; 0x10) &gt; 0)
+	   x2=((BIN(KKS1).Value &amp; bit) &gt; 0)+((BIN(KKS2).Value &amp; bit) &gt; 0)
+ 		If x1=0 Then
+		Chan_Color3(i)= Col_Ar(25)
+		ElseIf x1=1 Then
+		Chan_Color3(i)= Col_Ar(3)
+		Else
+		Chan_Color3(i)= Col_Ar(1)
+		End If
+
+ 		If x2=0 Then
+		Chan_Color4(i)= Col_Ar(25)
+		ElseIf x2=1 Then
+		Chan_Color4(i)= Col_Ar(3)
+		Else
+		Chan_Color4(i)= Col_Ar(1)
+		End If
+	End If
+Next i
+End Sub</rt:sub>
+    <rt:sub>Sub OnLn()
+
+Dim j As UShort
+For j = 0 to 22
+
+	if PC1.KKS == WS_Nodes(j).NodeName then
+		PC1.NdID = WS_Nodes(j)
+	End if
+
+	if PC2.KKS == WS_Nodes(j).NodeName then
+		PC2.NdID = WS_Nodes(j)
+	End if
+
+	if PC3.KKS == WS_Nodes(j).NodeName then
+		PC3.NdID = WS_Nodes(j)
+	End if
+
+	if PC4.KKS == WS_Nodes(j).NodeName then
+		PC4.NdID = WS_Nodes(j)
+	End if
+
+	if PC5.KKS == WS_Nodes(j).NodeName then
+		PC5.NdID = WS_Nodes(j)
+	End if
+
+	if PC6.KKS == WS_Nodes(j).NodeName then
+		PC6.NdID = WS_Nodes(j)
+	End if
+
+	if PC7.KKS == WS_Nodes(j).NodeName then
+		PC7.NdID = WS_Nodes(j)
+	End if
+
+	if PC8.KKS == WS_Nodes(j).NodeName then
+		PC8.NdID = WS_Nodes(j)
+	End if
+
+	if PC9.KKS == WS_Nodes(j).NodeName then
+		PC9.NdID = WS_Nodes(j)
+	End if
+
+	if PC10.KKS == WS_Nodes(j).NodeName then
+		PC10.NdID = WS_Nodes(j)
+	End if
+
+	if PC11.KKS == WS_Nodes(j).NodeName then
+		PC11.NdID = WS_Nodes(j)
+	End if
+
+	if PC12.KKS == WS_Nodes(j).NodeName then
+		PC12.NdID = WS_Nodes(j)
+	End if
+
+	if PC13.KKS == WS_Nodes(j).NodeName then
+		PC13.NdID = WS_Nodes(j)
+	End if
+
+	if PC14.KKS == WS_Nodes(j).NodeName then
+		PC14.NdID = WS_Nodes(j)
+	End if
+
+	if PC15.KKS == WS_Nodes(j).NodeName then
+		PC15.NdID = WS_Nodes(j)
+	End if
+
+	if PC16.KKS == WS_Nodes(j).NodeName then
+		PC16.NdID = WS_Nodes(j)
+	End if
+
+	if PC17.KKS == WS_Nodes(j).NodeName then
+		PC17.NdID = WS_Nodes(j)
+	End if
+
+	if PC18.KKS == WS_Nodes(j).NodeName then
+		PC18.NdID = WS_Nodes(j)
+	End if
+
+	if PC19.KKS == WS_Nodes(j).NodeName then
+		PC19.NdID = WS_Nodes(j)
+	End if
+
+	if PC20.KKS == WS_Nodes(j).NodeName then
+		PC20.NdID = WS_Nodes(j)
+	End if
+
+	if PC21.KKS == WS_Nodes(j).NodeName then
+		PC21.NdID = WS_Nodes(j)
+	End if
+
+	if PC22.KKS == WS_Nodes(j).NodeName then
+		PC22.NdID = WS_Nodes(j)
+	End if
+
+	if PC23.KKS == WS_Nodes(j).NodeName then
+		PC23.NdID = WS_Nodes(j)
+	End if
+
+Next j
+
+end sub</rt:sub>
+    <rt:event type="OnInitialize">Dim i As UShort
+
+	Chan_Color(i) = Col_Ar(8)
+If !prim_cluster Then
+	Chan_Color(34) = Col_Ar(8)
+End If
+
+Calc_But_Color()
+CheckStatus()
+ShNds()
+Calc_Color3()</rt:event>
+    <rt:cycleTrigger name="Calc_All" cycle="5" unit="second">
+      <rt:code>Calc_But_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChStat" cycle="1" unit="second">
+      <rt:code>CheckStatus()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="ChkNds" cycle="15" unit="second">
+      <rt:code>ShNds()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="Color3" cycle="1" unit="second">
+      <rt:code>Calc_Color3()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <g/> 
+  <text x="846.192" y="63.7879" id="Text_2" font-size="32" font-weight="normal" text-anchor="middle">Структура ЭКП</text>
+  <g>
+    <rect x="604.202" y="178.288" width="356" height="160" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="5"/> 
+    <rect x="611.202" y="188.288" width="342" height="140" rx="0" ry="0" fill="url(#DS_cilinder)" stroke="black" stroke-width="5"/> 
+    <line x1="611.202" y1="254.288" x2="952.192" y2="254.288" stroke="black"/> 
+    <line x1="696.202" y1="188.288" x2="696.202" y2="325.288" stroke="black"/> 
+    <line x1="781.2" y1="190.288" x2="781.2" y2="327.288" stroke="black"/> 
+    <line x1="866.192" y1="190.288" x2="866.192" y2="327.288" stroke="black"/> 
+  </g>
+  <g>
+    <rect x="470.5" y="390.5" width="79.5" height="171.5" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="3"/> 
+    <rect x="476" y="394" width="67.5" height="162.5" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  </g>
+  <text x="491.697" y="422.455" font-size="20">ГК1</text>
+  <text x="455.697" y="377.121" font-size="22">20CKM60</text>
+  <g>
+    <rect x="1022.19" y="391.288" width="79.5" height="171.5" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="3"/> 
+    <rect x="1027.19" y="395.288" width="67.5" height="162.5" rx="0" ry="0" fill="Col_Grey3" stroke="black" stroke-width="2"/> 
+  </g>
+  <text x="1042.69" y="422.455" font-size="20">ГК2</text>
+  <text x="1006.69" y="377.121" font-size="22">20CKM70</text>
+  <rect x="420.697" y="614.787" width="744" height="75" rx="0" ry="0" fill="paleturquoise" stroke="black" stroke-width="2"/> 
+  <rect x="430.697" y="624.787" width="744" height="75" rx="0" ry="0" fill="paleturquoise" stroke="black" stroke-width="2"/> 
+  <g>
+    <rect x="548.702" y="762.787" width="491" height="156" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="3"/> 
+    <rect x="542.702" y="753.787" width="503" height="172" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="3"/> 
+    <rect x="548.702" y="762.787" width="491" height="156" rx="0" ry="0" fill="Col_Grey2" stroke="black" stroke-width="3"/> 
+    <text x="920.692" y="900.787" font-size="22">20CKM50</text>
+  </g>
+  <line x1="552.697" y1="439.788" x2="670.697" y2="439.788" stroke="black"/> 
+  <line x1="670.697" y1="439.788" x2="670.697" y2="339.788" stroke="black"/> 
+  <line x1="895.692" y1="340.788" x2="895.692" y2="439.788" stroke="black"/> 
+  <line x1="895.692" y1="439.788" x2="1020.69" y2="439.788" stroke="black"/> 
+  <g>
+    <line x1="495.702" y1="564.122" x2="495.702" y2="614.787" stroke="black"/> 
+    <line x1="528.369" y1="563.455" x2="528.369" y2="624.787" stroke="black"/> 
+    <g>
+      <polygon points="495.702,568.662 500.952,570.787 495.952,565.787 490.952,570.787" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g>
+      <polygon points="528.369,568.33 533.619,570.455 528.619,565.455 523.619,570.455" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(567.116)">
+      <polygon points="495.035,524.42 500.285,526.545 495.285,521.545 490.285,526.545" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(573.783)">
+      <polygon points="528.22,526.653 533.47,528.778 528.47,523.778 523.47,528.778" fill="Col_BGSand" stroke="black"/> 
+    </g>
+  </g>
+  <g>
+    <line x1="1050.44" y1="563.12" x2="1050.44" y2="613.787" stroke="black"/> 
+    <line x1="1083.11" y1="562.455" x2="1083.11" y2="623.787" stroke="black"/> 
+    <g>
+      <polygon points="1050.44,567.662 1055.69,569.787 1050.69,564.787 1045.69,569.787" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g>
+      <polygon points="1083.11,567.33 1088.36,569.455 1083.36,564.455 1078.36,569.455" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(567.116)">
+      <polygon points="1049.78,524.42 1055.03,526.545 1050.03,521.545 1045.03,526.545" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(573.783)">
+      <polygon points="1082.96,527.653 1088.21,529.778 1083.21,524.778 1078.21,529.778" fill="Col_BGSand" stroke="black"/> 
+    </g>
+  </g>
+  <g>
+    <line x1="920.442" y1="700.12" x2="920.192" y2="771.287" stroke="black"/> 
+    <line x1="953.112" y1="699.455" x2="953.192" y2="771.787" stroke="black"/> 
+    <g>
+      <polygon points="920.442,704.662 925.692,706.787 920.692,701.787 915.692,706.787" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g>
+      <polygon points="953.112,704.33 958.362,706.455 953.362,701.455 948.362,706.455" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(567.116)">
+      <polygon points="919.782,362.42 925.032,364.545 920.032,359.545 915.032,364.545" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(573.783)">
+      <polygon points="952.962,375.653 958.212,377.778 953.212,372.778 948.212,377.778" fill="Col_BGSand" stroke="black"/> 
+    </g>
+  </g>
+  <g>
+    <line x1="632.887" y1="699.955" x2="632.637" y2="771.122" stroke="black"/> 
+    <line x1="665.554" y1="699.289" x2="665.637" y2="771.622" stroke="black"/> 
+    <g>
+      <polygon points="632.887,704.497 638.137,706.622 633.137,701.622 628.137,706.622" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g>
+      <polygon points="665.554,704.164 670.804,706.289 665.804,701.289 660.804,706.289" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(567.116)">
+      <polygon points="632.22,362.586 637.47,364.711 632.47,359.711 627.47,364.711" fill="Col_BGSand" stroke="black"/> 
+    </g>
+    <g transform="flipY(573.783)">
+      <polygon points="665.405,375.819 670.655,377.944 665.655,372.944 660.655,377.944" fill="Col_BGSand" stroke="black"/> 
+    </g>
+  </g>
+  <text x="882.602" y="672.833" font-size="15">Коммутатор сети рабочих станций</text>
+  <text x="984.602" y="686.833" font-size="15">основной/резервный</text>
+  <g id="Serv_1a">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1a&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <rect x="583" y="779" width="124.469" height="59.743" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ЭКП (20CKM50-1)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV1a_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;20CKM50-1|Сервер ЭКП (20CKM50-1)|0&quot;)</rt:event>
+    </rect>
+    <image x="686.47" y="786.242" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ЭКП (20CKM50-1)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20CKM501&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ЭКП (20CKM501)&quot;"/> 
+    </image>
+	<image x="186.47" y="786.242" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ЭКП (20CKM50)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20CKM50&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ЭКП (20CKM501)&quot;"/> 
+    </image>
+    <text x="634" y="813.333" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ИУК СВБУ (20CKM50-1)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;20CKM50|Сервер ЭКП (20CKM50-1)|0&quot;)</rt:event>
+20CKM50-1</text>
+  </g>
+  <g id="Serv_1b">
+    <rt:dyn type="visibility" mode="unknown" value="(VAR(&quot;VIS.SERVER_1b&quot;).ValueString() != &quot;&quot;)" trans="bi">
+      <rt:xy value="false" value2="1"/> 
+      <rt:xy value2="0"/> 
+    </rt:dyn>
+    <image x="945.364" y="790.758" width="15" height="30" xlink:href="spec_I_M.svg">
+      <title>Сервер ОК СВБУ (4CKB08)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;4CKB08&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ОК СВБУ (4CKB08)&quot;"/> 
+    </image>
+    <rect x="870.5" y="780.5" width="125.864" height="59.258" rx="0" ry="0" fill="black" stroke="black">
+      <title>Сервер ИУК СВБУ (20CKM50-2)</title>
+      <rt:dyn type="fill" mode="onchange" value="NodStatColor(SRV1b_Stat)"/> 
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;20CKM50-2|Сервер ЭКП (20CKM50-2)|1&quot;)</rt:event>
+    </rect>
+    <image x="977.863" y="787.758" width="15" height="45" xlink:href="spec_I_M.svg">
+      <title>Сервер ИУК СВБУ (20CKM50-2)</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20CKM502&quot;"/> 
+      <rt:dyn type="title_base" mode="constant" value="&quot;Сервер ЭКП (20CKM502)&quot;"/> 
+    </image>
+    <text x="924.5" y="813.833" font-size="16" font-weight="700" text-anchor="middle">
+      <title>Сервер ЭКП (20CKM50-2)</title>
+      <rt:event type="OnClick">Open_Win_Uni(False, &quot;diag_SRV&quot;, &quot;Состояние сервера&quot;, &quot;wd_diag_SRV&quot;, &quot;20CKM50-2|Сервер ЭКП (20CKM50-2)|1&quot;)</rt:event>
+20CKM50-2</text>
+  </g>
+  <image x="472" y="491" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC1">
+    <title>ЭКП</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CKM60&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;ЭКП&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+  <image x="1022" y="487" width="80" height="60" xlink:href="Arm_3H_2.svg" id="PC2">
+    <title>ЭКП</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20CKM70&quot;"/> 
+    <rt:dyn type="title_base" mode="constant" value="&quot;ЭКП&quot;"/> 
+    <rt:dyn type="LocalNetMask" mode="constant" value="RealLocalNetMask"/> 
+  </image>
+</svg>

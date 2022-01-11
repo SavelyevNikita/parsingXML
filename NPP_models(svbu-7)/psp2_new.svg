@@ -1,0 +1,909 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="psp2_new">
+  <title>Параметры ГЦНА</title>
+  <rt:model modelversion="7.2.0.23" comment="Создано VNIIAES-ASUTP&#10;UMod all_nsb&#10;LMod psp_1&#10;RMod psp2" revision="2.0"/> 
+  <text x="1021.41" y="32.6061" fill="black" font-size="30" text-anchor="middle">АСП 22XLA20 СБ-2</text>
+  <text x="694.25" y="60.1458" font-size="17">N ДГэл</text>
+  <image x="762" y="42.5625" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22XKA20CE321_XQ01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;N&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22XKA20CE321&quot;"/> 
+  </image>
+  <line x1="108" y1="78" x2="108" y2="998" stroke="black" stroke-width="3"/> 
+  <text x="411" y="60.1458" font-size="17">Частота ДГ</text>
+  <image x="508.75" y="42.5625" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22XKA20CE341_XQ01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;f&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22XKA20CE341&quot;"/> 
+  </image>
+  <text x="38.125" y="99.917" font-size="17">0 ст.</text>
+  <text x="13.25" y="159.167" font-size="17">15-25 сек</text>
+  <text x="37.125" y="255.417" font-size="17">1 ст.</text>
+  <text x="13.5" y="307.667" font-size="17">25-35 сек</text>
+  <text x="37" y="405.167" font-size="17">2 ст.</text>
+  <text x="15" y="465.167" font-size="17">35-45 сек</text>
+  <image x="403.25" y="393" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 -0.00012207 0) rotate(90 0 0) flipX(3.11235e-005) rotate(0 -0.00012207 -6.10352e-005)">
+    <title>&quot;22FAK20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22FAK20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="944.5" y="393" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLA03AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLA03AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="927" y="400" font-size="15">22KLA03AN001</text>
+  <text x="37" y="559.167" font-size="17">3 ст.</text>
+  <text x="12.5" y="616.667" font-size="17">45-55 сек</text>
+  <text x="654" y="554" fill="black" font-size="15">22QKB01AP001</text>
+  <text x="652" y="626.144" fill="black" font-size="15">22QKB01AP002</text>
+  <image x="676.136" y="547.86" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKB01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="676.136" y="621.235" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKB01AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="927" y="554" font-size="15">22KLA01AN001</text>
+  <image x="944.5" y="547.86" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLA01AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLA01AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="769" y="723.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22QKB&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;22qkb&quot;"/> 
+  </image>
+  <text x="37.5" y="710.167" font-size="17">4 ст.</text>
+  <text x="13.5" y="768.167" font-size="17">55-65 сек</text>
+  <text x="380" y="708.349" font-size="15">22KLA04AN001</text>
+  <image x="400.765" y="703.599" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLA04AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLA04AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="676.136" y="393" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000186979) flipX(-0.000107193)">
+    <title>&quot;22JNB30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JNB30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="654" y="400" fill="black" font-size="15">22JNB30AP001</text>
+  <image x="676.136" y="466.5" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000185907) flipX(-0.000107193)">
+    <title>&quot;22JNB30AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JNB30AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="654" y="471.5" fill="black" font-size="15">22JNB30AP002</text>
+  <text x="1179" y="471.5" font-size="15">22SAD01AN002</text>
+  <image x="1193.67" y="466.5" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22SAD01AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAD01AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="1179" y="400" font-size="15">22SAD01AN001</text>
+  <image x="1193.67" y="393" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22SAD01AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22SAD01AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="225" y="138.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22JND&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;22jnd&quot;"/> 
+  </image>
+  <text x="110" y="249" font-size="15">22JNA21AP001</text>
+  <text x="110" y="321.5" font-size="15">22JNA22AP001</text>
+  <image x="124.765" y="315.644" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 -1.77348e-005 -6.53932e-006) rotate(270 0 0) flipX() flipX()">
+    <title>&quot;22JNA22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JNA22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="124.765" y="249" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(90 0 -3.05176e-005) rotate(270 0 0) flipX() flipX()">
+    <title>&quot;22JNA21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JNA21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="124.765" y="395" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000167847 -6.10352e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;22PEC20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22PEC20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="110" y="400" font-size="15">22PEC20AP001</text>
+  <image x="124.765" y="466.5" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 -0.000213623 -6.10352e-005) rotate(90 -6.10352e-005 -6.10352e-005)">
+    <title>&quot;22PEC20AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22PEC20AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="TRUE"/> 
+  </image>
+  <text x="110" y="471.5" font-size="15">22PEC20AP002</text>
+  <image x="124.765" y="547.86" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.9564e-006) flipX(-3.8052e-005)">
+    <title>&quot;22KAA21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KAA21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="110" y="554" font-size="15">22KAA21AP001</text>
+  <image x="124.765" y="621.235" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(2.9564e-006) flipX(-3.8052e-005)">
+    <title>&quot;22KAA22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KAA22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="110" y="626.144" font-size="15">22KAA22AP001</text>
+  <text x="110" y="168.629" fill="black" font-size="15">22JND22AP001</text>
+  <text x="110" y="93.879" fill="black" font-size="15">22JND21AP001</text>
+  <image x="124.765" y="161.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000230713) flipX(-0.000118954) rotate(360 0 0) flipX() flipX()">
+    <title>&quot;22JND22AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JND22AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="124.765" y="87.625" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX(-0.000229521) flipX(-0.000118954) rotate(360 0 0) flipX() flipX()">
+    <title>&quot;22JND21AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22JND21AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="25" y="60.1458" font-size="17">Скорость вращения ДГ</text>
+  <image x="229" y="42.5625" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22XKA20CE330_XQ01&quot;</title>
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;n&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22XKA20CE330&quot;"/> 
+  </image>
+  <text x="654" y="93.879" font-size="15">22KLB02AN001</text>
+  <image x="676.136" y="87.6249" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLB02AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLB02AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="927" y="93.879" font-size="15">22KLB22AN001</text>
+  <image x="944.5" y="87.6249" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLB22AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLB22AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="654" y="168.629" font-size="15">22KLB02AN002</text>
+  <image x="676.136" y="161.75" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>&quot;22KLB02AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLB02AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="772" y="149" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLB01-02&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;klb01_02&quot;"/> 
+  </image>
+  <image x="1021" y="101.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLB22&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_klb22&quot;"/> 
+  </image>
+  <image x="225" y="81.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JND21CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JND21CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="110.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JND21CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JND21CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225.5" y="168" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JND22CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JND22CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225.5" y="197" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JND22CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JND22CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="400" y="112" fill="black" font-size="15">P над А.З.</text>
+  <image x="500" y="93.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JAA10CP903</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JAA10CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="131.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB22CP005</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB22CP005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="770" y="185.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB02CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB02CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1228" y="97.5" width="125" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB22CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB22CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1190" y="116" fill="black" font-size="15">Pмо</text>
+  <image x="1021" y="161.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB22CF001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB22CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="191.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB22CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB22CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="770" y="113" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB02CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB02CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <rect x="4.50002" y="77.75" width="1420.5" height="150.25" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="4.50002" y="228.75" width="1420.5" height="152.5" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="4.50002" y="381.75" width="1420.5" height="152" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="4.50002" y="534.75" width="1420.5" height="154" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="4.50002" y="687.75" width="1420.5" height="153.5" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <rect x="4.50002" y="840.75" width="1420.5" height="159.25" rx="1.51516" ry="0.455098" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="9" y="881.167" font-size="14">Включение<tspan x="9" dy="14">возможно</tspan>
+<tspan x="9" dy="14">после</tspan>
+<tspan x="9" dy="14">завершения</tspan>
+<tspan x="9" dy="14">ступенчатого</tspan>
+<tspan x="9" dy="14">пуска</tspan>
+  </text>
+  <image x="225" y="291.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22JNA&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;22jna&quot;"/> 
+  </image>
+  <image x="225" y="234.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNA21CP902</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNA21CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="263.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNA21CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNA21CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225.5" y="321" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNA22CP902</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNA22CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225.5" y="350" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNA22CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNA22CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="407" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PEB10-20&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;peb10_20&quot;"/> 
+  </image>
+  <image x="225" y="437" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22PEB20CP901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22PEB20CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="467" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22PEB22CF001A</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22PEB22CF001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="497" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22PEB21CP901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22PEB21CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="500" y="407" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;FAK-JMN&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;fak_jmn&quot;"/> 
+  </image>
+  <image x="500" y="437" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22FAK20CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22FAK20CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="500" y="467" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22FAK20CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22FAK20CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="769" y="407" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JNB30-40&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;jnb30_40&quot;"/> 
+  </image>
+  <image x="770" y="437" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNB30CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNB30CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="770" y="467" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNB30CF901</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNB30CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="770" y="497" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22JNB30CP004</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JNB30CP004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="407" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLA03&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kla03&quot;"/> 
+  </image>
+  <image x="1021" y="437" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA03CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA03CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="467" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA03CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA03CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1300" y="407" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAD01&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_sad01&quot;"/> 
+  </image>
+  <image x="225" y="562" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KAA2&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kaa2&quot;"/> 
+  </image>
+  <image x="225" y="592" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KAA21CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KAA21CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="622" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KAA20CF902</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KAA20CF902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="225" y="652" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KAA22CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KAA22CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="769" y="570" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22QKB&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;22qkb&quot;"/> 
+  </image>
+  <image x="770" y="600" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22QKB10CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22QKB10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="770" y="630" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22QKB01CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22QKB01CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="570" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLA01&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kla01&quot;"/> 
+  </image>
+  <image x="1021" y="600" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA01CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA01CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1021" y="630" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA01CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA01CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="1228" y="561.5" width="125" height="25" xlink:href="DS_ana.svg">
+    <title>22JMA10CP903</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22JMA10CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <text x="1190" y="580" fill="black" font-size="15">Pго</text>
+  <text x="380" y="780.349" font-size="15">22KLA04AN002</text>
+  <image x="400.765" y="775.599" width="70" height="70" xlink:href="DS_motor.svg" transform="flipY(-0.00012207) rotate(90 0 0) flipX(-0.00012207) rotate(270 -0.00012207 0)">
+    <title>22KLA04AN002</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLA04AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="500" y="751.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLA04&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;kla04&quot;"/> 
+  </image>
+  <image x="499" y="694.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA04CP001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA04CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="499" y="723.5" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA04CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA04CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="499.5" y="781" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA04CP002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA04CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="499.5" y="810" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLA04CT002</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLA04CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <rect x="678.136" y="713.75" width="72" height="120" rx="0.388916" ry="0.388916" fill="Col_Grey4" stroke="black" stroke-width="0.5"/> 
+  <image x="678.5" y="770.75" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AC001N&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_On" mode="constant" value="&quot;22QKB01AC001N_XG01&quot;"/> 
+  </image>
+  <image x="667" y="702.5" width="95" height="57.5" xlink:href="DS_breaker.svg">
+    <title>&quot;22QKB01AC001Y&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="PointID_TR_out" mode="constant" value="&quot;22QKB01AC001X_XG01&quot;"/> 
+    <rt:dyn type="SIG_Off" mode="constant" value="&quot;22QKB01AC001Y_XG01&quot;"/> 
+  </image>
+  <rect x="942.389" y="713.75" width="72" height="120" rx="0.388916" ry="0.388916" fill="Col_Grey4" stroke="black" stroke-width="0.5"/> 
+  <image x="944.389" y="770.75" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AC002N&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="SIG_On" mode="constant" value="&quot;22QKB01AC002N_XG01&quot;"/> 
+  </image>
+  <image x="930.889" y="702.5" width="95" height="57.5" xlink:href="DS_breaker.svg">
+    <title>&quot;22QKB01AC002Y&quot;</title>
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="PointID_TR_out" mode="constant" value="&quot;22QKB01AC002X_XG01&quot;"/> 
+    <rt:dyn type="SIG_Off" mode="constant" value="&quot;22QKB01AC002Y_XG01&quot;"/> 
+  </image>
+  <text x="654" y="708.349" fill="black" font-size="15">22QKB01AC001</text>
+  <text x="927" y="708.349" fill="black" font-size="15">22QKB01AC002</text>
+  <image x="774.5" y="807.5" width="130" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;22QKB01AC001&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22QKB01AC001K_XG01&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22QKB01AC001M_XG01&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22QKB01AC001L_XG01&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;P макс.&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;Неблок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;Неблок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+  </image>
+  <image x="1030" y="807.5" width="130" height="25" xlink:href="bitwise_tablo_4bits.svg">
+    <title>&quot;22QKB01AC002&quot;</title>
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22QKB01AC002K_XG01&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22QKB01AC002M_XG01&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22QKB01AC002L_XG01&quot;"/> 
+    <rt:dyn type="Text_0000" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="Text_0001" mode="constant" value="&quot;P макс.&quot;"/> 
+    <rt:dyn type="Text_0010" mode="constant" value="&quot;Неблок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0011" mode="constant" value="&quot;Неблок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0100" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0101" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0110" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Text_0111" mode="constant" value="&quot;Блок. неиспр.&quot;"/> 
+    <rt:dyn type="Color_0000" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_0001" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Color_0010" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0011" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0100" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0101" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0110" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_0111" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="Color_1000" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1001" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1010" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1011" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1100" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1101" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1110" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+    <rt:dyn type="Color_1111" mode="constant" value="&quot;Col_Grey5&quot;"/> 
+  </image>
+  <image x="688.5" y="736" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AC001&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;rect&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKB01AC001&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="954.389" y="736" width="50" height="50" xlink:href="DS_motor.svg">
+    <title>&quot;22QKB01AC002&quot;</title>
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;rect&quot;"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;22QKB01AC002&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="769" y="754" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22QKB01CT001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22QKB01CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="409.765" y="867.5" width="50" height="55" xlink:href="DS_switch.svg">
+    <title>&quot;22KLB22AH001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLB22AH001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <text x="380" y="861.349" font-size="15">22KLB22AH001</text>
+  <image x="499" y="864" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLB22&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_klb22&quot;"/> 
+  </image>
+  <image x="499" y="894" width="135" height="25" xlink:href="DS_ana.svg">
+    <title>22KLB22CM001</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22KLB22CM001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;M&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+  </image>
+  <image x="676.136" y="925.97" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22KLC01AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLC01AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="654" y="931.516" font-size="15">22KLC01AN002</text>
+  <text x="654" y="861" font-size="15">22KLC01AN001</text>
+  <image x="676.136" y="854.925" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22KLC01AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLC01AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="944.5" y="925.97" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22KLC03AN002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLC03AN002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <text x="927" y="931.516" font-size="15">22KLC03AN002</text>
+  <text x="927" y="861" font-size="15">22KLC03AN001</text>
+  <image x="944.5" y="854.925" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX() flipX(-1.26362e-005)">
+    <title>&quot;22KLC03AN001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;22KLC03AN001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="DeviceType" mode="constant" value="&quot;fan&quot;"/> 
+  </image>
+  <image x="773" y="878.5" width="120" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;KLC25-41&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_klc25_41&quot;"/> 
+  </image>
+  <image x="1182.96" y="864.802" width="175" height="25" xlink:href="DS_ana_ASRK.svg">
+    <title>22SAC40CR001B01</title>
+    <rt:dyn type="IsExp" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC40CR001B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="SetBounds" mode="constant" value="true"/> 
+    <rt:dyn type="Show_Map" mode="constant" value="false"/> 
+  </image>
+  <text x="1179.5" y="861" font-size="15">22SAC40CR001</text>
+  <image x="1183.96" y="907.802" width="175" height="25" xlink:href="DS_ana_ASRK.svg">
+    <title>22SAC50CR001B01</title>
+    <rt:dyn type="IsExp" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22SAC50CR001B01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="SetBounds" mode="constant" value="true"/> 
+    <rt:dyn type="Show_Map" mode="constant" value="false"/> 
+  </image>
+  <text x="1179.5" y="904" font-size="15">22SAC50CR001</text>
+  <image x="1182.5" y="935" width="160" height="25" xlink:href="obj_link.svg" transform="scale(0.8 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22SAC20-40-41&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22sac20_40_41&quot;"/> 
+  </image>
+  <image x="1182.5" y="964" width="160" height="25" xlink:href="obj_link.svg" transform="scale(0.8 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;22SAC30-50-51&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22sac30_50_51&quot;"/> 
+  </image>
+  <image x="1317.5" y="935" width="110" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAC52&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_22sac52&quot;"/> 
+  </image>
+  <image x="1317.5" y="964" width="110" height="25" xlink:href="obj_link.svg" transform="scale(0.9 1)">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;SAC23-43&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;skuv_sac23_43&quot;"/> 
+  </image>
+  <image x="1365" y="189.5" width="25" height="25" xlink:href="bin_tablo_flogic.svg">
+    <rt:dyn type="PointID_1" mode="constant" value="&quot;22FAL20AA001_XE12&quot;"/> 
+    <rt:dyn type="PointID_2" mode="constant" value="&quot;22FAL20AA002_XE12&quot;"/> 
+    <rt:dyn type="PointID_3" mode="constant" value="&quot;22FAL20AA003_XE12&quot;"/> 
+    <rt:dyn type="PointID_4" mode="constant" value="&quot;22FAL20AA004_XE12&quot;"/> 
+    <rt:dyn type="PointID_5" mode="constant" value="&quot;22KAA20AA007_XE12&quot;"/> 
+    <rt:dyn type="PointID_6" mode="constant" value="&quot;22KAA20AA011_XE12&quot;"/> 
+    <rt:dyn type="PointID_7" mode="constant" value="&quot;22FAL20AA001_XE22&quot;"/> 
+    <rt:dyn type="PointID_8" mode="constant" value="&quot;22FAL20AA002_XE22&quot;"/> 
+    <rt:dyn type="PointID_9" mode="constant" value="&quot;22FAL20AA003_XE22&quot;"/> 
+    <rt:dyn type="PointID_10" mode="constant" value="&quot;22FAL20AA004_XE22&quot;"/> 
+    <rt:dyn type="PointID_11" mode="constant" value="&quot;22KAA20AA007_XE22&quot;"/> 
+    <rt:dyn type="PointID_12" mode="constant" value="&quot;22KAA20AA011_XE22&quot;"/> 
+    <rt:dyn type="FreeLogic" mode="constant" value="&quot;($1 || $7) &amp;&amp; ($2 || $8) &amp;&amp; ($3 || $9) &amp;&amp; ($4 || $10) &amp;&amp; ($5 || $11) &amp;&amp; ($6 || $12)&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+  </image>
+  <text x="1282" y="208" fill="black" font-size="15">Арматура</text>
+  <image x="1459.53" y="615" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE90&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE90&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Отключение резервных механизмов и механизмов,\nвключаемых после СП по блокировке&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="563.363" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER110_XE94&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER110_XE94&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Запрет команд нормальной эксплуатации&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="665.06" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE06&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE06&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступенчатый пуск&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="713.636" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE80&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE80&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступень 0&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="765.727" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE92&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступень 1&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="817.09" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE94&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE94&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступень 2&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="868.151" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE96&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступень 3&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="919.151" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE98&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE98&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступень 4&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1459.53" y="966.727" width="450" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER120_XE05&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER120_XE05&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Ступенчатый пуск окончен&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1636.69" y="174.773" width="130" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER110_XE90&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER110_XE90&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;22XKA20\nв работе&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <line x1="1475" y1="512.136" x2="1475" y2="425" stroke="black" stroke-width="3"/> 
+  <line x1="1475" y1="200" x2="1475" y2="116.06" stroke="black" stroke-width="3"/> 
+  <line x1="1475" y1="334" x2="1475" y2="295" stroke="black" stroke-width="3"/> 
+  <text x="1550.24" y="381.72" fill="black" font-size="15" text-anchor="middle">22BDB01GS001</text>
+  <text x="1875" y="282.954" fill="black" font-size="15" text-anchor="middle">22XKA20</text>
+  <image x="1418.78" y="347.999" width="95" height="57.5" xlink:href="DS_breaker.svg" transform="rotate(270 17.5 -3.75)">
+    <title>&quot;22BDB01GS001&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="HasTray" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;22BDB01GS001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1417.78" y="219.337" width="95" height="57.5" xlink:href="DS_breaker.svg" fill="none" transform="rotate(270 17.5 -3.75)">
+    <title>&quot;20BBC09GS003&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="HasTray" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;20BBC09GS003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1549" y="252.682" fill="black" font-size="15" text-anchor="middle">20BBC09GS003</text>
+  <line x1="1812.14" y1="329" x2="1811" y2="253" stroke="black" stroke-width="3"/> 
+  <line x1="1812" y1="500.5" x2="1812" y2="425" stroke="black" stroke-width="3"/> 
+  <image x="1760.39" y="348" width="95" height="57.5" xlink:href="DS_breaker.svg" fill="none" transform="rotate(270 17.5 -3.75)">
+    <title>&quot;22BDB13GS002&quot;</title>
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="HasTray" mode="constant" value="true"/> 
+    <rt:dyn type="KKS" mode="constant" value="&quot;22BDB13GS002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1732" y="381.985" fill="black" font-size="15" text-anchor="middle">22BDB13GS002</text>
+  <rect x="1458.53" y="490.666" width="450" height="45.4545" rx="0" ry="0" fill="Col_Grey4" stroke="black"/> 
+  <text x="1680.53" y="518.393" fill="black" font-size="15" text-anchor="middle">22BDB</text>
+  <rect x="1455.5" y="87.5" width="450" height="45.4545" rx="0" ry="0" fill="Col_Grey4" stroke="black"/> 
+  <text x="1681" y="115" fill="black" font-size="15" text-anchor="middle">20BBC</text>
+  <image x="1636.19" y="224.773" width="130" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER110_XE96&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER110_XE96&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Сигнал\n&apos;Обесточивание&apos;&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1636.19" y="274.773" width="130" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRF41ER110_XE95&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRF41ER110_XE95&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Пуск\n22XKA20&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <image x="1636.19" y="324.773" width="130" height="30" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;22JRN41ER110_XE91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;22JRN41ER110_XE91&quot;"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;Память\nОбесточивания&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_Green&quot;"/> 
+  </image>
+  <circle cx="1812" cy="228" r="24.9998" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+  <g>
+    <circle cx="1815.14" cy="228.52" r="13.7078" fill="Col_BGSand" stroke-width="4"/> 
+    <path d="M1800 230 C1805 217.5 1810 217.5 1815 230 C1820 240 1825 240 1830 230 C1832.5 227.5 1832.5 222.5 1830 225 C1825 237.5 1820 237.5 1815 225 C1810 215 1805 215 1800 225 C1797.5 227.5 1797.5 232.5 1800 230 " id="wave" fill="black" stroke="black" stroke-width="1"/> 
+    <line x1="1838.02" y1="230.564" x2="1866.02" y2="230.564" stroke="black" stroke-width="4"/> 
+    <polygon points="1865.02,210.564 1865.02,250.564 1900.02,244.564 1900.02,216.564" fill="none" stroke="black" stroke-width="4"/> 
+  </g>
+  <image x="1611" y="141" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20BBC03EG202_XQ15&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20BBC03EG202_XQ15&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1611" y="457" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;22BDB00CE301_XQ01&quot;</title>
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;U&quot;"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;22BDB00CE301_XQ01&quot;"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="379" y1="77" x2="379" y2="997" stroke="black" stroke-dasharray="15,5" stroke-width="1"/> 
+  <line x1="653" y1="77" x2="653" y2="997" stroke="black" stroke-dasharray="15,5" stroke-width="1"/> 
+  <line x1="924" y1="77" x2="924" y2="997" stroke="black" stroke-dasharray="15,5" stroke-width="1"/> 
+  <line x1="1174" y1="78" x2="1174" y2="998" stroke="black" stroke-dasharray="15,5" stroke-width="1"/> 
+  <text x="380" y="400" font-size="15">22FAK20AP001</text>
+</svg>

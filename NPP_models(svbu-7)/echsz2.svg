@@ -1,0 +1,605 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="echsz2">
+  <title>ЭЧСЗ2</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_echsz" revision="3"/> 
+  <line x1="1791.09" y1="454.545" x2="1791.09" y2="454.545" stroke="black"/> 
+  <line x1="823.667" y1="727.273" x2="823.667" y2="727.273" stroke="black"/> 
+  <line x1="909.091" y1="187.121" x2="909.091" y2="187.121" stroke="black"/> 
+  <line x1="751" y1="827" x2="751" y2="827" stroke="black"/> 
+  <line x1="307.576" y1="706.818" x2="307.576" y2="706.818" stroke="black"/> 
+  <line x1="385" y1="401" x2="385" y2="401" stroke="black"/> 
+  <line x1="306" y1="346" x2="306" y2="346" stroke="black"/> 
+  <line x1="380.303" y1="596.212" x2="380.303" y2="596.212" stroke="black"/> 
+  <line x1="487" y1="347" x2="487" y2="347" stroke="black"/> 
+  <text x="74.5001" y="168.25" fill="black" font-size="15">20MAD00EZ101    защита от повышения вибрации подшипников (время выдержки 2с)</text>
+  <image x="1700.5" y="951.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ECHSZ3&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;echsz3&quot;)</rt:event>
+  </image>
+  <image x="1591.75" y="951.75" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ECHSZ1&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;echsz1&quot;)</rt:event>
+  </image>
+  <image x="1479.25" y="949.5" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:dyn type="Label" mode="constant" value="&quot;ECHSZ_ALL&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;all_echsz&quot;)</rt:event>
+  </image>
+  <text x="959" y="39" fill="black" font-size="30" font-weight="700" text-anchor="middle">ЭЧСЗ2</text>
+  <rect x="9.50004" y="76.25" width="1900" height="920" rx="0" ry="0" fill="none" stroke="black" stroke-width="3"/> 
+  <text x="33.6251" y="110.5" fill="black" font-size="15" text-anchor="middle">№</text>
+  <text x="476.5" y="109.875" fill="black" font-size="15" text-anchor="middle">Показания датчиков</text>
+  <text x="28.6251" y="165.25" fill="black" font-size="15">4</text>
+  <text x="1800.19" y="110.5" fill="black" font-size="15" text-anchor="middle">Защита сработала</text>
+  <line x1="925.5" y1="193" x2="925.5" y2="998" stroke="black"/> 
+  <line x1="9.00002" y1="134" x2="1907" y2="134" stroke="black"/> 
+  <text x="996.625" y="101.875" fill="black" font-size="15" text-anchor="middle">Уставка авт<tspan x="996.625" dy="15">ввода защ.</tspan>
+  </text>
+  <text x="1180.25" y="110.5" fill="black" font-size="15" text-anchor="middle">Сработал 1 из датчиков</text>
+  <text x="1382.19" y="109.875" fill="black" font-size="15" text-anchor="middle">Накладка</text>
+  <text x="1584.37" y="109.875" fill="black" font-size="15" text-anchor="middle">Защита на сигнал</text>
+  <line x1="56.25" y1="191.75" x2="1909.5" y2="191.75" stroke="black"/> 
+  <line x1="925.5" y1="79.0001" x2="925.5" y2="135.25" stroke="black"/> 
+  <line x1="1069" y1="77.75" x2="1069" y2="134" stroke="black"/> 
+  <line x1="1295" y1="79.0001" x2="1295" y2="135.25" stroke="black"/> 
+  <line x1="1467" y1="77.75" x2="1467" y2="134" stroke="black"/> 
+  <line x1="1695.75" y1="77.75" x2="1695.75" y2="134" stroke="black"/> 
+  <line x1="1295" y1="191" x2="1295" y2="997" stroke="black"/> 
+  <line x1="1466.25" y1="191" x2="1466.25" y2="997" stroke="black"/> 
+  <line x1="1695.75" y1="190.5" x2="1695.75" y2="997" stroke="black"/> 
+  <line x1="57" y1="77.5" x2="57" y2="997.5" stroke="black"/> 
+  <image x="1327.19" y="521.25" width="110" height="30" xlink:href="DS_TPTS_TZB_universal.svg">
+    <title>&quot;20MAD00EZ101TE0&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20MAD00EZ101TE0&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1545.43" y="523.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD00EZ101_XK41&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD00EZ101_XK41&quot;"/> 
+  </image>
+  <text x="1583.06" y="541.25" fill="black" font-size="15">XK41</text>
+  <image x="1760.38" y="523.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD00EZ101_ZV01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD00EZ101_ZV01&quot;"/> 
+  </image>
+  <text x="1799.75" y="541.25" fill="black" font-size="15">ZV01</text>
+  <g>
+    <line x1="822.5" y1="230.75" x2="822.5" y2="934.932" stroke="black" stroke-width="3"/> 
+    <line x1="689" y1="235.75" x2="689" y2="934.932" stroke="black" stroke-width="3"/> 
+    <line x1="687.5" y1="933.932" x2="824" y2="933.932" stroke="black" stroke-width="3"/> 
+    <line x1="755.75" y1="932.932" x2="755.75" y2="956.432" stroke="black" stroke-width="3"/> 
+    <g>
+      <rect x="802.5" y="886.182" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="825" y="912.182" fill="black" font-size="18" font-weight="500">2</text>
+      <text x="808.75" y="905.807" fill="black" font-size="15" font-weight="500">&gt;</text>
+      <text x="808.75" y="916.557" fill="black" font-size="15" font-weight="500">=</text>
+    </g>
+    <g>
+      <rect x="669" y="886.182" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="691.5" y="912.182" fill="black" font-size="18" font-weight="500">1</text>
+      <text x="675.25" y="905.807" fill="black" font-size="15" font-weight="500">&gt;</text>
+      <text x="675.25" y="916.557" fill="black" font-size="15" font-weight="500">=</text>
+    </g>
+    <g>
+      <rect x="735.75" y="942.932" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="745.75" y="972.265" fill="black" font-size="28" font-weight="500">&amp;</text>
+    </g>
+  </g>
+  <text x="522.869" y="315.742" fill="black" font-size="15">20MAD13CY002</text>
+  <image x="677.533" y="320.155" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD13CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD13CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="320.155" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD13CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD13CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="480.324" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD16CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD16CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="480.324" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD16CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD16CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="477.318" fill="black" font-size="15">20MAD16CY002</text>
+  <text x="522.869" y="635.955" fill="black" font-size="15">20MAD19CY002</text>
+  <text x="522.869" y="796.046" fill="black" font-size="15">20MKD12CY002</text>
+  <image x="677.533" y="638.907" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD19CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD19CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="638.907" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD19CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD19CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="798.446" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD12CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD12CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="798.446" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="265.985" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD12CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD12CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="265.985" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD12CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD12CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="261.621" fill="black" font-size="15">20MAD12CY002</text>
+  <text x="522.869" y="423.258" fill="black" font-size="15">20MAD15CY002</text>
+  <image x="677.533" y="426.786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD15CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD15CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="426.786" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD15CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD15CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="207.53" fill="black" font-size="15">20MAD11CY002</text>
+  <text x="522.869" y="369.258" fill="black" font-size="15">20MAD14CY002</text>
+  <image x="677.533" y="211.307" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD11CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD11CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="211.307" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD11CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD11CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="373.095" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD14CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD14CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="373.095" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD14CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD14CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="533.343" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD17CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD17CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="533.343" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD17CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD17CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="530.349" fill="black" font-size="15">20MAD17CY002</text>
+  <text x="522.869" y="688.985" fill="black" font-size="15">20MAD20CY002</text>
+  <text x="522.869" y="850.106" fill="black" font-size="15">20MKD13CY002</text>
+  <image x="677.533" y="692.673" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD20CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD20CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="692.673" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD20CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD20CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="677.533" y="854.33" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD13CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD13CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="854.329" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="742.5" fill="black" font-size="15">20MKD11CY002</text>
+  <image x="677.533" y="745.786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD11CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD11CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="745.786" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD11CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD11CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1069" y1="192" x2="1069" y2="998" stroke="black"/> 
+  <image x="677.533" y="586.286" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD18CY002_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD18CY002_XH07&quot;"/> 
+  </image>
+  <image x="497.244" y="586.286" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD18CY002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD18CY002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="522.869" y="583.864" fill="black" font-size="15">20MAD18CY002</text>
+  <text x="707.485" y="228.807" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="283.484" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="337.655" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="390.595" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="656.407" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="710.173" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="763.286" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="815.946" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="444.286" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="497.824" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="603.786" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="550.843" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="707.485" y="871.83" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="811.06" y="320.155" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD13CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD13CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="480.324" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD16CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD16CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="638.907" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD19CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD19CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="798.446" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD12CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD12CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="265.984" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD12CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD12CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="426.786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD15CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD15CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="211.307" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD11CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD11CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="373.095" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD14CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD14CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="533.343" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD17CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD17CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="692.673" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD20CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD20CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="854.329" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD13CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD13CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="745.786" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD11CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD11CY002_XH03&quot;"/> 
+  </image>
+  <image x="811.06" y="586.286" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD18CY002_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD18CY002_XH03&quot;"/> 
+  </image>
+  <text x="842.25" y="228.806" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="283.484" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="337.655" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="390.595" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="656.407" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="710.173" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="763.286" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="815.946" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="444.286" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="497.824" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="550.843" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="603.786" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="842.25" y="871.829" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <g>
+    <line x1="386.909" y1="229.318" x2="386.909" y2="933.5" stroke="black" stroke-width="3"/> 
+    <line x1="253.409" y1="234.318" x2="253.409" y2="933.5" stroke="black" stroke-width="3"/> 
+    <line x1="251.909" y1="932.5" x2="388.409" y2="932.5" stroke="black" stroke-width="3"/> 
+    <line x1="320.159" y1="931.5" x2="320.159" y2="955" stroke="black" stroke-width="3"/> 
+    <g>
+      <rect x="366.909" y="884.75" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="389.409" y="910.75" fill="black" font-size="18" font-weight="500">2</text>
+      <text x="373.159" y="904.375" fill="black" font-size="15" font-weight="500">&gt;</text>
+      <text x="373.159" y="915.125" fill="black" font-size="15" font-weight="500">=</text>
+    </g>
+    <g>
+      <rect x="233.409" y="884.75" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="255.909" y="910.75" fill="black" font-size="18" font-weight="500">1</text>
+      <text x="239.659" y="904.375" fill="black" font-size="15" font-weight="500">&gt;</text>
+      <text x="239.659" y="915.125" fill="black" font-size="15" font-weight="500">=</text>
+    </g>
+    <g>
+      <rect x="300.159" y="941.5" width="40" height="40" rx="0" ry="0" fill="Col_BGSand" stroke="black" stroke-width="3"/> 
+      <text x="310.159" y="970.833" fill="black" font-size="28" font-weight="500">&amp;</text>
+    </g>
+  </g>
+  <image x="62.1819" y="209.624" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD11CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD11CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="205.848" fill="black" font-size="15">20MAD11CY001</text>
+  <image x="62.1819" y="264.302" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD12CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD12CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="259.939" fill="black" font-size="15">20MAD12CY001</text>
+  <image x="241.485" y="209.624" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD11CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD11CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="227.124" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="209.624" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD11CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD11CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="227.124" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="264.302" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD12CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD12CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="281.802" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="264.302" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD12CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD12CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="281.802" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="62.1819" y="318.473" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD13CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD13CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="314.06" fill="black" font-size="15">20MAD13CY001</text>
+  <text x="87.8069" y="367.576" fill="black" font-size="15">20MAD14CY001</text>
+  <image x="62.1819" y="371.413" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD14CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD14CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="241.485" y="318.473" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD13CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD13CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="335.973" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="318.473" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD13CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD13CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="335.973" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="371.413" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD14CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD14CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="388.913" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="371.413" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD14CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD14CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="388.913" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="87.8069" y="634.273" fill="black" font-size="15">20MAD19CY001</text>
+  <image x="62.1819" y="637.225" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD19CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD19CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="62.1819" y="690.991" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD20CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD20CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="687.303" fill="black" font-size="15">20MAD20CY001</text>
+  <image x="241.485" y="637.225" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD19CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD19CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="654.725" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="637.225" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD19CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD19CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="654.725" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="690.991" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD20CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD20CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="708.491" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="690.991" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD20CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD20CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="708.491" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="87.8069" y="740.818" fill="black" font-size="15">20MKD11CY001</text>
+  <image x="62.1819" y="744.104" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD11CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD11CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="794.364" fill="black" font-size="15">20MKD12CY001</text>
+  <image x="62.1819" y="796.764" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD12CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD12CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="241.485" y="744.104" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD11CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD11CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="761.604" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="744.104" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD11CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD11CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="761.604" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="796.764" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD12CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD12CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="814.264" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="796.764" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD12CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD12CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="814.264" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="87.8069" y="421.576" fill="black" font-size="15">20MAD15CY001</text>
+  <image x="62.1819" y="425.103" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD15CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD15CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="475.636" fill="black" font-size="15">20MAD16CY001</text>
+  <image x="62.1819" y="478.642" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD16CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD16CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="241.485" y="425.103" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD15CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD15CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="442.603" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="425.103" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD15CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD15CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="442.603" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="478.642" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD16CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD16CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="496.142" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="478.642" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD16CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD16CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="496.142" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="271.485" y="602.104" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="87.8069" y="528.667" fill="black" font-size="15">20MAD17CY001</text>
+  <image x="62.1819" y="531.661" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD17CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD17CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="87.8069" y="582.182" fill="black" font-size="15">20MAD18CY001</text>
+  <image x="62.1819" y="584.604" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MAD18CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAD18CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="241.485" y="531.661" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD17CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD17CY001_XH07&quot;"/> 
+  </image>
+  <text x="271.485" y="549.161" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <image x="373.985" y="531.661" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD17CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD17CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="549.161" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="241.485" y="584.604" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD18CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD18CY001_XH07&quot;"/> 
+  </image>
+  <image x="373.985" y="584.604" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MAD18CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MAD18CY001_XH03&quot;"/> 
+  </image>
+  <text x="404.485" y="602.104" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <text x="87.8069" y="848.424" fill="black" font-size="15">20MKD13CY001</text>
+  <image x="241.485" y="852.647" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD13CY001_XH07&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD13CY001_XH07&quot;"/> 
+  </image>
+  <image x="62.1819" y="852.647" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKD13CY001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKD13CY001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="271.485" y="870.147" fill="black" font-size="15">&gt;11.2 мм/с</text>
+  <text x="404.485" y="870.147" fill="black" font-size="15">&gt;7.1 мм/с</text>
+  <image x="373.985" y="852.647" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;20MKD13CY001_XH03&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20MKD13CY001_XH03&quot;"/> 
+  </image>
+  <text x="19" y="25.5" font-size="15" font-weight="700">ECHSZ2</text>
+</svg>

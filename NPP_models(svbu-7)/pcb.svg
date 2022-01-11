@@ -1,0 +1,894 @@
+<?xml  version="1.0" encoding="windows-1251"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="pcb">
+  <title>Система охлаждения потребителей здания 20UMA</title>
+  <rt:model modelversion="7.2.0.24" revision="3" comment="UMod all_nsb&#10;LMod pah&#10;RMod pcc01"/> 
+  <line x1="347" y1="631" x2="347.333" y2="886.667" stroke="black" stroke-width="3"/> 
+  <line x1="124" y1="64" x2="124" y2="171.818" stroke="black" stroke-width="3"/> 
+  <line x1="210.03" y1="430.818" x2="285.788" y2="430.818" stroke="black" stroke-width="1"/> 
+  <line x1="56.8485" y1="431" x2="132.606" y2="431" stroke="black" stroke-width="1"/> 
+  <line x1="199.833" y1="170" x2="200" y2="734" stroke="black" stroke-width="3"/> 
+  <line x1="46" y1="170" x2="50" y2="733.333" stroke="black" stroke-width="3"/> 
+  <g transform="scale(0.65 0.65 72.9091 362.879) rotate(44.5342 450 350)">
+    <rect x="186.595" y="678.103" width="99" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey4"/> 
+    <line x1="185.595" y1="777.103" x2="285.595" y2="677.103" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <line x1="45.6973" y1="170.773" x2="200" y2="170.773" stroke="black" stroke-width="3"/> 
+  <text x="99.939" y="394.636" fill="black" font-size="15" text-anchor="middle">20PCB10<tspan x="99.939" dy="15">AT001</tspan>
+  </text>
+  <text x="251.151" y="391.606" fill="black" font-size="15" text-anchor="middle">20PCB10<tspan x="251.151" dy="15">AT002</tspan>
+  </text>
+  <line x1="48.4848" y1="732.954" x2="201" y2="732.954" stroke="black" stroke-width="3"/> 
+  <image x="407.697" y="340.061" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;max10&quot;"/> 
+  </image>
+  <line x1="124.609" y1="65" x2="1908" y2="65" stroke="black" stroke-width="3"/> 
+  <line x1="132.047" y1="431" x2="132.047" y2="601" stroke="black" stroke-width="1"/> 
+  <image x="97.167" y="475.243" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <image x="11.5136" y="180.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB10AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="71.2727" y="206.788" fill="black" font-size="15">20PCB10<tspan x="71.2727" dy="15">AA002</tspan>
+  </text>
+  <text x="262.363" y="651.03" fill="black" font-size="15">PAB</text>
+  <image x="133.333" y="99.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB10CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB10CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="164.363" y="180.424" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB10AA004&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA004&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="222.576" y="206.788" fill="black" font-size="15">20PCB10<tspan x="222.576" dy="15">AA004</tspan>
+  </text>
+  <text x="57" y="558.5" fill="black" font-size="15">20PCB10<tspan x="57" dy="15">AA005</tspan>
+  </text>
+  <line x1="285.229" y1="431" x2="285.229" y2="622.796" stroke="black" stroke-width="1"/> 
+  <image x="250.349" y="475.061" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <rt:dyn type="KKS" mode="constant" value="&quot;NULL&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="208" y="558.5" fill="black" font-size="15">20PCB10<tspan x="208" dy="15">AA006</tspan>
+  </text>
+  <image x="14.5303" y="619.136" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB10AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="74.2893" y="678.5" fill="black" font-size="15">20PCB10<tspan x="74.2893" dy="15">AA001</tspan>
+  </text>
+  <image x="164.379" y="619.136" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB10AA003&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA003&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="221.592" y="678.5" fill="black" font-size="15">20PCB10<tspan x="221.592" dy="15">AA003</tspan>
+  </text>
+  <line x1="132" y1="601" x2="192" y2="601" stroke="black" stroke-width="1"/> 
+  <line x1="207.667" y1="601" x2="285" y2="601" stroke="black" stroke-width="1"/> 
+  <path d="M2112.64 -847.182 A8.80483 8.80483 0 1 1 2112.64 -829.572 " fill="none" stroke="black" stroke-width="1" transform="rotate(90 565.703 525.453) flipX(919.775) rotate(90 1.4013e-045 1.4013e-045) flipY(571.298) rotate(90 1.4013e-045 1.4013e-045) flipY(166.195) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5079.83,-1183.61 5093.2,-1175.96 5093.2,-1191.25 5079.83,-1183.61" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="70.1375" y="860.228" fill="black" font-size="15">20PCB01<tspan x="70.1375" dy="15">AA001</tspan>
+  </text>
+  <text x="222.441" y="860.228" fill="black" font-size="15">20PCB01<tspan x="222.441" dy="15">AA002</tspan>
+  </text>
+  <image x="88.8182" y="959.576" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCC01&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pcc01&quot;"/> 
+  </image>
+  <text x="84.727" y="923.242" fill="black" font-size="15">20PCC01<tspan x="84.727" dy="15">AP001</tspan>
+  </text>
+  <text x="238.454" y="923.242" fill="black" font-size="15">20PCC01<tspan x="238.454" dy="15">AP002</tspan>
+  </text>
+  <g transform="flipY(903.788) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4876.44,-1424.29 4889.81,-1416.64 4889.81,-1431.93 4876.44,-1424.29" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(903.788) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4876.44,-1269.56 4889.81,-1261.91 4889.81,-1277.2 4876.44,-1269.56" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="81.455" y="1003.91" fill="black" font-size="15">Градирня</text>
+  <line x1="347.076" y1="98" x2="347.076" y2="632" stroke="black" stroke-width="1"/> 
+  <image x="312.727" y="402.106" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-5.68434e-014) rotate(270 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB90AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB90AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="351.636" y="484.363" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20PCB90AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB90AA201&quot;"/> 
+  </image>
+  <text x="372.848" y="440.424" fill="black" font-size="15">20PCB90<tspan x="372.848" dy="15">AA201</tspan>
+  </text>
+  <rect x="306.03" y="254.697" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="311.03" y="259.697" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="326.333" y="300.758" fill="black" font-size="15">MAX</text>
+  <line x1="348.121" y1="97.773" x2="891" y2="97.773" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5575.16,-1121.99 5588.53,-1114.34 5588.53,-1129.63 5575.16,-1121.99" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="294.182" y="345.151" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB90CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB90CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="346.061" y1="603.56" x2="891" y2="603.56" stroke="black" stroke-width="3"/> 
+  <image x="589.03" y="339.546" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mxn&quot;"/> 
+  </image>
+  <line x1="528.409" y1="98" x2="528.409" y2="604" stroke="black" stroke-width="1"/> 
+  <image x="493.06" y="401.591" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-1.13687e-013) rotate(270 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB89AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="532.969" y="483.848" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20PCB89AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+  </image>
+  <text x="554.181" y="439.909" fill="black" font-size="15">20PCB89<tspan x="554.181" dy="15">AA201</tspan>
+  </text>
+  <rect x="487.363" y="254.182" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="492.363" y="259.182" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="507.666" y="300.243" fill="black" font-size="15">MXN</text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5575.68,-940.656 5589.05,-933.006 5589.05,-948.296 5575.68,-940.656" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="475.515" y="344.636" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB89CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB89CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="769.727" y="339.364" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mav2&quot;"/> 
+  </image>
+  <line x1="709.106" y1="98" x2="709.106" y2="604" stroke="black" stroke-width="1"/> 
+  <image x="673.757" y="401.409" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-1.13687e-013) rotate(270 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB88AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB88AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="713.666" y="483.666" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20PCB88AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB88AA201&quot;"/> 
+  </image>
+  <text x="734.878" y="439.727" fill="black" font-size="15">20PCB88<tspan x="734.878" dy="15">AA201</tspan>
+  </text>
+  <rect x="668.06" y="254" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="673.06" y="259" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="688.363" y="300.061" fill="black" font-size="15">MAV</text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5575.86,-759.959 5589.23,-752.309 5589.23,-767.599 5575.86,-759.959" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="652.212" y="217.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB88CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB88CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="FALSE"/> 
+  </image>
+  <image x="656.212" y="344.454" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB88CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB88CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="652.212" y="566.727" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB88CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB88CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="950.79" y="338.819" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkc&quot;"/> 
+  </image>
+  <line x1="890.17" y1="98" x2="890.17" y2="604" stroke="black" stroke-width="1"/> 
+  <rect x="849.12" y="253.455" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="854.12" y="258.455" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="860.42" y="299.516" fill="black" font-size="15">MKC10</text>
+  <image x="831.272" y="216.637" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="831.272" y="566.182" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="831.422" y="525.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="831.422" y="181.789" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CF001C&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CF001C&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="832.422" y="145.789" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CF001B&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CF001B&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="832.572" y="111.941" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB41CF001A&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB41CF001A&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="rotate(270 1008.52 124.242) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5814.13,-434.179 5827.5,-426.53 5827.5,-441.819 5814.13,-434.179" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1131.85" y="339.243" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkf01&quot;"/> 
+  </image>
+  <line x1="1071.23" y1="65" x2="1071.23" y2="632" stroke="black" stroke-width="1"/> 
+  <image x="1035.88" y="349.288" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY() rotate(270 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB22AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB22AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1075.79" y="431.545" width="65" height="25" xlink:href="DS_Reg_degree_noZV01.svg">
+    <title>&quot;20PCB22AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB22AA201&quot;"/> 
+  </image>
+  <text x="1097" y="387.606" fill="black" font-size="15">20PCB22<tspan x="1097" dy="15">AA201</tspan>
+  </text>
+  <rect x="1030.18" y="253.879" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1035.18" y="258.879" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1039.48" y="291.94" fill="black" font-size="15">MKF05,<tspan x="1039.48" dy="15">06,07</tspan>
+  </text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5619.98,-397.838 5633.35,-390.188 5633.35,-405.478 5619.98,-397.838" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1010.33" y="217.061" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB22CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB22CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1010.33" y="566.606" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB22CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB22CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1009.57" y="180.941" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB22CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB22CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1010.57" y="144.941" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB22CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB22CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1009.57" y="526.484" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB22CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB22CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="347.212" y1="632" x2="1792" y2="632" stroke="black" stroke-width="3"/> 
+  <image x="1314.07" y="340.637" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;mkf50&quot;"/> 
+  </image>
+  <line x1="1253.45" y1="65.3939" x2="1253.45" y2="632.394" stroke="black" stroke-width="1"/> 
+  <image x="1218.1" y="349.682" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY() rotate(270 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB21AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB21AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="1258.01" y="431.939" width="65" height="25" xlink:href="DS_Reg_degree_noZV01.svg">
+    <title>&quot;20PCB21AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB21AA201&quot;"/> 
+  </image>
+  <text x="1279.22" y="388" fill="black" font-size="15">20PCB21<tspan x="1279.22" dy="15">AA201</tspan>
+  </text>
+  <rect x="1212.4" y="254.273" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1217.4" y="259.273" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1221.7" y="292.334" fill="black" font-size="15">MKF55,<tspan x="1221.7" dy="15">56,57</tspan>
+  </text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5619.59,-215.621 5632.96,-207.971 5632.96,-223.261 5619.59,-215.621" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1189.55" y="217.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB21CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB21CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1189.55" y="567" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB21CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB21CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1188.79" y="181.335" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB21CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB21CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1189.79" y="145.335" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB21CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB21CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1188.79" y="526.878" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB21CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB21CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1434.24" y1="65.3939" x2="1434.24" y2="632.394" stroke="black" stroke-width="1"/> 
+  <rect x="1393.19" y="254.273" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1398.19" y="259.273" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1412.49" y="299.334" fill="black" font-size="15">QUH</text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5619.59,-34.8363 5632.96,-27.1863 5632.96,-42.4763 5619.59,-34.8363" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="1615.39" y1="65.5454" x2="1615.39" y2="632.545" stroke="black" stroke-width="1"/> 
+  <rect x="1574.34" y="254.425" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1579.34" y="259.425" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1593.64" y="284.486" fill="black" font-size="15">QUA<tspan x="1593.64" dy="15">QUB</tspan>
+<tspan x="1593.64" dy="15">QUC</tspan>
+  </text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5619.44,146.315 5632.81,153.965 5632.81,138.675 5619.44,146.315" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="scale(0.65 0.65 72.9091 362.879) rotate(44.5342 450 350)">
+    <rect x="355.781" y="511.646" width="99" height="99" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey4"/> 
+    <line x1="354.781" y1="610.646" x2="454.781" y2="510.646" stroke="black" stroke-dasharray="5,5"/> 
+  </g>
+  <line x1="1790.51" y1="65.3939" x2="1790.51" y2="632" stroke="black" stroke-width="1"/> 
+  <rect x="1749.46" y="254.273" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1754.46" y="259.273" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1770.76" y="292.334" fill="black" font-size="15">LCB<tspan x="1770.76" dy="15">LCT</tspan>
+  </text>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5619.59,321.435 5632.96,329.085 5632.96,313.795 5619.59,321.435" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1726.61" y="217.455" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB24CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB24CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1907.5" y1="64.9999" x2="1907.5" y2="666" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5621.1,437.616 5634.48,445.266 5634.48,429.976 5621.1,437.616" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="1726.64" y="567.302" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB24CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB24CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1725.88" y="527.18" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB24CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB24CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="flipX(962.303) rotate(270 1008.52 124.242) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5630.8,-969.028 5644.17,-961.379 5644.17,-976.668 5630.8,-969.028" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="588.182" y="847.698" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;"/> 
+  </image>
+  <line x1="527.56" y1="665" x2="527.56" y2="974" stroke="black" stroke-width="1"/> 
+  <rect x="486.515" y="762.333" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="491.515" y="767.333" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="506.818" y="808.395" fill="black" font-size="15">LCM</text>
+  <image x="472.667" y="725.516" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB18CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB18CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="768.878" y="847.516" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;laj&quot;"/> 
+  </image>
+  <line x1="709" y1="715" x2="709" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="667.211" y="762.151" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="672.211" y="767.151" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="687.514" y="808.213" fill="black" font-size="15">LAJ</text>
+  <image x="651.363" y="725.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB39CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB39CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="949.941" y="846.971" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac10&quot;"/> 
+  </image>
+  <line x1="889.321" y1="715" x2="889.321" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="848.271" y="761.607" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="853.271" y="766.607" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="859.571" y="807.667" fill="black" font-size="15">LAC10</text>
+  <image x="1131" y="847.395" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac20&quot;"/> 
+  </image>
+  <line x1="1070.38" y1="715" x2="1070.38" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="1029.33" y="762.031" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1034.33" y="767.031" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1038.63" y="808.092" fill="black" font-size="15">LAC20</text>
+  <image x="1313.22" y="848.789" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac30&quot;"/> 
+  </image>
+  <line x1="1252.6" y1="715" x2="1252.6" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="1211.55" y="762.425" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1216.55" y="767.425" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1223.52" y="808.485" fill="black" font-size="15">LAC30</text>
+  <line x1="1433.39" y1="715" x2="1433.39" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="1392.34" y="762.425" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1397.34" y="767.425" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1404.31" y="808.485" fill="black" font-size="15">LAC40</text>
+  <line x1="1614.54" y1="715" x2="1614.54" y2="906" stroke="black" stroke-width="1"/> 
+  <rect x="1573.49" y="762.577" width="80" height="80" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <rect x="1578.49" y="767.577" width="70" height="70" rx="0" ry="0" fill="Col_BGSand" stroke="Col_Grey5"/> 
+  <text x="1585.46" y="808.637" fill="black" font-size="15">LAC50</text>
+  <line x1="708" y1="906" x2="1615" y2="906" stroke="black" stroke-width="3"/> 
+  <line x1="708.03" y1="715" x2="1614.09" y2="715" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4970.13,-579.14 4983.5,-571.49 4983.5,-586.78 4970.13,-579.14" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4969.74,-398.923 4983.11,-391.273 4983.11,-406.563 4969.74,-398.923" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4969.74,-216.138 4983.11,-208.488 4983.11,-223.778 4969.74,-216.138" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4969.59,-34.9866 4982.96,-27.3366 4982.96,-42.6266 4969.59,-34.9866" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4969.74,146.133 4983.11,153.783 4983.11,138.493 4969.74,146.133" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <image x="443.637" y="928.394" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB18CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB18CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="624.5" y="876.349" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB39CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB39CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="624.65" y="848.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB39CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB39CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="963.51" y="941.372" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB11CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB11CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="962.75" y="912.25" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB11CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB11CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1181.73" y="941.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB12CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB12CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1180.97" y="912.644" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB12CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB12CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1400.53" y="941.766" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB13CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB13CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1399.77" y="912.644" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB13CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB13CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="443.998" y="900.151" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB18CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB18CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1495.15" y="845.547" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac40&quot;"/> 
+  </image>
+  <image x="1677.37" y="846.94" width="75" height="25" xlink:href="obj_link.svg" transform="rotate(270 0 0) flipX(42.5)">
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="TextStr" mode="constant" value="&quot;&quot;"/> 
+    <rt:dyn type="ModName" mode="constant" value="&quot;lac50&quot;"/> 
+  </image>
+  <line x1="528" y1="972.924" x2="1791" y2="972.924" stroke="black" stroke-width="3"/> 
+  <line x1="1378.78" y1="905.5" x2="1378.78" y2="974.5" stroke="black" stroke-width="3"/> 
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4771.73,-90.2649 4785.1,-82.6149 4785.1,-97.9049 4771.73,-90.2649" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <line x1="528" y1="665.469" x2="1906.85" y2="665.469" stroke="black" stroke-width="3"/> 
+  <path d="M2048.8 665.576 A8.80483 8.80483 0 1 1 2048.8 683.186 " fill="none" stroke="black" stroke-width="3" transform="rotate(90 1749.64 704.67) rotate(90 565.703 525.453) flipX(919.775) rotate(90 1.4013e-045 1.4013e-045) flipY(571.298) rotate(90 1.4013e-045 1.4013e-045) flipY(166.195) flipY() translate(0 -828) translate(229.642 442.62)"/> 
+  <line x1="1790.83" y1="677" x2="1790.83" y2="973" stroke="black" stroke-width="3"/> 
+  <line x1="1165" y1="665" x2="1165" y2="716" stroke="black" stroke-width="3"/> 
+  <image x="1065" y="679" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB11CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB11CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="flipX(962.303) rotate(270 1008.52 124.242) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="6519.86,-1002.39 6533.23,-994.741 6533.23,-1010.03 6519.86,-1002.39" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5012.49,-941.29 5025.86,-933.64 5025.86,-948.93 5012.49,-941.29" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipX(962.303) rotate(270 1008.52 124.242) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="5518.95,-1051.33 5532.32,-1043.68 5532.32,-1058.97 5518.95,-1051.33" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(778.788) flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4907.56,321.889 4920.93,329.539 4920.93,314.249 4907.56,321.889" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <g transform="flipY(529.545) rotate(270 531.242 339.394) flipX(1383.52) flipX(81.2424) rotate(270 1829.73 859.091) flipY(578) rotate(180 1210.44 541.647)">
+    <g transform="rotate(90 1212.44 532.643)">
+      <polygon points="4819.88,-1122.11 4833.25,-1114.46 4833.25,-1129.75 4819.88,-1122.11" fill="black" stroke="black" stroke-width="1" transform="rotate(180 1279.17 367.814)"/> 
+    </g>
+  </g>
+  <text x="310.03" y="906.909" fill="black" font-size="15">Градирня</text>
+  <image x="312.545" y="792.121" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB02AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB02AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="370.636" y="833.03" fill="black" font-size="15">20PCB02<tspan x="370.636" dy="15">AA001</tspan>
+  </text>
+  <line x1="347.5" y1="65" x2="347.5" y2="98.818" stroke="black" stroke-width="3"/> 
+  <line x1="1791" y1="632" x2="1791" y2="659.876" stroke="black" stroke-width="3"/> 
+  <image x="1812.12" y="343.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb11&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB11&quot;"/> 
+  </image>
+  <image x="1812.12" y="373.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb12&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB12&quot;"/> 
+  </image>
+  <image x="1812.12" y="403.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb13&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB13&quot;"/> 
+  </image>
+  <image x="1812.12" y="432.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb21&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB21&quot;"/> 
+  </image>
+  <image x="1812.12" y="462.25" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb22&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB22&quot;"/> 
+  </image>
+  <image x="1812.12" y="492.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcb23&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCB23&quot;"/> 
+  </image>
+  <image x="1702.75" y="343.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct51&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT51&quot;"/> 
+  </image>
+  <image x="1702.75" y="373.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct52&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT52&quot;"/> 
+  </image>
+  <image x="1702.75" y="403.75" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct53&quot;"/> 
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT53&quot;"/> 
+  </image>
+  <image x="1252" y="679" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB12CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB12CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1438.25" y="679" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB13CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB13CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="34.7501" y="702" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="350.182" y="217.879" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB90CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB90CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="350.182" y="567.424" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB90CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB90CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="45.4848" y1="794.954" x2="198" y2="794.954" stroke="black" stroke-width="3"/> 
+  <line x1="200" y1="795.333" x2="200" y2="978" stroke="black" stroke-width="3"/> 
+  <line x1="44.6667" y1="794" x2="44.1667" y2="978" stroke="black" stroke-width="3"/> 
+  <line x1="118.833" y1="733.333" x2="119.333" y2="796.667" stroke="black" stroke-width="3"/> 
+  <line x1="344.667" y1="778" x2="118.667" y2="778" stroke="black" stroke-width="3"/> 
+  <image x="207" y="736" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="rotate(0 0 0) flipX(0.000192988) rotate(0 0 -10.0001)">
+    <title>&quot;20PCB10AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA201&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="265" y="705" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;20PCB10AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB10AA201&quot;"/> 
+  </image>
+  <image x="10.3788" y="800.864" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB01AA001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB01AA001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <text x="276.75" y="752" fill="black" font-size="15">20PCB10<tspan x="276.75" dy="15">AA201</tspan>
+  </text>
+  <image x="10.9697" y="890.909" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 2.26701e-006 -3.41667e-006) flipX() flipX()">
+    <title>&quot;20PCC01AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC01AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="165.228" y="800.864" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 0 0) flipX(2.96295e-005) rotate(360 0.00012207 -10)">
+    <title>&quot;20PCB01AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCB01AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;moto&quot;"/> 
+  </image>
+  <image x="164.697" y="890.909" width="70" height="70" xlink:href="DS_motor.svg" transform="rotate(270 2.26701e-006 -3.41667e-006) flipX() flipX()">
+    <title>&quot;20PCC01AP002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;20PCC01AP002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="true"/> 
+  </image>
+  <image x="54.0001" y="268.375" width="26" height="27" xlink:href="bin_indicator.svg">
+    <title>&quot;20PCB10CG101_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PCB10CG101_XG01&quot;"/> 
+  </image>
+  <text x="84.4981" y="286.875" font-size="15">РАБОТА</text>
+  <image x="55" y="309.625" width="26" height="27" xlink:href="bin_indicator.svg">
+    <title>&quot;20PCB10CG102_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PCB10CG102_XG01&quot;"/> 
+  </image>
+  <text x="84.498" y="328.125" font-size="15">АВАРИЯ</text>
+  <image x="208.75" y="268.375" width="26" height="27" xlink:href="bin_indicator.svg">
+    <title>&quot;20PCB10CG201_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PCB10CG201_XG01&quot;"/> 
+  </image>
+  <text x="237.248" y="286.875" font-size="15">РАБОТА</text>
+  <image x="208.75" y="309.625" width="26" height="27" xlink:href="bin_indicator.svg">
+    <title>&quot;20PCB10CG202_XG01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20PCB10CG202_XG01&quot;"/> 
+  </image>
+  <text x="237.248" y="328.125" font-size="15">АВАРИЯ</text>
+  <text x="35" y="20.5" fill="black" font-size="15" font-weight="700">PCB</text>
+  <text x="979" y="28" fill="black" font-size="30" font-weight="700" text-anchor="middle">Система охлаждения потребителей здания 20UMA</text>
+  <image x="34.7501" y="738.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20PCB10CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20PCB10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+</svg>

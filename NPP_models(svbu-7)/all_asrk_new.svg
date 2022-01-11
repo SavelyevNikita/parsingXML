@@ -1,0 +1,841 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_asrk">
+  <title>Радиационный контроль</title>
+  <rt:model modelversion="7.2.0.24" comment="UMod all_nsb" revision="3">
+    <rt:var name="but1_bg" datatype="ushort" comment="Variable  but1_bg" value="9"/> 
+    <rt:var name="but2_bg" datatype="short" comment="Variable  but2_bg" value="9"/> 
+    <rt:var name="but3_bg" datatype="short" comment="Variable  but3_bg" value="9"/> 
+    <rt:var name="but4_bg" datatype="short" comment="Variable  but4_bg" value="9"/> 
+    <rt:var name="but5_bg" datatype="short" comment="Variable  but5_bg" value="9"/> 
+    <rt:var name="but6_bg" datatype="short" comment="Variable  but6_bg" value="9"/> 
+    <rt:var name="but7_bg" datatype="short" comment="Variable  but7_bg" value="9"/> 
+    <rt:var name="but8_bg" datatype="short" comment="Variable  but8_bg" value="9"/> 
+    <rt:var name="but9_bg" datatype="short" comment="Variable  but9_bg" value="9"/> 
+    <rt:var name="but10_bg" datatype="short" comment="Variable  but10_bg" value="9"/> 
+    <rt:var name="but11_bg" datatype="short" comment="Variable  but11_bg" value="9"/> 
+    <rt:var name="but12_bg" datatype="short" comment="Variable  but12_bg" value="9"/> 
+    <rt:var name="but13_bg" datatype="short" comment="Variable  but13_bg" value="9"/> 
+    <rt:var name="but14_bg" datatype="short" comment="Variable  but14_bg" value="9"/> 
+    <rt:var name="but15_bg" datatype="short" comment="Variable  but15_bg" value="9"/> 
+    <rt:var name="but16_bg" datatype="short" comment="Variable  but16_bg" value="9"/> 
+    <rt:var name="but17_bg" datatype="short" comment="Variable  but17_bg" value="9"/> 
+    <rt:var name="but18_bg" datatype="short" comment="Variable  but18_bg" value="9"/> 
+    <rt:var name="but19_bg" datatype="short" comment="Variable  but19_bg" value="9"/> 
+    <rt:var name="but20_bg" datatype="short" comment="Variable  but20_bg" value="9"/> 
+    <rt:var name="but21_bg" datatype="short" comment="Variable  but21_bg" value="9"/> 
+    <rt:var name="but22_bg" datatype="short" comment="Variable  but22_bg" value="9"/> 
+    <rt:var name="but23_bg" datatype="short" comment="Variable  but23_bg" value="9"/> 
+    <rt:var name="but24_bg" datatype="short" comment="Variable  but24_bg" value="9"/> 
+    <rt:var name="but25_bg" datatype="short" comment="Variable  but25_bg" value="9"/> 
+    <rt:var name="but26_bg" datatype="short" comment="Variable  but26_bg" value="9"/> 
+    <rt:var name="but27_bg" datatype="short" comment="Variable  but27_bg" value="9"/> 
+    <rt:var name="but28_bg" datatype="short" comment="Variable  but28_bg" value="9"/> 
+    <rt:var name="but29_bg" datatype="short" comment="Variable  but29_bg" value="9"/> 
+    <rt:var name="but30_bg" datatype="short" comment="Variable  but30_bg" value="9"/> 
+    <rt:var name="but31_bg" datatype="short" comment="Variable  but31_bg" value="9"/> 
+    <rt:var name="but32_bg" datatype="short" comment="Variable  but32_bg" value="9"/> 
+    <rt:var name="but33_bg" datatype="short" comment="Variable  but33_bg" value="9"/> 
+    <rt:var name="but34_bg" datatype="short" comment="Variable  but34_bg" value="9"/> 
+    <rt:var name="but35_bg" datatype="short" comment="Variable  but35_bg" value="9"/> 
+    <rt:var name="but36_bg" datatype="short" comment="Variable  but36_bg" value="9"/> 
+    <rt:var name="but37_bg" datatype="short" comment="Variable  but37_bg" value="9"/> 
+    <rt:var name="but38_bg" datatype="short" comment="Variable  but38_bg" value="9"/> 
+    <rt:var name="but39_bg" datatype="short" comment="Variable  but39_bg" value="9"/> 
+    <rt:var name="but40_bg" datatype="short" comment="Variable  but40_bg" value="9"/> 
+    <rt:var name="but41_bg" datatype="short" comment="Variable  but41_bg" value="9"/> 
+    <rt:var name="but42_bg" datatype="short" comment="Variable  but42_bg" value="9"/> 
+    <rt:var name="but43_bg" datatype="short" comment="Variable  but43_bg" value="9"/> 
+    <rt:var name="but44_bg" datatype="short" comment="Variable  but44_bg" value="9"/> 
+    <rt:var name="but45_bg" datatype="short" comment="Variable  but45_bg" value="9"/> 
+    <rt:var name="but46_bg" datatype="short" comment="Variable  but46_bg" value="9"/> 
+    <rt:var name="but47_bg" datatype="short" comment="Variable  but47_bg" value="9"/> 
+    <rt:var name="but48_bg" datatype="short" comment="Variable  but48_bg" value="9"/> 
+    <rt:var name="but49_bg" datatype="short" comment="Variable  but49_bg" value="9"/> 
+    <rt:var name="but50_bg" datatype="short" comment="Variable  but50_bg" value="9"/> 
+    <rt:sub>Function But1_Color()
+If (((BIN(&quot;20UJA16CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA36CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA36CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but1_bg = 65	&apos; мигает  красным
+Elseif (((BIN(&quot;20UJA16CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but1_bg = 67	&apos; мигает  желтым
+	Else
+		but1_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But2_Color()
+If (((BIN(&quot;21UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLB22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KLB22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but2_bg = 65	&apos; мигает  красным
+Elseif (((BIN(&quot;21UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLB22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KLB22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but2_bg = 67	&apos; мигает  желтым
+	Else
+		but2_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But3_Color()
+If (((BIN(&quot;21UKH44CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B02_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B02_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH44CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR603B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR603B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR604B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR604B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR605B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR605B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR606B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR606B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR607B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR607B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR608B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR608B01_Z0&quot;).Quality &gt; 0))) Then
+		but3_bg = 65	&apos; мигает  красным
+Elseif (((BIN(&quot;21UKH44CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR401B02_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR401B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR201B02_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR201B02_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UKH56CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH44CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH44CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UKH56CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UKH56CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR602B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR603B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR603B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR604B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR604B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR605B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR605B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR606B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR606B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR607B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR607B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKH44CR608B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKH44CR608B01_Z0&quot;).Quality &gt; 0))) Then
+		but3_bg = 67	&apos; мигает  желтым
+	Else
+		but3_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But4_Color()
+If (((BIN(&quot;20UKC32CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC14CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but4_bg = 65	&apos; мигает  красным
+Elseif (((BIN(&quot;20UKC32CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC14CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but4_bg = 67	&apos; мигает  желтым
+	Else
+		but4_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But5_Color()
+If ((BIN(&quot;20KLC21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC21CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but5_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20KLC21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC21CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but5_bg = 67	&apos; мигает  желтым
+	Else
+		but5_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But6_Color()
+If ((BIN(&quot;20KLC22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC22CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but6_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20KLC22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLC22CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but6_bg = 67	&apos; мигает  желтым
+	Else
+		but6_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But7_Color()
+If (((BIN(&quot;20KLE22CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR201B01_Z0&quot;).Quality &gt; 0))) Then
+		but7_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KLE22CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE22CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE22CR201B01_Z0&quot;).Quality &gt; 0))) Then
+		but7_bg = 67	&apos; мигает  желтым
+	Else
+		but7_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But8_Color()
+If (((BIN(&quot;20KLE23CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR402B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR402B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR202B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR202B01_Z0&quot;).Quality &gt; 0))) Then
+		but8_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KLE23CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR402B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR402B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLE23CR202B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE23CR202B01_Z0&quot;).Quality &gt; 0))) Then
+		but8_bg = 67	&apos; мигает  желтым
+	Else
+		but8_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But9_Color()
+If ((BIN(&quot;20KLE24CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE24CR401B01_Z0&quot;).Quality &gt; 0)) Then
+		but6_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20KLE24CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLE24CR401B01_Z0&quot;).Quality &gt; 0)) Then
+		but9_bg = 67	&apos; мигает  желтым
+	Else
+		but9_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But10_Color()
+If (((BIN(&quot;21SAC40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but10_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21SAC40CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but10_bg = 67	&apos; мигает  желтым
+	Else
+		but10_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But11_Color()
+If (((BIN(&quot;21SAC50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but11_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21SAC50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but11_bg = 67	&apos; мигает  желтым
+	Else
+		but11_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But12_Color()
+If (((BIN(&quot;21SAC40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but11_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21SAC40CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC40CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC40CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but12_bg = 67	&apos; мигает  желтым
+	Else
+		but12_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But13_Color()
+If (((BIN(&quot;21SAC50CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but11_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21SAC50CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21SAC50CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22SAC50CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22SAC50CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but13_bg = 67	&apos; мигает  желтым
+	Else
+		but13_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But14_Color()
+If (((BIN(&quot;20KLA21CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but14_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KLA21CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA21CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but14_bg = 67	&apos; мигает  желтым
+	Else
+		but14_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But15_Color()
+If (((BIN(&quot;20KLA22CR201B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR401B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but15_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KLA22CR201B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR201B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR401B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR401B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KLA22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KLA22CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but15_bg = 67	&apos; мигает  желтым
+	Else
+		but15_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But16_Color()
+If (((BIN(&quot;20KPM21CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but16_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KPM21CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM21CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM21CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but16_bg = 67	&apos; мигает  желтым
+	Else
+		but16_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But17_Color()
+If (((BIN(&quot;20KPM22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but17_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KPM22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM22CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM22CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but17_bg = 67	&apos; мигает  желтым
+	Else
+		but17_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But18_Color()
+If (((BIN(&quot;20KPM23CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR602B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but18_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KPM23CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPM23CR602B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM23CR602B01_Z0&quot;).Quality &gt; 0))) Then
+		but18_bg = 67	&apos; мигает  желтым
+	Else
+		but18_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But19_Color()
+If ((BIN(&quot;20KPM40CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM40CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but19_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20KPM40CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPM40CR601B01_Z0&quot;).Quality &gt; 0)) Then
+		but19_bg = 67	&apos; мигает  желтым
+	Else
+		but19_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But20_Color()
+If (((BIN(&quot;21PEB10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR802B01_Z0&quot;).Quality &gt; 0))) Then
+		but20_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21PEB10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21PEB10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21PEB10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22PEB20CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22PEB20CR802B01_Z0&quot;).Quality &gt; 0))) Then
+		but20_bg = 67	&apos; мигает  желтым
+		Else
+		but20_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But21_Color()
+If (((BIN(&quot;21KAA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KAA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KAA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KAA20CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but21_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21KAA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KAA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KAA20CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KAA20CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but21_bg = 67	&apos; мигает  желтым
+		Else
+		but21_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But22_Color()
+If (((BIN(&quot;20KPK10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPK30CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK30CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KPK30CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPK30CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but22_bg = 67	&apos; мигает  желтым
+		Else
+		but22_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But23_Color()
+If (((BIN(&quot;20KPF40CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPF40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCM81CR801B01_Z0#10&quot;).Value &gt;0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0))) Then
+		but23_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KPF40CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KPF40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCM81CR801B01_Z0#11&quot;).Value &gt;0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0))) Then
+		but23_bg = 67	&apos; мигает  желтым
+		Else
+		but23_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But24_Color()
+If (((BIN(&quot;20UJA24CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA27CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA27CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLB22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21KLB22CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLB22CR601B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22KLB22CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but24_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJA24CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR601B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA27CR601B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA27CR601B01_Z0&quot;).Quality &gt; 0))) Then
+		but24_bg = 67	&apos; мигает  желтым
+		Else
+		but24_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But25_Color()
+If (((BIN(&quot;20NDA10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20NDA10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20NDA10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20NDA10CR802B01_Z0&quot;).Quality &gt; 0))) Then
+		but25_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20QUR10CT001_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUR10CT001_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20CT001_XH03&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUR20CT001_XH03&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR10AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR10AA003_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUR20AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20QUR20AA003_F2&quot;).Quality &gt; 0))) Then
+		but25_bg = 71	&apos; мигает  ,белым
+		Else
+		but25_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But26_Color()
+If (((BIN(&quot;20KBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0))) Then
+		but26_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20KBA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0))) Then
+		but26_bg = 67	&apos; мигает  желтым
+	Else
+		but26_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But27_Color()
+If (((BIN(&quot;21JNA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but27_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;21JNA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21JNA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21JNA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22JNA20CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22JNA20CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but27_bg = 67	&apos; мигает  желтым
+	Else
+		but27_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But28_Color()
+If (((BIN(&quot;20UJE26CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA20CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA20CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA20CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA20CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA30CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA30CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA30CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA30CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA40CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA40CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LBA40CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LBA40CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB15CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB15CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB25CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB25CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB35CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB35CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB45CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB45CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCQ50CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCQ50CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR801B01_Z0&quot;).Quality &gt; 0))) Then
+		but28_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJE26CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJE26CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJE26CR004B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB15CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB15CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB25CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB25CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB35CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB35CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PAB45CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PAB45CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN10CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN20CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN20CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN30CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN30CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20QUN40CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20QUN40CR802B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20LCQ50CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCQ50CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20MAJ10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20MAJ10CR001B01_Z0&quot;).Quality &gt; 0))) Then
+		but28_bg = 67	&apos; мигает  желтым
+		Else
+		but28_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But29_Color()
+If (((BIN(&quot;21LBA10CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA10CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA10CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA10CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA10CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA10CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA20CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA20CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA20CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA20CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA30CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA30CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA30CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA30CR802CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21LBA40CR801CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21LBA40CR801CB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22LBA40CR802CB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22LBA40CR802CB01_Z0&quot;).Quality &gt; 0))) Then
+		but29_bg = 65	&apos; мигает  красным
+	Else
+		but29_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But30_Color()
+If ((BIN(&quot;20PGB50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB50CR001B01_Z0&quot;).Quality &gt; 0)) Then
+		but30_bg = 65	&apos; мигает  ;красным
+	Else
+		but30_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But31_Color()
+If (((BIN(&quot;20PGB60CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB60CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20PGB60CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20PGB60CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but31_bg = 65	&apos; мигает  ;красным
+	Else
+		but31_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But32_Color()
+If ((BIN(&quot;20GMS10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR801B01_Z0&quot;).Quality &gt; 0)) Then
+		but32_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20GMS10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR801B01_Z0&quot;).Quality &gt; 0)) Then
+		but32_bg = 67	&apos; мигает  желтым
+	Else
+		but32_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But33_Color()
+If ((BIN(&quot;20GMS10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR802B01_Z0&quot;).Quality &gt; 0)) Then
+		but33_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20GMS10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GMS10CR802B01_Z0&quot;).Quality &gt; 0)) Then
+		but33_bg = 67	&apos; мигает  желтым
+	Else
+		but33_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But34_Color()
+If (((BIN(&quot;20UKC04CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but34_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC04CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC04CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC04CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but34_bg = 67	&apos; мигает  желтым
+	Else
+		but34_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But35_Color()
+If (((BIN(&quot;20UKC10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but35_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but35_bg = 67	&apos; мигает  желтым
+	Else
+		but35_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But36_Color()
+If (((BIN(&quot;20UKC22CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but36_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC22CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC22CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC22CR003B01_Z0&quot;).Quality &gt; 0))) Then
+		but36_bg = 67	&apos; мигает  желтым
+	Else
+		but36_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But37_Color()
+If (((BIN(&quot;20UKC25CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but37_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC25CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC25CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC25CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but37_bg = 67	&apos; мигает  желтым
+	Else
+		but37_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But38_Color()
+If (((BIN(&quot;20UKC29CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but38_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC29CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC29CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC29CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but38_bg = 67	&apos; мигает  желтым
+	Else
+		but38_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But39_Color()
+If (((BIN(&quot;20UKC32CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but39_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC32CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC32CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC32CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but39_bg = 67	&apos; мигает  желтым
+	Else
+		but39_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But40_Color()
+If ((BIN(&quot;20UKC14CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) Then
+		but40_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20UKC14CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC14CR001B01_Z0&quot;).Quality &gt; 0)) Then
+		but40_bg = 67	&apos; мигает  желтым
+	Else
+		but40_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But41_Color()
+If (((BIN(&quot;20UKC18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but41_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UKC18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UKC18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UKC18CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but41_bg = 67	&apos; мигает  желтым
+	Else
+		but41_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But42_Color()
+If (((BIN(&quot;20UJA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but42_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA10CR002B01_Z0&quot;).Quality &gt; 0))) Then
+		but42_bg = 67	&apos; мигает  желтым
+	Else
+		but42_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But43_Color()
+If (((BIN(&quot;20UJA24CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0))) Then
+		but43_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJA24CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR001B01_Z1&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA24CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA24CR004B01_Z0&quot;).Quality &gt; 0))) Then
+		but43_bg = 67	&apos; мигает  желтым
+		Else
+		but43_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But44_Color()
+If (((BIN(&quot;20UJA16CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA36CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA36CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0))) Then
+		but44_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJA16CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA16CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;21UJA36CR001BB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001AB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001AB01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA36CR001BB01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;22UJA36CR001BB01_Z0&quot;).Quality &gt; 0))) Then
+		but44_bg = 67	&apos; мигает  желтым
+		Else
+		but44_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But45_Color()
+If (((BIN(&quot;20UJA18CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0))) Then
+		but45_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20UJA18CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR003B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR003B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20UJA18CR004B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20UJA18CR004B01_Z0&quot;).Quality &gt; 0))) Then
+		but45_bg = 67	&apos; мигает  желтым
+		Else
+		but45_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But46_Color()
+If (((BIN(&quot;20KUJ11AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ11EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ12EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ12EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ13EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ13EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUJ14EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ14EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA24AA811_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA24AA811_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA24AA810_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA24AA810_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22UJA27AA813_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22UJA27AA813_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA27AA812_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21UJA27AA812_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21UJA27AA812_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUJ11AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA817_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA817_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA816_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA816_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA815_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA815_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA814_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA814_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA813_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA813_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA812_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA812_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KLA02AA811_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KLA02AA811_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KLA02AA810_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KLA02AA810_F2&quot;).Quality &gt; 0))) Then
+		but46_bg = 71	&apos; мигает  белым
+		Else
+		but46_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But47_Color()
+If (((BIN(&quot;21KUJ16AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;21KUJ16EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;21KUJ16EE001TE0_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AN002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16AN002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;22KUJ16EE001TE0_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;22KUJ16EE001TE0_F0&quot;).Quality &gt; 0))) Then
+		but47_bg = 71	&apos; мигает  белым
+		Else
+		but47_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But48_Color()
+If (((BIN(&quot;20KBA10CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0))) Then
+		but48_bg = 65	&apos;мигает красным 
+ElseIf (((BIN(&quot;20KBA10CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR002B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR002B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBE50CR001B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBE50CR001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR803B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR803B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR804B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR804B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR805B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR805B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR806B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR806B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR807B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR807B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR808B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR808B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR809B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR809B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR810B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR810B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR811B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR811B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KBA10CR812B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KBA10CR812B01_Z0&quot;).Quality &gt; 0))) Then
+		but48_bg = 67	&apos; мигает  желтым
+ElseIf (((BIN(&quot;20KUD10AA001_F0&quot;).Value &gt;=1) &amp;&amp; (BIN(&quot;20KUD10AA001_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA001_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA001_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA001_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA001_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA002_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA002_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F0&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F1&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F1&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10AA003_F2&quot;).Value &gt;= 1) &amp;&amp; (BIN(&quot;20KUD10AA003_F2&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10CT001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KUD10CT001B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20KUD10CT001B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20KUD10CT002B01_Z0&quot;).Quality &gt; 0))) Then
+		but48_bg = 71	&apos; мигает  белым
+	Else
+		but48_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But49_Color()
+If ((BIN(&quot;20LCM81CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0)) Then
+		but49_bg = 65	&apos; мигает  красным
+ElseIf ((BIN(&quot;20LCM81CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20LCM81CR801B01_Z0&quot;).Quality &gt; 0)) Then
+		but49_bg = 67	&apos; мигает  желтым
+	Else
+		but49_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:sub>Function But50_Color()
+If (((BIN(&quot;20GHC10CR801B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GHC10CR802B01_Z0#10&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR802B01_Z0&quot;).Quality &gt; 0))) Then
+		but50_bg = 65	&apos; мигает  красным
+ElseIf (((BIN(&quot;20GHC10CR801B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR801B01_Z0&quot;).Quality &gt; 0)) || ((BIN(&quot;20GHC10CR802B01_Z0#11&quot;).Value &gt; 0) &amp;&amp; (BIN(&quot;20GHC10CR802B01_Z0&quot;).Quality &gt; 0))) Then
+		but50_bg = 65	&apos; мигает  желтым
+	Else
+		but50_bg = 9	&apos;цвет фона
+	End If
+End Function</rt:sub>
+    <rt:cycleTrigger name="But_Color_trigger" cycle="1" unit="second">
+      <rt:code>But1_Color()</rt:code>
+      <rt:code>But2_Color()</rt:code>
+      <rt:code>But3_Color()</rt:code>
+      <rt:code>But4_Color()</rt:code>
+      <rt:code>But5_Color()</rt:code>
+      <rt:code>But6_Color()</rt:code>
+      <rt:code>But7_Color()</rt:code>
+      <rt:code>But8_Color()</rt:code>
+      <rt:code>But9_Color()</rt:code>
+      <rt:code>But10_Color()</rt:code>
+      <rt:code>But11_Color()</rt:code>
+      <rt:code>But12_Color()</rt:code>
+      <rt:code>But13_Color()</rt:code>
+      <rt:code>But14_Color()</rt:code>
+      <rt:code>But15_Color()</rt:code>
+      <rt:code>But16_Color()</rt:code>
+      <rt:code>But17_Color()</rt:code>
+      <rt:code>But18_Color()</rt:code>
+      <rt:code>But19_Color()</rt:code>
+      <rt:code>But20_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="But_color_trigger1" cycle="1" unit="second">
+      <rt:code>But22_Color()</rt:code>
+      <rt:code>But23_Color()</rt:code>
+      <rt:code>But24_Color()</rt:code>
+      <rt:code>But25_Color()</rt:code>
+      <rt:code>But26_Color()</rt:code>
+      <rt:code>But27_Color()</rt:code>
+      <rt:code>But28_Color()</rt:code>
+      <rt:code>But29_Color()</rt:code>
+      <rt:code>But30_Color()</rt:code>
+      <rt:code>But31_Color()</rt:code>
+      <rt:code>But32_Color()</rt:code>
+      <rt:code>But33_Color()</rt:code>
+      <rt:code>But34_Color()</rt:code>
+      <rt:code>But35_Color()</rt:code>
+      <rt:code>But36_Color()</rt:code>
+      <rt:code>But37_Color()</rt:code>
+      <rt:code>But38_Color()</rt:code>
+      <rt:code>But39_Color()</rt:code>
+      <rt:code>But40_Color()</rt:code>
+    </rt:cycleTrigger>
+    <rt:cycleTrigger name="But_color_trigger2" cycle="1" unit="second">
+      <rt:code>But41_Color()</rt:code>
+      <rt:code>But42_Color()</rt:code>
+      <rt:code>But43_Color()</rt:code>
+      <rt:code>But44_Color()</rt:code>
+      <rt:code>But45_Color()</rt:code>
+      <rt:code>But46_Color()</rt:code>
+      <rt:code>But47_Color()</rt:code>
+      <rt:code>But48_Color()</rt:code>
+      <rt:code>But49_Color()</rt:code>
+      <rt:code>But50_Color()</rt:code>
+    </rt:cycleTrigger>
+  </rt:model>
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="762.445" y="50.5471" font-family="AAP_Font3" font-size="30" font-weight="700">Радиационный контроль</text>
+  <image x="448" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20uja&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20UJA&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but2_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_20ukh&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20UKH&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but3_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="389" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_21sac41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21SAC41&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but10_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="424" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_21sac51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21SAC51&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but11_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="460" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_22sac41&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22SAC41&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but12_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="496" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_22sac51&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22SAC51&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but13_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="531" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kla21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLA21&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but14_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="566" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kla22_42&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLA22-42&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but15_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="245" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_potreb_pgb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but30_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="281" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_potreb_pgb60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB60&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but31_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_1kont&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;1КОНТ&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but26_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_1kont_bv&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;1КОНТ_БВ&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but27_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="171" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_2kont&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;2КОНТ&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but28_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_-54&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC -54&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but34_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 00&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but35_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="171" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_12&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 12&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but36_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="208" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_15&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 15&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but37_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="281" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 22&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but39_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="316" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_24&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 24&quot;"/> 
+  </image>
+  <image x="668" y="352" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_48&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 48&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but40_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="668" y="389" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_84&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 84&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but41_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="779" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_06&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 06&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but42_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="779" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_14&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 14&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but43_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="779" y="171" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_26&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 26&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but44_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="779" y="208" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uja_81&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UJA 81&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but45_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="891" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_-54&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA -54&quot;"/> 
+  </image>
+  <image x="891" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 00&quot;"/> 
+  </image>
+  <image x="891" y="171" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_36&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 36&quot;"/> 
+  </image>
+  <image x="891" y="208" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_uka_84&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKA 84&quot;"/> 
+  </image>
+  <image x="668" y="245" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_ukc_19&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;UKC 19&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but38_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="1005.67" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред в зданиях 10UKA, 10UKC</title>
+    <rt:event type="OnClick">LoadNew(&quot;kuj11_14&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUJ11-14&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but46_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="1005.67" y="136" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред из венттрубы</title>
+    <rt:event type="OnClick">LoadNew(&quot;kuj16_17&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUJ16-17&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but47_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="812" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_20ukc_g&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20UKC_g&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but22_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="777" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KAA&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but21_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="601" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM21&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but16_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="636" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM22&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but17_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="671" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm23&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM23&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but18_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="707" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpm40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPM40&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but19_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="742" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_peb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but20_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="847" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kpf&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KPF&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but23_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="882" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_go&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ГО&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but24_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="449" y="917" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_qur&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;QUR&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but25_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="316" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_20urs04&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;URS04&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but32_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="352" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_20urs11&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;URS11&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but33_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="1119" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система отбора проб на радиационный контроль из систем KBE50-60 и KPF10-60</title>
+    <rt:event type="OnClick">LoadNew(&quot;kud&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KUD&quot;"/> 
+  </image>
+  <image x="1227" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред из венттрубы</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_svo&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;СВО&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but49_bg, Col_Ar(9))"/> 
+  </image>
+  <text x="62.5" y="24.5" fill="black" font-size="15" font-weight="700" text-anchor="middle">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+ALL_ASRK</text>
+  <image x="448" y="208" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_klc21&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLC21&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but5_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="245" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_klc22&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLC22&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but6_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="316" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kle23&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLE23&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but8_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="352" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kle24&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLE24&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but9_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="281" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_kle42&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KLE22&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but7_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="448" y="171" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20ukc&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20UKC&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but4_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="557" y="208" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;asrk_arkt&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;АРКТ&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but29_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="1338" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пробоотбора газообразных радиоактивных сред из венттрубы</title>
+    <rt:event type="OnClick">LoadNew(&quot;asrk_23urt&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;23URT&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but50_bg, Col_Ar(9))"/> 
+  </image>
+  <image x="338" y="102" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;20uja_k&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;20UJA_K&quot;"/> 
+    <rt:dyn type="But_Color" mode="cyclic" value="PRJSPEC.ObjectColor(but1_bg, Col_Ar(9))"/> 
+  </image>
+</svg>

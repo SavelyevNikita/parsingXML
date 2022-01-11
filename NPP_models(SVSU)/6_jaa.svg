@@ -1,0 +1,1272 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="jaa" fill="Col_BGSand">
+  <title>Система реактора</title>
+  <rt:model comment="Создано VNIIAES-ASUTP&#10;UMod all_nsb&#10;LMod fal51_52&#10;RMod jaa_contr" revision="3.0" modelversion="0.0.0.0"/> 
+  <rect x="1309.56" y="587.409" width="258.001" height="398.121" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <rect x="1309.16" y="178.031" width="258.001" height="398.121" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <line x1="1122" y1="445.455" x2="1122" y2="560.606" stroke="black"/> 
+  <g transform="scale(1 0.68 423.667 318.182)">
+    <rect x="302" y="247" width="243.667" height="170" rx="53.3333" ry="8.33334" fill="Col_Grey3" stroke="black"/> 
+    <polyline points="362,249 362.333,219.667 482,220 482,249" fill="Col_Grey3" stroke="black"/> 
+  </g>
+  <circle cx="977.51" cy="25.8459" r="203.836" fill="Col_Grey3" stroke="Col_Grey3" stroke-width="2" transform="flipY() translate(0 -828) translate(318.495 254.128) scale(0.5 0.475)"/> 
+  <circle cx="977.51" cy="25.8457" r="203.836" fill="Col_Grey3" stroke="Col_Grey3" stroke-width="2" transform="flipY() translate(0 -828) translate(318.495 24.8396) scale(0.5 0.475)"/> 
+  <rect x="705.333" y="37.1172" width="203.836" height="229.288" rx="3.66376" ry="12.6629" fill="Col_Grey3" stroke="Col_BGSand" stroke-width="1" transform="flipY() translate(0 -828)"/> 
+  <line x1="434.39" y1="123.946" x2="656.907" y2="123.557" stroke="black" stroke-width="1.71094" transform="flipY() translate(0 -828) translate(1211.3 23.1333) matrix(-1.16786 0 0 0.555607 0 0)"/> 
+  <circle cx="594.202" cy="213.009" r="35.6677" fill="Col_Grey3" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(839.952 -23.9812) matrix(-0.697729 0 0 0.628245 0 0)"/> 
+  <line x1="907.575" y1="120.007" x2="1127.85" y2="119.957" stroke="black" stroke-width="1.68848" transform="flipY() translate(0 -828) translate(-165.868 24.3219) scale(1.18433 0.555607)"/> 
+  <circle cx="1389.06" cy="216.232" r="35.6677" fill="Col_Grey3" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(218.486 -26.4146) scale(0.697729 0.634592)"/> 
+  <image x="1630.67" y="236" width="233" height="40" xlink:href="obj_Button.svg" id="SVGImage11" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Параметры  II контура&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_yb&quot;)</rt:event>
+  </image>
+  <image x="1630.67" y="336" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Разогрев-расхолаживание&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_rr&quot;)</rt:event>
+  </image>
+  <image x="1630.67" y="387" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Относительная мощность ТВС&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_kq&quot;)</rt:event>
+  </image>
+  <image x="1630.67" y="437" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Мин. запас до кризиса&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_dnbt&quot;)</rt:event>
+  </image>
+  <image x="1630.67" y="487" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Температура на выходе из ТВС&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_yctout&quot;)</rt:event>
+  </image>
+  <rect x="3.66665" y="4.99998" width="1905" height="165" rx="0" ry="0" fill="Col_Grey3" stroke-width="2"/> 
+  <text x="5.66669" y="44.9999" fill="black" font-size="15">TЭФФ</text>
+  <text x="5.66669" y="75.3333" fill="black" font-size="15">Nакз</text>
+  <text x="5.66669" y="106" fill="black" font-size="15">ОФСЕТ</text>
+  <text x="270.333" y="77.9999" fill="black" font-size="15">Запас Ттвс</text>
+  <text x="773.959" y="77.3334" fill="black" font-size="15">MAX KQ</text>
+  <line x1="765" y1="120" x2="765" y2="9.3334" stroke="black"/> 
+  <line x1="1400" y1="165" x2="1400" y2="8.3352" stroke="black"/> 
+  <line x1="259" y1="165" x2="259" y2="8.99998" stroke="black"/> 
+  <text x="270.333" y="106" fill="black" font-size="15">Запас KV</text>
+  <text x="773.959" y="107.333" fill="black" font-size="15">MAX KV</text>
+  <image x="1630.67" y="537" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Офсет&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_ofset_tvs&quot;)</rt:event>
+  </image>
+  <image x="74.0346" y="25.3332" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS00FK001_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS00FK001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="74.0346" y="57.6665" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS00FU901_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS00FU901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="74.0346" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS10FX901_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS10FX901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="379.999" y="58.3332" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS51FT906_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS51FT906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="379.999" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS14FX906_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS14FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="574.999" y="58.3332" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS51FG906_XQ02&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS51FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="574.999" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS14FG906_XQ02&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS14FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="850.667" y="57.6665" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS06FX902_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS06FX902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="850.667" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS01FX902_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS01FX902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="1033.3" y="57.6665" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS06FG902_XQ02&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS06FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="1034.97" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS01FG902_XQ02&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS01FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="1218.03" y="89" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS01FG902_XQ03&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS01FG902_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <rect x="568" y="177" width="488.667" height="280" rx="0" ry="0" fill="none" stroke="black"/> 
+  <image x="605.333" y="183.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;11JEF21AA903&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEF21AA903&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="955.33" y="183.5" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;11JEF21AA904&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEF21AA904&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="779.833" y="182" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -6.10352e-005 -9.99998)">
+    <title>&quot;11JEF21AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11JEF21AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="573" y="265.333" fill="black" font-size="15">11JEF21AA903</text>
+  <text x="751.333" y="265.333" fill="black" font-size="15">11JEF21AA901</text>
+  <text x="922" y="265.333" fill="black" font-size="15">11JEF21AA904</text>
+  <line x1="568" y1="270" x2="1056.67" y2="270" stroke="black"/> 
+  <image x="605.333" y="275.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;12JEF22AA903&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF22AA903&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="955.33" y="275.333" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;12JEF22AA904&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF22AA904&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="779.833" y="273.833" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -6.10352e-005 -9.99998)">
+    <title>&quot;12JEF22AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF22AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="573" y="357.166" fill="black" font-size="15">12JEF22AA903</text>
+  <text x="751.333" y="357.166" fill="black" font-size="15">12JEF22AA901</text>
+  <text x="922" y="357.166" fill="black" font-size="15">12JEF22AA904</text>
+  <image x="605.333" y="368.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;12JEF23AA903&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF23AA903&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="955.33" y="368.667" width="70" height="65" xlink:href="DS_CO_valve.svg">
+    <title>&quot;12JEF23AA904&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF23AA904&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+  </image>
+  <image x="779.833" y="367.167" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(270 -6.10352e-005 -9.99998)">
+    <title>&quot;12JEF23AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12JEF23AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;NONE&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XB01&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XB02&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="573" y="450.5" fill="black" font-size="15">12JEF23AA903</text>
+  <text x="751.333" y="450.5" fill="black" font-size="15">12JEF23AA901</text>
+  <text x="922" y="450.5" fill="black" font-size="15">12JEF23AA904</text>
+  <line x1="568" y1="361" x2="1056.67" y2="361" stroke="black"/> 
+  <image x="335.517" y="274" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEG10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEG10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="335.517" y="314" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEG10CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEG10CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="335.517" y="354" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEG10CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEG10CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="545.333" y1="326" x2="568" y2="326" stroke="black"/> 
+  <rect x="1080.33" y="210.333" width="195.454" height="207.576" rx="33.3334" ry="26.6667" fill="Col_Grey3" stroke="black" transform="scale(1 1.3336 1178.06 314.121)"/> 
+  <image x="1090.33" y="246" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEF10CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEF10CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1090.33" y="286" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEF10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEF10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1090.33" y="326" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEF10FL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEF10FL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1090.33" y="366" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEF10CT909&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEF10CT909&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="1056.82" y1="242.151" x2="1081" y2="242" stroke="black"/> 
+  <rect x="8.00785" y="177.879" width="258.001" height="398.121" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <image x="49.5081" y="458.166" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="49.5081" y="486.166" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA10CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="49.5081" y="515.166" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10LAB30CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB30CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="12.6515" y="326.341" fill="black" font-size="15">10LBA10<tspan x="12.6515" dy="15">AA951</tspan>
+  </text>
+  <image x="1353.45" y="869.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA30CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA30CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1353.45" y="897.091" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA30CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA30CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1353.45" y="926.09" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10LAB50CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB50CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1352.7" y="459.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA40CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA40CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1352.7" y="487.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA40CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA40CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1352.7" y="516.515" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10LAB60CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB60CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1630.45" y="285.97" width="233" height="40" xlink:href="obj_Button.svg" stroke-width="1.18848">
+    <rt:dyn type="Label" value="&quot;Петлевой контроль&quot;" mode="constant"/> 
+    <rt:event type="OnClick">LoadNew(&quot;svrk_1k_tc&quot;)</rt:event>
+  </image>
+  <image x="720.061" y="555.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;11JAA12CT705&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JAA12CT705&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="720.061" y="586.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JAA10CP903&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JAA10CP903&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="720.061" y="617.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JAA10CP704&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JAA10CP704&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="720.061" y="648.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KUA12CQ001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KUA12CQ001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;Q&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="720.061" y="679.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JAA10CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JAA10CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="720.061" y="710.576" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;11JAA23CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JAA23CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="917.703" y="708" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC31FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC31FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="917.703" y="820" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC33FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC33FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="524.517" y="708" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC21FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC21FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="524.517" y="820" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC23FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC23FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="434.586" y1="437.621" x2="657.103" y2="437.231" stroke="black" stroke-width="1.71094" transform="flipY() translate(0 -828) translate(1211.3 23.1333) matrix(-1.16786 0 0 0.555607 0 0)"/> 
+  <circle cx="593.095" cy="492.007" r="35.6677" fill="Col_Grey3" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(839.952 -23.9812) matrix(-0.697729 0 0 0.628245 0 0)"/> 
+  <polyline points="567.617,434.163 567.617,485.117 593.095,459.64 618.575,485.117 618.575,293.709 193.41,293.709" fill="none" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(839.952 30.7387) matrix(-0.697729 0 0 0.541391 0 0)"/> 
+  <image x="524.517" y="532.244" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC11FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC11FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="524.517" y="643.244" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC13FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC13FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="907.295" y1="436.343" x2="1127.57" y2="436.292" stroke="black" stroke-width="1.68848" transform="flipY() translate(0 -828) translate(-165.868 24.3219) scale(1.18433 0.555607)"/> 
+  <circle cx="1388.58" cy="493.192" r="35.6677" fill="Col_Grey3" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(218.486 -26.4146) scale(0.697729 0.634592)"/> 
+  <image x="917.703" y="532.244" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC41FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC41FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="917.703" y="643.244" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC43FT901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC43FT901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="3.66665" y1="127" x2="1908" y2="127" stroke="black"/> 
+  <image x="75.0001" y="133.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10MKA01CE901_XQ01&quot;</title>
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10MKA01CE901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+  </image>
+  <image x="1130.08" y="902.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KBA40CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA40CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1130.08" y="932.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KBA40CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA40CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1130.08" y="962.333" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KBA40CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="1130.67" y="871.667" width="171.667" height="24" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey3"/> 
+  <text x="1183.33" y="890" fill="black" font-size="15">KBA40</text>
+  <image x="940.82" y="902.833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KBA10CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA10CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="940.82" y="962.833" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10KBA10CT002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA10CT002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <rect x="941.41" y="872.167" width="171.667" height="24" rx="0" ry="0" fill="Col_Grey3" stroke="Col_Grey3"/> 
+  <text x="994.07" y="890.5" fill="black" font-size="15">KBA10</text>
+  <line x1="1205" y1="826" x2="1205" y2="872" stroke="black"/> 
+  <line x1="1096" y1="813" x2="1095.83" y2="870.333" stroke="black"/> 
+  <polygon points="1195.88,826.334 1205.21,811.667 1214.55,826.334" fill="black"/> 
+  <polygon points="1087.33,462.666 1095.33,447.999 1104.66,462.666" fill="black" transform="flipY(659.333)"/> 
+  <image x="412" y="601.333" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;10JEB10AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB10AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <polyline points="568.179,114.028 568.179,164.982 593.657,139.505 619.137,164.982 619.137,-26.4263 193.972,-26.4263" fill="none" stroke="black" stroke-width="2" transform="flipY() translate(0 -828) translate(839.952 30.7387) matrix(-0.697729 0 0 0.541391 0 0)"/> 
+  <image x="412" y="777" width="70" height="70" xlink:href="DS_motor.svg">
+    <title>&quot;10JEB20AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB20AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <polyline points="-574.803,434.625 -574.803,485.579 -549.325,460.102 -523.845,485.579 -523.845,294.171 -949.011,294.171" fill="none" stroke="black" stroke-width="2" transform="flipX(1205.23) flipY() translate(0 -828) translate(839.952 30.7387) matrix(-0.697729 0 0 0.541391 0 0)"/> 
+  <polyline points="-574.803,112.405 -574.803,163.359 -549.325,137.882 -523.845,163.359 -523.845,-28.0488 -949.011,-28.0488" fill="none" stroke="black" stroke-width="2" transform="flipX(1205.23) flipY() translate(0 -828) translate(839.952 30.7387) matrix(-0.697729 0 0 0.541391 0 0)"/> 
+  <image x="1131" y="602" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX()">
+    <title>&quot;10JEB40AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB40AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="1131" y="779" width="70" height="70" xlink:href="DS_motor.svg" transform="flipX()">
+    <title>&quot;10JEB30AP001&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10JEB30AP001&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <image x="308.773" y="524.258" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEA10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="308.773" y="700.076" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEA20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="1228.7" y="524.258" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEA40&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="1228.7" y="700.076" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEA30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="308.773" y="625.742" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="308.773" y="798.985" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="1228.7" y="625.742" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB40&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="1228.7" y="798.985" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEB30&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <image x="1140.33" y="190.909" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;JEF&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+  </image>
+  <text x="13.3333" y="148.909" fill="black" font-size="14">Nэл</text>
+  <text x="1408" y="27.1667" fill="black" font-size="14">Max Tтвс</text>
+  <text x="1408" y="55.1667" fill="black" font-size="14">Max DTтвс</text>
+  <text x="1408" y="111.652" fill="black" font-size="14">Сред.Твых</text>
+  <text x="1408" y="83.6516" fill="black" font-size="14">Max DTпт</text>
+  <image x="1496.74" y="7.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS51FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS51FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1496.74" y="37.5001" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS56FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS56FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1496.74" y="67.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC00FT902_XQ51&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC00FT902_XQ51&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1496.74" y="97.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC02FT901_XQ51&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC02FT901_XQ51&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1703.18" y="7.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS51FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS51FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1703.18" y="37.5001" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS56FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS56FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1703.18" y="67.5" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEC00FG001_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEC00FG001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1675.24" y="85.1667" fill="black" font-size="14">ГЦТ</text>
+  <text x="284" y="144.666" fill="black" font-size="14">Запас QL</text>
+  <image x="382.606" y="131.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS24FX906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS24FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="565.606" y="131.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS24FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS24FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="901.334" y="141.167" fill="black" font-size="14">Запас<tspan x="901.334" dy="14">DNBR</tspan>
+  </text>
+  <image x="960.667" y="131" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS28FX906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS28FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1135.66" y="131" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS28FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS28FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="750" y="148.834" fill="black" font-size="14">сл</text>
+  <image x="768.243" y="131.667" width="100" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JKS24FG906_XQ03&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JKS24FG906_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1313" y="148.167" fill="black" font-size="14">сл</text>
+  <image x="1502.36" y="135.863" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;10JKS24FX906_XH04&quot;</title>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;АЗ&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;10JKS24FX906_XH04&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+  </image>
+  <text x="1676.5" y="-156.833" fill="black" font-size="14" text-anchor="middle" transform="flipY()">DNBR</text>
+  <image x="1538.73" y="135.863" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;10JKS24FX906_XH03&quot;</title>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ПЗ1&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;10JKS24FX906_XH03&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+  </image>
+  <image x="1710.68" y="136.333" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;10JKS28FX906_XH04&quot;</title>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;АЗ&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;10JKS28FX906_XH04&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+  </image>
+  <image x="1747.93" y="136.333" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+    <title>&quot;10JKS28FX906_XH02&quot;</title>
+    <rt:dyn type="T_Size" mode="constant" value="14"/> 
+    <rt:dyn type="T_String" mode="constant" value="&quot;ПЗ2&quot;"/> 
+    <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;10JKS28FX906_XH02&quot;"/> 
+    <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+  </image>
+  <text x="1475.5" y="-156.5" fill="black" font-size="14" text-anchor="middle" transform="flipY()">QL</text>
+  <image x="14.6978" y="341.606" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(0.000145328) rotate(0 -6.10336e-005 -10)">
+    <title>&quot;10LBA10AA951&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA10AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;pnevmo&quot;"/> 
+  </image>
+  <image x="128.606" y="376.395" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951N_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951N_XG15&quot;"/> 
+  </image>
+  <image x="128.606" y="346.182" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951C_XG35&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951C_XG35&quot;"/> 
+  </image>
+  <text x="86" y="325.516" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК<tspan x="86" dy="11">ЗАКР</tspan>
+  </text>
+  <image x="95.546" y="376.848" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951A_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951A_XG15&quot;"/> 
+  </image>
+  <image x="95.546" y="346.636" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951B_XG25&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951B_XG25&quot;"/> 
+  </image>
+  <image x="50" y="426.272" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951T_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951T_XG11&quot;"/> 
+  </image>
+  <image x="129.39" y="426.272" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951P_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951P_XG11&quot;"/> 
+  </image>
+  <text x="46" y="420.167" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК ОТКР</text>
+  <image x="90.39" y="426.272" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA10AA951Q_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA10AA951Q_XG11&quot;"/> 
+  </image>
+  <image x="171.005" y="344.83" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -6.10336e-005 -10)">
+    <title>&quot;11LBA10AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+  </image>
+  <text x="186.5" y="716.113" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA10<tspan x="186.5" dy="15">AA002</tspan>
+  </text>
+  <text x="-2.8485" y="580.355" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA10<tspan x="-2.8485" dy="15">AA901</tspan>
+  </text>
+  <image x="17.9992" y="207" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;11LBA10AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="70.5" y="580.355" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA10<tspan x="70.5" dy="15">AA902</tspan>
+  </text>
+  <image x="88.9992" y="207" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;12LBA10AA902&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA10AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Operate" mode="constant" value="false"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="181" y="193.583" fill="black" font-size="15" text-anchor="start">11LBA10<tspan x="181" dy="15">AA201</tspan>
+  </text>
+  <image x="177" y="280" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;11LBA10AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA10AA201&quot;"/> 
+  </image>
+  <image x="174" y="211" width="70" height="65" xlink:href="DS_TPTS_SR_ERL_Reg_valve.svg" transform="rotate(270 -6.10352e-005 -10)">
+    <title>&quot;11LBA10AA201&quot;</title>
+    <rt:dyn type="KKS_ERL" mode="constant" value="&quot;11LBA10AA201ERL&quot;"/> 
+    <rt:dyn type="KKS_SR" mode="constant" value="&quot;11LBA10AA201&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="TRUE"/> 
+  </image>
+  <rect x="8.00761" y="588.379" width="258.001" height="398.121" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <image x="49.5081" y="867.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA20CP001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA20CP001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="49.5081" y="895.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JEA20CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JEA20CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="49.5081" y="924.667" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10LAB40CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB40CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="-1.89397" y="987.878" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA20<tspan x="-1.89397" dy="15">AA901</tspan>
+  </text>
+  <image x="20.1203" y="612.151" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;11LBA20AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="73.8636" y="987.878" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA20<tspan x="73.8636" dy="15">AA902</tspan>
+  </text>
+  <image x="91.3326" y="612.151" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;12LBA20AA902&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA20AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <image x="174.788" y="750.605" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -6.10336e-005 -10)">
+    <title>&quot;11LBA20AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="198.106" y="1118.92" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA20<tspan x="198.106" dy="15">AA002</tspan>
+  </text>
+  <text x="191.015" y="601.106" fill="black" font-size="15" text-anchor="start">11LBA20<tspan x="191.015" dy="15">AA201</tspan>
+  </text>
+  <image x="186.985" y="685.394" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;11LBA20AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA20AA201&quot;"/> 
+  </image>
+  <image x="183.879" y="617.151" width="70" height="65" xlink:href="DS_TPTS_SR_ERL_Reg_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;11LBA20AA201&quot;</title>
+    <rt:dyn type="KKS_ERL" mode="constant" value="&quot;11LBA20AA201ERL&quot;"/> 
+    <rt:dyn type="KKS_SR" mode="constant" value="&quot;11LBA20AA201&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="13.9997" y="750.605" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(0.000145328) rotate(0 -6.10336e-005 -10)">
+    <title>&quot;10LBA20AA951&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA20AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;pnevmo&quot;"/> 
+  </image>
+  <text x="32.9545" y="1118.92" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBA20<tspan x="32.9545" dy="15">AA951</tspan>
+  </text>
+  <text x="91.4542" y="737.818" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК<tspan x="91.4542" dy="11">ЗАКР</tspan>
+  </text>
+  <text x="48.6666" y="829.924" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК ОТКР</text>
+  <image x="133.908" y="784.742" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951N_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951N_XG15&quot;"/> 
+  </image>
+  <image x="133.908" y="754.531" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951C_XG35&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951C_XG35&quot;"/> 
+  </image>
+  <image x="99.8482" y="785.196" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951A_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951A_XG15&quot;"/> 
+  </image>
+  <image x="99.8482" y="754.985" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951B_XG25&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951B_XG25&quot;"/> 
+  </image>
+  <image x="52.6666" y="836.424" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951T_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951T_XG11&quot;"/> 
+  </image>
+  <image x="132.057" y="836.424" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951P_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951P_XG11&quot;"/> 
+  </image>
+  <image x="93.0567" y="836.424" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA20AA951Q_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA20AA951Q_XG11&quot;"/> 
+  </image>
+  <text x="1294.29" y="580.333" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA40<tspan x="1294.29" dy="15">AA901</tspan>
+  </text>
+  <image x="1314.82" y="205.545" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;11LBA40AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA40AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="1370.8" y="580.333" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA40<tspan x="1370.8" dy="15">AA902</tspan>
+  </text>
+  <image x="1391.33" y="207.061" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;12LBA40AA902&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="1481.21" y="193.561" fill="black" font-size="15" text-anchor="start">12LBA40<tspan x="1481.21" dy="15">AA201</tspan>
+  </text>
+  <image x="1475.18" y="280.303" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;12LBA40AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA201&quot;"/> 
+  </image>
+  <image x="1472.15" y="212.121" width="70" height="65" xlink:href="DS_TPTS_SR_ERL_Reg_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;12LBA40AA201&quot;</title>
+    <rt:dyn type="KKS_ERL" mode="constant" value="&quot;12LBA40AA201ERL&quot;"/> 
+    <rt:dyn type="KKS_SR" mode="constant" value="&quot;12LBA40AA201&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1475" y="343.565" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -6.10336e-005 -10)">
+    <title>&quot;12LBA40AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA40AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1493.76" y="711.56" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA40<tspan x="1493.76" dy="15">AA002</tspan>
+  </text>
+  <image x="1314.4" y="343.565" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(0.000145328) rotate(0 -6.10336e-005 -10)">
+    <title>&quot;10LBA40AA951&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA40AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;pnevmo&quot;"/> 
+  </image>
+  <text x="1326.5" y="711.272" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBA40<tspan x="1326.5" dy="15">AA951</tspan>
+  </text>
+  <image x="1434.06" y="378.425" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951N_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951N_XG15&quot;"/> 
+  </image>
+  <image x="1352.1" y="427.088" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951T_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951T_XG11&quot;"/> 
+  </image>
+  <image x="1434.06" y="348.213" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951C_XG35&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951C_XG35&quot;"/> 
+  </image>
+  <image x="1431.49" y="427.088" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951P_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951P_XG11&quot;"/> 
+  </image>
+  <text x="1390" y="331.167" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК<tspan x="1390" dy="11">ЗАКР</tspan>
+  </text>
+  <text x="1350" y="422.167" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК ОТКР</text>
+  <image x="1400" y="378.879" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951A_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951A_XG15&quot;"/> 
+  </image>
+  <image x="1400" y="348.667" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951B_XG25&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951B_XG25&quot;"/> 
+  </image>
+  <image x="1392.49" y="427.088" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA40AA951Q_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA40AA951Q_XG11&quot;"/> 
+  </image>
+  <text x="1294.02" y="986.393" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">11LBA30<tspan x="1294.02" dy="15">AA901</tspan>
+  </text>
+  <image x="1315.57" y="610.811" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;11LBA30AA901&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;11LBA30AA901&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="1381.89" y="986.393" fill="black" font-size="15" text-anchor="start" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA30<tspan x="1381.89" dy="15">AA902</tspan>
+  </text>
+  <image x="1398.91" y="610.811" width="57.5" height="75" xlink:href="DS_pulse_valve.svg" transform="flipX(6.2503) flipY(-4.99996) flipX(6.24977) flipY(-4.99999) flipX(6.24988)">
+    <title>&quot;12LBA30AA902&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA902&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;BIN&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;none&quot;"/> 
+    <rt:dyn type="SIG_Open" mode="constant" value="&quot;XG11&quot;"/> 
+    <rt:dyn type="SIG_Close" mode="constant" value="&quot;XG61&quot;"/> 
+    <rt:dyn type="SIG_Fail" mode="constant" value="&quot;XM26&quot;"/> 
+  </image>
+  <text x="1485.24" y="599.621" fill="black" font-size="15" text-anchor="start">12LBA30<tspan x="1485.24" dy="15">AA201</tspan>
+  </text>
+  <image x="1478.24" y="683.364" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+    <title>&quot;12LBA30AA201&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA201&quot;"/> 
+  </image>
+  <image x="1475.18" y="615.811" width="70" height="65" xlink:href="DS_TPTS_SR_ERL_Reg_valve.svg" transform="rotate(270 0 -10)">
+    <title>&quot;12LBA30AA201&quot;</title>
+    <rt:dyn type="KKS_ERL" mode="constant" value="&quot;12LBA30AA201ERL&quot;"/> 
+    <rt:dyn type="KKS_SR" mode="constant" value="&quot;12LBA30AA201&quot;"/> 
+    <rt:dyn type="NoSP" mode="constant" value="TRUE"/> 
+  </image>
+  <image x="1319.12" y="751.939" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="flipX(0.000145328) rotate(0 -6.10336e-005 -10)">
+    <title>&quot;10LBA30AA951&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;10LBA30AA951&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    <rt:dyn type="Drive" mode="constant" value="&quot;pnevmo&quot;"/> 
+  </image>
+  <text x="1395.97" y="735.273" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК<tspan x="1395.97" dy="11">ЗАКР</tspan>
+  </text>
+  <image x="1437.85" y="784.364" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951N_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951N_XG15&quot;"/> 
+  </image>
+  <image x="1437.85" y="754.152" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951C_XG35&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951C_XG35&quot;"/> 
+  </image>
+  <image x="1404.79" y="784.818" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951A_XG15&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951A_XG15&quot;"/> 
+  </image>
+  <image x="1404.79" y="754.606" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951B_XG25&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951B_XG25&quot;"/> 
+  </image>
+  <text x="1355.64" y="829.727" fill="black" font-size="11" text-anchor="start">ПОЛОЖ БЗОК ОТКР</text>
+  <image x="1356.06" y="835.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951T_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951T_XG11&quot;"/> 
+  </image>
+  <image x="1435.45" y="835.455" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12LBA30AA951P_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951P_XG11&quot;"/> 
+  </image>
+  <image x="1396.45" y="835.455" width="25" height="25" xlink:href="bin_indicator.svg" id="SVGImage246">
+    <title>&quot;12LBA30AA951Q_XG11&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12LBA30AA951Q_XG11&quot;"/> 
+  </image>
+  <text x="1329.17" y="1115.85" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">10LBA30<tspan x="1329.17" dy="15">AA951</tspan>
+  </text>
+  <image x="1478.58" y="747.437" width="70" height="65" xlink:href="DS_CO_valve.svg" transform="rotate(0 -6.10336e-005 -10)">
+    <title>&quot;12LBA30AA002&quot;</title>
+    <rt:dyn type="KKS" mode="constant" value="&quot;12LBA30AA002&quot;"/> 
+    <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+  </image>
+  <text x="1491.29" y="1117.36" fill="black" font-size="15" text-anchor="middle" rt:text-vertanchor="start" transform="flipY(243.864) rotate(0 0 1.4013e-045) flipX(212) flipX(202.25) flipY(437.25)">12LBA30<tspan x="1491.29" dy="15">AA002</tspan>
+  </text>
+  <line x1="7" y1="311" x2="267.1" y2="311" stroke="black"/> 
+  <line x1="7" y1="717" x2="267.1" y2="717" stroke="black"/> 
+  <line x1="1308" y1="310.5" x2="1568.1" y2="310.5" stroke="black"/> 
+  <line x1="1308" y1="715.5" x2="1568.1" y2="715.5" stroke="black"/> 
+  <image x="432" y="745" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;11JEC20CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JEC20CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS1" mode="constant" value="&quot;11JEC20CP902E_XQ01&quot;"/> 
+    <rt:dyn type="FKKS2" mode="constant" value="&quot;11JEC20CP902D_XQ01&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="430" y="570" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;11JEC10CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JEC10CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS1" mode="constant" value="&quot;11JEC10CP902E_XQ01&quot;"/> 
+    <rt:dyn type="FKKS2" mode="constant" value="&quot;11JEC10CP902D_XQ01&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="941" y="932" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10KBA10CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10KBA10CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="719" y="754" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JAA10CT004&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JAA10CT004&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="719" y="786" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;10JAA10CT005&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10JAA10CT005&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="49.5001" y="545" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10LAB30CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB30CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="47" y="955" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10LAB40CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB40CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1353.25" y="953.5" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10LAB50CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB50CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1355.75" y="546.25" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;10LAB60CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;10LAB60CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F &quot;"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <rect x="1588.25" y="631.25" width="321.25" height="163.5" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <line x1="1588.56" y1="658.576" x2="1908.26" y2="658.576" stroke="black"/> 
+  <line x1="1645.75" y1="630.75" x2="1645.75" y2="794.75" stroke="black"/> 
+  <line x1="1780" y1="631" x2="1780" y2="796" stroke="black"/> 
+  <line x1="1588.75" y1="693.25" x2="1908.45" y2="693.25" stroke="black"/> 
+  <line x1="1589.75" y1="727.174" x2="1909.45" y2="727.174" stroke="black"/> 
+  <text x="1595.5" y="681.75" fill="black" font-size="15">ПЗ-1</text>
+  <image x="1699.63" y="664.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JTN13ET210_XR90&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JTN13ET210_XR90&quot;"/> 
+  </image>
+  <text x="1595.5" y="715.5" fill="black" font-size="15">ПЗ-2</text>
+  <image x="1699.63" y="698" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JTN13ET220_XR91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JTN13ET220_XR91&quot;"/> 
+  </image>
+  <text x="1595.5" y="748.875" fill="black" font-size="15">УПЗ</text>
+  <image x="1699.63" y="731.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JTN13ET230_XR93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JTN13ET230_XR92&quot;"/> 
+  </image>
+  <text x="1595.5" y="784" fill="black" font-size="15">РОМ</text>
+  <image x="1699.63" y="766.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JTN13ET240_XR93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JTN13ET240_XR93&quot;"/> 
+  </image>
+  <line x1="1588.75" y1="761.75" x2="1908.45" y2="761.75" stroke="black"/> 
+  <text x="1669" y="650.25" fill="black" font-size="15">Комплект1</text>
+  <text x="1799.75" y="649" fill="black" font-size="15">Комплект2</text>
+  <image x="1830.38" y="664.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JTN13ET210_XR90&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JTN13ET210_XR90&quot;"/> 
+  </image>
+  <image x="1830.38" y="698" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JTN13ET220_XR91&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JTN13ET220_XR91&quot;"/> 
+  </image>
+  <image x="1830.38" y="731.375" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JTN13ET230_XR92&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JTN13ET230_XR92&quot;"/> 
+  </image>
+  <image x="1830.38" y="766.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JTN13ET240_XR93&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JTN13ET240_XR93&quot;"/> 
+  </image>
+  <rect x="1589.8" y="858.25" width="319.5" height="130.75" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+  <line x1="1590.11" y1="885.576" x2="1909.81" y2="885.576" stroke="black"/> 
+  <line x1="1647.55" y1="857.75" x2="1647.55" y2="990.25" stroke="black"/> 
+  <line x1="1781.55" y1="858" x2="1781.55" y2="990.25" stroke="black"/> 
+  <line x1="1590.3" y1="920.25" x2="1910" y2="920.25" stroke="black"/> 
+  <line x1="1590.3" y1="954.174" x2="1910" y2="954.174" stroke="black"/> 
+  <text x="1614.43" y="908.75" fill="black" font-size="15">E</text>
+  <text x="1668.55" y="877.25" fill="black" font-size="15">Комплект1</text>
+  <text x="1792.74" y="876" fill="black" font-size="15">Комплект2</text>
+  <image x="1699.18" y="892.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JRE01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JRE01EU232_XE53&quot;"/> 
+  </image>
+  <image x="1823.37" y="895.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JRE01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JRE01EU232_XE53&quot;"/> 
+  </image>
+  <image x="1699.18" y="925.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JRF01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JRF01EU232_XE53&quot;"/> 
+  </image>
+  <image x="1823.37" y="925.25" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JRF01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JRF01EU232_XE53&quot;"/> 
+  </image>
+  <image x="1699.18" y="958.5" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;11JRG01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;11JRG01EU232_XE53&quot;"/> 
+  </image>
+  <image x="1823.37" y="959.75" width="25" height="25" xlink:href="bin_indicator.svg">
+    <title>&quot;12JRG01EU232_XE53&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;12JRG01EU232_XE53&quot;"/> 
+  </image>
+  <text x="1615.05" y="944" fill="black" font-size="15">F</text>
+  <text x="1613.8" y="976.5" fill="black" font-size="15">G</text>
+  <text x="1643.25" y="842.5" fill="black" font-size="15">Сейсмическое воздействие</text>
+  <image x="999" y="570" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;11JEC40CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JEC40CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS1" mode="constant" value="&quot;11JEC40CP902E_XQ01&quot;"/> 
+    <rt:dyn type="FKKS2" mode="constant" value="&quot;11JEC40CP902D_XQ01&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="999" y="745" width="175" height="25" xlink:href="DS_ana_900.svg">
+    <title>&quot;11JEC30CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;11JEC30CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;dP&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="FKKS1" mode="constant" value="&quot;11JEC40CP902E_XQ01&quot;"/> 
+    <rt:dyn type="FKKS2" mode="constant" value="&quot;11JEC40CP902D_XQ01&quot;"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <text x="29" y="-15.8333" fill="black" font-size="15" text-anchor="middle" transform="flipY()">JAA</text>
+  <text x="961" y="-25" fill="black" font-size="30" font-weight="700" text-anchor="middle" transform="flipY()">Система реактора</text>
+</svg>

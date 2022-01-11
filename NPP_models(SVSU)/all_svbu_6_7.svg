@@ -1,0 +1,475 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="all_svbu_6_7">
+  <title>НОВОВОРОНЕЖСКАЯ АЭС. ЭНЕРГОБЛОК №7</title>
+  <rt:model modelversion="7.2.0.24" comment="RASU" revision="3"/> 
+  <polygon points="1682.5,-866.75 1682.58,-856.75 1689,-862"/> 
+  <line x1="1573.67" y1="268.182" x2="1573.67" y2="268.182" stroke="black"/> 
+  <line x1="1588.82" y1="283.334" x2="1588.82" y2="283.334" stroke="black"/> 
+  <g transform="flipY(411.111) rotate(90 1.4013e-045 1.4013e-045) flipX(1463.73) flipX(448.838) flipX(1844.84) flipX(1153.84) flipX(1153.84) rotate(270 1153.84 98.3365)">
+    <g transform="rotate(270 51.3365 123.226)"/> 
+  </g>
+  <g transform="rotate(270 51.3365 123.226)">
+    <polygon points="4003.99,1176.23 4003.99,1201.71 3963.23,1201.71 3950.49,1188.97 3963.23,1176.23 4003.99,1176.23" fill="#e1e1e1" stroke="black" stroke-width="0.97168" transform="rotate(0 0 1.4013e-045) flipX(46.3365)">
+      <title>FAK10_2</title>
+      <rt:event type="OnClick">LoadNew(&quot;fal50_70&quot;)</rt:event>
+    </polygon>
+  </g>
+  <text x="38" y="150" font-size="20" font-weight="bold">СКУ РО</text>
+  <text x="257" y="150" font-size="20" font-weight="bold">УСБТ</text>
+  <text x="525" y="150" font-size="20" font-weight="bold">СКУ ТО</text>
+  <text x="875" y="50" font-size="45" font-weight="bold">СВБУ</text>
+  <image x="450" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lab00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB00&quot;"/> 
+  </image>
+  <image x="450" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основого конденсата</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lca00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCA00&quot;"/> 
+  </image>
+  <image x="450" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вспомогательной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lah&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAH&quot;"/> 
+  </image>
+  <image x="450" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lac00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC00&quot;"/> 
+  </image>
+  <image x="450" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенерации высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lad00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD00&quot;"/> 
+  </image>
+  <image x="450" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_lbg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG&quot;"/> 
+  </image>
+  <image x="450" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ТА-Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_ta&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;TA&quot;"/> 
+  </image>
+  <image x="575" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_pcc34&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC34&quot;"/> 
+  </image>
+  <image x="575" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦНД</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_mac&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAC&quot;"/> 
+  </image>
+  <image x="575" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подшипники турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_mad&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAD&quot;"/> 
+  </image>
+  <image x="575" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦВД</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_maa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAA&quot;"/> 
+  </image>
+  <image x="575" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_man&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAN&quot;"/> 
+  </image>
+  <image x="575" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вакуумирования главных конденсаторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_maj&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAJ&quot;"/> 
+  </image>
+  <image x="575" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система маслоснабжения регулирования БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_mxn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MXN&quot;"/> 
+  </image>
+  <image x="575" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регулирования турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_max51_59&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAX51-59&quot;"/> 
+  </image>
+  <image x="450" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_pcb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCB&quot;"/> 
+  </image>
+  <image x="25" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система организованных протечек теплоносителя эксплутационного качества</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jet&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JET&quot;"/> 
+  </image>
+  <image x="25" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры ГЦНА</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jeb00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB00&quot;"/> 
+  </image>
+  <image x="25" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Корпус реактора</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JAA&quot;"/> 
+  </image>
+  <image x="25" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_pgb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50&quot;"/> 
+  </image>
+  <image x="450" y="575" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Градирня</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_ura&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;URA&quot;"/> 
+  </image>
+  <image x="300" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_peb10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB10-20&quot;"/> 
+  </image>
+  <image x="300" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_psp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP&quot;"/> 
+  </image>
+  <image x="300" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_psp1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 1&quot;"/> 
+  </image>
+  <image x="300" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_psp2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 2&quot;"/> 
+  </image>
+  <image x="300" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_12jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;12JND&quot;"/> 
+  </image>
+  <image x="300" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_11jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;11JND&quot;"/> 
+  </image>
+  <image x="301" y="326" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного охлаждения активной зоны (пассивная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jng50_80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG50-80&quot;"/> 
+  </image>
+  <image x="176" y="176" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система компенсации давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jef&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEF&quot;"/> 
+  </image>
+  <image x="301" y="276" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jng10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG10-40&quot;"/> 
+  </image>
+  <image x="176" y="276" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_11jna_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;11JNA-2&quot;"/> 
+  </image>
+  <image x="176" y="376" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_12jna_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;12JNA-4&quot;"/> 
+  </image>
+  <image x="176" y="226" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_11jna_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;11JNA-1&quot;"/> 
+  </image>
+  <image x="176" y="326" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_12jna_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;12JNA-3&quot;"/> 
+  </image>
+  <image x="175" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного расхолаживания ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB10-20&quot;"/> 
+  </image>
+  <image x="175" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного расхолаживания ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb30_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB30-40&quot;"/> 
+  </image>
+  <image x="176" y="526" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB50&quot;"/> 
+  </image>
+  <image x="176" y="576" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB60&quot;"/> 
+  </image>
+  <image x="176" y="626" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb70&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB70&quot;"/> 
+  </image>
+  <image x="176" y="676" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_jnb80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB80&quot;"/> 
+  </image>
+  <text x="109" y="63" fill="black" font-size="15" font-weight="700" text-anchor="middle">
+    <title>Схема КИП насосов охлаждения бассейна выдержки</title>
+ALL_SVBU_6_7</text>
+  <image x="25" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки-подпитки I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_kba00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA00&quot;"/> 
+  </image>
+  <image x="450" y="625" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;6_mkg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MKG&quot;"/> 
+  </image>
+  <image x="575" y="575" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;6_er1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСР&quot;"/> 
+  </image>
+  <text x="375" y="100" font-size="30" font-weight="bold">6 блок</text>
+  <text x="1038" y="150" font-size="20" font-weight="bold">СКУ РО</text>
+  <text x="1257" y="150" font-size="20" font-weight="bold">УСБТ</text>
+  <text x="1525" y="150" font-size="20" font-weight="bold">СКУ ТО</text>
+  <image x="1450" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lab00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAB00&quot;"/> 
+  </image>
+  <image x="1450" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основого конденсата</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lca00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LCA00&quot;"/> 
+  </image>
+  <image x="1450" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вспомогательной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lah&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAH&quot;"/> 
+  </image>
+  <image x="1450" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов основной питательной воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lac00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAC00&quot;"/> 
+  </image>
+  <image x="1450" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регенерации высокого давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lad00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LAD00&quot;"/> 
+  </image>
+  <image x="1450" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_lbg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;LBG&quot;"/> 
+  </image>
+  <image x="1450" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>ТА-Второй контур</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_ta&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;TA&quot;"/> 
+  </image>
+  <image x="1575" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;07_pcc34&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCC34&quot;"/> 
+  </image>
+  <image x="1575" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦНД</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_mac&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAC&quot;"/> 
+  </image>
+  <image x="1575" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Подшипники турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_mad&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAD&quot;"/> 
+  </image>
+  <image x="1575" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система ЦВД</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_maa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAA&quot;"/> 
+  </image>
+  <image x="1575" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_man&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAN&quot;"/> 
+  </image>
+  <image x="1575" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система вакуумирования главных конденсаторов</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_maj&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAJ&quot;"/> 
+  </image>
+  <image x="1575" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система маслоснабжения регулирования БРУ-К</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_mxn&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MXN&quot;"/> 
+  </image>
+  <image x="1575" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система регулирования турбины</title>
+    <rt:event type="OnClick">LoadNew(&quot;07_max51_59&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MAX51-59&quot;"/> 
+  </image>
+  <image x="1450" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_pcb&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PCB&quot;"/> 
+  </image>
+  <image x="1025" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система организованных протечек теплоносителя эксплутационного качества</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jet&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JET&quot;"/> 
+  </image>
+  <image x="1025" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Параметры ГЦНА</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jeb00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEB00&quot;"/> 
+  </image>
+  <image x="1025" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Корпус реактора</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jaa&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JAA&quot;"/> 
+  </image>
+  <image x="1025" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система промконтура потребителей нормальной эксплуатации</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_pgb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PGB50&quot;"/> 
+  </image>
+  <image x="1450" y="575" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Градирня</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_ura&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;URA&quot;"/> 
+  </image>
+  <image x="1025" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система продувки-подпитки I контура</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_kba00&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;KBA00&quot;"/> 
+  </image>
+  <image x="1450" y="625" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;7_mkg&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;MKG&quot;"/> 
+  </image>
+  <image x="1575" y="575" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;7_er1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;ЭЧСР&quot;"/> 
+  </image>
+  <text x="1375" y="100" font-size="30" font-weight="bold">7 блок</text>
+  <image x="1300" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система трубопроводов охлаждающей воды</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_peb10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PEB10-20&quot;"/> 
+  </image>
+  <image x="1300" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_psp&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP&quot;"/> 
+  </image>
+  <image x="1300" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_psp1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 1&quot;"/> 
+  </image>
+  <image x="1300" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Программно-ступенчатый пуск</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_psp2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;PSP- 2&quot;"/> 
+  </image>
+  <image x="1300" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_22jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22JND&quot;"/> 
+  </image>
+  <image x="1300" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного ввода бора</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_21jnd&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21JND&quot;"/> 
+  </image>
+  <image x="1300" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного охлаждения активной зоны (пассивная часть)</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jng50_80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG50-80&quot;"/> 
+  </image>
+  <image x="1175" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система компенсации давления</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jef&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JEF&quot;"/> 
+  </image>
+  <image x="1300" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система гидроемкостей второй ступени (пассивная часть системы аварийного охлаждения зоны)</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jng10_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNG10-40&quot;"/> 
+  </image>
+  <image x="1175" y="275" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_21jna_2&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21JNA-2&quot;"/> 
+  </image>
+  <image x="1175" y="375" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_22jna_4&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22JNA-4&quot;"/> 
+  </image>
+  <image x="1175" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_21jna_1&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;21JNA-1&quot;"/> 
+  </image>
+  <image x="1175" y="325" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного и планового расхолаживания I контура и охлаждения бассейна выдержки</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_22jna_3&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;22JNA-3&quot;"/> 
+  </image>
+  <image x="1175" y="425" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного расхолаживания ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb10_20&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB10-20&quot;"/> 
+  </image>
+  <image x="1175" y="475" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система аварийного расхолаживания ПГ</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb30_40&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB30-40&quot;"/> 
+  </image>
+  <image x="1175" y="525" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb50&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB50&quot;"/> 
+  </image>
+  <image x="1175" y="575" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb60&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB60&quot;"/> 
+  </image>
+  <image x="1175" y="625" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb70&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB70&quot;"/> 
+  </image>
+  <image x="1175" y="675" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Система пассивного отвода тепла</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_jnb80&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;JNB80&quot;"/> 
+  </image>
+  <text x="734" y="150" font-size="20" font-weight="bold">СКУ ЭЧ</text>
+  <image x="725" y="174" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;6_shemas_n&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Схема СН&quot;"/> 
+  </image>
+  <image x="724" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;6_blolg_t&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Блок Г-Т&quot;"/> 
+  </image>
+  <text x="1730" y="150" font-size="20" font-weight="bold">СКУ ЭЧ</text>
+  <image x="1725" y="175" width="100" height="25" xlink:href="obj_Button.svg">
+    <title>Насосные установки</title>
+    <rt:event type="OnClick">LoadNew(&quot;7_shema_s_n&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Схема СН&quot;"/> 
+  </image>
+  <image x="1725" y="225" width="100" height="25" xlink:href="obj_Button.svg">
+    <rt:event type="OnClick">LoadNew(&quot;7_blok_g_t&quot;)</rt:event>
+    <rt:dyn type="Label" mode="constant" value="&quot;Блок Г-Т&quot;"/> 
+  </image>
+</svg>

@@ -1,0 +1,1605 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="reg_to">
+  <title>Регуляторы ТО</title>
+  <rt:model modelversion="7.2.0.24" comment="SVBU" revision="3"/> 
+  <line x1="1106.67" y1="192" x2="1106.67" y2="192" stroke="black"/> 
+  <line x1="378.212" y1="484.849" x2="378.212" y2="484.849" stroke="black"/> 
+  <line x1="1629.73" y1="734.091" x2="1629.83" y2="734.091"/> 
+  <text x="35" y="20.5" fill="black" font-size="15" font-weight="700">REG_TO</text>
+  <text x="979" y="28" fill="black" font-size="30" font-weight="700" text-anchor="middle">Регуляторы ТО</text>
+  <image x="30" y="83.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAH&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lah&quot;"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="30.1429" y="207.679" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20JEA10CL902&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA10CL902&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="30.1428" y="235.678" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20LAB30CF901&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB30CF901&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="91.0799" y="265.678" width="90" height="61" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LAB30CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB30CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+      <rt:dyn type="OneLine" mode="constant" value="1"/> 
+    </image>
+    <image x="86.8926" y="316.678" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LAB30AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB30AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="138.143" y="312.428" font-size="15" text-anchor="middle">Задан L в ПГ-1</text>
+    <image x="172.143" y="347.616" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB31AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB31AA201&quot;"/> 
+    </image>
+    <image x="23.1429" y="347.616" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB30AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB30AA201&quot;"/> 
+    </image>
+    <image x="173.143" y="368.678" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB31AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB31AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="151.143" y="442.678" font-size="15">20LAB31AA201</text>
+    <text x="10.1429" y="442.678" font-size="15">20LAB30AA201</text>
+    <image x="23.1429" y="366.678" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB30AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB30AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="30.1429" y="529.286" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20JEA20CL902&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA20CL902&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="30.1428" y="557.286" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20LAB40CF901&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB40CF901&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="91.0799" y="587.286" width="90" height="61" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LAB40CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB40CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+      <rt:dyn type="OneLine" mode="constant" value="1"/> 
+    </image>
+    <image x="86.8926" y="638.286" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LAB40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB40AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="138.143" y="634.036" font-size="15" text-anchor="middle">Задан L в ПГ-2</text>
+    <image x="172.143" y="669.226" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB41AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB41AA201&quot;"/> 
+    </image>
+    <image x="23.1429" y="669.226" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB40AA201&quot;"/> 
+    </image>
+    <image x="173.143" y="690.286" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB41AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB41AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="151.143" y="764.286" font-size="15">20LAB41AA201</text>
+    <text x="10.1429" y="764.286" font-size="15">20LAB40AA201</text>
+    <image x="23.1429" y="688.286" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB40AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="30.1429" y="848.931" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20JEA30CL902&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA30CL902&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="30.1428" y="876.931" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20LAB50CF901&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB50CF901&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="91.0799" y="906.931" width="90" height="61" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LAB50CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB50CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+      <rt:dyn type="OneLine" mode="constant" value="1"/> 
+    </image>
+    <image x="86.8926" y="957.931" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LAB50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB50AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="138.143" y="953.681" font-size="15" text-anchor="middle">Задан L в ПГ-3</text>
+    <image x="172.143" y="988.866" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB51AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB51AA201&quot;"/> 
+    </image>
+    <image x="23.1429" y="988.866" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB50AA201&quot;"/> 
+    </image>
+    <image x="173.143" y="1009.93" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB51AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB51AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="151.143" y="1083.93" font-size="15">20LAB51AA201</text>
+    <text x="10.1429" y="1083.93" font-size="15">20LAB50AA201</text>
+    <image x="23.1429" y="1007.93" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB50AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="30.1429" y="1173.39" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20JEA40CL902&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20JEA40CL902&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="30.1428" y="1201.39" width="175" height="25" xlink:href="DS_ana_900.svg">
+      <title>&quot;20LAB60CF901&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LAB60CF901&quot;"/> 
+      <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+    </image>
+    <image x="91.0799" y="1231.39" width="90" height="61" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LAB60CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB60CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+      <rt:dyn type="OneLine" mode="constant" value="1"/> 
+    </image>
+    <image x="86.8926" y="1282.39" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LAB60AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB60AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="138.143" y="1278.14" font-size="15" text-anchor="middle">Задан L в ПГ-4</text>
+    <image x="172.143" y="1313.33" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB61AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB61AA201&quot;"/> 
+    </image>
+    <image x="23.1429" y="1313.33" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB60AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB60AA201&quot;"/> 
+    </image>
+    <image x="173.143" y="1334.39" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB61AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB61AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="151.143" y="1408.39" font-size="15">20LAB61AA201</text>
+    <text x="10.1429" y="1408.39" font-size="15">20LAB60AA201</text>
+    <image x="23.1429" y="1332.39" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB60AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB60AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="505.286" y="243.447" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA10AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA202&quot;"/> 
+    </image>
+    <image x="380" y="243.447" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA201&quot;"/> 
+    </image>
+    <text x="482.857" y="338.572" font-size="15">20LCA10AA202</text>
+    <text x="357.75" y="338.572" font-size="15">20LCA10AA201</text>
+    <image x="380" y="263.572" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCA10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="624.214" y="243.447" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA10AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA203&quot;"/> 
+    </image>
+    <image x="626.643" y="263.572" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCA10AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA203&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="607.143" y="338.572" font-size="15">20LCA10AA203</text>
+    <g>
+      <image x="506.286" y="263.572" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCA10AA202&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10AA202&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1248.87" y="216.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH11AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH11AA201&quot;"/> 
+    </image>
+    <image x="1123.58" y="216.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH15AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH15AA201&quot;"/> 
+    </image>
+    <text x="1226.44" y="311.429" font-size="15">20LCH11AA201</text>
+    <text x="1101.32" y="311.429" font-size="15">20LCH15AA201</text>
+    <image x="1123.58" y="236.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCH15AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH15AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="1367.8" y="216.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH12AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH12AA201&quot;"/> 
+    </image>
+    <image x="1370.23" y="236.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCH12AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH12AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1350.73" y="311.429" font-size="15">20LCH12AA201</text>
+    <g>
+      <image x="1249.87" y="236.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCH11AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCH11AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2058.87" y="187.375" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF20AA201&quot;"/> 
+    </image>
+    <image x="1933.58" y="187.375" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF10AA201&quot;"/> 
+    </image>
+    <text x="2036.44" y="282.501" font-size="15">20LBF20AA201</text>
+    <text x="1911.33" y="282.501" font-size="15">20LBF10AA201</text>
+    <image x="1933.58" y="207.501" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LBF10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF10AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="2203.52" y="187.375" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF30AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF30AA201&quot;"/> 
+    </image>
+    <image x="2205.95" y="207.501" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LBF30AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF30AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2186.45" y="282.501" font-size="15">20LBF30AA201</text>
+    <g>
+      <image x="2059.87" y="207.501" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LBF20AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LBF20AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2475.05" y="186.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF50AA201&quot;"/> 
+    </image>
+    <image x="2349.77" y="186.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF40AA201&quot;"/> 
+    </image>
+    <text x="2452.62" y="281.43" font-size="15">20LBF50AA201</text>
+    <text x="2327.52" y="281.43" font-size="15">20LBF40AA201</text>
+    <image x="2349.77" y="206.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LBF40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF40AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="2619.7" y="186.304" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBF60AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF60AA201&quot;"/> 
+    </image>
+    <image x="2620.7" y="206.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LBF60AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBF60AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2601.2" y="281.43" font-size="15">20LBF60AA201</text>
+    <g>
+      <image x="2476.05" y="206.429" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LBF50AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LBF50AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <image x="514" y="151.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCC20CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCC20CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1069.21" y="155.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAD51CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAD51CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="515" y="128.25" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LDF10CF001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LDF10CF001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1069.21" y="132.25" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAD61CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAD61CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1357.32" y="61.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LBG10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBG10CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1637.32" y="61.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAA10CP901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAA10CP901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="505.286" y="532.017" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA20AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA202&quot;"/> 
+    </image>
+    <image x="380" y="532.017" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA201&quot;"/> 
+    </image>
+    <text x="482.857" y="627.144" font-size="15">20LCA20AA202</text>
+    <text x="357.75" y="627.144" font-size="15">20LCA20AA201</text>
+    <image x="380" y="552.142" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCA20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="624.214" y="532.017" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCA20AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA203&quot;"/> 
+    </image>
+    <image x="626.643" y="552.142" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCA20AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA203&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="607.143" y="627.144" font-size="15">20LCA20AA203</text>
+    <g>
+      <image x="506.286" y="552.142" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCA20AA202&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA202&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <image x="514" y="354.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAA10CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAA10CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="515" y="331.25" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCA70CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCA70CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="503.857" y="812.02" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCT50AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA202&quot;"/> 
+    </image>
+    <image x="378.572" y="812.02" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCT50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA201&quot;"/> 
+    </image>
+    <text x="481.429" y="907.147" font-size="15">20LCT50AA202</text>
+    <text x="356.322" y="907.147" font-size="15">20LCT50AA201</text>
+    <image x="378.572" y="832.146" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCT50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="622.785" y="812.02" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCT50AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA203&quot;"/> 
+    </image>
+    <image x="625.214" y="832.146" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCT50AA203&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA203&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="605.714" y="907.147" font-size="15">20LCT50AA203</text>
+    <g>
+      <image x="504.858" y="832.146" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCT50AA202&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA202&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <image x="513" y="559.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCT50CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCT50CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="514" y="536.25" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCT50CF901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCT50CF901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;F&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="514" y="176.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCC20CL003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCC20CL003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="1248.87" y="457.731" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH13AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH13AA201&quot;"/> 
+    </image>
+    <image x="1123.58" y="457.731" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH16AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH16AA201&quot;"/> 
+    </image>
+    <text x="1226.44" y="552.857" font-size="15">20LCH13AA201</text>
+    <text x="1101.32" y="552.857" font-size="15">20LCH16AA201</text>
+    <image x="1123.58" y="477.856" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCH16AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH16AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="1367.8" y="457.731" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCH14AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH14AA201&quot;"/> 
+    </image>
+    <image x="1370.23" y="477.856" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCH14AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH14AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1350.73" y="552.857" font-size="15">20LCH14AA201</text>
+    <g>
+      <image x="1249.87" y="477.856" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCH13AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCH13AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+  </g>
+  <image x="1070.21" y="322.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAD52CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAD52CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1070.21" y="299.25" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAD62CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAD62CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="514" y="380.75" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAA10CL902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAA10CL902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="786.717" y="309.286" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCA10DL201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10DL201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="842.717" y="298.5" font-size="15" text-anchor="middle">Задан L в ПНД2</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="786.717" y="597.857" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCA20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="842.717" y="588.499" font-size="15" text-anchor="middle">Задан L в Деаэр</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="491.571" y="167.143" width="95" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LCA10CH002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA10CH002VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    </image>
+    <image x="632.631" y="177.643" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCA10EE002_XA81&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCA10EE002_XA81&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="430.715" y="177.643" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCA10EE002_XA80&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCA10EE002_XA80&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+  </g>
+  <image x="226.5" y="83.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA10&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca10&quot;"/> 
+  </image>
+  <image x="226.5" y="278" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCA20&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lca20&quot;"/> 
+  </image>
+  <image x="226.5" y="483" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCT50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lct50&quot;"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="491.571" y="448.57" width="95" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LCA20CH002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCA20CH002VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    </image>
+    <image x="632.631" y="459.07" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCA20EE002_XA81&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCA20EE002_XA81&quot;"/> 
+    </image>
+    <image x="430.715" y="459.07" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCA20EE002_XA80&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCA20EE002_XA80&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="491.571" y="728.573" width="95" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LCT50CH101&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50CH101VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o2&quot;"/> 
+    </image>
+    <image x="632.631" y="739.073" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCT50EE007_XA81&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCT50EE007_XA81&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="430.715" y="739.073" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCT50EE007_XA80&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCT50EE007_XA80&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="788.146" y="875.004" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCT50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCT50AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="844.146" y="865.646" font-size="15" text-anchor="middle">Задан L СС СПП</text>
+  </g>
+  <image x="719.862" y="83.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAD51,61&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lad51_61&quot;"/> 
+  </image>
+  <image x="719.862" y="262" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LAD52,62&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lad52_62&quot;"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="1203.86" y="762.019" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS54AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54AA201&quot;"/> 
+    </image>
+    <image x="1072.86" y="762.019" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS54AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54AA202&quot;"/> 
+    </image>
+    <text x="1182.86" y="857.149" font-size="15">20LCS54AA201</text>
+    <text x="1050.61" y="857.149" font-size="15">20LCS54AA202</text>
+    <image x="1072.86" y="782.144" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCS54AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54AA202&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="1331.36" y="762.019" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS56AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS56AA201&quot;"/> 
+    </image>
+    <image x="1332.36" y="782.144" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCS56AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS56AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1312.86" y="857.149" font-size="15">20LCS56AA201</text>
+    <g>
+      <image x="1204.86" y="782.144" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCS54AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+    <image x="1467.36" y="762.019" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS52AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS52AA201&quot;"/> 
+    </image>
+    <image x="1468.36" y="782.144" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCS52AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS52AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1448.86" y="857.149" font-size="15">20LCS52AA201</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1203.86" y="1040.59" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS66AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS66AA201&quot;"/> 
+    </image>
+    <image x="1072.86" y="1040.59" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAB62AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB62AA202&quot;"/> 
+    </image>
+    <text x="1182.86" y="1135.71" font-size="15">20LCS66AA201</text>
+    <text x="1050.61" y="1135.71" font-size="15">20LAB62AA202</text>
+    <image x="1072.86" y="1060.71" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAB62AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAB62AA202&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="1331.36" y="1040.59" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS64AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64AA201&quot;"/> 
+    </image>
+    <image x="1332.36" y="1060.71" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCS64AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1312.86" y="1135.71" font-size="15">20LCS64AA201</text>
+    <g>
+      <image x="1204.86" y="1060.71" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCS66AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCS66AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+    <image x="1467.36" y="1040.59" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCS64AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64AA202&quot;"/> 
+    </image>
+    <image x="1468.36" y="1060.71" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCS64AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64AA202&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1448.86" y="1135.71" font-size="15">20LCS64AA202</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1209.58" y="1311.67" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCN50AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN50AA201&quot;"/> 
+    </image>
+    <image x="1078.58" y="1311.67" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCN40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN40AA201&quot;"/> 
+    </image>
+    <text x="1188.58" y="1406.8" font-size="15">20LCN50AA201</text>
+    <text x="1056.33" y="1406.8" font-size="15">20LCN40AA201</text>
+    <image x="1078.58" y="1331.79" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCN40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN40AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="1337.08" y="1311.67" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCN20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN20AA201&quot;"/> 
+    </image>
+    <image x="1338.08" y="1331.79" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCN20AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN20AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1318.58" y="1406.8" font-size="15">20LCN20AA201</text>
+    <g>
+      <image x="1210.58" y="1331.79" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCN50AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCN50AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+    <image x="1473.08" y="1311.67" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCN20AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN20AA202&quot;"/> 
+    </image>
+    <image x="1474.08" y="1331.79" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCN20AA202&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN20AA202&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="1454.58" y="1406.8" font-size="15">20LCN20AA202</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2065.8" y="411.43" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN51AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS002&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN50DG002_ZV01&quot;"/> 
+    </image>
+    <image x="1934.8" y="411.43" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN51AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS001&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN50DG001_ZV01&quot;"/> 
+    </image>
+    <text x="2044.8" y="506.559" font-size="15">20MXN51AS002</text>
+    <text x="1912.55" y="506.559" font-size="15">20MXN51AS001</text>
+    <image x="1934.8" y="431.555" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20MXN51AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="2229" y="411.43" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN61AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS001&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN60DG001_ZV01&quot;"/> 
+    </image>
+    <image x="2230" y="431.555" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20MXN61AS001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS001&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2210.5" y="506.559" font-size="15">20MXN61AS001</text>
+    <g>
+      <image x="2066.8" y="431.555" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20MXN51AS002&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20MXN51AS002&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+    <image x="2366.41" y="411.43" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MXN61AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS002&quot;"/> 
+      <rt:dyn type="KKS_custom_ZV01" mode="constant" value="&quot;20MAN60DG002_ZV01&quot;"/> 
+    </image>
+    <image x="2365.99" y="431.555" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20MXN61AS002&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MXN61AS002&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2346.49" y="506.559" font-size="15">20MXN61AS002</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2101.86" y="624.517" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCP40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP40AA201&quot;"/> 
+    </image>
+    <image x="1935.15" y="624.517" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCP10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP10AA201&quot;"/> 
+    </image>
+    <text x="2080.86" y="719.647" font-size="15">20LCP40AA201</text>
+    <text x="1912.9" y="719.647" font-size="15">20LCP10AA201</text>
+    <image x="1933.72" y="644.642" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCP10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP10AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <image x="2229.35" y="624.517" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCP41AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP41AA201&quot;"/> 
+    </image>
+    <image x="2230.35" y="644.642" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCP41AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP41AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2210.85" y="719.647" font-size="15">20LCP41AA201</text>
+    <g>
+      <image x="2102.86" y="644.642" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+        <title>&quot;20LCP40AA201&quot;</title>
+        <rt:dyn type="KKS" mode="constant" value="&quot;20LCP40AA201&quot;"/> 
+        <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+        <rt:dyn type="Operate" mode="constant" value="true"/> 
+        <rt:dyn type="NoSP" mode="constant" value="true"/> 
+      </image>
+    </g>
+    <image x="2365.34" y="624.517" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCP42AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP42AA201&quot;"/> 
+    </image>
+    <image x="2366.34" y="644.642" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCP42AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP42AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+    <text x="2346.84" y="719.647" font-size="15">20LCP42AA201</text>
+  </g>
+  <image x="1754.75" y="476.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LAA10CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LAA10CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.75" y="267.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LBA50CP902&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBA50CP902&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.75" y="439.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MAG40CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAG40CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.75" y="415.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MAG10CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAG10CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1315.13" y="578" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MKF12CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKF12CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1537" y="578" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MKF62CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKF62CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1404.32" y="727.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MAV30CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAV30CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1581.19" y="727.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MAX30CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MAX30CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1757.01" y="727.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20MXN20CT001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MXN20CT001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;T&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1098.21" y="538.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCS52CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCS52CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1098.21" y="514.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCS51CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCS51CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1098.21" y="734.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCS62CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCS62CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1098.21" y="711.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCS61CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCS61CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1096.21" y="892" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCN01CL901&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCN01CL901&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1292.32" y="964.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LBW10CP003&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBW10CP003&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1292.32" y="940.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LBW10CP002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LBW10CP002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;P&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.75" y="944.2" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCM01CL002&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM01CL002&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <image x="1754.75" y="920.7" width="175" height="25" xlink:href="DS_ana_900.svg" transform="scale(0.7 0.7)">
+    <title>&quot;20LCM01CL001&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20LCM01CL001&quot;"/> 
+    <rt:dyn type="X" mode="constant" value="&quot;L&quot;"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+    <rt:dyn type="Show_MIS" mode="constant" value="true"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="2076.44" y="1098.44" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20PCB88AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB88AA201&quot;"/> 
+    </image>
+    <text x="2054.19" y="1193.57" font-size="15">20PCB88AA201</text>
+    <image x="2076.44" y="1118.57" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20PCB88AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB88AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1955.72" y="888.442" width="65" height="25" xlink:href="DS_Reg_degree_noZV01.svg">
+      <title>&quot;20PCB22AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB22AA201&quot;"/> 
+    </image>
+    <text x="1933.47" y="983.572" font-size="15">20PCB22AA201</text>
+    <image x="1955.72" y="908.572" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20PCB22AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB22AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2270.7" y="889.156" width="65" height="25" xlink:href="DS_Reg_degree_noZV01.svg">
+      <title>&quot;20PCB21AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB21AA201&quot;"/> 
+    </image>
+    <text x="2248.45" y="984.286" font-size="15">20PCB21AA201</text>
+    <image x="2270.7" y="909.286" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20PCB21AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB21AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2623.21" y="887.371" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LAH05AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAH05AA201&quot;"/> 
+    </image>
+    <text x="2600.96" y="982.501" font-size="15">20LAH05AA201</text>
+    <image x="2623.21" y="907.501" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LAH05AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LAH05AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2332.84" y="1094.87" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20PCB90AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB90AA201&quot;"/> 
+    </image>
+    <text x="2310.59" y="1190" font-size="15">20PCB90AA201</text>
+    <image x="2332.84" y="1115" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20PCB90AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB90AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2582.24" y="1098.44" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20PCB89AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+    </image>
+    <text x="2559.99" y="1193.57" font-size="15">20PCB89AA201</text>
+    <image x="2582.24" y="1118.57" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20PCB89AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20PCB89AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1915.71" y="1233.08" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LBW10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBW10AA201&quot;"/> 
+    </image>
+    <text x="1893.46" y="1328.21" font-size="15">20LBW10AA201</text>
+    <image x="1915.71" y="1253.21" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LBW10AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBW10AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2237.13" y="1311.42" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCM40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCM40AA201&quot;"/> 
+    </image>
+    <text x="2214.88" y="1406.55" font-size="15">20LCM40AA201</text>
+    <image x="2237.13" y="1331.55" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCM40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCM40AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2395.7" y="1311.42" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20LCM42AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCM42AA201&quot;"/> 
+    </image>
+    <text x="2373.45" y="1406.55" font-size="15">20LCM42AA201</text>
+    <image x="2395.7" y="1331.55" width="70" height="65" xlink:href="DS_Reg_valve.svg" transform="flipY(-10) flipY(-10) flipY(-10) rotate(180 0 -10)">
+      <title>&quot;20LCM42AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCM42AA201&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="NoSP" mode="constant" value="true"/> 
+    </image>
+  </g>
+  <image x="719.862" y="452" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCS50&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcs50&quot;"/> 
+  </image>
+  <image x="719.862" y="662.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCS60&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcs60&quot;"/> 
+  </image>
+  <image x="1288.5" y="83.5" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBG&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lbg&quot;"/> 
+  </image>
+  <image x="1288.5" y="229" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;MXN&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;mxn&quot;"/> 
+  </image>
+  <image x="1288.5" y="384" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCP&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcp&quot;"/> 
+  </image>
+  <image x="1288.5" y="539" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;PCB&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;pcb&quot;"/> 
+  </image>
+  <image x="719.862" y="850" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCN&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcn&quot;"/> 
+  </image>
+  <image x="1292" y="811" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LBW&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lbw&quot;"/> 
+  </image>
+  <image x="1525" y="877" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;LCM&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;lcm&quot;"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="503.246" y="994.126" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MAA11AA240&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAA11CG240&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+    </image>
+    <image x="701.808" y="994.126" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MAA13AA240&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAA13CG240&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+    </image>
+    <image x="503.246" y="1102.05" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MAA12AA240&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAA12CG240&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+    </image>
+    <image x="701.808" y="1102.05" width="65" height="25" xlink:href="DS_Reg_degree.svg">
+      <title>&quot;20MAA14AA240&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAA14CG240&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="SIGNAL" mode="constant" value="&quot;XQ01&quot;"/> 
+    </image>
+    <text x="681.608" y="1054.49" font-size="15">20MAA13AA240</text>
+    <text x="470.713" y="1054.49" font-size="15">20MAA11AA240</text>
+    <text x="681.608" y="1169.38" font-size="15">20MAA14AA240</text>
+    <text x="470.713" y="1169.38" font-size="15">20MAA12AA240</text>
+    <image x="574.358" y="1087.63" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+      <title>&quot;20MAA12AA240&quot;</title>
+      <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;20MAA12CG241_XG01&quot;"/> 
+      <rt:dyn type="PointID_ANA" mode="constant" value="&quot;20MAA12CG240_XQ01&quot;"/> 
+      <rt:dyn type="SP_open" mode="constant" value="97"/> 
+    </image>
+    <image x="574.358" y="978.983" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+      <title>&quot;20MAA11AA240&quot;</title>
+      <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;20MAA11CG241_XG01&quot;"/> 
+      <rt:dyn type="PointID_ANA" mode="constant" value="&quot;20MAA11CG240_XQ01&quot;"/> 
+      <rt:dyn type="SP_open" mode="constant" value="97"/> 
+    </image>
+    <image x="639.858" y="978.983" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+      <title>&quot;20MAA13AA240&quot;</title>
+      <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;20MAA13CG241_XG01&quot;"/> 
+      <rt:dyn type="PointID_ANA" mode="constant" value="&quot;20MAA13CG240_XQ01&quot;"/> 
+      <rt:dyn type="SP_open" mode="constant" value="97"/> 
+    </image>
+    <image x="639.858" y="1087.63" width="55" height="55" xlink:href="DS_TurbValve_control.svg">
+      <title>&quot;20MAA12AA240&quot;</title>
+      <rt:dyn type="PointID_BIN_C" mode="constant" value="&quot;20MAA14CG241_XG01&quot;"/> 
+      <rt:dyn type="PointID_ANA" mode="constant" value="&quot;20MAA14CG240_XQ01&quot;"/> 
+      <rt:dyn type="SP_open" mode="constant" value="97"/> 
+    </image>
+    <rect x="629.525" y="1188.1" width="246.667" height="215.238" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+    <image x="688.418" y="1206.75" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20LBB00DT001_XQ31&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LBB00DT001_XQ31&quot;"/> 
+      <rt:dyn type="FName" mode="constant" value="true"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    </image>
+    <image x="688.418" y="1245" width="175" height="25" xlink:href="DS_ana.svg">
+      <title>&quot;20LBB00FT002&quot;</title>
+      <rt:dyn type="FKKS" mode="constant" value="&quot;20LBB00FT002&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+      <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+      <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    </image>
+    <text x="644.668" y="1223.63" fill="black" font-size="15">Т зад</text>
+    <text x="665.918" y="1262.5" fill="black" font-size="15">Т</text>
+    <text x="705.024" y="1296.88" fill="black" font-size="15">РЕГ Т ЗА СПП</text>
+    <image x="722.524" y="1303.38" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20LBB00DT001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LBB00DT001&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+    </image>
+    <rect x="426.856" y="1188.38" width="181" height="216" rx="0" ry="0" fill="Col_Grey3" stroke="black"/> 
+    <image x="502.356" y="1236" width="70" height="65" xlink:href="DS_Reg_valve.svg">
+      <title>&quot;20MAY50DU003A&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAY50DU003A&quot;"/> 
+      <rt:dyn type="DATA_NARY" mode="constant" value="&quot;TPTS&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="445.856" y="1264.25" fill="black" font-size="15">ТРМД</text>
+    <image x="502.356" y="1208.5" width="65" height="25" xlink:href="DS_TPTS_Reg_degree.svg">
+      <title>&quot;20MAY50DU003A&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20MAY50DU003A&quot;"/> 
+      <rt:dyn type="ShowFrame" mode="constant" value="true"/> 
+    </image>
+    <text x="698.144" y="1385" fill="black" rt:fillperc="100%" font-size="15">20LBB00DT001</text>
+    <line x1="601.858" y1="961.233" x2="601.858" y2="1051.24" stroke="black" stroke-width="3"/> 
+    <text x="531.107" y="1335.25" fill="black" font-size="15" text-anchor="middle">Рег Р норм</text>
+    <text x="511.856" y="1379.88" fill="black" font-size="15" text-anchor="middle">РегN</text>
+    <image x="447.856" y="1318.38" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20MAY50DU003_XC34&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC34&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="448.57" y="1363.38" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20MAY50DU003_XC33&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20MAY50DU003_XC33&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <line x1="667.525" y1="960.9" x2="667.525" y2="1050.91" stroke="black" stroke-width="3"/> 
+    <line x1="602.191" y1="1071.71" x2="602.191" y2="1161.71" stroke="black" stroke-width="3"/> 
+    <line x1="667.858" y1="1072.38" x2="667.858" y2="1162.38" stroke="black" stroke-width="3"/> 
+  </g>
+  <image x="248.5" y="745" width="75" height="25" xlink:href="obj_link.svg">
+    <rt:dyn type="TextStr" mode="constant" value="&quot;ЭЧСР&quot;"/> 
+    <rt:event type="OnClick">LoadNew(&quot;&quot;)</rt:event>
+    <rt:dyn type="ModName" mode="constant" value="&quot;er1&quot;"/> 
+  </image>
+  <g transform="scale(0.7 0.7)">
+    <image x="1575.44" y="289.715" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCH11AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH11AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1631.44" y="278.929" font-size="15" text-anchor="middle">Задан L в ПВД-5А</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1575.44" y="521.142" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCH13AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCH13AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1631.44" y="510.356" font-size="15" text-anchor="middle">Задан L в ПВД-5А</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1384.66" y="930" width="95" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LCS64CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1622.58" y="825.431" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCS54AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1678.58" y="814.645" font-size="15" text-anchor="middle">Задан L КС СПП 1</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1622.58" y="1106.86" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCS64AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS64AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1678.58" y="1096.07" font-size="15" text-anchor="middle">Задан L КС СПП 2</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1619.72" y="1334.29" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCN40AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCN40AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="1675.72" y="1323.5" font-size="15" text-anchor="middle">Задан L LCN01BB001</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="1317.52" y="644.282" width="95" height="60" xlink:href="DS_TPTS_VL_spec.svg">
+      <title>&quot;20LCS54CH001&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCS54CH001VL0&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+      <rt:dyn type="VL_type" mode="constant" value="&quot;1o3&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <image x="2571.43" y="746.858" width="100" height="30" xlink:href="DS_TPTS_Reg_set.svg">
+      <title>&quot;20LCP41AA201&quot;</title>
+      <rt:dyn type="KKS" mode="constant" value="&quot;20LCP41AA201&quot;"/> 
+      <rt:dyn type="Operate" mode="constant" value="true"/> 
+    </image>
+    <text x="2627.43" y="736.072" font-size="15" text-anchor="middle">Задан L КНДР</text>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <text x="1171.43" y="739.179" fill="black" font-size="15" text-anchor="middle">В деаэратор</text>
+    <image x="1090.18" y="722.429" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCS00EE001_XA26&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCS00EE001_XA26&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="1226.18" y="722.429" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCS00EE001_XA25&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCS00EE001_XA25&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <text x="1432.4" y="1016.75" fill="black" font-size="15" text-anchor="middle">В деаэратор</text>
+    <image x="1351.15" y="999.998" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCS00EE002_XA25&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCS00EE002_XA25&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="1487.15" y="999.998" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LCS00EE002_XA26&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LCS00EE002_XA26&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <text x="2447.15" y="149.179" fill="black" font-size="15" text-anchor="middle">БРУ-Д</text>
+    <image x="2365.9" y="132.429" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LBF40EE001_XA80&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LBF40EE001_XA80&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="2501.9" y="132.429" width="23.2507" height="23.4151" xlink:href="bin_indicator.svg">
+      <title>&quot;20LBF40EE001_XA81&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LBF40EE001_XA81&quot;"/> 
+    </image>
+  </g>
+  <g transform="scale(0.7 0.7)">
+    <text x="2041.97" y="149.179" fill="black" font-size="15" text-anchor="middle">БРУ-СН</text>
+    <image x="1960.71" y="132.429" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LBF10EE001_XA80&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LBF10EE001_XA80&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+    </image>
+    <image x="2096.72" y="132.429" width="25" height="25" xlink:href="bin_indicator.svg">
+      <title>&quot;20LBF10EE001_XA81&quot;</title>
+      <rt:dyn type="PointID" mode="constant" value="&quot;20LBF10EE001_XA81&quot;"/> 
+    </image>
+  </g>
+  <text x="1287.15" y="201.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В деаэратор</text>
+  <text x="1402.86" y="201.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="1399.29" y="441.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="1500.72" y="746.786" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="1242.86" y="1025.35" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="1247.15" y="1298.22" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="2122.86" y="612.5" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="2386.43" y="613.929" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="2247.86" y="612.5" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="1278.58" y="441.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В деаэратор</text>
+  <text x="1111.43" y="1298.22" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В деаэратор</text>
+  <text x="1435" y="1282.5" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В коллектор горячих<tspan x="1435" dy="15">дренажей высокого давления</tspan>
+  </text>
+  <text x="1100" y="1025.71" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КГТН</text>
+  <text x="1362.15" y="741.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В ПВД №5<tspan x="1362.15" dy="15">гр.А   гр.Б</tspan>
+  </text>
+  <text x="1432.15" y="918.215" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">Предвыбор слива</text>
+  <text x="1370.01" y="631.429" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">Предвыбор слива</text>
+  <text x="2242.15" y="170" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">БРУ-ТФУ</text>
+  <text x="2650" y="170" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">РУ-УПТ</text>
+  <text x="1972.14" y="390" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">БРУ-К<tspan x="1972.14" dy="15">гр.3</tspan>
+  </text>
+  <text x="2093.57" y="390" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">БРУ-К<tspan x="2093.57" dy="15">гр.1</tspan>
+  </text>
+  <text x="2265.72" y="390" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">БРУ-К<tspan x="2265.72" dy="15">гр.2</tspan>
+  </text>
+  <text x="2390.72" y="390.001" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">БРУ-К<tspan x="2390.72" dy="15">гр.4</tspan>
+  </text>
+  <text x="1964.29" y="611.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В деаэратор</text>
+  <text x="1987.15" y="879.643" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">MKF01</text>
+  <text x="2301.42" y="881.072" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">MKF50</text>
+  <text x="2107.15" y="1090" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">MAV</text>
+  <text x="2369.27" y="1088.57" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">MAX</text>
+  <text x="2614.99" y="1091.07" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">MXN</text>
+  <text x="1951.43" y="1224.29" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">На уплотнение ТГ</text>
+  <text x="2621.43" y="583.929" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">КНДР</text>
+  <text x="2618.57" y="673.929" fill="black" font-size="15" text-anchor="middle" transform="scale(0.7 0.7)">В деаэраторе</text>
+</svg>

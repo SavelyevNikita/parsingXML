@@ -1,0 +1,2330 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<svg color="Col_BGSand" xmlns="http://www.w3.org/2000/svg" xmlns:rt="http://www.rts.co.at/2001/XMLSchema/RtSvgPL" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2000/svg C:\RTS\RtSvg\XML\SVG.xsd" viewBox="0 0 1914 1000" width="1914" height="1000" id="svrk_dttpkni" fill="Col_Grey3">
+  <title>Подогрев теплоносителя  в ТВС по показаниям термопар СВРД</title>
+  <rt:model revision="3" comment="UMod all_svrk&#10;LMod svrk_ dnbt&#10;RMod svrk_kq" modelversion="7.2.0.24"/> 
+  <rect x="1220.14" y="211.066" width="1336.07" height="181.567" rx="0" ry="0" fill="#e1e1e1" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(348.839 156.977) scale(0.509091 0.725001)"/> 
+  <text x="1046" y="-280.678" fill="black" font-size="16" text-anchor="start" transform="flipY(357.925) flipY()">Max DT в ТВС</text>
+  <image x="1234.96" y="422.339" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS56FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS56FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1432.11" y="422.339" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS56FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS56FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1017" y="-231.017" fill="black" font-size="16" text-anchor="start" transform="flipY(357.925) flipY()">MAX DT ТВС РАСЧ</text>
+  <image x="1234.96" y="464" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS58FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS58FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1432.11" y="464" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS58FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS58FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="976" y="-230" fill="black" font-size="30" font-weight="700" text-anchor="middle" transform="flipY()">Подогрев теплоносителя  в ТВС по показаниям термопар СВРД</text>
+  <rect x="1.9394" y="2.51516" width="1913.91" height="185.515" rx="0" ry="0" fill="Col_BGwin" stroke="none" stroke-width="2"/> 
+  <image x="63.1209" y="9.03032" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS00FK001_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS00FK001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="4.84842" y="26.4243" fill="black" font-size="14">TЭФФ</text>
+  <text x="4.84842" y="56.4243" fill="black" font-size="14">Nакз</text>
+  <text x="4.84842" y="117.12" fill="black" font-size="14">ОФСЕТ</text>
+  <text x="247.848" y="40.197" fill="black" font-size="14">Запас Ттвс</text>
+  <text x="4.84842" y="86.4242" fill="black" font-size="14">Nэл</text>
+  <line x1="854.515" y1="187.848" x2="854.515" y2="2.51517" stroke="black"/> 
+  <line x1="241.515" y1="186.81" x2="241.515" y2="2.51517" stroke="black"/> 
+  <text x="247.848" y="70.689" fill="black" font-size="14">Запас KV</text>
+  <line x1="241.091" y1="130" x2="1915.33" y2="130" stroke="black"/> 
+  <image x="63.1209" y="39.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS00FU901_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS00FU901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="63.1209" y="69.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20MKA01CE901_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20MKA01CE901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="63.1209" y="99.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS10FX901_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS10FX901_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="247.848" y="159.847" fill="black" font-size="14">Запас QL</text>
+  <image x="343.788" y="23.0303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS51FT906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS51FT906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="343.788" y="53.5228" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS14FX906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS14FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="527.288" y="23.0303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS51FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS51FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="527.288" y="53.5228" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS14FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS14FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="858.515" y="41.5456" fill="black" font-size="14">Max KQ</text>
+  <line x1="1430.52" y1="187.515" x2="1430.52" y2="1.51517" stroke="black"/> 
+  <text x="859.273" y="67.5453" fill="black" font-size="14">Max KV</text>
+  <image x="927.515" y="22.8485" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS06FX902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS06FX902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="927.515" y="52.8486" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS01FX902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS01FX902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1102.51" y="22.8485" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS06FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS06FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1102.51" y="52.8486" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS01FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS01FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1439.52" y="28.6971" fill="black" font-size="14">Max Tтвс</text>
+  <text x="1439.52" y="56.6971" fill="black" font-size="14">Max DTтвс</text>
+  <text x="1439.52" y="112.182" fill="black" font-size="14">Сред.Твых</text>
+  <text x="1439.52" y="84.1819" fill="black" font-size="14">Max DTпт</text>
+  <image x="1525.76" y="9.0303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS51FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS51FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1525.76" y="39.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS56FT902_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS56FT902_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1525.76" y="69.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEC00FT902_XQ51&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC00FT902_XQ51&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1525.76" y="99.03" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEC02FT901_XQ51&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC02FT901_XQ51&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1734.7" y="9.0303" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS51FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS51FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1734.7" y="39.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS56FG902_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS56FG902_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1734.7" y="69.0304" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JEC00FG001_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JEC00FG001_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="344.454" y="146.848" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS24FX906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS24FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="527.454" y="146.848" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS24FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS24FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="865.182" y="156.348" fill="black" font-size="14">Запас<tspan x="865.182" dy="14">DNBR</tspan>
+  </text>
+  <image x="924.515" y="146.181" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS28FX906_XQ01&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS28FX906_XQ01&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <image x="1099.51" y="146.181" width="175" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS28FG906_XQ02&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS28FG906_XQ02&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1703.76" y="86.6971" fill="black" font-size="14">ГЦТ</text>
+  <text x="714.682" y="70.689" fill="black" font-size="14">сл</text>
+  <image x="733.758" y="53.5228" width="100" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS14FG906_XQ03&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS14FG906_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1279.18" y="70.6971" fill="black" font-size="14">сл</text>
+  <image x="1298.85" y="53.5304" width="100" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS01FG902_XQ03&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS01FG902_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="714.682" y="164.015" fill="black" font-size="14">сл</text>
+  <image x="734.091" y="146.848" width="100" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS24FG906_XQ03&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS24FG906_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <text x="1276.85" y="163.348" fill="black" font-size="14">сл</text>
+  <image x="1295.52" y="146.181" width="100" height="25" xlink:href="DS_ana.svg">
+    <title>&quot;20JKS28FG906_XQ03&quot;</title>
+    <rt:dyn type="FKKS" mode="constant" value="&quot;20JKS28FG906_XQ03&quot;"/> 
+    <rt:dyn type="FName" mode="constant" value="true"/> 
+    <rt:dyn type="Color_Readings" mode="constant" value="true"/> 
+    <rt:dyn type="ShowEU" mode="constant" value="false"/> 
+    <rt:dyn type="ValueToTheRight" mode="constant" value="false"/> 
+  </image>
+  <line x1="127.026" y1="298.401" x2="127.026" y2="558.262" stroke="black" stroke-width="0.982422" transform="flipY() translate(0 -828) translate(21.9838 -11.1423) scale(1 1.01655)"/> 
+  <line x1="128.026" y1="298.401" x2="128.026" y2="558.262" stroke="black" stroke-width="0.982422" transform="flipY() translate(0 -828) translate(65.9515 -11.1104) scale(1 1.01655)"/> 
+  <line x1="130.026" y1="294.58" x2="130.026" y2="554.441" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(109.919 11.0904) scale(1 0.982177)"/> 
+  <line x1="131.026" y1="280.023" x2="131.026" y2="539.885" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(241.823 85.8849) scale(1 0.870123)"/> 
+  <line x1="130.026" y1="284.481" x2="130.026" y2="544.342" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(197.855 64.8486) scale(1 0.901638)"/> 
+  <line x1="130.026" y1="284.5" x2="130.026" y2="544.361" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(153.886 64.7668) scale(1 0.901761)"/> 
+  <line x1="130.026" y1="285.827" x2="130.026" y2="545.688" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(373.592 58.2024) scale(1 0.911595)"/> 
+  <line x1="132.026" y1="288.641" x2="132.026" y2="548.502" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(329.625 43.8133) scale(1 0.933153)"/> 
+  <line x1="131.026" y1="288.658" x2="131.026" y2="548.519" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(285.656 43.7315) scale(1 0.933275)"/> 
+  <line x1="133.026" y1="293.857" x2="133.026" y2="553.718" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(593.163 15.2567) scale(1 0.975935)"/> 
+  <line x1="133.026" y1="298.401" x2="133.026" y2="558.262" stroke="black" stroke-width="0.982422" transform="flipY() translate(0 -828) translate(549.33 -11.0464) scale(1 1.01655)"/> 
+  <line x1="134.026" y1="287.927" x2="134.026" y2="547.788" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(505.361 47.5324) scale(1 0.927581)"/> 
+  <line x1="133.026" y1="292.112" x2="133.026" y2="551.973" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(461.527 25.0963) scale(1 0.961194)"/> 
+  <line x1="133.026" y1="290.336" x2="133.026" y2="550.197" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(417.56 34.8112) scale(1 0.946639)"/> 
+  <line x1="-12.1101" y1="394.247" x2="-12.1101" y2="654.108" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(745.877 -23.9999) matrix(4.58481e-008 1 -0.979767 4.67949e-008 0 0)"/> 
+  <line x1="-13.1101" y1="394.247" x2="-13.1101" y2="654.108" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(745.847 15.5661) matrix(4.58481e-008 1 -0.979767 4.67949e-008 0 0)"/> 
+  <line x1="-13.1101" y1="393.779" x2="-13.1101" y2="653.639" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(724.447 55.1324) matrix(4.58481e-008 1 -0.946638 4.52126e-008 0 0)"/> 
+  <line x1="-14.1101" y1="392.545" x2="-14.1101" y2="652.406" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(672.706 94.6986) matrix(4.58481e-008 1 -0.869132 4.15108e-008 0 0)"/> 
+  <line x1="-14.1101" y1="392.541" x2="-14.1101" y2="652.402" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(672.627 134.265) matrix(4.58481e-008 1 -0.869014 4.15052e-008 0 0)"/> 
+  <line x1="-15.1101" y1="391.995" x2="-15.1101" y2="651.856" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(652.35 173.83) matrix(4.58481e-008 1 -0.838638 4.00544e-008 0 0)"/> 
+  <line x1="-15.1101" y1="393.052" x2="-15.1101" y2="652.913" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(692.983 252.963) matrix(4.58481e-008 1 -0.899506 4.29615e-008 0 0)"/> 
+  <line x1="-15.1101" y1="393.051" x2="-15.1101" y2="652.912" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(692.904 292.53) matrix(4.58481e-008 1 -0.899388 4.29559e-008 0 0)"/> 
+  <line x1="-15.1101" y1="392.706" x2="-15.1101" y2="652.568" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(679.034 332.095) matrix(4.58481e-008 1 -0.87861 4.19635e-008 0 0)"/> 
+  <line x1="-15.1101" y1="393.258" x2="-15.1101" y2="653.119" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(701.582 371.662) matrix(4.58481e-008 1 -0.912386 4.35767e-008 0 0)"/> 
+  <line x1="-15.1101" y1="393.474" x2="-15.1101" y2="653.335" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(710.947 407.711) matrix(4.58481e-008 1 -0.926414 4.42467e-008 0 0)"/> 
+  <line x1="-15.1101" y1="392.964" x2="-15.1101" y2="652.825" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(689.319 447.277) matrix(4.58481e-008 1 -0.894017 4.26994e-008 0 0)"/> 
+  <line x1="-15.1102" y1="394.247" x2="-15.1102" y2="654.108" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(745.786 486.844) matrix(4.58481e-008 1 -0.979767 4.67949e-008 0 0)"/> 
+  <line x1="-15.11" y1="393.689" x2="-15.11" y2="653.55" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(720.43 526.409) matrix(4.58481e-008 1 -0.940622 4.49253e-008 0 0)"/> 
+  <line x1="-19.1101" y1="453.852" x2="-19.1101" y2="713.713" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(106.086 529.99) matrix(5.05769e-008 1 0.932473 -4.03721e-008 0 0)"/> 
+  <line x1="-18.1101" y1="450.055" x2="-18.1101" y2="709.915" stroke="black" stroke-width="0.982422" transform="flipY() translate(0 -828) translate(50.3555 450.888) matrix(5.05769e-008 1 1.01595 -4.39865e-008 0 0)"/> 
+  <line x1="-18.1101" y1="455.775" x2="-18.1101" y2="715.636" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(130.943 411.322) matrix(5.05769e-008 1 0.895237 -3.87599e-008 0 0)"/> 
+  <line x1="-15.1101" y1="454.642" x2="-15.1101" y2="714.503" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(116.548 371.725) matrix(5.05769e-008 1 0.916799 -3.96935e-008 0 0)"/> 
+  <line x1="-15.1101" y1="455.451" x2="-15.1101" y2="715.312" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(126.879 332.19) matrix(5.05769e-008 1 0.901325 -3.90235e-008 0 0)"/> 
+  <line x1="-15.1101" y1="456.662" x2="-15.1101" y2="716.523" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(141.754 292.624) matrix(5.12243e-008 1 0.879042 -3.75777e-008 0 0)"/> 
+  <line x1="-15.1101" y1="453.677" x2="-15.1101" y2="713.538" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(103.718 253.057) matrix(5.09309e-008 1 0.936018 -4.02439e-008 0 0)"/> 
+  <line x1="-15.1101" y1="454.998" x2="-15.1101" y2="714.86" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(121.149 213.492) matrix(5.10604e-008 1 0.909907 -3.90221e-008 0 0)"/> 
+  <line x1="-15.1101" y1="459.854" x2="-15.1101" y2="719.715" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(177.615 173.925) matrix(5.07476e-008 1 0.825323 -3.56128e-008 0 0)"/> 
+  <line x1="-14.1101" y1="457.885" x2="-14.1101" y2="717.746" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(156.033 134.327) matrix(5.07476e-008 1 0.857651 -3.70077e-008 0 0)"/> 
+  <line x1="-13.1101" y1="457.953" x2="-13.1101" y2="717.814" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(156.809 94.7614) matrix(5.07476e-008 1 0.856489 -3.69576e-008 0 0)"/> 
+  <line x1="-12.1101" y1="453.293" x2="-12.1101" y2="713.155" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(98.4445 15.5977) matrix(5.07476e-008 1 0.943918 -4.07302e-008 0 0)"/> 
+  <line x1="-13.1101" y1="451.795" x2="-13.1101" y2="711.657" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(77.095 -23.9686) matrix(5.07476e-008 1 0.9759 -4.21102e-008 0 0)"/> 
+  <line x1="-15.1101" y1="392.16" x2="-15.1101" y2="652.021" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(657.719 213.397) matrix(4.63382e-008 1 -0.847603 4.00544e-008 0 0)"/> 
+  <line x1="127.026" y1="544.339" x2="127.026" y2="804.2" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(43.9678 641.425) matrix(1 0 0 -0.899888 0 0)"/> 
+  <line x1="127.026" y1="548.972" x2="127.026" y2="808.834" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(87.9354 621.74) matrix(1 0 0 -0.870398 0 0)"/> 
+  <line x1="127.026" y1="563.401" x2="127.026" y2="823.262" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(131.904 567.928) matrix(1 0 0 -0.789779 0 0)"/> 
+  <line x1="128.026" y1="563.189" x2="128.026" y2="823.05" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(175.871 568.642) matrix(1 0 0 -0.79085 0 0)"/> 
+  <line x1="129.026" y1="569.282" x2="129.026" y2="829.144" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(219.705 548.745) matrix(1 0 0 -0.76104 0 0)"/> 
+  <line x1="129.026" y1="555.16" x2="129.026" y2="815.022" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(263.672 597.375) matrix(1 0 0 -0.833896 0 0)"/> 
+  <line x1="130.026" y1="550.679" x2="130.026" y2="810.54" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(307.109 614.804) matrix(1 0 0 -0.860007 0 0)"/> 
+  <line x1="130.026" y1="560.831" x2="130.026" y2="820.691" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(351.609 576.773) matrix(1 0 0 -0.80303 0 0)"/> 
+  <line x1="130.026" y1="555.154" x2="130.026" y2="815.016" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(395.576 597.396) matrix(1 0 0 -0.833926 0 0)"/> 
+  <line x1="130.026" y1="552.664" x2="130.026" y2="812.525" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(439.544 606.952) matrix(1 0 0 -0.848244 0 0)"/> 
+  <line x1="132.026" y1="556.156" x2="132.026" y2="816.017" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(483.511 593.636) matrix(1 0 0 -0.828294 0 0)"/> 
+  <line x1="132.026" y1="538.508" x2="132.026" y2="798.369" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(527.498 668.188) matrix(1 0 0 -0.939985 0 0)"/> 
+  <line x1="132.026" y1="550.225" x2="132.026" y2="810.087" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(571.179 616.632) matrix(1 0 0 -0.862745 0 0)"/> 
+  <text x="790.06" y="-320.89" fill="black" font-size="16" text-anchor="middle" transform="flipY()">01</text>
+  <text x="790.01" y="-360.019" fill="black" font-size="16" text-anchor="middle" transform="flipY()">02</text>
+  <text x="789.862" y="-400.968" fill="black" font-size="16" text-anchor="middle" transform="flipY()">03</text>
+  <text x="789.714" y="-440.882" fill="black" font-size="16" text-anchor="middle" transform="flipY()">04</text>
+  <text x="789.566" y="-479.761" fill="black" font-size="16" text-anchor="middle" transform="flipY()">05</text>
+  <text x="789.419" y="-519.675" fill="black" font-size="16" text-anchor="middle" transform="flipY()">06</text>
+  <text x="789.271" y="-559.589" fill="black" font-size="16" text-anchor="middle" transform="flipY()">07</text>
+  <text x="789.123" y="-599.503" fill="black" font-size="16" text-anchor="middle" transform="flipY()">08</text>
+  <text x="788.975" y="-638.382" fill="black" font-size="16" text-anchor="middle" transform="flipY()">09</text>
+  <text x="788.828" y="-678.392" fill="black" font-size="16" text-anchor="middle" transform="flipY()">10</text>
+  <text x="788.68" y="-718.305" fill="black" font-size="16" text-anchor="middle" transform="flipY()">11</text>
+  <text x="788.532" y="-757.185" fill="black" font-size="16" text-anchor="middle" transform="flipY()">12</text>
+  <text x="788.088" y="-876.355" fill="black" font-size="16" text-anchor="middle" transform="flipY()">15</text>
+  <line x1="-19.1102" y1="450.055" x2="-19.1102" y2="709.915" stroke="black" stroke-width="0.982422" transform="flipY() translate(0 -828) translate(50.3555 490.423) matrix(5.05769e-008 1 1.01595 -4.39865e-008 0 0)"/> 
+  <line x1="-13.1101" y1="453.293" x2="-13.1101" y2="713.155" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(98.4445 55.1952) matrix(5.07476e-008 1 0.943918 -4.07302e-008 0 0)"/> 
+  <text x="788.385" y="-797.099" fill="black" font-size="16" text-anchor="middle" transform="flipY()">13</text>
+  <text x="788.237" y="-836.579" fill="black" font-size="16" text-anchor="middle" transform="flipY()">14</text>
+  <text x="85.973" y="-323.335" fill="black" font-size="16" text-anchor="middle" transform="flipY()">01</text>
+  <text x="85.75" y="-363.145" fill="black" font-size="16" text-anchor="middle" transform="flipY()">02</text>
+  <text x="86.636" y="-402.36" fill="black" font-size="16" text-anchor="middle" transform="flipY()">03</text>
+  <text x="86.317" y="-441.747" fill="black" font-size="16" text-anchor="middle" transform="flipY()">04</text>
+  <text x="85.996" y="-481.306" fill="black" font-size="16" text-anchor="middle" transform="flipY()">05</text>
+  <text x="85.676" y="-519.487" fill="black" font-size="16" text-anchor="middle" transform="flipY()">06</text>
+  <text x="85.356" y="-558.876" fill="black" font-size="16" text-anchor="middle" transform="flipY()">07</text>
+  <text x="85.035" y="-598.262" fill="black" font-size="16" text-anchor="middle" transform="flipY()">08</text>
+  <text x="84.715" y="-637.821" fill="black" font-size="16" text-anchor="middle" transform="flipY()">09</text>
+  <text x="84.395" y="-677.304" fill="black" font-size="16" text-anchor="middle" transform="flipY()">10</text>
+  <text x="84.074" y="-716.693" fill="black" font-size="16" text-anchor="middle" transform="flipY()">11</text>
+  <text x="84.962" y="-756.251" fill="black" font-size="16" text-anchor="middle" transform="flipY()">12</text>
+  <text x="84" y="-873.842" fill="black" font-size="16" text-anchor="middle" transform="flipY()">15</text>
+  <text x="84.641" y="-795.638" fill="black" font-size="16" text-anchor="middle" transform="flipY()">13</text>
+  <text x="84.322" y="-834.591" fill="black" font-size="16" text-anchor="middle" transform="flipY()">14</text>
+  <text x="151.728" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">16</text>
+  <text x="195.974" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">18</text>
+  <text x="240.413" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">20</text>
+  <text x="283.646" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">22</text>
+  <text x="328.085" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">24</text>
+  <text x="371.318" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">26</text>
+  <text x="415.758" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">28</text>
+  <text x="458.991" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">30</text>
+  <text x="503.431" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">32</text>
+  <text x="547.87" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">34</text>
+  <text x="591.102" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">36</text>
+  <text x="635.542" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">38</text>
+  <text x="678.74" y="-265.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">40</text>
+  <text x="723.369" y="-265.764" fill="black" font-size="16" text-anchor="middle" transform="flipY()">42</text>
+  <rect x="904.245" y="124.499" width="110.523" height="53.741" rx="0" ry="0" fill="#abe360" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-699.681 356.105) scale(0.905407 0.916666)"/> 
+  <text x="169.063" y="-341.74" fill="black" font-size="17" text-anchor="middle" transform="flipY()">4 Петля</text>
+  <rect x="936.274" y="126.681" width="110.523" height="53.741" rx="0" ry="0" fill="#abe360" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-179.178 356.105) scale(0.905407 0.916666)"/> 
+  <text x="718.107" y="-340.028" fill="black" font-size="17" text-anchor="middle" transform="flipY()">1 Петля</text>
+  <rect x="936.274" y="113.59" width="110.523" height="53.741" rx="0" ry="0" fill="#abe360" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-179.178 -171.596) scale(0.905407 0.916666)"/> 
+  <text x="717.565" y="-880.441" fill="black" font-size="17" text-anchor="middle" transform="flipY()">2 Петля</text>
+  <rect x="904.245" y="116.863" width="110.523" height="53.741" rx="0" ry="0" fill="#abe360" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(-699.681 -171.596) scale(0.905407 0.916666)"/> 
+  <text x="168.063" y="-877.441" fill="black" font-size="17" text-anchor="middle" transform="flipY()">3 Петля</text>
+  <line x1="202.005" y1="798.472" x2="202.105" y2="798.472" stroke="black"/> 
+  <line x1="233.005" y1="853.472" x2="233.105" y2="853.472" stroke="black"/> 
+  <image x="216.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT043_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT043_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="238.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+  </image>
+  <image x="193.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="171.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="149.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="125.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="148.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT012_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT012_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="125.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="148.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="170.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="192.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="215.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT010_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT010_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="236.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="305.854" y="292.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT008_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT008_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="303.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="260.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="283.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT016_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT016_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="237.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="215.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT026_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT026_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="193.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="170.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT009_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT009_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="192.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="170.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="192.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT021_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT021_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="214.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="236.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="259.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="281.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="350.854" y="291.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="348.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT037_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT037_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="305.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT035_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT035_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="327.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="282.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="259.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT033_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT033_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="237.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="214.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="236.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT050_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="unknown" value="&quot;20JKS56FT050_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="214.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="236.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="258.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT003_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT003_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="281.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="304.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT047_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT047_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="325.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="394.854" y="291.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT025_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT025_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="392.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="350.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="372.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="326.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT042_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT042_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="304.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="282.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT051_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT051_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="258.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="281.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="258.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="281.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT029_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT029_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="303.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="325.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="349.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="370.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT001_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT001_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="439.854" y="291.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="437.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="416.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="371.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT007_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT007_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="349.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="326.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="303.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT013_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT013_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="325.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="303.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="325.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="348.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="370.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT020_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT020_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="393.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="414.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="483.854" y="291.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="481.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT046_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT046_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="439.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="461.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="415.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT034_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT034_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="393.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="371.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="348.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT031_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT031_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="370.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="348.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="370.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT039_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT039_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="392.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="414.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="438.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="459.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT028_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT028_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="527.854" y="291.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT017_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT017_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="525.675" y="837.199" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="483.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT044_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT044_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="505.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="460.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="438.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="415.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT023_XQ01&quot;</title>
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT023_XQ01&quot;"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+  </image>
+  <image x="392.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="414.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="392.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT004_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT004_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="414.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="437.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="459.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="482.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="503.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="527.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="549.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="504.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="482.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT006_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT006_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="460.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="437.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="459.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="437.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="459.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="481.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT038_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT038_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="503.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT048_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT048_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="526.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="547.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT019_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT019_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="572.234" y="369.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT024_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT024_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="594.764" y="330.896" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="549.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT052_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT052_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="526.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="504.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="481.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT014_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT014_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="503.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="481.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT049_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT049_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="503.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="525.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="548.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT002_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT002_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="571.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="592.764" y="797.897" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT053_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT053_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="593.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="571.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="549.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT041_XQ01&quot;</title>
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT041_XQ01&quot;"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+  </image>
+  <image x="525.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="548.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="525.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT030_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT030_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="548.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="570.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="592.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="637.75" y="408.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="615.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="593.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="570.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="592.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="570.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="592.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT022_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT022_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="614.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT011_XQ01&quot;</title>
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT011_XQ01&quot;"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+  </image>
+  <image x="636.75" y="720.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="615.234" y="759.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="659.644" y="447.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT015_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT015_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="637.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT032_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT032_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="614.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="636.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="614.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="636.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="658.644" y="681.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="658.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT005_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT005_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="658.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="681.16" y="486.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="702.857" y="525.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="680.16" y="564.473" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="702.857" y="603.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT040_XQ01&quot;</title>
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT040_XQ01&quot;"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <image x="680.16" y="642.472" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <text x="176.291" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">17</text>
+  <text x="220.051" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">19</text>
+  <text x="264.004" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">21</text>
+  <text x="307.958" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">23</text>
+  <text x="351.911" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">25</text>
+  <text x="395.864" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">27</text>
+  <text x="439.817" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">29</text>
+  <text x="483.771" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">31</text>
+  <text x="527.724" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">33</text>
+  <text x="571.677" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">35</text>
+  <text x="615.63" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">37</text>
+  <text x="659.584" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">39</text>
+  <text x="703.503" y="-927.7" fill="black" font-size="16" text-anchor="middle" transform="flipY()">41</text>
+  <text x="901.375" y="-880" fill="black" font-size="16" text-anchor="middle" transform="flipY()">18</text>
+  <text x="901.375" y="-830" fill="black" font-size="16" text-anchor="middle" transform="flipY()">24</text>
+  <text x="901.375" y="-777.833" fill="black" font-size="16" text-anchor="middle" transform="flipY()">29</text>
+  <text x="901.375" y="-728.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">33</text>
+  <text x="901.375" y="-677.333" fill="black" font-size="16" text-anchor="middle" transform="flipY()">35</text>
+  <rect x="869.924" y="-95.6152" width="25.4787" height="50.9526" rx="0" ry="0" fill="#bc8400" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 254.765) scale(0.8 1)"/> 
+  <rect x="869.924" y="-95.6152" width="25.4787" height="50.9526" rx="0" ry="0" fill="#ce9e2d" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 203.813) scale(0.8 1)"/> 
+  <rect x="869.924" y="-95.6153" width="25.4787" height="50.9526" rx="0" ry="0" fill="#e2bc63" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 152.859) scale(0.8 1)"/> 
+  <rect x="869.924" y="-95.6153" width="25.4787" height="50.9526" rx="0" ry="0" fill="#efd28f" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 101.906) scale(0.8 1)"/> 
+  <rect x="869.924" y="-95.6152" width="25.4787" height="50.9526" rx="0" ry="0" fill="#f7e3b4" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 50.9531) scale(0.8 1)"/> 
+  <rect x="869.924" y="-95.6152" width="25.4787" height="50.9526" rx="0" ry="0" fill="#fff2d6" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 0) scale(0.8 1)"/> 
+  <rect x="869.924" y="-44.1704" width="25.4787" height="50.9526" rx="0" ry="0" fill="#b78000" stroke="black" stroke-width="1" transform="flipY() translate(0 -828) translate(157.973 254.765) scale(0.8 1)"/> 
+  <text x="901.375" y="-626.083" fill="black" font-size="16" text-anchor="middle" transform="flipY()">50</text>
+  <text x="904.728" y="-579.94" fill="black" font-size="16" text-anchor="middle" transform="flipY()">C</text>
+  <text x="894.121" y="-572.879" fill="black" font-size="10" text-anchor="middle" transform="flipY()">o</text>
+  <line x1="1.12158" y1="188.5" x2="1914.18" y2="188.5" stroke="black"/> 
+  <text x="1316.96" y="-306.517" fill="black" font-size="16" text-anchor="start" transform="flipY(357.925) flipY()">С</text>
+  <text x="1502.11" y="-306.517" fill="black" font-size="16" text-anchor="start" transform="flipY(357.925) flipY()">коорд.</text>
+  <text x="1309" y="400" fill="black" font-size="14">o</text>
+  <line x1="1.48479" y1="1.50012" x2="1914.54" y2="1.50012" stroke="black"/> 
+  <image x="616" y="369" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <title>&quot;20JKS56FT036_XQ01&quot;</title>
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+    <rt:dyn type="PointID" mode="constant" value="&quot;20JKS56FT036_XQ01&quot;"/> 
+    <rt:dyn type="SP6" mode="constant" value="50"/> 
+    <rt:dyn type="SP5" mode="constant" value="35"/> 
+    <rt:dyn type="SP4" mode="constant" value="33"/> 
+    <rt:dyn type="SP3" mode="constant" value="29"/> 
+    <rt:dyn type="SP2" mode="constant" value="24"/> 
+    <rt:dyn type="SP1" mode="constant" value="18"/> 
+  </image>
+  <image x="395" y="369.5" width="45" height="52.5" xlink:href="ana_TVS_1.svg">
+    <rt:dyn type="Color7" mode="constant" value="&quot;#b78000&quot;"/> 
+    <rt:dyn type="Color6" mode="constant" value="&quot;#bc8400&quot;"/> 
+    <rt:dyn type="Color5" mode="constant" value="&quot;#ce9e2d&quot;"/> 
+    <rt:dyn type="Color4" mode="constant" value="&quot;#e2bc63&quot;"/> 
+    <rt:dyn type="Color3" mode="constant" value="&quot;#efd28f&quot;"/> 
+    <rt:dyn type="Color2" mode="constant" value="&quot;#f7e3b4&quot;"/> 
+    <rt:dyn type="Color1" mode="constant" value="&quot;#fff2d6&quot;"/> 
+  </image>
+  <text x="74" y="225" fill="black" font-size="15" font-weight="700" text-anchor="middle">SVRK_DTTPKNI</text>
+  <g>
+    <image x="1556" y="153.015" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+      <title>&quot;20JKS24FX906_XH04&quot;</title>
+      <rt:dyn type="T_Size" mode="constant" value="14"/> 
+      <rt:dyn type="T_String" mode="constant" value="&quot;АЗ&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="PointID" mode="constant" value="&quot;20JKS24FX906_XH04&quot;"/> 
+      <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+    </image>
+    <text x="1585.09" y="-146.485" fill="black" font-size="14" text-anchor="middle" transform="flipY()">QL</text>
+    <text x="1806.09" y="-146.485" fill="black" font-size="14" text-anchor="middle" transform="flipY()">DNBR</text>
+    <image x="1592.37" y="153.015" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+      <title>&quot;20JKS24FX906_XH03&quot;</title>
+      <rt:dyn type="T_Size" mode="constant" value="14"/> 
+      <rt:dyn type="T_String" mode="constant" value="&quot;ПЗ1&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+      <rt:dyn type="PointID" mode="constant" value="&quot;20JKS24FX906_XH03&quot;"/> 
+      <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+    </image>
+    <image x="1776.32" y="153.015" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+      <title>&quot;20JKS28FX906_XH04&quot;</title>
+      <rt:dyn type="T_Size" mode="constant" value="14"/> 
+      <rt:dyn type="T_String" mode="constant" value="&quot;АЗ&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Red&quot;"/> 
+      <rt:dyn type="PointID" mode="constant" value="&quot;20JKS28FX906_XH04&quot;"/> 
+      <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+    </image>
+    <image x="1811.57" y="153.015" width="27.2727" height="25.7576" xlink:href="bin_indicator_txt.svg">
+      <title>&quot;20JKS28FX906_XH02&quot;</title>
+      <rt:dyn type="T_Size" mode="constant" value="14"/> 
+      <rt:dyn type="T_String" mode="constant" value="&quot;ПЗ2&quot;"/> 
+      <rt:dyn type="Col_ON" mode="constant" value="&quot;Col_Yellow&quot;"/> 
+      <rt:dyn type="PointID" mode="constant" value="&quot;20JKS28FX906_XH02&quot;"/> 
+      <rt:dyn type="Col_OFF" mode="constant" value="&quot;Col_BGwin&quot;"/> 
+    </image>
+  </g>
+</svg>
